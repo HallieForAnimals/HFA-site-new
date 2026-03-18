@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recent CTAs | HallieForAnimals</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="announcement-root"></div>
+<header>
+  <nav>
+    <a href="index.html" class="logo">
+      <img src="assets/img/logo.png" alt="HallieForAnimals logo" class="logo-img">
+      <span class="logo-text">
+        <span class="logo-line">HallieForAnimals</span>
+        <span class="logo-tagline">Because those who need us most can't ask.</span>
+      </span>
+    </a>
+    <button type="button" class="burger-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <div class="nav-item-dropdown">
+        <a href="cta.html" class="active">CTA <span class="caret">▾</span></a>
+        <div class="nav-dropdown">
+          <a href="ongoing.html">Ongoing</a>
+          <a href="recent.html">Recent</a>
+          <a href="updated.html">Updates</a>
+        </div>
+      </div>
+      <a href="rescues-charities.html">Rescues &amp; Charities</a>
+      <a href="resources.html">Resources</a>
+      <a href="in-memoriam.html">In Memoriam</a>
+      <a href="donate.html">Donate</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+</header>
+
+<section class="page-container">
+  <h1 class="page-title">Recent CTAs</h1>
+  <p class="page-subtitle">
+    New calls to action focused on specific cases.
+  </p>
+  <div class="cta-submit-block page-content page-content--centered">
+    <p><a href="cta-submit.html" class="btn secondary-btn">Submit a CTA</a></p>
+  </div>
+  <div id="recent-list" class="page-content">
+    <p>Loading recent CTAs…</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 HallieForAnimals – All Rights Reserved</p>
+  <p>Because those who need us most can't ask.</p>
+</footer>
+
+<script>
+(function(){var btn=document.querySelector('.burger-btn');var links=document.querySelector('.nav-links');if(btn&&links){btn.addEventListener('click',function(){var open=links.classList.toggle('nav-open');btn.setAttribute('aria-expanded',open?'true':'false');btn.setAttribute('aria-label',open?'Close menu':'Open menu');});links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('nav-open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');});});}})();
+</script>
+<script src="announcement.js"></script>
+<script>
+(function() {
+  var container = document.getElementById('recent-list');
+  if (!container) return;
+  fetch('data/links.json', { cache: 'no-store' })
+    .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+    .then(function(json) {
+      var links = Array.isArray(json.links) ? json.links : [];
+      var recent = links.filter(function(x) { return x.status === 'recent' && x.role === 'original'; });
+      if (!recent.length) {
+        container.innerHTML = '<p>No recent CTAs yet.</p>';
+        return;
+      }
+      function esc(s) { return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+      container.innerHTML = recent.map(function(item) {
+        var title = esc(item.title || item.slug || 'CTA');
+        var summary = esc(item.summary || '');
+        var desc = esc(item.description || '');
+        var video = item.videoEmbedUrl ? '<div class="cta-video"><iframe src="' + esc(item.videoEmbedUrl) + '" loading="lazy" allowfullscreen style="max-width:100%; width:560px; height:315px; border:0;"></iframe></div>' : '';
+        var shortlink = item.shortlinkUrl ? '<p><a href="' + esc(item.shortlinkUrl) + '" class="btn secondary-btn">Open email CTA</a></p>' : '';
+        return '<details class="cta-accordion"><summary class="cta-accordion-summary">' + title + '</summary><div class="cta-accordion-body">' +
+          (summary ? '<p>' + summary + '</p>' : '') +
+          (desc ? '<p>' + desc + '</p>' : '') +
+          video + shortlink + '</div></details>';
+      }).join('');
+    })
+    .catch(function() { container.innerHTML = '<p>Could not load recent CTAs.</p>'; });
+})();
+</script>
+</body>
+</html>

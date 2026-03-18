@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "title": "CTA",
+    "version": 1
+  },
+  "links": [
+    {
+      "caseId": "china-laws",
+      "slug": "china-laws-2026-03",
+      "status": "ongoing",
+      "role": "original",
+      "title": "Demand Animal Welfare Laws In China",
+      "summary": "Urge Chinese lawmakers to introduce and enforce meaningful animal welfare protections.",
+      "description": "",
+      "descriptionLong": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "shortlinkUrl": "",
+      "createdAt": "2026-03-01T00:00:00Z",
+      "updatedAt": "2026-03-01T00:00:00Z"
+    },
+    {
+      "caseId": "turkey-cull",
+      "slug": "turkey-cull-2026-03",
+      "status": "ongoing",
+      "role": "original",
+      "title": "Stop the Mass Slaughter of Street Dogs in Turkey",
+      "summary": "Push the Turkish government to halt the cull of street dogs and adopt humane alternatives.",
+      "descriptionLong": "Outline of the nationwide cull, the legal context, and humane alternatives such as TNVR.",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "shortlinkUrl": "",
+      "boycottUrl": "",
+      "createdAt": "2026-03-02T00:00:00Z",
+      "updatedAt": "2026-03-02T00:00:00Z"
+    },
+    {
+      "caseId": "bronx-cat-killer",
+      "slug": "stop-bronx-cat-killer-original",
+      "status": "recent",
+      "role": "original",
+      "title": "Stop Bronx Cat Killer",
+      "summary": "Call NY authorities to investigate and charge the person responsible for killing a cat in the Bronx.",
+      "description": "A short summary of the case; details will be filled via the app.",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "shortlinkUrl": "",
+      "createdAt": "2026-03-10T10:00:00Z",
+      "updatedAt": "2026-03-10T10:00:00Z"
+    },
+    {
+      "caseId": "bronx-cat-killer",
+      "slug": "stop-bronx-cat-killer-update-1",
+      "status": "updated",
+      "role": "update",
+      "title": "Stop Bronx Cat Killer — Investigation update",
+      "summary": "Authorities have identified a suspect; push for charges and proper investigation.",
+      "updateTitle": "Investigation opened",
+      "updateBody": "Initial update text goes here.",
+      "updateStatus": "open",
+      "shortlinkUrl": "",
+      "createdAt": "2026-03-12T12:00:00Z",
+      "updatedAt": "2026-03-12T12:00:00Z"
+    },
+    {
+      "caseId": "bronx-cat-killer",
+      "slug": "stop-bronx-cat-killer-update-2",
+      "status": "updated",
+      "role": "update",
+      "title": "Stop Bronx Cat Killer — Prosecution",
+      "summary": "Call for prosecution; final update can mark the case resolved when done.",
+      "updateTitle": "Prosecution underway",
+      "updateBody": "Follow-up update text goes here.",
+      "updateStatus": "open",
+      "shortlinkUrl": "",
+      "createdAt": "2026-03-15T09:00:00Z",
+      "updatedAt": "2026-03-15T09:00:00Z"
+    }
+  ]
+}
+

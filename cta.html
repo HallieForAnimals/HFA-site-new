@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CTA | HallieForAnimals</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="announcement-root"></div>
+<header>
+  <nav>
+    <a href="index.html" class="logo">
+      <img src="assets/img/logo.png" alt="HallieForAnimals logo" class="logo-img">
+      <span class="logo-text">
+        <span class="logo-line">HallieForAnimals</span>
+        <span class="logo-tagline">Because those who need us most can't ask.</span>
+      </span>
+    </a>
+    <button type="button" class="burger-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <div class="nav-item-dropdown">
+        <a href="cta.html" class="active">CTA <span class="caret">▾</span></a>
+        <div class="nav-dropdown">
+          <a href="ongoing.html">Ongoing</a>
+          <a href="recent.html">Recent</a>
+          <a href="updated.html">Updates</a>
+        </div>
+      </div>
+      <a href="rescues-charities.html">Rescues &amp; Charities</a>
+      <a href="resources.html">Resources</a>
+      <a href="in-memoriam.html">In Memoriam</a>
+      <a href="donate.html">Donate</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+</header>
+
+<section class="page-container">
+  <h1 class="page-title">Call to Action</h1>
+  <p class="page-subtitle">
+    Current campaigns. Take action with one click.
+  </p>
+  <div class="cta-submit-block page-content page-content--centered">
+    <p><a href="cta-submit.html" class="btn secondary-btn">Submit a CTA</a></p>
+  </div>
+  <div class="page-content page-content--centered">
+    <p>Campaigns and CTAs will be listed here, driven by the app and <code>data/links.json</code>.</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 HallieForAnimals – All Rights Reserved</p>
+  <p>Because those who need us most can't ask.</p>
+</footer>
+
+<script>
+(function(){var btn=document.querySelector('.burger-btn');var links=document.querySelector('.nav-links');if(btn&&links){btn.addEventListener('click',function(){var open=links.classList.toggle('nav-open');btn.setAttribute('aria-expanded',open?'true':'false');btn.setAttribute('aria-label',open?'Close menu':'Open menu');});links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('nav-open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');});});}})();
+</script>
+<script src="announcement.js"></script>
+</body>
+</html>

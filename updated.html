@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Case Updates | HallieForAnimals</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="announcement-root"></div>
+<header>
+  <nav>
+    <a href="index.html" class="logo">
+      <img src="assets/img/logo.png" alt="HallieForAnimals logo" class="logo-img">
+      <span class="logo-text">
+        <span class="logo-line">HallieForAnimals</span>
+        <span class="logo-tagline">Because those who need us most can't ask.</span>
+      </span>
+    </a>
+    <button type="button" class="burger-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <div class="nav-item-dropdown">
+        <a href="cta.html" class="active">CTA <span class="caret">▾</span></a>
+        <div class="nav-dropdown">
+          <a href="ongoing.html">Ongoing</a>
+          <a href="recent.html">Recent</a>
+          <a href="updated.html">Updates</a>
+        </div>
+      </div>
+      <a href="rescues-charities.html">Rescues &amp; Charities</a>
+      <a href="resources.html">Resources</a>
+      <a href="in-memoriam.html">In Memoriam</a>
+      <a href="donate.html">Donate</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+</header>
+
+<section class="page-container">
+  <h1 class="page-title">Case updates</h1>
+  <p class="page-subtitle">
+    Follow how each case progresses, from first report to resolution.
+  </p>
+  <div class="cta-submit-block page-content page-content--centered">
+    <p><a href="cta-submit.html" class="btn secondary-btn">Submit a CTA</a></p>
+  </div>
+  <div id="updates-list" class="page-content">
+    <p>Loading updates…</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 HallieForAnimals – All Rights Reserved</p>
+  <p>Because those who need us most can't ask.</p>
+</footer>
+
+<script>
+(function(){var btn=document.querySelector('.burger-btn');var links=document.querySelector('.nav-links');if(btn&&links){btn.addEventListener('click',function(){var open=links.classList.toggle('nav-open');btn.setAttribute('aria-expanded',open?'true':'false');btn.setAttribute('aria-label',open?'Close menu':'Open menu');});links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('nav-open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');});});}})();
+</script>
+<script src="announcement.js"></script>
+<script>
+(function() {
+  var container = document.getElementById('updates-list');
+  if (!container) return;
+  fetch('data/links.json', { cache: 'no-store' })
+    .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+    .then(function(json) {
+      var links = Array.isArray(json.links) ? json.links : [];
+      var originals = links.filter(function(x) { return x.role === 'original'; });
+      var updates = links.filter(function(x) { return x.status === 'updated'; });
+      if (!updates.length) {
+        container.innerHTML = '<p>No case updates yet.</p>';
+        return;
+      }
+      var byCase = {};
+      updates.forEach(function(up) {
+        if (!byCase[up.caseId]) byCase[up.caseId] = [];
+        byCase[up.caseId].push(up);
+      });
+      var cases = Object.keys(byCase).map(function(caseId) {
+        var updatesForCase = byCase[caseId].slice().sort(function(a, b) { return (b.updatedAt || '').localeCompare(a.updatedAt || ''); });
+        var original = originals.filter(function(o) { return o.caseId === caseId; })[0] || {};
+        var latestStatus = updatesForCase[0] && updatesForCase[0].updateStatus ? updatesForCase[0].updateStatus : 'open';
+        return { caseId: caseId, original: original, updates: updatesForCase, latestStatus: latestStatus, latestAt: updatesForCase[0] && updatesForCase[0].updatedAt ? updatesForCase[0].updatedAt : '' };
+      }).sort(function(a, b) { return (b.latestAt || '').localeCompare(a.latestAt || ''); });
+      function esc(s) { return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+      container.innerHTML = cases.map(function(c) {
+        var title = esc(c.original.title || c.caseId);
+        var summary = esc(c.original.summary || '');
+        var statusLabel = (c.latestStatus || 'open').toUpperCase();
+        var updatesHtml = c.updates.map(function(u) {
+          var short = u.shortlinkUrl ? ' <a href="' + esc(u.shortlinkUrl) + '" class="btn secondary-btn">CTA link</a>' : '';
+          return '<li class="case-update-item"><h3>' + esc(u.updateTitle || u.title || 'Update') + '</h3><p>' + esc(u.updateBody || u.summary || '') + '</p>' + short + '</li>';
+        }).join('');
+        return '<article class="case-card"><header class="case-card-header"><h2>' + title + '</h2><span class="status-pill status-' + esc(c.latestStatus) + '">' + statusLabel + '</span></header>' +
+          (summary ? '<p>' + summary + '</p>' : '') +
+          '<ul class="case-updates-list">' + updatesHtml + '</ul></article>';
+      }).join('');
+    })
+    .catch(function() { container.innerHTML = '<p>Could not load updates.</p>'; });
+})();
+</script>
+</body>
+</html>
