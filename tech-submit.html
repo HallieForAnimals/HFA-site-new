@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="robots" content="noindex,nofollow">
   <meta http-equiv="refresh" content="0;url=coming-soon.html">
-  <title>HallieForAnimals – One-Click Activism for Animal Welfare</title>
+  <title>Report a tech issue | HallieForAnimals</title>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -22,7 +22,7 @@
     </a>
     <button type="button" class="burger-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <div class="nav-links">
-      <a href="index.html" class="active">Home</a>
+      <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <div class="nav-item-dropdown">
         <a href="cta.html">CTA <span class="caret">▾</span></a>
@@ -42,36 +42,14 @@
   </nav>
 </header>
 
-<section class="hero">
-  <div class="hero-content">
-    <h1>ONE CLICK.<br>REAL IMPACT.</h1>
-    <p>Animal advocacy that works. Take action on campaigns, share submissions, and support the cause.</p>
-    <div class="hero-buttons">
-      <a href="cta.html" class="btn">Take Action</a>
-      <a href="cta-submit.html" class="btn secondary-btn">Submit a CTA</a>
-      <a href="donate.html" class="btn secondary-btn">Donate</a>
-    </div>
-  </div>
-</section>
-
-<section class="stats">
-  <div class="stats-grid">
-    <div class="stat-item">
-      <div class="stat">Advocacy</div>
-      <div class="stat-label">Campaigns & CTAs</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat">Community</div>
-      <div class="stat-label">Submissions & Stories</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat">Impact</div>
-      <div class="stat-label">Your Voice Matters</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat">Support</div>
-      <div class="stat-label">Donate & Share</div>
-    </div>
+<section class="page-container">
+  <h1 class="page-title">Report a tech issue</h1>
+  <p class="page-subtitle">
+    Found a bug, broken link, or something not working? Tell us so we can fix it.
+  </p>
+  <div class="page-content page-content--centered">
+    <p>Use this form to report technical issues with the site or app (e.g. broken links, errors, layout problems). You can wire it to the Page Updater or a backend later.</p>
+    <p style="margin-top:1.5rem;"><a href="contact.html" class="btn secondary-btn">Back to Contact</a></p>
   </div>
 </section>
 
@@ -80,10 +58,9 @@
   <p>Because those who need us most can't ask.</p>
 </footer>
 
-<script src="announcement.js"></script>
 <script>
 (function(){var btn=document.querySelector('.burger-btn');var links=document.querySelector('.nav-links');if(btn&&links){btn.addEventListener('click',function(){var open=links.classList.toggle('nav-open');btn.setAttribute('aria-expanded',open?'true':'false');btn.setAttribute('aria-label',open?'Close menu':'Open menu');});links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('nav-open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');});});}})();
 </script>
-
+<script src="announcement.js"></script>
 </body>
 </html>

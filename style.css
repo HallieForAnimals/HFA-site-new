@@ -814,14 +814,22 @@ footer.footer-centered {
 }
 
 .announcement-bar {
-  background: #FACC15;
-  color: #111827;
+  background: var(--gray-dark);
+  color: var(--text-light);
   text-align: center;
   padding: 0.7rem 1rem;
-  font-family: 'Baloo 2', sans-serif;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  font-size: 1.1rem;
+  font-family: 'Baloo 2', system-ui, sans-serif;
+  letter-spacing: 0.05em;
+  font-size: 1rem;
+  border-bottom: 1px solid var(--gray);
+}
+.announcement-bar a {
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 600;
+}
+.announcement-bar a:hover {
+  color: var(--gold-dark);
 }
 
 .footer-links {
