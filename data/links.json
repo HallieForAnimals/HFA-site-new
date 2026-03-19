@@ -1,106 +1,834 @@
 {
   "meta": {
-    "title": "CTA",
-    "version": 1
+    "title": "CTA"
   },
-  "links": [
+  "sections": [
     {
-      "caseId": "china-laws",
-      "slug": "china-laws-2026-03",
-      "status": "ongoing",
-      "role": "original",
-      "title": "Demand Animal Welfare Laws In China",
-      "summary": "Urge Chinese lawmakers to introduce and enforce meaningful animal welfare protections.",
-      "description": "",
-      "descriptionLong": "",
-      "recipients": [],
-      "phones": [],
-      "callScript": "",
-      "videoEmbedUrl": "",
-      "shortlinkUrl": "",
-      "createdAt": "2026-03-01T00:00:00Z",
-      "updatedAt": "2026-03-01T00:00:00Z"
+      "name": "Ongoing Cases",
+      "links": [
+        {
+          "title": "Protect Stockton's Street Dogs",
+          "slug": "protect-stocktons-street-dogs",
+          "caseId": "protect-stocktons-street-dogs",
+          "instagram": "",
+          "description": "The Stockton street dog situation looks like something out of a third world country, not the economic powerhouse of the United States.\nHundreds of dogs are chained, starving, and dehydrated. No food, no water, no shelter, no room to move. Abuse is happening openly while the people in charge stand by and watch.\nIn just a couple of weekends, two separate brand-new litters of puppies appeared and had to be rushed into homes so they didn’t end up dead or back in the same nightmare.\nAnd through all of it, there are only two consistent presences on the ground: Jesse, of @StocktonStreetDogs and @cydnikeala, the only people trying to hold back a tidal wave of suffering while those with the power and the budgets look away and line their pockets with taxpayer money.",
+          "location": {
+            "country": "United States",
+            "region": "California",
+            "locality": "Stockton"
+          },
+          "targets": [
+            "Stockton & San Joaquin Authorities & Decision Makers"
+          ],
+          "phones": [
+            {
+              "who": "Stockton Mayor's Office",
+              "main": "+1 209 937 8499",
+              "ext": ""
+            },
+            {
+              "who": "Stockton City Manager's Office",
+              "main": "+1 209 937 8212",
+              "ext": ""
+            },
+            {
+              "who": "Stockton City Attorney’s Office",
+              "main": "+1 209 937 8333",
+              "ext": ""
+            },
+            {
+              "who": "Stockton Police",
+              "main": "+1 209 937 8377",
+              "ext": ""
+            },
+            {
+              "who": "Stockton Animal Service",
+              "main": "+1 209 937 7445",
+              "ext": ""
+            },
+            {
+              "who": "San Joaquin County Sheriff’s Office",
+              "main": "+1 209 468 4400",
+              "ext": ""
+            },
+            {
+              "who": "San Joaquin County Board of Supervisors Office",
+              "main": "+1 209 468 3113",
+              "ext": ""
+            },
+            {
+              "who": "San Joaquin County Counsel",
+              "main": "+1 209 468 2980",
+              "ext": ""
+            },
+            {
+              "who": "San Joaquin County DA",
+              "main": "+1 209 468 2424",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:christina.fugazi@stocktonca.gov,michele.padilla@stocktonca.gov,mariela.ponce@stocktonca.gov,michael.blower@stocktonca.gov,mario.enriquez@stocktonca.gov,brando.villapudua@stocktonca.gov,jason.lee@stocktonca.gov,johnny.ford@stocktonca.gov,lori.asuncion@stocktonca.gov,stanley.mcfadden@stocktonca.gov,ashley.kluza@stocktonca.gov,pwithrow@sjgov.org,mgardea@sjgov.org,pcanepa@sjgov.org,sdhaliwal@sjgov.org,sding@sjgov.org,rrickman@sjgov.org,ekiernan@sjgov.org,jking@sjgov.org,ronald.freitas@sjcda.org?subject=Stockton%E2%80%99s%20street%20dogs&body=To%20whom%20it%20may%20concern%2C%0A%0AI%20am%20writing%20with%20deep%20concern%20to%20demand%20immediate%20and%20sustained%20action%20from%20Stockton%20city%20leadership%20and%20San%20Joaquin%20County%20officials%20to%20protect%20the%20dogs%20on%20Stockton%E2%80%99s%20streets%2C%20in%20homeless%20encampments%2C%20and%20inside%20Stockton%20Animal%20Shelter.%0A%0ARight%20now%2C%20what%20is%20happening%20is%20simple%20and%20indefensible%3A%0A%0A*%20Stockton%20has%20a%20growing%20population%20of%20free-roaming%20and%20encampment%20dogs.%0A*%20Healthy%2C%20young%2C%20adoptable%20puppies%20with%20no%20serious%20medical%20or%20behavioral%20issues%20are%20being%20collected%20by%20Animal%20Services%20and%20euthanised%20within%20roughly%2048%20hours%20of%20intake.%0A*%20Dogs%20removed%20from%20clearly%20dangerous%20situations%20have%20been%20adopted%20or%20returned%20back%20into%20the%20hands%20of%20the%20same%20people%20who%20mistreated%20them.%0A%0AThat%20is%20a%20system%20that%20is%20choosing%20the%20fastest%20and%20cheapest%20options%20at%20the%20expense%20of%20lives%20that%20could%20be%20saved.%0A%0ABetween%20the%20City%20of%20Stockton%2C%20San%20Joaquin%20County%2C%20Stockton%20Police%20Department%2C%20the%20Sheriff%E2%80%99s%20Office%2C%20and%20the%20District%20Attorney%E2%80%99s%20Office%2C%20taxpayers%20are%20funding%20millions%20of%20dollars%20in%20salaries%20and%20operating%20budgets%20that%20are%20supposed%20to%20deliver%20public%20safety%20and%20humane%20animal%20care.%20Instead%2C%20residents%20see%3A%0A%0A*%20Free-roaming%20and%20encampment%20dogs%20breeding%20unchecked%2C%20without%20consistent%20spay%2Fneuter%2C%20vaccination%2C%20or%20outreach%0A*%20Healthy%2C%20adoptable%20dogs%20and%20puppies%20killed%20within%20days%20of%20arrival%20at%20the%20shelter%0A*%20Abused%20and%20neglected%20dogs%20recycled%20back%20to%20the%20same%20people%20who%20harmed%20them%0A*%20Little%20visible%20enforcement%20against%20clear%20cruelty%20and%20neglect%0A*%20No%20regular%2C%20transparent%20reporting%20on%20how%20many%20animals%20are%20taken%20in%2C%20how%20many%20are%20killed%2C%20and%20why%0A%0AIf%20this%20continues%2C%20Stockton%20is%20at%20serious%20risk%20of%20becoming%20a%20domestic%20version%20of%20the%20worst%20international%20examples%2C%20where%20%E2%80%9Cstray%20management%E2%80%9D%20means%20mass%20round-ups%20and%20quiet%20culls.%20Turkey%2C%20Morocco%2C%20and%20India%20are%20already%20criticised%20worldwide%20for%20answering%20public%20pressure%20on%20street%20dogs%20with%20poisonings%20and%20killings%20instead%20of%20real%20reform.%20Stockton%20does%20not%20need%20to%20follow%20that%20model.%0A%0AThese%20dogs%20are%20not%20disposable.%20They%20feel%20pain%2C%20fear%2C%20and%20attachment%2C%20and%20they%20deserve%20a%20chance%20at%20life%20just%20as%20much%20as%20the%20next%20person%20does.%20With%20the%20authority%20and%20budgets%20you%20control%2C%20there%20is%20no%20honest%20excuse%20for%20leaving%20them%20to%20be%20abused%20on%20the%20street%2C%20recycled%20to%20abusers%2C%20or%20killed%20in%20the%20shelter%20for%20convenience%20or%20space.%0A%0AI%20urge%20you%20to%20take%20the%20following%20actions%20without%20delay%3A%0A%0A1.%20End%20rapid%20killing%20of%20healthy%2C%20adoptable%20animals.%0AImmediately%20halt%20the%20euthanasia%20of%20healthy%2C%20treatable%2C%20and%20behaviorally%20sound%20dogs%20and%20puppies%20for%20%E2%80%9Cspace%E2%80%9D%20or%20convenience.%20Review%20and%20revise%20hold-time%20and%20euthanasia%20policies%20at%20Stockton%20Animal%20Shelter%20so%20that%20healthy%2C%20adoptable%20animals%20are%20not%20being%20killed%20within%2048%20hours%20of%20intake%2C%20and%20ensure%20full%20compliance%20with%20California%20law%20and%20the%20intent%20of%20the%20Hayden%20Act.%0A%0A2.%20Stop%20returning%20animals%20to%20abusers.%0AImplement%20and%20enforce%20a%20policy%20that%20prevents%20animals%20from%20being%20adopted%20or%20returned%20to%20people%20with%20documented%20histories%20of%20abuse%2C%20neglect%2C%20or%20repeated%20welfare%20complaints.%20This%20must%20include%20basic%20cross-checking%20of%20adoption%20and%20surrender%20records%20with%20cruelty%20reports%2C%20police%20records%2C%20and%20court%20outcomes%2C%20and%20a%20clear%20process%20for%20permanently%20flagging%20high-risk%20individuals.%0A%0A3.%20Treat%20cruelty%20and%20neglect%20as%20enforceable%20crime.%0ADirect%20Stockton%20PD%2C%20Animal%20Services%2C%20the%20Sheriff%E2%80%99s%20Office%2C%20and%20the%20District%20Attorney%E2%80%99s%20Office%20to%20treat%20serious%20cruelty%20and%20neglect%20as%20criminal%20violations%20that%20carry%20real%20consequences%2C%20not%20as%20background%20noise.%20Track%20and%20publicly%20report%20the%20number%20of%20animal%20cruelty%20complaints%2C%20investigations%2C%20citations%2C%20and%20prosecutions%20each%20year%20so%20that%20residents%20can%20see%20whether%20laws%20are%20actually%20being%20enforced.%0A%0A4.%20Create%20a%20humane%20plan%20for%20street%20and%20encampment%20dogs.%0ADevelop%20a%20written%20strategy%20for%20dogs%20living%20on%20the%20streets%20and%20in%20homeless%20encampments%20that%20is%20based%20on%20prevention%20and%20support%2C%20not%20round-ups%20and%20killing.%20This%20must%20include%20on-site%20spay%2Fneuter%2C%20vaccination%2C%20microchipping%2C%20voluntary%20surrender%20options%2C%20and%20support%20for%20people%20who%20are%20genuinely%20trying%20to%20care%20for%20their%20animals.%20Any%20attempt%20to%20%E2%80%9Cclean%20up%E2%80%9D%20by%20sweeping%20dogs%20off%20the%20streets%20to%20be%20killed%20will%20be%20recognised%20for%20what%20it%20is%3A%20a%20cull.%0A%0A5.%20Attach%20real%20conditions%20to%20county%20funding%20and%20contracts.%0AAs%20long%20as%20San%20Joaquin%20County%20continues%20to%20use%20and%20help%20fund%20Stockton%20Animal%20Shelter%2C%20the%20Board%20of%20Supervisors%2C%20County%20Counsel%2C%20and%20the%20Sheriff%E2%80%99s%20Office%20share%20responsibility%20for%20what%20happens%20there.%20The%20county%E2%80%99s%20contract%20with%20Stockton%20should%20require%20humane%2C%20law-compliant%20policies%20on%20hold%20times%2C%20euthanasia%2C%20rescue%20transfers%2C%20and%20transparency%20as%20a%20condition%20of%20ongoing%20funding%2C%20and%20those%20conditions%20should%20be%20enforced.%0A%0A6.%20Publish%20regular%2C%20accessible%20data.%0ACommit%20to%20publishing%20clear%20monthly%20or%20quarterly%20reports%20showing%20intake%2C%20adoption%2C%20transfer%2C%20reclaim%2C%20euthanasia%20(with%20reasons)%2C%20and%20average%20length%20of%20stay%20for%20animals%20at%20Stockton%20Animal%20Shelter.%20Without%20basic%20data%2C%20there%20can%20be%20no%20real%20accountability.%0A%0AYou%20cannot%20credibly%20claim%20to%20care%20about%20vulnerable%20communities%20or%20responsible%20use%20of%20public%20funds%20while%20allowing%20dogs%20to%20be%20abused%20in%20public%2C%20sent%20back%20to%20abusers%2C%20and%20killed%20inside%20a%20publicly%20funded%20shelter%20in%20a%20matter%20of%20days.%0A%0AThe%20choice%20in%20front%20of%20you%20is%20clear%3A%20reform%20this%20system%20into%20something%20humane%2C%20lawful%2C%20and%20transparent%2C%20or%20accept%20full%20responsibility%20when%20Stockton%20becomes%20the%20example%20people%20point%20to%20for%20how%20not%20to%20handle%20street%20dogs.%0A%0APlease%20act%20now.%0A%0ASincerely%2C%0A",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/protect-stocktons-street-dogs",
+          "status": "ongoing",
+          "createdAt": "2025-12-08"
+        },
+        {
+          "title": "Protect Abused and Neglected Dogs on Skid Row",
+          "slug": "protect-abused-and-neglected-dogs-on-skid-row",
+          "caseId": "skid-row",
+          "instagram": "",
+          "description": "While LA battles homelessness, forgotten victims walk on four legs. Starving, abused, sold, neglected, and invisible. Dogs tied to shopping carts. Puppies dying in the heat. No food, no vet care, no mercy.\n\nDemand action NOW from LA city/county officials:\nInvestigate abuse.\nOffer outreach vet care.\nHold abusers accountable.\nDon’t force people to choose between housing and their pets.",
+          "location": {
+            "country": "United States",
+            "region": "California",
+            "locality": "Los Angeles"
+          },
+          "targets": [],
+          "phones": [
+            {
+              "who": "LA County Supervisor Hilda L. Solis",
+              "main": "+1 213 974 4111",
+              "ext": ""
+            },
+            {
+              "who": "LA County Supervisor Holly J. Mitchell",
+              "main": "+1 213 974 2222",
+              "ext": ""
+            },
+            {
+              "who": "LA County Supervisor Lindsey P. Horvath",
+              "main": "+1 213 974 3333",
+              "ext": ""
+            },
+            {
+              "who": "LA County Supervisor Janice Hahn",
+              "main": "+1 213 974 4444",
+              "ext": ""
+            },
+            {
+              "who": "LA County Supervisor Kathryn Barger",
+              "main": "+1 213 974 5555",
+              "ext": ""
+            },
+            {
+              "who": "LA City Councilmember Ysabel Jurado",
+              "main": "+1 213 473 7014",
+              "ext": ""
+            },
+            {
+              "who": "LA City Attorney Hydee Feldstein Soto",
+              "main": "+1 213 978 8100",
+              "ext": ""
+            },
+            {
+              "who": "Los Angeles County District Attorney Nathan Hochman",
+              "main": "+1 213 974 3512",
+              "ext": ""
+            },
+            {
+              "who": "Governor Gavin Newsom",
+              "main": "+1 916 445 2841",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:nhochman@da.lacounty.gov,hydee.feldsteinsoto@lacity.org,info@da.lacounty.gov,yvonne.rodriguez@lacity.org,curtis.watts@lacity.org,councilmember.jurado@lacity.org,FirstDistrict@bos.lacounty.gov,lindsey@bos.lacounty.gov,lodendahl@bos.lacounty.gov,HollyJMitchell@bos.lacounty.gov,Kathryn@bos.lacounty.gov?subject=Skid%20Row%20animal%20cruelty%3A%20%2495M%20in%20budgets%2C%20%242.5M%20in%20salaries%2C%20and%20no%20protection&body=To%20whom%20it%20may%20concern%2C%0A%0AI%20am%20writing%20with%20deep%20concern%20to%20demand%20immediate%20and%20sustained%20action%20from%20the%20Los%20Angeles%20County%20Board%20of%20Supervisors%20to%20protect%20the%20abused%20and%20neglected%20animals%20living%20in%20and%20around%20Skid%20Row.%0A%0AFor%20years%2C%20the%20County%20and%20City%20have%20acknowledged%20the%20humanitarian%20crisis%20on%20Skid%20Row.%20Yet%20the%20animals%20trapped%20in%20the%20same%20streets%20and%20camps%20remain%20almost%20entirely%20unprotected.%20That%20is%20not%20an%20accident%3B%20it%20is%20the%20result%20of%20choices%20made%20at%20the%20top.%0A%0ABetween%20you%20and%20other%20key%20officials%20responsible%20for%20public%20safety%20and%20animal%20welfare%20in%20Los%20Angeles%2C%20taxpayers%20are%20funding%20around%20%242.5%20million%20a%20year%20in%20salaries%20alone.%20On%20top%20of%20that%2C%20the%20combined%20city%20and%20county%20animal%20control%2Fanimal%20services%20budgets%20are%20roughly%20%2495%20million%20annually.%20For%20that%20level%20of%20investment%2C%20the%20public%20is%20entitled%20to%20expect%20at%20least%20basic%20enforcement%20of%20existing%20animal%20cruelty%20laws%20and%20a%20visible%20effort%20to%20prevent%20suffering.%0A%0AInstead%2C%20on%20Skid%20Row%2C%20countless%20dogs%20are%3A%0A%0A*%20Chronically%20malnourished%20and%20dehydrated%0A*%20Left%20without%20basic%20medical%20care%2C%20vaccinations%2C%20or%20sterilization%0A*%20Subjected%20to%20violent%20abuse%2C%20crude%20restraints%2C%20and%20intimidation%0A*%20Exposed%20to%20forced%20drug%20use%20and%20the%20risk%20of%20overdose%0A*%20Kept%20for%20years%20in%20extreme%20heat%20and%20cold%20without%20adequate%20shelter%0A*%20Living%20in%20dangerous%2C%20unsanitary%20conditions%20with%20no%20meaningful%20oversight%0A%0AThese%20are%20not%20unfortunate%20%22edge%20cases.%22%20They%20are%20ongoing%20violations%20of%20California%20Penal%20Code%20597.%20The%20fact%20that%20this%20is%20happening%20in%20a%20poverty-stricken%20area%20does%20not%20make%20it%20legal%20and%20does%20not%20make%20it%20acceptable.%0A%0AWhen%20nearly%20%2495%20million%20is%20being%20poured%20into%20animal%20services%20and%20enforcement%2C%20and%20the%20result%20on%20the%20ground%20is%20starving%2C%20injured%2C%20drugged%2C%20and%20abused%20animals%20in%20full%20public%20view%20on%20Skid%20Row%2C%20that%20looks%20very%20much%20like%20a%20gross%20misuse%20and%20mismanagement%20of%20public%20funds%20under%20your%20watch.%20When%20officials%20paid%20high%20six-figure%20salaries%20cannot%20ensure%20even%20basic%20enforcement%20of%20the%20law%20in%20one%20of%20the%20most%20visible%20crisis%20zones%20in%20the%20county%2C%20it%20is%20fair%20to%20say%20they%20are%20overpaid%20for%20the%20job%20they%20are%20actually%20doing.%0A%0AYou%20cannot%20credibly%20claim%20to%20care%20about%20vulnerable%20communities%20while%20allowing%20their%20animals%20to%20be%20starved%2C%20beaten%2C%20traded%2C%20and%20disposed%20of%20in%20plain%20sight.%0A%0AI%20urge%20you%20to%20take%20the%20following%20actions%20without%20further%20delay%3A%0A%0A1.%20Create%20a%20dedicated%20city-county%20task%20force%20focused%20specifically%20on%20animal%20abuse%20and%20neglect%20in%20and%20around%20Skid%20Row%2C%20with%20the%20authority%20to%20investigate%2C%20seize%20animals%20in%20danger%2C%20and%20refer%20cases%20for%20prosecution.%0A2.%20Fund%20and%20expand%20veterinary%20outreach%20on%20Skid%20Row%2C%20including%20on-site%20medical%20care%2C%20vaccinations%2C%20spay%2Fneuter%2C%20and%20access%20to%20food%20and%20basic%20supplies%20for%20guardians%20who%20are%20genuinely%20trying%20to%20care%20for%20their%20animals.%0A3.%20Enforce%20California%20Penal%20Code%20597%20consistently%2C%20regardless%20of%20ZIP%20code%20or%20housing%20status.%20Abuse%20and%20deliberate%20cruelty%20on%20Skid%20Row%20must%20result%20in%20real%20consequences%2C%20not%20warnings%20and%20case%20numbers%20that%20go%20nowhere.%0A4.%20Implement%20and%20support%20co-sheltering%20policies%20countywide%20so%20that%20people%20do%20not%20have%20to%20choose%20between%20accepting%20housing%20and%20keeping%20their%20animals%20safe.%20No%20one%20should%20be%20forced%20to%20leave%20a%20pet%20in%20dangerous%20conditions%20because%20the%20system%20has%20no%20place%20for%20them%20together.%0A5.%20Publish%20regular%2C%20transparent%20reports%20on%20animal%20cruelty%20complaints%2C%20response%20times%2C%20and%20case%20outcomes%20in%20the%20Skid%20Row%20area%2C%20so%20the%20public%20can%20see%20whether%20this%20crisis%20is%20finally%20being%20treated%20as%20a%20priority%20rather%20than%20an%20embarrassment%20to%20be%20ignored.%0A%0AAnimal%20cruelty%20is%20never%20excusable.%20It%20is%20not%20made%20acceptable%20by%20poverty%2C%20addiction%2C%20or%20bureaucratic%20complexity.%20With%20the%20salaries%20and%20budgets%20you%20control%2C%20there%20is%20no%20honest%20excuse%20for%20leaving%20animals%20on%20Skid%20Row%20to%20starve%2C%20suffer%2C%20and%20die%20without%20meaningful%20intervention.%0A%0APlease%20act%20now%2C%20and%20demonstrate%20that%20Los%20Angeles%20County%20will%20no%20longer%20tolerate%20this%20level%20of%20suffering%20for%20any%20living%20being%20in%20its%20care.%0A%0ASincerely%2C",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/protect-abused-and-neglected-dogs-on-skid-row",
+          "status": "ongoing",
+          "createdAt": "2025-11-24"
+        },
+        {
+          "title": "Stop the Mass Slaughter of Street Dogs in India",
+          "slug": "stop-the-mass-slaughter-of-street-dogs-in-india",
+          "caseId": "india-cull",
+          "instagram": "",
+          "description": "On August 11th, 2025, India’s Supreme Court ordered all stray dogs in Delhi-NCR to be removed from public spaces and locked away in shelters, with no return to their home streets.\n\nEven though a later bench called that “too harsh” and talked about sterilise-vaccinate-return with designated feeding zones, the damage was done. People heard exactly what they wanted to hear: the dogs are the problem, and getting rid of them is acceptable.\n\nSince then, we’ve seen what that looks like on the ground.\nDogs beaten with sticks and iron rods.\nDogs rounded up and dumped in places with no food, water or shelter.\nA dog in Jaipur tied by the legs and thrown onto a live transformer, electrocuted to death while his caretaker screamed.\n\nThis is state-sanctioned cruelty by silence.\n\nIndia’s Prevention of Cruelty to Animals Act still values a dog’s suffering at ₹10-50 ($0.11-0.56) for a first offence. Even repeat offenders can walk away with a token fine and a few months in jail, if that.\n\nTNVR, trap, neuter, vaccinate, return, works. It reduces bites. It controls rabies. It stabilises street dog populations. But killing, dumping and looking the other way is cheaper in the short term. Once again, money matters more than life.\n\nIndia loves to sell itself as the land of ahimsa, of compassion for all living beings. Right now, its streets tell a very different story.\n\nIndia’s tourism industry is projected to pump tens of billions into the economy in 2025. If the government and the courts want to ignore the blood on the pavements, then it’s time to hit them where it hurts most, their wallet.\n\nCancel the yoga retreats and tiger safaris.\nSkip the spiritual “bucket list” tours.\nChoose countries that actually enforce cruelty laws.\n\nUntil India stops turning its street dogs into punching bags and corpses, it does not deserve your money.",
+          "location": {
+            "country": "",
+            "region": "",
+            "locality": ""
+          },
+          "targets": [
+            "Indian Parliament & International Media"
+          ],
+          "phones": [],
+          "url": "mailto:rrsingh@sansad.nic.in,minister-fahdpr@nic.in,mos-fahd@dahd.nic.in,mosgk-fahd@dahd.nic.in,secyahd@nic.in,js-nlm@dahd.nic.in,ahc-dadf@nic.in,support-awbi@gov.in,sk.dutta@nic.in,minister-mopa@gov.in,ar.meghwal@sansad.nic.in,ab.acharya@nic.in,sharaddwivedi@nic.in,supremecourt@nic.in,reception.office@sci.nic.in,jspf-dadf@nic.in,mukesh.kumar.mopa@nic.in,animals@theguardian.com,editor@natgeo.com,pitches@thedodo.com?subject=Delhi%20stray%20dog%20rulings%20are%20fuelling%20nationwide%20cruelty&body=To%20whom%20it%20may%20concern%2C%0A%0AI%20am%20writing%20to%20express%20serious%20concern%20about%20how%20recent%20decisions%20and%20messaging%20on%20street%20dogs%20in%20Delhi%20and%20across%20India%20are%20playing%20out%20on%20the%20ground.%0A%0AIn%20August%202025%2C%20the%20Supreme%20Court's%20order%20directing%20Delhi-NCR%20civic%20bodies%20to%20remove%20all%20stray%20dogs%20from%20public%20spaces%20and%20confine%20them%20to%20shelters%2C%20with%20no%20return%20to%20their%20home%20territories%2C%20sent%20a%20very%20clear%20message%20to%20the%20public%3A%20street%20dogs%20are%20a%20%22menace%22%20to%20be%20cleared%20away%2C%20not%20sentient%20beings%20whose%20welfare%20is%20protected%20by%20law.%0A%0AEven%20on%20the%20narrow%20question%20of%20designated%20feeding%20points%2C%20the%20courts%20and%20authorities%20have%20dragged%20their%20heels.%20Feeders%2C%20RWAs%20and%20municipal%20staff%20have%20been%20left%20without%20clear%2C%20enforceable%20instructions%2C%20and%20that%20vacuum%20is%20being%20filled%20by%20conflict%2C%20harassment%20of%20feeders%20and%20open%20violence%20towards%20the%20dogs%20themselves.%0A%0AEven%20though%20a%20later%20bench%20recognised%20that%20this%20approach%20was%20%22too%20harsh%22%20and%20reaffirmed%20the%20Animal%20Birth%20Control%20(ABC)%20Rules%2C%20sterilise%2C%20vaccinate%2C%20deworm%20and%20return%20dogs%20to%20the%20same%20locations%2C%20with%20designated%20feeding%20points%2C%20the%20damage%20is%20already%20done.%20The%20initial%20order%20has%20been%20read%20on%20the%20ground%20as%20a%20green%20light%20for%20cruelty%2C%20not%20humane%20management.%0A%0ASince%20that%20ruling%2C%20activists%20and%20local%20witnesses%20have%20documented%20a%20pattern%20of%20vigilante%20behaviour%20that%20should%20horrify%20any%20government%20that%20claims%20to%20uphold%20the%20rule%20of%20law%3A%0A%0A-%20Street%20dogs%20being%20beaten%20with%20sticks%20and%20iron%20rods.%0A-%20Dogs%20being%20rounded%20up%2C%20transported%20long%20distances%20and%20dumped%20in%20areas%20where%20they%20cannot%20find%20food%2C%20water%2C%20shelter%20or%20their%20feeders.%0A-%20At%20least%20one%20case%20of%20a%20dog's%20legs%20being%20tied%20together%20and%20the%20animal%20thrown%20onto%20a%20transformer.%0A-%20Communities%20openly%20boasting%20about%20%22getting%20rid%20of%22%20dogs%20rather%20than%20demanding%20sterilisation%20and%20vaccination%20drives.%0A%0AThese%20are%20not%20%22dog%20control%20measures%22.%20They%20are%20acts%20of%20deliberate%20torture.%0A%0AAt%20the%20same%20time%2C%20your%20own%20laws%20continue%20to%20tell%20abusers%20that%20animal%20cruelty%20is%20basically%20free.%20Under%20the%20Prevention%20of%20Cruelty%20to%20Animals%20Act%2C%201960%2C%20the%20fine%20for%20a%20first%20offence%20can%20be%20as%20low%20as%20%E2%82%B910-50%2C%20literally%20less%20than%20a%20bus%20fare%2C%20and%20even%20repeat%20offenders%20can%20walk%20away%20with%20as%20little%20as%20%E2%82%B920-100%20or%20a%20maximum%20of%20three%20months'%20imprisonment.%20The%20Government%20of%20India%20has%20itself%20acknowledged%20in%20Parliament%20that%20these%20penalties%20are%20still%20in%20force%20and%20woefully%20outdated.%0A%0AYou%20cannot%20seriously%20expect%20people%20to%20respect%20animals%20when%20the%20law%20values%20a%20dog's%20suffering%20at%20less%20than%20a%20cup%20of%20tea.%0A%0AThis%20pattern%20is%20not%20unique.%20We%20have%20already%20watched%20what%20happens%20when%20governments%20send%20a%20signal%20that%20street%20animals%20are%20disposable%3A%0A%0A-%20In%20Turkey%2C%20policy%20changes%20and%20court%20decisions%20dismantling%20long-standing%20neuter%2Freturn%20strategies%20were%20followed%20by%20sporadic%20street%20dog%20massacres%20and%20mob%20violence%20against%20animals.%0A-%20In%20Morocco%2C%20authorities%20have%20been%20shooting%2C%20poisoning%20and%20rounding%20up%20dogs%20in%20the%20streets%2C%20often%20in%20front%20of%20children%2C%20in%20an%20attempt%20to%20%22clean%20up%22%20cities%2C%20prompting%20global%20condemnation%20and%20warnings%20about%20the%20psychological%20harm%20to%20children%20who%20witness%20this%20brutality.%0A%0AIndia%20is%20now%20at%20the%20same%20crossroads.%20You%20can%20either%20double%20down%20on%20a%20narrative%20that%20turns%20citizens%20into%20vigilantes%20and%20dogs%20into%20targets%2C%20or%20you%20can%20treat%20this%20as%20a%20chance%20to%20lead%20with%20humane%2C%20science-based%20policy.%0A%0AI%20am%20therefore%20calling%20on%20you%20to%20take%20the%20following%20steps%2C%20urgently%20and%20publicly%3A%0A%0AISSUE%20A%20CLEAR%20NATIONAL%20STATEMENT%20AGAINST%20VIGILANTE%20CRUELTY%0A%0A-%20Clarify%20that%20no%20private%20citizen%2C%20RWA%2C%20security%20guard%20or%20municipal%20worker%20has%20any%20authority%20to%20beat%2C%20kill%2C%20abandon%20or%20illegally%20relocate%20community%20dogs.%0A-%20Reaffirm%20that%20the%20only%20lawful%20framework%20for%20managing%20street%20dog%20populations%20is%20sterilisation%2C%20vaccination%20and%20return%20in%20line%20with%20the%20ABC%20Rules%2C%20with%20humane%20handling%20and%20proper%20shelter%20standards%20for%20genuinely%20dangerous%20or%20rabid%20animals.%0A%0ADIRECT%20POLICE%20AND%20CIVIC%20BODIES%20TO%20TREAT%20CRUELTY%20AS%20CRIME%2C%20NOT%20%22NUISANCE%22%0A%0A-%20Mandate%20that%20all%20complaints%20of%20beating%2C%20poisoning%2C%20dumping%20or%20torture%20of%20dogs%20be%20registered%20as%20FIRs%20under%20the%20Prevention%20of%20Cruelty%20to%20Animals%20Act%20and%20relevant%20IPC%2FBNS%20provisions%20(including%20for%20maiming%20and%20killing%20animals)%2C%20rather%20than%20being%20dismissed%20as%20%22local%20disputes%22.%0A-%20Require%20time-bound%2C%20publicly%20reportable%20action%3A%20investigation%2C%20seizure%20of%20evidence%20(including%20CCTV%20and%20mobile%20footage)%2C%20veterinary%20reports%2C%20and%20prosecution.%0A%0AIMMEDIATELY%20STRENGTHEN%20PENALTIES%20FOR%20ANIMAL%20CRUELTY%0A%0A-%20Fast-track%20the%20long-delayed%20amendments%20to%20the%20Prevention%20of%20Cruelty%20to%20Animals%20Act%20to%20bring%20penalties%20into%20the%2021st%20century%2C%20meaningful%20fines%2C%20custodial%20sentences%20and%20making%20serious%20cruelty%20cognisable%2C%20so%20police%20can%20act%20without%20waiting%20for%20bureaucracy%20to%20catch%20up.%0A-%20Ensure%20that%20offences%20involving%20organised%20dumping%2C%20mass%20killing%20or%20extreme%20torture%20carry%20penalties%20that%20actually%20deter%2C%20not%20symbolic%20fines%20of%20a%20few%20rupees.%0A%0AIMPLEMENT%20ABC%20AND%20RABIES-CONTROL%20PROGRAMMES%20NATIONWIDE%2C%20WITH%20TRANSPARENCY%0A%0A-%20Publish%20data%2C%20by%20city%20and%20state%2C%20on%3A%0A%20%20-%20Number%20of%20dogs%20sterilised%20and%20vaccinated.%0A%20%20-%20Dog%20bite%20incidents%20and%20post-exposure%20prophylaxis%20coverage.%0A%20%20-%20Number%20of%20cruelty%20FIRs%20registered%20and%20their%20outcomes.%0A-%20Allow%20independent%20audits%20of%20shelters%20and%20pounds%20to%20ensure%20they%20are%20not%20simply%20kill-centres%20under%20another%20name.%0A%0AENGAGE%20WITH%20FRONTLINE%20ANIMAL%20WELFARE%20EXPERTS%20INSTEAD%20OF%20SIDELINING%20THEM%0A%0A-%20Involve%20credible%20Indian%20animal%20welfare%20organisations%2C%20veterinary%20experts%20and%20public-health%20professionals%20in%20designing%20any%20revised%20stray-dog%20policy%20so%20that%20it%20protects%20both%20human%20safety%20and%20animal%20welfare.%0A-%20Stop%20treating%20feeders%20and%20rescuers%20as%20the%20problem.%20They%20are%20often%20the%20only%20people%20on%20the%20ground%20vaccinating%2C%20sterilising%20and%20socialising%20these%20dogs%20at%20their%20own%20expense.%0A%0ARight%20now%2C%20the%20message%20many%20people%20are%20hearing%20is%3A%20%22The%20Supreme%20Court%20and%20the%20government%20are%20on%20our%20side%20if%20we%20want%20the%20dogs%20gone%2C%20and%20nobody%20will%20punish%20us%20if%20we%20are%20cruel.%22%20That%20message%20is%20already%20costing%20dogs%20their%20lives.%20It%20is%20also%20eroding%20respect%20for%20law%2C%20fuelling%20social%20conflict%2C%20and%20exposing%20children%20to%20terrifying%20violence%20that%20will%20stay%20with%20them%20for%20life.%0A%0AIndia%20presents%20itself%20to%20the%20world%20as%20a%20nation%20built%20on%20a%20rich%20civilisation%2C%20deep%20cultural%20traditions%20and%20a%20constitutional%20commitment%20to%20justice.%20Hindu%20philosophy%20and%20wider%20Indian%20thought%20have%20long%20emphasised%20values%20such%20as%20ahimsa%20and%20compassion%20toward%20all%20living%20beings.%20Those%20are%20not%20abstract%20slogans%3B%20they%20are%20supposed%20to%20shape%20how%20the%20most%20vulnerable%20are%20treated%2C%20including%20animals%20who%20depend%20entirely%20on%20human%20mercy.%0A%0AWhen%20street%20dogs%20are%20beaten%2C%20dumped%20or%20tortured%20with%20impunity%2C%20it%20does%20not%20only%20betray%20those%20animals.%20It%20betrays%20India's%20own%20history%20and%20the%20values%20it%20claims%20to%20stand%20for.%20A%20country%20that%20takes%20pride%20in%20its%20culture%2C%20its%20spirituality%20and%20its%20respect%20for%20the%20rule%20of%20law%20cannot%20look%20the%20other%20way%20while%20cruelty%20is%20normalised%20on%20its%20streets%20and%20those%20responsible%20face%20almost%20no%20consequences.%0A%0AIf%20India%20wants%20to%20be%20taken%20seriously%20as%20a%20nation%20that%20respects%20both%20the%20rule%20of%20law%20and%20basic%20compassion%2C%20this%20pattern%20of%20tolerated%20cruelty%20cannot%20continue.%0A%0AI%20urge%20you%20to%20act%20now%2C%20not%20with%20more%20vague%20assurances%2C%20but%20with%20concrete%2C%20public%20steps%3A%20stronger%20laws%2C%20real%20enforcement%20against%20abusers%2C%20and%20a%20nationwide%20reaffirmation%20that%20cruelty%20to%20animals%20is%20neither%20legal%2C%20nor%20acceptable%2C%20nor%20consequence-free.%0A%0AThe%20world%20is%20watching%20what%20you%20do%20next.%0A%0ASincerely%2C",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/stop-the-mass-slaughter-of-street-dogs-in-india",
+          "status": "ongoing",
+          "createdAt": "2025-11-24"
+        },
+        {
+          "title": "Test Ongoing CTA",
+          "slug": "test-ongoing-cta",
+          "caseId": "china-laws",
+          "instagram": "",
+          "description": "",
+          "location": {
+            "country": "",
+            "region": "",
+            "locality": ""
+          },
+          "targets": [],
+          "phones": [],
+          "url": "https://go.hallieforanimals.org/t/test-ongoing-cta",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/test-ongoing-cta",
+          "status": "ongoing",
+          "createdAt": "2025-11-17"
+        },
+        {
+          "title": "Stop The Cat and Dog Meat Trade in China",
+          "slug": "stop-the-cat-and-dog-meat-trade-in-china",
+          "caseId": "china-meat-trade",
+          "url": "https://go.hallieforanimals.org/t/stop-the-cat-and-dog-meat-trade-in-china",
+          "buttonText": "Take Action",
+          "url2": "",
+          "buttonText2": "",
+          "urlIndex": "/ongoing.html#stop-the-cat-and-dog-meat-trade-in-china",
+          "description2Title": "",
+          "description2": "",
+          "description3Title": "",
+          "description3": [],
+          "targets": [
+            "China’s national health",
+            "food-safety",
+            "agriculture",
+            "transport",
+            "customs regulators",
+            "and the National People’s Congress"
+          ],
+          "tag": "Email, Ongoing",
+          "summary": "China removed dogs from the national livestock list in 2020. Because there are no national animal welfare laws in China, dogs now have no legal rights.\n\nNo food animal status means no food-safety framework, no lawful slaughter rules, and no transport standards, resulting in a black market of stolen pets, back-alley killing, menu fraud, and trucks moving animals across the country in the dark.\n\nA superstitious belief that more pain means better meat, and no binding standards, leads to dogs boiled alive, blowtorched alive, skinned alive, and savagely beaten.\n\nShenzhen and Zhuhai banned it outright. The rest of the country hasn’t.\nSo dogs and cats now exist in a loophole: not approved as food, not banned everywhere, which means fewer protections and more suffering.\n\n\"It's their culture/tradition\" is a copout and ignorance talking. You wouldn't give a free pass to \"cultural/traditional\" child brides, slavery, or honor killings elsewhere.\nChina needs a national ban on slaughter, transport, sale, and advertising. Licenses pulled. Markets closed. Raids on supply lines. Public enforcement reports."
+        },
+        {
+          "title": "Demand Animal Welfare Laws In China",
+          "slug": "china-laws",
+          "caseId": "china-laws",
+          "descriptionTitle": "",
+          "description": "",
+          "description2Title": "",
+          "description2": "",
+          "description3Title": "",
+          "description3": [
+            ""
+          ],
+          "targets": [
+            "",
+            "",
+            ""
+          ],
+          "urlIndex": "/ongoing.html#china-laws",
+          "url": "",
+          "buttonText": "",
+          "url2": "https://tinyurl.com/ya3wa8ke",
+          "buttonText2": "Take Action",
+          "tag": "Ongoing"
+        },
+        {
+          "title": "Stop Ugandan Rescue Scams",
+          "slug": "scam",
+          "caseId": "scam",
+          "descriptionTitle": "What’s happening",
+          "description": "A cluster of Instagram/Facebook pages posing as dog rescues. They don’t rescue; they manufacture cruelty. Dogs are starved, injured on purpose, or left untreated so photos look shocking. The goal is simple: squeeze donations from decent people. When one dog stops performing (i.e., healing), another “urgent case” appears. Same script, different wounds.",
+          "description2Title": "Why it matters",
+          "description2": "Stage or prolong suffering → post daily \"updates\" → guilt-trip → collect via instant-pay links → disappear/recycle content. Use throwaway admins and burner numbers. When flagged, they rename, pivot, or move to a new handle.",
+          "description3Title": "Red flags to look out for",
+          "description3": [
+            "Money first, transparency never: PayPal.me / mobile money / Western Union only; no registered charity number, no audited reports, no vet invoices.",
+            "Geo nonsense: Claims \"Uganda shelter\" while geotags/photos hop across countries or time zones. Stock photos of \"Africa\" sprinkled in.",
+            "High followers, dead engagement: Bought audience; low comments/likes that don’t match follower count.",
+            "Recycled media: Same dog, same injury, posted for months with \"urgent surgery today!\" Reverse-image search catches repeats.",
+            "No real-world footprint: No website or a 1-page site with stolen copy; no Google Maps listing; no legitimate adoption process or contracts.",
+            "Pressure tactics: \"Only YOU can save him in the next hour,\" mass tagging, DM spamming, guilt trips if you ask for proof.",
+            "Vague or shifting details: Dog’s name, age, location, and diagnosis change post to post.",
+            "Medical fantasy: Miraculous diagnoses, dramatic before/after collages, never a verifiable vet name, clinic address, or itemized bill.",
+            "Comment control: Critical questions deleted, comments turned off, or replies move instantly to DMs.",
+            "Verified-but-hijacked look: Sometimes a verified or old account repurposed (handle changed, old content wiped).",
+            "Logistics that make no sense: Offering international adoptions but no import/export compliance or quarantine info.",
+            "Donation links, zero governance: No trustees, no policy pages (safeguarding, returns, complaints), no annual reports—just the donate button."
+          ],
+          "targets": [
+            "Ugandan Authorities",
+            "International NGOs",
+            "Social Media Companies"
+          ],
+          "urlIndex": "/ongoing.html#stop-ugandan-rescue-scams",
+          "url": "/report-scam.html",
+          "buttonText": "Report a Scam",
+          "url2": "https://tinyurl.com/ysb6zz9e",
+          "buttonText2": "Take Action",
+          "tag": "Ongoing"
+        },
+        {
+          "title": "Stop the Mass Slaughter of Street Dogs in Morocco",
+          "slug": "morocco-cull",
+          "caseId": "morocco-cull",
+          "descriptionTitle": "",
+          "description": "",
+          "description2Title": "",
+          "description2": "",
+          "description3Title": "",
+          "description3": [
+            ""
+          ],
+          "targets": [
+            "",
+            "",
+            ""
+          ],
+          "urlIndex": "/ongoing.html#morocco-cull",
+          "url": "",
+          "buttonText": "",
+          "url2": "https://tinyurl.com/bypzvuz4",
+          "buttonText2": "Take Action",
+          "tag": "Ongoing"
+        },
+        {
+          "title": "Stop the Mass Slaughter of Street Dogs in Turkey",
+          "slug": "turkey-cull",
+          "caseId": "turkey-cull",
+          "descriptionTitle": "",
+          "description": "",
+          "description2Title": "",
+          "description2": "",
+          "description3Title": "",
+          "description3": [
+            ""
+          ],
+          "targets": [
+            "",
+            "",
+            ""
+          ],
+          "urlIndex": "/ongoing.html#turkey-cull",
+          "url": "",
+          "buttonText": "",
+          "url2": "https://tinyurl.com/bypzvuz4",
+          "buttonText2": "Take Action",
+          "tag": "Ongoing"
+        },
+        {
+          "title": "Stop the Mass Slaughter of Street Dogs in Delhi",
+          "slug": "delhi-cull",
+          "caseId": "delhi-cull",
+          "descriptionTitle": "",
+          "description": "",
+          "description2Title": "",
+          "description2": "",
+          "description3Title": "",
+          "description3": [
+            ""
+          ],
+          "targets": [
+            "",
+            "",
+            ""
+          ],
+          "urlIndex": "/ongoing.html#delhi-cull",
+          "url": "",
+          "buttonText": "",
+          "url2": "https://tinyurl.com/2yzw4mj5",
+          "buttonText2": "Take Action",
+          "tag": "Ongoing"
+        },
+        {
+          "title": "Demand Animal Welfare Laws in Vietnam",
+          "slug": "vietnam-laws",
+          "caseId": "vietnam-laws",
+          "descriptionTitle": "",
+          "description": "",
+          "description2Title": "",
+          "description2": "",
+          "description3Title": "",
+          "description3": [
+            ""
+          ],
+          "targets": [
+            "",
+            "",
+            ""
+          ],
+          "urlIndex": "/ongoing.html#vietnam-laws",
+          "url": "",
+          "buttonText": "",
+          "url2": "https://tinyurl.com/mta8x92p",
+          "buttonText2": "Take Action",
+          "tag": "Ongoing"
+        }
+      ]
     },
     {
-      "caseId": "turkey-cull",
-      "slug": "turkey-cull-2026-03",
-      "status": "ongoing",
-      "role": "original",
-      "title": "Stop the Mass Slaughter of Street Dogs in Turkey",
-      "summary": "Push the Turkish government to halt the cull of street dogs and adopt humane alternatives.",
-      "descriptionLong": "Outline of the nationwide cull, the legal context, and humane alternatives such as TNVR.",
-      "recipients": [],
-      "phones": [],
-      "callScript": "",
-      "videoEmbedUrl": "",
-      "shortlinkUrl": "",
-      "boycottUrl": "",
-      "createdAt": "2026-03-02T00:00:00Z",
-      "updatedAt": "2026-03-02T00:00:00Z"
-    },
-    {
-      "ctaType": "email",
-      "updateIncludeEmail": false,
-      "updateSummary": "",
-      "updateDate": "",
-      "updateStatus": "",
-      "caseId": "bronx-cat-killer",
-      "slug": "stop-bronx-cat-killer-original",
-      "status": "recent",
-      "role": "original",
-      "title": "Stop Bronx Cat Killer",
-      "summary": "",
-      "description": "",
-      "descriptionLong": "",
-      "recipients": [],
-      "phones": [],
-      "callScript": "",
-      "videoEmbedUrl": "https://drive.google.com/file/d/166GEvJRMCWQgPwl7eKZUALqVbb9qSXxV/preview",
-      "evidenceUrl": "https://tinyurl.com/ztec23uy",
-      "shortlinkUrl": "https://go.hallieforanimals.org/t/stop-bronx-cat-killer-original",
-      "caption": "",
-      "captionBuilder": {
-        "type": "",
-        "subtype": "empty",
-        "targets": "",
-        "state": "",
-        "city": "",
-        "country": "",
-        "dial": "",
-        "phones": []
-      },
-      "nonEmailActionUrl": "",
-      "postToUpdates": true,
-      "createdAt": "2026-03-19T02:02:06Z",
-      "updatedAt": "2026-03-19T02:02:06Z"
-    },
-    {
-      "caseId": "bronx-cat-killer",
-      "slug": "stop-bronx-cat-killer-update-1",
-      "status": "updated",
-      "role": "update",
-      "title": "Stop Bronx Cat Killer Ã¢ÂÂ Investigation update",
-      "summary": "Authorities have identified a suspect; push for charges and proper investigation.",
-      "updateTitle": "Investigation opened",
-      "updateBody": "Initial update text goes here.",
-      "updateStatus": "open",
-      "shortlinkUrl": "",
-      "createdAt": "2026-03-12T12:00:00Z",
-      "updatedAt": "2026-03-12T12:00:00Z"
-    },
-    {
-      "caseId": "bronx-cat-killer",
-      "slug": "stop-bronx-cat-killer-update-2",
-      "status": "updated",
-      "role": "update",
-      "title": "Stop Bronx Cat Killer Ã¢ÂÂ Prosecution",
-      "summary": "Call for prosecution; final update can mark the case resolved when done.",
-      "updateTitle": "Prosecution underway",
-      "updateBody": "Follow-up update text goes here.",
-      "updateStatus": "open",
-      "shortlinkUrl": "",
-      "createdAt": "2026-03-15T09:00:00Z",
-      "updatedAt": "2026-03-15T09:00:00Z"
-    }
-  ]
-}
+      "name": "Recent Cases",
+      "links": [
+        {
+          "title": "Arrest Animal Abuser Najae Marie Vanderhurst",
+          "slug": "arrest-animal-abuser-najae-marie-vanderhurst",
+          "caseId": "arrest-animal-abuser-najae-marie-vanderhurst",
+          "instagram": "",
+          "description": "Abuser Name: Najae Marie Vanderhurst\n\nListen to that child laugh in the background. Najae needs to be locked up, and her kid raised by someone who won't turn it into a raging psychopath.",
+          "location": {
+            "country": "United States",
+            "region": "Georgia",
+            "locality": "Douglasville"
+          },
+          "targets": [
+            "Douglas County Authorities"
+          ],
+          "phones": [
+            {
+              "who": "Douglasville Police Department",
+              "main": "+1 770 920 3010",
+              "ext": ""
+            },
+            {
+              "who": "Chief of Police Gary Sparks",
+              "main": "+1 678 293 1785",
+              "ext": ""
+            },
+            {
+              "who": "Douglas County Animal Services",
+              "main": "+1 770 942 5961",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:demingj@douglasvillega.gov,animalcontrol@douglascountyga.gov,sparksg@douglasvillega.gov,davidsnj@douglasvillega.gov?subject=Arrest%20Animal%20Abuser%20Najae%20Marie%20Vanderhurst&body=To%20whom%20it%20may%20concern%2C%0A%0AI%20am%20writing%20as%20a%20concerned%20citizen%20to%20formally%20request%20a%20prompt%20investigation%20into%20allegations%20of%20animal%20cruelty%20involving%20Najae%20Marie%20Vanderhurst%20of%20Douglasville%2C%20Georgia.%0A%0AAccording%20to%20public%20reports%20and%20a%20captured%20video%20from%20her%20Instagram%20story%20(posted%20around%203%20PM%20on%20or%20about%20the%20date%20referenced%20in%20recent%20posts)%2C%20Ms.%20Vanderhurst%20appears%20to%20be%20pouring%20water%20on%20a%20dog's%20head%20while%20the%20animal%20is%20confined%20in%20a%20very%20small%20cage.%20She%20reportedly%20captioned%20or%20commented%20on%20the%20video%20with%20statements%20indicating%20frustration%20and%20intent%2C%20such%20as%20%22I%20hate%20this%20dog...%20all%20she%20do%20is%20bark%20and%20that's%20why%20I%20wet%20her%20stupid%20ass%20up!%22%20A%20child%20is%20also%20visible%20laughing%20in%20the%20video.%20The%20video%20has%20since%20been%20deleted%2C%20but%20screenshots%20and%20recordings%20have%20been%20shared%20online.%0A%0AUnder%20Georgia%20law%20(O.C.G.A.%20Section%2016-12-4)%2C%20animal%20cruelty%20is%20a%20serious%20offense%2C%20and%20acts%20involving%20unnecessary%20physical%20harm%2C%20confinement%20in%20inadequate%20conditions%2C%20or%20abusive%20treatment%20warrant%20investigation.%20The%20presence%20of%20a%20minor%20in%20the%20video%20also%20raises%20additional%20concerns%20regarding%20the%20environment.%0A%0AI%20urge%20your%20agency%20to%3A%0A-%20Immediately%20investigate%20these%20allegations.%0A-%20Locate%20and%20check%20the%20welfare%20of%20the%20dog%20involved.%0A-%20Review%20any%20available%20evidence%2C%20including%20the%20captured%20video%20and%20related%20social%20media%20posts.%0A-%20Take%20appropriate%20enforcement%20action%20if%20violations%20are%20confirmed%2C%20including%20potential%20criminal%20charges.%0A%0AThank%20you%20for%20your%20attention%20to%20this%20important%20animal%20welfare%20issue.%0A%0AEvidence%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1rWXiVBndfyZ8SjUT1xX5KYtzQXzOzinT%2Fview%3Fusp%3Dsharing%0A%0ASincerely%2C%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/arrest-animal-abuser-najae-marie-vanderhurst",
+          "createdAt": "2026-03-18"
+        },
+        {
+          "title": "Locate & Charge Hit & Run Suspects in Bogota",
+          "slug": "locate-charge-hit-run-suspects-in-bogota",
+          "caseId": "locate-charge-hit-run-suspects-in-bogota",
+          "instagram": "",
+          "description": "Location: Cra. 81c -07 Sur 21, Kennedy, Bogota, Colombia\n\nThis senior blind dog, who's owner only recently died, was out in the street for less than two minutes when some degenerate bottom-feeder decided to run her over and flee.",
+          "location": {
+            "country": "Colombia",
+            "region": "Cundinamarca",
+            "locality": "Bogota"
+          },
+          "targets": [
+            "Bogota Authorities"
+          ],
+          "phones": [
+            {
+              "who": "CAI Kennedy",
+              "main": "+57 607 649 0457",
+              "ext": ""
+            },
+            {
+              "who": "Estacion de Policia Kennedy",
+              "main": "+57 350 315 0315",
+              "ext": ""
+            },
+            {
+              "who": "Linea Contra el Maltrato Animal",
+              "main": "+57 601 439 9801",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:defensorciudadanoSDG@gobiernobogota.gov.co,proteccionanimal@animalesbog.gov.co,disciplinarios@animalesbog.gov.co?subject=GLW746%20atropell%C3%B3%20a%20un%20perro%20y%20se%20dio%20a%20la%20fuga%2C%20Britalia%20Bogot%C3%A1%2FGLW746%20Ran%20Over%20Dog%20%26%20Fled%2C%20Britalia%20Bogot%C3%A1&body=A%20quien%20corresponda%3A%0A%0AEl%209%20de%20marzo%2C%20en%20el%20barrio%20de%20Britalia%2C%20en%20Kennedy%20(Bogot%C3%A1)%2C%20el%20conductor%20de%20una%20camioneta%20blanca%20con%20matr%C3%ADcula%20GLW746%20atropell%C3%B3%20a%20un%20perro%20peque%C3%B1o%20que%20yac%C3%ADa%20en%20la%20calle%20y%2C%20a%20continuaci%C3%B3n%2C%20huy%C3%B3%20del%20lugar%20sin%20detenerse%20ni%20prestar%20auxilio%20alguno.%20En%20el%20interior%20del%20veh%C3%ADculo%20viajaban%20dos%20j%C3%B3venes.%0A%0ASe%20trata%20de%20un%20caso%20flagrante%20de%20maltrato%20animal%20y%20de%20atropello%20con%20fuga.%20Todo%20el%20incidente%20qued%C3%B3%20grabado%20en%20v%C3%ADdeo%20y%20la%20matr%C3%ADcula%20se%20ve%20claramente.%0A%0AReivindicaciones%3A%0A-%20localizar%20de%20inmediato%20la%20matr%C3%ADcula%20GLW746%0A-%20identificar%20al%20conductor%20y%20a%20los%20pasajeros%0A-%20presentar%20cargos%20penales%20en%20virtud%20de%20la%20Ley%201774%20de%202016%20(maltrato%20animal)%20y%20las%20disposiciones%20pertinentes%20sobre%20atropello%20con%20fuga.%0A%0ALa%20comunidad%20espera%20medidas%20concretas%20y%20que%20se%20aplique%20todo%20el%20peso%20de%20la%20ley.%0A%0APruebas%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F18zGZwpKBVoBbWiTs2y_DMWerUm7miJ0C%2Fview%3Fusp%3Dsharing%0A%0AAtentamente%2C%0A%0AEl%20equipo%20de%20%40HallieForAniamls%0Acontact%40hallieforanimals.org%0A%0A%0A%0ATo%20whom%20it%20may%20concern%2C%0A%0AOn%20March%209%2C%20in%20the%20Britalia%20neighborhood%20of%20Kennedy%2C%20Bogota%2C%20the%20driver%20of%20a%20white%20pickup%20truck%20with%20license%20plate%20GLW746%20ran%20over%20a%20small%20dog%20that%20was%20lying%20in%20the%20street%20and%20then%20fled%20the%20scene%20without%20stopping%20or%20providing%20any%20aid.%20Two%20young%20people%20were%20inside%20the%20vehicle.%0A%0AThis%20is%20blatant%20animal%20cruelty%20and%20hit-and-run.%20The%20entire%20incident%20is%20captured%20on%20video%20and%20the%20plate%20is%20clearly%20visible.%0A%0ADemands%3A%0A-%20immediately%20trace%20the%20plate%20GLW746%0A-%20identify%20the%20driver%20and%20passengers%0A-%20file%20criminal%20charges%20under%20Ley%201774%20de%202016%20(animal%20abuse)%20and%20relevant%20hit-and-run%20provisions.%0A%0AThe%20community%20expects%20real%20action%20and%20prosecution%20with%20the%20full%20weight%20of%20the%20law.%0A%0AEvidence%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F18zGZwpKBVoBbWiTs2y_DMWerUm7miJ0C%2Fview%3Fusp%3Dsharing%0A%0ASincerely%2C%0A%0A%40HallieForAniamls%20Team%0Acontact%40hallieforanimals.org",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/locate-charge-hit-run-suspects-in-bogota",
+          "createdAt": "2026-03-17"
+        },
+        {
+          "title": "Recue Tethered Dog at 3112 S Western Ave, LA",
+          "slug": "recue-tethered-dog-at-3112-s-western-ave-la",
+          "caseId": "recue-tethered-dog-at-3112-s-western-ave-la",
+          "instagram": "",
+          "description": "Location: 3112 S Western Ave, Los Angeles, CA 90018\n\nThis dog was left out all day in 90°F heat and well into the night.\nLeaving a dog tethered outside with no adequate shade, water, or relief breaches California Health & Safety Code § 122335, California Penal Code § 597, § 597t, and Los Angeles Municipal Code § 53.70.\nPenal Code 597.1 allows police officers and animal control officers to seize animals based on suspected abuse/neglect, not just confirmed.",
+          "location": {
+            "country": "United States",
+            "region": "California",
+            "locality": "Los Angeles"
+          },
+          "targets": [
+            "LA Animal Services & Leadership"
+          ],
+          "phones": [
+            {
+              "who": "LA Animal Services",
+              "main": "+1 888 452 7381",
+              "ext": ""
+            },
+            {
+              "who": "Office of Mayor Karen Bass",
+              "main": "+1 213 978 1028",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:karen.bass@lactiy.org,annette.ramirez@lacity.org,laanimalservices@lacity.org?subject=Dog%20Left%20Tied%20Outside%20in%20Extreme%20Heat%20at%203112%20S%20Western%20Ave&body=To%20whom%20it%20may%20concern%2C%0A%0AI%20am%20writing%20to%20report%20clear%20animal%20neglect%20and%20abuse%20at%203112%20S%20Western%20Ave%2C%20Los%20Angeles%2C%20CA%2090018.%20A%20dog%20has%20been%20tied%20up%20outside%20this%20property%20all%20day%20in%20temperatures%20reaching%2090F%20and%20remains%20there%20into%20the%20night%20with%20no%20adequate%20shade%2C%20water%2C%20or%20relief%20from%20the%20heat.%0A%0AThis%20is%20not%20an%20isolated%20case.%20It%20is%20part%20of%20a%20growing%20pattern%20in%20Los%20Angeles%20where%20animal%20cruelty%20and%20neglect%20go%20unaddressed%2C%20making%20the%20city's%20animal%20welfare%20enforcement%20a%20joke.%0A%0ALeaving%20a%20dog%20tethered%20in%20extreme%20heat%20without%20proper%20care%20violates%20Los%20Angeles%20Municipal%20Code%20and%20California%20law.%20California%20Penal%20Code%20allows%20peace%20officers%20and%20animal%20control%20officers%20to%20seize%20and%20impound%20an%20animal%20based%20on%20suspected%20abuse%20or%20neglect%20when%20there%20is%20reasonable%20belief%20that%20prompt%20action%20is%20needed%20to%20protect%20the%20animal's%20health%20or%20safety.%20Confirmation%20of%20abuse%20is%20not%20required%20for%20immediate%20intervention.%0A%0AI%20and%20many%20concerned%20residents%20demand%20that%20LA%20Animal%20Services%20take%20immediate%20action%3A%0A%0A-%20Dispatch%20officers%20to%203112%20S%20Western%20Ave%20today%20to%20check%20on%20the%20dog%20and%20seize%20it%20from%20the%20harmful%20situation%20if%20needed.%0A-%20Investigate%20the%20owners%20and%20hold%20them%20fully%20accountable%20under%20the%20law.%0A-%20Resolve%20this%20case%20promptly.%0A%0ACitizen%20of%20Los%20Angeles%20and%20beyond%20are%20tired%20of%20repeated%20failures%20by%20LA%20Animal%20Services%20to%20protect%20animals%20in%20distress.%20This%20situation%20must%20be%20sorted%20out%20now%20with%20no%20more%20excuses.%0A%0AThank%20you%20for%20your%20urgent%20attention%20to%20this%20matter.%0A%0AEvidence%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F11DspwgrsXU5lCAhj_3UcAyWxi3eTwroC%2Fview%3Fusp%3Dsharing%0A%0ASincerely%2C%0A%0A%40HallieForAniamls%20Team%0Acontact%40hallieforanimals.org",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/recue-tethered-dog-at-3112-s-western-ave-la",
+          "createdAt": "2026-03-17"
+        },
+        {
+          "title": "Release Wayne Hsiung & Associates",
+          "slug": "release-wayne-hsiung-associates",
+          "caseId": "release-wayne-hsiung-associates",
+          "instagram": "",
+          "description": "Activists today rescued 22 beagles from Ridglan Farms, a facility that breeds beagles for the \"purpose\" of animal testing.\nMultiple activists were arrested, including co-founder of @directactioneverywhere DxE @waynehhsiung & former Baywatch actress @thealexandrapaul.\nOur kids are raised to be compassionate and kind to others, but adults are being arrested for the exact same thing.\n\nSheriff Kalvin Barrett and his band of thugs at @danectysheriffsoffice seized eight of the beagles to be delivered back to the very abusers they were liberated from.\n\nWe are calling for the release of the beagles confiscated and the release of the activists involved without charge. Laws exist to protect the good and punish the wicked, not the other way around.",
+          "location": {
+            "country": "United States",
+            "region": "Wisconsin",
+            "locality": "Blue Mounds"
+          },
+          "targets": [
+            "Dane County Sheriff & DA's Office"
+          ],
+          "phones": [
+            {
+              "who": "Dane County Sheriff's Office",
+              "main": "+1 608 284 6800",
+              "ext": ""
+            },
+            {
+              "who": "Dane County District Attorney's Office",
+              "main": "+1 608 266 4211",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:barrett.Kalvin@danesheriff.com,Ismael.Ozanne@da.wi.gov,DATCPHotline@wisconsin.gov,farmcenter@wisconsin.gov,sheriff.records@danesheriff.com?subject=Release%20Wayne%20Hsiung%20%26%20Associates&body=To%20whom%20it%20may%20concern%2C%0A%0AI%20am%20writing%20as%20a%20concerned%20citizen%20to%20demand%20the%20immediate%20release%20of%20Wayne%20Hsiung%20and%20all%20associated%20activists%20arrested%20today%2C%20March%2015%2C%202026%2C%20during%20a%20peaceful%20open%20rescue%20at%20Ridglan%20Farms%20(10489%20W%20Blue%20Mounds%20Rd%2C%20Blue%20Mounds%2C%20WI).%20These%20individuals%20acted%20to%20document%20and%20alleviate%20documented%20suffering%20of%20beagles%20bred%20for%20laboratory%20experimentation.%20Continuing%20to%20hold%20them%20while%20ignoring%20the%20facility%E2%80%99s%20practices%20is%20a%20miscarriage%20of%20justice.%20%20%0A%0ARidglan%20Farms%20is%20a%20private%20breeder%2C%20but%20its%20operations%20are%20indirectly%20subsidized%20by%20**taxpayer%20dollars**.%20Federal%20agencies%20like%20the%20National%20Institutes%20of%20Health%20(NIH)%20provide%20grants%20to%20universities%20and%20labs%20that%20purchase%20Ridglan%20beagles%20for%20testing.%20Public%20funds%20are%20therefore%20flowing%20into%20a%20system%20that%20breeds%20and%20uses%20these%20dogs%20in%20experiments.%20%20%0A%0ACompounding%20this%20misuse%20of%20public%20money%20is%20the%20shocking%20reality%20that%2090%E2%80%9395%25%20of%20drugs%20and%20treatments%20that%20succeed%20in%20animal%20trials%20fail%20in%20human%20clinical%20trials.%20The%20vast%20majority%20of%20these%20experiments%20lead%20to%20unnecessary%20suffering%20and%20death%20for%20the%20animals%2C%20with%20no%20meaningful%20benefit%20to%20human%20health.%20We%20are%20sacrificing%20sentient%20beings%20on%20the%20altar%20of%20a%20system%20that%20is%20scientifically%20inefficient%20and%20ethically%20indefensible.%20%20%0A%0AIf%20a%20private%20individual%20conducted%20the%20exact%20same%20experiments%20injecting%20compounds%20into%20dogs%20to%20test%20effects%20in%20their%20basement%20without%20licenses%20or%20oversight%2C%20they%20would%20face%20immediate%20felony%20animal%20cruelty%20charges%20under%20Wisconsin%20law%20(Wis.%20Stat.%20%C2%A7%20951)%20and%20the%20federal%20Animal%20Welfare%20Act.%20Yet%20licensed%20facilities%20like%20Ridglan%20receive%20legal%20protections%20and%20exemptions%20simply%20because%20they%20hold%20the%20proper%20paperwork.%20This%20double%20standard%20allows%20institutionalized%20cruelty%20while%20punishing%20those%20who%20try%20to%20stop%20it.%20Animals%20in%20these%20facilities%20endure%20conditions%20that%20would%20result%20in%20prosecution%20if%20inflicted%20on%20pet%20dogs.%20%20%0A%0AI%20respectfully%20demand%20that%20you%3A%20%20%0A1.%20Immediately%20drop%20all%20charges%20and%20release%20Wayne%20Hsiung%20and%20the%20other%20activists.%20%20%0A2.%20Launch%20a%20full%20investigation%20into%20Ridglan%20Farms%20for%20violations%20of%20animal%20cruelty%20statutes%2C%20using%20the%20evidence%20provided%20by%20today%E2%80%99s%20rescue.%20%20%0A3.%20Order%20the%20Dane%20County%20Sheriff's%20Office%20to%20return%20the%208%20seized%20beagles%20to%20the%20care%20of%20experienced%20rescuers%20or%20a%20safe%20sanctuary%2C%20ensuring%20they%20are%20not%20returned%20to%20Ridglan%20Farms.%0A4.%20Prioritize%20the%20welfare%20of%20the%20remaining%20beagles%20and%20enforce%20the%20law%20consistently%2C%20without%20favoritism%20toward%20licensed%20experimentation.%20%20%0A%0APublic%20trust%20in%20our%20justice%20system%20requires%20equal%20application%20of%20cruelty%20laws%2C%20regardless%20of%20industry%20protections%20or%20taxpayer%20involvement.%20The%20moral%20and%20fiscal%20case%20against%20continuing%20these%20practices%20is%20clear.%20Please%20act%20swiftly%20and%20provide%20a%20public%20update%20on%20steps%20taken.%20%20%0A%0AThank%20you%20for%20your%20attention%20to%20this%20urgent%20matter.%0A%0ASincerely%2C%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/release-wayne-hsiung-associates",
+          "createdAt": "2026-03-15"
+        },
+        {
+          "title": "Hold Cairo Dog Abuser Accountable",
+          "slug": "hold-cairo-dog-abuser-accountable",
+          "caseId": "hold-cairo-dog-abuser-accountable",
+          "instagram": "",
+          "description": "Location: Said Street, Army Square\n\nAbused dogs are 2-4x more likely to bite.\nEgypt has an estimated 1.4 million bite and scratch incidents and around 60 human rabies deaths per year, and yet the dogs always get the blame.",
+          "location": {
+            "country": "Egypt",
+            "region": "Cairo",
+            "locality": ""
+          },
+          "targets": [
+            "Egyptian Ministry of the Interior"
+          ],
+          "phones": [
+            {
+              "who": "Egyptian Ministry of the Interior",
+              "main": "+20 02 240 60 718",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:media.office8@op.gov.eg,h.sector@moi.gov.eg,complaints.moi@moi.gov.eg,center@moi.gov.eg,govs.egypt@gmail.com,eeaa@moenv.gov.eg?subject=Public%20Dog%20Abuse%20in%20Cairo%20Fuels%20Rabies%20%26%20Bite%20Risks&body=%D8%A5%D9%84%D9%89%20%D9%85%D9%86%20%D9%8A%D9%87%D9%85%D9%87%20%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D8%8C%0A%0A%D8%A3%D9%83%D8%AA%D8%A8%20%D8%A5%D9%84%D9%8A%D9%83%D9%85%20%D9%84%D8%A3%D8%A8%D9%84%D8%BA%D9%83%D9%85%20%D8%B1%D8%B3%D9%85%D9%8A%D8%A7%D9%8B%20%D8%B9%D9%86%20%D8%AD%D8%A7%D8%AF%D8%AB%D8%A9%20%D9%85%D8%B1%D9%88%D8%B9%D8%A9%20%D8%AA%D8%AA%D8%B9%D9%84%D9%82%20%D8%A8%D8%A7%D9%84%D9%82%D8%B3%D9%88%D8%A9%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA%20%D9%88%D9%82%D8%B9%D8%AA%20%D9%81%D9%8A%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%B3%D8%B9%D9%8A%D8%AF%D8%8C%20%D9%85%D9%8A%D8%AF%D8%A7%D9%86%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B4%20(%D9%85%D9%86%D8%B7%D9%82%D8%A9%20%D8%A7%D9%84%D8%AF%D8%A7%D9%87%D8%B1)%20%D8%A8%D9%88%D8%B3%D8%B7%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9.%20%D8%AA%D9%85%20%D8%AA%D8%B5%D9%88%D9%8A%D8%B1%20%D8%B1%D8%AC%D9%84%20%D9%81%D9%8A%20%D9%85%D9%82%D8%B7%D8%B9%20%D9%81%D9%8A%D8%AF%D9%8A%D9%88%20%D9%88%D9%87%D9%88%20%D9%8A%D8%B1%D9%83%D9%84%20%D9%83%D9%84%D8%A8%D9%8B%D8%A7%20%D8%A3%D8%B9%D8%B2%D9%84%20%D8%B9%D8%AF%D8%A9%20%D9%85%D8%B1%D8%A7%D8%AA%20%D9%81%D9%8A%20%D9%88%D8%B6%D8%AD%20%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%B1%D8%8C%20%D8%AA%D8%A7%D8%B1%D9%83%D9%8B%D8%A7%20%D8%A5%D9%8A%D8%A7%D9%87%20%D9%85%D8%B1%D8%B9%D9%88%D8%A8%D9%8B%D8%A7%20%D9%88%D8%BA%D9%8A%D8%B1%20%D9%82%D8%A7%D8%AF%D8%B1%20%D8%AD%D8%AA%D9%89%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%86%D8%B8%D8%B1%20%D8%A5%D9%84%D9%89%20%D9%85%D9%86%20%D8%A3%D8%B3%D8%A7%D8%A1%20%D8%A5%D9%84%D9%8A%D9%87.%20%D9%83%D8%A7%D9%86%20%D8%A7%D9%84%D9%83%D9%84%D8%A8%20%D9%85%D8%B1%D8%A8%D9%88%D8%B7%D9%8B%D8%A7%20%D8%A8%D8%B3%D9%84%D8%B3%D9%84%D8%A9%20%D9%88%D9%8A%D8%A7%D9%82%D8%A9%D8%8C%20%D9%85%D9%85%D8%A7%20%D9%8A%D8%B4%D9%8A%D8%B1%20%D8%A5%D9%84%D9%89%20%D8%A3%D9%86%D9%87%20%D9%82%D8%AF%20%D9%8A%D9%83%D9%88%D9%86%20%D9%85%D9%84%D9%83%D9%8B%D8%A7%20%D9%84%D9%87%D8%B0%D8%A7%20%D8%A7%D9%84%D8%B4%D8%AE%D8%B5.%20%D9%88%D9%82%D9%81%20%D8%A7%D9%84%D9%85%D8%A7%D8%B1%D8%A9%20%D9%85%D9%83%D8%AA%D9%88%D9%81%D9%8A%20%D8%A7%D9%84%D8%A3%D9%8A%D8%AF%D9%8A%20%D8%AF%D9%88%D9%86%20%D8%AA%D8%AF%D8%AE%D9%84%D8%8C%20%D9%88%D8%B9%D8%A7%D9%86%D9%89%20%D8%A7%D9%84%D9%83%D9%84%D8%A8%D8%8C%20%D8%A7%D9%84%D8%B0%D9%8A%20%D9%83%D8%A7%D9%86%20%D9%81%D9%8A%20%D8%AD%D8%A7%D9%84%D8%A9%20%D8%B6%D8%B9%D9%81%20%D8%A8%D8%A7%D9%84%D9%81%D8%B9%D9%84%D8%8C%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A3%D9%84%D9%85%20%D9%88%D8%A7%D9%84%D8%AE%D9%88%D9%81.%0A%0A%D9%84%D8%A7%20%D9%8A%D9%85%D8%AB%D9%84%20%D9%87%D8%B0%D8%A7%20%D8%A7%D9%84%D9%81%D8%B9%D9%84%20%D8%A7%D9%86%D8%AA%D9%87%D8%A7%D9%83%D9%8B%D8%A7%20%D8%B5%D8%A7%D8%B1%D8%AE%D9%8B%D8%A7%20%D9%84%D9%82%D9%88%D8%A7%D9%86%D9%8A%D9%86%20%D9%85%D8%B5%D8%B1%20%D9%81%D8%AD%D8%B3%D8%A8%D8%8C%20%D8%A8%D9%84%20%D9%8A%D9%87%D8%AF%D8%AF%20%D8%A3%D9%8A%D8%B6%D9%8B%D8%A7%20%D8%A7%D9%84%D8%B5%D8%AD%D8%A9%20%D9%88%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D8%A8%D8%B4%D9%83%D9%84%20%D9%85%D8%A8%D8%A7%D8%B4%D8%B1.%0A%0A%D8%AA%D9%88%D8%A7%D8%AC%D9%87%20%D9%85%D8%B5%D8%B1%20%D8%A3%D8%B2%D9%85%D8%A9%20%D8%AE%D8%B7%D9%8A%D8%B1%D8%A9%20%D8%AA%D8%AA%D8%B9%D9%84%D9%82%20%D8%A8%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8%D8%8C%20%D8%AD%D9%8A%D8%AB%20%D8%A3%D8%A8%D9%84%D8%BA%D8%AA%20%D9%88%D8%B2%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B5%D8%AD%D8%A9%20%D8%B9%D9%86%20%D8%A3%D9%83%D8%AB%D8%B1%20%D9%85%D9%86%201.2%20%D9%85%D9%84%D9%8A%D9%88%D9%86%20%D8%AD%D8%A7%D9%84%D8%A9%20%D8%B9%D8%B6%20%D8%A3%D9%88%20%D8%AE%D8%AF%D8%B4%20%D9%85%D9%86%20%D9%82%D8%A8%D9%84%20%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A9%20%D9%85%D9%86%20%D9%8A%D9%86%D8%A7%D9%8A%D8%B1%20%D8%A5%D9%84%D9%89%20%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1%202025%20%D9%88%D8%AD%D8%AF%D9%87%D8%A7%20(%D8%A7%D9%84%D8%B9%D8%AF%D9%8A%D8%AF%20%D9%85%D9%86%D9%87%D8%A7%20%D9%85%D8%B1%D8%AA%D8%A8%D8%B7%20%D8%A8%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8)%D8%8C%20%D9%88%D8%AA%D8%B5%D9%84%20%D8%A7%D9%84%D8%A3%D8%B1%D9%82%D8%A7%D9%85%20%D8%A5%D9%84%D9%89%20%D9%85%D8%A7%20%D9%8A%D8%B5%D9%84%20%D8%A5%D9%84%D9%89%201.4%20%D9%85%D9%84%D9%8A%D9%88%D9%86%20%D8%AD%D8%A7%D9%84%D8%A9%20%D8%B9%D8%B6%20%D9%85%D9%86%20%D9%82%D8%A8%D9%84%20%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8%20%D8%B9%D9%84%D9%89%20%D9%85%D8%AF%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%20%D8%A8%D8%A3%D9%83%D9%85%D9%84%D9%87%20%D9%81%D9%8A%20%D8%A8%D8%B9%D8%B6%20%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1.%20%D9%84%D8%A7%20%D9%8A%D8%B2%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A1%20%D8%A7%D9%84%D9%83%D9%84%D8%A8%20%D9%8A%D9%85%D8%AB%D9%84%20%D8%AE%D8%B7%D8%B1%D9%8B%D8%A7%20%D9%85%D9%85%D9%8A%D8%AA%D9%8B%D8%A7%D8%8C%20%D8%AD%D9%8A%D8%AB%20%D9%8A%D9%88%D8%AF%D9%8A%20%D8%A8%D8%AD%D9%8A%D8%A7%D8%A9%20%D9%85%D8%A7%20%D9%8A%D9%82%D8%B1%D8%A8%20%D9%85%D9%86%2060%20%D8%B4%D8%AE%D8%B5%D9%8B%D8%A7%20%D8%B3%D9%86%D9%88%D9%8A%D9%8B%D8%A7%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%B1%D8%BA%D9%85%20%D9%85%D9%86%20%D8%AA%D9%88%D9%81%D8%B1%20%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D8%AC%D8%A7%D8%AA%20%D8%A8%D8%B9%D8%AF%20%D8%A7%D9%84%D8%AA%D8%B9%D8%B1%D8%B6.%20%D8%AA%D8%B3%D8%A7%D9%87%D9%85%20%D8%A3%D8%B9%D8%AF%D8%A7%D8%AF%20%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8%20(%D8%A8%D9%85%D8%A7%20%D9%81%D9%8A%20%D8%B0%D9%84%D9%83%20%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B6%D8%A7%D9%84%D8%A9%20%D9%88%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D9%84%D9%8A%D9%81%D8%A9%20%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%88%D9%83%D8%A9)%20%D9%81%D9%8A%20%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9%20%D9%87%D8%B0%D9%87%20%D8%A7%D9%84%D8%A3%D8%B1%D9%82%D8%A7%D9%85%D8%8C%20%D9%84%D9%83%D9%86%20%D8%A7%D9%84%D8%A5%D8%B3%D8%A7%D8%A1%D8%A9%20%D8%BA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%85%D9%82%D9%8A%D8%AF%D8%A9%20%D8%AA%D9%81%D8%A7%D9%82%D9%85%20%D8%A7%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9.%0A%0A%D8%AA%D8%AE%D9%84%D9%82%20%D9%87%D8%B0%D9%87%20%D8%A7%D9%84%D9%82%D8%B3%D9%88%D8%A9%20%D8%AD%D9%84%D9%82%D8%A9%20%D8%AE%D8%B7%D9%8A%D8%B1%D8%A9%3A%0A-%20%D8%A5%D8%B3%D8%A7%D8%A1%D8%A9%20%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A9%20%D8%A7%D9%84%D9%83%D9%84%D8%A8%20%D8%AA%D8%BA%D8%B1%D8%B3%20%D8%A7%D9%84%D8%AE%D9%88%D9%81%20%D8%A7%D9%84%D8%B9%D9%85%D9%8A%D9%82%20%D9%88%D8%A7%D9%84%D8%B5%D8%AF%D9%85%D8%A9.%0A-%20%D8%A7%D9%84%D9%83%D9%84%D8%A8%20%D8%A7%D9%84%D9%85%D8%B1%D8%B9%D9%88%D8%A8%20%D9%88%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D9%88%D9%85%20%D8%A3%D9%83%D8%AB%D8%B1%20%D8%B9%D8%B1%D8%B6%D8%A9%20%D8%A8%D9%83%D8%AB%D9%8A%D8%B1%20%D9%84%D9%84%D8%B1%D8%AF%20%D8%A8%D8%B4%D9%83%D9%84%20%D8%AF%D9%81%D8%A7%D8%B9%D9%8A%20-%20%D8%A8%D8%A7%D9%84%D8%B9%D8%B6%20%D8%A3%D9%88%20%D8%A7%D9%84%D8%B9%D8%B6%20%D8%B9%D9%86%D8%AF%20%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B1%D8%A7%D8%A8%20%D9%85%D9%86%D9%87%20%D8%A3%D9%88%20%D9%85%D8%AD%D8%A7%D8%B5%D8%B1%D8%AA%D9%87%20%D8%A3%D9%88%20%D8%B4%D8%B9%D9%88%D8%B1%D9%87%20%D8%A8%D8%A7%D9%84%D8%AA%D9%87%D8%AF%D9%8A%D8%AF.%0A-%20%D9%8A%D8%A4%D8%AF%D9%8A%20%D9%87%D8%B0%D8%A7%20%D8%A5%D9%84%D9%89%20%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF%20%D9%85%D9%86%20%D8%AD%D8%A7%D9%84%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D8%B6%20%D9%84%D9%84%D9%86%D8%A7%D8%B3%20(%D8%AE%D8%A7%D8%B5%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84%20%D8%A3%D9%88%20%D8%A7%D9%84%D9%85%D8%A7%D8%B1%D8%A9%20%D8%BA%D9%8A%D8%B1%20%D8%A7%D9%84%D9%85%D8%AF%D8%B1%D9%83%D9%8A%D9%86%20%D9%84%D9%84%D8%AE%D8%B7%D8%B1).%0A-%20%D8%AB%D9%85%20%D9%8A%D9%8F%D9%84%D9%82%D9%89%20%D8%A7%D9%84%D9%84%D9%88%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%83%D9%84%D8%A8%D8%8C%20%D9%88%D8%BA%D8%A7%D9%84%D8%A8%D9%8B%D8%A7%20%D9%85%D8%A7%20%D9%8A%D8%AA%D9%85%20%D8%A5%D8%B9%D8%AF%D8%A7%D9%85%D9%87%20%D8%A3%D9%88%20%D8%AA%D8%B3%D9%85%D9%8A%D9%85%D9%87%D8%8C%20%D8%A8%D9%8A%D9%86%D9%85%D8%A7%20%D9%8A%D8%B8%D9%84%20%D8%A7%D9%84%D8%B3%D8%A8%D8%A8%20%D8%A7%D9%84%D8%AC%D8%B0%D8%B1%D9%8A%20-%20%D8%A7%D9%84%D8%A5%D8%B3%D8%A7%D8%A1%D8%A9%20-%20%D8%AF%D9%88%D9%86%20%D8%B9%D9%82%D8%A7%D8%A8.%0A-%20%D9%88%D8%AA%D8%B3%D8%AA%D9%85%D8%B1%20%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9%3A%20%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF%20%D9%85%D9%86%20%D8%A7%D9%84%D8%AE%D9%88%D9%81%20%D9%85%D9%86%20%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8%D8%8C%20%D9%88%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF%20%D9%85%D9%86%20%D8%A7%D9%84%D9%82%D8%B3%D9%88%D8%A9%D8%8C%20%D9%88%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF%20%D9%85%D9%86%20%D9%85%D8%AE%D8%A7%D8%B7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%AF%D9%88%D8%A7%D9%86%D9%8A%D8%A9%D8%8C%20%D9%88%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B9%D8%B1%D8%B6%20%D9%84%D8%AF%D8%A7%D8%A1%20%D8%A7%D9%84%D9%83%D9%84%D8%A8.%0A%0A%D9%88%D8%A8%D9%81%D8%B4%D9%84%D9%86%D8%A7%20%D9%81%D9%8A%20%D9%85%D8%B9%D8%A7%D9%84%D8%AC%D8%A9%20%D9%87%D8%B0%D8%A7%20%D8%A7%D9%84%D8%A5%D8%B3%D8%A7%D8%A1%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%D8%8C%20%D8%AA%D8%B8%D9%84%20%D9%85%D8%AC%D8%AA%D9%85%D8%B9%D8%A7%D8%AA%D9%86%D8%A7%20%D9%85%D8%B9%D8%B1%D8%B6%D8%A9%20%D9%84%D9%84%D8%AE%D8%B7%D8%B1.%20%D8%A5%D9%86%20%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A9%20%D8%A7%D9%84%D8%AC%D8%A7%D9%86%D9%8A%20%D9%85%D9%86%20%D8%B4%D8%A3%D9%86%D9%87%20%D8%A3%D9%86%20%D9%8A%D8%B1%D8%AF%D8%B9%20%D8%A7%D9%84%D8%A5%D8%B3%D8%A7%D8%A1%D8%A9%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84%D8%8C%20%D9%88%D9%8A%D8%AF%D8%B9%D9%85%20%D8%AC%D9%87%D9%88%D8%AF%20%D9%85%D8%B5%D8%B1%20%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%AF%D8%A7%D8%A1%20%D8%A7%D9%84%D9%83%D9%84%D8%A8%20(%D8%A8%D9%85%D8%A7%20%D9%81%D9%8A%20%D8%B0%D9%84%D9%83%20%D8%AA%D8%B7%D8%B9%D9%8A%D9%85%20%D9%88%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5%20%D8%A2%D9%84%D8%A7%D9%81%20%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B6%D8%A7%D9%84%D8%A9%20%D9%84%D8%AA%D8%AD%D9%82%D9%8A%D9%82%20%D9%87%D8%AF%D9%81%20%E2%80%9D%D9%85%D8%B5%D8%B1%20%D8%AE%D8%A7%D9%84%D9%8A%D8%A9%20%D9%85%D9%86%20%D8%AF%D8%A7%D8%A1%20%D8%A7%D9%84%D9%83%D9%84%D8%A8%20%D8%A8%D8%AD%D9%84%D9%88%D9%84%20%D8%B9%D8%A7%D9%85%202030%E2%80%9C)%D8%8C%20%D9%88%D9%8A%D9%82%D9%84%D9%84%20%D9%85%D9%86%20%D8%AD%D9%88%D8%A7%D8%AF%D8%AB%20%D8%A7%D9%84%D8%B9%D8%B6%20%D9%84%D9%84%D8%AC%D9%85%D9%8A%D8%B9.%0A%0A%D8%A8%D9%85%D9%88%D8%AC%D8%A8%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20(%D9%85%D8%AB%D9%84%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF%20355-357)%D8%8C%20%D9%8A%D9%8F%D8%AC%D8%B1%D9%91%D9%85%20%D8%A7%D9%84%D8%A5%D9%8A%D8%B0%D8%A7%D8%A1%20%D8%A7%D9%84%D9%85%D8%AA%D8%B9%D9%85%D8%AF%20%D8%A3%D9%88%20%D8%A7%D9%84%D9%82%D8%AA%D9%84%20%D8%A3%D9%88%20%D8%A7%D9%84%D9%82%D8%B3%D9%88%D8%A9%20%D8%AA%D8%AC%D8%A7%D9%87%20%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D9%84%D9%8A%D9%81%D8%A9%2F%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%A3%D9%86%D8%B3%D8%A9%D8%8C%20%D9%85%D8%B9%20%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA%20%D8%AA%D8%B4%D9%85%D9%84%20%D8%A7%D9%84%D8%B3%D8%AC%D9%86%20%D9%88%D8%A7%D9%84%D8%BA%D8%B1%D8%A7%D9%85%D8%A7%D8%AA.%20%D9%88%D9%82%D8%AF%20%D8%A3%D9%83%D8%AF%D8%AA%20%D8%A7%D9%84%D9%86%D9%8A%D8%A7%D8%A8%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D8%A3%D9%86%20%D8%A5%D8%B3%D8%A7%D8%A1%D8%A9%20%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A9%20%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA%20%D8%AA%D9%86%D8%AA%D9%87%D9%83%20%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%88%D8%A7%D9%84%D9%82%D9%8A%D9%85%20%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D9%8A%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D8%AE%D9%84%D8%A7%D9%82%20%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A%D8%A9%D8%8C%20%D9%88%D8%AD%D8%AB%D8%AA%20%D8%B9%D9%84%D9%89%20%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%20%D8%AA%D8%AD%D9%82%D9%8A%D9%82%D8%A7%D8%AA%20%D9%88%D8%A7%D8%AA%D8%AE%D8%A7%D8%B0%20%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA%20%D8%B5%D8%A7%D8%B1%D9%85%D8%A9.%0A%0A%D8%A3%D8%AD%D8%AB%D9%83%D9%85%20%D8%B9%D9%84%D9%89%3A%0A-%20%D8%AA%D8%AD%D8%AF%D9%8A%D8%AF%20%D9%87%D9%88%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%20%D8%A7%D9%84%D9%85%D8%B3%D8%A4%D9%88%D9%84%20%D9%88%D8%A7%D8%B9%D8%AA%D9%82%D8%A7%D9%84%D9%87.%0A-%20%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%20%D8%AA%D8%AD%D9%82%D9%8A%D9%82%20%D8%B4%D8%A7%D9%85%D9%84%20%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%20%D8%A7%D9%84%D8%A3%D8%AF%D9%84%D8%A9%20%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9.%0A-%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B6%D8%A7%D8%A9%20%D8%A8%D8%A3%D9%82%D8%B5%D9%89%20%D9%85%D8%A7%20%D9%8A%D8%B3%D9%85%D8%AD%20%D8%A8%D9%87%20%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%84%D8%AA%D9%83%D9%88%D9%86%20%D8%B9%D8%A8%D8%B1%D8%A9%20%D9%84%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1.%0A-%20%D8%A7%D9%84%D8%AA%D9%86%D8%B3%D9%8A%D9%82%20%D9%85%D8%B9%20%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A8%D9%8A%D8%B7%D8%B1%D9%8A%D8%A9%20%D9%84%D8%A5%D9%86%D9%82%D8%A7%D8%B0%2F%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9%20%D8%AA%D8%A3%D9%87%D9%8A%D9%84%20%D8%A7%D9%84%D9%83%D9%84%D8%A8%20%D8%A5%D9%86%20%D8%A3%D9%85%D9%83%D9%86.%0A%0A%D9%8A%D8%AA%D8%B7%D9%84%D8%A8%20%D9%87%D8%B0%D8%A7%20%D8%A7%D9%84%D8%AD%D8%A7%D8%AF%D8%AB%20%D8%A7%D8%AA%D8%AE%D8%A7%D8%B0%20%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA%20%D9%81%D9%88%D8%B1%D9%8A%D8%A9%20%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA%20%D9%88%D8%B3%D9%84%D8%A7%D9%85%D8%A9%20%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1.%20%D9%8A%D8%B1%D8%AC%D9%89%20%D8%AA%D9%82%D8%AF%D9%8A%D9%85%20%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB%D8%A7%D8%AA%20%D8%B9%D8%A7%D9%85%D8%A9%20%D8%AD%D9%88%D9%84%20%D8%A7%D9%84%D9%82%D8%B6%D9%8A%D8%A9.%0A%0A%D8%B4%D9%83%D8%B1%D9%8B%D8%A7%20%D9%84%D8%A7%D9%87%D8%AA%D9%85%D8%A7%D9%85%D9%83%D9%85%20%D8%A8%D9%87%D8%B0%D9%87%20%D8%A7%D9%84%D9%85%D8%B3%D8%A3%D9%84%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D8%AC%D9%84%D8%A9.%0A%0A%D8%A7%D9%84%D8%A3%D8%AF%D9%84%D8%A9%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F17zqQ1qB7azuMl7tqwxXiLpkr_XhWEeG1%2Fview%3Fusp%3Dsharing%0A%0A%D9%85%D8%B9%20%D8%AE%D8%A7%D9%84%D8%B5%20%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D8%B1%D8%8C%0A%0A%D9%81%D8%B1%D9%8A%D9%82%20%40HallieForAnimals%0Acontact%40hallieforanimals.org%0A%0A%0A%0ATo%20whom%20it%20may%20concern%2C%0A%0AI%20am%20writing%20to%20formally%20report%20a%20shocking%20incident%20of%20animal%20cruelty%20that%20occurred%20on%20Said%20Street%2C%20Army%20Square%20(Al-Daher%20area)%20in%20central%20Cairo.%20A%20man%20was%20captured%20on%20video%20kicking%20a%20helpless%20dog%20multiple%20times%20in%20broad%20daylight%2C%20leaving%20it%20terrified%20and%20unable%20to%20even%20look%20at%20its%20abuser.%20The%20dog%20was%20on%20a%20lead%20and%20collar%2C%20suggesting%20it%20may%20belong%20to%20the%20individual.%20Bystanders%20stood%20by%20without%20intervening%2C%20and%20the%20dog%2C%20already%20vulnerable%2C%20suffered%20pain%20and%20fear.%0A%0AThis%20act%20is%20not%20only%20a%20blatant%20violation%20of%20Egypt's%20laws%20but%20also%20directly%20threatens%20public%20health%20and%20safety.%0A%0AEgypt%20faces%20a%20serious%20dog-related%20crisis%2C%20with%20the%20Ministry%20of%20Health%20reporting%20over%201.2%20million%20animal%20bites%20or%20scratches%20from%20January%20to%20September%202025%20alone%20(many%20dog-related)%2C%20and%20figures%20reaching%20up%20to%201.4%20million%20dog%20bite%20cases%20for%20the%20full%20year%20in%20some%20reports.%20Rabies%20remains%20a%20deadly%20risk%2C%20claiming%20an%20average%20of%20around%2060%20human%20lives%20annually%20despite%20post-exposure%20treatments%20being%20available.%20Dog%20populations%20(including%20strays%20and%20owned%20pets)%20drive%20these%20numbers%2C%20but%20unchecked%20abuse%20exacerbates%20the%20problem.%0A%0ASuch%20cruelty%20creates%20a%20dangerous%20cycle%3A%0A-%20Abusing%20a%20dog%20instills%20deep%20fear%20and%20trauma.%0A-%20A%20terrified%2C%20traumatized%20dog%20is%20far%20more%20likely%20to%20react%20defensively%20-%20snapping%20or%20biting%20when%20approached%2C%20cornered%2C%20or%20feeling%20threatened.%0A-%20This%20leads%20to%20more%20bites%20on%20people%20(especially%20children%20or%20unaware%20passersby).%0A-%20The%20dog%20then%20gets%20blamed%2C%20often%20euthanized%20or%20poisoned%2C%20while%20the%20root%20cause%20-%20abuse%20-%20goes%20unpunished.%0A-%20The%20cycle%20continues%3A%20more%20fear%20toward%20dogs%2C%20more%20cruelty%2C%20more%20aggression%20risks%2C%20and%20higher%20rabies%20exposure.%0A%0ABy%20failing%20to%20address%20this%20public%20abuse%2C%20our%20communities%20remain%20endangered.%20Holding%20the%20perpetrator%20accountable%20would%20deter%20future%20abuse%2C%20support%20Egypt's%20national%20rabies%20control%20efforts%20(including%20vaccinating%20and%20neutering%20thousands%20of%20strays%20toward%20the%20%22Egypt%20Free%20of%20Rabies%20by%202030%22%20goal)%2C%20and%20reduce%20bite%20incidents%20for%20everyone.%0A%0AUnder%20Egypt's%20Penal%20Code%20(e.g.%2C%20Articles%20355-357)%2C%20willful%20harm%2C%20killing%2C%20or%20cruelty%20to%20tame%2Fdomesticated%20animals%20is%20criminalized%2C%20with%20penalties%20including%20imprisonment%20and%20fines.%20The%20Public%20Prosecution%20has%20emphasized%20that%20animal%20abuse%20violates%20the%20law%2C%20religious%20values%2C%20and%20human%20ethics%2C%20urging%20investigations%20and%20strict%20action.%0A%0AI%20urge%20you%20to%3A%0A-%20Identify%20and%20arrest%20the%20individual%20responsible.%0A-%20Conduct%20a%20thorough%20investigation%20using%20the%20provided%20evidence.%0A-%20Prosecute%20to%20the%20fullest%20extent%20of%20the%20law%20to%20set%20a%20public%20example.%0A-%20Coordinate%20with%20veterinary%20services%20for%20the%20dog's%20rescue%2Frehabilitation%20if%20possible.%0A%0AThis%20incident%20demands%20immediate%20action%20to%20protect%20both%20animals%20and%20public%20safety.%20Please%20provide%20public%20updates%20on%20the%20case.%0A%0AThank%20you%20for%20your%20attention%20to%20this%20urgent%20matter.%0A%0AEvidence%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F17zqQ1qB7azuMl7tqwxXiLpkr_XhWEeG1%2Fview%3Fusp%3Dsharing%0A%0ASincerely%2C%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/hold-cairo-dog-abuser-accountable",
+          "createdAt": "2026-03-14"
+        },
+        {
+          "title": "Expel Animal Abuser Student From KITS",
+          "slug": "expel-animal-abuser-student-from-kits",
+          "caseId": "expel-animal-abuser-student-from-kits",
+          "instagram": "",
+          "description": "",
+          "location": {
+            "country": "",
+            "region": "",
+            "locality": ""
+          },
+          "targets": [],
+          "phones": [],
+          "url": "mailto:elijahblessing@karunya.edu,pauldhinakaran@karunya.edu,sajankurien@karunya.edu,cop.cbec@tncctns.gov.in?subject=Full%20Investigation%2C%20Criminal%20Charges%2C%20and%20Permanent%20Expulsion%20for%20ALL%20Involved%20in%20KITS%20Kitten%20Cruelty%20Incident&body=To%20whom%20it%20may%20concern%2C%0A%0AI%20am%20writing%20as%20a%20deeply%20concerned%20citizen%20and%20advocate%20for%20animal%20welfare%20regarding%20the%20horrific%20animal%20cruelty%20incident%20at%20Karunya%20Institute%20of%20Technology%20and%20Sciences%20(KITS)%2C%20Coimbatore%2C%20captured%20on%20video%20in%20March%202026.%0AA%20student%20deliberately%20threw%20a%20kitten%20from%20the%20third-floor%20balcony%2C%20causing%20grievous%20harm%20or%20death%2C%20while%20others%20present%20recorded%20it%20mockingly%20(e.g.%2C%20with%20captions%20like%20%22Helicopter%20helicopter%22)%2C%20laughed%2C%20and%20failed%20to%20intervene.%0A%0APublic%20outrage%20has%20highlighted%20that%20this%20was%20a%20group%20act%20involving%3A%20%20%0A-%20The%20primary%20perpetrator%20%20%0A-%20At%20least%20one%20other%20individual%20visible%20in%20the%20background%20%20%0A-%20The%20person%20recording%2Fvideoing%20for%20social%20media%2F%22reels%22%20%20%0A-%20Additional%20bystanders%20who%20witnessed%2C%20encouraged%2C%20or%20did%20nothing%20to%20stop%20it%0A%0AWhile%20a%20suspension%20memo%20(dated%20March%2013%2C%202026)%20has%20been%20issued%20for%20the%20primary%20student%2C%20this%20interim%20measure%20is%20insufficient%20without%20escalation%20to%20permanent%20expulsion.%20All%20involved%20must%20face%20full%20accountability%20to%20reflect%20the%20severity%20of%20premeditated%20cruelty%20to%20a%20defenseless%20animal%20and%20to%20deter%20future%20incidents.%0A%0AUnder%20India's%20Prevention%20of%20Cruelty%20to%20Animals%20Act%2C%201960%20(Sections%2011%20for%20cruelty%20and%20abetment%20liability)%2C%20and%20the%20university's%20code%20of%20conduct%2C%20I%20urgently%20request%3A%0A%0ATo%20the%20University%20Administration%3A%20%20%0A%0A1.%20Expand%20the%20internal%20investigation%20(using%20video%2C%20hostel%20records%2C%20witness%20statements)%20to%20identify%20and%20name%20all%20accomplices%20and%20enablers.%20%20%0A2.%20Permanently%20expel%20every%20individual%20found%20involved%20(including%20those%20who%20recorded%20or%20failed%20to%20act)%20and%20bar%20them%20from%20future%20enrollment%20or%20campus%20access.%20%20%0A3.%20Implement%20mandatory%20animal%20welfare%2C%20ethics%2C%20and%20empathy%20training%20for%20all%20students%2Fhostel%20residents.%20%20%0A4.%20Issue%20a%20public%20statement%20detailing%20actions%20against%20all%20parties%20and%20reaffirming%20zero%20tolerance%20for%20cruelty.%0A%0ATo%20the%20Coimbatore%20Police%3A%20%20%0A%0A1.%20Swiftly%20expand%20the%20existing%20FIR%20investigation%20to%20identify%20and%20charge%20all%20culpable%20individuals%20(perpetrator%20%2B%20accomplices%2Fabetters).%20%20%0A2.%20File%20a%20chargesheet%20promptly%2C%20pursuing%20maximum%20penalties%20(fines%2C%20imprisonment%20where%20evidence%20supports).%20%20%0A3.%20Coordinate%20with%20KITS%20for%20evidence%20(e.g.%2C%20video%2C%20student%20details)%20and%20provide%20public%20updates%20on%20progress.%0A%0ASuch%20collective%20cruelty%20demonstrates%20a%20profound%20failure%20of%20empathy%20and%20ethics%20-%20values%20central%20to%20any%20educational%20institution.%20Harsh%2C%20group-wide%20consequences%20are%20essential%20for%20justice%2C%20public%20trust%2C%20and%20protection%20of%20voiceless%20animals.%0A%0AThank%20you%20for%20your%20immediate%20action.%20Please%20issue%20updates%20on%20the%20investigation%20and%20steps%20taken.%0A%0AEvidence%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1rF6o3OOnhjwks_EqGLR6que4OvTiTfqN%2Fview%3Fusp%3Dsharing%0A%0ASincerely%2C%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/expel-animal-abuser-student-from-kits",
+          "createdAt": "2026-03-14"
+        },
+        {
+          "title": "Stop Abusive Trainer NightTimeK9",
+          "slug": "stop-abusive-trainer-nighttimek9",
+          "caseId": "stop-abusive-trainer-nighttimek9",
+          "instagram": "",
+          "description": "Name: NightTimeK9\n\nLamar advocates for \"consequence-based training\", using leash pops with prong collars.\n\nMultiple studies link the improper use of prong collars with tracheal damage, reactivity, aggression, and spinal damage.\n\nInsta: @nighttimek9\nTikTok: nighttimek9\nYouTube: nighttimek9\nFaceBook: nighttimek9llc",
+          "location": {
+            "country": "United States",
+            "region": "Washington",
+            "locality": "Seattle"
+          },
+          "targets": [
+            "Dog Training Accreditation Schemes"
+          ],
+          "phones": [
+            {
+              "who": "CCPDT",
+              "main": "+1 855 362 3784",
+              "ext": ""
+            },
+            {
+              "who": "APDT International",
+              "main": "+1 800 738 3647",
+              "ext": ""
+            },
+            {
+              "who": "Karen Pryor Academy",
+              "main": "+1 800 472 5425",
+              "ext": ""
+            },
+            {
+              "who": "Fear Free",
+              "main": "+1 303 952 0585",
+              "ext": ""
+            },
+            {
+              "who": "Pet Professional Guild",
+              "main": "+1 914 357 5481",
+              "ext": ""
+            },
+            {
+              "who": "IACP",
+              "main": "+1 512 564 1011",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:administrator@ccpdt.org,info@ccpdt.org,ethics@iaabc.org,info@iaabc.org,membership@apdt.com,support@iacpdogs.org,operations@petprofessionalguild.com,pr@petprofessionalguild.com,wags@fearfree.com,certifyme@fearfree.com,support@karenpryoracademy.com,info@academyfordogtrainers.com,questions@iaabcfoundation.org,ceus@iaabcfoundation.org?subject=Complaint%20%2F%20credential%20check%3A%20Trainer%20using%20forceful%20%26%20aversive%20handling&body=To%20whom%20it%20may%20concern%2C%0A%0AThis%20is%20a%20formal%20complaint%2Fwarning%20regarding%20a%20dog%20trainer%20operating%20in%20Seattle%20and%20Bellevue%2C%20WA.%0A%0ALamar%20of%20NightTimeK9%0A%0AThe%20allegations%20are%20time-critical%20because%20this%20involves%20ongoing%20handling%20practices%20that%20can%20cause%20immediate%20physical%20injury%20and%20long-term%20fear%20conditioning.%0A%0AObserved%20conduct%20(demonstrated%2Fpromoted%2Fused%20on%20dogs)%3A%0A-%20hard%20lead%20yanks%20%2F%20leash%20pops%20with%20prong%20collars%0A-%20Ecollar%20use%2C%20adopting%20a%20pain-based%20training%20tecnique.%0A%0AWe%20demand%3A%0A%0A1)%20Credential%2Fstatus%20check%3A%0ADetermine%20whether%20Lamar%20of%20NightTimeK9%20is%20currently%20(or%20has%20ever%20been)%20certified%2C%20credentialed%2C%20listed%2C%20endorsed%2C%20or%20a%20member%20under%20your%20organization.%0A%0A2)%20Immediate%20enforcement%20where%20applicable%3A%0AIf%20he%20is%20connected%20to%20your%20organization%20in%20any%20capacity%2C%20treat%20this%20as%20a%20potential%20ethics%2Fstandards%20violation%20and%20take%20action%20consistent%20with%20your%20rules%20(investigation%2C%20suspension%2Frevocation%2C%20removal%20from%20directories%2C%20disciplinary%20record%2C%20etc.).%0A%0A3)%20Public%20clarification%20(where%20applicable)%3A%0AIf%20your%20organization%20is%20not%20associated%20with%20him%2C%20or%20if%20he%20has%20been%20removed%2Fdropped%2C%20publish%20a%20clear%20public%20statement%20clarifying%20that%20he%20is%20not%20certified%2Flisted%2Fmember%20(or%20that%20his%20status%20has%20been%20revoked%2Fended)%2C%20so%20your%20name%20cannot%20be%20used%2C%20directly%20or%20indirectly%2C%20to%20imply%20legitimacy.%0A%0A4)%20Clear%20routing%20%2F%20no%20quiet%20closures%3A%0ADo%20not%20bounce%20this%20between%20departments%20or%20silently%20close%20it%20out.%20If%20your%20org%20is%20not%20the%20correct%20venue%20for%20action%2C%20route%20internally%20to%20the%20correct%20ethics%2Fstandards%20contact%20and%20log%20this%20as%20a%20formal%20warning.%0A%0ABecause%20abusive%20trainers%20often%20continue%20operating%20behind%20implied%20credentials%20and%20brand%20association%2C%20this%20notice%20is%20being%20sent%20across%20multiple%20trainer%20bodies%2Fcertification%20orgs.%0A%0AEvidence%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1Val62MYVVBhPXP3onP2pRa7bmSNtTcDJ%2Fview%3Fusp%3Dsharing%0A%0ASincerely%2C%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/stop-abusive-trainer-nighttimek9",
+          "createdAt": "2026-03-13"
+        },
+        {
+          "title": "Neglect At 417 Aldis St, Los Angeles",
+          "slug": "neglect-at-417-aldis-st-los-angeles",
+          "caseId": "neglect-at-417-aldis-st-los-angeles",
+          "instagram": "",
+          "description": "Address: 1417 Aldis St, Los Angeles, CA 90001\n\nThese dogs are left for days at a time, without food and water. The owner has told neighbors not to feed them because he wants to \"train\" the dogs as \"savages\" that must hunt to survive.\nMultiple dogs have come and gone from the property; it's not clear if they were killed or not, but the owner has been known to beat his dogs.",
+          "location": {
+            "country": "United States",
+            "region": "California",
+            "locality": "Los Angeles"
+          },
+          "targets": [
+            "LA County Authorities"
+          ],
+          "phones": [
+            {
+              "who": "DACC",
+              "main": "+1 562 940 6898",
+              "ext": ""
+            },
+            {
+              "who": "LASD Century Sheriff's Station",
+              "main": "+1 323 568 4800",
+              "ext": ""
+            },
+            {
+              "who": "LA County Supervisor Holly J. Mitchell",
+              "main": "+1 213 974 2222",
+              "ext": ""
+            },
+            {
+              "who": "LA County District Attorney's Office",
+              "main": "+1 213 257 2000",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:janice.hahn@bos.lacounty.gov,nhochman@da.lacounty.gov,crminott@lasd.org,accpio@animalcare.lacounty.gov,HollyJMitchell@bos.lacounty.gov?subject=Neglect%20At%20417%20Aldis%20St%2C%20Los%20Angeles&body=To%20whom%20it%20may%20concern%2C%0A%0AThis%20is%20a%20formal%20report%20of%20severe%2C%20ongoing%20animal%20cruelty%20and%20neglect%20at%201417%20Aldis%20St%2C%20Los%20Angeles%2C%20CA%2090001.%0A%0ATwo%20adult%20dogs%20(one%20loose%20and%20distressed%20in%20the%20front%20area%3B%20one%20confined%20in%20the%20backyard).%0AOne%20black%20kitten%20(frequently%20roaming%20unattended).%0A%0AObserved%20Conditions%3A%0A%0AExtended%20owner%20absences%20(days%20at%20a%20time)%20with%20no%20access%20to%20food%20or%20water%20provided.%0ASevere%20emaciation%20in%20both%20dogs%20(ribs%2C%20spine%2C%20and%20hip%20bones%20prominently%20visible)%2C%20indicating%20starvation%20and%20dehydration.%0APhysical%20abuse%20including%20beating%20the%20dogs%2C%20tying%20them%20together%20as%20punishment%2C%20and%20throwing%20one%20dog%20forcefully%20against%20concrete%2C%20causing%20limping%20and%20disorientation.%0AOne%20dog%20repeatedly%20climbing%20onto%20the%20roof%2C%20posing%20imminent%20risk%20of%20fall%20and%20injury%2Fdeath.%0AExplicit%20prohibition%20to%20neighbors%20against%20providing%20food%20or%20water%2C%20with%20stated%20intent%20to%20%22train%22%20the%20animals%20as%20%22savages%22%20that%20must%20hunt%20to%20survive.%0AMultiple%20prior%20animals%20on%20the%20property%20that%20have%20disappeared%20over%20the%20past%20year.%0A%0ARequested%20Actions%3A%0AImmediate%20welfare%20check%2C%20assessment%2C%20and%20removal%2Frescue%20of%20the%20animals%20by%20DACC%20and%20LASD%20to%20prevent%20further%20suffering%20or%20death.%0ACoordinated%20criminal%20investigation%20by%20LASD%20and%20DACC%20into%20the%20neglect%2C%20abuse%2C%20and%20potential%20prior%20incidents.%0APublic%20statement%20from%20relevant%20agencies%20confirming%20steps%20taken%20or%20planned%2C%20and%20updating%20the%20community%20on%20the%20status%20of%20intervention.%0A%0APublic%20Safety%20Link%3A%20Animal%20Cruelty%20as%20Predictor%20of%20Human%20Violence%3A%0AAnimal%20cruelty%20is%20a%20well-documented%20predictor%20and%20co-occurring%20factor%20with%20violence%20against%20humans.%20The%20FBI%20tracks%20animal%20cruelty%20offenses%20in%20its%20National%20Incident-Based%20Reporting%20System%20(NIBRS)%20precisely%20because%20of%20this%20link%2C%20recognizing%20it%20as%20associated%20with%20assault%2C%20domestic%20violence%2C%20rape%2C%20murder%2C%20arson%2C%20and%20child%20abuse.%20Landmark%20research%2C%20including%20a%20Massachusetts%20SPCA%2FNortheastern%20University%20study%2C%20shows%20animal%20abusers%20are%20five%20times%20more%20likely%20to%20commit%20violent%20crimes%20against%20people.%20Additional%20studies%20indicate%20animal%20abuse%20occurs%20in%20up%20to%2088%25%20of%20homes%20investigated%20for%20child%20physical%20abuse%2C%20underscoring%20the%20broader%20community%20risk%20and%20the%20need%20for%20swift%20enforcement.%0A%0ARelevant%20California%20Penal%20Code%20Violations%20(Based%20on%20Described%20Conduct)%3A%0APenal%20Code%20%C2%A7%20597(a)%3A%20Maliciously%20and%20intentionally%20maims%2C%20mutilates%2C%20tortures%2C%20wounds%2C%20or%20kills%20a%20living%20animal.%0APenal%20Code%20%C2%A7%20597(b)%3A%20Overworks%2C%20tortures%2C%20torments%2C%20deprives%20of%20necessary%20sustenance%2Fdrink%2Fshelter%2C%20cruelly%20beats%2C%20mutilates%2C%20or%20cruelly%20kills%20an%20animal%3B%20or%2C%20as%20owner%2Fcustodian%2C%20subjects%20an%20animal%20to%20needless%20suffering%2C%20inflicts%20unnecessary%20cruelty%2C%20abuses%20an%20animal%2C%20or%20fails%20to%20provide%20proper%20food%2C%20drink%2C%20shelter%2C%20or%20protection%20from%20the%20weather.%0A%0AA%20prior%20report%20has%20been%20submitted%20to%20DACC.%20This%20escalates%20the%20matter%20for%20coordinated%20response%20due%20to%20the%20severity%2C%20ongoing%20nature%2C%20and%20public%20safety%20implications.%0APlease%20provide%20a%20public%20statement%20on%20actions%20taken%20or%20in%20progress.%0A%0AEvidence%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1os9qx_e7R6RKTUegTtIfVo1Y4ARCky63%2Fview%3Fusp%3Dsharing%0A%0ASincerely%2C%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/neglect-at-417-aldis-st-los-angeles",
+          "createdAt": "2026-03-11"
+        },
+        {
+          "title": "Ban Lee Cox From Showing Dogs",
+          "slug": "ban-lee-cox-from-showing-dogs",
+          "caseId": "ban-lee-cox-from-showing-dogs",
+          "instagram": "",
+          "description": "Abuser Name: Lee Cox\n\nThis year's winner of Best in Show at Crufts, Lee Cox, was convicted of animal cruelty in 2001 for causing unnecessary suffering to Adam the cocker spaniel, who suffered a chronic ear infection, ulcerated/oozing pus, and requiring inner ear amputation in disgusting conditions at Kaston Kennels.\nHe was sentenced to three years' conditional discharge and ordered to pay £5,000 in costs to the RSPCA.\nNo ban on keeping dogs was imposed.\nThe Royal Kennel Club knew he was a convicted animal abuser, but said: \"It was an isolated incident with no issues since.\"\nNo one would allow a child abuser to enter a child into a beauty pageant, so why was Cox allowed to show at Crufts?",
+          "location": {
+            "country": "United Kingdom",
+            "region": "Somerset",
+            "locality": "Mark"
+          },
+          "targets": [
+            "Royal Kennel Club Leadership & The RSPCA"
+          ],
+          "phones": [
+            {
+              "who": "The Royal Kennel Club",
+              "main": "+44 20 7518 1010",
+              "ext": ""
+            },
+            {
+              "who": "RSPCA",
+              "main": "+44 300 1234 999",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:supportercare@rspca.org.uk,Mark.Beazley@royalkennelclub.org.uk,breedshows@thekennelclub.org.uk,KCNotifications@thekennelclub.org.uk,press.office@thekennelclub.org.uk?subject=Ban%20Lee%20Cox%20From%20Showing%20Dogs&body=To%20whom%20it%20may%20concern%2C%0A%0AThis%20year's%20Crufts%20Best%20in%20Show%20winning%20handler%20Lee%20Cox%20was%20convicted%20in%202001%20under%20the%20Protection%20of%20Animals%20Act%201911%20for%20causing%20unnecessary%20suffering%20to%20a%20cocker%20spaniel%20named%20Adam%20in%20%22disgusting%22%20kennel%20conditions%20at%20Kaston%20Kennels%20(co-run%20by%20Cox).%20The%20dog%20suffered%20a%20chronic%20ear%20infection%20that%20ulcerated%2C%20oozed%20pus%2C%20and%20required%20surgical%20removal%20of%20the%20inner%20ear.%20%20%0A%0AAt%20no%20point%20would%20someone%20convicted%20of%20child%20abuse%20be%20allowed%20to%20enter%20a%20child%20into%20a%20beauty%20pageant%2C%20so%20why%20is%20a%20convicted%20animal%20abuser%20permitted%20to%20handle%2C%20show%2C%20or%20judge%20dogs%20at%20the%20world's%20largest%20dog%20event%3F%20Your%20%22isolated%20incident%22%20claim%20ignores%20documented%20risks%3A%20%20%0A%0A-%2096%25%20of%20animal%20abusers%20have%20prior%20or%20subsequent%20criminal%20records%20(41%25%20interpersonal%20violence%2C%2018%25%20sex%20offenses).%20%20%0A-%20Near%20100%25%20recidivism%20in%20cases%20like%20animal%20hoarding.%20%20%0A-%2085%25%20of%20animal%20cruelty%20arrests%20involve%20multiple%20prior%20arrests%20(70%25%20felonies).%20%20%0A-%2070%25%20of%20domestic%20violence%20perpetrators%20are%20also%20animal%20abusers.%20%20%0A%0AAnimal%20abuse%20correlates%20strongly%20with%20violent%20and%20sexual%20offenses%2C%20abusers%20are%20up%20to%205%20times%20more%20likely%20to%20commit%20crimes%20against%20humans%2C%20escalating%20from%20animals%20to%20assault%2C%20rape%2C%20domestic%20violence%2C%20or%20worse.%20Allowing%20Cox%20access%20undermines%20animal%20welfare%2C%20endangers%20dogs%2C%20and%20erodes%20public%20trust.%20%20%0A%0AWe%20demand%3A%20%20%0A-%20Immediate%20permanent%20ban%20on%20Lee%20Cox%20from%20all%20Kennel%20Club%2FCrufts%20events%2C%20handling%2C%20judging%2C%20exhibiting%2C%20breeding%20privileges%2C%20or%20affiliated%20activities.%20%20%0A-%20Review%2Fupdate%20of%20eligibility%20criteria%20for%20convicted%20animal%20abusers.%20%20%0A-%20Public%20statement%20addressing%20the%20conviction%20and%20actions%20taken.%20%20%0A%0ARSPCA%3A%20Investigate%20current%20welfare%20at%20Cox's%20facilities.%20%20%0A%0ASincerely%2C%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/ban-lee-cox-from-showing-dogs",
+          "createdAt": "2026-03-11"
+        },
+        {
+          "title": "Justice For Louie",
+          "slug": "justice-for-louie",
+          "caseId": "justice-for-louie",
+          "instagram": "",
+          "description": "Abuser Name: Brandon Robinson\nAddress: 11376 Aaron Ave, Beaumont, CA 92223\n\nRealtor Brandon Robinson (License no. ) pulled over his car just so he could stab Louie the French Bulldog on his own lawn.\nRobinson owns Calvary Realty (). The California Department of Real Estate complaint form is in my Linktree.\n\nInsta: @brandon_calvaryrealty & @calvaryrealty\nX: CalvaryRealty\nYouTube: calvaryrealtyinc.998",
+          "location": {
+            "country": "United States",
+            "region": "California",
+            "locality": "Beaumont"
+          },
+          "targets": [
+            "Beaumont Authorities & Riverside County District Attorney"
+          ],
+          "phones": [
+            {
+              "who": "Brandon Robinson",
+              "main": "+1 760 534 8135",
+              "ext": ""
+            },
+            {
+              "who": "Beaumont Police Department",
+              "main": "+1 951 769 8500",
+              "ext": ""
+            },
+            {
+              "who": "California Department of Real Estate",
+              "main": "+1 877 373 4542",
+              "ext": ""
+            },
+            {
+              "who": "Riverside County District Attorney",
+              "main": "+1 951 955 5400",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:shelterinfo@rivco.org,mhestrin@rivcoda.org,brobinson@calvaryrealty.com,officeofthechief@beaumontpd.org?subject=Immediate%20Charges%20For%20Brandon%20Robinson&body=To%20whom%20it%20may%20concern%2C%0A%0ABrandon%20Robinson%20(licensed%20realtor%20and%20owner%20of%20Calvary%20Realty%2C%20DRE%20%2301787727)%20of%2011376%20Aaron%20Ave%2C%20Beaumont%2C%20CA%2092223%2C%20stabbed%20a%20French%20Bulldog%20named%20Louie%20to%20death%20on%20the%20dog's%20own%20lawn%2Fproperty.%20This%20is%20felony%20animal%20cruelty%20under%20California%20Penal%20Code%20%C2%A7597(a)%2C%20maliciously%20maiming%2C%20wounding%2C%20or%20killing%20an%20animal%2C%20punishable%20by%20up%20to%203%20years%20in%20state%20prison%20and%2For%20a%20%2420%2C000%20fine.%0A%0AAnimal%20abusers%20are%20up%20to%205%20times%20more%20likely%20to%20commit%20violent%20and%20sexual%20offenses%20against%20humans.%20Research%20consistently%20shows%20escalation%20from%20animal%20cruelty%20to%20interpersonal%20violence%2C%20domestic%20abuse%2C%20assault%2C%20and%20sexual%20crimes.%20Allowing%20realtors%20with%20this%20history%20to%20interact%20with%20clients%20and%20the%20public%20creates%20unacceptable%20risk.%0A%0AWe%20demand%3A%0A-%20Immediate%20filing%20of%20felony%20charges%20against%20Brandon%20Robinson%20under%20Penal%20Code%20%C2%A7597(a)%0A-%20Full%20criminal%20investigation%2C%20including%20seizure%20of%20any%20weapons%2C%20necropsy%2Fveterinary%20records%2C%20and%20witness%20statements%0A-%20California%20Department%20of%20Real%20Estate%20to%20open%20an%20investigation%20into%20both%20licensees'%20moral%20character%20and%20fitness%20(separate%20complaint%20will%20be%20filed%20via%20eocs.dre.ca.gov)%0A-%20Public%20statements%20from%20the%20District%20Attorney's%20Office%20and%20Beaumont%20Police%20Department%20confirming%20the%20case%20is%20under%20active%20investigation%20and%20outlining%20next%20steps%0A%0AWe%20expect%20swift%20enforcement%20and%20public%20transparency.%0A%0AEvidence%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1MVpAOK2TDQ0F3N2BJivZdOSGM4eX7b6u%2Fview%3Fusp%3Dsharing%0A%0ASincerely%2C%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/justice-for-louie",
+          "createdAt": "2026-03-10"
+        },
+        {
+          "title": "Shut Down Abusive Trainer Ashleah Chiacchiero",
+          "slug": "shut-down-abusive-trainer-ashleah-chiacchiero",
+          "caseId": "shut-down-abusive-trainer-ashleah-chiacchiero",
+          "instagram": "",
+          "description": "Abuser Name: Ashleah Chiacchiero\nAddress: 813 Snowden Dr, Lake Worth Beach, FL 33461\nInsta: @smartdogswalk\n\nThis \"trainer\" is a narcissist with an inferiority complex who has to assert power over dogs because she has no control over her own pathetic life.\nFear and pain are not training tools.\nMultiple peer reviewed studies show that the use of prong and e-collars leads to aggression in dogs.\n\nHerron et al. (2009)\nSchalke et al. (2007)\nCooper et al. (2014)\nBeerda et al. (1998)\nPolsky (2000)\nMasson et al. (2018),\nVieira de Castro et al. (2020)",
+          "location": {
+            "country": "United States",
+            "region": "Flordia",
+            "locality": "Lake Worth Beach"
+          },
+          "targets": [
+            "Palm Beach County Sheriff & State Attorney Alexcia Cox"
+          ],
+          "phones": [
+            {
+              "who": "Palm Beach Sheriff's Office",
+              "main": "+1 561 688 4357",
+              "ext": ""
+            },
+            {
+              "who": "Palm Beach Animal Care",
+              "main": "+1 561 233 1200",
+              "ext": "0"
+            }
+          ],
+          "url": "mailto:StateAttorney@sa15.org,animalcruelty@pbso.org,acox@sa15.org,bradshawr@pbso.org?subject=Report%20of%20Animal%20Cruelty%20by%20Dog%20Trainer%20Ashleah%20Suzanne%20(Smart%20Dogs%20Walk)&body=To%20whom%20it%20may%20concern%2C%0A%0AI%20am%20reporting%20suspected%20animal%20cruelty%20by%20Ashleah%20Suzanne%20Chiacchiero%20%2C%20owner%2Foperator%20of%20Smart%20Dogs%20Walk%20(813%20Snowden%20Dr%2C%20Lake%20Worth%20Beach%2C%20FL%2033461%3B%20Website%3A%20www.smartdogswalk.com%20Instagram%3A%20%40smartdogswalk).%20She%20promotes%20and%20uses%20prong%20collars%20and%20e-collars%20(shock%20collars)%20as%20training%20tools%2C%20including%20on%20a%206lb%20puppy.%20These%20devices%20inflict%20unnecessary%20pain%20and%20suffering%20by%20design%2C%20violating%20Florida%20Statute%20828.12(1)%20(misdemeanor%20cruelty%20for%20unnecessary%20torment)%20and%20potentially%20828.12(2)%20(third-degree%20felony%20aggravated%20cruelty%20for%20intentional%20acts%20causing%20excessive%20or%20repeated%20unnecessary%20pain).%20Palm%20Beach%20County%20Code%20Sec.%204-24%20also%20prohibits%20physical%20abuse%20of%20animals.%0A%0AVeterinary%20consensus%20(American%20Veterinary%20Society%20of%20Animal%20Behavior%20position%20statement)%20rejects%20prong%20and%20e-collars%20due%20to%20risks%20of%20neck%20trauma%20(tracheal%20collapse%2C%20thyroid%20damage%2C%20cervical%20spine%20injury)%2C%20fear-based%20aggression%2C%20and%20elevated%20stress%20(cortisol%20spikes).%20Studies%20link%20these%20aversive%20tools%20to%20increased%20aggression%3A%0A%0A*%20Herron%20et%20al.%20(2009%2C%20Applied%20Animal%20Behaviour%20Science)%3A%20Prong%20collars%20elicit%20aggressive%20responses%20(growling%2C%20snapping%2C%20biting)%20in%2025-43%25%20of%20dogs.%0A*%20Schalke%20et%20al.%20(2007)%20and%20Cooper%20et%20al.%20(2014%2C%20PLoS%20ONE)%3A%20E-collars%20cause%20severe%20stress%2C%20fear%2C%20and%20aggression%20as%20escape%20responses%2C%20with%20no%20long-term%20efficacy%20over%20positive%20methods.%0A*%20Vieira%20de%20Castro%20et%20al.%20(2020%2C%20PLoS%20ONE)%3A%20Aversive%20tools%20correlate%20with%20higher%20fear-based%20behaviors%20and%20aggression%20versus%20reward-based%20training.%0A%0AThis%20pattern%20of%20inflicting%20avoidable%20pain%20on%20a%20defenseless%20small%20animal%20signals%20empathy%20deficits%20and%20desensitization%20to%20suffering.%20It%20is%20a%20documented%20red%20flag%20for%20broader%20violence%20per%20FBI%20research%20on%20%22The%20Link%22%3A%20Animal%20abusers%20are%205%20times%20more%20likely%20to%20commit%20violent%20crimes%20(assault%2C%20domestic%20abuse)%20and%203%20times%20more%20likely%20for%20sexual%20offenses.%0ARequest%3A%0A%0A*%20PBSO%20Animal%20Cruelty%20Unit%3A%20Immediate%20investigation%2C%20including%20review%20of%20her%20business%20practices%2C%20social%20media%20promotions%2C%20and%20any%20client%2Fsubject%20animals%20for%20patterns%20of%20abuse.%20Seize%20affected%20animals%20if%20ongoing%20harm%20is%20evident.%0A*%20State%20Attorney's%20Office%3A%20Review%20for%20prosecution%20under%20FS%20828.12(1)%2F(2)%20upon%20investigation%20completion.%0A%0A%0AEvidence%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F11QovWQSkuzom-4mkRor7Xh2O-CgFFhJY%2Fview%3Fusp%3Dsharing%0A%0ASincerely%2C%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/shut-down-abusive-trainer-ashleah-chiacchiero",
+          "createdAt": "2026-03-09"
+        },
+        {
+          "title": "Locate & Arrest Indian Dog Hanger",
+          "slug": "locate-arrest-indian-dog-hanger",
+          "caseId": "locate-arrest-indian-dog-hanger",
+          "instagram": "",
+          "description": "@krishna.kumar3209 seems to think it's appropriate to film a hanging dog in front of children, it's not clear if he was the one who hanged the dog in the first place.\nThe post has since been deleted, but that doesn't stop him being located, arrested, and charged.",
+          "location": {
+            "country": "India",
+            "region": "",
+            "locality": ""
+          },
+          "targets": [],
+          "phones": [
+            {
+              "who": "Animal Welfare Board of India (AWBI)",
+              "main": "+91 129 255 5700",
+              "ext": ""
+            },
+            {
+              "who": "Ministry of Fisheries, Animal Husbandry and Dairying",
+              "main": "+91 112 338 9620",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:support-awbi@gov.in,jspf-dadf@nic.in?subject=FIR%20Demand%3A%20Animal%20Cruelty%20Video%20by%20Instagram%20%40krishna.kumar3209&body=To%20whom%20it%20may%20concern%2C%0A%0AA%20video%20from%20deleted%20Instagram%20post%20by%20%40krishna.kumar3209%20(Krishna%20Kumar).%20Shows%20killing%20and%20hanging%20of%20a%20dog%2C%20filmed%20with%20children%20present%20and%20watching.%0A%0AViolations%3A%0A%0ASection%2011(1)(a)%2C%20(c)%2C%20(l)%20Prevention%20of%20Cruelty%20to%20Animals%20Act%2C%201960%20-%20torturous%20killing%2C%20unnecessary%20suffering.%0ASections%20325%2F326%20Bharatiya%20Nyaya%20Sanhita%2C%202023%20-%20mischief%20causing%20animal%20death.%0AChildren%20witnessing%20graphic%20cruelty%20risks%20psychological%20harm%20and%20links%20to%20The%20Link%3A%20animal%20abuse%20predicts%20violent%2Fsexual%20offences%20against%20humans%20(FBI%2FASPCA%20research).%0A%0AThis%20fits%20vigilante%20abuse%20pattern%20post-Supreme%20Court%20August%202025%20stray%20dog%20orders%20(initial%20roundup%20misread%20as%20kill%20permission%2C%20reversed%20August%2022%20to%20sterilization%2Frelease).%0A%0ADemands%3A%0A%0A1.%20Register%20FIR%20immediately%20under%20above%20sections%2C%20treating%20children%20present%20as%20aggravating%20factor%20(possible%20JJ%20Act%202015%20Section%2075).%0A2.%20Trace%20perpetrator%20%40krishna.kumar3209%20via%20Instagram%2FMeta%20data%2C%20IP%2C%20video%20metadata.%0A3.%20Investigate%2C%20arrest%2C%20prosecute.%0A4.%20Public%20statement%20on%20Supreme%20Court%20reversal%20to%20curb%20vigilante%20cruelty.%0A%0AEvidence%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1rr9uRliyd6IEZPdYcJ1Nb5RD11Md6cFX%2Fview%3Fusp%3Dsharing%0A%0ASincerely%2C%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforaniamls.org",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/locate-arrest-indian-dog-hanger",
+          "createdAt": "2026-03-08"
+        },
+        {
+          "title": "Prosecute Deepika Patidar & Pooja Panchal",
+          "slug": "prosecute-deepika-patidar-pooja-panchal",
+          "caseId": "prosecute-deepika-patidar-pooja-panchal",
+          "instagram": "",
+          "description": "Abuser Names: Deepika Patidar & Pooja Panchal \nAddresses: 1390 & 1392 Lalbagh Avenue, Ratlam, Barwad, Madhya Pradesh 457001, India\n\nThese two miscreants have been detained, but these cases too often get met with a slap on the wrist.\nThe puppy has been rescued and has no life-changing injuries.",
+          "location": {
+            "country": "India",
+            "region": "Madhya Pradesh",
+            "locality": "Ratlam"
+          },
+          "targets": [
+            "Ratlam Authorities"
+          ],
+          "phones": [
+            {
+              "who": "Superintendent of Ratlam Police",
+              "main": "+91 7412 270 460",
+              "ext": ""
+            },
+            {
+              "who": "District Magistrate",
+              "main": "+91 7412 270 400",
+              "ext": ""
+            },
+            {
+              "who": "Ratlam Industrial Area Police Station",
+              "main": "+91 7414 270 469",
+              "ext": ""
+            },
+            {
+              "who": "Animal Welfare Board of India (AWBI)",
+              "main": "+91 1292 555 700",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:sp_ratlam@mppolice.gov.in,dmratlam@nic.in,animalwelfareboard@gmail.com,support-awbi@gov.in?subject=Prosecute%20Deepika%20Patidar%20%26%20Pooja%20Panchal&body=%E0%A4%9C%E0%A4%BF%E0%A4%B8%20%E0%A4%95%E0%A4%BF%E0%A4%B8%E0%A5%80%20%E0%A4%95%E0%A5%8B%20%E0%A4%AD%E0%A5%80%20%E0%A4%AF%E0%A4%B9%20%E0%A4%AE%E0%A4%BE%E0%A4%AE%E0%A4%B2%E0%A4%BE%20%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%BF%E0%A4%A4%20%E0%A4%B9%E0%A5%8B%2C%0A%0A%E0%A4%B0%E0%A4%A4%E0%A4%B2%E0%A4%BE%E0%A4%AE%20%E0%A4%95%E0%A5%87%20%E0%A4%B2%E0%A4%BE%E0%A4%B2%E0%A4%AC%E0%A4%BE%E0%A4%97%20%E0%A4%8F%E0%A4%B5%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82%20(%E0%A4%AC%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%87%E0%A4%9F%E0%A4%AC%E0%A5%89%E0%A4%B2%20%E0%A4%95%E0%A5%8B%E0%A4%B0%E0%A5%8D%E0%A4%9F%20%E0%A4%95%E0%A5%87%20%E0%A4%AA%E0%A4%BE%E0%A4%B8)%20%E0%A4%95%E0%A4%BE%20%E0%A4%8F%E0%A4%95%20%E0%A4%B5%E0%A4%BE%E0%A4%AF%E0%A4%B0%E0%A4%B2%20%E0%A4%B5%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A5%8B%20%E0%A4%A6%E0%A4%BF%E0%A4%96%E0%A4%BE%E0%A4%A4%E0%A4%BE%20%E0%A4%B9%E0%A5%88%20%E0%A4%95%E0%A4%BF%20%E0%A4%A6%E0%A5%80%E0%A4%AA%E0%A4%BF%E0%A4%95%E0%A4%BE%20%E0%A4%AA%E0%A4%9F%E0%A5%87%E0%A4%B2%20(1392%20%E0%A4%B2%E0%A4%BE%E0%A4%B2%E0%A4%AC%E0%A4%BE%E0%A4%97%20%E0%A4%8F%E0%A4%B5%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82)%20%E0%A4%94%E0%A4%B0%20%E0%A4%AA%E0%A5%82%E0%A4%9C%E0%A4%BE%20%E0%A4%AA%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B2%20(1390%20%E0%A4%B2%E0%A4%BE%E0%A4%B2%E0%A4%AC%E0%A4%BE%E0%A4%97%20%E0%A4%8F%E0%A4%B5%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82)%20%E0%A4%8F%E0%A4%95%20%E0%A4%B8%E0%A4%A1%E0%A4%BC%E0%A4%95%20%E0%A4%AA%E0%A4%B0%20%E0%A4%AA%E0%A4%A1%E0%A4%BC%E0%A5%87%20%E0%A4%AA%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A5%87%20%E0%A4%95%E0%A5%8B%20%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%82%E0%A4%9F%E0%A4%B0%20%E0%A4%B8%E0%A5%87%20%E0%A4%AC%E0%A4%BE%E0%A4%82%E0%A4%A7%E0%A4%95%E0%A4%B0%20%E0%A4%B8%E0%A4%A1%E0%A4%BC%E0%A4%95%20%E0%A4%AA%E0%A4%B0%20%E0%A4%98%E0%A4%B8%E0%A5%80%E0%A4%9F%20%E0%A4%B0%E0%A4%B9%E0%A5%80%20%E0%A4%B9%E0%A5%88%E0%A4%82%2C%20%E0%A4%9C%E0%A4%BF%E0%A4%B8%E0%A4%B8%E0%A5%87%20%E0%A4%89%E0%A4%B8%E0%A5%87%20%E0%A4%97%E0%A4%82%E0%A4%AD%E0%A5%80%E0%A4%B0%20%E0%A4%9A%E0%A5%8B%E0%A4%9F%E0%A5%87%E0%A4%82%20%E0%A4%94%E0%A4%B0%20%E0%A4%85%E0%A4%A8%E0%A4%BE%E0%A4%B5%E0%A4%B6%E0%A5%8D%E0%A4%AF%E0%A4%95%20%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BC%E0%A4%BE%20%E0%A4%B9%E0%A5%8B%20%E0%A4%B0%E0%A4%B9%E0%A5%80%20%E0%A4%B9%E0%A5%88%E0%A5%A4%0A%0A%E0%A4%AE%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE%2F%E0%A4%9C%E0%A4%A8%20%E0%A4%B6%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%AF%E0%A4%A4%E0%A5%8B%E0%A4%82%20%E0%A4%95%E0%A5%87%20%E0%A4%AC%E0%A4%BE%E0%A4%A6%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A5%E0%A4%AE%E0%A4%BF%E0%A4%95%E0%A5%80%20%E0%A4%A6%E0%A4%B0%E0%A5%8D%E0%A4%9C%20%E0%A4%95%E0%A5%80%20%E0%A4%97%E0%A4%88%20(%E0%A4%87%E0%A4%82%E0%A4%A1%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%B2%20%E0%A4%8F%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE%20%E0%A4%AA%E0%A5%81%E0%A4%B2%E0%A4%BF%E0%A4%B8%20%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A5%87%E0%A4%B6%E0%A4%A8%2C%206%2F7%20%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9A%2C%202026)%E0%A5%A4%20%E0%A4%AF%E0%A4%B9%20**%E0%A4%AA%E0%A4%B6%E0%A5%81%20%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%82%E0%A4%B0%E0%A4%A4%E0%A4%BE%20%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%A3%20%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C%201960%2C%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%BE%2011(1)(%E0%A4%8F)**%20%E0%A4%95%E0%A5%87%20%E0%A4%A4%E0%A4%B9%E0%A4%A4%20%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B7%E0%A5%8D%E0%A4%9F%20%E0%A4%B0%E0%A5%82%E0%A4%AA%20%E0%A4%B8%E0%A5%87%20**%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%82%E0%A4%B0%E0%A4%A4%E0%A4%BE**%20%E0%A4%B9%E0%A5%88%3A%20%E0%A4%AA%E0%A5%80%E0%A4%9F%E0%A4%A8%E0%A4%BE%2C%20%E0%A4%B2%E0%A4%BE%E0%A4%A4%20%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%BE%2C%20%E0%A4%8A%E0%A4%AA%E0%A4%B0%20%E0%A4%B8%E0%A5%87%20%E0%A4%9A%E0%A4%A2%E0%A4%BC%E0%A4%A8%E0%A4%BE%2C%20%E0%A4%AF%E0%A4%BE%20%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%A5%E0%A4%BE%20%E0%A4%85%E0%A4%A8%E0%A4%BE%E0%A4%B5%E0%A4%B6%E0%A5%8D%E0%A4%AF%E0%A4%95%20%E0%A4%A6%E0%A4%B0%E0%A5%8D%E0%A4%A6%2F%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BC%E0%A4%BE%20%E0%A4%AA%E0%A4%B9%E0%A5%81%E0%A4%81%E0%A4%9A%E0%A4%BE%E0%A4%A8%E0%A4%BE%20(%E0%A4%9C%E0%A4%BF%E0%A4%B8%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%9C%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A4%BE%2F%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%B5%E0%A4%BE%E0%A4%B8%20%E0%A4%95%E0%A5%87%20%E0%A4%B8%E0%A4%BE%E0%A4%A5%20%E0%A4%B8%E0%A4%82%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A5%87%E0%A4%AF%20%E0%A4%85%E0%A4%AA%E0%A4%B0%E0%A4%BE%E0%A4%A7%20%E0%A4%B9%E0%A5%88)%E0%A5%A4%0A%0A%E0%A4%AA%E0%A4%B6%E0%A5%81%20%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%82%E0%A4%B0%E0%A4%A4%E0%A4%BE%20%E0%A4%AE%E0%A4%A8%E0%A5%81%E0%A4%B7%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%82%20%E0%A4%95%E0%A5%87%20%E0%A4%96%E0%A4%BF%E0%A4%B2%E0%A4%BE%E0%A4%AB%20%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%B8%E0%A4%95%20%E0%A4%94%E0%A4%B0%20%E0%A4%AF%E0%A5%8C%E0%A4%A8%20%E0%A4%85%E0%A4%AA%E0%A4%B0%E0%A4%BE%E0%A4%A7%E0%A5%8B%E0%A4%82%20%E0%A4%95%E0%A4%BE%20%E0%A4%8F%E0%A4%95%20%E0%A4%B8%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%A7%20%E0%A4%B8%E0%A4%82%E0%A4%95%E0%A5%87%E0%A4%A4%E0%A4%95%20%E0%A4%94%E0%A4%B0%20%E0%A4%AD%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%BE%E0%A4%A3%E0%A5%80%20%E0%A4%B9%E0%A5%88%20(%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AA%E0%A4%95%20%E0%A4%B6%E0%A5%8B%E0%A4%A7%20%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE%20%E0%A4%B8%E0%A4%AE%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%A4%2C%20%E0%A4%9C%E0%A4%BF%E0%A4%B8%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%8F%E0%A4%AB%E0%A4%AC%E0%A5%80%E0%A4%86%E0%A4%88%20%E0%A4%95%E0%A5%87%20%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95%20%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AF%E0%A4%A8%20%E0%A4%B6%E0%A4%BE%E0%A4%AE%E0%A4%BF%E0%A4%B2%20%E0%A4%B9%E0%A5%88%E0%A4%82%20%E0%A4%9C%E0%A5%8B%20%E0%A4%AA%E0%A4%B6%E0%A5%81%20%E0%A4%A6%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B9%E0%A4%BE%E0%A4%B0%20%E0%A4%95%E0%A5%8B%20%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%95%20%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%B8%E0%A4%BE%2C%20%E0%A4%98%E0%A4%B0%E0%A5%87%E0%A4%B2%E0%A5%82%20%E0%A4%A6%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B9%E0%A4%BE%E0%A4%B0%20%E0%A4%94%E0%A4%B0%20%E0%A4%AF%E0%A5%8C%E0%A4%A8%20%E0%A4%85%E0%A4%AA%E0%A4%B0%E0%A4%BE%E0%A4%A7%E0%A5%8B%E0%A4%82%20%E0%A4%95%E0%A5%87%20%E0%A4%89%E0%A4%9A%E0%A5%8D%E0%A4%9A%20%E0%A4%9C%E0%A5%8B%E0%A4%96%E0%A4%BF%E0%A4%AE%20%E0%A4%B8%E0%A5%87%20%E0%A4%9C%E0%A5%8B%E0%A4%A1%E0%A4%BC%E0%A4%A4%E0%A5%87%20%E0%A4%B9%E0%A5%88%E0%A4%82)%E0%A5%A4%0A%0A%E0%A4%B9%E0%A4%AE%20%E0%A4%A4%E0%A4%A4%E0%A5%8D%E0%A4%95%E0%A4%BE%E0%A4%B2%20%E0%A4%AE%E0%A4%BE%E0%A4%82%E0%A4%97%20%E0%A4%95%E0%A4%B0%E0%A4%A4%E0%A5%87%20%E0%A4%B9%E0%A5%88%E0%A4%82%3A%0A1.%20%E0%A4%AA%E0%A5%80%E0%A4%B8%E0%A5%80%E0%A4%8F%20%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%20%E0%A4%95%E0%A5%80%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%BE%2011%20%E0%A4%95%E0%A5%87%20%E0%A4%A4%E0%A4%B9%E0%A4%A4%20%E0%A4%86%E0%A4%B0%E0%A5%8B%E0%A4%AA%E0%A5%80%20%E0%A4%95%E0%A5%8B%20%E0%A4%97%E0%A4%BF%E0%A4%B0%E0%A4%AB%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B0%20%E0%A4%95%E0%A4%BF%E0%A4%AF%E0%A4%BE%20%E0%A4%9C%E0%A4%BE%E0%A4%8F%20%E0%A4%94%E0%A4%B0%20%E0%A4%89%E0%A4%A8%20%E0%A4%AA%E0%A4%B0%20%E0%A4%94%E0%A4%AA%E0%A4%9A%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95%20%E0%A4%86%E0%A4%B0%E0%A5%8B%E0%A4%AA%20%E0%A4%B2%E0%A4%97%E0%A4%BE%E0%A4%8F%20%E0%A4%9C%E0%A4%BE%E0%A4%8F%E0%A4%82%E0%A5%A4%0A2.%20%E0%A4%89%E0%A4%A8%E0%A4%95%E0%A5%87%20%E0%A4%95%E0%A4%AC%E0%A5%8D%E0%A4%9C%E0%A5%87%20%E0%A4%B8%E0%A5%87%20%E0%A4%95%E0%A4%BF%E0%A4%B8%E0%A5%80%20%E0%A4%AD%E0%A5%80%20%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%B5%E0%A4%B0%20%E0%A4%95%E0%A5%8B%20%E0%A4%9C%E0%A4%AC%E0%A5%8D%E0%A4%A4%20%E0%A4%95%E0%A4%BF%E0%A4%AF%E0%A4%BE%20%E0%A4%9C%E0%A4%BE%E0%A4%8F%E0%A5%A4%0A3.%20%E0%A4%95%E0%A4%B2%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A3%20%E0%A4%94%E0%A4%B0%20%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%20%E0%A4%95%E0%A5%87%20%E0%A4%B2%E0%A4%BF%E0%A4%8F%20%E0%A4%AA%E0%A4%B6%E0%A5%81%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%A8%2FAWBI%20%E0%A4%95%E0%A5%87%20%E0%A4%B8%E0%A4%BE%E0%A4%A5%20%E0%A4%B8%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A5%A4%0A4.%20%E0%A4%9C%E0%A4%BE%E0%A4%82%E0%A4%9A%20%E0%A4%94%E0%A4%B0%20%E0%A4%95%E0%A5%80%20%E0%A4%97%E0%A4%88%20%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A4%BE%E0%A4%87%E0%A4%AF%E0%A5%8B%E0%A4%82%20%E0%A4%AA%E0%A4%B0%20%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95%20%E0%A4%85%E0%A4%AA%E0%A4%A1%E0%A5%87%E0%A4%9F%E0%A5%A4%0A%0A%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A4%BE%E0%A4%88%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%B5%E0%A4%BF%E0%A4%AB%E0%A4%B2%E0%A4%A4%E0%A4%BE%20%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%B8%E0%A4%BE%20%E0%A4%95%E0%A5%8B%20%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%AF%20%E0%A4%AC%E0%A4%A8%E0%A4%BE%E0%A4%A4%E0%A5%80%20%E0%A4%B9%E0%A5%88%E0%A5%A4%0A%0A%E0%A4%B8%E0%A4%AC%E0%A5%82%E0%A4%A4%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1XCXnHOCr68vOq5rjrCuQkRRRi1GHMUsw%2Fview%3Fusp%3Dsharing%0A%0A%E0%A4%B8%E0%A4%BE%E0%A4%A6%E0%A4%B0%2C%0A%0A%40HallieForAnimals%20%E0%A4%9F%E0%A5%80%E0%A4%AE%0Acontact%40hallieforanimals.org%0A%0A%0ATo%20whom%20it%20may%20concern%2C%0A%0AA%20viral%20video%20from%20Lalbagh%20Avenue%20(near%20basketball%20court)%2C%20Ratlam%2C%20shows%20Deepika%20Patidar%20(1392%20Lalbagh%20Avenue)%20and%20Pooja%20Panchal%20(1390%20Lalbagh%20Avenue)%20tying%20a%20street%20puppy%20to%20a%20scooter%20and%20dragging%20it%20along%20the%20road%2C%20causing%20severe%20injury%20and%20unnecessary%20suffering.%0A%0AFIR%20registered%20(Industrial%20Area%20Police%20Station%2C%20March%206%2F7%2C%202026)%20following%20media%2Fpublic%20complaints.%20This%20is%20blatant%20**cruelty**%20under%20**Prevention%20of%20Cruelty%20to%20Animals%20Act%2C%201960%2C%20Section%2011(1)(a)**%3A%20beating%2C%20kicking%2C%20overriding%2C%20or%20otherwise%20inflicting%20unnecessary%20pain%2Fsuffering%20(cognizable%20offense%20with%20fines%2Fimprisonment).%0A%0AAnimal%20cruelty%20is%20a%20proven%20indicator%20and%20predictor%20of%20violent%20and%20sexual%20offenses%20against%20humans%20(supported%20by%20extensive%20research%2C%20including%20FBI%20behavioral%20studies%20linking%20animal%20abuse%20to%20higher%20risks%20of%20interpersonal%20violence%2C%20domestic%20abuse%2C%20and%20sexual%20crimes).%0A%0AWe%20demand%20immediate%3A%0A1.%20Arrest%20and%20formal%20charges%20against%20the%20accused%20under%20PCA%20Act%20Section%2011.%0A2.%20Seizure%20of%20any%20animals%20in%20their%20possession.%0A3.%20Coordination%20with%20Animal%20Husbandry%2FAWBI%20for%20welfare%20and%20prosecution.%0A4.%20Public%20update%20on%20investigation%20and%20actions%20taken.%0A%0AFailure%20to%20act%20normalized%20violence.%0A%0AEvidence%3A%20https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1XCXnHOCr68vOq5rjrCuQkRRRi1GHMUsw%2Fview%3Fusp%3Dsharing%0A%0ASincerely%2C%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org",
+          "tag": "Email",
+          "shortlink": "https://go.hallieforanimals.org/t/prosecute-deepika-patidar-pooja-panchal",
+          "createdAt": "2026-03-07"
+        },
+        {
+          "title": "Demand Accountability For Bahamas Officer",
+          "slug": "demand-accountability-for-bahamas-officer",
+          "caseId": "demand-accountability-for-bahamas-officer",
+          "instagram": "",
+          "description": "Location: Nassau, New Providence, Bahamas\n\nThis POS is a member of the Royal Bahamas Police Force. She has no place in a position of power, let alone in control of a police canine.",
+          "location": {
+            "country": "Bahamas",
+            "region": "New Providence",
+            "locality": "Nassau"
+          },
+          "targets": [
+            "Nassau Authorities"
+          ],
+          "phones": [
+            {
+              "who": "Commissioner of Police",
+              "main": "+1 242 322 4444",
+              "ext": ""
+            },
+            {
+              "who": "Ministry of Agriculture and Marine Resources",
+              "main": "+1 242 397 7500",
+              "ext": ""
+            }
+          ],
+          "url": "mailto:cop@rbpf.bs,wps@rbpf.bs,tourism@bahamas.com,amiller@bahamas.com,minagriculturemarine@bahamas.gov.bs,mofa@bahamas.gov.bs?subject=Demand%20Accountability%20For%20Bahamas%20Officer&body=To%20whom%20it%20may%20concern%2C%0A%0ADisturbing%20video%20footage%20shows%20a%20Royal%20Bahamas%20Police%20Force%20officer%20shooting%20a%20family-owned%20dog%20on%20the%20roadside%20in%20Nassau.%20The%20dog%20was%20not%20attacking%20anyone%20and%20posed%20no%20imminent%20threat.%0A%0AThis%20act%20constitutes%20potential%20cruelty%20under%20the%20Animal%20Protection%20and%20Control%20Act%202010%20(Ch.%20378)%3A%0A-%20Cruelty%20is%20defined%20as%20any%20act%20causing%20unnecessary%20or%20unjustifiable%20pain%2Fsuffering%20(Section%202).%0A-%20Prohibited%20acts%20include%20cruelly%20beating%2C%20injuring%2C%20abusing%2C%20or%20inhumanely%20killing%20an%20animal%20(related%20provisions%20under%20repealed%20Penal%20Code%20sections%20now%20consolidated%20here%2C%20with%20penalties%20in%20Second%20Schedule%20including%20fines%20up%20to%20%24500%2B%20for%20abuse%2Fneglect%2Fmistreatment).%0A%0AThe%20Bahamas%20cannot%20normalize%20violence%20against%20animals%20by%20law%20enforcement.%20Animal%20cruelty%20is%20a%20recognized%20predictor%20and%20indicator%20of%20future%20violent%20and%20sexual
