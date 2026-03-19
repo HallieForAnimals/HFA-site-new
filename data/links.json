@@ -49,8 +49,8 @@
       "recipients": [],
       "phones": [],
       "callScript": "",
-      "videoEmbedUrl": "",
-      "shortlinkUrl": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/166GEvJRMCWQgPwl7eKZUALqVbb9qSXxV/view?usp=drive_link",
+      "shortlinkUrl": "https://tinyurl.com/ztec23uy",
       "createdAt": "2026-03-10T10:00:00Z",
       "updatedAt": "2026-03-10T10:00:00Z"
     },
@@ -59,7 +59,7 @@
       "slug": "stop-bronx-cat-killer-update-1",
       "status": "updated",
       "role": "update",
-      "title": "Stop Bronx Cat Killer — Investigation update",
+      "title": "Stop Bronx Cat Killer â Investigation update",
       "summary": "Authorities have identified a suspect; push for charges and proper investigation.",
       "updateTitle": "Investigation opened",
       "updateBody": "Initial update text goes here.",
@@ -73,7 +73,7 @@
       "slug": "stop-bronx-cat-killer-update-2",
       "status": "updated",
       "role": "update",
-      "title": "Stop Bronx Cat Killer — Prosecution",
+      "title": "Stop Bronx Cat Killer â Prosecution",
       "summary": "Call for prosecution; final update can mark the case resolved when done.",
       "updateTitle": "Prosecution underway",
       "updateBody": "Follow-up update text goes here.",
@@ -84,4 +84,3 @@
     }
   ]
 }
-
