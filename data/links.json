@@ -15,7 +15,28 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/protect-stocktons-street-dogs",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "christina.fugazi@stocktonca.gov",
+        "michele.padilla@stocktonca.gov",
+        "mariela.ponce@stocktonca.gov",
+        "michael.blower@stocktonca.gov",
+        "mario.enriquez@stocktonca.gov",
+        "brando.villapudua@stocktonca.gov",
+        "jason.lee@stocktonca.gov",
+        "johnny.ford@stocktonca.gov",
+        "lori.asuncion@stocktonca.gov",
+        "stanley.mcfadden@stocktonca.gov",
+        "ashley.kluza@stocktonca.gov",
+        "pwithrow@sjgov.org",
+        "mgardea@sjgov.org",
+        "pcanepa@sjgov.org",
+        "sdhaliwal@sjgov.org",
+        "sding@sjgov.org",
+        "rrickman@sjgov.org",
+        "ekiernan@sjgov.org",
+        "jking@sjgov.org",
+        "ronald.freitas@sjcda.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -27,47 +48,56 @@
         "phones": [
           {
             "who": "Stockton Mayor's Office",
-            "main": "+1 209 937 8499",
+            "number": "+1 209 937 8499",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Stockton City Manager's Office",
-            "main": "+1 209 937 8212",
+            "number": "+1 209 937 8212",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Stockton City Attorney’s Office",
-            "main": "+1 209 937 8333",
+            "number": "+1 209 937 8333",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Stockton Police",
-            "main": "+1 209 937 8377",
+            "number": "+1 209 937 8377",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Stockton Animal Service",
-            "main": "+1 209 937 7445",
+            "number": "+1 209 937 7445",
+            "code": "",
             "ext": ""
           },
           {
             "who": "San Joaquin County Sheriff’s Office",
-            "main": "+1 209 468 4400",
+            "number": "+1 209 468 4400",
+            "code": "",
             "ext": ""
           },
           {
             "who": "San Joaquin County Board of Supervisors Office",
-            "main": "+1 209 468 3113",
+            "number": "+1 209 468 3113",
+            "code": "",
             "ext": ""
           },
           {
             "who": "San Joaquin County Counsel",
-            "main": "+1 209 468 2980",
+            "number": "+1 209 468 2980",
+            "code": "",
             "ext": ""
           },
           {
             "who": "San Joaquin County DA",
-            "main": "+1 209 468 2424",
+            "number": "+1 209 468 2424",
+            "code": "",
             "ext": ""
           }
         ]
@@ -88,7 +118,19 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/protect-abused-and-neglected-dogs-on-skid-row",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "nhochman@da.lacounty.gov",
+        "hydee.feldsteinsoto@lacity.org",
+        "info@da.lacounty.gov",
+        "yvonne.rodriguez@lacity.org",
+        "curtis.watts@lacity.org",
+        "councilmember.jurado@lacity.org",
+        "FirstDistrict@bos.lacounty.gov",
+        "lindsey@bos.lacounty.gov",
+        "lodendahl@bos.lacounty.gov",
+        "HollyJMitchell@bos.lacounty.gov",
+        "Kathryn@bos.lacounty.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -98,47 +140,56 @@
         "phones": [
           {
             "who": "LA County Supervisor Hilda L. Solis",
-            "main": "+1 213 974 4111",
+            "number": "+1 213 974 4111",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA County Supervisor Holly J. Mitchell",
-            "main": "+1 213 974 2222",
+            "number": "+1 213 974 2222",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA County Supervisor Lindsey P. Horvath",
-            "main": "+1 213 974 3333",
+            "number": "+1 213 974 3333",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA County Supervisor Janice Hahn",
-            "main": "+1 213 974 4444",
+            "number": "+1 213 974 4444",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA County Supervisor Kathryn Barger",
-            "main": "+1 213 974 5555",
+            "number": "+1 213 974 5555",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA City Councilmember Ysabel Jurado",
-            "main": "+1 213 473 7014",
+            "number": "+1 213 473 7014",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA City Attorney Hydee Feldstein Soto",
-            "main": "+1 213 978 8100",
+            "number": "+1 213 978 8100",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Los Angeles County District Attorney Nathan Hochman",
-            "main": "+1 213 974 3512",
+            "number": "+1 213 974 3512",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Governor Gavin Newsom",
-            "main": "+1 916 445 2841",
+            "number": "+1 916 445 2841",
+            "code": "",
             "ext": ""
           }
         ]
@@ -159,7 +210,28 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/stop-the-mass-slaughter-of-street-dogs-in-india",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "rrsingh@sansad.nic.in",
+        "minister-fahdpr@nic.in",
+        "mos-fahd@dahd.nic.in",
+        "mosgk-fahd@dahd.nic.in",
+        "secyahd@nic.in",
+        "js-nlm@dahd.nic.in",
+        "ahc-dadf@nic.in",
+        "support-awbi@gov.in",
+        "sk.dutta@nic.in",
+        "minister-mopa@gov.in",
+        "ar.meghwal@sansad.nic.in",
+        "ab.acharya@nic.in",
+        "sharaddwivedi@nic.in",
+        "supremecourt@nic.in",
+        "reception.office@sci.nic.in",
+        "jspf-dadf@nic.in",
+        "mukesh.kumar.mopa@nic.in",
+        "animals@theguardian.com",
+        "editor@natgeo.com",
+        "pitches@thedodo.com"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "",
@@ -417,7 +489,12 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-animal-abuser-najae-marie-vanderhurst",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "demingj@douglasvillega.gov",
+        "animalcontrol@douglascountyga.gov",
+        "sparksg@douglasvillega.gov",
+        "davidsnj@douglasvillega.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -429,17 +506,20 @@
         "phones": [
           {
             "who": "Douglasville Police Department",
-            "main": "+1 770 920 3010",
+            "number": "+1 770 920 3010",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Chief of Police Gary Sparks",
-            "main": "+1 678 293 1785",
+            "number": "+1 678 293 1785",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Douglas County Animal Services",
-            "main": "+1 770 942 5961",
+            "number": "+1 770 942 5961",
+            "code": "",
             "ext": ""
           }
         ]
@@ -460,7 +540,11 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/locate-charge-hit-run-suspects-in-bogota",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "defensorciudadanoSDG@gobiernobogota.gov.co",
+        "proteccionanimal@animalesbog.gov.co",
+        "disciplinarios@animalesbog.gov.co"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Colombia",
@@ -472,17 +556,20 @@
         "phones": [
           {
             "who": "CAI Kennedy",
-            "main": "+57 607 649 0457",
+            "number": "+57 607 649 0457",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Estacion de Policia Kennedy",
-            "main": "+57 350 315 0315",
+            "number": "+57 350 315 0315",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Linea Contra el Maltrato Animal",
-            "main": "+57 601 439 9801",
+            "number": "+57 601 439 9801",
+            "code": "",
             "ext": ""
           }
         ]
@@ -503,7 +590,11 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/recue-tethered-dog-at-3112-s-western-ave-la",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "karen.bass@lactiy.org",
+        "annette.ramirez@lacity.org",
+        "laanimalservices@lacity.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -515,12 +606,14 @@
         "phones": [
           {
             "who": "LA Animal Services",
-            "main": "+1 888 452 7381",
+            "number": "+1 888 452 7381",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Office of Mayor Karen Bass",
-            "main": "+1 213 978 1028",
+            "number": "+1 213 978 1028",
+            "code": "",
             "ext": ""
           }
         ]
@@ -541,7 +634,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/release-wayne-hsiung-associates",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "barrett.Kalvin@danesheriff.com",
+        "Ismael.Ozanne@da.wi.gov",
+        "DATCPHotline@wisconsin.gov",
+        "farmcenter@wisconsin.gov",
+        "sheriff.records@danesheriff.com"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -553,12 +652,14 @@
         "phones": [
           {
             "who": "Dane County Sheriff's Office",
-            "main": "+1 608 284 6800",
+            "number": "+1 608 284 6800",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Dane County District Attorney's Office",
-            "main": "+1 608 266 4211",
+            "number": "+1 608 266 4211",
+            "code": "",
             "ext": ""
           }
         ]
@@ -579,7 +680,14 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/hold-cairo-dog-abuser-accountable",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "media.office8@op.gov.eg",
+        "h.sector@moi.gov.eg",
+        "complaints.moi@moi.gov.eg",
+        "center@moi.gov.eg",
+        "govs.egypt@gmail.com",
+        "eeaa@moenv.gov.eg"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Egypt",
@@ -591,7 +699,8 @@
         "phones": [
           {
             "who": "Egyptian Ministry of the Interior",
-            "main": "+20 02 240 60 718",
+            "number": "+20 02 240 60 718",
+            "code": "",
             "ext": ""
           }
         ]
@@ -612,7 +721,12 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/expel-animal-abuser-student-from-kits",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "elijahblessing@karunya.edu",
+        "pauldhinakaran@karunya.edu",
+        "sajankurien@karunya.edu",
+        "cop.cbec@tncctns.gov.in"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "",
@@ -637,7 +751,22 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/stop-abusive-trainer-nighttimek9",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "administrator@ccpdt.org",
+        "info@ccpdt.org",
+        "ethics@iaabc.org",
+        "info@iaabc.org",
+        "membership@apdt.com",
+        "support@iacpdogs.org",
+        "operations@petprofessionalguild.com",
+        "pr@petprofessionalguild.com",
+        "wags@fearfree.com",
+        "certifyme@fearfree.com",
+        "support@karenpryoracademy.com",
+        "info@academyfordogtrainers.com",
+        "questions@iaabcfoundation.org",
+        "ceus@iaabcfoundation.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -649,32 +778,38 @@
         "phones": [
           {
             "who": "CCPDT",
-            "main": "+1 855 362 3784",
+            "number": "+1 855 362 3784",
+            "code": "",
             "ext": ""
           },
           {
             "who": "APDT International",
-            "main": "+1 800 738 3647",
+            "number": "+1 800 738 3647",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Karen Pryor Academy",
-            "main": "+1 800 472 5425",
+            "number": "+1 800 472 5425",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Fear Free",
-            "main": "+1 303 952 0585",
+            "number": "+1 303 952 0585",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Pet Professional Guild",
-            "main": "+1 914 357 5481",
+            "number": "+1 914 357 5481",
+            "code": "",
             "ext": ""
           },
           {
             "who": "IACP",
-            "main": "+1 512 564 1011",
+            "number": "+1 512 564 1011",
+            "code": "",
             "ext": ""
           }
         ]
@@ -695,7 +830,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/neglect-at-417-aldis-st-los-angeles",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "janice.hahn@bos.lacounty.gov",
+        "nhochman@da.lacounty.gov",
+        "crminott@lasd.org",
+        "accpio@animalcare.lacounty.gov",
+        "HollyJMitchell@bos.lacounty.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -707,22 +848,26 @@
         "phones": [
           {
             "who": "DACC",
-            "main": "+1 562 940 6898",
+            "number": "+1 562 940 6898",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LASD Century Sheriff's Station",
-            "main": "+1 323 568 4800",
+            "number": "+1 323 568 4800",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA County Supervisor Holly J. Mitchell",
-            "main": "+1 213 974 2222",
+            "number": "+1 213 974 2222",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA County District Attorney's Office",
-            "main": "+1 213 257 2000",
+            "number": "+1 213 257 2000",
+            "code": "",
             "ext": ""
           }
         ]
@@ -743,7 +888,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/ban-lee-cox-from-showing-dogs",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "supportercare@rspca.org.uk",
+        "Mark.Beazley@royalkennelclub.org.uk",
+        "breedshows@thekennelclub.org.uk",
+        "KCNotifications@thekennelclub.org.uk",
+        "press.office@thekennelclub.org.uk"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United Kingdom",
@@ -755,12 +906,14 @@
         "phones": [
           {
             "who": "The Royal Kennel Club",
-            "main": "+44 20 7518 1010",
+            "number": "+44 20 7518 1010",
+            "code": "",
             "ext": ""
           },
           {
             "who": "RSPCA",
-            "main": "+44 300 1234 999",
+            "number": "+44 300 1234 999",
+            "code": "",
             "ext": ""
           }
         ]
@@ -781,7 +934,12 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-louie",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "shelterinfo@rivco.org",
+        "mhestrin@rivcoda.org",
+        "brobinson@calvaryrealty.com",
+        "officeofthechief@beaumontpd.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -793,22 +951,26 @@
         "phones": [
           {
             "who": "Brandon Robinson",
-            "main": "+1 760 534 8135",
+            "number": "+1 760 534 8135",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Beaumont Police Department",
-            "main": "+1 951 769 8500",
+            "number": "+1 951 769 8500",
+            "code": "",
             "ext": ""
           },
           {
             "who": "California Department of Real Estate",
-            "main": "+1 877 373 4542",
+            "number": "+1 877 373 4542",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Riverside County District Attorney",
-            "main": "+1 951 955 5400",
+            "number": "+1 951 955 5400",
+            "code": "",
             "ext": ""
           }
         ]
@@ -829,7 +991,12 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/shut-down-abusive-trainer-ashleah-chiacchiero",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "StateAttorney@sa15.org",
+        "animalcruelty@pbso.org",
+        "acox@sa15.org",
+        "bradshawr@pbso.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -841,12 +1008,14 @@
         "phones": [
           {
             "who": "Palm Beach Sheriff's Office",
-            "main": "+1 561 688 4357",
+            "number": "+1 561 688 4357",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Palm Beach Animal Care",
-            "main": "+1 561 233 1200",
+            "number": "+1 561 233 1200",
+            "code": "",
             "ext": "0"
           }
         ]
@@ -867,7 +1036,10 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/locate-arrest-indian-dog-hanger",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "support-awbi@gov.in",
+        "jspf-dadf@nic.in"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "India",
@@ -877,12 +1049,14 @@
         "phones": [
           {
             "who": "Animal Welfare Board of India (AWBI)",
-            "main": "+91 129 255 5700",
+            "number": "+91 129 255 5700",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Ministry of Fisheries, Animal Husbandry and Dairying",
-            "main": "+91 112 338 9620",
+            "number": "+91 112 338 9620",
+            "code": "",
             "ext": ""
           }
         ]
@@ -903,7 +1077,12 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/prosecute-deepika-patidar-pooja-panchal",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "sp_ratlam@mppolice.gov.in",
+        "dmratlam@nic.in",
+        "animalwelfareboard@gmail.com",
+        "support-awbi@gov.in"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "India",
@@ -915,22 +1094,26 @@
         "phones": [
           {
             "who": "Superintendent of Ratlam Police",
-            "main": "+91 7412 270 460",
+            "number": "+91 7412 270 460",
+            "code": "",
             "ext": ""
           },
           {
             "who": "District Magistrate",
-            "main": "+91 7412 270 400",
+            "number": "+91 7412 270 400",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Ratlam Industrial Area Police Station",
-            "main": "+91 7414 270 469",
+            "number": "+91 7414 270 469",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Animal Welfare Board of India (AWBI)",
-            "main": "+91 1292 555 700",
+            "number": "+91 1292 555 700",
+            "code": "",
             "ext": ""
           }
         ]
@@ -951,7 +1134,14 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/demand-accountability-for-bahamas-officer",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "cop@rbpf.bs",
+        "wps@rbpf.bs",
+        "tourism@bahamas.com",
+        "amiller@bahamas.com",
+        "minagriculturemarine@bahamas.gov.bs",
+        "mofa@bahamas.gov.bs"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Bahamas",
@@ -963,12 +1153,14 @@
         "phones": [
           {
             "who": "Commissioner of Police",
-            "main": "+1 242 322 4444",
+            "number": "+1 242 322 4444",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Ministry of Agriculture and Marine Resources",
-            "main": "+1 242 397 7500",
+            "number": "+1 242 397 7500",
+            "code": "",
             "ext": ""
           }
         ]
@@ -989,7 +1181,11 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-animal-abuser-in-odesa-ukraine",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "chchgunp@od.police.gov.ua",
+        "claim@od.police.gov.ua",
+        "odeska.obl@od.gp.gov.ua"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Ukraine",
@@ -1001,7 +1197,8 @@
         "phones": [
           {
             "who": "Odesa Regional Police",
-            "main": "+380 48 779 40 61",
+            "number": "+380 48 779 40 61",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1022,7 +1219,18 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/dog-killer-j-meenakshi-mishra",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "sho.jeeyapuram@tncctns.gov.in",
+        "cop.tricity@tncctns.gov.in",
+        "collrtry@nic.in",
+        "tnawb23@gmail.com",
+        "dccttrc@gmail.com",
+        "sbinstri@gmail.com",
+        "sp.tri@tncctns.gov.in",
+        "rjdahtrichy@gmail.com",
+        "ddcbfdtry@gmail.com",
+        "pfatrichy@hotmail.com"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "India",
@@ -1034,22 +1242,26 @@
         "phones": [
           {
             "who": "Jeeyapuram PD",
-            "main": "+91 431 261 4350",
+            "number": "+91 431 261 4350",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Tiruchirappalli District Superintendent",
-            "main": "+91 431 233 3629",
+            "number": "+91 431 233 3629",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Tiruchirappalli City Police Commissioner",
-            "main": "+91 431 233 2566",
+            "number": "+91 431 233 2566",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Trichy Animal Husbandry Director",
-            "main": "+91 944 500 1116",
+            "number": "+91 944 500 1116",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1095,7 +1307,15 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-starburst",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "CLozano@hppolice.org",
+        "communication@hpca.gov",
+        "janice.hahn@bos.lacounty.gov",
+        "jsanabria@hpca.gov",
+        "kmacias@hpca.gov",
+        "aflores@hpca.gov",
+        "nhochman@da.lacounty.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -1107,17 +1327,20 @@
         "phones": [
           {
             "who": "Huntington Park PD",
-            "main": "+1 323 584 6254",
+            "number": "+1 323 584 6254",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA County DA's Office",
-            "main": "+1 213 974 3512",
+            "number": "+1 213 974 3512",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA County Supervisor Janice Hahn's Office",
-            "main": "+1 213 974 4444",
+            "number": "+1 213 974 4444",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1138,7 +1361,14 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/neglected-dog-at-9016-peachtree-st-houston",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "Sean.Teare@dao.harriscountytx.gov",
+        "jarrad.mears@houstontx.gov",
+        "info@houstonspca.org",
+        "da@dao.harriscountytx.gov",
+        "animalcrueltyunit@houstonpolice.org",
+        "animalcruelty@cn1.hctx.net"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -1150,22 +1380,26 @@
         "phones": [
           {
             "who": "HSPCA Cruelty Hotline",
-            "main": "+1 713 869 7722",
+            "number": "+1 713 869 7722",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Houston Animal Control",
-            "main": "+1 713 837 0311",
+            "number": "+1 713 837 0311",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Houston Police Department Animal Cruelty Unit",
-            "main": "+1 713 844 3131",
+            "number": "+1 713 844 3131",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Harris County Animal Cruelty Taskforce",
-            "main": "+1 832 927 7297",
+            "number": "+1 832 927 7297",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1186,7 +1420,11 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/demand-justice-for-catia-la-mar-opossum",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "jorge.rodriguez@asambleanacional.gob.ve",
+        "presidencia@asambleanacional.gob.ve",
+        "ministeriopublico@mp.gob.ve"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Venezuela",
@@ -1198,12 +1436,14 @@
         "phones": [
           {
             "who": "Asamblea Nacional",
-            "main": "+58 212 778 3322",
+            "number": "+58 212 778 3322",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Ministerio Público",
-            "main": "+58 212 509 7244",
+            "number": "+58 212 509 7244",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1224,7 +1464,19 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/stop-the-iditarod-race",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "rob.urbach@iditarod.com",
+        "corey.hester@iditarod.com",
+        "dpatterson@iditarod.com",
+        "mark.nordman@iditarod.com",
+        "sszelag@iditarod.com",
+        "dan.carter@iditarod.com",
+        "erika.friedrich@iditarod.com",
+        "jim.deprez@iditarod.com",
+        "Sen.Jesse.Kiehl@akleg.gov",
+        "Representative.Matt.Claman@akleg.gov",
+        "Governor@alaska.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -1236,17 +1488,20 @@
         "phones": [
           {
             "who": "Iditarod Trail Committee",
-            "main": "+1 907 376 5155",
+            "number": "+1 907 376 5155",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Alaska Governor Mike Dunleavy's Office",
-            "main": "+1 907 465 3500",
+            "number": "+1 907 465 3500",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Alaska State Legislature",
-            "main": "+1 907 465 4648",
+            "number": "+1 907 465 4648",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1267,7 +1522,14 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/demand-change-at-la-animal-services",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "Karen.Bass@lacity.org",
+        "cityatty.help@lacity.org",
+        "hydee.feldsteinsoto@lacity.org",
+        "yvonne.rodriguez@lacity.org",
+        "curtis.watts@lacity.org",
+        "annette.ramirez@lacity.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -1279,17 +1541,20 @@
         "phones": [
           {
             "who": "Chesterfield Square/South LA shelter",
-            "main": "+1 888 452 7381",
+            "number": "+1 888 452 7381",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA Mayor’s Office",
-            "main": "+1 213 978 0600",
+            "number": "+1 213 978 0600",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA Animal Services Leadership",
-            "main": "+1 213 482 9558",
+            "number": "+1 213 482 9558",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1310,7 +1575,12 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-uzbek-dog-skinners",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "devonxona@vetgov.uz",
+        "devonxona@toshvil.uz",
+        "tashvil@exat.uz",
+        "info@vetgov.uz"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Uzbekistan",
@@ -1322,17 +1592,20 @@
         "phones": [
           {
             "who": "Angren City Administration",
-            "main": "+998 78 150 93 35",
+            "number": "+998 78 150 93 35",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Tashkent Regional Administration",
-            "main": "+998 71 200 88 11",
+            "number": "+998 71 200 88 11",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Vetgov",
-            "main": "+998 71 202 12 00",
+            "number": "+998 71 202 12 00",
+            "code": "",
             "ext": "201"
           }
         ]
@@ -1353,7 +1626,19 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-brooklyn-dog-abusers",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "zmamdani@cityhall.nyc.gov",
+        "vincent.seminerio@nypd.org",
+        "mark.vazquez@nypd.org",
+        "gonzalee@brooklynda.org",
+        "info@nycacc.org",
+        "iab@nypd.org",
+        "outreach@oignypd.nyc.gov",
+        "communityaffairs@nypd.org",
+        "michael.lipetri@nypd.org",
+        "asilver@cityhall.nyc.gov",
+        "pressoffice@cityhall.nyc.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -1365,17 +1650,20 @@
         "phones": [
           {
             "who": "NYPD 90th Precinct",
-            "main": "+1 718 963 5311",
+            "number": "+1 718 963 5311",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Brooklyn DA's Office",
-            "main": "+1 718 250 2340",
+            "number": "+1 718 250 2340",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Civilian Complaint Review Board",
-            "main": "+1 800 341 2272",
+            "number": "+1 800 341 2272",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1396,7 +1684,15 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/prosecute-il-tacano-pet-groomer",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "polizia.locale@comune.pomezia.rm.it",
+        "trm26940@pec.carabinieri.it",
+        "procura.velletri@giustizia.it",
+        "servizioveterinario.areaa@pec.aslroma6.it",
+        "servizio.protocollo@pec.aslroma6.it",
+        "protocollo@pec.comune.pomezia.rm.it",
+        "polizia.locale@pec.comune.pomezia.rm.it"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Italy",
@@ -1408,22 +1704,26 @@
         "phones": [
           {
             "who": "Carabinieri - Stazione di Pomezia",
-            "main": "+39 06 9162 8859",
+            "number": "+39 06 9162 8859",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Procura della Repubblica presso il Tribunale di Velletri",
-            "main": "+39 06 9615 021",
+            "number": "+39 06 9615 021",
+            "code": "",
             "ext": ""
           },
           {
             "who": "ASL Roma 6 - Servizio Veterinario UOC Area A (Sanità Animale)",
-            "main": "+39 06 9330 090",
+            "number": "+39 06 9330 090",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Comune di Pomezia",
-            "main": "+39 06 9114 61",
+            "number": "+39 06 9114 61",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1444,7 +1744,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-cuenca-dog-abuser",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "dnpj.comunicaciones@policia.gob.ec",
+        "cga@cuenca.gob.ec",
+        "uga@cuenca.gob.ec",
+        "pj.cuenca@policia.gob.ec",
+        "fpazuay@fiscalia.gob.ec"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Ecuador",
@@ -1456,17 +1762,20 @@
         "phones": [
           {
             "who": "Comision de Gestion Ambiental, Municipio de Cuenca",
-            "main": "+593 7 413 4900",
+            "number": "+593 7 413 4900",
+            "code": "",
             "ext": "1644"
           },
           {
             "who": "Unidad de Gestion Animal, Municipio de Cuenca",
-            "main": "+593 7 413 4900",
+            "number": "+593 7 413 4900",
+            "code": "",
             "ext": "1650"
           },
           {
             "who": "Municipio de Cuenca",
-            "main": "+593 98 705 0437",
+            "number": "+593 98 705 0437",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1487,7 +1796,14 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/demand-welfare-check-at-25208-sw-133rd-pl",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "georginac.vargas@miamidade.gov",
+        "annette.jose@miamidade.gov",
+        "japerez@homesteadfl.gov",
+        "gmorillo@homesteadfl.gov",
+        "mario.knapp@homesteadpolice.com",
+        "Gabrielle.Leal@homesteadpolice.com"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -1499,17 +1815,20 @@
         "phones": [
           {
             "who": "Miami-Dade Animal Services",
-            "main": "+1 305 468 5900",
+            "number": "+1 305 468 5900",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Homestead Police Department",
-            "main": "+1 305 247 1535",
+            "number": "+1 305 247 1535",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Miami-Dade Sheriff",
-            "main": "+1 305 476 5423",
+            "number": "+1 305 476 5423",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1530,7 +1849,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/remove-dog-from-abusive-owner-in-bogota",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "notificacionestutelas@gobiernobogota.gov.co",
+        "proteccionanimal@animalesbog.gov.co",
+        "disciplinarios@animalesbog.gov.co",
+        "notificacionesjudiciales@animalesbog.gov.co",
+        "defensorciudadanoSDG@gobiernobogota.gov.co"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Colombia",
@@ -1542,17 +1867,20 @@
         "phones": [
           {
             "who": "Bogota Animal Protection",
-            "main": "+57 601 439 9801",
+            "number": "+57 601 439 9801",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Local Authority Office",
-            "main": "+57 601 382 0660",
+            "number": "+57 601 382 0660",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Local Police",
-            "main": "+57 601 442 2228",
+            "number": "+57 601 442 2228",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1585,22 +1913,26 @@
         "phones": [
           {
             "who": "Humane Law Enforcement",
-            "main": "+1 585 223 6500",
+            "number": "+1 585 223 6500",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Rochester Animal Services",
-            "main": "+1 585 428 7008",
+            "number": "+1 585 428 7008",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Rochester PD",
-            "main": "+1 585 428 5990",
+            "number": "+1 585 428 5990",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Monroe County DA's Office",
-            "main": "+1 585 753 4500",
+            "number": "+1 585 753 4500",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1621,7 +1953,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/pass-l35-2026-end-mass-killing-in-romania",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "com.juridica@senat.ro",
+        "agri@senat.ro",
+        "infopub@senat.ro",
+        "comisiamediu@senat.ro",
+        "ape.paduri@senat.ro"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Romania",
@@ -1648,7 +1986,11 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-steve-young-remove-his-dog",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "sara.cunningham@gsps.ca",
+        "natalie.hiltz@gsps.ca",
+        "stefany.mussen@greatersudbury.ca"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Canada",
@@ -1660,12 +2002,14 @@
         "phones": [
           {
             "who": "Sudbury PD",
-            "main": "+1 705 675 9171",
+            "number": "+1 705 675 9171",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Provincial Animal Welfare Services",
-            "main": "+1 833 926 4625",
+            "number": "+1 833 926 4625",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1686,7 +2030,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-feather",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "hfargo@cityofwoodward-ok.gov",
+        "bparker@cityofwoodward-ok.gov",
+        "dnavratil@cityofwoodward-ok.gov",
+        "kcornejo@cityofwoodward-ok.gov",
+        "susan.meinders@dac.state.ok.us"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -1698,22 +2048,26 @@
         "phones": [
           {
             "who": "Woodward County DA",
-            "main": "+1 580 256 8616",
+            "number": "+1 580 256 8616",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Woodward PD",
-            "main": "+1 580 254 8535",
+            "number": "+1 580 254 8535",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Woodward PD (Alt)",
-            "main": "+1 580 254 8530",
+            "number": "+1 580 254 8530",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Woodward AC",
-            "main": "+1 580 254 8549",
+            "number": "+1 580 254 8549",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1734,7 +2088,26 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-teddy",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "mario.vasquez@kcmo.org",
+        "quinton.lucas@kcmo.org",
+        "Santiago.Garza@kcpd.org",
+        "Dawn.Jones@kcpd.org",
+        "Corey.Carlisle@kcpd.org",
+        "Lawrence.Cory@kcpd.org",
+        "Jacob.Becchina@kcpd.org",
+        "Alayna.Gonzalez@kcpd.org",
+        "Bethany.Ruoff@kcpd.org",
+        "ASD@kcmo.org",
+        "business.license@kcmo.org",
+        "andy.savastino@kcmo.org",
+        "Phillip.DiMartino@kcpd.org",
+        "newsdesk@kshb.com",
+        "news@kmbc.com",
+        "newsdesk@kctv5.com",
+        "news@fox4kc.com",
+        "news@kcur.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -1746,17 +2119,20 @@
         "phones": [
           {
             "who": "Kansas City Animal Services",
-            "main": "+1 816 513 1313",
+            "number": "+1 816 513 1313",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Kansas City PD",
-            "main": "+1 816 234 5111",
+            "number": "+1 816 234 5111",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Kansas City Business License Office",
-            "main": "+1 816 513 1120",
+            "number": "+1 816 513 1120",
+            "code": "",
             "ext": "3"
           }
         ]
@@ -1777,7 +2153,28 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/demand-investigation-into-alameda-dog-walker",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "APDRecords@alamedaca.gov",
+        "shenry@alamedaca.gov",
+        "manager@alamedaca.gov",
+        "aonesko@alamedaca.gov",
+        "info@alamedaanimalshelter.org",
+        "scowan@alamedaanimalshelter.org",
+        "cityattorney@alamedacityattorney.org",
+        "cityprosecutor@alamedacityattorney.org",
+        "rfenix@alamedacityattorney.org",
+        "jbeere@oaklandca.gov",
+        "opdmedia@oaklandca.gov",
+        "opdrecordrequest@oaklandca.gov",
+        "oaklandhomicide@oaklandca.gov",
+        "OaklandPIO@oaklandca.gov",
+        "oas@oaklandca.gov",
+        "jdevries@oaklandca.gov",
+        "alcoda@acgov.org",
+        "askfhj-da@acgov.org",
+        "askechoj-da@acgov.org",
+        "ACSORecords@acgov.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -1789,27 +2186,32 @@
         "phones": [
           {
             "who": "Alameda Police Dept",
-            "main": "+1 510 337 8340",
+            "number": "+1 510 337 8340",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Alameda Animal Services",
-            "main": "+1 510 337 8565",
+            "number": "+1 510 337 8565",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Oakland Police Dept",
-            "main": "+1 510 777 3333",
+            "number": "+1 510 777 3333",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Oakland Animal Services",
-            "main": "+1 510 535 5602",
+            "number": "+1 510 535 5602",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Alameda County Sheriff's Office",
-            "main": "+1 510 667 7721",
+            "number": "+1 510 667 7721",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1842,7 +2244,8 @@
         "phones": [
           {
             "who": "Egyptian Ministry of the Interior",
-            "main": "+20 02 240 60 718",
+            "number": "+20 02 240 60 718",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1863,7 +2266,20 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-tanta-dog-abuser",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "h.sector@moi.gov.eg",
+        "complaints.moi@moi.gov.eg",
+        "center@moi.gov.eg",
+        "center@iscmi.gov.eg",
+        "immg.moi@moi.gov.eg",
+        "immg.services@moi.gov.eg",
+        "vet_service@govs.gov.eg",
+        "govs.egypt@gmail.com",
+        "ghrgate2017@gmail.com",
+        "eeaa@moenv.gov.eg",
+        "shakwa-eeaa@moenv.gov.eg",
+        "tantaeeaa2@gmail.com"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Egypt",
@@ -1875,7 +2291,8 @@
         "phones": [
           {
             "who": "Egyptian Ministry of the Interior",
-            "main": "+20 02 240 60 718",
+            "number": "+20 02 240 60 718",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1896,7 +2313,16 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-john-kaschak",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "Lisa.Davis@austintexas.gov",
+        "Police3@AustinTexas.gov",
+        "policeoversight@austintexas.gov",
+        "Kirk.Watson@austintexas.gov",
+        "Zo.Qadri@austintexas.gov",
+        "TC.Broadnax@austintexas.gov",
+        "Jon.Fortune@austintexas.gov",
+        "deborah.thomas@austintexas.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -1908,17 +2334,20 @@
         "phones": [
           {
             "who": "Austin PD",
-            "main": "+1 512 974 2000",
+            "number": "+1 512 974 2000",
+            "code": "",
             "ext": ""
           },
           {
             "who": "City of Austin",
-            "main": "+1 512 974 2210",
+            "number": "+1 512 974 2210",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Austin City Council District 9",
-            "main": "+1 512 978 2109",
+            "number": "+1 512 978 2109",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1939,7 +2368,23 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/find-prosecute-dog-abusers-in-patia-cauca-colombia",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "contactenos@patia-cauca.gov.co",
+        "notificacionesjudiciales@patia-cauca.gov.co",
+        "inspolicia@patia-cauca.gov.co",
+        "gobierno@patia-cauca.gov.co",
+        "controlinterno@patia-cauca.gov.co",
+        "concejo@patia-cauca.gov.co",
+        "personeria@patia-cauca.gov.co",
+        "despachompal@piendamo-cauca.gov.co",
+        "secretariadegobierno@piendamo-cauca.gov.co",
+        "contactenos@cauca.gov.co",
+        "notificaciones@cauca.gov.co",
+        "crc@crc.gov.co",
+        "notificaciones@crc.gov.co",
+        "lineadirecta@policia.gov.co",
+        "dir.controldisciplinario@fiscalia.gov.co"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Colombia",
@@ -1951,17 +2396,20 @@
         "phones": [
           {
             "who": "Alcaldia Municipal de Patia",
-            "main": "+57 2 8261024",
+            "number": "+57 2 8261024",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Personeria Municipal de Patia",
-            "main": "+57 2 8261024",
+            "number": "+57 2 8261024",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Fiscalia",
-            "main": "+57 1 5702000",
+            "number": "+57 1 5702000",
+            "code": "",
             "ext": ""
           }
         ]
@@ -1982,7 +2430,12 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/investigate-godhra-dog-abuser",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "digp-godhra-pan@gujarat.gov.in",
+        "sp-pan@gujarat.gov.in",
+        "sdpo-godhra-pan@gujarat.gov.in",
+        "collector-pan@gujarat.gov.in"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "India",
@@ -1994,12 +2447,14 @@
         "phones": [
           {
             "who": "District Collector Office",
-            "main": "+91 02672 242800",
+            "number": "+91 02672 242800",
+            "code": "",
             "ext": ""
           },
           {
             "who": "SP Panchmahals",
-            "main": "+91 02672 242504",
+            "number": "+91 02672 242504",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2020,7 +2475,19 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/neglect-at-1425-sterling-place-brooklyn",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "omar.birchwood@nypd.org",
+        "gonzalee@brooklynda.org",
+        "info@nycacc.org",
+        "IAB@nypd.org",
+        "outreach@oignypd.nyc.gov",
+        "communityaffairs@nypd.org",
+        "khalida.wallen@nypd.org",
+        "ruben.marte@nypd.org",
+        "asilver@cityhall.nyc.gov",
+        "pressoffice@cityhall.nyc.gov",
+        "zmamdani@cityhall.nyc.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2032,17 +2499,20 @@
         "phones": [
           {
             "who": "Brooklyn DA's Office",
-            "main": "+1 718 250 2000",
+            "number": "+1 718 250 2000",
+            "code": "",
             "ext": ""
           },
           {
             "who": "NYPD Community Affairs Bureau",
-            "main": "+1 646 610 5323",
+            "number": "+1 646 610 5323",
+            "code": "",
             "ext": ""
           },
           {
             "who": "NYPD 77rd Precinct",
-            "main": "+1 718 735 0611",
+            "number": "+1 718 735 0611",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2063,7 +2533,14 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/investigate-us-marshall-dog-abuser",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "MSTF.PublicAffairs@usdoj.gov",
+        "us.marshals@usdoj.gov",
+        "USATNW.Media@usdoj.gov",
+        "oig.hotline@usdoj.gov",
+        "memisb@memphistn.gov",
+        "TBI.Media@tbi.tn.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2075,22 +2552,26 @@
         "phones": [
           {
             "who": "DOJ Office of Inspector General",
-            "main": "+1 800 869 4499",
+            "number": "+1 800 869 4499",
+            "code": "",
             "ext": ""
           },
           {
             "who": "US Marshals Service",
-            "main": "+1 202 307 9100",
+            "number": "+1 202 307 9100",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Memphis Police Department - Inspectional Services Bureau",
-            "main": "+1 901 636 4966",
+            "number": "+1 901 636 4966",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Tennessee Bureau of Investigation",
-            "main": "+1 615 744 4000",
+            "number": "+1 615 744 4000",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2111,7 +2592,26 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/abuse-at-2826-willow-pl-south-gate-ca",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "sally.hazzard@seaaca.org",
+        "darakawa@sogate.org",
+        "eperez@sogate.org",
+        "mvarana@sogate.org",
+        "ramador@sogate.org",
+        "scamacho@sogate.org",
+        "jrodriguez@sogate.org",
+        "spalos@sogate.org",
+        "jbarron@sogate.org",
+        "arios@sogate.org",
+        "mdavila@sogate.org",
+        "mpavalos@sogate.org",
+        "ghurtado@sogate.org",
+        "rhouston@sogate.org",
+        "yglaze@sogate.org",
+        "denise.woodside@seaaca.org",
+        "chuck.miller@seaaca.org",
+        "donna.soriano@seaaca.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2123,12 +2623,14 @@
         "phones": [
           {
             "who": "South Gate PD",
-            "main": "+1 323 563 5436",
+            "number": "+1 323 563 5436",
+            "code": "",
             "ext": ""
           },
           {
             "who": "SEAACA",
-            "main": "+1 562 803 3301",
+            "number": "+1 562 803 3301",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2149,7 +2651,15 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/shut-down-indonesian-dog-fighting-boar-baiting-ring",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "ppid@polri.go.id",
+        "yanmas.bareskrim@gmail.com",
+        "info@patrolisiber.id",
+        "polda.jabar@polri.go.id",
+        "polrestasikmalaya86@gmail.com",
+        "kominfo@tasikmalayakota.go.id",
+        "diskominfo@jabarprov.go.id"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Indonesia",
@@ -2161,22 +2671,26 @@
         "phones": [
           {
             "who": "Polda Jawa Barat",
-            "main": "+62 822 1112 4007",
+            "number": "+62 822 1112 4007",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Polres Tasikmalaya",
-            "main": "+62 265 541 345",
+            "number": "+62 265 541 345",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Polres Tasikmalaya Kota",
-            "main": "+62 811 1911 0110",
+            "number": "+62 811 1911 0110",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Tim Maung Galunggung",
-            "main": "+62 853 3555 6262",
+            "number": "+62 853 3555 6262",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2197,7 +2711,29 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/dog-neglected-at-410-e-fairview-ave-tn",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "info@wcjcanimalshelter.org",
+        "tammy.davis@wcjcanimalshelter.org",
+        "hhatfield@johnsoncitytn.org",
+        "JCPDrecords@johnsoncitytn.org",
+        "cojcnews@johnsoncitytn.org",
+        "gcox@johnsoncitytn.org",
+        "jbrock@johnsoncitytn.org",
+        "tfowler@johnsoncitytn.org",
+        "wgoetz@johnsoncitytn.org",
+        "jwise@johnsoncitytn.org",
+        "edougherty@johnsoncitytn.org",
+        "sstevens@johnsoncitytn.org",
+        "mperry@johnsoncitytn.org",
+        "sjenkins@johnsoncitytn.org",
+        "dshepard@johnsoncitytn.org",
+        "ccarney@johnsoncitytn.org",
+        "scarrier@johnsoncitytn.org",
+        "thardin@johnsoncitytn.org",
+        "ahodges@johnsoncitytn.org",
+        "tparker@johnsoncitytn.org",
+        "jroberts@johnsoncitytn.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2209,27 +2745,32 @@
         "phones": [
           {
             "who": "Washington County–Johnson City Animal Shelter",
-            "main": "+1 423 926 8769",
+            "number": "+1 423 926 8769",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Johnson City Police Department",
-            "main": "+1 423 434 6160",
+            "number": "+1 423 434 6160",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Chief of Police",
-            "main": "+1 423 434 6149",
+            "number": "+1 423 434 6149",
+            "code": "",
             "ext": ""
           },
           {
             "who": "City Manager",
-            "main": "+1 423 434 6002",
+            "number": "+1 423 434 6002",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Mayor Greg Cox",
-            "main": "+1 423 930 5716",
+            "number": "+1 423 930 5716",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2250,7 +2791,14 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/neglected-dog-in-valencia-de-alcantara-spain",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "secretaria@valenciadealcantara.es",
+        "cc-pto-valenciaalcantara@guardiacivil.org",
+        "cc-pto-valenciaalcantara-seprona@guardiacivil.org",
+        "dg-seprona-ucoma@guardiacivil.org",
+        "auxalcaldia@valenciadealcantara.es",
+        "aytovalalc@formatica.es"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Spain",
@@ -2262,22 +2810,26 @@
         "phones": [
           {
             "who": "Guardia Civil",
-            "main": "+34 927 580 721",
+            "number": "+34 927 580 721",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Policía Local",
-            "main": "+34 927 580 344",
+            "number": "+34 927 580 344",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Ayuntamiento",
-            "main": "+34 927 580 344",
+            "number": "+34 927 580 344",
+            "code": "",
             "ext": ""
           },
           {
             "who": "SEPRONA",
-            "main": "+34 91 514 69 00",
+            "number": "+34 91 514 69 00",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2298,7 +2850,15 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-hit-run-dogs-in-manaus",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "protocologeral.ajg@pm.am.gov.br",
+        "ouvidoria.geral.interna@pm.am.gov.br",
+        "denuncias@policiacivil.am.gov.br",
+        "corregedoriageral@ssp.am.gov.br",
+        "ouvidoriadeseguranca@ssp.am.gov.br",
+        "cmtgeralpmam@pm.am.gov.br",
+        "subcmtgeralpmam@pm.am.gov.br"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Brazil",
@@ -2310,22 +2870,26 @@
         "phones": [
           {
             "who": "Polícia Militar do Amazonas (PMAM)",
-            "main": "+55 92 98842 2942",
+            "number": "+55 92 98842 2942",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Corregedoria Geral da SSP-AM",
-            "main": "+55 92 3652 0750",
+            "number": "+55 92 3652 0750",
+            "code": "",
             "ext": ""
           },
           {
             "who": "DEMA (Delegacia Especializada em Crimes contra o Meio Ambiente)",
-            "main": "+55 92 3667 7741",
+            "number": "+55 92 3667 7741",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Ministério Público do Amazonas (MPAM)",
-            "main": "+55 92 3655 0745",
+            "number": "+55 92 3655 0745",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2346,7 +2910,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/investigate-amber-broughton",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "jellenburg@mckinneytexas.org",
+        "ldehorney@co.collin.tx.us",
+        "mbrown@co.collin.tx.us",
+        "mlangan@collincountytx.gov",
+        "jskinner@collincountytx.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2358,17 +2928,20 @@
         "phones": [
           {
             "who": "McKinney Police Department",
-            "main": "+1 972 547 2700",
+            "number": "+1 972 547 2700",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Collin County Animal Services",
-            "main": "+1 972 547 7292",
+            "number": "+1 972 547 7292",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Collin County Sheriff’s Office",
-            "main": "+1 972 547 5100",
+            "number": "+1 972 547 5100",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2389,7 +2962,28 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/save-gilda",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "clay.jenkins@dallascounty.org",
+        "eric.johnson@dallas.gov",
+        "chad.west@dallas.gov",
+        "jesse.moreno@dallas.gov",
+        "zarin.gracey@dallas.gov",
+        "maxie.johnson@dallas.gov",
+        "jaime.resendez@dallas.gov",
+        "Laura.cadena@dallas.gov",
+        "Adam.Bazaldua@dallas.gov",
+        "lorie.blair@dallas.gov",
+        "paula.blackmon@dallas.gov",
+        "katherine.stewart@dallas.gov",
+        "William.Roth@dallas.gov",
+        "cara.mendelsohn@dallas.gov",
+        "gay.willis@dallas.gov",
+        "paul.ridley@dallas.gov",
+        "victoria.chittam@dallas.gov",
+        "tammy.Palomino@dallas.gov",
+        "zeronda.smith@dallas.gov",
+        "Kimberly.Tolbert@dallas.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2401,27 +2995,32 @@
         "phones": [
           {
             "who": "Dallas Animal Services",
-            "main": "+1 214 670 6800",
+            "number": "+1 214 670 6800",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Mayor Eric Johnson Office",
-            "main": "+1 214 670 3301",
+            "number": "+1 214 670 3301",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Dallas City Manager’s Office",
-            "main": "+1 214 670 3297",
+            "number": "+1 214 670 3297",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Dallas City Attorney’s Office",
-            "main": "+1 214 670 3519",
+            "number": "+1 214 670 3519",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Dallas County Judge Clay Jenkins Office",
-            "main": "+1 214 653 7949",
+            "number": "+1 214 653 7949",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2442,7 +3041,15 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/s-cedar-ave-fresno-dog-neglect",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "media@ccspca.com",
+        "mindy.casto@fresno.gov",
+        "john.zanoni@fresnosheriff.org",
+        "lsmittcamp@fresnocountyca.gov",
+        "publicintegrity@fresnocountyca.gov",
+        "info@fresnohumane.org",
+        "rescue@ccspca.com"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2454,27 +3061,32 @@
         "phones": [
           {
             "who": "Fresno Police Department",
-            "main": "+1 559 621 7000",
+            "number": "+1 559 621 7000",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Fresno County Sheriff’s Office",
-            "main": "+1 559 600 3111",
+            "number": "+1 559 600 3111",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Fresno Humane Animal Services",
-            "main": "+1 559 600 7387",
+            "number": "+1 559 600 7387",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Central California SPCA",
-            "main": "+1 559 233 7722",
+            "number": "+1 559 233 7722",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Fresno County District Attorney’s Office",
-            "main": "+1 559 600 3141",
+            "number": "+1 559 600 3141",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2495,7 +3107,17 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/no-reduction-in-punishment-for-edwin-campuzano",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "lopez_s@sao13th.com",
+        "service@hillsboroughsao.gov",
+        "communications@hillsboroughsao.gov",
+        "VictimAssistance@HillsboroughSAO.gov",
+        "CJeffords@HillsboroughSAO.gov",
+        "SCarabine@HillsboroughSAO.gov",
+        "TStokes@HillsboroughSAO.gov",
+        "publicinfo@fljud13.org",
+        "Swalker.pd@cityofbartow.net"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2507,12 +3129,14 @@
         "phones": [
           {
             "who": "State Attorney’s Office",
-            "main": "+1 813 272 5400",
+            "number": "+1 813 272 5400",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Hillsborough County Sheriff’s Office",
-            "main": "+1 813 247 8000",
+            "number": "+1 813 247 8000",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2533,7 +3157,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/report-sara-gurung",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "dirfs@arunpol.nic.in",
+        "sp-polrng-arn@nic.in",
+        "dc-ldvalley-arn@nic.in",
+        "dc-ldvalley@nic.in",
+        "dcspa-ldvalley-arn@nic.in"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "India",
@@ -2545,17 +3175,20 @@
         "phones": [
           {
             "who": "Superintendent of Police",
-            "main": "+91 03803 222 208",
+            "number": "+91 03803 222 208",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Deputy Commissioner",
-            "main": "+91 03803 222 223",
+            "number": "+91 03803 222 223",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Director, Fire & Emergency Services, Arunachal Police",
-            "main": "+91 0360 221 2417",
+            "number": "+91 0360 221 2417",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2576,7 +3209,15 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/stop-chinese-cat-torture-rings",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "irishvisabeijing@dfanet.ie",
+        "beijing@dfa.ie",
+        "chn.assistance@international.gc.ca",
+        "bejingg@international.gc.ca",
+        "embassy.beijing@dfat.gov.au",
+        "beijingwebmaster@state.gov",
+        "beijingacs@state.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "",
@@ -2601,7 +3242,10 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/investigate-guayaquil-dog-abuse",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "bienestaranimal@guayaquil.gov.ec",
+        "proanimal@guayaquil.gov.ec"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Ecuador",
@@ -2628,7 +3272,21 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/demand-accountability-for-corona-ca-dog",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "Sylvia.Edwards@CoronaCA.gov",
+        "Daniel.Pacheco@CoronaCA.gov",
+        "devin.perdomo@coronaca.gov",
+        "Robert.Newman@CoronaCA.gov",
+        "Jacob.Ellis@CoronaCA.gov",
+        "Brett.Channing@coronaca.gov",
+        "Justin.Tucker@CoronaCA.gov",
+        "Dean.Derleth@CoronaCA.gov",
+        "Jacque.Casillas@CoronaCA.gov",
+        "Wes.Speake@CoronaCA.gov",
+        "Tony.Daddario@CoronaCA.gov",
+        "Tom.Richins@CoronaCA.gov",
+        "Jim.Steiner@CoronaCA.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2640,32 +3298,38 @@
         "phones": [
           {
             "who": "Corona Animal Services",
-            "main": "+1 951 736 2309",
+            "number": "+1 951 736 2309",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Corona Police Chief",
-            "main": "+1 951 736 2288",
+            "number": "+1 951 736 2288",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Corona Police Department",
-            "main": "+1 951 736 2330",
+            "number": "+1 951 736 2330",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Corona City Manager",
-            "main": "+1 951 279 3710",
+            "number": "+1 951 279 3710",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Corona City Attorney",
-            "main": "+1 951 279 3509",
+            "number": "+1 951 279 3509",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Corona Mayor's Office",
-            "main": "+1 951 736 2370",
+            "number": "+1 951 736 2370",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2686,7 +3350,14 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/prosecute-faiaoga-satele",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "reggie.rader@cityofhenderson.com",
+        "edward.dichter@cityofhenderson.com",
+        "angela.summers@cityofhenderson.com",
+        "michelle.romero@cityofhenderson.com",
+        "danielle.harney@cityofhenderson.com",
+        "Stephanie.Garcia-Vause@cityofhenderson.com"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2698,17 +3369,20 @@
         "phones": [
           {
             "who": "Animal Protection Services",
-            "main": "+1 702 267 4970",
+            "number": "+1 702 267 4970",
+            "code": "",
             "ext": ""
           },
           {
             "who": "City Hall",
-            "main": "+1 702 267 4159",
+            "number": "+1 702 267 4159",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Henderson Police Department",
-            "main": "+1 702 267 5000",
+            "number": "+1 702 267 5000",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2729,7 +3403,16 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/prosecute-isla-puna-dog-killers",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "guayasrendicion@fiscalia.gob.ec",
+        "fgerendicion@fiscalia.gob.ec",
+        "info.secretaria@guayas.gob.ec",
+        "vaguilera@mag.gob.ec",
+        "sigtierras@mag.gob.ec",
+        "info@guayaquil.gob.ec",
+        "dnpolco.servicios@gmail.com",
+        "carlos.murrieta@goberguayas.gob.ec"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Ecuador",
@@ -2756,7 +3439,32 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/cat-murdered-in-modesto-college",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "smedshammerm@yosemite.edu",
+        "gravattt@yosemite.edu",
+        "ramirezm@yosemite.edu",
+        "MJCCampusSafety@yosemite.edu",
+        "davisha@yosemite.edu",
+        "gillespieb@modestopd.com",
+        "AdamsC@modestopd.com",
+        "Reynar@modestopd.com",
+        "animalservices@stancounty.com",
+        "rescue@stancounty.com",
+        "Holly.MacKinnon@standa.org",
+        "Wendell.Emerson@standa.org",
+        "szwahlen@modestogov.com",
+        "rescutiabraaton@modestogov.com",
+        "ealvarez@modestogov.com",
+        "cricci@modestogov.com",
+        "nbavaro@modestogov.com",
+        "jwilliams@modestogov.com",
+        "dawright@modestogov.com",
+        "news@kcra.com",
+        "kcrainvestigates@kcra.com",
+        "news@kovr.com",
+        "news@fox40.com",
+        "rescan@abc10.com"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2768,22 +3476,26 @@
         "phones": [
           {
             "who": "Dean Smedshammer",
-            "main": "+1 209 575 6221",
+            "number": "+1 209 575 6221",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Dean Gravatt",
-            "main": "+1 209 575 6198",
+            "number": "+1 209 575 6198",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Modesto PD",
-            "main": "+1 209 552 2470",
+            "number": "+1 209 552 2470",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Stanislaus County District Attorney",
-            "main": "+1 209 525 5550",
+            "number": "+1 209 525 5550",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2804,7 +3516,22 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/neglect-at-752-east-105th-street-la",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "jasmine.poblano@lacity.org",
+        "nhochman@da.lacounty.gov",
+        "annette.ramirez@lacity.org",
+        "hydee.feldsteinsoto@lacity.org",
+        "curtis.watts@lacity.org",
+        "yvonne.rodriguez@lacity.org",
+        "karen.bass@lacity.org",
+        "AMFeatherstonela@gmail.com",
+        "oliviaegarcia@outlook.com",
+        "commissionerkasendorf@gmail.com",
+        "commissionerysmith@gmail.com",
+        "councilmember.mcosker@lacity.org",
+        "Miguelandres.Hernandez@lacity.org",
+        "catherine.lee@lacity.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2814,27 +3541,32 @@
         "phones": [
           {
             "who": "LA County District Attorney's Office",
-            "main": "+1 818 754 8315",
+            "number": "+1 818 754 8315",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA Animal Services",
-            "main": "+1 213 482 9558",
+            "number": "+1 213 482 9558",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Mayor Karen Bass",
-            "main": "+1 213 473 3231",
+            "number": "+1 213 473 3231",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Council District 15",
-            "main": "+1 213 473 7015",
+            "number": "+1 213 473 7015",
+            "code": "",
             "ext": ""
           },
           {
             "who": "North Central Animal Services Center",
-            "main": "+1 213 485 8855",
+            "number": "+1 213 485 8855",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2855,7 +3587,14 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/s-gardner-ave-dog-abuse",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "Arutledge@cmpd.org",
+        "Martha.Dozier@cmpd.org",
+        "Norman.Garnes@cmpd.org",
+        "vi.lyles@charlottenc.gov",
+        "josh.fisher@charlottenc.gov",
+        "jashri.pendergrass@charlottenc.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2867,22 +3606,26 @@
         "phones": [
           {
             "who": "Charlotte-Mecklenburg Police Department",
-            "main": "+1 704 432 2442",
+            "number": "+1 704 432 2442",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Charlotte Mayor’s Office",
-            "main": "+1 704 336 2241",
+            "number": "+1 704 336 2241",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Charlotte Animal Control",
-            "main": "+1 704 336 7600",
+            "number": "+1 704 336 7600",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Crime Stoppers",
-            "main": "+1 704 334 1600",
+            "number": "+1 704 334 1600",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2903,7 +3646,15 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/investigate-henry-coon-daddy-wofford",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "wgladson@sao5.org",
+        "Rparmer@wildwood-fl.gov",
+        "jmchugh@wildwood-fl.gov",
+        "jbarnes@wildwood-fl.gov",
+        "pbreeden@sumtercountysheriff.org",
+        "mkeszey@sumtercountysheriff.org",
+        "bradley.arnold@sumtercountyfl.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2915,22 +3666,26 @@
         "phones": [
           {
             "who": "Wildwood PD",
-            "main": "+1 352 330 1355",
+            "number": "+1 352 330 1355",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Wildwood City Hall",
-            "main": "+1 352 330 1330",
+            "number": "+1 352 330 1330",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Sumter County Sheriff's Office",
-            "main": "+1 352 569 1600",
+            "number": "+1 352 569 1600",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Sumter County Animal Services",
-            "main": "+1 352 689 4400",
+            "number": "+1 352 689 4400",
+            "code": "",
             "ext": ""
           }
         ]
@@ -2951,7 +3706,15 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/demand-termination-of-puppy-dumper",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "admission@bgsgroup.org",
+        "principal@bgsptech.ac.in",
+        "principalbgsp@gmail.com",
+        "principal@sjcit.ac.in",
+        "registrar@sjcit.ac.in",
+        "nsrbgs1@gmail.com",
+        "info@bgsgroup.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "India",
@@ -2978,7 +3741,22 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/investigate-austin-dog-murderer",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "Lisa.Davis@austintexas.gov",
+        "policeoversight@austintexas.gov",
+        "kirk.watson@austintexas.gov",
+        "TC.Broadnax@austintexas.gov",
+        "District4@austintexas.gov",
+        "Rolando.Fernandez@austintexas.gov",
+        "Animal.Media@austintexas.gov",
+        "susana.carbajal@austintexas.gov",
+        "news@kvue.com",
+        "defenders@kvue.com",
+        "news@kxan.com",
+        "news@cbsaustin.com",
+        "ktbcnews@fox.com",
+        "patricia.fraga@austintexas.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -2990,32 +3768,38 @@
         "phones": [
           {
             "who": "Austin Police HQ",
-            "main": "+1 512 974 5000",
+            "number": "+1 512 974 5000",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Austin Police",
-            "main": "+1 512 974 2000",
+            "number": "+1 512 974 2000",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Austin Animal Services",
-            "main": "+1 512 978 0500",
+            "number": "+1 512 978 0500",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Mayor’s Office",
-            "main": "+1 512 978 2100",
+            "number": "+1 512 978 2100",
+            "code": "",
             "ext": ""
           },
           {
             "who": "City Manager’s Office",
-            "main": "+1 512 974 2200",
+            "number": "+1 512 974 2200",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Austin City Council District 4",
-            "main": "+1 512 978 2104",
+            "number": "+1 512 978 2104",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3036,7 +3820,16 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/chelsea-park-dog-abuse",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "timothy.wong@nypd.org",
+        "communityaffairs@nypd.org",
+        "ebottcher@council.nyc.gov",
+        "District3@council.nyc.gov",
+        "mn04@cb.nyc.gov",
+        "jbodine@cb.nyc.gov",
+        "info@manhattanbp.nyc.gov",
+        "mlevine@manhattanbp.nyc.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3048,17 +3841,20 @@
         "phones": [
           {
             "who": "NYPD 10th Precinct",
-            "main": "+1 212 741 8211",
+            "number": "+1 212 741 8211",
+            "code": "",
             "ext": ""
           },
           {
             "who": "NYPD Crime Stoppers",
-            "main": "+1 800 577 8477",
+            "number": "+1 800 577 8477",
+            "code": "",
             "ext": ""
           },
           {
             "who": "NYC Council District 3",
-            "main": "+1 212 564 7757",
+            "number": "+1 212 564 7757",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3079,7 +3875,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/shut-down-alpha-educa-o-canina",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "46bpmm@policiamilitar.sp.gov.br",
+        "46bpmm2cia@policiamilitar.sp.gov.br",
+        "46bpmm1cia@policiamilitar.sp.gov.br",
+        "decap@policiacivil.sp.gov.br",
+        "cartoriocentral.corregedoria@policiacivil.sp.gov.br"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Brazil",
@@ -3091,17 +3893,20 @@
         "phones": [
           {
             "who": "Polícia Militar",
-            "main": "+55 11 2064 0132",
+            "number": "+55 11 2064 0132",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Polícia Civil",
-            "main": "+55 11 2061 2062",
+            "number": "+55 11 2061 2062",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Alpha Educação Canina",
-            "main": "+55 11 3327 3888",
+            "number": "+55 11 3327 3888",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3122,7 +3927,12 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/prosecute-dan-dejour",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "katz@queensda.org",
+        "hameed.armani@nypd.org",
+        "district26@council.nyc.gov",
+        "zohran.mamdani@cityhall.nyc.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3134,17 +3944,20 @@
         "phones": [
           {
             "who": "108th Precinct",
-            "main": "+1 718 784 5411",
+            "number": "+1 718 784 5411",
+            "code": "",
             "ext": ""
           },
           {
             "who": "NYC Council, District 26",
-            "main": "+1 718 383 9566",
+            "number": "+1 718 383 9566",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Queens DA's Office",
-            "main": "+1 718 286 6000",
+            "number": "+1 718 286 6000",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3165,7 +3978,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-carlos-a-casas",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "annette.jose@miamidade.gov",
+        "daniella.levinecava@miamidade.gov",
+        "daniella.cava@miamidade.gov",
+        "rcs@mdso.com",
+        "rmj@mdso.com"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3177,22 +3996,26 @@
         "phones": [
           {
             "who": "Miami-Dade Animal Services",
-            "main": "+1 305 468 5900",
+            "number": "+1 305 468 5900",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Miami-Dade County Mayor’s Office",
-            "main": "+1 305 375 5071",
+            "number": "+1 305 375 5071",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Hammocks District Station",
-            "main": "+1 305 383 6800",
+            "number": "+1 305 383 6800",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Kendall District Station",
-            "main": "+1 305 279 6929",
+            "number": "+1 305 279 6929",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3213,7 +4036,16 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-dog-abuser-derrick-butler",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "smullins@oppj.org",
+        "Victor.Zordan@ci.monroe.la.us",
+        "sean.reddick@ci.monroe.la.us",
+        "james.schmitz@ci.monroe.la.us",
+        "michael.freeman@ci.monroe.la.us",
+        "stew@4thda.org",
+        "juanita.woods@ci.monroe.la.us",
+        "friday.ellis@ci.monroe.la.us"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3225,22 +4057,26 @@
         "phones": [
           {
             "who": "Monroe Police Department",
-            "main": "+1 318 329 2600",
+            "number": "+1 318 329 2600",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Ouachita Parish Animal Control",
-            "main": "+1 318 325 0756",
+            "number": "+1 318 325 0756",
+            "code": "",
             "ext": ""
           },
           {
             "who": "4th Judicial District Attorney",
-            "main": "+1 318 388 4720",
+            "number": "+1 318 388 4720",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Mayor Friday Ellis",
-            "main": "+1 318 329 2227",
+            "number": "+1 318 329 2227",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3261,7 +4097,16 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/prosecute-kristi-hicks",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "lewis@hopkinscountytx.org",
+        "wramsay@hopkinscountytx.org",
+        "rnewsom@hopkinscountytx.org",
+        "rabe@hopkinscountytx.org",
+        "comprec1@hopkinscountytx.org",
+        "anglinprec2@hopkinscountytx.org",
+        "comprec3@hopkinscountytx.org",
+        "joepct4@hopkinscountytx.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3273,22 +4118,26 @@
         "phones": [
           {
             "who": "District Attorney Will Ramsay",
-            "main": "+1 903 885 0641",
+            "number": "+1 903 885 0641",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Hopkins County Sheriff Lewis Tatum",
-            "main": "+1 903 438 4040",
+            "number": "+1 903 438 4040",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Hopkins County Attorney Dusty Rabe",
-            "main": "+1 903 438 4017",
+            "number": "+1 903 438 4017",
+            "code": "",
             "ext": ""
           },
           {
             "who": "County Judge Robert Newsom",
-            "main": "+1 903 438 4006",
+            "number": "+1 903 438 4006",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3309,7 +4158,20 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/dog-neglect-at-5115-lankershim-blvd-ca",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "nhochman@da.lacounty.gov",
+        "hydee.feldsteinsoto@lacity.org",
+        "info@da.lacounty.gov",
+        "yvonne.rodriguez@lacity.org",
+        "curtis.watts@lacity.org",
+        "councilmember.nazarian@lacity.org",
+        "firstdistrict@bos.lacounty.gov",
+        "lindsey@bos.lacounty.gov",
+        "lodendahl@bos.lacounty.gov",
+        "hollyjmitchell@bos.lacounty.gov",
+        "kathryn@bos.lacounty.gov",
+        "annette.ramirez@lacity.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3321,17 +4183,20 @@
         "phones": [
           {
             "who": "LAPD",
-            "main": "+1 877 275 5273",
+            "number": "+1 877 275 5273",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA County District Attorney's Office",
-            "main": "+1 818 754 8315",
+            "number": "+1 818 754 8315",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA Animal Services – East Valley",
-            "main": "+1 213 485 8613",
+            "number": "+1 213 485 8613",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3364,27 +4229,32 @@
         "phones": [
           {
             "who": "Avondale Police Department",
-            "main": "+1 623 333 7000",
+            "number": "+1 623 333 7000",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Avondale Animal Control",
-            "main": "+1 623 333 7012",
+            "number": "+1 623 333 7012",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Avondale Mayor's Office",
-            "main": "+1 623 333 1916",
+            "number": "+1 623 333 1916",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Avondale City Hall",
-            "main": "+1 623 333 1000",
+            "number": "+1 623 333 1000",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Maricopa County Animal Care & Control",
-            "main": "+1 602 506 7387",
+            "number": "+1 602 506 7387",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3405,7 +4275,25 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/stop-the-mass-slaughter-of-street-dogs-in-iraq",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "contact@icij.org",
+        "lockbox@washpost.com",
+        "investigation-lemonde@protonmail.com",
+        "investigation@lemonde.fr",
+        "newstips@ft.com",
+        "observateurs@france24.com",
+        "ajiunit@proton.me",
+        "press.int@aljazeera.net",
+        "tips@reuters.com",
+        "FAO-IQ@fao.org",
+        "unami-information@un.org",
+        "reports@ihchr.iq",
+        "Info@ihchr.iq",
+        "moen.iraq@moen.gov.iq",
+        "wakelbaladi@amanatbaghdad.gov.iq",
+        "mayor.office@amanatbaghdad.gov.iq",
+        "bagh.mayor@amanatbaghdad.gov.iq"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Iraq",
@@ -3432,7 +4320,25 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/dog-abuse-in-santiago-chile",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "jalvarezv@munistgo.cl",
+        "dgomez@munistgo.cl",
+        "amillanao@munistgo.cl",
+        "gestionvecinal@munistgo.cl",
+        "1jpl@munistgo.cl",
+        "dibanez@munistgo.cl",
+        "info1jpl@munistgo.cl",
+        "scooper@munistgo.cl",
+        "cmontecinos@munistgo.cl",
+        "info3jpl@munistgo.cl",
+        "4jpl@munistgo.cl",
+        "info4jpl@munistgo.cl",
+        "hnievas@munistgo.cl",
+        "sdelrio@munistgo.cl",
+        "info5jpl@munistgo.cl",
+        "denuncia@minpublico.cl",
+        "bidema@investigaciones.cl"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Chile",
@@ -3444,17 +4350,20 @@
         "phones": [
           {
             "who": "Municipalidad de Santiago",
-            "main": "+56 2 2713 6000",
+            "number": "+56 2 2713 6000",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Seguridad Municipalidad de Santiago",
-            "main": "+56 2 2713 6630",
+            "number": "+56 2 2713 6630",
+            "code": "",
             "ext": ""
           },
           {
             "who": "PDI BIDEMA",
-            "main": "+56 2 2708 2372",
+            "number": "+56 2 2708 2372",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3475,7 +4384,11 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/investigate-abuse-at-905-mother-gaston-blvd",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "gonzalee@brooklynda.org",
+        "mark.stewart@nypd.org",
+        "odelle.despot@nypd.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3487,17 +4400,20 @@
         "phones": [
           {
             "who": "Brooklyn DA's Office",
-            "main": "+1 718 250 2000",
+            "number": "+1 718 250 2000",
+            "code": "",
             "ext": ""
           },
           {
             "who": "NYPD 73rd Precinct",
-            "main": "+1 718 495 5411",
+            "number": "+1 718 495 5411",
+            "code": "",
             "ext": ""
           },
           {
             "who": "NYPD Community Affairs Bureau",
-            "main": "+1 646 610 5323",
+            "number": "+1 646 610 5323",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3518,7 +4434,18 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/dog-abuse-in-salem-wv",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "rgmatheny@harrisoncountywv.gov",
+        "Salemmanager@frontier.com",
+        "mwworrell@sheriffsoffice.org",
+        "pulaskicountyac@gmail.com",
+        "Brandgarner@gmail.com",
+        "vlanesalem@gmail.com",
+        "Mhill1968ss@gmail.com",
+        "steveschartiger@gmail.com",
+        "Sgains49ers@gmail.com",
+        "Joemedic128@yahoo.com"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3531,27 +4458,32 @@
         "phones": [
           {
             "who": "Salem Police Department",
-            "main": "+1 304 782 1313",
+            "number": "+1 304 782 1313",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Harrison County Animal Control Center",
-            "main": "+1 304 592 1876",
+            "number": "+1 304 592 1876",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Harrison County Sheriff",
-            "main": "+1 304 423 7705",
+            "number": "+1 304 423 7705",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Pulaski County Sheriff",
-            "main": "+1 540 980 7800",
+            "number": "+1 540 980 7800",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Pulaski County Animal Control",
-            "main": "+1 504 674 8359",
+            "number": "+1 504 674 8359",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3572,7 +4504,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-prosecute-rahul-pawar",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "igp.kota@rajpolice.gov.in",
+        "pcr.kotacity@rajpolice.gov.in",
+        "pcr.kotarural@rajpolice.gov.in",
+        "bhm-ktc.rjpol@nic.in",
+        "sp.kotacity@rajpolice.gov.in"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "India",
@@ -3584,17 +4522,20 @@
         "phones": [
           {
             "who": "Kota City Police",
-            "main": "+91 0744 2350778",
+            "number": "+91 0744 2350778",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Kota Rural Police",
-            "main": "+91 0744 2350888",
+            "number": "+91 0744 2350888",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Bhimganj Mandi Police Station",
-            "main": "+91 7442460754",
+            "number": "+91 7442460754",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3615,7 +4556,23 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/lancaster-ca-strays",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "nhochman@da.lacounty.gov",
+        "firstdistrict@bos.lacounty.gov",
+        "lindsey@bos.lacounty.gov",
+        "lodendahl@bos.lacounty.gov",
+        "hollyjmitchell@bos.lacounty.gov",
+        "kathryn@bos.lacounty.gov",
+        "rrparris@cityoflancasterca.gov",
+        "kmann@cityoflancasterca.gov",
+        "rmalhi@cityoflancasterca.gov",
+        "lhughes-leslie@cityoflancasterca.gov",
+        "mmayeda@animalcare.lacounty.gov",
+        "hholmes@animalcare.lacounty.gov",
+        "dubario@animalcare.lacounty.gov",
+        "wduong@animalcare.lacounty.gov",
+        "rrodriguez@animalcare.lacounty.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3627,22 +4584,26 @@
         "phones": [
           {
             "who": "DAAC North County Dispatch",
-            "main": "+1 661 940 4191",
+            "number": "+1 661 940 4191",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Lancaster Animal Care Center",
-            "main": "+1 661 940 4195",
+            "number": "+1 661 940 4195",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA County Board of Supervisors Kathryn Barger",
-            "main": "+1 661 726 3600",
+            "number": "+1 661 726 3600",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA County District Attorney",
-            "main": "+1 661 974 7700",
+            "number": "+1 661 974 7700",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3663,7 +4624,17 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/remove-alexis-taylors-accreditation",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "grossj@hcflgov.net",
+        "barged@hcflgov.net",
+        "wiseb@hcflgov.net",
+        "trebatoskis@hcflgov.net",
+        "akccaninecollege@akc.org",
+        "info@akc.org",
+        "gina.dinardo@akc.org",
+        "thomas.davies@akc.org",
+        "michael.knight@akc.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3675,12 +4646,14 @@
         "phones": [
           {
             "who": "Hillsborough County Animal Control",
-            "main": "+1 813 744 5660",
+            "number": "+1 813 744 5660",
+            "code": "",
             "ext": ""
           },
           {
             "who": "AKC Compliance",
-            "main": "+1 919 816 3546",
+            "number": "+1 919 816 3546",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3701,7 +4674,18 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/prosecute-george-christopher-carrasco",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "Lucy.wilke@216da.kerrcountytx.gov",
+        "larry.leitha@so.kerrcountytx.gov",
+        "Chris.McCall@kerrvilletx.gov",
+        "mike.hayes@kerrvilletx.gov",
+        "Joe.Herring@kerrvilletx.gov",
+        "Dalton.Rice@kerrvilletx.gov",
+        "delayne.sigerman@kerrvilletx.gov",
+        "Jeff.Harris@Kerrvilletx.gov",
+        "Kent.McKinney@kerrvilletx.gov",
+        "Brenda.Hughes@kerrvilletx.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3713,17 +4697,20 @@
         "phones": [
           {
             "who": "216th District Attorney’s Office",
-            "main": "+1 830 896 4744",
+            "number": "+1 830 896 4744",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Kerr County Sheriff’s Office",
-            "main": "+1 830 896 1216",
+            "number": "+1 830 896 1216",
+            "code": "",
             "ext": ""
           },
           {
             "who": "City of Kerrville",
-            "main": "+1 830 257 8000",
+            "number": "+1 830 257 8000",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3769,7 +4756,18 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/protect-bakersfields-dogs",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "czimmer@kernda.org",
+        "manpreet.kaur@bakersfieldcity.us",
+        "vgennaro@bakersfieldcity.us",
+        "cclegg@bakersfieldcity.us",
+        "GTerry@bakersfieldpd.us",
+        "PPeters@co.kern.ca.us",
+        "CParlier@co.kern.ca.us",
+        "JFlores@co.kern.ca.us",
+        "DCouch@co.kern.ca.us",
+        "LPerez@co.kern.ca.us"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3781,17 +4779,20 @@
         "phones": [
           {
             "who": "Bakersfield City Hall",
-            "main": "+1 661 326 3000",
+            "number": "+1 661 326 3000",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Bakersfield Mayor's Office",
-            "main": "+1 661 326 3770",
+            "number": "+1 661 326 3770",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Bakersfield City Manager's Office",
-            "main": "+1 661 326 3751",
+            "number": "+1 661 326 3751",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3812,7 +4813,15 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/van-nuys-dog-neglect",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "annette.ramirez@lacity.org",
+        "curtis.watts@lacity.org",
+        "yvonne.rodriguez@lacity.org",
+        "agnes.sibal@lacity.org",
+        "veronica.perry@lacity.org",
+        "oliver.gillon@lacity.org",
+        "yadira.valencia@lacity.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3824,12 +4833,14 @@
         "phones": [
           {
             "who": "LA Animal Services Management",
-            "main": "+1 213 482 9558",
+            "number": "+1 213 482 9558",
+            "code": "",
             "ext": ""
           },
           {
             "who": "LA Animal Services - West Valley",
-            "main": "+1 213 485 8405",
+            "number": "+1 213 485 8405",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3850,7 +4861,32 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/prosecute-fluffos-killer",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "christina.fugazi@stocktonca.gov",
+        "michele.padilla@stocktonca.gov",
+        "mariela.ponce@stocktonca.gov",
+        "michael.blower@stocktonca.gov",
+        "mario.enriquez@stocktonca.gov",
+        "brando.villapudua@stocktonca.gov",
+        "jason.lee@stocktonca.gov",
+        "johnny.ford@stocktonca.gov",
+        "lori.asuncion@stocktonca.gov",
+        "stanley.mcfadden@stocktonca.gov",
+        "ashley.kluza@stocktonca.gov",
+        "mgardea@sjgov.org",
+        "pcanepa@sjgov.org",
+        "sdhaliwal@sjgov.org",
+        "sding@sjgov.org",
+        "rrickman@sjgov.org",
+        "ekiernan@sjgov.org",
+        "jking@sjgov.org",
+        "ronald.freitas@sjcda.org",
+        "news@kcra.com",
+        "news@kovr.com",
+        "desk@abc10.com",
+        "news@fox40.com",
+        "info@stocktonia.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3862,22 +4898,26 @@
         "phones": [
           {
             "who": "Stockton Mayor's Office",
-            "main": "+1 209 937 8499",
+            "number": "+1 209 937 8499",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Stockton City Manager's Office",
-            "main": "+1 209 937 8212",
+            "number": "+1 209 937 8212",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Stockton Police Department",
-            "main": "+1 209 937 8377",
+            "number": "+1 209 937 8377",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Stockton Animal Service",
-            "main": "+1 209 937 7445",
+            "number": "+1 209 937 7445",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3898,7 +4938,23 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/stop-abusive-dog-trainer-trevor-cochran",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "administrator@ccpdt.org",
+        "info@ccpdt.org",
+        "ethics@iaabc.org",
+        "info@iaabc.org",
+        "membership@apdt.com",
+        "support@iacpdogs.org",
+        "operations@petprofessionalguild.com",
+        "pr@petprofessionalguild.com",
+        "wags@fearfree.com",
+        "certifyme@fearfree.com",
+        "support@karenpryoracademy.com",
+        "info@nadoi.org",
+        "info@academyfordogtrainers.com",
+        "questions@iaabcfoundation.org",
+        "ceus@iaabcfoundation.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3910,32 +4966,38 @@
         "phones": [
           {
             "who": "CCPDT",
-            "main": "+1 855 362 3784",
+            "number": "+1 855 362 3784",
+            "code": "",
             "ext": ""
           },
           {
             "who": "APDT International",
-            "main": "+1 800 738 3647",
+            "number": "+1 800 738 3647",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Karen Pryor Academy",
-            "main": "+1 800 472 5425",
+            "number": "+1 800 472 5425",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Fear Free",
-            "main": "+1 303 952 0585",
+            "number": "+1 303 952 0585",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Pet Professional Guild",
-            "main": "+1 914 357 5481",
+            "number": "+1 914 357 5481",
+            "code": "",
             "ext": ""
           },
           {
             "who": "IACP",
-            "main": "+1 512 564 1011",
+            "number": "+1 512 564 1011",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3956,7 +5018,20 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/neglected-doberman-in-lakewood-ca",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "kathryn@bos.lacounty.gov",
+        "dholguin@lasd.org",
+        "jnavarrete@animalcare.lacounty.gov",
+        "fcorvino@animalcare.lacounty.gov",
+        "dubario@animalcare.lacounty.gov",
+        "mmayeda@animalcare.lacounty.gov",
+        "nhochman@da.lacounty.gov",
+        "hydee.feldsteinsoto@lacity.org",
+        "firstdistrict@bos.lacounty.gov",
+        "lindsey@bos.lacounty.gov",
+        "lodendahl@bos.lacounty.gov",
+        "hollyjmitchell@bos.lacounty.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -3968,12 +5043,14 @@
         "phones": [
           {
             "who": "Lakewood Sheriff's Station",
-            "main": "+1 562 623 3500",
+            "number": "+1 562 623 3500",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Downey Animal Care Center",
-            "main": "+1 562 940 6898",
+            "number": "+1 562 940 6898",
+            "code": "",
             "ext": ""
           }
         ]
@@ -3994,7 +5071,19 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/emaciated-dog-in-artesia-ca",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "dholguin@lasd.org",
+        "ataj@cityofartesia.us",
+        "aavalos@cityofartesia.us",
+        "zjahir@cityofartesia.us",
+        "mmanalo@cityofartesia.us",
+        "mramoso@cityofartesia.us",
+        "rtrevino@cityofartesia.us",
+        "jnavarrete@animalcare.lacounty.gov",
+        "fcorvino@animalcare.lacounty.gov",
+        "dubario@animalcare.lacounty.gov",
+        "mmayeda@animalcare.lacounty.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -4006,17 +5095,20 @@
         "phones": [
           {
             "who": "Lakewood Sheriff's Station",
-            "main": "+1 562 623 3500",
+            "number": "+1 562 623 3500",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Artesia City Council",
-            "main": "+1 562 865 6262",
+            "number": "+1 562 865 6262",
+            "code": "",
             "ext": "231"
           },
           {
             "who": "Downey Animal Care Center",
-            "main": "+1 562 940 6898",
+            "number": "+1 562 940 6898",
+            "code": "",
             "ext": ""
           }
         ]
@@ -4037,7 +5129,11 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/nuevo-le-n-dog-abuse",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "proteccion.animal@nuevoleon.gob.mx",
+        "gobernador@nuevoleon.gob.mx",
+        "rector@uaaan.edu.mx"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Mexico",
@@ -4049,17 +5145,20 @@
         "phones": [
           {
             "who": "Direccion de Bienestar Animal",
-            "main": "+52 81 2033 2124",
+            "number": "+52 81 2033 2124",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Samuel Alejandro Garcia Sepulveda",
-            "main": "+52 81 2020 1550",
+            "number": "+52 81 2020 1550",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Universidad Autonoma Agraria Antonio Narro",
-            "main": "+52 844 411 0200",
+            "number": "+52 844 411 0200",
+            "code": "",
             "ext": ""
           }
         ]
@@ -4080,7 +5179,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/neglected-dog-on-tupelo-street-louisiana",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "sdwight@cpdao.org",
+        "gguillory@cpso.com",
+        "scaldwell@cityoflc.us",
+        "nareno@calcasieu.gov",
+        "cterracina@calcasieu.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -4092,22 +5197,26 @@
         "phones": [
           {
             "who": "Calcasieu Parish Sheriff’s Office",
-            "main": "+1 337 491 3720",
+            "number": "+1 337 491 3720",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Lake Charles Police Department",
-            "main": "+1 337 491 1317",
+            "number": "+1 337 491 1317",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Calcasieu Parish Animal Services",
-            "main": "+1 337 721 3730",
+            "number": "+1 337 721 3730",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Calcasieu Parish District Attorney",
-            "main": "+1 337 437 3400",
+            "number": "+1 337 437 3400",
+            "code": "",
             "ext": ""
           }
         ]
@@ -4128,7 +5237,27 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-fluffo",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "christina.fugazi@stocktonca.gov",
+        "michele.padilla@stocktonca.gov",
+        "mariela.ponce@stocktonca.gov",
+        "michael.blower@stocktonca.gov",
+        "mario.enriquez@stocktonca.gov",
+        "brando.villapudua@stocktonca.gov",
+        "jason.lee@stocktonca.gov",
+        "johnny.ford@stocktonca.gov",
+        "lori.asuncion@stocktonca.gov",
+        "stanley.mcfadden@stocktonca.gov",
+        "ashley.kluza@stocktonca.gov",
+        "mgardea@sjgov.org",
+        "pcanepa@sjgov.org",
+        "sdhaliwal@sjgov.org",
+        "sding@sjgov.org",
+        "rrickman@sjgov.org",
+        "ekiernan@sjgov.org",
+        "jking@sjgov.org",
+        "ronald.freitas@sjcda.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -4140,22 +5269,26 @@
         "phones": [
           {
             "who": "Stockton Mayor's Office",
-            "main": "+1 209 937 8499",
+            "number": "+1 209 937 8499",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Stockton City Manager's Office",
-            "main": "+1 209 937 8212",
+            "number": "+1 209 937 8212",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Stockton Police Department",
-            "main": "+1 209 937 8377",
+            "number": "+1 209 937 8377",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Stockton Animal Service",
-            "main": "+1 209 937 7445",
+            "number": "+1 209 937 7445",
+            "code": "",
             "ext": ""
           }
         ]
@@ -4186,12 +5319,14 @@
         "phones": [
           {
             "who": "Carson City Sheriff’s Office",
-            "main": "+1 775 887 2677",
+            "number": "+1 775 887 2677",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Carson City Animal Services",
-            "main": "+1 775 887 2171",
+            "number": "+1 775 887 2171",
+            "code": "",
             "ext": ""
           }
         ]
@@ -4212,7 +5347,19 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/odelia-asher-dog-abuse",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "nhochman@da.lacounty.gov",
+        "hydee.feldsteinsoto@lacity.org",
+        "info@da.lacounty.gov",
+        "yvonne.rodriguez@lacity.org",
+        "curtis.watts@lacity.org",
+        "councilmember.jurado@lacity.org",
+        "firstdistrict@bos.lacounty.gov",
+        "lindsey@bos.lacounty.gov",
+        "lodendahl@bos.lacounty.gov",
+        "hollyjmitchell@bos.lacounty.gov",
+        "kathryn@bos.lacounty.gov"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -4224,17 +5371,20 @@
         "phones": [
           {
             "who": "Hollywood Community Police Station",
-            "main": "+1 213 972 2971",
+            "number": "+1 213 972 2971",
+            "code": "",
             "ext": ""
           },
           {
             "who": "West LA Community Police Station",
-            "main": "+1 310 444 0701",
+            "number": "+1 310 444 0701",
+            "code": "",
             "ext": ""
           },
           {
             "who": "West LA Animal Care Center",
-            "main": "+1 213 485 0494",
+            "number": "+1 213 485 0494",
+            "code": "",
             "ext": ""
           }
         ]
@@ -4255,7 +5405,18 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/demand-prosecution-for-tyler-nashae-thompson",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "todd.spitzer@ocdapa.org",
+        "susan.price@ocdapa.org",
+        "lesley.young@ocdapa.org",
+        "keith.bogardus@ocdapa.org",
+        "michael.chay@ocdapa.org",
+        "robert.mestman@ocdapa.org",
+        "patrick.dixon@ocdapa.org",
+        "John.Walters@doj.ca.gov",
+        "ktla@ktla.com",
+        "knbc.desk@nbcuni.com"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -4267,12 +5428,14 @@
         "phones": [
           {
             "who": "Orange County District Attorney",
-            "main": "+1 714 347 8401",
+            "number": "+1 714 347 8401",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Orange County District Attorney Alternative",
-            "main": "+1 714 834 3600",
+            "number": "+1 714 834 3600",
+            "code": "",
             "ext": ""
           }
         ]
@@ -4293,7 +5456,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/abused-elephant-in-uttar-pradesh",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "dmgaz@nic.in",
+        "spgzr-up@nic.in",
+        "cvoahgp-up@nic.in",
+        "support-awbi@gov.in",
+        "Info@petaindia.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "India",
@@ -4305,22 +5474,26 @@
         "phones": [
           {
             "who": "District Magistrate",
-            "main": "+91 548 222 0240",
+            "number": "+91 548 222 0240",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Superintendent of Police",
-            "main": "+91 548 222 0568",
+            "number": "+91 548 222 0568",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Chief Veterinary Officer",
-            "main": "+91 548 222 2665",
+            "number": "+91 548 222 2665",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Divisional Forest Officer",
-            "main": "+91 548 222 0352",
+            "number": "+91 548 222 0352",
+            "code": "",
             "ext": ""
           }
         ]
@@ -4341,7 +5514,11 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/eterazama-dog-abuse",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "gam.villatunari@gmail.com",
+        "infogamc@cochabamba.bo",
+        "contacto@concejocbba.gob.bo"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "Bolivia",
@@ -4353,17 +5530,20 @@
         "phones": [
           {
             "who": "Gobierno Autonomo Municipal de Villa Tunari",
-            "main": "+591 4 441 36521",
+            "number": "+591 4 441 36521",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Gobierno Autonomo Municipal de Cochabamba",
-            "main": "+591 4 425 8030",
+            "number": "+591 4 425 8030",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Concejo Municipal de Cochabamba",
-            "main": "+591 4 425 5278",
+            "number": "+591 4 425 5278",
+            "code": "",
             "ext": ""
           }
         ]
@@ -4398,27 +5578,32 @@
         "phones": [
           {
             "who": "Lewisville Animal Services",
-            "main": "+1 972 219 3478",
+            "number": "+1 972 219 3478",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Lewisville City Manager",
-            "main": "+1 972 219 3409",
+            "number": "+1 972 219 3409",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Lewisville City Hall",
-            "main": "+1 972 219 3400",
+            "number": "+1 972 219 3400",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Lewisville PD",
-            "main": "+1 972 219 3600",
+            "number": "+1 972 219 3600",
+            "code": "",
             "ext": ""
           },
           {
             "who": "Lewisville City Attorney",
-            "main": "+1 972 219 3400",
+            "number": "+1 972 219 3400",
+            "code": "",
             "ext": ""
           }
         ]
@@ -4489,7 +5674,13 @@
       "videoEmbedUrl": "",
       "shortlinkUrl": "https://go.hallieforanimals.org/t/protect-abused-and-neglected-dogs-on-skid-row",
       "evidenceUrl": "",
-      "recipients": [],
+      "recipients": [
+        "councilmember.jurado@lacity.org",
+        "curtis.watts@lacity.org",
+        "yvonne.rodriguez@lacity.org",
+        "info@da.lacounty.gov",
+        "cityatty.help@lacity.org"
+      ],
       "recipientsCc": [],
       "captionBuilder": {
         "country": "United States",
@@ -4501,7 +5692,8 @@
         "phones": [
           {
             "who": "Crime Stoppers",
-            "main": "+1 800 222 8477",
+            "number": "+1 800 222 8477",
+            "code": "",
             "ext": ""
           }
         ]
@@ -4536,15 +5728,21 @@
         "phones": [
           {
             "who": "Ardmore Police Department",
-            "main": "+1 580 223 1212"
+            "number": "+1 580 223 1212",
+            "code": "",
+            "ext": ""
           },
           {
             "who": "Ardmore City Manager's Office",
-            "main": "+1 580 223 2934"
+            "number": "+1 580 223 2934",
+            "code": "",
+            "ext": ""
           },
           {
             "who": "Ardmore Mayor's Office",
-            "main": "+1 580 223 2934"
+            "number": "+1 580 223 2934",
+            "code": "",
+            "ext": ""
           }
         ]
       },
@@ -4633,11 +5831,15 @@
         "phones": [
           {
             "who": "INTERPOL Environmental Crime Programme",
-            "main": "+33 4724 45785"
+            "number": "+33 4724 45785",
+            "code": "",
+            "ext": ""
           },
           {
             "who": "ProPublica",
-            "main": "+1 212 514 5250"
+            "number": "+1 212 514 5250",
+            "code": "",
+            "ext": ""
           }
         ]
       },
@@ -4671,15 +5873,20 @@
         "phones": [
           {
             "who": "NYPD 52nd Precinct",
-            "main": "+1 718 220 5811"
+            "number": "+1 718 220 5811",
+            "code": "",
+            "ext": ""
           },
           {
             "who": "NYPD Animal Cruelty Investigation Squad",
-            "main": "+1 718 276 3319"
+            "number": "+1 718 276 3319",
+            "code": "",
+            "ext": ""
           },
           {
             "who": "ASPCA Cruelty Investigations",
-            "main": "+1 212 876 7700",
+            "number": "+1 212 876 7700",
+            "code": "",
             "ext": "4450"
           }
         ]
@@ -4710,7 +5917,9 @@
         "phones": [
           {
             "who": "Balch Springs Animal Services Supervisor Chelsie Way",
-            "main": "+1 945 290 1991"
+            "number": "+1 945 290 1991",
+            "code": "",
+            "ext": ""
           }
         ]
       },
@@ -4742,15 +5951,21 @@
         "phones": [
           {
             "who": "Miami Shores Police Department",
-            "main": "+1 305 759 2468"
+            "number": "+1 305 759 2468",
+            "code": "",
+            "ext": ""
           },
           {
             "who": "Florida Office of the Attorney General",
-            "main": "+1 850 414 3300"
+            "number": "+1 850 414 3300",
+            "code": "",
+            "ext": ""
           },
           {
             "who": "Florida Office of the Attorney General (Toll Free)",
-            "main": "+1 866 966 7226"
+            "number": "+1 866 966 7226",
+            "code": "",
+            "ext": ""
           }
         ]
       },
