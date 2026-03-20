@@ -19,6 +19,12 @@
           "img": "assets/img/Merlin-2001-2013-1774029226472.jpg",
           "years": "2001-2013",
           "description": "Run free, buddy."
+        },
+        {
+          "name": "Koda",
+          "img": "assets/img/Koda-2005-2019-1774029389465.jpg",
+          "years": "2005-2019",
+          "description": "Mr. Koda"
         }
       ]
     }
