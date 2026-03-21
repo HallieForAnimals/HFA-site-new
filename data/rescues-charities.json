@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Rescues & Charities",
+    "version": 1
+  },
+  "sections": [
+    {
+      "name": "Verified Rescues",
+      "rescues": []
+    },
+    {
+      "name": "Charities",
+      "charities": []
+    }
+  ]
+}

@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="robots" content="noindex,nofollow">
-  <meta http-equiv="refresh" content="0;url=coming-soon.html">
-  <title>Case Updates | HallieForAnimals</title>
+  <meta name="robots" content="noindex,nofollow">  <title>Case Updates | HallieForAnimals</title>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="assets/js/hfa-preview-settings.js"></script>
+  <script src="assets/js/hfa-preview-settings.local.js"></script>
+  <script src="assets/js/preview-gate.js"></script>
 </head>
 <body>
 <div id="announcement-root"></div>
@@ -48,7 +49,7 @@
     Follow how each case progresses, from first report to resolution.
   </p>
   <div class="cta-submit-block page-content page-content--centered">
-    <p><a href="cta-submit.html" class="btn secondary-btn">Submit a CTA</a></p>
+    <p><a href="contact.html?kind=cta" class="btn secondary-btn">Submit a CTA</a></p>
   </div>
   <div id="updates-list" class="page-content">
     <p>Loading updates…</p>
@@ -68,12 +69,17 @@
 (function() {
   var container = document.getElementById('updates-list');
   if (!container) return;
-  fetch('data/links.json', { cache: 'no-store' })
+  var path = window.location.pathname || '/';
+  var dataUrl = path.slice(0, path.lastIndexOf('/') + 1) + 'data/links.json';
+  fetch(dataUrl, { cache: 'no-store' })
     .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
     .then(function(json) {
       var links = Array.isArray(json.links) ? json.links : [];
-      var originals = links.filter(function(x) { return x.role === 'original'; });
-      var updates = links.filter(function(x) { return x.status === 'updated'; });
+      function isHiddenCta(item) {
+        return !!(item && (item.hidden === true || item.archived === true));
+      }
+      var originals = links.filter(function(x) { return x.role === 'original' && !isHiddenCta(x); });
+      var updates = links.filter(function(x) { return x.status === 'updated' && !isHiddenCta(x); });
       if (!updates.length) {
         container.innerHTML = '<p>No case updates yet.</p>';
         return;
@@ -90,20 +96,43 @@
         return { caseId: caseId, original: original, updates: updatesForCase, latestStatus: latestStatus, latestAt: updatesForCase[0] && updatesForCase[0].updatedAt ? updatesForCase[0].updatedAt : '' };
       }).sort(function(a, b) { return (b.latestAt || '').localeCompare(a.latestAt || ''); });
       function esc(s) { return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+      function linkifyInstagramMentions(escapedText) {
+        // `escapedText` is already HTML-escaped, so we can safely inject only our own <a> tags.
+        return (escapedText || '').replace(
+          /(^|[^A-Za-z0-9._-])@([A-Za-z0-9._-]{1,30})(?![A-Za-z0-9._-])/g,
+          function(match, prefix, handle) {
+            var href = 'https://www.instagram.com/' + encodeURIComponent(handle);
+            return prefix + '<a href="' + esc(href) + '" target="_blank" rel="noopener noreferrer">@' + esc(handle) + '</a>';
+          }
+        );
+      }
+      // Normalize/compute CTA redirect URL from slug so older links.json entries still work.
+      var TRACKER_BASE = 'https://go.hallieforanimals.org/t';
+      function trackedUrlFromSlug(slug) {
+        if (!slug) return '';
+        return TRACKER_BASE + '/' + encodeURIComponent(String(slug).trim());
+      }
       container.innerHTML = cases.map(function(c) {
         var title = esc(c.original.title || c.caseId);
-        var summary = esc(c.original.summary || '');
+        var summary = linkifyInstagramMentions(esc(c.original.summary || ''));
         var statusLabel = (c.latestStatus || 'open').toUpperCase();
+        var video = c.original.videoEmbedUrl ? '<div class="cta-video"><iframe src="' + esc(c.original.videoEmbedUrl) + '" loading="lazy" allowfullscreen></iframe></div>' : '';
         var updatesHtml = c.updates.map(function(u) {
-          var short = u.shortlinkUrl ? ' <a href="' + esc(u.shortlinkUrl) + '" class="btn secondary-btn">CTA link</a>' : '';
+          var shortUrl = (u.shortlinkUrl || '').trim();
+          if (!shortUrl || (u.slug && shortUrl.indexOf(TRACKER_BASE + '/') !== 0)) {
+            shortUrl = trackedUrlFromSlug(u.slug);
+          }
+          var short = shortUrl ? ' <a href="' + esc(shortUrl) + '" class="btn secondary-btn">CTA link</a>' : '';
           return '<li class="case-update-item"><h3>' + esc(u.updateTitle || u.title || 'Update') + '</h3><p>' + esc(u.updateBody || u.summary || '') + '</p>' + short + '</li>';
         }).join('');
         return '<article class="case-card"><header class="case-card-header"><h2>' + title + '</h2><span class="status-pill status-' + esc(c.latestStatus) + '">' + statusLabel + '</span></header>' +
+          video +
           (summary ? '<p>' + summary + '</p>' : '') +
           '<ul class="case-updates-list">' + updatesHtml + '</ul></article>';
       }).join('');
     })
-    .catch(function() { container.innerHTML = '<p>Could not load updates.</p>'; });
+    .catch(function() { container.innerHTML = '<p>Could not load updates. If you opened this file from your computer, run a local server (e.g. <code>npx serve</code>) from the site folder and open the page via http://localhost.</p>'; });
 })();
 </script>
 </body>

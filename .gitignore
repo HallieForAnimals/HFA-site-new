@@ -1,0 +1,28 @@
+# ----- Dependencies -----
+node_modules/
+
+# ----- Secrets & local env (never commit) -----
+.env
+.env.*
+!.env.example
+
+# ----- Cloudflare Wrangler local state -----
+.wrangler/
+.dev.vars
+
+# ----- OS / editor noise -----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ----- Logs & caches -----
+*.log
+npm-debug.log*
+.cache/
+
+# ----- Preview passphrase (never commit the real one) -----
+assets/js/hfa-preview-settings.local.js

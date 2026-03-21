@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="robots" content="noindex,nofollow">
-  <meta http-equiv="refresh" content="0;url=coming-soon.html">
-  <title>Rescues &amp; Charities | HallieForAnimals</title>
+  <meta name="robots" content="noindex,nofollow">  <title>Rescues &amp; Charities | HallieForAnimals</title>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="assets/js/hfa-preview-settings.js"></script>
+  <script src="assets/js/hfa-preview-settings.local.js"></script>
+  <script src="assets/js/preview-gate.js"></script>
 </head>
 <body>
 <div id="announcement-root"></div>
@@ -52,21 +53,7 @@
       We focus on highlighting rescues and charities that are often under the radar: local, volunteer-run, and doing critical work with limited resources. When you adopt, donate, or share, consider these organizations.
     </p>
 
-    <div id="rescues-list" class="rescues-grid">
-      <!-- Content can be managed by Page Updater or loaded from data -->
-      <article class="rescue-card">
-        <h2 class="rescue-name">Example Local Rescue</h2>
-        <p class="rescue-meta">Local · Dogs &amp; Cats</p>
-        <p class="rescue-desc">Short description of the rescue’s mission and who they serve. Replace with real entries via the app or data file.</p>
-        <a href="#" class="btn secondary-btn" rel="noopener">Visit site</a>
-      </article>
-      <article class="rescue-card">
-        <h2 class="rescue-name">Example Charity</h2>
-        <p class="rescue-meta">Regional · Wildlife / Farm animals</p>
-        <p class="rescue-desc">Another placeholder for a charity you approve of. Add name, focus, and link when ready.</p>
-        <a href="#" class="btn secondary-btn" rel="noopener">Visit site</a>
-      </article>
-    </div>
+    <div id="rescues-charities-dynamic-root" class="rescues-json-mount" aria-live="polite"></div>
 
     <p class="page-note">
       Have a rescue or charity to suggest? Use our <a href="contact.html">Contact Us</a> form and we’ll consider adding them.
@@ -81,6 +68,80 @@
 
 <script>
 (function(){var btn=document.querySelector('.burger-btn');var links=document.querySelector('.nav-links');if(btn&&links){btn.addEventListener('click',function(){var open=links.classList.toggle('nav-open');btn.setAttribute('aria-expanded',open?'true':'false');btn.setAttribute('aria-label',open?'Close menu':'Open menu');});links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('nav-open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');});});}})();
+</script>
+<script>
+(function () {
+  var RAW_BASE = 'https://raw.githubusercontent.com/HallieForAnimals/HFA-site-new/main';
+  function esc(s) {
+    var d = document.createElement('div');
+    d.textContent = s == null ? '' : String(s);
+    return d.innerHTML;
+  }
+  function safeHref(u) {
+    var v = String(u || '').trim();
+    if (!v) return '#';
+    if (/^javascript:/i.test(v)) return '#';
+    return v.replace(/^\/+/, '');
+  }
+  function resolveLogoSrc(logo) {
+    var v = safeHref(logo);
+    if (!v || v === '#') return '';
+    if (/^https?:\/\//i.test(v)) return v;
+    if (/^assets\/img\//i.test(v)) return RAW_BASE + '/' + v;
+    return v;
+  }
+  function metaLine(item) {
+    var p = [item.country, item.region].filter(Boolean).join(' · ');
+    return p || '\u00a0';
+  }
+  function socials(item) {
+    var p = [];
+    if (item.instagram) p.push('<a href="' + esc(safeHref(item.instagram)) + '" rel="noopener noreferrer" target="_blank">Instagram</a>');
+    if (item.facebook) p.push('<a href="' + esc(safeHref(item.facebook)) + '" rel="noopener noreferrer" target="_blank">Facebook</a>');
+    if (item.email) p.push('<a href="mailto:' + esc(String(item.email).replace(/^mailto:/i, '')) + '">Email</a>');
+    return p.length ? '<p class="rescue-socials">' + p.join(' · ') + '</p>' : '';
+  }
+  function card(item) {
+    var href = safeHref(item.url);
+    var ext = href !== '#' && /^https?:\/\//i.test(href) ? ' rel="noopener noreferrer" target="_blank"' : '';
+    var logoSrc = resolveLogoSrc(item.logo);
+    var logo = logoSrc
+      ? '<img class="rescue-card-logo" src="' + esc(logoSrc) + '" alt="">'
+      : '';
+    var btn = esc(item.urlButton || 'Visit site');
+    return '<article class="rescue-card">' + logo +
+      '<h2 class="rescue-name">' + esc(item.title) + '</h2>' +
+      '<p class="rescue-meta">' + esc(metaLine(item)) + '</p>' +
+      '<p class="rescue-desc">' + esc(item.description) + '</p>' +
+      socials(item) +
+      '<a href="' + esc(href) + '" class="btn secondary-btn"' + ext + '>' + btn + '</a></article>';
+  }
+  function sectionBlock(title, list) {
+    if (!list || !list.length) return '';
+    return '<h2 class="rescues-section-title">' + esc(title) + '</h2><div class="rescues-grid">' +
+      list.map(card).join('') + '</div>';
+  }
+  var root = document.getElementById('rescues-charities-dynamic-root');
+  if (!root) return;
+  fetch(RAW_BASE + '/data/rescues-charities.json?ts=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error('fetch'); return r.json(); })
+    .then(function (data) {
+      var sections = Array.isArray(data.sections) ? data.sections : [];
+      var rescueSec = sections.find(function (s) { return s && /rescue/i.test(String(s.name || '')); });
+      var charSec = sections.find(function (s) { return s && /charit/i.test(String(s.name || '')); });
+      var html = '';
+      if (rescueSec && Array.isArray(rescueSec.rescues)) {
+        html += sectionBlock(rescueSec.name || 'Verified Rescues', rescueSec.rescues);
+      }
+      if (charSec && Array.isArray(charSec.charities)) {
+        html += sectionBlock(charSec.name || 'Charities', charSec.charities);
+      }
+      root.innerHTML = html || '<p class="intro-text">No rescues or charities listed yet.</p>';
+    })
+    .catch(function () {
+      root.innerHTML = '<p class="intro-text">Could not load rescues list. Try again later.</p>';
+    });
+})();
 </script>
 <script src="announcement.js"></script>
 </body>

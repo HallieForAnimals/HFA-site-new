@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="robots" content="noindex,nofollow">
-  <meta http-equiv="refresh" content="0;url=coming-soon.html">
-  <title>CTA | HallieForAnimals</title>
+  <meta name="robots" content="noindex,nofollow">  <title>CTA | HallieForAnimals</title>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="assets/js/hfa-preview-settings.js"></script>
+  <script src="assets/js/hfa-preview-settings.local.js"></script>
+  <script src="assets/js/preview-gate.js"></script>
 </head>
 <body>
 <div id="announcement-root"></div>
@@ -50,8 +51,8 @@
   <div class="cta-submit-block page-content page-content--centered">
     <p><a href="cta-submit.html" class="btn secondary-btn">Submit a CTA</a></p>
   </div>
-  <div class="page-content page-content--centered">
-    <p>Campaigns and CTAs will be listed here, driven by the app and <code>data/links.json</code>.</p>
+  <div id="cta-list" class="page-content page-content--centered">
+    <p>Loading campaigns…</p>
   </div>
 </section>
 
@@ -64,5 +65,227 @@
 (function(){var btn=document.querySelector('.burger-btn');var links=document.querySelector('.nav-links');if(btn&&links){btn.addEventListener('click',function(){var open=links.classList.toggle('nav-open');btn.setAttribute('aria-expanded',open?'true':'false');btn.setAttribute('aria-label',open?'Close menu':'Open menu');});links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('nav-open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');});});}})();
 </script>
 <script src="announcement.js"></script>
+<script>
+(function() {
+  var container = document.getElementById('cta-list');
+  if (!container) return;
+  var path = window.location.pathname || '/';
+  var dataUrl = path.slice(0, path.lastIndexOf('/') + 1) + 'data/links.json';
+  var TRACKER_BASE = 'https://go.hallieforanimals.org/t';
+  function trackedUrlFromSlug(slug) {
+    if (!slug) return '';
+    return TRACKER_BASE + '/' + encodeURIComponent(String(slug).trim());
+  }
+  function esc(s) { return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+  function linkifyInstagramMentions(escapedText) {
+    // `escapedText` is already HTML-escaped, so we can safely inject only our own <a> tags.
+    return (escapedText || '').replace(
+      /(^|[^A-Za-z0-9._-])@([A-Za-z0-9._-]{1,30})(?![A-Za-z0-9._-])/g,
+      function(match, prefix, handle) {
+        var href = 'https://www.instagram.com/' + encodeURIComponent(handle);
+        return prefix + '<a href="' + esc(href) + '" target="_blank" rel="noopener noreferrer">@' + esc(handle) + '</a>';
+      }
+    );
+  }
+
+  function normalizeTel(raw) {
+    var s = (raw || '').toString().trim();
+    if (!s) return '';
+    var plus = s[0] === '+' ? '+' : '';
+    var digits = s.replace(/[^\d]/g, '');
+    return plus + digits;
+  }
+
+  function telFromMain(main, ext) {
+    var base = normalizeTel(main);
+    if (!base) return '';
+    var extDigits = (ext || '').toString().replace(/[^\d]/g, '');
+    return extDigits ? base + ';ext=' + extDigits : base;
+  }
+
+  function isHiddenCta(item) {
+    return !!(item && (item.hidden === true || item.archived === true));
+  }
+
+  fetch(dataUrl, { cache: 'no-store' })
+    .then(function(r) { return r.ok ? r.json() : Promise.reject(new Error(r.status)); })
+    .then(function(json) {
+      var recent = [];
+      var ongoing = [];
+      var updates = [];
+      // Support both formats:
+      // 1) New: { links: [...] } with status/role
+      // 2) Old: { sections: [{ name, links: [...] }, ...] } where Recent/Ongoing are inferred from section name
+      if (Array.isArray(json.sections)) {
+        json.sections.forEach(function(s) {
+          var name = String(s && s.name ? s.name : '').toLowerCase();
+          if (!Array.isArray(s.links)) return;
+          if (name.indexOf('recent') !== -1) recent = recent.concat(s.links);
+          else if (name.indexOf('ongoing') !== -1) ongoing = ongoing.concat(s.links);
+          else if (name.indexOf('updated') !== -1 || name.indexOf('updates') !== -1) updates = updates.concat(s.links);
+        });
+      } else {
+        var links = Array.isArray(json.links) ? json.links : [];
+        recent = links.filter(function(x) { return x.status === 'recent' && x.role === 'original'; });
+        ongoing = links.filter(function(x) { return x.status === 'ongoing' && x.role === 'original'; });
+        updates = links.filter(function(x) { return x.status === 'updated'; });
+      }
+
+      // Hide CTAs without deleting them (keeps tracker/analytics intact).
+      recent = recent.filter(function(x) { return !isHiddenCta(x); });
+      ongoing = ongoing.filter(function(x) { return !isHiddenCta(x); });
+      updates = updates.filter(function(x) { return !isHiddenCta(x); });
+
+      var parts = [];
+      if (recent.length) {
+        parts.push('<h2 class="cta-section-heading">Recent</h2><p class="cta-section-intro"><a href="recent.html">View all recent CTAs</a></p>');
+        parts.push(recent.slice(0, 3).map(function(item) {
+          var cb = item.captionBuilder || {};
+          if (!item.captionBuilder && item.location) {
+            cb = Object.assign({}, cb, {
+              country: item.location.country || '',
+              state: item.location.region || '',
+              city: item.location.locality || '',
+              targets: item.targets || [],
+              phones: item.phones || []
+            });
+          }
+          var targets = [];
+          if (Array.isArray(cb.targets)) {
+            targets = cb.targets;
+          } else {
+            var targetsRaw = (cb.targets || '').toString().trim();
+            targets = targetsRaw ? targetsRaw.split(',').map(function(s) { return s.trim(); }).filter(Boolean) : [];
+          }
+
+          var locationParts = [cb.city, cb.state, cb.country].map(function(s) { return (s || '').trim(); }).filter(Boolean);
+          var locationText = locationParts.length ? locationParts.join(', ') : '';
+
+          var phones = Array.isArray(cb.phones) ? cb.phones : [];
+          var phoneLis = phones.map(function(p) {
+            var who = (p.who || '').trim();
+            var code = (p.code || '').trim();
+            var num = (p.number || p.main || '').trim();
+            var ext = (p.ext || '').trim();
+            var main = [code, num].filter(Boolean).join(' ').trim();
+            var suffix = ext ? (' ext ' + ext) : '';
+            var visiblePhone = main + suffix;
+            var telHref = telFromMain(main, ext);
+            return '<li class="cta-phone-row">' +
+              '<span class="cta-phone-who">' + esc(who || '') + '</span>' +
+              (telHref
+                ? ('<a href="tel:' + esc(telHref) + '" class="cta-phone-link cta-phone-num" rel="nofollow">' + esc(visiblePhone) + '</a>')
+                : ('<span class="cta-phone-num">' + esc(visiblePhone) + '</span>')) +
+            '</li>';
+          });
+
+          var descriptionRaw = item.descriptionLong || item.description || item.summary || item.callScript || '';
+          var descriptionHtml = descriptionRaw ? linkifyInstagramMentions(esc(descriptionRaw)).replace(/\n/g,'<br/>') : '';
+
+          var video = item.videoEmbedUrl ? '<div class="cta-video"><iframe src="' + esc(item.videoEmbedUrl) + '" loading="lazy" allowfullscreen></iframe></div>' : '';
+
+          var shortUrl = (item.shortlinkUrl || item.shortlink || '').trim();
+          if (!shortUrl) shortUrl = trackedUrlFromSlug(item.slug);
+          var tag = (item.tag || '').toString().toLowerCase();
+          var isEmail = tag.indexOf('email') !== -1;
+          var buttonLabel = isEmail ? 'Send the one-click email' : 'Take action';
+          var button = shortUrl ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn" rel="nofollow">' + esc(buttonLabel) + '</a>' : '';
+
+          return '<details class="cta-accordion cta-card-ui">' +
+            '<summary class="cta-accordion-summary">' + esc(item.title || item.slug || 'CTA') + '</summary>' +
+            '<div class="cta-accordion-body">' +
+              video +
+              '<div class="cta-card-section"><h3>Description</h3><div class="cta-card-body cta-card-desc">' + descriptionHtml + '</div></div>' +
+              (targets.length ? ('<div class="cta-card-section"><h3>Targets</h3><div class="cta-card-body"><ul class="cta-card-list">' + targets.map(function(t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul></div></div>') : '') +
+              (locationText ? ('<div class="cta-card-section"><h3>Location</h3><div class="cta-card-body">' + esc(locationText) + '</div></div>') : '') +
+              (phoneLis.length ? ('<div class="cta-card-section"><h3>Phone</h3><div class="cta-card-body"><ul class="cta-card-list cta-phone-list">' + phoneLis.join('') + '</ul></div></div>') : '') +
+              button +
+            '</div>' +
+          '</details>';
+        }).join(''));
+      }
+      if (ongoing.length) {
+        parts.push('<h2 class="cta-section-heading">Ongoing</h2><p class="cta-section-intro"><a href="ongoing.html">View all ongoing CTAs</a></p>');
+        parts.push(ongoing.slice(0, 3).map(function(item) {
+          var cb = item.captionBuilder || {};
+          if (!item.captionBuilder && item.location) {
+            cb = Object.assign({}, cb, {
+              country: item.location.country || '',
+              state: item.location.region || '',
+              city: item.location.locality || '',
+              targets: item.targets || [],
+              phones: item.phones || []
+            });
+          }
+          var targets = [];
+          if (Array.isArray(cb.targets)) {
+            targets = cb.targets;
+          } else {
+            var targetsRaw = (cb.targets || '').toString().trim();
+            targets = targetsRaw ? targetsRaw.split(',').map(function(s) { return s.trim(); }).filter(Boolean) : [];
+          }
+
+          var locationParts = [cb.city, cb.state, cb.country].map(function(s) { return (s || '').trim(); }).filter(Boolean);
+          var locationText = locationParts.length ? locationParts.join(', ') : '';
+
+          var phones = Array.isArray(cb.phones) ? cb.phones : [];
+          var phoneLis = phones.map(function(p) {
+            var who = (p.who || '').trim();
+            var code = (p.code || '').trim();
+            var num = (p.number || p.main || '').trim();
+            var ext = (p.ext || '').trim();
+            var main = [code, num].filter(Boolean).join(' ').trim();
+            var suffix = ext ? (' ext ' + ext) : '';
+            var visiblePhone = main + suffix;
+            var telHref = telFromMain(main, ext);
+            return '<li class="cta-phone-row">' +
+              '<span class="cta-phone-who">' + esc(who || '') + '</span>' +
+              (telHref
+                ? ('<a href="tel:' + esc(telHref) + '" class="cta-phone-link cta-phone-num" rel="nofollow">' + esc(visiblePhone) + '</a>')
+                : ('<span class="cta-phone-num">' + esc(visiblePhone) + '</span>')) +
+            '</li>';
+          });
+
+          var descriptionRaw = item.descriptionLong || item.description || item.summary || item.callScript || '';
+          var descriptionHtml = descriptionRaw ? linkifyInstagramMentions(esc(descriptionRaw)).replace(/\n/g,'<br/>') : '';
+
+          var video = item.videoEmbedUrl ? '<div class="cta-video"><iframe src="' + esc(item.videoEmbedUrl) + '" loading="lazy" allowfullscreen></iframe></div>' : '';
+
+          var shortUrl = (item.shortlinkUrl || item.shortlink || '').trim();
+          if (!shortUrl) shortUrl = trackedUrlFromSlug(item.slug);
+          var tag = (item.tag || '').toString().toLowerCase();
+          var isEmail = tag.indexOf('email') !== -1;
+          var buttonLabel = isEmail ? 'Send the one-click email' : 'Take action';
+          var button = shortUrl ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn" rel="nofollow">' + esc(buttonLabel) + '</a>' : '';
+
+          var boycott = item.boycottUrl ? '<a href="' + esc(item.boycottUrl) + '" class="secondary-btn" style="display:block; margin-top:0.75rem; text-align:center; text-decoration:none;">How to boycott</a>' : '';
+
+          return '<details class="cta-accordion cta-card-ui">' +
+            '<summary class="cta-accordion-summary">' + esc(item.title || item.slug || 'Ongoing CTA') + '</summary>' +
+            '<div class="cta-accordion-body">' +
+              video +
+              '<div class="cta-card-section"><h3>Description</h3><div class="cta-card-body cta-card-desc">' + descriptionHtml + '</div></div>' +
+              (targets.length ? ('<div class="cta-card-section"><h3>Targets</h3><div class="cta-card-body"><ul class="cta-card-list">' + targets.map(function(t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul></div></div>') : '') +
+              (locationText ? ('<div class="cta-card-section"><h3>Location</h3><div class="cta-card-body">' + esc(locationText) + '</div></div>') : '') +
+              (phoneLis.length ? ('<div class="cta-card-section"><h3>Phone</h3><div class="cta-card-body"><ul class="cta-card-list cta-phone-list">' + phoneLis.join('') + '</ul></div></div>') : '') +
+              button +
+              boycott +
+            '</div>' +
+          '</details>';
+        }).join(''));
+      }
+      if (updates.length) {
+        parts.push('<p class="cta-section-intro"><a href="updated.html">View case updates</a></p>');
+      }
+      if (!parts.length) {
+        container.innerHTML = '<p>No campaigns yet. Check back soon or <a href="contact.html?kind=cta">submit a CTA</a>.</p>';
+        return;
+      }
+      container.innerHTML = parts.join('');
+    })
+    .catch(function() { container.innerHTML = '<p>Could not load campaigns. If you opened this file from your computer, try running a local server (e.g. <code>npx serve</code>) from the site folder.</p>'; });
+})();
+</script>
 </body>
 </html>

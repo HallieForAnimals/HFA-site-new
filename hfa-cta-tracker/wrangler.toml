@@ -1,0 +1,22 @@
+name = "hfa-cta-tracker"
+main = "src/index.mjs"
+compatibility_date = "2025-11-02"
+account_id = "39db3f89da924423209c9a7c5933c77c"
+
+# Strict CORS: allow GitHub Pages origin + localhost dev
+[vars]
+# Add any host you publish the site on (exact Origin, no path). Redeploy after edits.
+ALLOWED_ORIGINS = '["https://hallieforanimals.github.io","https://hallieforanimals.org","https://www.hallieforanimals.org","http://localhost:5500","http://127.0.0.1:5500"]'
+
+[[d1_databases]]
+binding = "hfa_cta_tracker"
+database_name = "hfa_cta_tracker"
+database_id = "e062843f-d4ce-4a56-979f-b64d61fbca78"
+
+[[routes]]
+pattern   = "go.hallieforanimals.org/*"
+zone_name = "hallieforanimals.org"
+
+[[kv_namespaces]]
+binding = "CTA_MAP"
+id = "543337314a4344a4b6584927c8e94ceb"

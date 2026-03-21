@@ -7,6 +7,8 @@
   <title>Coming Soon | HallieForAnimals</title>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="assets/js/hfa-preview-settings.js"></script>
+  <script src="assets/js/preview-gate.js"></script>
 </head>
 <body>
   <section class="hero">
@@ -25,10 +27,27 @@
     </div>
   </section>
 
+  <section class="coming-soon-preview-panel" aria-labelledby="preview-login-heading">
+    <h2 id="preview-login-heading">Team preview</h2>
+    <p class="coming-soon-preview-lead">If you have the preview passphrase, sign in here to browse the full site in this browser session.</p>
+    <p id="preview-login-disabled-hint" class="coming-soon-preview-hint" hidden>
+      Preview login is not enabled yet. Copy <code>hfa-preview-settings.local.js.example</code> to <code>assets/js/hfa-preview-settings.local.js</code> (not committed), set your passphrase, deploy, then reload.
+    </p>
+    <form id="preview-login-form" class="coming-soon-preview-form">
+      <label class="coming-soon-preview-label" for="preview-login-pass">Passphrase</label>
+      <div class="coming-soon-preview-row">
+        <input type="password" id="preview-login-pass" name="preview-pass" autocomplete="current-password" class="coming-soon-preview-input" placeholder="Enter passphrase" />
+        <button type="submit" class="btn coming-soon-preview-btn">View site</button>
+      </div>
+    </form>
+    <p id="preview-login-error" class="coming-soon-preview-error" role="alert" hidden></p>
+  </section>
+
   <footer>
     <p>© 2026 HallieForAnimals – All Rights Reserved</p>
     <p>Because those who need us most can't ask.</p>
   </footer>
+  <script src="assets/js/coming-soon-preview-login.js"></script>
 </body>
 </html>
 

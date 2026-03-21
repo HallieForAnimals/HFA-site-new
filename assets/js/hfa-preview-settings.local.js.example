@@ -1,0 +1,8 @@
+/**
+ * Copy this file to: hfa-preview-settings.local.js
+ * (same folder). That filename is in .gitignore — it will not be committed.
+ *
+ * On GitHub Pages / static hosts: add hfa-preview-settings.local.js only on the
+ * server or via a deploy step (CI secret → write this file); do not push it to Git.
+ */
+window.HFA_PREVIEW_PASSPHRASE = 'replace-with-a-long-random-phrase';

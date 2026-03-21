@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="robots" content="noindex,nofollow">
-  <meta http-equiv="refresh" content="0;url=coming-soon.html">
-  <title>In Memoriam | Hallie for Animals</title>
+  <meta name="robots" content="noindex,nofollow">  <title>In Memoriam | Hallie for Animals</title>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="assets/js/hfa-preview-settings.js"></script>
+  <script src="assets/js/hfa-preview-settings.local.js"></script>
+  <script src="assets/js/preview-gate.js"></script>
 </head>
 <body>
 <div id="announcement-root"></div>
@@ -48,10 +49,10 @@
     Honouring the animals we've lost and the ones we carry in our hearts.
   </p>
   <div class="page-content page-content--centered">
-    <p>In memoriam entries will be listed here, managed via the app and site data.</p>
-    <p style="margin-top:1.5rem;">
-      <a href="in-memoriam-submit.html" class="btn secondary-btn">Submit an In Memoriam tribute</a>
+    <p style="margin-top:1.5rem; margin-bottom:3rem;">
+      <a href="contact.html?kind=memoriam" class="btn secondary-btn">Submit an In Memoriam tribute</a>
     </p>
+    <div id="in-memoriam-dynamic-root" class="memoriam-json-mount" aria-live="polite"></div>
   </div>
 </section>
 
@@ -62,6 +63,92 @@
 
 <script>
 (function(){var btn=document.querySelector('.burger-btn');var links=document.querySelector('.nav-links');if(btn&&links){btn.addEventListener('click',function(){var open=links.classList.toggle('nav-open');btn.setAttribute('aria-expanded',open?'true':'false');btn.setAttribute('aria-label',open?'Close menu':'Open menu');});links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('nav-open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');});});}})();
+</script>
+<script>
+(function () {
+  var RAW_BASE = 'https://raw.githubusercontent.com/HallieForAnimals/HFA-site-new/main';
+  function esc(s) {
+    var d = document.createElement('div');
+    d.textContent = s == null ? '' : String(s);
+    return d.innerHTML;
+  }
+  function safeSrc(u) {
+    var v = String(u || '').trim();
+    if (!v) return '';
+    if (/^javascript:/i.test(v)) return '';
+    return v.replace(/^\/+/, '');
+  }
+  function normalizeName(v) {
+    return String(v || '').trim().toLowerCase();
+  }
+  function shuffle(list) {
+    var a = list.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i];
+      a[i] = a[j];
+      a[j] = t;
+    }
+    return a;
+  }
+  function splitPets(rawPets) {
+    var pets = Array.isArray(rawPets) ? rawPets.slice() : [];
+    var pinnedNames = ['molly', 'milo'];
+    var pinned = [];
+    var used = {};
+    pinnedNames.forEach(function (name) {
+      for (var i = 0; i < pets.length; i++) {
+        if (used[i]) continue;
+        if (normalizeName(pets[i] && pets[i].name) === name) {
+          pinned.push(pets[i]);
+          used[i] = true;
+          break;
+        }
+      }
+    });
+    var others = pets.filter(function (_, i) { return !used[i]; });
+    return {
+      pinned: pinned,
+      others: shuffle(others)
+    };
+  }
+  function petCard(p) {
+    var src = safeSrc(p.img);
+    var imgSrc = src && /^https?:\/\//i.test(src) ? src : (src ? (RAW_BASE + '/' + src) : '');
+    var n = normalizeName(p.name);
+    var featured = (n === 'molly' || n === 'milo');
+    var cardClass = 'memoriam-card' + (featured ? ' memoriam-card--featured' : '');
+    var img = imgSrc
+      ? '<div class="memoriam-card-image-wrap"><img class="memoriam-card-image" src="' + esc(imgSrc) + '" alt="' + esc(p.name || '') + '"></div>'
+      : '';
+    return '<article class="' + cardClass + '">' +
+      '<h2 class="memoriam-card-name">' + esc(p.name) + '</h2>' +
+      (p.years ? '<p class="memoriam-card-years">' + esc(p.years) + '</p>' : '') +
+      img +
+      '<p class="memoriam-card-desc">"' + esc(p.description) + '"</p></article>';
+  }
+  var root = document.getElementById('in-memoriam-dynamic-root');
+  if (!root) return;
+  fetch(RAW_BASE + '/data/in-memoriam.json?ts=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error('fetch'); return r.json(); })
+    .then(function (data) {
+      var sec = data.sections && data.sections[0];
+      var pets = sec && Array.isArray(sec.pets) ? sec.pets : [];
+      var split = splitPets(pets);
+      var featuredHtml = split.pinned.length
+        ? '<div class="memoriam-featured-row">' + split.pinned.map(petCard).join('') + '</div>'
+        : '';
+      var othersHtml = split.others.length
+        ? '<div class="memoriam-grid memoriam-grid--others">' + split.others.map(petCard).join('') + '</div>'
+        : '';
+      root.innerHTML = pets.length
+        ? featuredHtml + othersHtml
+        : '<p class="intro-text">No entries yet.</p>';
+    })
+    .catch(function () {
+      root.innerHTML = '<p class="intro-text">Could not load in memoriam data. Try again later.</p>';
+    });
+})();
 </script>
 <script src="announcement.js"></script>
 </body>
