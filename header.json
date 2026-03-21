@@ -15,7 +15,17 @@
     },
     {
       "text": "Call To Actions",
-      "url": "cta.html",
+      "url": "recent.html",
+      "active": true
+    },
+    {
+      "text": "Ongoing CTAs",
+      "url": "ongoing.html",
+      "active": true
+    },
+    {
+      "text": "Updates",
+      "url": "updated.html",
       "active": true
     },
     {
@@ -48,5 +58,7 @@
       "url": "contact.html",
       "active": true
     }
-  ]
+  ],
+  "logoTitle": "HallieForAnimals",
+  "logoTagline": "Because those who need us most can't ask."
 }
