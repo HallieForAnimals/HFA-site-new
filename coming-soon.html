@@ -1,53 +1,116 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="robots" content="noindex,nofollow">
-  <title>Coming Soon | HallieForAnimals</title>
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rescue Haven</title>
   <link rel="stylesheet" href="style.css">
-  <script src="assets/js/hfa-preview-settings.js"></script>
-  <script src="assets/js/preview-gate.js"></script>
 </head>
 <body>
-  <section class="hero">
-    <div class="hero-content">
-      <img
-        src="assets/img/logo.png"
-        alt="HallieForAnimals logo"
-        style="width:220px; height:auto; margin: 0 auto 1.75rem; display:block; filter: drop-shadow(0 6px 18px rgba(0,0,0,0.35));"
-      />
-      <h1 style="font-size:6rem;">COMING SOON</h1>
-      <p>
-        One-Click Activism for Animal Welfare is being built right now.
-        <br>
-        Thanks for your patience—launch is coming soon.
-      </p>
+  <header>
+    
+  <nav>
+    <a href="#" class="logo">
+      <img src="assets/img/logo.png" alt="HallieForAnimals Because those who need us most can&#039;t ask." class="logo-img"><span class="logo-text"><span class="logo-line">HallieForAnimals</span><span class="logo-line">Because those who need us most can&#039;t ask.</span></span>
+    </a>
+    <button type="button" class="burger-btn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      
+          <a href="index.html" >
+            Home
+          </a>
+        
+          <a href="about.html" >
+            About
+          </a>
+        
+          <a href="cta.html" >
+            Call To Actions
+          </a>
+        
+          <a href="rescues-charities.html" >
+            Rescues &amp; Charities
+          </a>
+        
+          <a href="resources.html" >
+            Resources
+          </a>
+        
+          <a href="in-memoriam.html" >
+            In Memoriam
+          </a>
+        
+          <a href="donate.html" >
+            Donate
+          </a>
+        
+          <a href="faq.html" >
+            FAQ
+          </a>
+        
+          <a href="contact.html" >
+            Contact Us
+          </a>
+        
     </div>
-  </section>
+  </nav>
 
-  <section class="coming-soon-preview-panel" aria-labelledby="preview-login-heading">
-    <h2 id="preview-login-heading">Team preview</h2>
-    <p class="coming-soon-preview-lead">If you have the preview passphrase, sign in here to browse the full site in this browser session.</p>
-    <p id="preview-login-disabled-hint" class="coming-soon-preview-hint" hidden>
-      Preview login is not enabled yet. Copy <code>hfa-preview-settings.local.js.example</code> to <code>assets/js/hfa-preview-settings.local.js</code> (not committed), set your passphrase, deploy, then reload.
-    </p>
-    <form id="preview-login-form" class="coming-soon-preview-form">
-      <label class="coming-soon-preview-label" for="preview-login-pass">Passphrase</label>
-      <div class="coming-soon-preview-row">
-        <input type="password" id="preview-login-pass" name="preview-pass" autocomplete="current-password" class="coming-soon-preview-input" placeholder="Enter passphrase" />
-        <button type="submit" class="btn coming-soon-preview-btn">View site</button>
+  </header>
+
+  
+        <section class="hero" >
+          <div class="hero-content">
+            <h1>COMING SOON</h1>
+            <p>One-Click Activism for Animal Welfare is being built right now.
+        
+        Thanks for your patienceâlaunch is coming soon.</p>
+            <div class="page-content"></div>
+            
+          </div>
+        </section>
+      
+
+  
+  <footer class="footer-centered">
+    
+
+    <p>&copy; 2026 HallieForAnimals â All Rights Reserved</p>
+    <p class="footer-tagline">Proudly Built By TheRealJosephMonroe</p>
+    
+    <div class="footer-links">
+      <a href="terms.html">Terms &amp; Conditions</a> | <a href="privacy.html">Privacy Policy</a>
+    </div>
+
+    
+      <div class="footer-social">
+        <a href="instagram.com/hallieforanimals" target="_blank" rel="noopener" class="footer-social-a" title="instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
       </div>
-    </form>
-    <p id="preview-login-error" class="coming-soon-preview-error" role="alert" hidden></p>
-  </section>
-
-  <footer>
-    <p>© 2026 HallieForAnimals – All Rights Reserved</p>
-    <p>Because those who need us most can't ask.</p>
+    
   </footer>
-  <script src="assets/js/coming-soon-preview-login.js"></script>
+
+
+  <script>
+  (function() {
+    var btn = document.querySelector('.burger-btn');
+    var links = document.querySelector('.nav-links');
+    if (btn && links) {
+      btn.addEventListener('click', function() {
+        var open = links.classList.toggle('nav-open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      });
+      links.querySelectorAll('a').forEach(function(a) {
+        a.addEventListener('click', function() {
+          links.classList.remove('nav-open');
+          btn.setAttribute('aria-expanded', 'false');
+          btn.setAttribute('aria-label', 'Open menu');
+        });
+      });
+    }
+  })();
+  </script>
 </body>
 </html>
-
