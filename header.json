@@ -1,0 +1,16 @@
+{
+  "logoMode": "both",
+  "logoText": "HallieForAnimals Because those who need us most can't ask.",
+  "logoImage": "assets/img/logo.png",
+  "navLinks": [
+    { "text": "Home", "url": "index.html" },
+    { "text": "About", "url": "about.html" },
+    { "text": "CTA", "url": "cta.html" },
+    { "text": "Rescues & Charities", "url": "rescues-charities.html" },
+    { "text": "Resources", "url": "resources.html" },
+    { "text": "In Memoriam", "url": "in-memoriam.html" },
+    { "text": "Donate", "url": "donate.html" },
+    { "text": "FAQ", "url": "faq.html" },
+    { "text": "Contact Us", "url": "contact.html" }
+  ]
+}
