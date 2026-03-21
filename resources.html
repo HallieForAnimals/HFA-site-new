@@ -1,127 +1,124 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="robots" content="noindex,nofollow">  <title>Resources | HallieForAnimals</title>
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rescue Haven</title>
   <link rel="stylesheet" href="style.css">
-  <script src="assets/js/hfa-preview-settings.js"></script>
-  <script src="assets/js/hfa-preview-settings.local.js"></script>
-  <script src="assets/js/preview-gate.js"></script>
 </head>
 <body>
-<div id="announcement-root"></div>
-<header>
+  <header>
+    
   <nav>
-    <a href="index.html" class="logo">
-      <img src="assets/img/logo.png" alt="HallieForAnimals logo" class="logo-img">
-      <span class="logo-text">
-        <span class="logo-line">HallieForAnimals</span>
-        <span class="logo-tagline">Because those who need us most can't ask.</span>
-      </span>
+    <a href="#" class="logo">
+      <img src="assets/img/logo.png" alt="HallieForAnimals Because those who need us most can&#039;t ask." class="logo-img"><span class="logo-text"><span class="logo-line">HallieForAnimals</span><span class="logo-line">Because those who need us most can&#039;t ask.</span></span>
     </a>
-    <button type="button" class="burger-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <button type="button" class="burger-btn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
     <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <div class="nav-item-dropdown">
-        <a href="cta.html">CTA <span class="caret">▾</span></a>
-        <div class="nav-dropdown">
-          <a href="ongoing.html">Ongoing</a>
-          <a href="recent.html">Recent</a>
-          <a href="updated.html">Updates</a>
-        </div>
-      </div>
-      <a href="rescues-charities.html">Rescues &amp; Charities</a>
-      <a href="resources.html" class="active">Resources</a>
-      <a href="in-memoriam.html">In Memoriam</a>
-      <a href="donate.html">Donate</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact Us</a>
+      
+          <a href="index.html" >
+            Home
+          </a>
+        
+          <a href="about.html" >
+            About
+          </a>
+        
+          <a href="cta.html" >
+            Call To Actions
+          </a>
+        
+          <a href="rescues-charities.html" >
+            Rescues &amp; Charities
+          </a>
+        
+          <a href="resources.html" class="active">
+            Resources
+          </a>
+        
+          <a href="in-memoriam.html" >
+            In Memoriam
+          </a>
+        
+          <a href="donate.html" >
+            Donate
+          </a>
+        
+          <a href="faq.html" >
+            FAQ
+          </a>
+        
+          <a href="contact.html" >
+            Contact Us
+          </a>
+        
     </div>
   </nav>
-</header>
 
-<section class="page-container">
-  <h1 class="page-title">Resources</h1>
-  <p class="page-subtitle">
-    Practical guides and information for adopters and animal advocates.
-  </p>
-  <div class="page-content page-content--centered">
-    <p class="intro-text">
-      Practical guides and handouts for adopters and advocates. Download and print or save for later—no need to read everything on the site.
-    </p>
+  </header>
 
-    <div id="resources-dynamic-root" class="resources-json-mount" aria-live="polite"></div>
+  
+      <section class="page-container">
+        <h1 class="page-title">Resources</h1>
+        <p class="page-subtitle">Practical guides and information for adopters and animal advocates.</p>
+        <div class="page-content"><p class="intro-text">
+      Practical guides and handouts for adopters and advocates. Download and print or save for laterâno need to read everything on the site.
+    </p><p>
 
-    <p class="page-note">
+    </p><p><br></p><p>
+
+    </p><p class="page-note">
       Guides are managed in <code>data/resources.json</code> via the Hallie app (PDFs can live in <code>assets/resources/</code>).
-    </p>
-  </div>
-</section>
+    </p></div>
+        
+        
+        
+        
+        
+      </section>
+    
 
-<footer>
-  <p>© 2026 HallieForAnimals – All Rights Reserved</p>
-  <p>Because those who need us most can't ask.</p>
-</footer>
+  
+  <footer class="footer-centered">
+    
 
-<script>
-(function(){var btn=document.querySelector('.burger-btn');var links=document.querySelector('.nav-links');if(btn&&links){btn.addEventListener('click',function(){var open=links.classList.toggle('nav-open');btn.setAttribute('aria-expanded',open?'true':'false');btn.setAttribute('aria-label',open?'Close menu':'Open menu');});links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('nav-open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');});});}})();
-</script>
-<script>
-(function () {
-  var RAW_BASE = 'https://raw.githubusercontent.com/HallieForAnimals/HFA-site-new/main';
-  function esc(s) {
-    var d = document.createElement('div');
-    d.textContent = s == null ? '' : String(s);
-    return d.innerHTML;
-  }
-  function safeHref(u) {
-    var v = String(u || '').trim();
-    if (!v) return '#';
-    if (/^javascript:/i.test(v)) return '#';
-    return v.replace(/^\/+/, '');
-  }
-  function resolveAssetHref(href) {
-    var v = safeHref(href);
-    if (!v || v === '#') return '#';
-    if (/^https?:\/\//i.test(v)) return v;
-    if (/^assets\/resources\//i.test(v)) return RAW_BASE + '/' + v;
-    return v;
-  }
-  function linkLabel(url) {
-    var u = String(url || '').toLowerCase();
-    if (u.endsWith('.pdf')) return 'Download PDF';
-    return 'Open link';
-  }
-  function renderSection(sec) {
-    if (!sec || !Array.isArray(sec.links) || sec.links.length === 0) return '';
-    var title = esc(sec.name || 'Resources');
-    var items = sec.links.map(function (link) {
-      var href = resolveAssetHref(link.url);
-      var ext = /^https?:\/\//i.test(href) ? ' rel="noopener noreferrer" target="_blank"' : '';
-      var dl = /\.pdf($|\?)/i.test(href) ? ' download' : '';
-      return '<li class="resource-download-item"><div class="resource-download-info"><h2 class="resource-download-title">' +
-        esc(link.title) + '</h2><p class="resource-download-desc">' + esc(link.subtitle || '') + '</p></div>' +
-        '<a href="' + esc(href) + '" class="btn secondary-btn resource-download-btn"' + ext + dl + '>' + esc(linkLabel(link.url)) + '</a></li>';
-    }).join('');
-    return '<h2 class="resources-section-title">' + title + '</h2><ul class="resource-downloads" aria-label="' + title + '">' + items + '</ul>';
-  }
-  var root = document.getElementById('resources-dynamic-root');
-  if (!root) return;
-  fetch(RAW_BASE + '/data/resources.json?ts=' + Date.now(), { cache: 'no-store' })
-    .then(function (r) { if (!r.ok) throw new Error('fetch'); return r.json(); })
-    .then(function (data) {
-      var sections = Array.isArray(data.sections) ? data.sections : [];
-      var html = sections.map(renderSection).join('');
-      root.innerHTML = html || '<p class="intro-text">No resources listed yet.</p>';
-    })
-    .catch(function () {
-      root.innerHTML = '<p class="intro-text">Could not load resource list. Try again later.</p>';
-    });
-})();
-</script>
-<script src="announcement.js"></script>
+    <p>&copy; 2026 HallieForAnimals â All Rights Reserved</p>
+    <p class="footer-tagline">Proudly Built By TheRealJosephMonroe</p>
+    
+    <div class="footer-links">
+      <a href="terms.html">Terms &amp; Conditions</a> | <a href="privacy.html">Privacy Policy</a>
+    </div>
+
+    
+      <div class="footer-social">
+        <a href="instagram.com/hallieforanimals" target="_blank" rel="noopener" class="footer-social-a" title="instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+      </div>
+    
+  </footer>
+
+
+  <script>
+  (function() {
+    var btn = document.querySelector('.burger-btn');
+    var links = document.querySelector('.nav-links');
+    if (btn && links) {
+      btn.addEventListener('click', function() {
+        var open = links.classList.toggle('nav-open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      });
+      links.querySelectorAll('a').forEach(function(a) {
+        a.addEventListener('click', function() {
+          links.classList.remove('nav-open');
+          btn.setAttribute('aria-expanded', 'false');
+          btn.setAttribute('aria-label', 'Open menu');
+        });
+      });
+    }
+  })();
+  </script>
 </body>
 </html>
