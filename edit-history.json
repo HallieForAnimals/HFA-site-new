@@ -1,6 +1,13 @@
 [
   {
     "kind": "data",
+    "target": "header.json",
+    "detail": "Header & nav",
+    "user": "owner",
+    "time": "2026-03-21T23:09:42.395Z"
+  },
+  {
+    "kind": "data",
     "target": "footer.json",
     "detail": "Footer",
     "user": "owner",
