@@ -1,8 +1,32 @@
 {
-  "stats": [],
+  "stats": [
+    {
+      "number": "251,050",
+      "label": "Total Emails Sent",
+      "source": "email_sends"
+    }
+  ],
   "showStats": true,
-  "pagesWithStats": [],
-  "copyright": "© 2026 HallieForAnimals – All Rights Reserved",
+  "pagesWithStats": [
+    "about.html",
+    "contact.html",
+    "cta-submit.html",
+    "cta.html",
+    "donate.html",
+    "faq.html",
+    "in-memoriam-submit.html",
+    "in-memoriam.html",
+    "index.html",
+    "ongoing.html",
+    "privacy.html",
+    "recent.html",
+    "rescues-charities.html",
+    "resources.html",
+    "tech-submit.html",
+    "terms.html",
+    "updated.html"
+  ],
+  "copyright": "© 2026 HallieForAnimals™ All Rights Reserved",
   "tagline": "Proudly Built By TheRealJosephMonroe",
   "social": [
     {
@@ -11,5 +35,8 @@
     }
   ],
   "showEin": false,
-  "einNumber": ""
+  "einNumber": "",
+  "includeLiveEmailSends": true,
+  "emailSendsFallback": "251,050",
+  "emailSendsLabel": "Total Emails Sent"
 }
