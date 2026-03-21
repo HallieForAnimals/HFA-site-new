@@ -1,302 +1,124 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="robots" content="noindex,nofollow">  <title>Contact &amp; submissions | HallieForAnimals</title>
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rescue Haven</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.css">
-  <script src="assets/js/hfa-preview-settings.js"></script>
-  <script src="assets/js/hfa-preview-settings.local.js"></script>
-  <script src="assets/js/preview-gate.js"></script>
 </head>
-<body class="hfa-form-page">
-<div id="announcement-root"></div>
-<header>
+<body>
+  <header>
+    
   <nav>
-    <a href="index.html" class="logo">
-      <img src="assets/img/logo.png" alt="HallieForAnimals logo" class="logo-img">
-      <span class="logo-text">
-        <span class="logo-line">HallieForAnimals</span>
-        <span class="logo-tagline">Because those who need us most can't ask.</span>
-      </span>
+    <a href="#" class="logo">
+      <img src="assets/img/logo.png" alt="HallieForAnimals Because those who need us most can&#039;t ask." class="logo-img"><span class="logo-text"><span class="logo-line">HallieForAnimals</span><span class="logo-line">Because those who need us most can&#039;t ask.</span></span>
     </a>
-    <button type="button" class="burger-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <button type="button" class="burger-btn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
     <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <div class="nav-item-dropdown">
-        <a href="cta.html">CTA <span class="caret">▾</span></a>
-        <div class="nav-dropdown">
-          <a href="ongoing.html">Ongoing</a>
-          <a href="recent.html">Recent</a>
-          <a href="updated.html">Updates</a>
-        </div>
-      </div>
-      <a href="rescues-charities.html">Rescues &amp; Charities</a>
-      <a href="resources.html">Resources</a>
-      <a href="in-memoriam.html">In Memoriam</a>
-      <a href="donate.html">Donate</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html" class="active">Contact Us</a>
+      
+          <a href="index.html" >
+            Home
+          </a>
+        
+          <a href="about.html" >
+            About
+          </a>
+        
+          <a href="cta.html" >
+            Call To Actions
+          </a>
+        
+          <a href="rescues-charities.html" >
+            Rescues &amp; Charities
+          </a>
+        
+          <a href="resources.html" >
+            Resources
+          </a>
+        
+          <a href="in-memoriam.html" >
+            In Memoriam
+          </a>
+        
+          <a href="donate.html" >
+            Donate
+          </a>
+        
+          <a href="faq.html" >
+            FAQ
+          </a>
+        
+          <a href="contact.html" class="active">
+            Contact Us
+          </a>
+        
     </div>
   </nav>
-</header>
 
-<section class="page-container">
-  <h1 class="page-title">Contact &amp; submissions</h1>
-  <p class="page-subtitle">
-    One place for general messages, tech issues, campaign ideas, In Memoriam tributes, and scam reports.
-  </p>
+  </header>
 
-  <div class="contact-form-wrapper">
-    <form class="contact-form" id="hfa-unified-form" novalidate>
-      <label for="hfa-form-kind">What are you contacting us about?</label>
-      <select id="hfa-form-kind" required>
-        <option value="contact">General contact</option>
-        <option value="support">Tech / site issue</option>
-        <option value="cta">Suggest a CTA (campaign)</option>
-        <option value="memoriam">In Memoriam tribute</option>
-        <option value="scam">Report a scam</option>
-      </select>
-      <p id="hfa-form-intro" class="hfa-form-intro" aria-live="polite"></p>
+  
+      <section class="page-container">
+        <h1 class="page-title">Contact &amp; submissions</h1>
+        <p class="page-subtitle">One place for general messages, tech issues, campaign ideas, In Memoriam tributes, and scam reports.</p>
+        <div class="page-content"><p>One image (JPEG, PNG, HEIC, WebP, GIF, and other common formats), up to 35&nbsp;MB.</p></div>
+        
+        
+<div class="contact-form-wrapper">
+  <form class="contact-form" action="http://127.0.0.1:5500/" method="post">
+    <label for="cf-consentPrivacy">I agree to the Privacy Policy.</label><input type="checkbox" id="cf-consentPrivacy" name="consentPrivacy" placeholder="" required><label for="cf-consentReply">I understand you may reply to the email address I provide.</label><input type="checkbox" id="cf-consentReply" name="consentReply" placeholder="" required><label for="cf-files">Screenshots (recommended)</label><input type="file" id="cf-files" name="files" placeholder=""><label for="cf-consentPrivacy">I agree to the Privacy Policy.</label><input type="checkbox" id="cf-consentPrivacy" name="consentPrivacy" placeholder="" required><label for="cf-consentReply">I understand you may reply to the email address I provide.</label><input type="checkbox" id="cf-consentReply" name="consentReply" placeholder="" required><label for="cf-files">Attachments (optional)</label><input type="file" id="cf-files" name="files" placeholder=""><label for="cf-consentTruth">I believe this information is accurate to the best of my knowledge.</label><input type="checkbox" id="cf-consentTruth" name="consentTruth" placeholder="" required><label for="cf-consentShare">I understand HFA may share vetted details to help animals.</label><input type="checkbox" id="cf-consentShare" name="consentShare" placeholder="" required><label for="cf-consentPrivacy">I agree to the Privacy Policy.</label><input type="checkbox" id="cf-consentPrivacy" name="consentPrivacy" placeholder="" required><label for="cf-photos">Upload (required)</label><input type="file" id="cf-photos" name="photos" placeholder="" required><label for="cf-consentRights">I own these photos or have permission to submit them for public display.</label><input type="checkbox" id="cf-consentRights" name="consentRights" placeholder="" required><label for="cf-consentPrivacy">I agree to the Privacy Policy.</label><input type="checkbox" id="cf-consentPrivacy" name="consentPrivacy" placeholder="" required><label for="cf-scamHandle">Account / handle</label><input type="text" id="cf-scamHandle" name="scamHandle" placeholder="@username, phone, or full profile URL"><label for="cf-consentTruth">I believe this information is accurate to the best of my knowledge.</label><input type="checkbox" id="cf-consentTruth" name="consentTruth" placeholder="" required><label for="cf-consentShare">I understand HFA may share vetted details to warn others.</label><input type="checkbox" id="cf-consentShare" name="consentShare" placeholder="" required><label for="cf-consentPrivacy">I agree to the Privacy Policy.</label><input type="checkbox" id="cf-consentPrivacy" name="consentPrivacy" placeholder="" required><label for="cf-website">Leave blank</label><input type="text" id="cf-website" name="website" placeholder="">
+    <button type="submit" class="btn">Submit</button>
+  </form>
+  <p id="contact-form-success" class="contact-form-success" style="display:none;">Thank you.</p>
+  
+</div>
+        
+        
+        
+      </section>
+    
 
-      <!-- General contact -->
-      <div class="hfa-form-panel is-active" data-hfa-kind="contact" aria-hidden="false">
-        <label for="cf-topic">Topic</label>
-        <select id="cf-topic" name="topic" required>
-          <option value="">Choose a topic…</option>
-          <option value="general">General question</option>
-          <option value="media">Media / press</option>
-          <option value="other">Other</option>
-        </select>
-        <label for="cf-name">Name</label>
-        <input type="text" id="cf-name" name="name" placeholder="Your name" required autocomplete="name">
-        <label for="cf-email">Email</label>
-        <input type="email" id="cf-email" name="email" placeholder="Your email" required autocomplete="email">
-        <label for="cf-message">Message</label>
-        <textarea id="cf-message" name="message" placeholder="Your message" required rows="5"></textarea>
-        <fieldset class="contact-form--checks" style="border:none;padding:0;margin:0;">
-          <label>
-            <input type="checkbox" name="consentPrivacy" value="1" required>
-            <span>I agree to the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span>
-          </label>
-          <label>
-            <input type="checkbox" name="consentReply" value="1" required>
-            <span>I understand you may reply to the email address I provide.</span>
-          </label>
-        </fieldset>
+  
+  <footer class="footer-centered">
+    
+
+    <p>&copy; 2026 HallieForAnimals â All Rights Reserved</p>
+    <p class="footer-tagline">Proudly Built By TheRealJosephMonroe</p>
+    
+    <div class="footer-links">
+      <a href="terms.html">Terms &amp; Conditions</a> | <a href="privacy.html">Privacy Policy</a>
+    </div>
+
+    
+      <div class="footer-social">
+        <a href="instagram.com/hallieforanimals" target="_blank" rel="noopener" class="footer-social-a" title="instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
       </div>
+    
+  </footer>
 
-      <!-- Tech / support -->
-      <div class="hfa-form-panel" data-hfa-kind="support" aria-hidden="true">
-        <label for="ts-topic">What went wrong?</label>
-        <select id="ts-topic" name="topic" required>
-          <option value="">Choose…</option>
-          <option value="broken-link">Broken link</option>
-          <option value="page-error">Page won’t load / error</option>
-          <option value="layout">Layout or display problem</option>
-          <option value="form">Form or button not working</option>
-          <option value="email-issue">Email issue</option>
-          <option value="other">Other</option>
-        </select>
-        <label for="ts-name">Your name (optional)</label>
-        <input type="text" id="ts-name" name="name" placeholder="Name" autocomplete="name">
-        <label for="ts-email">Email <em>(required)</em></label>
-        <input type="email" id="ts-email" name="email" required placeholder="your@email.com" autocomplete="email">
-        <label for="ts-message">Details <em>(required)</em></label>
-        <textarea id="ts-message" name="message" rows="6" required placeholder="Page URL, what you clicked, what you expected…"></textarea>
-        <label for="ts-screenshots">Screenshots <em>(recommended)</em>
-          <input type="file" id="ts-screenshots" name="files" multiple accept="image/*,.pdf,application/pdf" class="hfa-input-file">
-        </label>
-        <span class="hfa-form-counter">Up to 6 images or PDFs, 35&nbsp;MB each; all attachments together must stay under ~98&nbsp;MB (Cloudflare limit).</span>
-        <span id="support-file-errors" class="hfa-form-error-text" role="alert"></span>
-        <fieldset class="contact-form--checks" style="border:none;padding:0;margin:0;">
-          <label>
-            <input type="checkbox" name="consentPrivacy" value="1" required>
-            <span>I agree to the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span>
-          </label>
-          <label>
-            <input type="checkbox" name="consentReply" value="1" required>
-            <span>I understand you may reply to the email address I provide.</span>
-          </label>
-        </fieldset>
-      </div>
 
-      <!-- CTA suggestion -->
-      <div class="hfa-form-panel" data-hfa-kind="cta" aria-hidden="true">
-        <fieldset>
-          <legend>Case details</legend>
-          <label for="cta-country">Country <em>(required)</em></label>
-          <input type="text" id="cta-country" name="country" required placeholder="e.g. United States" autocomplete="country-name">
-          <label for="cta-city">City / region</label>
-          <input type="text" id="cta-city" name="city" placeholder="City or area">
-          <label for="cta-date">Date of incident <em>(optional)</em></label>
-          <div class="hfa-date-field">
-            <input type="text" id="cta-date" name="date" class="hfa-input-date hfa-flatpickr" placeholder="Choose date…" title="Pick the date of the incident" autocomplete="off" inputmode="none">
-            <button type="button" class="hfa-date-clear" id="cta-date-clear" aria-label="Clear date">Clear</button>
-          </div>
-          <label for="cta-description">Incident details <em>(required)</em></label>
-          <textarea id="cta-description" name="description" rows="8" maxlength="8000" required placeholder="Give as much information as possible."></textarea>
-          <span class="hfa-form-counter"><span id="desc-count">0</span>/8000</span>
-          <label for="cta-evidence">Evidence URLs <em>(one per line, and/or attach files)</em></label>
-          <textarea id="cta-evidence" name="evidence" rows="4" placeholder="https://…"></textarea>
-          <span id="evidence-errors" class="hfa-form-error-text" role="alert"></span>
-          <label for="cta-files">Attachments <em>(optional)</em>
-            <input type="file" id="cta-files" name="files" multiple accept="image/*,video/*,.pdf,application/pdf,.mp4,.webm,.mov,.m4v" class="hfa-input-file">
-          </label>
-          <span class="hfa-form-counter">Up to 8 files (images, PDF, or video). Each file up to 98&nbsp;MB; combined attachments must stay under ~98&nbsp;MB total (Cloudflare limit).</span>
-        </fieldset>
-        <fieldset>
-          <legend>Your contact (optional)</legend>
-          <label for="cta-reporter-name">Your name</label>
-          <input type="text" id="cta-reporter-name" name="reporterName" autocomplete="name">
-          <label for="cta-reporter-email">Your email</label>
-          <input type="email" id="cta-reporter-email" name="reporterEmail" autocomplete="email">
-          <label for="cta-handle">Social handle (if relevant)</label>
-          <input type="text" id="cta-handle" name="handle" placeholder="@…">
-        </fieldset>
-        <fieldset class="contact-form--checks">
-          <legend>Confirmations</legend>
-          <label>
-            <input type="checkbox" name="consentTruth" value="1" required>
-            <span>I believe this information is accurate to the best of my knowledge.</span>
-          </label>
-          <label>
-            <input type="checkbox" name="consentShare" value="1" required>
-            <span>I understand HFA may share vetted details to help animals.</span>
-          </label>
-          <label>
-            <input type="checkbox" name="consentPrivacy" value="1" required>
-            <span>I agree to the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span>
-          </label>
-        </fieldset>
-      </div>
-
-      <!-- In memoriam -->
-      <div class="hfa-form-panel" data-hfa-kind="memoriam" aria-hidden="true">
-        <fieldset>
-          <legend>About your companion</legend>
-          <label for="mem-pet-name">Name <em>(required)</em></label>
-          <input type="text" id="mem-pet-name" name="petName" required placeholder="Name">
-          <label for="mem-species">Species</label>
-          <input type="text" id="mem-species" name="species" placeholder="Dog, cat, …">
-          <div class="hfa-year-row">
-            <label for="mem-year-from">Year from
-              <select name="yearFrom" id="mem-year-from"></select>
-            </label>
-            <label for="mem-year-to">Year to
-              <select name="yearTo" id="mem-year-to"></select>
-            </label>
-          </div>
-          <label for="mem-description">Short tribute <em>(required)</em></label>
-          <textarea id="mem-description" name="description" rows="6" maxlength="1000" required placeholder="A few words to remember them by…"></textarea>
-          <span class="hfa-form-counter"><span id="mem-desc-count">0</span>/1000</span>
-        </fieldset>
-        <fieldset>
-          <legend>Photo</legend>
-          <p class="page-content" style="margin-bottom:0.75rem;color:var(--text-muted);font-size:0.95rem;">One image (JPEG, PNG, HEIC, WebP, GIF, and other common formats), up to 35&nbsp;MB.</p>
-          <label for="mem-photos">Upload <em>(required)</em>
-            <input type="file" id="mem-photos" name="photos" accept="image/*,.heic,.heif,.avif,.webp,.gif,.tif,.tiff,.jfif" required class="hfa-input-file">
-          </label>
-          <span id="mem-photo-errors" class="hfa-form-error-text" role="alert"></span>
-        </fieldset>
-        <fieldset>
-          <legend>Your details (optional)</legend>
-          <label for="mem-reporter-name">Your name</label>
-          <input type="text" id="mem-reporter-name" name="reporterName" autocomplete="name">
-          <label for="mem-reporter-email">Your email</label>
-          <input type="email" id="mem-reporter-email" name="reporterEmail" autocomplete="email">
-          <label for="mem-handle">Social handle</label>
-          <input type="text" id="mem-handle" name="handle" placeholder="@…">
-        </fieldset>
-        <fieldset class="contact-form--checks">
-          <legend>Consent</legend>
-          <label>
-            <input type="checkbox" name="consentRights" value="1" required>
-            <span>I own these photos or have permission to submit them for public display.</span>
-          </label>
-          <label>
-            <input type="checkbox" name="consentPrivacy" value="1" required>
-            <span>I agree to the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span>
-          </label>
-        </fieldset>
-      </div>
-
-      <!-- Scam report -->
-      <div class="hfa-form-panel" data-hfa-kind="scam" aria-hidden="true">
-        <div class="hfa-form-row-2">
-          <label for="scam-platform">Platform <em>(required)</em>
-            <select id="scam-platform" name="platform" required>
-              <option value="">Choose platform…</option>
-              <option value="facebook">Facebook</option>
-              <option value="instagram">Instagram</option>
-              <option value="tiktok">TikTok</option>
-              <option value="youtube">YouTube</option>
-              <option value="twitter">X (Twitter)</option>
-              <option value="linkedin">LinkedIn</option>
-              <option value="reddit">Reddit</option>
-              <option value="snapchat">Snapchat</option>
-              <option value="whatsapp">WhatsApp</option>
-              <option value="telegram">Telegram</option>
-              <option value="email">Email</option>
-              <option value="other">Other / website URL</option>
-            </select>
-          </label>
-          <label for="scam-handle">Account / handle
-            <input type="text" id="scam-handle" name="scamHandle" placeholder="@username, phone, or full profile URL" autocomplete="off">
-          </label>
-        </div>
-        <p class="hfa-form-counter" style="margin-top:-0.35rem;">If you paste a full link to the profile or post, we’ll open it directly in the inbox.</p>
-        <label for="scam-reporter-name">Your name (optional)</label>
-        <input type="text" id="scam-reporter-name" name="reporterName" autocomplete="name">
-        <label for="scam-reporter-email">Your email (optional)</label>
-        <input type="email" id="scam-reporter-email" name="reporterEmail" autocomplete="email">
-        <label for="scam-other">Other details <em>(optional)</em></label>
-        <textarea id="scam-other" name="other" rows="4" placeholder="Anything else we should know"></textarea>
-        <fieldset class="contact-form--checks">
-          <legend>Confirmations</legend>
-          <label>
-            <input type="checkbox" name="consentTruth" value="1" required>
-            <span>I believe this information is accurate to the best of my knowledge.</span>
-          </label>
-          <label>
-            <input type="checkbox" name="consentShare" value="1" required>
-            <span>I understand HFA may share vetted details to warn others.</span>
-          </label>
-          <label>
-            <input type="checkbox" name="consentPrivacy" value="1" required>
-            <span>I agree to the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span>
-          </label>
-        </fieldset>
-      </div>
-
-      <div class="hfa-form-honeypot" aria-hidden="true">
-        <label>Leave blank <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
-      </div>
-
-      <div id="captcha-wrap"></div>
-
-      <button type="submit" class="btn" id="hfa-unified-submit">Send message</button>
-
-      <p id="submit-ok" class="hfa-form-msg--ok" hidden role="status"></p>
-      <p id="submit-bad" class="hfa-form-msg--bad" hidden role="alert"></p>
-    </form>
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 HallieForAnimals – All Rights Reserved</p>
-  <p>Because those who need us most can't ask.</p>
-</footer>
-<script>
-(function(){var btn=document.querySelector('.burger-btn');var links=document.querySelector('.nav-links');if(btn&&links){btn.addEventListener('click',function(){var open=links.classList.toggle('nav-open');btn.setAttribute('aria-expanded',open?'true':'false');btn.setAttribute('aria-label',open?'Close menu':'Open menu');});links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('nav-open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');});});}})();
-</script>
-<script src="announcement.js"></script>
-<script src="assets/js/hfa-site-config.js"></script>
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.js" defer></script>
-<script src="assets/js/hfa-submissions.js" defer></script>
+  <script>
+  (function() {
+    var btn = document.querySelector('.burger-btn');
+    var links = document.querySelector('.nav-links');
+    if (btn && links) {
+      btn.addEventListener('click', function() {
+        var open = links.classList.toggle('nav-open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      });
+      links.querySelectorAll('a').forEach(function(a) {
+        a.addEventListener('click', function() {
+          links.classList.remove('nav-open');
+          btn.setAttribute('aria-expanded', 'false');
+          btn.setAttribute('aria-label', 'Open menu');
+        });
+      });
+    }
+  })();
+  </script>
 </body>
 </html>
