@@ -6631,6 +6631,53 @@
       "postToUpdates": true,
       "createdAt": "2026-03-22T19:27:14Z",
       "updatedAt": "2026-03-22T19:27:14Z"
+    },
+    {
+      "ctaType": "non-email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "New App Test Non Email CTA",
+      "slug": "new-app-test-non-email-cta-20260322",
+      "status": "recent",
+      "role": "original",
+      "title": "New App Test Non Email CTA",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "APPEAL FOR INFORMATION❗\n\nCall:\nfgdfgdfg: +297 446 656 7567\n\nghsdhdfgh\n\n#dfgdfgdsf #fgdfgdf #animallover",
+      "descriptionLong": "APPEAL FOR INFORMATION❗\n\nCall:\nfgdfgdfg: +297 446 656 7567\n\nghsdhdfgh\n\n#dfgdfgdsf #fgdfgdf #animallover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/17zqQ1qB7azuMl7tqwxXiLpkr_XhWEeG1/preview",
+      "evidenceUrl": "https://www.roseville.ca.us/government/departments/police_department/contact_roseville_police/email_and_telephone_list",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/new-app-test-non-email-cta-20260322",
+      "caption": "APPEAL FOR INFORMATION❗\n\nCall:\nfgdfgdfg: +297 446 656 7567\n\nghsdhdfgh\n\n#dfgdfgdsf #fgdfgdf #animallover",
+      "captionBuilder": {
+        "type": "afi",
+        "subtype": "empty",
+        "targets": "dsfggg",
+        "state": "dfgdfgdsf",
+        "city": "fgdfgdf",
+        "country": "Aruba",
+        "dial": "+297",
+        "phones": [
+          {
+            "who": "fgdfgdfg",
+            "code": "+297",
+            "number": "446 656 7567",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "https://www.roseville.ca.us/government/departments/police_department/animal_control",
+      "actionUrl": "https://www.roseville.ca.us/government/departments/police_department/animal_control",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-03-22T19:50:33Z",
+      "updatedAt": "2026-03-22T19:50:33Z"
     }
   ]
 }
