@@ -6484,6 +6484,58 @@
       "recipientsCc": [
         "makeck@roseville.ca.us"
       ]
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "Another test email cta new app",
+      "slug": "another-test-email-cta-new-app-20260322",
+      "status": "recent",
+      "role": "original",
+      "title": "Another test email cta new app",
+      "mailtoSubject": "Test",
+      "summary": "",
+      "description": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TEST TARGETS TITLED \"ANOTHER TEST EMAIL CTA NEW APP\"❗️\n\nCall:\ntest: +994 234 567 890\n\ntest\n\n#Tennessee #JohnsonCity #animallover",
+      "descriptionLong": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TEST TARGETS TITLED \"ANOTHER TEST EMAIL CTA NEW APP\"❗️\n\nCall:\ntest: +994 234 567 890\n\ntest\n\n#Tennessee #JohnsonCity #animallover",
+      "mailtoBody": "To whom it may concern,\n\ntest test test\n\nVideo evidence: https://drive.google.com/file/d/17zqQ1qB7azuMl7tqwxXiLpkr_XhWEeG1/view?usp=drive_link\n\nEvidence: https://www.roseville.ca.us/government/departments/police_department/contact_roseville_police/email_and_telephone_list\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "jrhorton@roseville.ca.us",
+        "scooper@roseville.ca.us"
+      ],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/17zqQ1qB7azuMl7tqwxXiLpkr_XhWEeG1/preview",
+      "evidenceUrl": "https://www.roseville.ca.us/government/departments/police_department/contact_roseville_police/email_and_telephone_list",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/another-test-email-cta-new-app-20260322",
+      "caption": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TEST TARGETS TITLED \"ANOTHER TEST EMAIL CTA NEW APP\"❗️\n\nCall:\ntest: +994 234 567 890\n\ntest\n\n#Tennessee #JohnsonCity #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Test Targets",
+        "state": "Tennessee",
+        "city": "Johnson City",
+        "country": "Azerbaijan",
+        "dial": "+994",
+        "phones": [
+          {
+            "who": "test",
+            "code": "+994",
+            "number": "234 567 890",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-03-22T15:05:05Z",
+      "updatedAt": "2026-03-22T15:05:05Z",
+      "recipientsCc": [
+        "makeck@roseville.ca.us"
+      ]
     }
   ]
 }
