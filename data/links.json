@@ -6432,58 +6432,6 @@
       "createdAt": "",
       "updatedAt": "",
       "hidden": false
-    },
-    {
-      "ctaType": "email",
-      "updateIncludeEmail": false,
-      "updateSummary": "",
-      "updateDate": "",
-      "updateStatus": "",
-      "caseId": "New App Test Email CTA",
-      "slug": "new-app-test-email-cta-20260322",
-      "status": "recent",
-      "role": "original",
-      "title": "New App Test Email CTA",
-      "mailtoSubject": "This is a test",
-      "summary": "",
-      "description": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TEST TARGETS TITLED \"NEW APP TEST EMAIL CTA\"❗️\n\nCall:\nTest: +1 123 456 789\n\nThis is a test\n\n#NewYork #LosAngeles #cutedogs",
-      "descriptionLong": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TEST TARGETS TITLED \"NEW APP TEST EMAIL CTA\"❗️\n\nCall:\nTest: +1 123 456 789\n\nThis is a test\n\n#NewYork #LosAngeles #cutedogs",
-      "mailtoBody": "To whom it may concern,\n\nThis is a test, please ignore.\n\nVideo evidence: https://drive.google.com/file/d/17zqQ1qB7azuMl7tqwxXiLpkr_XhWEeG1/view?usp=drive_link\n\nEvidence: https://www.roseville.ca.us/government/departments/police_department/contact_roseville_police/email_and_telephone_list\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
-      "recipients": [
-        "jrhorton@roseville.ca.us",
-        "scooper@roseville.ca.us"
-      ],
-      "phones": [],
-      "callScript": "",
-      "videoEmbedUrl": "https://drive.google.com/file/d/17zqQ1qB7azuMl7tqwxXiLpkr_XhWEeG1/preview",
-      "evidenceUrl": "https://www.roseville.ca.us/government/departments/police_department/contact_roseville_police/email_and_telephone_list",
-      "shortlinkUrl": "https://go.hallieforanimals.org/t/new-app-test-email-cta-20260322",
-      "caption": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TEST TARGETS TITLED \"NEW APP TEST EMAIL CTA\"❗️\n\nCall:\nTest: +1 123 456 789\n\nThis is a test\n\n#NewYork #LosAngeles #cutedogs",
-      "captionBuilder": {
-        "type": "cta",
-        "subtype": "empty",
-        "targets": "Test Targets",
-        "state": "New York",
-        "city": "Los Angeles",
-        "country": "United States",
-        "dial": "+1",
-        "phones": [
-          {
-            "who": "Test",
-            "code": "+1",
-            "number": "123 456 789",
-            "ext": ""
-          }
-        ]
-      },
-      "nonEmailActionUrl": "",
-      "hidden": false,
-      "postToUpdates": true,
-      "createdAt": "2026-03-22T14:36:59Z",
-      "updatedAt": "2026-03-22T14:36:59Z",
-      "recipientsCc": [
-        "makeck@roseville.ca.us"
-      ]
     }
   ]
 }
