@@ -6678,6 +6678,58 @@
       "postToUpdates": true,
       "createdAt": "2026-03-22T19:50:33Z",
       "updatedAt": "2026-03-22T19:50:33Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "Turkey's Deserve Love Too",
+      "slug": "turkeys-deserve-love-too-20260322",
+      "status": "ongoing",
+      "role": "original",
+      "title": "Turkey's Deserve Love Too",
+      "mailtoSubject": "Test",
+      "summary": "",
+      "description": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DSHGAGSDGH TITLED \"TURKEY'S DESERVE LOVE TOO\"❗️\n\nCall:\nsdfgsdgsdg: +1 453 456 543\n\ndshgdghgsdfg\n\n#adfgsdfgsdfg #sdfgsdfgsdg #doglover",
+      "descriptionLong": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DSHGAGSDGH TITLED \"TURKEY'S DESERVE LOVE TOO\"❗️\n\nCall:\nsdfgsdgsdg: +1 453 456 543\n\ndshgdghgsdfg\n\n#adfgsdfgsdfg #sdfgsdfgsdg #doglover",
+      "mailtoBody": "To whom it may concern,\n\nhsghadfghg\n\nVideo evidence: https://drive.google.com/file/d/17zqQ1qB7azuMl7tqwxXiLpkr_XhWEeG1/view?usp=drive_link\n\nEvidence: https://www.roseville.ca.us/government/departments/police_department/contact_roseville_police/email_and_telephone_list\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "test@test.com"
+      ],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/17zqQ1qB7azuMl7tqwxXiLpkr_XhWEeG1/preview",
+      "evidenceUrl": "https://www.roseville.ca.us/government/departments/police_department/contact_roseville_police/email_and_telephone_list",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/turkeys-deserve-love-too-20260322",
+      "caption": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DSHGAGSDGH TITLED \"TURKEY'S DESERVE LOVE TOO\"❗️\n\nCall:\nsdfgsdgsdg: +1 453 456 543\n\ndshgdghgsdfg\n\n#adfgsdfgsdfg #sdfgsdfgsdg #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "dshgagsdgh",
+        "state": "adfgsdfgsdfg",
+        "city": "sdfgsdfgsdg",
+        "country": "Bahamas",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "sdfgsdgsdg",
+            "code": "+1",
+            "number": "453 456 543",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "actionUrl": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-03-22T20:01:35Z",
+      "updatedAt": "2026-03-22T20:01:35Z",
+      "recipientsCc": [
+        "test@test.com"
+      ]
     }
   ]
 }
