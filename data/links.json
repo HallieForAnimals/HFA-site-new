@@ -6834,6 +6834,55 @@
       "recipientsCc": [
         "test@test.com"
       ]
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": true,
+      "updateSummary": "",
+      "updateDate": "2026-03-22",
+      "updateStatus": "ongoing",
+      "caseId": "chelsea-park-dog-abuse",
+      "slug": "prosecute-chelsea-park-dog-abuser-20260322",
+      "status": "updated",
+      "role": "update",
+      "title": "Prosecute Chelsea Park Dog Abuser",
+      "mailtoSubject": "asiudhas",
+      "summary": "",
+      "description": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO SADFHJ TITLED \"PROSECUTE CHELSEA PARK DOG ABUSER\"❗️\n\nCall:\nsfjdghjhg: +880 675 745 675 4754\n\n#ukidyj #fgjhfdsgjhg #cutedogs",
+      "descriptionLong": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO SADFHJ TITLED \"PROSECUTE CHELSEA PARK DOG ABUSER\"❗️\n\nCall:\nsfjdghjhg: +880 675 745 675 4754\n\n#ukidyj #fgjhfdsgjhg #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "dafgdasfg@asdgfsdafg.com"
+      ],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/prosecute-chelsea-park-dog-abuser-20260322",
+      "caption": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO SADFHJ TITLED \"PROSECUTE CHELSEA PARK DOG ABUSER\"❗️\n\nCall:\nsfjdghjhg: +880 675 745 675 4754\n\n#ukidyj #fgjhfdsgjhg #cutedogs",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "cta",
+        "targets": "sadfhj",
+        "state": "ukidyj",
+        "city": "fgjhfdsgjhg",
+        "country": "Bangladesh",
+        "dial": "+880",
+        "phones": [
+          {
+            "who": "sfjdghjhg",
+            "code": "+880",
+            "number": "675 745 675 4754",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "actionUrl": "",
+      "hidden": true,
+      "postToUpdates": true,
+      "createdAt": "2026-03-22T20:30:42Z",
+      "updatedAt": "2026-03-22T20:30:42Z"
     }
   ]
 }

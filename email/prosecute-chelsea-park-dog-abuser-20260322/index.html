@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Email shortlink bridge — published to email/<slug>/index.html.
+  Command Center replaces tokens on Save. Open locally to preview layout (logo may 404 until deploy).
+
+  Tokens: mailto:dafgdasfg@asdgfsdafg.com?subject=asiudhas&amp;body=To%20whom%20it%20may%20concern%2C%0A%0ASincerely%2C%0A%0A%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org https://hallieforanimals.org/updated.html#case-chelsea-park-dog-abuse https://hallieforanimals.org/updated.html#case-chelsea-park-dog-abuse (same as return) "mailto:dafgdasfg@asdgfsdafg.com?subject=asiudhas&body=To%20whom%20it%20may%20concern%2C%0A%0ASincerely%2C%0A%0A%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org" "https://hallieforanimals.org/updated.html#case-chelsea-park-dog-abuse"
+          dafgdasfg@asdgfsdafg.com asiudhas prosecute-chelsea-park-dog-abuser-20260322 prosecute-chelsea-park-dog-abuser-20260322
+-->
+<head>
+  <meta charset="utf-8">
+  <title>Opening your email…</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- No meta refresh to mailto: — browsers block or ignore it; use the Open email control + script below. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --hfa-blue: #0071D1;
+      --hfa-blue-12: rgba(0, 113, 209, 0.12);
+      --hfa-ink: #1a1d24;
+      --hfa-muted: #5c6370;
+      --hfa-card: #ffffff;
+      --hfa-line: rgba(0, 113, 209, 0.22);
+      --hfa-shadow: 0 12px 40px rgba(0, 45, 90, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      padding: 1.25rem;
+      background: linear-gradient(165deg, #f3f8fd 0%, #e8f2fb 45%, #f7fafc 100%);
+      color: var(--hfa-ink);
+      font: 600 17px/1.45 "Baloo 2", system-ui, "Segoe UI", Roboto, sans-serif;
+    }
+    .wrap {
+      width: 100%;
+      max-width: 520px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      margin-bottom: 1rem;
+      justify-content: center;
+    }
+    .brand img {
+      width: 44px;
+      height: 44px;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+    .brand span {
+      font-weight: 800;
+      font-size: 1.15rem;
+      letter-spacing: 0.02em;
+      color: var(--hfa-ink);
+    }
+    .card {
+      border: 1px solid var(--hfa-line);
+      border-radius: 18px;
+      padding: 1.5rem 1.35rem 1.4rem;
+      box-shadow: var(--hfa-shadow);
+      background: var(--hfa-card);
+    }
+    h1 {
+      margin: 0 0 0.35rem;
+      font-weight: 800;
+      font-size: 1.35rem;
+      color: var(--hfa-ink);
+      text-align: center;
+    }
+    .lede {
+      margin: 0 0 1rem;
+      color: var(--hfa-muted);
+      font-weight: 600;
+      font-size: 0.98rem;
+      text-align: center;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      justify-content: center;
+      margin-top: 0.25rem;
+    }
+    a.button {
+      display: inline-block;
+      padding: 0.65rem 1.1rem;
+      border-radius: 12px;
+      background: var(--hfa-blue);
+      color: #fff !important;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 0.95rem;
+      box-shadow: 0 4px 14px var(--hfa-blue-12);
+    }
+    a.button.secondary {
+      background: #fff;
+      color: var(--hfa-blue) !important;
+      border: 2px solid var(--hfa-blue);
+      box-shadow: none;
+    }
+    .meta {
+      margin-top: 1.15rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--hfa-line);
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--hfa-muted);
+    }
+    .meta p { margin: 0.35rem 0; }
+    code {
+      font-family: ui-monospace, Consolas, monospace;
+      font-size: 0.82em;
+      font-weight: 600;
+      color: var(--hfa-ink);
+      word-break: break-word;
+    }
+  </style>
+<!-- Code injected by Five-server -->
+  <script async data-id="five-server" data-file="c:\Users\squid\Documents\TRJM App\HFA App & Site\hallie-app-new\shortlink.html" type="application/javascript" src="/fiveserver.js"></script>
+  </head>
+<body>
+  <div class="wrap">
+    <div class="brand">
+      <img src="../../assets/img/logo.png" width="44" height="44" alt="">
+      <span>HallieForAnimals</span>
+    </div>
+    <div class="card" role="dialog" aria-live="polite">
+      <h1>Opening your email app…</h1>
+      <p class="lede">We’ll try to open your mail app with the message ready. If nothing happens, tap <strong>Open email</strong>. When you’re done, use <strong>Continue to site</strong> (or we’ll send you back after you return to this tab).</p>
+      <div class="row">
+        <a id="open" class="button" href="mailto:dafgdasfg@asdgfsdafg.com?subject=asiudhas&amp;body=To%20whom%20it%20may%20concern%2C%0A%0ASincerely%2C%0A%0A%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org" rel="nofollow">Open email</a>
+        <a id="done-return" class="button secondary" href="https://hallieforanimals.org/updated.html#case-chelsea-park-dog-abuse" rel="nofollow">Continue to site</a>
+      </div>
+      <div class="meta">
+        <p>To: <code>dafgdasfg@asdgfsdafg.com</code></p>
+        <p>Subject: <code>asiudhas</code></p>
+      </div>
+    </div>
+  </div>
+  <script>
+  (function () {
+    var MAILTO = "mailto:dafgdasfg@asdgfsdafg.com?subject=asiudhas&body=To%20whom%20it%20may%20concern%2C%0A%0ASincerely%2C%0A%0A%0A%0A%40HallieForAnimals%20Team%0Acontact%40hallieforanimals.org";
+    var RETURN_TO = "https://hallieforanimals.org/updated.html#case-chelsea-park-dog-abuse";
+    var wentBack = false;
+    var launched = false;
+    var blurredAfterLaunch = false;
+    function goMail() {
+      var a = document.getElementById('open');
+      if (a) {
+        try { a.click(); } catch (e) { /* ignore */ }
+      }
+      try {
+        window.location.href = MAILTO;
+      } catch (e) {
+        try { window.location.assign(MAILTO); } catch (e2) { /* ignore */ }
+      }
+      launched = true;
+    }
+    setTimeout(goMail, 200);
+    function goBack() {
+      if (wentBack) return;
+      wentBack = true;
+      try { location.assign(RETURN_TO); } catch (e) { location.href = RETURN_TO; }
+    }
+    window.addEventListener('blur', function () {
+      if (launched) blurredAfterLaunch = true;
+    });
+    window.addEventListener('focus', function () {
+      if (blurredAfterLaunch) setTimeout(goBack, 150);
+    });
+    document.addEventListener('visibilitychange', function () {
+      if (!document.hidden && blurredAfterLaunch) setTimeout(goBack, 150);
+    });
+    window.addEventListener('pageshow', function (e) {
+      if (e.persisted && blurredAfterLaunch) setTimeout(goBack, 150);
+    });
+    var done = document.getElementById('done-return');
+    if (done) done.addEventListener('click', function (e) { e.preventDefault(); goBack(); });
+  })();
+  </script>
+</body>
+</html>
