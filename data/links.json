@@ -6432,6 +6432,57 @@
       "createdAt": "",
       "updatedAt": "",
       "hidden": false
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "Test Email CTA via new App",
+      "slug": "test-email-cta-via-new-app-20260322",
+      "status": "recent",
+      "role": "original",
+      "title": "Test Email CTA via new App",
+      "mailtoSubject": "Test",
+      "summary": "",
+      "description": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TEST TARGETS TITLED \"TEST EMAIL CTA VIA NEW APP\"❗️\n\nCall:\nTest: +385 123 456 7989\n\nTest test\n\n#Essex #Southend #dogsofinstagram",
+      "descriptionLong": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TEST TARGETS TITLED \"TEST EMAIL CTA VIA NEW APP\"❗️\n\nCall:\nTest: +385 123 456 7989\n\nTest test\n\n#Essex #Southend #dogsofinstagram",
+      "mailtoBody": "To whom it may concern,\n\nTest\n\nVideo evidence: https://drive.google.com/file/d/17zqQ1qB7azuMl7tqwxXiLpkr_XhWEeG1/view?usp=drive_link\n\nEvidence: https://www.roseville.ca.us/government/departments/police_department/contact_roseville_police/email_and_telephone_list\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "test@test.test"
+      ],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/17zqQ1qB7azuMl7tqwxXiLpkr_XhWEeG1/preview",
+      "evidenceUrl": "https://www.roseville.ca.us/government/departments/police_department/contact_roseville_police/email_and_telephone_list",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/test-email-cta-via-new-app-20260322",
+      "caption": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TEST TARGETS TITLED \"TEST EMAIL CTA VIA NEW APP\"❗️\n\nCall:\nTest: +385 123 456 7989\n\nTest test\n\n#Essex #Southend #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Test Targets",
+        "state": "Essex",
+        "city": "Southend",
+        "country": "Croatia",
+        "dial": "+385",
+        "phones": [
+          {
+            "who": "Test",
+            "code": "+385",
+            "number": "123 456 7989",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-03-22T18:57:32Z",
+      "updatedAt": "2026-03-22T18:57:32Z",
+      "recipientsCc": [
+        "test@test.test"
+      ]
     }
   ]
 }
