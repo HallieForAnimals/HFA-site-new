@@ -6585,6 +6585,52 @@
       "recipientsCc": [
         "test@test.com"
       ]
+    },
+    {
+      "ctaType": "non-email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "Non email test cta new app",
+      "slug": "non-email-test-cta-new-app-20260322",
+      "status": "recent",
+      "role": "original",
+      "title": "Non email test cta new app",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "SCAM ALERT: PLEASE REPORT❗\n\nCall:\ndfgsdfgsdfg: +502 456 436 4356\n\ndfgsdffgdsgdsfg\n\n#agsadgsdfg #dfgsdfgsdfg #animallover",
+      "descriptionLong": "SCAM ALERT: PLEASE REPORT❗\n\nCall:\ndfgsdfgsdfg: +502 456 436 4356\n\ndfgsdffgdsgdsfg\n\n#agsadgsdfg #dfgsdfgsdfg #animallover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/non-email-test-cta-new-app-20260322",
+      "caption": "SCAM ALERT: PLEASE REPORT❗\n\nCall:\ndfgsdfgsdfg: +502 456 436 4356\n\ndfgsdffgdsgdsfg\n\n#agsadgsdfg #dfgsdfgsdfg #animallover",
+      "captionBuilder": {
+        "type": "scam",
+        "subtype": "empty",
+        "targets": "dfgsdgsdg",
+        "state": "agsadgsdfg",
+        "city": "dfgsdfgsdfg",
+        "country": "Guatemala",
+        "dial": "+502",
+        "phones": [
+          {
+            "who": "dfgsdfgsdfg",
+            "code": "+502",
+            "number": "456 436 4356",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "https://www.roseville.ca.us/government/departments/police_department/animal_control",
+      "hidden": true,
+      "postToUpdates": true,
+      "createdAt": "2026-03-22T19:27:14Z",
+      "updatedAt": "2026-03-22T19:27:14Z"
     }
   ]
 }
