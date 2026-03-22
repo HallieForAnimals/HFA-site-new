@@ -6782,6 +6782,58 @@
       "recipientsCc": [
         "test@test.com"
       ]
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": true,
+      "updateSummary": "",
+      "updateDate": "2026-03-22",
+      "updateStatus": "ongoing",
+      "caseId": "arrest-maadi-dog-killer",
+      "slug": "maadi-dog-killer-arrested-20260322",
+      "status": "updated",
+      "role": "update",
+      "title": "Maadi Dog Killer Arrested",
+      "mailtoSubject": "test",
+      "summary": "",
+      "description": "UPDATE: BE ON THE LOOKOUT❗\n\nCall:\ntest: +61 6 453 563 7653\n\n#test #test #animallover",
+      "descriptionLong": "UPDATE: BE ON THE LOOKOUT❗\n\nCall:\ntest: +61 6 453 563 7653\n\n#test #test #animallover",
+      "mailtoBody": "To whom it may concern,\n\ntest\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "test@test.com"
+      ],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/maadi-dog-killer-arrested-20260322",
+      "caption": "UPDATE: BE ON THE LOOKOUT❗\n\nCall:\ntest: +61 6 453 563 7653\n\n#test #test #animallover",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "bolo",
+        "targets": "test",
+        "state": "test",
+        "city": "test",
+        "country": "Australia",
+        "dial": "+61",
+        "phones": [
+          {
+            "who": "test",
+            "code": "+61",
+            "number": "6 453 563 7653",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "actionUrl": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-03-22T20:20:43Z",
+      "updatedAt": "2026-03-22T20:20:43Z",
+      "recipientsCc": [
+        "test@test.com"
+      ]
     }
   ]
 }
