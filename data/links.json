@@ -6730,6 +6730,58 @@
       "recipientsCc": [
         "test@test.com"
       ]
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "Badgers For Britain",
+      "slug": "badgers-for-britain-20260322",
+      "status": "ongoing",
+      "role": "original",
+      "title": "Badgers For Britain",
+      "mailtoSubject": "test",
+      "summary": "",
+      "description": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TEST TITLED \"BADGERS FOR BRITAIN\"❗️\n\nCall:\ntest: +43 54 645 364 5645\n\nhgdsdhdd\n\n#test #test #cutedogs",
+      "descriptionLong": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TEST TITLED \"BADGERS FOR BRITAIN\"❗️\n\nCall:\ntest: +43 54 645 364 5645\n\nhgdsdhdd\n\n#test #test #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nSincerely,\n\nTest\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "test@test.com"
+      ],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/badgers-for-britain-20260322",
+      "caption": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TEST TITLED \"BADGERS FOR BRITAIN\"❗️\n\nCall:\ntest: +43 54 645 364 5645\n\nhgdsdhdd\n\n#test #test #cutedogs",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "test",
+        "state": "test",
+        "city": "test",
+        "country": "Austria",
+        "dial": "+43",
+        "phones": [
+          {
+            "who": "test",
+            "code": "+43",
+            "number": "54 645 364 5645",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "actionUrl": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-03-22T20:10:46Z",
+      "updatedAt": "2026-03-22T20:10:46Z",
+      "recipientsCc": [
+        "test@test.com"
+      ]
     }
   ]
 }
