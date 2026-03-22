@@ -6483,6 +6483,57 @@
       "recipientsCc": [
         "test@test.test"
       ]
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "Second test email CTA new app",
+      "slug": "second-test-email-cta-new-app-20260322",
+      "status": "recent",
+      "role": "original",
+      "title": "Second test email CTA new app",
+      "mailtoSubject": "test",
+      "summary": "",
+      "description": "ANIMAL ABUSER ALERT❗\n\nCall:\nafgdfg: +297 67 456 745 7457\n\n#dsfg #dsfg #cutedogs",
+      "descriptionLong": "ANIMAL ABUSER ALERT❗\n\nCall:\nafgdfg: +297 67 456 745 7457\n\n#dsfg #dsfg #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nBlah blah\n\nVideo evidence: https://drive.google.com/file/d/166GEvJRMCWQgPwl7eKZUALqVbb9qSXxV/view?usp=drive_link\n\nEvidence: https://www.roseville.ca.us/government/departments/police_department/contact_roseville_police/email_and_telephone_list\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "test@test.com"
+      ],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/166GEvJRMCWQgPwl7eKZUALqVbb9qSXxV/preview",
+      "evidenceUrl": "https://www.roseville.ca.us/government/departments/police_department/contact_roseville_police/email_and_telephone_list",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/second-test-email-cta-new-app-20260322",
+      "caption": "ANIMAL ABUSER ALERT❗\n\nCall:\nafgdfg: +297 67 456 745 7457\n\n#dsfg #dsfg #cutedogs",
+      "captionBuilder": {
+        "type": "abuser",
+        "subtype": "empty",
+        "targets": "dfgsdfg",
+        "state": "dsfg",
+        "city": "dsfg",
+        "country": "Aruba",
+        "dial": "+297",
+        "phones": [
+          {
+            "who": "afgdfg",
+            "code": "+297",
+            "number": "67 456 745 7457",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-03-22T19:06:33Z",
+      "updatedAt": "2026-03-22T19:06:33Z",
+      "recipientsCc": [
+        "test@test.com"
+      ]
     }
   ]
 }
