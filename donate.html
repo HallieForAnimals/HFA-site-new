@@ -1,134 +1,155 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rescue Haven</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="robots" content="index,follow">  <title>Donate | Hallie for Animals</title>
+  <meta name="description" content="Support HallieForAnimals with a donation. Every contribution helps fund campaigns, investigations, and advocacy for animals.">
+  <link rel="canonical" href="https://hallieforanimals.org/donate.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Donate | HallieForAnimals">
+  <meta property="og:description" content="Support HallieForAnimals with a donation. Every contribution helps fund campaigns, investigations, and advocacy for animals.">
+  <meta property="og:url" content="https://hallieforanimals.org/donate.html">
+  <meta property="og:site_name" content="HallieForAnimals">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Donate | HallieForAnimals">
+  <meta name="twitter:description" content="Every contribution helps fund campaigns, investigations, and advocacy for animals.">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=20260321">
+  <link rel="icon" href="assets/img/logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/logo.png">
+  <script src="assets/js/hfa-site-config.js"></script>
+  <!-- Load early so <stripe-pricing-table> can register before we mount it (see Stripe pricing table docs). -->
+  <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+  <script src="assets/js/hfa-preview-settings.js"></script>
+  <script src="assets/js/hfa-preview-settings.local.js"></script>
+  <script src="assets/js/preview-gate.js"></script>
 </head>
 <body>
-  <header>
-    
+<div id="announcement-root"></div>
+<header>
   <nav>
-    <a href="#" class="logo">
-      <img src="assets/img/logo.png" alt="HallieForAnimals Because those who need us most can&#039;t ask." class="logo-img"><span class="logo-text"><span class="logo-line">HallieForAnimals</span><span class="logo-tagline">Because those who need us most can&#039;t ask.</span></span>
+    <a href="index.html" class="logo">
+      <img src="assets/img/logo.png" alt="HallieForAnimals logo" class="logo-img">
+      <span class="logo-text">
+        <span class="logo-line">HallieForAnimals</span>
+        <span class="logo-tagline">Because those who need us most can't ask.</span>
+      </span>
     </a>
-    <button type="button" class="burger-btn" aria-label="Open menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+    <button type="button" class="burger-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <div class="nav-links">
-      
-          <a href="index.html" >
-            Home
-          </a>
-        
-          <a href="about.html" >
-            About
-          </a>
-        
-          <a href="recent.html" >
-            Call To Actions
-          </a>
-        
-          <a href="ongoing.html" >
-            Ongoing CTAs
-          </a>
-        
-          <a href="updated.html" >
-            Updates
-          </a>
-        
-          <a href="rescues-charities.html" >
-            Rescues &amp; Charities
-          </a>
-        
-          <a href="resources.html" >
-            Resources
-          </a>
-        
-          <a href="in-memoriam.html" >
-            In Memoriam
-          </a>
-        
-          <a href="donate.html" class="active">
-            Donate
-          </a>
-        
-          <a href="faq.html" >
-            FAQ
-          </a>
-        
-          <a href="contact.html" >
-            Contact Us
-          </a>
-        
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="recent.html">Recent CTAs</a>
+      <a href="ongoing.html">Ongoing</a>
+      <a href="updated.html">Updates</a>
+      <a href="rescues-charities.html">Rescues &amp; Charities</a>
+      <a href="resources.html">Resources</a>
+      <a href="in-memoriam.html">In Memoriam</a>
+      <a href="donate.html" class="active">Donate</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact Us</a>
     </div>
   </nav>
+</header>
 
-  </header>
+<section class="page-hero" aria-labelledby="page-hero-heading">
+  <div class="page-hero-inner">
+    <h1 id="page-hero-heading" class="page-hero-title">Donate</h1>
+    <p class="page-hero-lede">Your support keeps our doors open and our tails wagging.</p>
+  </div>
+</section>
 
-  
-      <section class="page-container">
-        <h1 class="page-title">Donate</h1>
-        <p class="page-subtitle">Your support keeps our doors open and our tails wagging.</p>
-        <div class="page-content"><p>This is a placeholder Donate page. Replace this content with CTAs and donation options using the Page Updater sections.</p></div>
-        
-        
-        
-        
-        
-      </section>
-    
+<section class="page-container page-container--after-hero">
+  <div class="page-content page-content--centered">
+    <p>
+      Donations help us keep campaigns, education, and support going for animals who need it most.
+      Payments run on <strong>Stripe</strong>—your card details stay on their systems, not ours.
+    </p>
+    <h2 class="donate-section-heading">Make a one-off donation</h2>
+    <div id="donate-stripe-root" class="donate-stripe-block" aria-live="polite"></div>
+    <h2 class="donate-section-heading">Monthly support</h2>
+    <p class="donate-section-intro">Pick a recurring amount. Checkout opens on Stripe’s secure page.</p>
+    <div id="donate-pricing-table-root" class="donate-pricing-table-wrap" aria-live="polite"></div>
+  </div>
+</section>
 
-  
-  <footer class="footer-centered">
-    
-      <section class="stats">
-        <div class="stats-grid">
-          
-            <div class="stat-item">
-              <div class="stat" data-live-stat="email_sends">251,050</div>
-              <div class="stat-label">Total Emails Sent</div>
-            </div>
-        </div>
-      </section>
-    
+<footer>
+  <section class="email-counter-banner">
+    <p class="email-counter-number" id="email-counter-number">&mdash;</p>
+    <p class="email-counter-label">Emails Sent For Animals</p>
+  </section>
+  <div class="footer-links">
+    <a href="contact.html">Contact Us</a>
+    <a href="donate.html">Donate</a>
+    <a href="faq.html">FAQ</a>
+    <a href="about.html">About</a>
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+  </div>
+  <div class="footer-social">
+    <a href="https://instagram.com/hallieforanimals" target="_blank" rel="noopener noreferrer" class="footer-social-a" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg></a>
+  </div>
+  <p>&copy; 2026 HallieForAnimals &ndash; All Rights Reserved</p>
+  <p>Because those who need us most can&rsquo;t ask.</p>
+  <p class="footer-credit">Proudly Built By TheRealJosephMonroe</p>
+</footer>
 
-    <p>&copy; 2026 HallieForAnimals™ All Rights Reserved</p>
-    <p class="footer-tagline">Proudly Built By TheRealJosephMonroe</p>
-    
-    <div class="footer-links">
-      <a href="terms.html">Terms &amp; Conditions</a> | <a href="privacy.html">Privacy Policy</a>
-    </div>
-
-    
-      <div class="footer-social">
-        <a href="https://www.instagram.com/hallieforanimals" target="_blank" rel="noopener" class="footer-social-a" title="instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-      </div>
-    
-  </footer>
-
-
-  <script>
-  (function() {
-    var btn = document.querySelector('.burger-btn');
-    var links = document.querySelector('.nav-links');
-    if (btn && links) {
-      btn.addEventListener('click', function() {
-        var open = links.classList.toggle('nav-open');
-        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-        btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
-      });
-      links.querySelectorAll('a').forEach(function(a) {
-        a.addEventListener('click', function() {
-          links.classList.remove('nav-open');
-          btn.setAttribute('aria-expanded', 'false');
-          btn.setAttribute('aria-label', 'Open menu');
-        });
-      });
-    }
-  })();
-  </script>
+<script src="announcement.js"></script>
+<script>
+(function () {
+  var root = document.getElementById('donate-stripe-root');
+  if (!root) return;
+  var u = (window.HFA_SITE && String(window.HFA_SITE.stripeDonationUrl || '').trim()) || '';
+  if (u) {
+    var note = document.createElement('p');
+    note.className = 'donate-stripe-note';
+    note.textContent = 'You’ll open Stripe’s secure checkout in a new tab. We never receive your full card number on this website.';
+    var a = document.createElement('a');
+    a.className = 'btn';
+    a.href = u;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.textContent = 'Donate';
+    root.appendChild(note);
+    root.appendChild(a);
+  } else {
+    var help = document.createElement('p');
+    help.className = 'donate-stripe-setup-hint';
+    help.innerHTML = 'Add your Stripe <strong>Payment Link</strong> URL to <code>assets/js/hfa-site-config.js</code> as <code>stripeDonationUrl</code>. Use only the public checkout link—never secret keys in the repo.';
+    root.appendChild(help);
+  }
+})();
+(function () {
+  var wrap = document.getElementById('donate-pricing-table-root');
+  if (!wrap) return;
+  var cfg = window.HFA_SITE || {};
+  var tid = String(cfg.stripePricingTableId || '').replace(/\s/g, '').trim();
+  var pk = String(cfg.stripePublishableKey || '').replace(/\s/g, '').trim();
+  if (!tid || !pk) {
+    wrap.innerHTML = '<p class="donate-stripe-setup-hint">To show monthly tiers, set <code>stripePricingTableId</code> and <code>stripePublishableKey</code> in <code>assets/js/hfa-site-config.js</code> (from Stripe → Pricing tables → Install). Use your <strong>publishable</strong> key only.</p>';
+    return;
+  }
+  var mounted = false;
+  function mount() {
+    if (mounted) return;
+    mounted = true;
+    var el = document.createElement('stripe-pricing-table');
+    el.setAttribute('pricing-table-id', tid);
+    el.setAttribute('publishable-key', pk);
+    wrap.appendChild(el);
+  }
+  customElements.whenDefined('stripe-pricing-table').then(function () {
+    mount();
+  });
+  setTimeout(function () {
+    if (mounted || wrap.querySelector('stripe-pricing-table')) return;
+    mounted = true;
+    wrap.innerHTML = '<p class="donate-stripe-setup-hint">Stripe’s pricing table script did not load. Check your network, ad blockers, and <strong>Content-Security-Policy</strong> (allow <code>https://js.stripe.com</code> for <code>script-src</code> and <code>frame-src</code> — see <a href="https://docs.stripe.com/payments/checkout/pricing-table" rel="noopener noreferrer" target="_blank">Stripe pricing table docs</a>).</p>';
+  }, 20000);
+})();
+(function(){var btn=document.querySelector('.burger-btn');var links=document.querySelector('.nav-links');if(btn&&links){btn.addEventListener('click',function(){var open=links.classList.toggle('nav-open');btn.setAttribute('aria-expanded',open?'true':'false');btn.setAttribute('aria-label',open?'Close menu':'Open menu');});links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('nav-open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');});});}})();
+</script>
 </body>
 </html>
+

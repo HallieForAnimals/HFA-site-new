@@ -1,42 +1,25 @@
 {
-  "stats": [
-    {
-      "number": "251,050",
-      "label": "Total Emails Sent",
-      "source": "email_sends"
-    }
-  ],
-  "showStats": true,
-  "pagesWithStats": [
-    "about.html",
-    "contact.html",
-    "cta-submit.html",
-    "cta.html",
-    "donate.html",
-    "faq.html",
-    "in-memoriam-submit.html",
-    "in-memoriam.html",
-    "index.html",
-    "ongoing.html",
-    "privacy.html",
-    "recent.html",
-    "rescues-charities.html",
-    "resources.html",
-    "tech-submit.html",
-    "terms.html",
-    "updated.html"
-  ],
-  "copyright": "© 2026 HallieForAnimals™ All Rights Reserved",
-  "tagline": "Proudly Built By TheRealJosephMonroe",
-  "social": [
-    {
-      "platform": "instagram",
-      "url": "https://www.instagram.com/hallieforanimals"
-    }
-  ],
+  "copyright": "© 2026 HallieForAnimals – All Rights Reserved",
+  "tagline": "Because those who need us most can't ask.",
   "showEin": false,
   "einNumber": "",
   "includeLiveEmailSends": true,
-  "emailSendsFallback": "251,050",
-  "emailSendsLabel": "Total Emails Sent"
+  "emailSendsFallback": "254,000",
+  "emailSendsLabel": "Emails Sent For Animals",
+  "pagesWithStats": [],
+  "stats": [
+    { "number": "254,000", "label": "Emails Sent For Animals", "source": "email_sends" }
+  ],
+  "links": [
+    { "text": "Contact Us", "url": "contact.html" },
+    { "text": "Donate", "url": "donate.html" },
+    { "text": "FAQ", "url": "faq.html" },
+    { "text": "About", "url": "about.html" }
+  ],
+  "social": [
+    { "platform": "instagram", "url": "https://instagram.com/hallieforanimals" }
+  ],
+  "extraLines": [
+    "Proudly Built By TheRealJosephMonroe"
+  ]
 }

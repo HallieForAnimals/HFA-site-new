@@ -1,129 +1,455 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rescue Haven</title>
-  <link rel="stylesheet" href="style.css">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="robots" content="index,follow">  <title>Case Updates | HallieForAnimals</title>
+  <meta name="description" content="Case updates on animal welfare campaigns. See what has changed and continue to demand accountability.">
+  <link rel="canonical" href="https://hallieforanimals.org/updated.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Case Updates | HallieForAnimals">
+  <meta property="og:description" content="Case updates on animal welfare campaigns. See what has changed and continue to demand accountability.">
+  <meta property="og:url" content="https://hallieforanimals.org/updated.html">
+  <meta property="og:site_name" content="HallieForAnimals">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Case Updates | HallieForAnimals">
+  <meta name="twitter:description" content="Case updates on animal welfare campaigns. Continue to demand accountability.">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=20260321">
+  <link rel="icon" href="assets/img/logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/logo.png">
+  <script src="assets/js/hfa-preview-settings.js"></script>
+  <script src="assets/js/hfa-preview-settings.local.js"></script>
+  <script src="assets/js/preview-gate.js"></script>
+  <script src="assets/js/hfa-site-config.js"></script>
+  <script src="assets/js/hfa-cta-description.js"></script>
 </head>
 <body>
-  <header><nav>
-    <a href="#" class="logo">
-      <img src="assets/img/logo.png" alt="HallieForAnimals Because those who need us most can't ask." class="logo-img"><span class="logo-text"><span class="logo-line">HallieForAnimals</span><span class="logo-tagline">Because those who need us most can't ask.</span></span>
+<div id="announcement-root"></div>
+<header>
+  <nav>
+    <a href="index.html" class="logo">
+      <img src="assets/img/logo.png" alt="HallieForAnimals logo" class="logo-img">
+      <span class="logo-text">
+        <span class="logo-line">HallieForAnimals</span>
+        <span class="logo-tagline">Because those who need us most can't ask.</span>
+      </span>
     </a>
-    <button type="button" class="burger-btn" aria-label="Open menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+    <button type="button" class="burger-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <div class="nav-links">
-      
-          <a href="index.html">
-            Home
-          </a>
-        
-          <a href="about.html">
-            About
-          </a>
-        
-          <a href="recent.html">
-            Call To Actions
-          </a>
-        
-          <a href="ongoing.html">
-            Ongoing CTAs
-          </a>
-        
-          <a href="updated.html" class="active">
-            Updates
-          </a>
-        
-          <a href="rescues-charities.html">
-            Rescues &amp; Charities
-          </a>
-        
-          <a href="resources.html">
-            Resources
-          </a>
-        
-          <a href="in-memoriam.html">
-            In Memoriam
-          </a>
-        
-          <a href="donate.html">
-            Donate
-          </a>
-        
-          <a href="faq.html">
-            FAQ
-          </a>
-        
-          <a href="contact.html">
-            Contact Us
-          </a>
-        
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="recent.html">Recent CTAs</a>
+      <a href="ongoing.html">Ongoing</a>
+      <a href="updated.html" class="active">Updates</a>
+      <a href="rescues-charities.html">Rescues &amp; Charities</a>
+      <a href="resources.html">Resources</a>
+      <a href="in-memoriam.html">In Memoriam</a>
+      <a href="donate.html">Donate</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact Us</a>
     </div>
-  </nav></header>
+  </nav>
+</header>
 
-  
-      <section class="page-container">
-        <h1 class="page-title">Case updates</h1>
-        <p class="page-subtitle">Follow how each case progresses, from first report to resolution.</p>
-        <div class="page-content"><p><a href="contact.html?kind=cta" class="btn secondary-btn">Submit a CTA</a></p></div>
-        
-        
-        
-        
-        
-      </section>
-    
+<section class="page-hero" aria-labelledby="page-hero-heading">
+  <div class="page-hero-inner">
+    <h1 id="page-hero-heading" class="page-hero-title">Case updates &amp; outcomes</h1>
+    <p class="page-hero-lede">Below are progress updates, verdicts, and outcomes from ongoing or completed campaigns.</p>
+  </div>
+</section>
 
-  
-  <footer class="footer-centered">
-    
-      <section class="stats">
-        <div class="stats-grid">
-          
-            <div class="stat-item">
-              <div class="stat" data-live-stat="email_sends">251,050</div>
-              <div class="stat-label">Total Emails Sent</div>
-            </div>
-        </div>
-      </section>
-    
-
-    <p>© 2026 HallieForAnimals™ All Rights Reserved</p>
-    <p class="footer-tagline">Proudly Built By TheRealJosephMonroe</p>
-    
-    <div class="footer-links">
-      <a href="terms.html">Terms &amp; Conditions</a> | <a href="privacy.html">Privacy Policy</a>
+<section class="page-container page-container--after-hero">
+  <div class="updates-toolbar page-content page-content--centered" id="updates-toolbar" hidden>
+    <div class="updates-filters" role="group" aria-label="Filter by status">
+      <button type="button" class="updates-filter-btn is-active" data-updates-filter="all">All</button>
+      <button type="button" class="updates-filter-btn" data-updates-filter="ongoing">Ongoing</button>
+      <button type="button" class="updates-filter-btn" data-updates-filter="resolved">Resolved</button>
     </div>
+    <label class="updates-search-wrap">
+      <span class="visually-hidden">Search cases</span>
+      <input type="search" class="updates-search-input" id="updates-search" placeholder="Search cases…" autocomplete="off" />
+    </label>
+  </div>
+  <div class="cta-submit-block page-content page-content--centered">
+    <p><a href="contact.html?kind=cta" class="btn secondary-btn">Submit a CTA</a></p>
+  </div>
+  <div id="updates-list" class="page-content updates-cards-wrap">
+    <p class="updates-loading">Loading updates…</p>
+  </div>
+</section>
 
-    
-      <div class="footer-social">
-        <a href="https://www.instagram.com/hallieforanimals" target="_blank" rel="noopener" class="footer-social-a" title="instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
-      </div>
-    
-  </footer>
+<footer>
+  <section class="email-counter-banner">
+    <p class="email-counter-number" id="email-counter-number">&mdash;</p>
+    <p class="email-counter-label">Emails Sent For Animals</p>
+  </section>
+  <div class="footer-links">
+    <a href="contact.html">Contact Us</a>
+    <a href="donate.html">Donate</a>
+    <a href="faq.html">FAQ</a>
+    <a href="about.html">About</a>
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+  </div>
+  <div class="footer-social">
+    <a href="https://instagram.com/hallieforanimals" target="_blank" rel="noopener noreferrer" class="footer-social-a" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg></a>
+  </div>
+  <p>&copy; 2026 HallieForAnimals &ndash; All Rights Reserved</p>
+  <p>Because those who need us most can&rsquo;t ask.</p>
+  <p class="footer-credit">Proudly Built By TheRealJosephMonroe</p>
+</footer>
 
-
-  <script>
-  (function() {
-    var btn = document.querySelector('.burger-btn');
-    var links = document.querySelector('.nav-links');
-    if (btn && links) {
-      btn.addEventListener('click', function() {
-        var open = links.classList.toggle('nav-open');
-        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-        btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+<script>
+(function(){var btn=document.querySelector('.burger-btn');var links=document.querySelector('.nav-links');if(btn&&links){btn.addEventListener('click',function(){var open=links.classList.toggle('nav-open');btn.setAttribute('aria-expanded',open?'true':'false');btn.setAttribute('aria-label',open?'Close menu':'Open menu');});links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('nav-open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');});});}})();
+</script>
+<script src="announcement.js"></script>
+<script>
+(function() {
+  var container = document.getElementById('updates-list');
+  if (!container) return;
+  var path = window.location.pathname || '/';
+  var dataUrl = typeof window.hfaDataJsonUrl === 'function' ? window.hfaDataJsonUrl('data/links.json') : (path.slice(0, path.lastIndexOf('/') + 1) + 'data/links.json?cb=' + Date.now());
+  fetch(dataUrl, { cache: 'no-store' })
+    .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+    .then(function(json) {
+      function isHiddenCta(item) {
+        return !!(item && (item.hidden === true || item.archived === true));
+      }
+      function lc(s) {
+        return String(s == null ? '' : s).trim().toLowerCase();
+      }
+      function trimCaseId(id) {
+        return String(id == null ? '' : id).trim();
+      }
+      // Flat `links[]` (Hallie) plus legacy `sections[].links` — same pattern as announcement.js / link list.
+      var raw = [];
+      if (Array.isArray(json.links)) raw = raw.concat(json.links);
+      if (Array.isArray(json.sections)) {
+        json.sections.forEach(function (sec) {
+          if (sec && Array.isArray(sec.links)) raw = raw.concat(sec.links);
+        });
+      }
+      var seenSlug = Object.create(null);
+      var links = [];
+      raw.forEach(function (item) {
+        if (!item) return;
+        var sl = String(item.slug || '').trim().toLowerCase();
+        if (sl) {
+          if (seenSlug[sl]) return;
+          seenSlug[sl] = true;
+        }
+        links.push(item);
       });
-      links.querySelectorAll('a').forEach(function(a) {
-        a.addEventListener('click', function() {
-          links.classList.remove('nav-open');
-          btn.setAttribute('aria-expanded', 'false');
-          btn.setAttribute('aria-label', 'Open menu');
+      /** Rows with ctaType "update" always list here (per site rules). Legacy rows: status/role update, respect hidden. */
+      function isUpdateRow(x) {
+        if (!x) return false;
+        if (lc(x.ctaType) === 'update') return true;
+        if (isHiddenCta(x)) return false;
+        return lc(x.status) === 'updated' || lc(x.role) === 'update';
+      }
+      var originals = links.filter(function(x) {
+        var r = x.role;
+        var isOrig = r == null || r === '' || String(r).toLowerCase() === 'original';
+        return isOrig && !isHiddenCta(x);
+      });
+      var updates = links.filter(isUpdateRow);
+      if (!updates.length) {
+        container.innerHTML = '<p class="updates-empty">No case updates yet.</p>';
+        return;
+      }
+      var byCase = {};
+      updates.forEach(function(up) {
+        var cid = trimCaseId(up.caseId);
+        if (!byCase[cid]) byCase[cid] = [];
+        byCase[cid].push(up);
+      });
+      var cases = Object.keys(byCase).map(function(caseId) {
+        var updatesForCase = byCase[caseId].slice().sort(function(a, b) { return (b.updatedAt || '').localeCompare(a.updatedAt || ''); });
+        var original = originals.filter(function(o) { return trimCaseId(o.caseId) === caseId; })[0] || {};
+        var latest = updatesForCase[0] || {};
+        var rawSt = lc(latest.updateStatus || '');
+        var filterBucket = rawSt === 'resolved' ? 'resolved' : 'ongoing';
+        var latestAt = latest.updatedAt || latest.updateDate || '';
+        return {
+          caseId: caseId,
+          original: original,
+          updates: updatesForCase,
+          latest: latest,
+          filterBucket: filterBucket,
+          latestAt: latestAt
+        };
+      }).sort(function(a, b) { return (b.latestAt || '').localeCompare(a.latestAt || ''); });
+      function esc(s) { return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+      function linkifyInstagramMentions(escapedText) {
+        return (escapedText || '').replace(
+          /(^|[^A-Za-z0-9._-])@([A-Za-z0-9._-]{1,30})(?![A-Za-z0-9._-])/g,
+          function(match, prefix, handle) {
+            var href = 'https://www.instagram.com/' + encodeURIComponent(handle);
+            return prefix + '<a href="' + esc(href) + '" target="_blank" rel="noopener noreferrer">@' + esc(handle) + '</a>';
+          }
+        );
+      }
+
+      function caseAnchorId(caseId) {
+        var s = String(caseId || '').trim().replace(/[^a-zA-Z0-9_-]+/g, '-').replace(/^-+|-+$/g, '');
+        return 'case-' + (s || 'case');
+      }
+      var TRACKER_BASE = 'https://go.hallieforanimals.org/t';
+      function trackedUrlFromSlug(slug) {
+        if (!slug) return '';
+        return TRACKER_BASE + '/' + encodeURIComponent(String(slug).trim());
+      }
+      function formatDisplayDate(raw) {
+        var s = String(raw || '').trim();
+        if (!s) return '';
+        var d = new Date(s);
+        if (isNaN(d.getTime()) && /^\d{4}-\d{2}-\d{2}/.test(s)) {
+          d = new Date(s.slice(0, 10) + 'T12:00:00');
+        }
+        if (isNaN(d.getTime())) return s;
+        return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+      }
+      function badgeLabel(filterBucket) {
+        return filterBucket === 'resolved' ? 'Resolved' : 'Ongoing';
+      }
+      function stripHtmlForSearch(htmlish) {
+        return String(htmlish || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+      }
+      function normalizeTel(raw) {
+        var s = (raw || '').toString().trim();
+        if (!s) return '';
+        var plus = s[0] === '+' ? '+' : '';
+        var digits = s.replace(/[^\d]/g, '');
+        return plus + digits;
+      }
+      function telFromMain(main, ext) {
+        var base = normalizeTel(main);
+        if (!base) return '';
+        var extDigits = (ext || '').toString().replace(/[^\d]/g, '');
+        return extDigits ? base + ';ext=' + extDigits : base;
+      }
+      function ctaAnchorIdFromSlug(slug) {
+        var s = String(slug || '').trim().replace(/[^a-zA-Z0-9_-]+/g, '-').replace(/^-+|-+$/g, '');
+        return 'c-' + (s || 'cta');
+      }
+      function captionBuilderFromItem(item) {
+        var cb = item.captionBuilder || {};
+        if (!item.captionBuilder && item.location) {
+          cb = Object.assign({}, cb, {
+            country: item.location.country || '',
+            state: item.location.region || '',
+            city: item.location.locality || '',
+            targets: item.targets || [],
+            phones: item.phones || []
+          });
+        }
+        return cb;
+      }
+      function targetsAndLocationPhonesFromCb(cb) {
+        var targets = [];
+        if (Array.isArray(cb.targets)) {
+          targets = cb.targets;
+        } else {
+          var targetsRaw = (cb.targets || '').toString();
+          targets = targetsRaw ? targetsRaw.split(',').map(function(s) { return s.trim(); }).filter(Boolean) : [];
+        }
+        var locationParts = [cb.city, cb.state, cb.country].map(function(s) { return (s || '').trim(); }).filter(Boolean);
+        var locationText = locationParts.length ? locationParts.join(', ') : '';
+        var phones = Array.isArray(cb.phones) ? cb.phones : [];
+        return { targets: targets, locationText: locationText, phones: phones };
+      }
+      function captionSectionsForUpdate(item, originalRow) {
+        var primary = targetsAndLocationPhonesFromCb(captionBuilderFromItem(item));
+        var hasAny = primary.targets.length || primary.locationText || (primary.phones && primary.phones.length);
+        if (hasAny) return primary;
+        return targetsAndLocationPhonesFromCb(captionBuilderFromItem(originalRow || {}));
+      }
+      function renderUpdateAccordion(item, c) {
+        var caseTitle = (c.original.title || c.caseId || 'Case').trim();
+        var summaryTitle = (item.updateTitle || item.title || caseTitle).trim();
+        var sec = captionSectionsForUpdate(item, c.original);
+        var targets = sec.targets;
+        var locationText = sec.locationText;
+        var phones = sec.phones;
+        var phoneLis = phones.map(function(p) {
+          var who = (p.who || '').trim();
+          var code = (p.code || '').trim();
+          var num = (p.number || p.main || '').trim();
+          var ext = (p.ext || '').trim();
+          var main = [code, num].filter(Boolean).join(' ').trim();
+          var suffix = ext ? (' ext ' + ext) : '';
+          var visiblePhone = main + suffix;
+          var telHref = telFromMain(main, ext);
+          return '<li class="cta-phone-row">' +
+            '<span class="cta-phone-who">' + esc(who || '') + '</span>' +
+            (telHref
+              ? ('<a href="tel:' + esc(telHref) + '" class="cta-phone-link cta-phone-num" rel="nofollow">' + esc(visiblePhone) + '</a>')
+              : ('<span class="cta-phone-num">' + esc(visiblePhone) + '</span>')) +
+          '</li>';
+        });
+        var callScriptText = String(item.callScript || '').trim();
+        var callScriptHtml = callScriptText
+          ? linkifyInstagramMentions(esc(callScriptText)).replace(/\n/g,'<br/>')
+          : '';
+
+        var descriptionRaw = item.descriptionLong || item.description || item.updateBody || item.updateSummary || item.summary || '';
+        var descriptionForCard = (typeof hfaStripCaptionMetaFromDescription === 'function')
+          ? hfaStripCaptionMetaFromDescription(descriptionRaw)
+          : descriptionRaw;
+        var descriptionHtml = descriptionForCard
+          ? linkifyInstagramMentions(esc(descriptionForCard)).replace(/\n/g, '<br/>')
+          : '';
+        var vidUrl = (item.videoEmbedUrl || c.original.videoEmbedUrl || '').trim();
+        var video = vidUrl ? '<div class="cta-video"><iframe src="' + esc(vidUrl) + '" loading="lazy" allowfullscreen></iframe></div>' : '';
+        var shortUrl = (item.shortlinkUrl || item.shortlink || '').trim();
+        if (!shortUrl || (item.slug && shortUrl.indexOf(TRACKER_BASE + '/') !== 0)) {
+          shortUrl = trackedUrlFromSlug(item.slug);
+        }
+        var tag = (item.tag || '').toString().toLowerCase();
+        var isEmail = item.ctaType === 'email' || (String(item.ctaType || '') === 'update' && item.updateIncludeEmail) || tag.indexOf('email') !== -1;
+        var buttonLabel = isEmail ? 'Send the one-click email' : 'Take action';
+        var buttonAttrs = isEmail ? ' rel="nofollow"' : ' rel="nofollow noopener noreferrer" target="_blank"';
+        var button = shortUrl ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn"' + buttonAttrs + '>' + esc(buttonLabel) + '</a>' : '';
+        var shareTitle = esc(item.title || item.slug || 'CTA');
+        var shareBtn = shortUrl ? '<button type="button" class="cta-share-btn" data-share-url="' + esc(shortUrl) + '" data-share-title="' + shareTitle + '">Share</button>' : '';
+        var boycottUrl = (item.boycottUrl || c.original.boycottUrl || '').trim();
+        var boycott = boycottUrl ? '<a href="' + esc(boycottUrl) + '" class="secondary-btn" style="display:block; margin-top:0.75rem; text-align:center; text-decoration:none;">How to boycott</a>' : '';
+        var dateLine = formatDisplayDate(item.updateDate || item.updatedAt);
+        var dateHtml = dateLine ? '<p class="update-accordion-date">' + esc(dateLine) + '</p>' : '';
+        return '<details class="cta-accordion cta-card-ui">' +
+          '<summary id="' + esc(ctaAnchorIdFromSlug(item.slug)) + '" class="cta-accordion-summary">' + esc(summaryTitle) + '</summary>' +
+          '<div class="cta-accordion-body">' +
+            dateHtml +
+            video +
+            (descriptionHtml ? ('<div class="cta-card-section"><h3>Description</h3><div class="cta-card-body cta-card-desc">' + descriptionHtml + '</div></div>') : '') +
+            (targets.length ? ('<div class="cta-card-section"><h3>Targets</h3><div class="cta-card-body"><ul class="cta-card-list">' + targets.map(function(t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul></div></div>') : '') +
+            (locationText ? ('<div class="cta-card-section"><h3>Location</h3><div class="cta-card-body">' + esc(locationText) + '</div></div>') : '') +
+            (phoneLis.length ? ('<div class="cta-card-section"><h3>Phone</h3><div class="cta-card-body"><ul class="cta-card-list cta-phone-list">' + phoneLis.join('') + '</ul></div></div>') : '') +
+            ((phoneLis.length && callScriptHtml) ? ('<div class="cta-card-section"><h3>Call script</h3><div class="cta-card-body">' + callScriptHtml + '</div></div>') : '') +
+            button +
+            shareBtn +
+            boycott +
+          '</div>' +
+        '</details>';
+      }
+      function caseSearchBlob(c) {
+        var caseTitle = (c.original.title || c.caseId || '').trim();
+        var parts = [caseTitle, c.caseId];
+        c.updates.forEach(function(u) {
+          parts.push(u.updateTitle, u.title, u.slug);
+          parts.push(stripHtmlForSearch(u.descriptionLong || u.description || u.updateBody || u.updateSummary || u.summary || ''));
+          var sec = captionSectionsForUpdate(u, c.original);
+          parts.push(sec.targets.join(' '));
+          parts.push(sec.locationText);
+          (sec.phones || []).forEach(function(p) {
+            parts.push((p.who || '') + ' ' + (p.code || '') + ' ' + (p.number || p.main || ''));
+          });
+        });
+        return esc(parts.join(' ').toLowerCase());
+      }
+      container.innerHTML = cases.map(function(c) {
+        var caseTitle = (c.original.title || c.caseId || 'Case').trim();
+        var latest = c.latest;
+        var lastLine = formatDisplayDate(latest.updateDate || latest.updatedAt);
+        var metaParts = [];
+        if (lastLine) metaParts.push('Last updated: ' + lastLine);
+        if (c.updates.length > 1) metaParts.push(c.updates.length + ' updates');
+        var metaHtml = metaParts.length ? '<p class="update-case-shell-meta">' + esc(metaParts.join(' · ')) + '</p>' : '';
+        var accordions = c.updates.map(function(u) { return renderUpdateAccordion(u, c); }).join('');
+        return '<article id="' + esc(caseAnchorId(c.caseId)) + '" class="update-case-shell" data-updates-status="' + esc(c.filterBucket) + '" data-updates-search="' + caseSearchBlob(c) + '">' +
+          '<header class="update-case-shell-head">' +
+          '<span class="update-case-badge update-case-badge--' + esc(c.filterBucket) + '" aria-label="Status">' + esc(badgeLabel(c.filterBucket).toUpperCase()) + '</span>' +
+          '<h2 class="update-case-shell-title">' + esc(caseTitle) + '</h2>' +
+          metaHtml +
+          '</header>' +
+          '<div class="update-case-accordions">' + accordions + '</div>' +
+        '</article>';
+      }).join('');
+
+      container.querySelectorAll('.cta-share-btn').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          var u = btn.getAttribute('data-share-url') || '';
+          var t = btn.getAttribute('data-share-title') || '';
+          if (window.hfaShareUrl) window.hfaShareUrl(u, t, 'Take action for animals.');
         });
       });
-    }
-  })();
-  </script>
 
+      var toolbar = document.getElementById('updates-toolbar');
+      var activeFilter = 'all';
+      var searchQuery = '';
+      function applyUpdatesFilters() {
+        var q = searchQuery.trim().toLowerCase();
+        var cards = container.querySelectorAll('.update-case-shell');
+        var n = 0;
+        cards.forEach(function(card) {
+          var st = card.getAttribute('data-updates-status') || '';
+          var blob = (card.getAttribute('data-updates-search') || '').toLowerCase();
+          var okFilter = activeFilter === 'all' || st === activeFilter;
+          var okSearch = !q || blob.indexOf(q) !== -1;
+          var show = okFilter && okSearch;
+          card.hidden = !show;
+          if (show) n++;
+        });
+        var empty = container.querySelector('.updates-empty-filtered');
+        if (empty) empty.remove();
+        if (!n) {
+          var p = document.createElement('p');
+          p.className = 'updates-empty-filtered';
+          p.textContent = 'No cases match your filters.';
+          container.appendChild(p);
+        }
+      }
+      if (toolbar) {
+        toolbar.hidden = false;
+        toolbar.querySelectorAll('[data-updates-filter]').forEach(function(btn) {
+          btn.addEventListener('click', function() {
+            activeFilter = btn.getAttribute('data-updates-filter') || 'all';
+            toolbar.querySelectorAll('[data-updates-filter]').forEach(function(b) {
+              b.classList.toggle('is-active', b === btn);
+            });
+            applyUpdatesFilters();
+          });
+        });
+      }
+      var searchEl = document.getElementById('updates-search');
+      if (searchEl) {
+        searchEl.addEventListener('input', function() {
+          searchQuery = searchEl.value || '';
+          applyUpdatesFilters();
+        });
+      }
 
-</body></html>
+      var hash = (location.hash || '').replace(/^#/, '');
+      if (hash) {
+        var target = document.getElementById(hash);
+        if (target && target.tagName === 'SUMMARY') {
+          var det = target.closest('details');
+          if (det) det.open = true;
+          try { target.focus({ preventScroll: true }); } catch (e) {}
+          requestAnimationFrame(function() {
+            requestAnimationFrame(function() {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+          });
+        } else if (target && target.tagName === 'DETAILS') {
+          target.open = true;
+          var sum = target.querySelector('summary');
+          requestAnimationFrame(function() {
+            requestAnimationFrame(function() {
+              (sum || target).scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+          });
+        } else if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    })
+    .catch(function() { container.innerHTML = '<p>Could not load updates. If you opened this file from your computer, run a local server (e.g. <code>npx serve</code>) from the site folder and open the page via http://localhost.</p>'; });
+})();
+</script>
+</body>
+</html>
