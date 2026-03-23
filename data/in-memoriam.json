@@ -33,6 +33,13 @@
           "description": "Mr. Koda",
           "ownerSocialTag": "@therealjosephmonroe",
           "ownerSocialUrl": "instagram.com/therealjosephmonroe"
+        },
+        {
+          "name": "Whisper",
+          "img": "assets/img/Whisper-2002-2012-1774256720286.jpg",
+          "years": "2002-2012",
+          "description": "Placeholder",
+          "ownerSocialTag": ""
         }
       ]
     }
