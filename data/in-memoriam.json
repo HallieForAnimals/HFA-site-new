@@ -6,25 +6,29 @@
           "name": "Molly",
           "img": "assets/img/Molly-2011-2025-1774027730970.jpg",
           "years": "2011-2025",
-          "description": "Angel Baby"
+          "description": "Angel Baby",
+          "ownerSocialTag": ""
         },
         {
           "name": "Milo",
           "img": "assets/img/Milo-2005-2021-1774028595408.jpg",
           "years": "2005-2021",
-          "description": "My brave little soldier"
+          "description": "My brave little soldier",
+          "ownerSocialTag": ""
         },
         {
           "name": "Merlin",
           "img": "assets/img/Merlin-2001-2013-1774029226472.jpg",
           "years": "2001-2013",
-          "description": "Run free, buddy."
+          "description": "Run free, buddy.",
+          "ownerSocialTag": ""
         },
         {
           "name": "Koda",
           "img": "assets/img/Koda-2005-2019-1774029389465.jpg",
           "years": "2005-2019",
-          "description": "Mr. Koda"
+          "description": "Mr. Koda",
+          "ownerSocialTag": "@therealjosephmonroe"
         }
       ]
     }
