@@ -4,11 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="robots" content="noindex,nofollow">  <title>Page not found | HallieForAnimals</title>
+  <meta name="description" content="Page not found. Return to HallieForAnimals and continue taking action for animals.">
+  <meta property="og:title" content="Page Not Found | HallieForAnimals">
+  <meta property="og:description" content="Page not found. Return to HallieForAnimals and continue taking action for animals.">
+  <meta property="og:site_name" content="HallieForAnimals">
+  <meta name="twitter:card" content="summary">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20260321">
+  <link rel="icon" href="assets/img/logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/logo.png">
   <script src="assets/js/hfa-preview-settings.js"></script>
   <script src="assets/js/hfa-preview-settings.local.js"></script>
   <script src="assets/js/preview-gate.js"></script>
+  <script src="assets/js/hfa-site-config.js"></script>
 </head>
 <body>
 <div id="announcement-root"></div>
@@ -25,14 +33,9 @@
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <div class="nav-item-dropdown">
-        <a href="cta.html">CTA <span class="caret">▾</span></a>
-        <div class="nav-dropdown">
-          <a href="ongoing.html">Ongoing</a>
-          <a href="recent.html">Recent</a>
-          <a href="updated.html">Updates</a>
-        </div>
-      </div>
+      <a href="recent.html">Recent CTAs</a>
+      <a href="ongoing.html">Ongoing</a>
+      <a href="updated.html">Updates</a>
       <a href="rescues-charities.html">Rescues &amp; Charities</a>
       <a href="resources.html">Resources</a>
       <a href="in-memoriam.html">In Memoriam</a>
@@ -43,11 +46,14 @@
   </nav>
 </header>
 
-<section class="page-container">
-  <h1 class="page-title">Page not found</h1>
-  <p class="page-subtitle">
-    The page you're looking for doesn't exist or has been moved.
-  </p>
+<section class="page-hero" aria-labelledby="page-hero-heading">
+  <div class="page-hero-inner">
+    <h1 id="page-hero-heading" class="page-hero-title">Page not found</h1>
+    <p class="page-hero-lede">The page you're looking for doesn't exist or has been moved.</p>
+  </div>
+</section>
+
+<section class="page-container page-container--after-hero">
   <div class="page-content page-content--centered">
     <p><a href="index.html" class="btn">Back to home</a></p>
   </div>

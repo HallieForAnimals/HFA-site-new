@@ -1,0 +1,20 @@
+{
+  "faqs": [
+    {
+      "question": "How do I submit a campaign idea?",
+      "answer": "Use the 'Suggest a CTA' option on our contact page. We review every suggestion and may turn it into a live call to action."
+    },
+    {
+      "question": "How can I get in touch?",
+      "answer": "Head to our Contact Us page for general inquiries, volunteer interest, or partnership opportunities."
+    },
+    {
+      "question": "What is a CTA?",
+      "answer": "A CTA (Call To Action) is a campaign asking people to take a specific action — like sending a pre-written email to decision-makers — to help animals."
+    },
+    {
+      "question": "How does the one-click email work?",
+      "answer": "When you click a CTA email link, it opens your default email app with the recipients, subject, and body already filled in. Just hit send."
+    }
+  ]
+}

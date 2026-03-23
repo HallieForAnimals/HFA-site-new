@@ -5,28 +5,56 @@ export default {
     if (path.length > 1 && path.endsWith("/")) path = path.slice(0, -1);
     if (path === "") path = "/";
 
-    // ----- Hallie: download uploaded file (same auth as /api/inbox) -----
-    if (path === "/api/inbox/file") {
-      const inboxHdrs = inboxCorsHeaders();
+    // ----- Hallie Command Center: inbox list + file download (Bearer / X-HFA-Inbox-Token) -----
+    // Keep all /api/inbox* OPTIONS here so preflight never falls through to form CORS (Content-Type only).
+    if (path.startsWith("/api/inbox")) {
+      const inboxHdrs = inboxCorsHeaders(request);
       if (request.method === "OPTIONS") {
         return new Response(null, { status: 204, headers: inboxHdrs });
       }
-      if (request.method === "GET") {
-        return handleInboxFileGet(request, env, inboxHdrs);
+      if (path === "/api/inbox/file") {
+        if (request.method === "GET") {
+          return handleInboxFileGet(request, env, inboxHdrs);
+        }
+        return jsonInbox({ error: "method_not_allowed" }, 405, inboxHdrs);
       }
-      return jsonInbox({ error: "method_not_allowed" }, 405, inboxHdrs);
+      if (path === "/api/inbox/item") {
+        if (request.method === "DELETE") {
+          return handleInboxItemDelete(request, env, inboxHdrs);
+        }
+        return jsonInbox({ error: "method_not_allowed" }, 405, inboxHdrs);
+      }
+      if (path === "/api/inbox/bulk-delete") {
+        if (request.method === "POST") {
+          return handleInboxBulkDelete(request, env, inboxHdrs);
+        }
+        return jsonInbox({ error: "method_not_allowed" }, 405, inboxHdrs);
+      }
+      if (path === "/api/inbox") {
+        if (request.method === "GET") {
+          return handleInboxGet(request, env, inboxHdrs);
+        }
+        return jsonInbox({ error: "method_not_allowed" }, 405, inboxHdrs);
+      }
+      return jsonInbox({ error: "not_found", hint: "unknown inbox path" }, 404, inboxHdrs);
     }
 
-    // ----- Hallie app: list submissions (Bearer INBOX_SECRET) -----
-    if (path === "/api/inbox") {
-      const inboxHdrs = inboxCorsHeaders();
+    // ----- Hallie auth: user login + management (D1-backed, private) -----
+    if (path.startsWith("/api/auth")) {
+      const authHdrs = inboxCorsHeaders(request);
       if (request.method === "OPTIONS") {
-        return new Response(null, { status: 204, headers: inboxHdrs });
+        return new Response(null, { status: 204, headers: authHdrs });
       }
-      if (request.method === "GET") {
-        return handleInboxGet(request, env, inboxHdrs);
+      if (path === "/api/auth/login" && request.method === "POST") {
+        return handleAuthLogin(request, env, authHdrs);
       }
-      return jsonInbox({ error: "method_not_allowed" }, 405, inboxHdrs);
+      if (path === "/api/auth/users" && request.method === "GET") {
+        return handleAuthUsersGet(request, env, authHdrs);
+      }
+      if (path === "/api/auth/users" && request.method === "POST") {
+        return handleAuthUsersSave(request, env, authHdrs);
+      }
+      return jsonInbox({ error: "not_found" }, 404, authHdrs);
     }
 
     // ----- CORS for browser form POSTs -----
@@ -101,11 +129,24 @@ function pickCorsOrigin(originHeader, envAllowedOriginsCsv) {
   return "https://hallieforanimals.org";
 }
 
-function inboxCorsHeaders() {
+/** CORS for browser fetches from Hallie (localhost / GitHub Pages) with auth headers on GET. */
+function inboxCorsHeaders(request) {
+  const permitted = new Set(["authorization", "content-type", "x-hfa-inbox-token"]);
+  let allowHeaders = "Authorization, Content-Type, X-HFA-Inbox-Token";
+  const raw = request && request.headers.get("Access-Control-Request-Headers");
+  if (raw) {
+    const parts = raw
+      .split(",")
+      .map((s) => s.trim().toLowerCase())
+      .filter(Boolean);
+    if (parts.length && parts.every((h) => permitted.has(h))) {
+      allowHeaders = raw.trim();
+    }
+  }
   return {
     "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET, OPTIONS",
-    "Access-Control-Allow-Headers": "Authorization, Content-Type, X-HFA-Inbox-Token",
+    "Access-Control-Allow-Methods": "GET, POST, DELETE, OPTIONS",
+    "Access-Control-Allow-Headers": allowHeaders,
     "Access-Control-Max-Age": "86400"
   };
 }
@@ -279,6 +320,103 @@ async function handleInboxFileGet(request, env, inboxHdrs) {
   headers.set("cache-control", "private, max-age=3600");
 
   return new Response(obj.body, { status: 200, headers });
+}
+
+/** Authenticated DELETE: remove D1 row and any R2 objects under inbox/{submissionId}/. */
+async function handleInboxItemDelete(request, env, inboxHdrs) {
+  const db = env.SUBMISSIONS_DB;
+  const bucket = env.INBOX_UPLOADS;
+  const secret = normalizeInboxCredential(env.INBOX_SECRET || "");
+  if (!db) {
+    return jsonInbox({ error: "inbox_storage_not_configured" }, 503, inboxHdrs);
+  }
+  if (!secret) {
+    return jsonInbox({ error: "inbox_auth_not_configured" }, 503, inboxHdrs);
+  }
+
+  const token = getInboxCredential(request);
+  if (token !== secret) {
+    return jsonInbox({ error: "unauthorized" }, 401, inboxHdrs);
+  }
+
+  const url = new URL(request.url);
+  const submissionId = (url.searchParams.get("submissionId") || url.searchParams.get("id") || "").trim();
+  if (!submissionId) {
+    return jsonInbox({ error: "bad_request", hint: "submissionId query parameter required" }, 400, inboxHdrs);
+  }
+
+  try {
+    await ensureSubmissionsSchema(db);
+  } catch (e) {
+    return jsonInbox({ error: "schema_error", detail: String(e) }, 500, inboxHdrs);
+  }
+
+  const row = await db.prepare(`SELECT attachment_meta_json FROM submissions WHERE id = ?`).bind(submissionId).first();
+  if (!row) {
+    return jsonInbox({ error: "not_found" }, 404, inboxHdrs);
+  }
+
+  let meta = [];
+  try {
+    meta = row.attachment_meta_json ? JSON.parse(row.attachment_meta_json) : [];
+  } catch (_) {
+    meta = [];
+  }
+  if (bucket && Array.isArray(meta)) {
+    for (const entry of meta) {
+      const key = entry && entry.key;
+      if (key && typeof key === "string" && key.startsWith(`inbox/${submissionId}/`)) {
+        try {
+          await bucket.delete(key);
+        } catch (e) {
+          console.error("[submissions] R2 delete failed", key, e);
+        }
+      }
+    }
+  }
+
+  await db.prepare(`DELETE FROM submissions WHERE id = ?`).bind(submissionId).run();
+  return jsonInbox({ ok: true, deleted: submissionId }, 200, inboxHdrs);
+}
+
+/** Authenticated POST: delete multiple inbox items at once. Body: { ids: ["id1","id2",...] } */
+async function handleInboxBulkDelete(request, env, inboxHdrs) {
+  const db = env.SUBMISSIONS_DB;
+  const bucket = env.INBOX_UPLOADS;
+  const secret = normalizeInboxCredential(env.INBOX_SECRET || "");
+  if (!db) return jsonInbox({ error: "inbox_storage_not_configured" }, 503, inboxHdrs);
+  if (!secret) return jsonInbox({ error: "inbox_auth_not_configured" }, 503, inboxHdrs);
+
+  const token = getInboxCredential(request);
+  if (token !== secret) return jsonInbox({ error: "unauthorized" }, 401, inboxHdrs);
+
+  let body;
+  try { body = await request.json(); } catch { return jsonInbox({ error: "bad_json" }, 400, inboxHdrs); }
+  const ids = Array.isArray(body && body.ids) ? body.ids.filter(id => typeof id === "string" && id.trim()) : [];
+  if (!ids.length) return jsonInbox({ error: "bad_request", hint: "ids array required" }, 400, inboxHdrs);
+
+  try { await ensureSubmissionsSchema(db); } catch (e) {
+    return jsonInbox({ error: "schema_error", detail: String(e) }, 500, inboxHdrs);
+  }
+
+  const deleted = [];
+  for (const submissionId of ids) {
+    const row = await db.prepare(`SELECT attachment_meta_json FROM submissions WHERE id = ?`).bind(submissionId).first();
+    if (!row) continue;
+    let meta = [];
+    try { meta = row.attachment_meta_json ? JSON.parse(row.attachment_meta_json) : []; } catch { meta = []; }
+    if (bucket && Array.isArray(meta)) {
+      for (const entry of meta) {
+        const key = entry && entry.key;
+        if (key && typeof key === "string" && key.startsWith(`inbox/${submissionId}/`)) {
+          try { await bucket.delete(key); } catch { /* best effort */ }
+        }
+      }
+    }
+    await db.prepare(`DELETE FROM submissions WHERE id = ?`).bind(submissionId).run();
+    deleted.push(submissionId);
+  }
+  return jsonInbox({ ok: true, deleted, count: deleted.length }, 200, inboxHdrs);
 }
 
 /** Stay under Cloudflare ~100 MB Worker request body limit (multipart + fields). */
@@ -479,6 +617,103 @@ async function ensureSubmissionsSchema(db) {
     await db.prepare(sql).run();
   }
   __schemaReady = true;
+}
+
+let __usersSchemaReady = false;
+async function ensureUsersSchema(db) {
+  if (__usersSchemaReady) return;
+  await db.prepare(`CREATE TABLE IF NOT EXISTS users (
+    username TEXT PRIMARY KEY COLLATE NOCASE,
+    password TEXT NOT NULL,
+    role TEXT NOT NULL DEFAULT 'user',
+    first_name TEXT DEFAULT '',
+    last_name TEXT DEFAULT '',
+    preferred_name TEXT DEFAULT ''
+  )`).run();
+  __usersSchemaReady = true;
+}
+
+async function handleAuthLogin(request, env, hdrs) {
+  const db = env.SUBMISSIONS_DB;
+  if (!db) return jsonInbox({ error: "db_not_configured" }, 503, hdrs);
+  let body;
+  try { body = await request.json(); } catch { return jsonInbox({ error: "bad_json" }, 400, hdrs); }
+  const username = String(body?.username || "").trim();
+  const password = String(body?.password || "");
+  if (!username || !password) return jsonInbox({ error: "missing_credentials" }, 400, hdrs);
+  try { await ensureUsersSchema(db); } catch (e) {
+    return jsonInbox({ error: "schema_error", detail: String(e) }, 500, hdrs);
+  }
+  const row = await db.prepare(`SELECT * FROM users WHERE username = ?`).bind(username).first();
+  if (!row || row.password !== password) {
+    return jsonInbox({ error: "invalid_credentials" }, 401, hdrs);
+  }
+  return jsonInbox({
+    ok: true,
+    user: {
+      username: row.username,
+      role: row.role || "user",
+      firstName: row.first_name || "",
+      lastName: row.last_name || "",
+      preferredName: row.preferred_name || ""
+    }
+  }, 200, hdrs);
+}
+
+async function handleAuthUsersGet(request, env, hdrs) {
+  const db = env.SUBMISSIONS_DB;
+  const secret = normalizeInboxCredential(env.INBOX_SECRET || "");
+  if (!db) return jsonInbox({ error: "db_not_configured" }, 503, hdrs);
+  if (!secret) return jsonInbox({ error: "auth_not_configured" }, 503, hdrs);
+  const token = getInboxCredential(request);
+  if (token !== secret) return jsonInbox({ error: "unauthorized" }, 401, hdrs);
+  try { await ensureUsersSchema(db); } catch (e) {
+    return jsonInbox({ error: "schema_error", detail: String(e) }, 500, hdrs);
+  }
+  const { results } = await db.prepare(`SELECT username, password, role, first_name, last_name, preferred_name FROM users ORDER BY username`).all();
+  const users = (results || []).map(r => ({
+    username: r.username,
+    password: r.password,
+    role: r.role || "user",
+    firstName: r.first_name || "",
+    lastName: r.last_name || "",
+    preferredName: r.preferred_name || ""
+  }));
+  return jsonInbox({ ok: true, users }, 200, hdrs);
+}
+
+async function handleAuthUsersSave(request, env, hdrs) {
+  const db = env.SUBMISSIONS_DB;
+  const secret = normalizeInboxCredential(env.INBOX_SECRET || "");
+  if (!db) return jsonInbox({ error: "db_not_configured" }, 503, hdrs);
+  if (!secret) return jsonInbox({ error: "auth_not_configured" }, 503, hdrs);
+  const token = getInboxCredential(request);
+  if (token !== secret) return jsonInbox({ error: "unauthorized" }, 401, hdrs);
+  let body;
+  try { body = await request.json(); } catch { return jsonInbox({ error: "bad_json" }, 400, hdrs); }
+  const users = Array.isArray(body?.users) ? body.users : [];
+  if (!users.length) return jsonInbox({ error: "empty_users_list" }, 400, hdrs);
+  if (!users.some(u => u.role === "admin" || u.role === "developer")) {
+    return jsonInbox({ error: "must_have_admin", hint: "At least one admin or developer required" }, 400, hdrs);
+  }
+  try { await ensureUsersSchema(db); } catch (e) {
+    return jsonInbox({ error: "schema_error", detail: String(e) }, 500, hdrs);
+  }
+  const stmts = [db.prepare(`DELETE FROM users`)];
+  for (const u of users) {
+    const un = String(u.username || "").trim();
+    if (!un) continue;
+    stmts.push(
+      db.prepare(
+        `INSERT INTO users (username, password, role, first_name, last_name, preferred_name) VALUES (?, ?, ?, ?, ?, ?)`
+      ).bind(
+        un, String(u.password ?? ""), String(u.role || "user"),
+        String(u.firstName ?? ""), String(u.lastName ?? ""), String(u.preferredName ?? "")
+      )
+    );
+  }
+  await db.batch(stmts);
+  return jsonInbox({ ok: true, count: users.length }, 200, hdrs);
 }
 
 async function handleFormPost(request, env, cors) {

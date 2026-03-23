@@ -26,3 +26,19 @@ npm-debug.log*
 
 # ----- Preview passphrase (never commit the real one) -----
 assets/js/hfa-preview-settings.local.js
+
+# ----- Developer docs & notes (not needed in production) -----
+docs/
+FORMS-WIRING.md
+
+# ----- Private / internal app artifacts (should not ship publicly) -----
+# Cloudflare Worker source directories (contain account/database/KV bindings and similar details)
+hfa-cta-tracker/
+hfa-submissions-proxy/
+
+# Internal app state / editing artifacts
+edit-history.json
+
+# Orphaned/non-runtime JSON for the public site build
+partials.json
+announcement.json

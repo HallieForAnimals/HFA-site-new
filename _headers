@@ -1,0 +1,23 @@
+# NOTE: GitHub Pages IGNORES this file. It only applies if you deploy the same
+# static folder to Cloudflare Pages (or another host that reads _headers).
+# On GitHub Pages, rely on <meta charset="UTF-8"> early in <head> — see docs/CHARSET-UTF8.md
+#
+# Tell browsers and proxies these files are UTF-8. Without this, some hosts serve
+# text/html without charset; the browser may use Windows-1252/Latin-1 and show
+# mojibake (e.g. "whatÃ¢â¬â¢s" instead of "what's", "â¢" instead of "™").
+# Cloudflare Pages: https://developers.cloudflare.com/pages/configuration/headers/
+
+/*.html
+  Content-Type: text/html; charset=utf-8
+
+/*.json
+  Content-Type: application/json; charset=utf-8
+
+/data/*
+  Content-Type: application/json; charset=utf-8
+
+/*.css
+  Content-Type: text/css; charset=utf-8
+
+/*.js
+  Content-Type: application/javascript; charset=utf-8

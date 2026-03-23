@@ -1,11 +1,38 @@
 // HFA CTA Tracker – with multi-origin CORS already wired
 
+/** GitHub Pages project path from SITE_BASE, e.g. …github.io/site/ → "/site". Empty for apex custom domains. */
+function githubProjectPathFromSiteBase(siteBaseStr) {
+  try {
+    const u = new URL(siteBaseStr);
+    if (!u.hostname.endsWith('.github.io')) return '';
+    return (u.pathname || '/').replace(/\/+$/, '');
+  } catch {
+    return '';
+  }
+}
+
+/** /email/… lives at site root on custom domains; on *.github.io project pages it is under the project path. */
+function resolveEmailPublicPath(pathname, siteBaseStr) {
+  if (!pathname.startsWith('/email/')) return pathname;
+  const withSlash = pathname.endsWith('/') ? pathname : pathname + '/';
+  const proj = githubProjectPathFromSiteBase(siteBaseStr);
+  if (!proj) return withSlash;
+  return proj + withSlash;
+}
+
+/** Older KV stored /site/email/… for all hosts; strip /site when SITE_BASE is not a GH project page. */
+function stripObsoleteSiteEmailPrefix(pathname, siteBaseStr) {
+  if (!pathname.startsWith('/site/email/')) return pathname;
+  if (githubProjectPathFromSiteBase(siteBaseStr)) return pathname;
+  return pathname.slice('/site'.length);
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     const path = url.pathname.replace(/\/+$/, "");
     const method = request.method;
-    const SITE_BASE = (env.SITE_BASE || 'https://hallieforanimals.github.io/site/').replace(/\/?$/,'/');
+    const SITE_BASE = (env.SITE_BASE || 'https://hallieforanimals.org/').replace(/\/?$/,'/');
     const db = env.hfa_cta_tracker;
 
 
@@ -60,6 +87,56 @@ try {
       // Combine & return
       const out = eventsRows.concat(clickRows);
       return json(out, 200, env, request);
+    }
+
+    // ---- Public total: tracked mailto clicks via /t/:slug + baseline (historical sends)
+    if (method === "GET" && path === "/api/email-sends-total") {
+      const baseline = Math.max(
+        0,
+        parseInt(String(env.EMAIL_SENDS_BASELINE ?? "251050").replace(/,/g, ""), 10) || 251050
+      );
+      let tracked = 0;
+      try {
+        const row = await db
+          .prepare(
+            `SELECT COUNT(*) AS c FROM clicks WHERE lower(COALESCE(url,'')) LIKE 'mailto:%'`
+          )
+          .first();
+        tracked = Math.max(0, Number(row?.c || 0));
+      } catch {
+        tracked = 0;
+      }
+      const total = baseline + tracked;
+      return json(
+        { ok: true, baseline, tracked, total },
+        200,
+        env,
+        request
+      );
+    }
+
+    // ---- Site visitor beacon: POST /api/beacon  (lightweight page view ping)
+    if (method === "POST" && path === "/api/beacon") {
+      let b;
+      try { b = await request.json(); } catch { return json({ ok: false }, 400, env, request); }
+      if (!b || typeof b !== 'object') return json({ ok: false }, 400, env, request);
+      const ua = request.headers.get("user-agent") || "";
+      const cc = request.cf?.country || "";
+      const city = request.cf?.city || "";
+      const dev = deviceFromUA(ua);
+      try {
+        await db.prepare(
+          `INSERT INTO events (ts, type, channel, slug, path, ref, ua, ip_hash, cc, city, dev)
+           VALUES (?, 'view', 'site', '', ?, ?, ?, '', ?, ?, ?)`
+        ).bind(
+          Math.floor((b.t || Date.now()) / 1000),
+          String(b.p || '/'),
+          String(b.r || '').slice(0, 512),
+          ua.slice(0, 512),
+          cc, city, dev
+        ).run();
+      } catch { /* best effort */ }
+      return json({ ok: true }, 200, env, request);
     }
 
     // ---- Page beacon: POST /t  (JSON body)
@@ -153,9 +230,8 @@ if (own.has(u.hostname)) {
   // keep path AS-IS (do NOT force a trailing slash for .html routes)
   let p = u.pathname;
 
-  // normalize GH Pages email pages to /site prefix; keep trailing slash for /email/… pages only
   if (p.startsWith('/email/')) {
-    p = '/site' + (p.endsWith('/') ? p : (p + '/'));
+    p = resolveEmailPublicPath(p, SITE_BASE);
   }
 
   // 👇 PRESERVE the fragment
@@ -173,7 +249,7 @@ if (own.has(u.hostname)) {
 
   let p = rawPath; // do NOT force a trailing slash for .html routes
   if (p.startsWith('/email/')) {
-    p = '/site' + (p.endsWith('/') ? p : (p + '/'));  // only /email/... keeps trailing slash
+    p = resolveEmailPublicPath(p, SITE_BASE);
   }
 
   toStore = p + rawHash;  // path + hash
@@ -244,15 +320,24 @@ const isHttp = /^https?:\/\//i.test(dest);
 const hasScheme = /^[a-zA-Z][a-zA-Z0-9+.\-]*:/.test(dest);
 
 if (dest.startsWith('/')) {
-  // path → make absolute against SITE_BASE
-  let p = dest;
-  // ensure GH Pages '/site' prefix for email shortlink pages
-  if (p.startsWith('/email/')) p = '/site' + p;
+  let p = stripObsoleteSiteEmailPrefix(dest, SITE_BASE);
+  if (p.startsWith('/email/')) p = resolveEmailPublicPath(p, SITE_BASE);
   dest = new URL(p, SITE_BASE).href;
 } else if (isHttp) {
-  // absolute http(s): if it's a github.io host without /site, re-host on SITE_BASE
   const u = new URL(dest);
-  if (u.hostname === 'hallieforanimals.github.io' && !u.pathname.startsWith('/site/')) {
+  // Legacy: full URL on github.io → same path on SITE_BASE (custom domain)
+  if (u.hostname === 'hallieforanimals.github.io' && u.pathname.startsWith('/site/email/')) {
+    try {
+      const b = new URL(SITE_BASE);
+      if (!b.hostname.endsWith('.github.io')) {
+        dest = new URL(u.pathname.replace(/^\/site(?=\/email\/)/, ''), SITE_BASE).href;
+      } else {
+        dest = u.href;
+      }
+    } catch {
+      dest = u.href;
+    }
+  } else if (u.hostname === 'hallieforanimals.github.io' && !u.pathname.startsWith('/site/')) {
     dest = new URL(u.pathname, SITE_BASE).href;
   }
   // otherwise leave absolute http(s) alone
@@ -260,9 +345,9 @@ if (dest.startsWith('/')) {
  else if (hasScheme) {
   // mailto:, tel:, sms:, etc. → leave as-is
 } else {
-  // bare pathish string → treat as site-relative
-  let p = ('/' + dest.replace(/^\/+/, ''));
-  if (p.startsWith('/email/')) p = '/site' + p;
+  let p = '/' + dest.replace(/^\/+/, '');
+  p = stripObsoleteSiteEmailPrefix(p, SITE_BASE);
+  if (p.startsWith('/email/')) p = resolveEmailPublicPath(p, SITE_BASE);
   dest = new URL(p, SITE_BASE).href;
 }
 
@@ -282,24 +367,132 @@ if (dest.startsWith('/')) {
       const day     = new Date().toISOString().slice(0,10);
       const ip_hash = await sha256(`${ip}|${day}|${slug}`);
 
+      const isMailto = /^mailto:/i.test(dest);
+
       // Light bot skip (still redirect, just don't log)
-      if (isLikelyBot(ua)) return redirect(dest);
+      if (isLikelyBot(ua)) return isMailto ? mailtoInterstitial(dest, slug, SITE_BASE) : redirect(dest);
+
+      const lat  = parseFloat(cf.latitude) || null;
+      const lon  = parseFloat(cf.longitude) || null;
+      const dev  = deviceFromUA(ua);
 
       // Log row
       const ts = Math.floor(Date.now()/1000);
 try {
   await db.prepare(
-    `INSERT INTO clicks (ts, slug, url, ref, ua, ip_hash, country, region, city, asn, colo)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+    `INSERT INTO clicks (ts, slug, url, ref, ua, ip_hash, country, region, city, asn, colo, lat, lon, dev)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
   ).bind(
     ts, slug, String(dest), ref || '', ua, ip_hash,
-    country || '', region || '', city || '', asn, colo || ''
+    country || '', region || '', city || '', asn, colo || '',
+    lat, lon, dev
   ).run();
 } catch (e) {
   // logging must never block the user
 }
-return redirect(dest);
+return isMailto ? mailtoInterstitial(dest, slug, SITE_BASE) : redirect(dest);
 
+    }
+
+    // ---- Analytics dashboard: GET /api/analytics/dashboard?slug=&range=30d
+    //   slug can be comma-separated for multi-slug (caseId) queries
+    if (method === "GET" && path === "/api/analytics/dashboard") {
+      const slugRaw = (url.searchParams.get("slug") || "").trim();
+      const slugList = slugRaw ? slugRaw.split(",").map(s => s.trim()).filter(Boolean) : [];
+      const { sinceTs, label } = parseRange(url.searchParams.get("range"));
+      let slugWhere = "";
+      let slugBinds = [];
+      if (slugList.length === 1) {
+        slugWhere = " AND slug=?";
+        slugBinds = [slugList[0]];
+      } else if (slugList.length > 1) {
+        slugWhere = ` AND slug IN (${slugList.map(() => "?").join(",")})`;
+        slugBinds = slugList;
+      }
+
+      const totalRow = await db.prepare(
+        `SELECT COUNT(*) AS c FROM clicks WHERE ts>=?${slugWhere}`
+      ).bind(sinceTs, ...slugBinds).first();
+
+      const countriesRow = await db.prepare(
+        `SELECT COUNT(DISTINCT country) AS c FROM clicks WHERE ts>=? AND country != ''${slugWhere}`
+      ).bind(sinceTs, ...slugBinds).first();
+
+      const citiesRow = await db.prepare(
+        `SELECT COUNT(DISTINCT city || '|' || country) AS c FROM clicks WHERE ts>=? AND city != ''${slugWhere}`
+      ).bind(sinceTs, ...slugBinds).first();
+
+      const devRows = await db.prepare(
+        `SELECT COALESCE(dev,'desktop') AS dev, COUNT(*) AS c FROM clicks WHERE ts>=?${slugWhere} GROUP BY dev ORDER BY c DESC`
+      ).bind(sinceTs, ...slugBinds).all();
+      const devices = {};
+      for (const r of (devRows?.results || [])) devices[r.dev || 'desktop'] = r.c;
+
+      const geo = await db.prepare(
+        `SELECT ROUND(lat,1) AS lat, ROUND(lon,1) AS lon, city, country, COUNT(*) AS c
+         FROM clicks WHERE ts>=? AND lat IS NOT NULL AND lon IS NOT NULL${slugWhere}
+         GROUP BY ROUND(lat,1), ROUND(lon,1), city, country ORDER BY c DESC LIMIT 500`
+      ).bind(sinceTs, ...slugBinds).all();
+
+      const byCountry = await db.prepare(
+        `SELECT country, COUNT(*) AS c FROM clicks WHERE ts>=?${slugWhere} GROUP BY country ORDER BY c DESC LIMIT 100`
+      ).bind(sinceTs, ...slugBinds).all();
+
+      const byCity = await db.prepare(
+        `SELECT country, city, COUNT(*) AS c FROM clicks WHERE ts>=?${slugWhere} GROUP BY country, city ORDER BY c DESC LIMIT 200`
+      ).bind(sinceTs, ...slugBinds).all();
+
+      const daily = await db.prepare(
+        `SELECT strftime('%Y-%m-%d', ts, 'unixepoch') AS day, COUNT(*) AS c
+         FROM clicks WHERE ts>=?${slugWhere} GROUP BY day ORDER BY day ASC`
+      ).bind(sinceTs, ...slugBinds).all();
+
+      const referrers = await db.prepare(
+        `SELECT ref, COUNT(*) AS c FROM clicks WHERE ts>=? AND ref != ''${slugWhere} GROUP BY ref ORDER BY c DESC LIMIT 20`
+      ).bind(sinceTs, ...slugBinds).all();
+
+      const slugs = await db.prepare(
+        `SELECT slug, COUNT(*) AS c FROM clicks WHERE ts>=? GROUP BY slug ORDER BY c DESC`
+      ).bind(sinceTs).all();
+
+      // Merge KV-registered slugs so every published CTA appears in the filter
+      const clickSlugMap = {};
+      for (const r of (slugs?.results || [])) clickSlugMap[r.slug] = r.c;
+
+      if (env.CTA_MAP) {
+        try {
+          let cursor;
+          do {
+            const page = await env.CTA_MAP.list({ prefix: "slug:", cursor });
+            cursor = page.cursor;
+            for (const { name } of page.keys) {
+              const s = name.replace(/^slug:/, "");
+              if (!(s in clickSlugMap)) clickSlugMap[s] = 0;
+            }
+          } while (cursor);
+        } catch { /* KV read failure shouldn't block the response */ }
+      }
+
+      const mergedSlugs = Object.entries(clickSlugMap)
+        .map(([slug, count]) => ({ slug, count }))
+        .sort((a, b) => b.count - a.count || a.slug.localeCompare(b.slug));
+
+      return json({
+        range: label,
+        slug: slugRaw || null,
+        summary: {
+          totalClicks: totalRow?.c || 0,
+          uniqueCountries: countriesRow?.c || 0,
+          uniqueCities: citiesRow?.c || 0,
+          devices
+        },
+        geo: (geo?.results || []).map(r => ({ lat: r.lat, lon: r.lon, city: r.city, country: r.country, count: r.c })),
+        byCountry: (byCountry?.results || []).map(r => ({ country: r.country, count: r.c })),
+        byCity: (byCity?.results || []).map(r => ({ country: r.country, city: r.city, count: r.c })),
+        dailySeries: (daily?.results || []).map(r => ({ day: r.day, count: r.c })),
+        topReferrers: (referrers?.results || []).map(r => ({ ref: r.ref, count: r.c })),
+        allSlugs: mergedSlugs
+      }, 200, env, request);
     }
 
     // ---- Per-CTA stats: GET /stats/:slug?range=30d
@@ -414,24 +607,27 @@ async function ensureSchema(db) {
     `CREATE INDEX IF NOT EXISTS idx_clicks_slug ON clicks(slug)`
   ];
 
-  // Best-effort patch for existing DBs; ignore if columns already exist
-const __addCols = [
-  "ALTER TABLE clicks ADD COLUMN ref TEXT DEFAULT ''",
-  "ALTER TABLE clicks ADD COLUMN country TEXT DEFAULT ''",
-  "ALTER TABLE clicks ADD COLUMN region TEXT DEFAULT ''",
-  "ALTER TABLE clicks ADD COLUMN asn INTEGER",
-  "ALTER TABLE clicks ADD COLUMN colo TEXT DEFAULT ''"
-];
-for (const sql of __addCols) {
-  try { await db.prepare(sql).run(); } catch {}
-}
-
-
-  // Run sequentially; don't use db.batch and don't pass multi-statement strings
+  // Create tables first
   for (const sql of statements) {
     const trimmed = sql.trim();
     if (!trimmed) continue;
     await db.prepare(trimmed).run();
+  }
+
+  // Best-effort patch for existing DBs created before these columns; ignore if already present
+  const __addCols = [
+    "ALTER TABLE clicks ADD COLUMN url TEXT DEFAULT ''",
+    "ALTER TABLE clicks ADD COLUMN ref TEXT DEFAULT ''",
+    "ALTER TABLE clicks ADD COLUMN country TEXT DEFAULT ''",
+    "ALTER TABLE clicks ADD COLUMN region TEXT DEFAULT ''",
+    "ALTER TABLE clicks ADD COLUMN asn INTEGER",
+    "ALTER TABLE clicks ADD COLUMN colo TEXT DEFAULT ''",
+    "ALTER TABLE clicks ADD COLUMN lat REAL",
+    "ALTER TABLE clicks ADD COLUMN lon REAL",
+    "ALTER TABLE clicks ADD COLUMN dev TEXT DEFAULT ''"
+  ];
+  for (const sql of __addCols) {
+    try { await db.prepare(sql).run(); } catch {}
   }
 
   __schemaReady = true;
@@ -467,6 +663,71 @@ function parseRange(r) {
 
 function redirect(url) {
   return new Response(null, { status: 302, headers: { Location: url } });
+}
+
+function mailtoInterstitial(dest, slug, siteBase) {
+  const home = String(siteBase || "https://hallieforanimals.org").replace(/\/+$/, "");
+  const b64 = btoa(unescape(encodeURIComponent(dest)));
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HallieForAnimals &ndash; Take action</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Baloo 2',system-ui,sans-serif;background:#0b0b17;color:#E5E6EA;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem}
+.brand{display:flex;align-items:center;gap:0.6rem;margin-bottom:2rem;text-decoration:none;color:#E5E6EA}
+.brand img{height:2.5rem}
+.brand span{font-size:1.4rem;font-weight:700;letter-spacing:0.02em}
+.card{background:#201f3a;border:1px solid #3c3960;border-radius:16px;padding:2rem 2.5rem;max-width:480px;width:100%;text-align:center}
+h1{font-size:1.4rem;font-weight:800;margin-bottom:0.75rem}
+.lede{color:#B6B8C8;font-size:0.95rem;line-height:1.5;margin-bottom:1.5rem}
+.lede strong{color:#E5E6EA}
+.actions{display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap}
+.btn-primary{background:#0071D1;color:#fff;font-family:inherit;font-size:0.95rem;font-weight:700;padding:0.65rem 1.6rem;border:none;border-radius:8px;cursor:pointer;text-decoration:none;transition:opacity 0.2s;text-transform:uppercase;letter-spacing:0.04em}
+.btn-primary:hover{opacity:0.85}
+.btn-outline{background:transparent;color:#0071D1;font-family:inherit;font-size:0.95rem;font-weight:700;padding:0.65rem 1.6rem;border:2px solid #0071D1;border-radius:8px;cursor:pointer;text-decoration:none;transition:opacity 0.2s}
+.btn-outline:hover{opacity:0.85}
+.footer{margin-top:2rem;font-size:0.75rem;color:#B6B8C8}
+.footer a{color:#0071D1;text-decoration:none}
+.footer a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<a href="${home}" class="brand">
+  <img src="${home}/assets/img/logo.png" alt="">
+  <span>HallieForAnimals</span>
+</a>
+<div class="card">
+  <h1>Opening your email app&hellip;</h1>
+  <p class="lede">We&rsquo;ll try to open your mail app with the message ready. If nothing happens, tap <strong>Open email</strong>. When you&rsquo;re done, use <strong>Continue to site</strong> (or we&rsquo;ll send you back after you return to this tab).</p>
+  <div class="actions">
+    <a id="go" class="btn-primary" href="#">Open email</a>
+    <a class="btn-outline" href="${home}">Continue to site</a>
+  </div>
+</div>
+<p class="footer">Powered by <a href="${home}">HallieForAnimals</a></p>
+<script>
+(function(){
+var d=atob("${b64}");
+var a=document.getElementById("go");
+a.href=d;
+setTimeout(function(){window.location.href=d},600);
+var h=document.visibilityState;
+document.addEventListener("visibilitychange",function(){
+  if(document.visibilityState==="visible"&&h==="hidden"){window.location.href="${home}";}
+  h=document.visibilityState;
+});
+})();
+</script>
+</body>
+</html>`;
+  return new Response(html, {
+    status: 200,
+    headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" }
+  });
 }
 
 // somewhere near top-level helpers

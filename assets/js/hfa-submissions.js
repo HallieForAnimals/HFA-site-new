@@ -136,6 +136,30 @@
     return h + mc;
   }
 
+  /** Map Worker JSON (400/500) to a single user-visible string. */
+  function formatSubmissionFailure(res, out) {
+    var code = res && res.status;
+    if (!out || typeof out !== 'object') {
+      return 'Send failed' + (code ? ' (HTTP ' + code + ')' : '') + '. Please try again.';
+    }
+    var err = out.error ? String(out.error) : 'request_failed';
+    var parts = ['Send failed: ' + err];
+    if (out.hint) parts.push(String(out.hint));
+    parts.push(parseErrHint(out).trim());
+    if (err === 'Captcha verification failed' || err === 'Captcha missing') {
+      parts.push(
+        'Confirm Turnstile loads, wait for the checkmark, and try again. If you use a preview/staging URL, add that hostname to the Turnstile widget in Cloudflare (Domains).'
+      );
+    }
+    if (err === 'Bad request body') {
+      parts.push('Try again or use another browser; if it persists, the upload may be too large or corrupted.');
+    }
+    if (err === 'photo_required') {
+      parts.push('In memoriam needs exactly one image (JPEG, PNG, HEIC, etc.).');
+    }
+    return parts.filter(Boolean).join(' ');
+  }
+
   function populateYearSelects(form) {
     var fromSel = form.querySelector('#mem-year-from');
     var toSel = form.querySelector('#mem-year-to');
@@ -473,18 +497,25 @@
       if (photoErr) photoErr.textContent = '';
       var ok = true;
       var yearMsg = null;
+      var hints = [];
       ['petName', 'description'].forEach(function (name) {
         var input = panel.querySelector('[name="' + name + '"]');
         var wrap = input && input.closest('label');
         if (!input || !String(input.value || '').trim()) {
           wrap && wrap.classList.add('is-error');
           ok = false;
+          hints.push(
+            name === 'petName'
+              ? "your companion's name (under About your companion)"
+              : 'short tribute (the required text box above Photo)'
+          );
         }
       });
       var em = panel.querySelector('[name="reporterEmail"]');
       if (em && em.value.trim() && !emailOk(em.value)) {
         em.closest('label') && em.closest('label').classList.add('is-error');
         ok = false;
+        hints.push('a valid email, or leave Your email blank');
       }
       var inp = panel.querySelector('input[name="photos"]');
       if (!inp || !inp.files || inp.files.length !== 1) {
@@ -495,6 +526,7 @@
         }
         inp && inp.closest('label') && inp.closest('label').classList.add('is-error');
         ok = false;
+        hints.push(!inp || !inp.files || !inp.files.length ? 'one photo upload' : 'only one photo');
       } else {
         var f0 = inp.files[0];
         if (f0.size > 35 * 1024 * 1024 || !memoriamImageFileOk(f0)) {
@@ -503,10 +535,14 @@
               'Use a common image file (JPEG, PNG, HEIC, WebP, etc.), max 35 MB.';
           }
           ok = false;
+          hints.push('a supported image under 35 MB (not SVG)');
         }
         if (!ok) inp.closest('label') && inp.closest('label').classList.add('is-error');
       }
-      if (!validateConsents(panel, ['consentRights', 'consentPrivacy'])) ok = false;
+      if (!validateConsents(panel, ['consentRights', 'consentPrivacy'])) {
+        ok = false;
+        hints.push('both consent checkboxes');
+      }
 
       var yFrom = (panel.querySelector('[name="yearFrom"]') || {}).value || '';
       var yTo = (panel.querySelector('[name="yearTo"]') || {}).value || '';
@@ -520,7 +556,13 @@
         yearMsg = '“From” year cannot be after “To” year.';
         ok = false;
       }
-      return { ok: ok, yearMsg: yearMsg };
+      var clientHint =
+        !ok && hints.length
+          ? 'Please fix: ' + hints.join('; ') + '.'
+          : !ok
+            ? "Something's missing or invalid. Please check the highlighted fields."
+            : '';
+      return { ok: ok, yearMsg: yearMsg, clientHint: clientHint };
     }
 
     form.addEventListener('submit', async function (e) {
@@ -577,6 +619,10 @@
         ok = memV.ok;
         if (memV.yearMsg) {
           setBad(statusOK, statusBad, memV.yearMsg);
+          return;
+        }
+        if (!ok) {
+          setBad(statusOK, statusBad, memV.clientHint);
           return;
         }
       } else if (kind === 'scam') {
@@ -755,6 +801,9 @@
           fdM.set('consentPrivacy', String(chk(panel, 'consentPrivacy')));
           fdM.set('website', '');
           fdM.set('cf-turnstile-response', token);
+          fdM.set('turnstileToken', token);
+          fdM.set('token', token);
+          fdM.set('response', token);
           var photosIn = panel.querySelector('input[name="photos"]');
           if (photosIn && photosIn.files) {
             for (var j = 0; j < photosIn.files.length; j++) {
@@ -782,12 +831,10 @@
           ts.reset();
           setOK(statusOK, statusBad, successMsg[kind] || 'Thanks — received.', false);
         } else {
-          var hint = parseErrHint(out);
-          setBad(
-            statusOK,
-            statusBad,
-            out && out.error ? 'Send failed: ' + out.error + hint : 'Send failed. Please try again.'
-          );
+          if (typeof console !== 'undefined' && console.warn) {
+            console.warn('[hfa-submissions]', res.status, out);
+          }
+          setBad(statusOK, statusBad, formatSubmissionFailure(res, out));
         }
       } catch (err) {
         console.error(err);
