@@ -1,5 +1,12 @@
 [
   {
+    "kind": "page",
+    "target": "about.html",
+    "detail": "About page",
+    "user": "Joseph Monroe",
+    "time": "2026-03-23T15:51:51.895Z"
+  },
+  {
     "kind": "data",
     "target": "footer.json",
     "detail": "Footer",
