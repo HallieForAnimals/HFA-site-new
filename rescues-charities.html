@@ -117,6 +117,16 @@
     if (/^assets\/img\//i.test(v)) return RAW_BASE + '/' + v;
     return v;
   }
+  function shuffle(list) {
+    var a = list.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i];
+      a[i] = a[j];
+      a[j] = t;
+    }
+    return a;
+  }
   function metaLine(item) {
     var p = [item.country, item.region].filter(Boolean).join(' · ');
     return p || '\u00a0';
@@ -136,12 +146,21 @@
       ? '<img class="rescue-card-logo" src="' + esc(logoSrc) + '" alt="">'
       : '';
     var btn = esc(item.urlButton || 'Visit site');
-    return '<article class="rescue-card">' + logo +
+    var headLogo = logo
+      ? '<div class="rescue-card-logo-wrap">' + logo + '</div>'
+      : '';
+    var socHtml = socials(item);
+    return '<article class="rescue-card">' +
+      '<div class="rescue-card-head">' + headLogo +
+      '<div class="rescue-card-head-text">' +
       '<h2 class="rescue-name">' + esc(item.title) + '</h2>' +
       '<p class="rescue-meta">' + esc(metaLine(item)) + '</p>' +
+      '</div></div>' +
       '<p class="rescue-desc">' + esc(item.description) + '</p>' +
-      socials(item) +
-      '<a href="' + esc(href) + '" class="btn secondary-btn"' + ext + '>' + btn + '</a></article>';
+      '<div class="rescue-card-actions">' +
+      (socHtml ? '<div class="rescue-card-socials">' + socHtml + '</div>' : '') +
+      '<a href="' + esc(href) + '" class="btn rescue-card-btn secondary-btn"' + ext + '>' + btn + '</a>' +
+      '</div></article>';
   }
   var root = document.getElementById('rescues-charities-dynamic-root');
   if (!root) return;
@@ -156,6 +175,9 @@
           if (Array.isArray(s.rescues)) all = all.concat(s.rescues);
           if (Array.isArray(s.charities)) all = all.concat(s.charities);
         });
+      }
+      if (all.length > 1) {
+        all = shuffle(all);
       }
       var html = all.length ? '<div class="rescues-grid">' + all.map(card).join('') + '</div>' : '';
       root.innerHTML = html || '<p class="intro-text">No rescues or charities listed yet.</p>';
