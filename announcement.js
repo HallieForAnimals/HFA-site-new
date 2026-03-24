@@ -63,9 +63,9 @@
       }
       function isUpdateRow(x) {
         if (!x) return false;
-        var type = String(x.ctaType || '').toLowerCase();
-        var role = String(x.role || '').toLowerCase();
-        var status = String(x.status || '').toLowerCase();
+        var type = String(x.ctaType || '').trim().toLowerCase();
+        var role = String(x.role || '').trim().toLowerCase();
+        var status = String(x.status || '').trim().toLowerCase();
         return type === 'update' || role === 'update' || status === 'updated';
       }
       function activityEpoch(item) {

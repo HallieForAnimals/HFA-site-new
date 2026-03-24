@@ -140,9 +140,9 @@
     return parseEpoch(item && (item.updateDate || item.updatedAt || item.createdAt));
   }
   function activityEpoch(item) {
-    var type = String(item && item.ctaType || '').toLowerCase();
-    var role = String(item && item.role || '').toLowerCase();
-    var status = String(item && item.status || '').toLowerCase();
+    var type = String(item && item.ctaType || '').trim().toLowerCase();
+    var role = String(item && item.role || '').trim().toLowerCase();
+    var status = String(item && item.status || '').trim().toLowerCase();
     var isUpdate = type === 'update' || role === 'update' || status === 'updated';
     return isUpdate ? updatedEpoch(item) : createdEpoch(item);
   }
