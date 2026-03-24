@@ -23,8 +23,10 @@
   <script src="assets/js/hfa-preview-settings.js"></script>
   <script src="assets/js/hfa-preview-settings.local.js"></script>
   <script src="assets/js/preview-gate.js"></script>
+  <script src="assets/js/hfa-site-config.js"></script>
 </head>
 <body>
+<div id="announcement-root"></div>
   <header>
     <nav>
       <a href="index.html" class="logo">HALLIE FOR ANIMALS</a>
@@ -99,6 +101,7 @@
   <p>Because those who need us most can&rsquo;t ask.</p>
   <p class="footer-credit">Proudly Built By TheRealJosephMonroe</p>
 </footer>
+  <script src="announcement.js"></script>
   <script>
   (function(){var btn=document.querySelector('.burger-btn');var links=document.querySelector('.nav-links');if(btn&&links){btn.addEventListener('click',function(){var open=links.classList.toggle('nav-open');btn.setAttribute('aria-expanded',open?'true':'false');btn.setAttribute('aria-label',open?'Close menu':'Open menu');});links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('nav-open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');});});}})();
   </script>
