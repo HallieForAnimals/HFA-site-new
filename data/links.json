@@ -135,6 +135,73 @@
       "postToUpdates": true,
       "createdAt": "2026-03-24T04:35:08Z",
       "updatedAt": "2026-03-24T04:37:02Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "kristine-hicks",
+      "slug": "demand-full-sentencing-for-kristine-hicks-20260324",
+      "status": "recent",
+      "role": "original",
+      "title": "Demand Full Sentencing For Kristine Hicks",
+      "mailtoSubject": "Enforce the Full Extent of the Law – Kristine Michelle Hicks Must Face Maximum Penalties",
+      "summary": "",
+      "description": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO FEDERAL PROSECUTORS & TEXAS AUTHORITIES TITLED \"DEMAND FULL SENTENCING FOR KRISTINE HICKS\"❗️\n\nCall:\nU.S. Attorney’s Office, Eastern District of Texas: +1 409 839 2538\nHopkins County Sheriff Lewis Tatum: +1 903 438 4040\nDistrict Attorney Will Ramsay: +1 903 885 0641\n\nLocation: Cumby, Texas\n\nRemember Kristine Hicks?\nShe's now been federally indicted for:\n1 count of acting as an animal dealer without a license\n4 counts of wire fraud.\nAlongside state charges of:\n1 count of cruelty to a non-livestock animal.\n1 count of possession of marijuana.\n\nShe's facing up to twenty years in federal prison. Let's make sure she stays there.\n\n#Texas #Cumby #doglover",
+      "descriptionLong": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO FEDERAL PROSECUTORS & TEXAS AUTHORITIES TITLED \"DEMAND FULL SENTENCING FOR KRISTINE HICKS\"❗️\n\nCall:\nU.S. Attorney’s Office, Eastern District of Texas: +1 409 839 2538\nHopkins County Sheriff Lewis Tatum: +1 903 438 4040\nDistrict Attorney Will Ramsay: +1 903 885 0641\n\nLocation: Cumby, Texas\n\nRemember Kristine Hicks?\nShe's now been federally indicted for:\n1 count of acting as an animal dealer without a license\n4 counts of wire fraud.\nAlongside state charges of:\n1 count of cruelty to a non-livestock animal.\n1 count of possession of marijuana.\n\nShe's facing up to twenty years in federal prison. Let's make sure she stays there.\n\n#Texas #Cumby #doglover",
+      "mailtoBody": "To whom it may concern,\n\nThe recent federal indictment of Kristine Michelle Hicks for unlicensed animal dealing, wire fraud, and animal cruelty presents a critical opportunity for Texas to send an unequivocal message: \nAnimal abuse will not be tolerated, and those who commit such acts will face the full force of the law.\n\n- Animal abuse is a proven predictor of violent crime. Research shows that 70% of animal abusers have committed other criminal offenses, and nearly 40% have committed violent crimes against people.\n- The FBI tracks animal cruelty alongside felony crimes like arson, assault, and homicide, recognizing its role as a “predictor crime” for future violence.\n- In households where animal abuse occurs, there is an 88% overlap with child abuse and a 70%+ overlap with domestic violence.\n- Hicks’ actions—shooting a dog tied to a tree, operating an unlicensed breeding facility, and defrauding buyers—demonstrate a pattern of cruelty and deception that cannot go unpunished.\n\nWe Demand:\n\n1. Maximum penalties for Kristine Michelle Hicks under federal and state law, reflecting the severity of her crimes and serving as a deterrent to others.\n2. Public accountability to ensure transparency in the legal process and restore faith in our justice system.\n3. Strengthened enforcement of animal welfare laws to prevent future abuses and protect vulnerable animals and families.\n\nWe urge you to take immediate action to ensure Hicks is held fully accountable. The eyes of Texas, the nation, and the world are watching.\n\nVideo evidence: https://drive.google.com/file/d/1TE4gpazpqyzQj1uEie__eeMR_X3EQ8lw/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org\n\nP.S. For further reading on the link between animal abuse and violent crime, see the FBI’s Law Enforcement Bulletin: The Link Between Animal Cruelty and Human Violence: https://leb.fbi.gov/articles/featured-articles/the-link-between-animal-cruelty-and-human-violence",
+      "recipients": [
+        "USATXE.Public-Affairs@usdoj.gov",
+        "jay.combs@usdoj.gov",
+        "paul.morris@usdoj.gov"
+      ],
+      "phones": [],
+      "callScript": "I’m calling about the federal case against Kristine Michelle Hicks.\nI respectfully ask that the office pursue the maximum penalties allowed under federal law.\nThis is a case of protecting citizens, as animal abusers are significantly more likely to commit child abuse, sexual assault, domestic violence, and even murder.\nThank you for your time.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1TE4gpazpqyzQj1uEie__eeMR_X3EQ8lw/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/demand-full-sentencing-for-kristine-hicks-20260324",
+      "caption": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO FEDERAL PROSECUTORS & TEXAS AUTHORITIES TITLED \"DEMAND FULL SENTENCING FOR KRISTINE HICKS\"❗️\n\nCall:\nU.S. Attorney’s Office, Eastern District of Texas: +1 409 839 2538\nHopkins County Sheriff Lewis Tatum: +1 903 438 4040\nDistrict Attorney Will Ramsay: +1 903 885 0641\n\nLocation: Cumby, Texas\n\nRemember Kristine Hicks?\nShe's now been federally indicted for:\n1 count of acting as an animal dealer without a license\n4 counts of wire fraud.\nAlongside state charges of:\n1 count of cruelty to a non-livestock animal.\n1 count of possession of marijuana.\n\nShe's facing up to twenty years in federal prison. Let's make sure she stays there.\n\n#Texas #Cumby #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Federal Prosecutors & Texas Authorities",
+        "state": "Texas",
+        "city": "Cumby",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "U.S. Attorney’s Office, Eastern District of Texas",
+            "code": "+1",
+            "number": "409 839 2538",
+            "ext": ""
+          },
+          {
+            "who": "Hopkins County Sheriff Lewis Tatum",
+            "code": "+1",
+            "number": "903 438 4040",
+            "ext": ""
+          },
+          {
+            "who": "District Attorney Will Ramsay",
+            "code": "+1",
+            "number": "903 885 0641",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "actionUrl": "",
+      "hidden": true,
+      "postToUpdates": true,
+      "createdAt": "2026-03-24T15:00:29Z",
+      "updatedAt": "2026-03-24T15:00:29Z",
+      "recipientsCc": [
+        "lewis@hopkinscountytx.org",
+        "wramsay@hopkinscountytx.org"
+      ]
     }
   ]
 }
