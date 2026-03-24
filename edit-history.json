@@ -1,6 +1,13 @@
 [
   {
     "kind": "page",
+    "target": "donate.html",
+    "detail": "Donate page",
+    "user": "Joseph Monroe",
+    "time": "2026-03-24T13:47:13.265Z"
+  },
+  {
+    "kind": "page",
     "target": "resources.html",
     "detail": "Resources page",
     "user": "Joseph Monroe",
