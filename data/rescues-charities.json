@@ -16,6 +16,19 @@
       "facebook": "https://www.facebook.com/wagcreek",
       "email": "hello@wagcreek.org",
       "logo": "assets/img/638166144_122108400513238484_6996913899935616946-1774310854248.jpg"
+    },
+    {
+      "id": "",
+      "title": "Freedom Dog Co",
+      "description": "Freedom Dog Co. is a California-based, foster-driven 501(c)(3) nonprofit organization dedicated to rescuing and rehoming dogs in need. By operating through a network of loving foster homes, they provide temporary care, rehabilitation, and socialization for dogs until they find their forever families. Thier mission is to promote compassion, reduce pet overpopulation, and ensure every dog has the opportunity to live a happy, healthy life.",
+      "country": "United States",
+      "region": "California",
+      "url": "",
+      "urlButton": "",
+      "instagram": "https://www.instagram.com/freedomdogco/",
+      "facebook": "",
+      "email": "",
+      "logo": "assets/img/fdclogo-1774372864898.png"
     }
   ]
 }
