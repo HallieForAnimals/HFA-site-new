@@ -122,6 +122,10 @@
       function trimCaseId(id) {
         return String(id == null ? '' : id).trim();
       }
+      function parseEpoch(raw) {
+        var n = Date.parse(String(raw || '').trim());
+        return Number.isFinite(n) && n > 0 ? n : 0;
+      }
       // Flat `links[]` (Hallie) plus legacy `sections[].links` — same pattern as announcement.js / link list.
       var raw = [];
       if (Array.isArray(json.links)) raw = raw.concat(json.links);
@@ -165,12 +169,14 @@
         byCase[cid].push(up);
       });
       var cases = Object.keys(byCase).map(function(caseId) {
-        var updatesForCase = byCase[caseId].slice().sort(function(a, b) { return (b.updatedAt || '').localeCompare(a.updatedAt || ''); });
+        var updatesForCase = byCase[caseId].slice().sort(function(a, b) {
+          return parseEpoch(b.updateDate || b.updatedAt || b.createdAt) - parseEpoch(a.updateDate || a.updatedAt || a.createdAt);
+        });
         var original = originals.filter(function(o) { return trimCaseId(o.caseId) === caseId; })[0] || {};
         var latest = updatesForCase[0] || {};
         var rawSt = lc(latest.updateStatus || '');
         var filterBucket = rawSt === 'resolved' ? 'resolved' : 'ongoing';
-        var latestAt = latest.updatedAt || latest.updateDate || '';
+        var latestAt = parseEpoch(latest.updateDate || latest.updatedAt || latest.createdAt);
         return {
           caseId: caseId,
           original: original,
@@ -179,7 +185,7 @@
           filterBucket: filterBucket,
           latestAt: latestAt
         };
-      }).sort(function(a, b) { return (b.latestAt || '').localeCompare(a.latestAt || ''); });
+      }).sort(function(a, b) { return (b.latestAt || 0) - (a.latestAt || 0); });
       function esc(s) { return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
       function linkifyInstagramMentions(escapedText) {

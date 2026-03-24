@@ -51,13 +51,37 @@
       function isHiddenCta(item) {
         return !!(item && (item.hidden === true || item.archived === true));
       }
+      function parseEpoch(raw) {
+        var n = Date.parse(String(raw || '').trim());
+        return Number.isFinite(n) && n > 0 ? n : 0;
+      }
+      function createdEpoch(item) {
+        return parseEpoch(item && item.createdAt) || parseEpoch(item && item.updatedAt);
+      }
+      function updatedEpoch(item) {
+        return parseEpoch(item && (item.updateDate || item.updatedAt || item.createdAt));
+      }
+      function isUpdateRow(x) {
+        if (!x) return false;
+        var type = String(x.ctaType || '').toLowerCase();
+        var role = String(x.role || '').toLowerCase();
+        var status = String(x.status || '').toLowerCase();
+        return type === 'update' || role === 'update' || status === 'updated';
+      }
+      function activityEpoch(item) {
+        return isUpdateRow(item) ? updatedEpoch(item) : createdEpoch(item);
+      }
 
-      var sorted = links.slice().sort(function(a, b) {
-        var aAt = a.updatedAt || a.createdAt || '';
-        var bAt = b.updatedAt || b.createdAt || '';
-        return bAt.localeCompare(aAt);
-      });
-      var latest = sorted.filter(function(x) { return !isHiddenCta(x); })[0];
+      function epoch(x) {
+        var c = Date.parse(String((x && x.createdAt) || '').trim());
+        if (Number.isFinite(c) && c > 0) return c;
+        var u = Date.parse(String((x && x.updatedAt) || '').trim());
+        if (Number.isFinite(u) && u > 0) return u;
+        return 0;
+      }
+      // Banner = most recent post OR update.
+      var pool = links.filter(function(x) { return !isHiddenCta(x); });
+      var latest = pool.slice().sort(function(a, b) { return activityEpoch(b) - activityEpoch(a); })[0];
       var title = (latest.title || latest.slug || 'Latest CTA').trim();
       if (!title) return;
 
