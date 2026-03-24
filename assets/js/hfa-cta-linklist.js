@@ -6,6 +6,16 @@
 (function (global) {
   'use strict';
 
+  function parseEpoch(raw) {
+    var n = Date.parse(String(raw || '').trim());
+    return Number.isFinite(n) && n > 0 ? n : 0;
+  }
+
+  function ctaCreatedEpoch(x) {
+    if (!x || typeof x !== 'object') return 0;
+    return parseEpoch(x.createdAt) || parseEpoch(x.updatedAt);
+  }
+
   function isHiddenCta(item) {
     return !!(item && (item.hidden === true || item.archived === true));
   }
@@ -69,7 +79,12 @@
     }
     if (Array.isArray(json.links)) push(json.links);
     push(sectionLinksNamed(json, sectionNeedle));
-    return out.filter(function (x) { return !isHiddenCta(x); });
+    return out
+      .filter(function (x) { return !isHiddenCta(x); })
+      .sort(function (a, b) {
+        // "recent"/"ongoing" lists are by most recently made CTA.
+        return ctaCreatedEpoch(b) - ctaCreatedEpoch(a);
+      });
   }
 
   function hfaCollectRecentCtas(json) {
