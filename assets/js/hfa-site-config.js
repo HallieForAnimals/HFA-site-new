@@ -85,10 +85,56 @@
     return 'https://raw.githubusercontent.com/HallieForAnimals/HFA-site-new/main';
   };
   document.addEventListener('DOMContentLoaded', function () {
+    var trackerOrigin = trimSlash(s.ctaTrackerOrigin) || 'https://go.hallieforanimals.org';
+    function getSessionId() {
+      try {
+        var k = 'hfa_session_id';
+        var v = localStorage.getItem(k);
+        if (v) return v;
+        v = 'sess_' + Date.now() + '_' + Math.random().toString(36).slice(2, 10);
+        localStorage.setItem(k, v);
+        return v;
+      } catch (_) {
+        return 'sess_' + Date.now() + '_' + Math.random().toString(36).slice(2, 10);
+      }
+    }
+    var sessionId = getSessionId();
+    function emit(path, payload) {
+      try {
+        var data = JSON.stringify(payload || {});
+        if (navigator.sendBeacon) {
+          navigator.sendBeacon(trackerOrigin + path, data);
+        } else {
+          fetch(trackerOrigin + path, { method: 'POST', body: data, keepalive: true }).catch(function () {});
+        }
+      } catch (_) {}
+    }
+    function emitAdEvent(eventType, adMeta, extra) {
+      var meta = adMeta || {};
+      emit('/api/ad-event', Object.assign({
+        eventType: eventType,
+        sessionId: sessionId,
+        pagePath: location.pathname,
+        adSlot: meta.slot || '',
+        adId: meta.id || '',
+        campaignId: meta.campaignId || '',
+        url: meta.url || ''
+      }, extra || {}));
+    }
+    function emitEngagement(eventType, valueNum) {
+      emit('/api/engagement', {
+        eventType: eventType,
+        sessionId: sessionId,
+        pagePath: location.pathname,
+        valueNum: valueNum
+      });
+    }
+
+    emitEngagement('session_start', 1);
+
     var el = document.getElementById('email-counter-number');
     if (el) {
-      var origin = trimSlash(s.ctaTrackerOrigin) || 'https://go.hallieforanimals.org';
-      fetch(origin + '/api/email-sends-total')
+      fetch(trackerOrigin + '/api/email-sends-total')
         .then(function (r) { return r.ok ? r.json() : null; })
         .then(function (d) {
           if (d && d.total != null) el.textContent = Number(d.total).toLocaleString();
@@ -151,12 +197,41 @@
             function buildAdHtml(ad) {
               var lbl = esc(ad.label || data.label || 'Sponsored');
               var img = resolveImg(ad.image);
+              var adId = String(ad.id || ad.sponsor || ad.image || Math.random().toString(36).slice(2, 8)).replace(/\s+/g, '-').toLowerCase();
+              var slot = ad.position === 'sidebar' ? 'sidebar' : 'banner';
               var h = '<p class="hfa-ad-label">' + lbl + '</p>';
-              h += '<a href="' + safeUrl(ad.url) + '" target="_blank" rel="sponsored noopener" class="hfa-ad-link">';
+              h += '<a href="' + safeUrl(ad.url) + '" target="_blank" rel="sponsored noopener" class="hfa-ad-link" data-ad-id="' + esc(adId) + '" data-ad-slot="' + esc(slot) + '" data-ad-url="' + esc(safeUrl(ad.url)) + '">';
               if (img) h += '<img src="' + esc(img) + '" alt="' + esc(ad.alt || ad.sponsor || '') + '" class="hfa-ad-img">';
               if (ad.sponsor) h += '<span class="hfa-ad-sponsor">' + esc(ad.sponsor) + '</span>';
               h += '</a>';
               return h;
+            }
+            function wireAdEvents(container, slotName) {
+              if (!container) return;
+              var link = container.querySelector('.hfa-ad-link');
+              if (!link) return;
+              var adMeta = {
+                slot: slotName || link.getAttribute('data-ad-slot') || 'banner',
+                id: link.getAttribute('data-ad-id') || '',
+                campaignId: '',
+                url: link.getAttribute('data-ad-url') || ''
+              };
+              emitAdEvent('impression', adMeta);
+              var observer;
+              try {
+                observer = new IntersectionObserver(function (entries) {
+                  entries.forEach(function (entry) {
+                    if (entry && entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+                      emitAdEvent('viewable', adMeta);
+                      if (observer) observer.disconnect();
+                    }
+                  });
+                }, { threshold: [0.5] });
+                observer.observe(container);
+              } catch (_) {}
+              link.addEventListener('click', function () {
+                emitAdEvent('click', adMeta);
+              });
             }
 
             var sidebars = eligible.filter(function (a) { return a.position === 'sidebar'; });
@@ -172,11 +247,13 @@
               left.setAttribute('aria-label', (leftAd.label || data.label || 'Sponsored'));
               left.innerHTML = buildAdHtml(leftAd);
               document.body.appendChild(left);
+              wireAdEvents(left, 'sidebar-left');
               var right = document.createElement('aside');
               right.className = 'hfa-ad-rail hfa-ad-rail--right';
               right.setAttribute('aria-label', (rightAd.label || data.label || 'Sponsored'));
               right.innerHTML = buildAdHtml(rightAd);
               document.body.appendChild(right);
+              wireAdEvents(right, 'sidebar-right');
             }
 
             if (banners.length) {
@@ -191,6 +268,7 @@
               } else {
                 document.body.appendChild(container);
               }
+              wireAdEvents(container, 'banner');
             }
           })
           .catch(function () {});
@@ -215,5 +293,30 @@
         }
       } catch (e) { /* ignore */ }
     }
+
+    (function trackEngagement() {
+      var sentDepth = {};
+      function markDepth(depth) {
+        if (sentDepth[depth]) return;
+        sentDepth[depth] = true;
+        emitEngagement('scroll_depth', depth);
+      }
+      function onScroll() {
+        var doc = document.documentElement;
+        var top = (window.pageYOffset || doc.scrollTop || 0);
+        var h = Math.max(1, (doc.scrollHeight || 1) - (window.innerHeight || 0));
+        var pct = Math.round((top / h) * 100);
+        if (pct >= 25) markDepth(25);
+        if (pct >= 50) markDepth(50);
+        if (pct >= 75) markDepth(75);
+        if (pct >= 100) markDepth(100);
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+      setInterval(function () {
+        if (document.visibilityState !== 'visible') return;
+        emitEngagement('engaged_time', 15);
+      }, 15000);
+    })();
   });
 })();
