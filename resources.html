@@ -173,7 +173,6 @@
       '<div class="resource-pdf-modal-backdrop" data-close="1"></div>' +
       '<div class="resource-pdf-modal-panel" role="dialog" aria-modal="true" aria-label="PDF viewer">' +
       '<div class="resource-pdf-modal-actions">' +
-      '<a id="resource-pdf-open-tab" class="btn secondary-btn" href="#" target="_blank" rel="noopener noreferrer">Open PDF in new tab</a>' +
       '<button type="button" id="resource-pdf-close" class="btn secondary-btn">Close</button>' +
       '</div>' +
       '<img id="resource-pdf-image" class="resource-pdf-image" alt="Expanded resource preview">' +
@@ -183,8 +182,7 @@
     var modal = document.getElementById('resource-pdf-modal');
     var image = document.getElementById('resource-pdf-image');
     var closeBtn = document.getElementById('resource-pdf-close');
-    var openTabBtn = document.getElementById('resource-pdf-open-tab');
-    if (!modal || !image || !closeBtn || !openTabBtn) return;
+    if (!modal || !image || !closeBtn) return;
     function openAt(index) {
       var item = all[index];
       if (!item) return;
@@ -192,7 +190,6 @@
       var previewSrc = resolvePreviewSrc(item.previewImage);
       if (!previewSrc) return;
       image.src = previewSrc;
-      openTabBtn.href = href && href !== '#' ? href : '#';
       modal.hidden = false;
       document.body.classList.add('resource-modal-open');
     }
