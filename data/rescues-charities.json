@@ -3,14 +3,19 @@
     "title": "Rescues & Charities",
     "version": 1
   },
-  "sections": [
+  "entries": [
     {
-      "name": "Verified Rescues",
-      "rescues": []
-    },
-    {
-      "name": "Charities",
-      "charities": []
+      "id": "",
+      "title": "Wag Creek",
+      "description": "Wag Creek is creating a unique adoption experience on 180 acres of peaceful, natural land where potential adopters can spend meaningful time with rescue dogs in a calm, beautiful setting, helping people and dogs truly connect. The sanctuary offers cozy canine bonding cabins, scenic trails, and even spaces for mindfulness and enrichment. With a focus on health, well-being, and organic farm-grown food, Wag Creek ensures every dog is supported on their journey to a forever home. This is an adoption experience like no other, it’s about building trust, understanding, and a lasting bond. ",
+      "country": "United States",
+      "region": "New York",
+      "url": "https://www.wagcreek.org",
+      "urlButton": "Visit site",
+      "instagram": "https://www.instagram.com/wagcreek/",
+      "facebook": "https://www.facebook.com/wagcreek",
+      "email": "hello@wagcreek.org",
+      "logo": "assets/img/638166144_122108400513238484_6996913899935616946-1774310854248.jpg"
     }
   ]
 }
