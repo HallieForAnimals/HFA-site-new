@@ -22,15 +22,18 @@
 
   function isRecentOriginalCta(x) {
     if (!x) return false;
-    if (String(x.ctaType || '').toLowerCase() === 'update') return false;
-    if (String(x.role || '').toLowerCase() === 'update') return false;
-    if (String(x.status || '').toLowerCase() === 'updated') return false;
+    var ctaType = String(x.ctaType || '').trim().toLowerCase();
+    var roleNorm = String(x.role || '').trim().toLowerCase();
+    var statusNorm = String(x.status || '').trim().toLowerCase();
+    if (ctaType === 'update') return false;
+    if (roleNorm === 'update') return false;
+    if (statusNorm === 'updated') return false;
     var stRaw = x.status;
     var st = String(stRaw == null || String(stRaw).trim() === '' ? 'recent' : stRaw).toLowerCase();
     if (st !== 'recent') return false;
     var role = x.role;
     if (role == null || role === '' || String(role).trim() === '') return true;
-    return String(role).toLowerCase() === 'original';
+    return String(role).trim().toLowerCase() === 'original';
   }
 
   function normalizedListStatus(x) {
@@ -40,8 +43,8 @@
 
   function isOngoingCta(x) {
     if (!x) return false;
-    if (String(x.ctaType || '').toLowerCase() === 'update') return false;
-    if (String(x.role || '').toLowerCase() === 'update') return false;
+    if (String(x.ctaType || '').trim().toLowerCase() === 'update') return false;
+    if (String(x.role || '').trim().toLowerCase() === 'update') return false;
     return normalizedListStatus(x) === 'ongoing';
   }
 
@@ -69,6 +72,9 @@
       if (!Array.isArray(list)) return;
       list.forEach(function (item) {
         if (!item || !predicate(item)) return;
+        // Important: skip hidden/archived rows before slug de-dupe.
+        // Otherwise a hidden duplicate can claim the slug and hide the visible CTA.
+        if (isHiddenCta(item)) return;
         var sl = String(item.slug || '').trim().toLowerCase();
         if (sl) {
           if (seen[sl]) return;
@@ -80,7 +86,6 @@
     if (Array.isArray(json.links)) push(json.links);
     push(sectionLinksNamed(json, sectionNeedle));
     return out
-      .filter(function (x) { return !isHiddenCta(x); })
       .sort(function (a, b) {
         // "recent"/"ongoing" lists are by most recently made CTA.
         return ctaCreatedEpoch(b) - ctaCreatedEpoch(a);
