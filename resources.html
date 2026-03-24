@@ -117,6 +117,13 @@
     if (/^assets\/resources\//i.test(v)) return RAW_BASE + '/' + v;
     return v;
   }
+  function resolvePreviewSrc(path) {
+    var v = safeHref(path);
+    if (!v || v === '#') return '';
+    if (/^https?:\/\//i.test(v)) return v;
+    if (/^assets\//i.test(v)) return RAW_BASE + '/' + v;
+    return v;
+  }
   function linkLabel(url) {
     var u = String(url || '').toLowerCase();
     if (u.endsWith('.pdf')) return 'Download PDF';
@@ -136,28 +143,14 @@
     return '<p class="resource-source">courtesy of<br>' + sourceName + (sourceUrlHtml ? '<br>' + sourceUrlHtml : '') + '</p>';
   }
   function pdfPreview(href, title, index) {
-    if (!isPdfUrl(href)) {
-      return '<div class="resource-card-preview resource-card-preview--placeholder" aria-hidden="true">No PDF preview</div>';
+    var item = window.__resourceItems && window.__resourceItems[index] ? window.__resourceItems[index] : null;
+    var previewSrc = resolvePreviewSrc(item && item.previewImage);
+    if (!previewSrc) {
+      return '<div class="resource-card-preview resource-card-preview--placeholder" aria-hidden="true">No preview image</div>';
     }
     return '<button type="button" class="resource-card-preview resource-card-preview-btn" data-resource-index="' + index + '" aria-label="Expand preview for ' + esc(title || 'resource') + '">' +
-      '<canvas class="resource-preview-canvas" data-resource-index="' + index + '" aria-hidden="true"></canvas>' +
-      '<span class="resource-preview-label">Preview unavailable</span>' +
+      '<img src="' + esc(previewSrc) + '" alt="' + esc((title || 'Resource') + ' preview') + '" loading="lazy">' +
       '</button>';
-  }
-  function loadPdfJs() {
-    if (window.pdfjsLib) return Promise.resolve();
-    return new Promise(function (resolve) {
-      var s = document.createElement('script');
-      s.src = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.8.69/build/pdf.min.js';
-      s.onload = function () {
-        if (window.pdfjsLib) {
-          window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.8.69/build/pdf.worker.min.js';
-        }
-        resolve();
-      };
-      s.onerror = function () { resolve(); };
-      document.head.appendChild(s);
-    });
   }
   function renderItem(link, index) {
     var href = resolveAssetHref(link.url);
@@ -180,65 +173,32 @@
       '<div class="resource-pdf-modal-backdrop" data-close="1"></div>' +
       '<div class="resource-pdf-modal-panel" role="dialog" aria-modal="true" aria-label="PDF viewer">' +
       '<div class="resource-pdf-modal-actions">' +
-      '<button type="button" id="resource-pdf-open-tab" class="btn secondary-btn">Open in new tab</button>' +
+      '<a id="resource-pdf-open-tab" class="btn secondary-btn" href="#" target="_blank" rel="noopener noreferrer">Open PDF in new tab</a>' +
       '<button type="button" id="resource-pdf-close" class="btn secondary-btn">Close</button>' +
       '</div>' +
-      '<canvas id="resource-pdf-canvas" class="resource-pdf-canvas" aria-label="Expanded PDF preview"></canvas>' +
+      '<img id="resource-pdf-image" class="resource-pdf-image" alt="Expanded resource preview">' +
       '</div></div>';
-  }
-  function renderPdfToCanvas(url, canvas, widthHint) {
-    if (!window.pdfjsLib || !canvas) return Promise.resolve(false);
-    var loadingTask = window.pdfjsLib.getDocument({ url: url, withCredentials: false });
-    return loadingTask.promise.then(function (pdf) {
-      return pdf.getPage(1).then(function (page) {
-        var unscaled = page.getViewport({ scale: 1 });
-        var targetWidth = Math.max(280, Number(widthHint) || 360);
-        var scale = targetWidth / unscaled.width;
-        var viewport = page.getViewport({ scale: scale });
-        var ctx = canvas.getContext('2d', { alpha: false });
-        canvas.width = Math.floor(viewport.width);
-        canvas.height = Math.floor(viewport.height);
-        return page.render({ canvasContext: ctx, viewport: viewport }).promise.then(function () { return true; });
-      });
-    }).catch(function () { return false; });
-  }
-  function paintCardPreviews(all) {
-    var cards = document.querySelectorAll('.resource-preview-canvas');
-    cards.forEach(function (canvas) {
-      var idx = Number(canvas.getAttribute('data-resource-index'));
-      var item = all[idx];
-      if (!item) return;
-      var href = resolveAssetHref(item.url);
-      if (!isPdfUrl(href)) return;
-      var card = canvas.closest('.resource-card-preview');
-      var label = card ? card.querySelector('.resource-preview-label') : null;
-      var widthHint = card ? Math.max(320, card.clientWidth - 8) : 360;
-      renderPdfToCanvas(href, canvas, widthHint).then(function (ok) {
-        if (ok && label) label.style.display = 'none';
-      });
-    });
   }
   function bindViewer(all) {
     var modal = document.getElementById('resource-pdf-modal');
-    var canvas = document.getElementById('resource-pdf-canvas');
+    var image = document.getElementById('resource-pdf-image');
     var closeBtn = document.getElementById('resource-pdf-close');
     var openTabBtn = document.getElementById('resource-pdf-open-tab');
-    if (!modal || !canvas || !closeBtn || !openTabBtn) return;
-    var currentHref = '';
+    if (!modal || !image || !closeBtn || !openTabBtn) return;
     function openAt(index) {
       var item = all[index];
       if (!item) return;
       var href = resolveAssetHref(item.url);
-      if (!isPdfUrl(href)) return;
-      currentHref = href;
-      renderPdfToCanvas(href, canvas, Math.min(window.innerWidth * 0.88, 1020));
+      var previewSrc = resolvePreviewSrc(item.previewImage);
+      if (!previewSrc) return;
+      image.src = previewSrc;
+      openTabBtn.href = href && href !== '#' ? href : '#';
       modal.hidden = false;
       document.body.classList.add('resource-modal-open');
     }
     function closeModal() {
       modal.hidden = true;
-      var ctx = canvas.getContext('2d');
-      if (ctx) ctx.clearRect(0, 0, canvas.width, canvas.height);
+      image.removeAttribute('src');
       document.body.classList.remove('resource-modal-open');
     }
     document.querySelectorAll('.resource-card-preview-btn').forEach(function (btn) {
@@ -250,15 +210,10 @@
     modal.addEventListener('click', function (e) {
       if (e.target && e.target.getAttribute && e.target.getAttribute('data-close') === '1') closeModal();
     });
-    openTabBtn.addEventListener('click', function () {
-      if (!currentHref) return;
-      window.open(currentHref, '_blank', 'noopener');
-    });
   }
   var root = document.getElementById('resources-dynamic-root');
   if (!root) return;
-  loadPdfJs().then(function () {
-  return fetch(typeof window.hfaDataJsonUrl === 'function' ? window.hfaDataJsonUrl('data/resources.json') : RAW_BASE + '/data/resources.json?ts=' + Date.now(), { cache: 'no-store' })
+  fetch(typeof window.hfaDataJsonUrl === 'function' ? window.hfaDataJsonUrl('data/resources.json') : RAW_BASE + '/data/resources.json?ts=' + Date.now(), { cache: 'no-store' })
     .then(function (r) { if (!r.ok) throw new Error('fetch'); return r.json(); })
     .then(function (data) {
       var all = [];
@@ -269,17 +224,16 @@
           if (Array.isArray(s.links)) all = all.concat(s.links);
         });
       }
+      window.__resourceItems = all;
       var html = all.length ? '<div class="rescues-grid resource-cards-grid" aria-label="Resources">' + all.map(renderItem).join('') + '</div>' + renderViewerModal() : '';
       root.innerHTML = html || '<p class="intro-text">No resources listed yet.</p>';
       if (all.length) {
-        paintCardPreviews(all);
         bindViewer(all);
       }
     })
     .catch(function () {
       root.innerHTML = '<p class="intro-text">Could not load resource list. Try again later.</p>';
     });
-  });
 })();
 </script>
 <script src="announcement.js"></script>
