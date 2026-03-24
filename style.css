@@ -2339,22 +2339,115 @@ span.flatpickr-weekday {
 .page-note code { background: var(--gray-dark); padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.9em; }
 .rescues-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem auto;
-  max-width: 900px;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin: 1.25rem auto 2rem;
+  max-width: 980px;
+}
+@media (min-width: 700px) {
+  .rescues-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 .rescue-card {
   background: var(--gray-dark);
   border: 1px solid var(--gray);
   border-radius: 12px;
-  padding: 1.5rem;
+  padding: 1.25rem 1.35rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.rescue-card-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.6rem;
+  margin-bottom: 0.75rem;
+}
+.rescue-card-logo-wrap {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid var(--gray);
+  border-radius: 12px;
+}
+.rescue-card-head-text {
+  width: 100%;
+  min-width: 0;
+  text-align: center;
+}
+.rescue-card .rescue-name {
+  margin: 0 0 0.25rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.12;
+  color: var(--gold);
+  letter-spacing: 0.02em;
+}
+.rescue-card .rescue-meta {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+}
+.rescue-card .rescue-desc {
+  margin: 0 0 0.5rem;
+  font-size: 1.02rem;
+  line-height: 1.5;
+  color: var(--text-light);
   text-align: left;
 }
-.rescue-card .rescue-name { margin: 0 0 0.35rem; font-size: 1.25rem; color: var(--gold); }
-.rescue-card .rescue-meta { margin: 0 0 0.75rem; font-size: 0.9rem; color: var(--text-muted); }
-.rescue-card .rescue-desc { margin: 0 0 1rem; color: var(--text-light); line-height: 1.5; }
-.rescue-card .btn { margin-top: 0; }
+.rescue-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem 0.75rem;
+  margin-top: auto;
+  padding-top: 0.35rem;
+}
+.rescue-card-socials {
+  flex: 1 1 100%;
+  min-width: 0;
+  text-align: center;
+}
+.rescue-card-socials .rescue-socials {
+  margin: 0;
+}
+/* Compact CTA — avoids full-width “billboard” buttons inside cards */
+.rescues-grid .rescue-card .btn.rescue-card-btn {
+  flex: 0 0 auto;
+  margin: 0;
+  margin-left: 0;
+  font-size: 0.88rem;
+  font-weight: 700;
+  padding: 0.5rem 1.2rem;
+  border-width: 1px;
+  border-radius: 10px;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  box-shadow: none;
+}
+.rescues-grid .rescue-card .btn.rescue-card-btn:hover {
+  transform: none;
+  box-shadow: 0 2px 10px rgba(0, 113, 209, 0.28);
+}
+@media (max-width: 380px) {
+  .rescue-card-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .rescues-grid .rescue-card .btn.rescue-card-btn {
+    text-align: center;
+  }
+}
 
 /* Resources page – downloadable list */
 .resource-downloads {
@@ -2395,14 +2488,17 @@ span.flatpickr-weekday {
 
 .rescue-card-logo {
   display: block;
+  max-width: 56px;
   max-height: 56px;
   width: auto;
-  margin: 0 0 0.75rem;
+  height: auto;
+  margin: 0;
   object-fit: contain;
 }
 .rescue-socials {
-  margin: 0 0 0.75rem;
-  font-size: 0.9rem;
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.4;
   color: var(--text-muted);
 }
 .rescue-socials a { color: var(--gold); }
