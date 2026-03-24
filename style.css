@@ -2485,13 +2485,16 @@ span.flatpickr-weekday {
   overflow: hidden;
   background: #0b1220;
   margin-bottom: 0.85rem;
+  padding: 0;
+  cursor: pointer;
 }
-.resource-card-preview iframe {
+.resource-card-preview img {
   width: 100%;
   height: 100%;
-  border: 0;
+  border: none;
   display: block;
-  background: #fff;
+  object-fit: cover;
+  background: #0b1220;
 }
 .resource-card-preview--placeholder {
   display: flex;
@@ -2523,18 +2526,6 @@ span.flatpickr-weekday {
   color: var(--gold);
   word-break: break-all;
 }
-.resource-preview-expand {
-  position: absolute;
-  right: 0.5rem;
-  bottom: 0.5rem;
-  border: 1px solid var(--gray);
-  border-radius: 8px;
-  background: rgba(15, 23, 42, 0.85);
-  color: #e2e8f0;
-  font-size: 0.8rem;
-  padding: 0.3rem 0.55rem;
-  cursor: pointer;
-}
 .resource-pdf-modal {
   position: fixed;
   inset: 0;
@@ -2564,11 +2555,13 @@ span.flatpickr-weekday {
   padding: 0.6rem;
   border-bottom: 1px solid var(--gray);
 }
-#resource-pdf-frame {
+.resource-pdf-image {
   flex: 1;
   width: 100%;
+  min-height: 0;
   border: 0;
   background: #0b1220;
+  object-fit: contain;
 }
 body.resource-modal-open {
   overflow: hidden;
