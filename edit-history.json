@@ -1,5 +1,12 @@
 [
   {
+    "kind": "page",
+    "target": "rescues-charities.html",
+    "detail": "Rescues & charities page",
+    "user": "Joseph Monroe",
+    "time": "2026-03-25T15:33:50.785Z"
+  },
+  {
     "kind": "data",
     "target": "data/rescues-charities.json",
     "detail": "Rescues & charities",
