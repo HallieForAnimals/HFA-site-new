@@ -2,11 +2,11 @@
   "faqs": [
     {
       "question": "How do I submit a campaign idea?",
-      "answer": "Use the 'Suggest a CTA' option on our contact page. We review every suggestion and may turn it into a live call to action."
+      "answer": "<a href=\"contact.html?kind=cta\">Contact Us</a> using the Call To Action submission form. We review every suggestion and may turn it into a live call to action."
     },
     {
       "question": "How can I get in touch?",
-      "answer": "Head to our Contact Us page for general inquiries, volunteer interest, or partnership opportunities."
+      "answer": "Head to our <a href=\"contact.html\">Contact Us</a>page for general inquiries, volunteer interest, or partnership opportunities."
     },
     {
       "question": "What is a CTA?",
@@ -14,7 +14,7 @@
     },
     {
       "question": "How does the one-click email work?",
-      "answer": "When you click a CTA email link, it opens your default email app with the recipients, subject, and body already filled in. Just hit send."
+      "answer": "When you click a CTA email link, it opens your default email app with the recipients, subject, and body already filled in. Just hit send. For maximum impact, send from every email address you have."
     }
   ]
 }
