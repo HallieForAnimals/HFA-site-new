@@ -1,5 +1,12 @@
 [
   {
+    "kind": "data",
+    "target": "data/faq.json",
+    "detail": "FAQ content",
+    "user": "Joseph Monroe",
+    "time": "2026-03-25T21:13:34.381Z"
+  },
+  {
     "kind": "page",
     "target": "faq.html",
     "detail": "FAQ page",
