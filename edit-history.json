@@ -1,6 +1,13 @@
 [
   {
     "kind": "page",
+    "target": "privacy.html",
+    "detail": "Privacy page",
+    "user": "Joseph Monroe",
+    "time": "2026-03-25T16:04:13.661Z"
+  },
+  {
+    "kind": "page",
     "target": "terms.html",
     "detail": "Terms page",
     "user": "Joseph Monroe",
