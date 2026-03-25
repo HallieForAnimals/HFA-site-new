@@ -744,6 +744,25 @@ footer.footer-centered {
   font-size: 0.9rem;
   border: 1px solid var(--gray);
 }
+.page-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+.page-content table td,
+.page-content table th {
+  border: 1px solid var(--gray);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+.page-content table th {
+  font-weight: 700;
+  background: rgba(0, 113, 209, 0.08);
+}
+.page-content table tr:hover td {
+  background: rgba(255, 255, 255, 0.03);
+}
 
 .page-content--centered {
   text-align: center;
