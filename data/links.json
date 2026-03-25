@@ -361,6 +361,73 @@
       "recipientsCc": [
         "councilmember.jurado@lacity.org"
       ]
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "dog-neglect-356-E-79th-St",
+      "slug": "neglected-dogs-at-356-e-79th-st-los-angeles-ca-20260325",
+      "status": "recent",
+      "role": "original",
+      "title": "Neglected Dogs at 356 E 79th St, Los Angeles, CA",
+      "mailtoSubject": "Animal Neglect & Possible Child Welfare Concerns at 356 E 79th St Los Angeles CA",
+      "summary": "",
+      "description": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"NEGLECTED DOGS AT 356 E 79TH ST, LOS ANGELES, CA\"❗️\n\nCall:\nLA County Supervisor Mitchell: +1 213 974 2222\nLA Animal Services: +1 213 482 9558\nLA County Child Protective Services: +1 213 639 4500\n\nLocation: 356 E 79th St, Los Angeles, CA 90003\n\nThree dogs are chained up 24/7 in deplorable conditions, one is severely matted. Water bowls are either empty or the water is green.\nThe owner ignores anyone who tries to communicate with her and instead talks to herself; there may be some mental health issues at play.\nThere are also toys in the window, indicating there may be children at risk too.\n\n#California #LosAngeles #animallover",
+      "descriptionLong": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"NEGLECTED DOGS AT 356 E 79TH ST, LOS ANGELES, CA\"❗️\n\nCall:\nLA County Supervisor Mitchell: +1 213 974 2222\nLA Animal Services: +1 213 482 9558\nLA County Child Protective Services: +1 213 639 4500\n\nLocation: 356 E 79th St, Los Angeles, CA 90003\n\nThree dogs are chained up 24/7 in deplorable conditions, one is severely matted. Water bowls are either empty or the water is green.\nThe owner ignores anyone who tries to communicate with her and instead talks to herself; there may be some mental health issues at play.\nThere are also toys in the window, indicating there may be children at risk too.\n\n#California #LosAngeles #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to report severe animal neglect and potential child welfare concerns at the property located at 356 E 79th St Los Angeles CA 90003.\n\nObserved conditions:\n- At least one severely matted dog is chained outside 24/7.\n- Two additional dogs are chained at the back of the property.\n- The property is in a filthy condition.\n- The dogs water bowls are either empty or contain green water.\n- The owner has been unresponsive to attempts by neighbors to speak with her and appears to talk to herself.\n\nToys visible in the windows suggest the possible presence of children in the home. Given the conditions of animal neglect and the owners apparent unresponsiveness, there are also serious concerns for the welfare of any children who may live there.\n\nI respectfully request:\n1. An immediate welfare check and investigation by LA Animal Services and/or LAPD Animal Cruelty Task Force for the chained dogs with removal/seizure if neglect or cruelty is confirmed.\n2. A concurrent welfare check by DCFS for any children at the residence due to the unsafe and neglectful conditions.\n3. Any necessary follow-up for mental health support or other county services if appropriate.\n\nThis situation has been ongoing and poses an immediate risk to the animals and any children present.\n\nThank you for your prompt attention to this urgent matter. \n\nVideo evidence: https://drive.google.com/file/d/1GPcwpU9-2IELvoBqXQpV8Jtlgj7EbuY3/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "hollyjmitchell@bos.lacounty.gov",
+        "councilmember.price@lacity.org",
+        "33073@lapd.online",
+        "31927@lapd.online",
+        "annette.ramirez@lacity.org",
+        "curtis.watts@lacity.org",
+        "yvonne.rodriguez@lacity.org"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report severe animal neglect and possible child welfare concerns at 356 East 79th Street, Los Angeles, California 90003.\nThere is one severely matted dog chained outside 24/7, plus two more dogs chained in the back. The property is filthy, and the dogs’ water bowls are empty or full of green water. The owner ignores anyone who tries to talk to her and talks to herself. Toys are visible in the windows, so children may be living there.\nI am requesting an immediate welfare check, investigation, and removal of the dogs, plus a concurrent welfare check for any children.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1GPcwpU9-2IELvoBqXQpV8Jtlgj7EbuY3/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/neglected-dogs-at-356-e-79th-st-los-angeles-ca-20260325",
+      "caption": "PLEASE SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"NEGLECTED DOGS AT 356 E 79TH ST, LOS ANGELES, CA\"❗️\n\nCall:\nLA County Supervisor Mitchell: +1 213 974 2222\nLA Animal Services: +1 213 482 9558\nLA County Child Protective Services: +1 213 639 4500\n\nLocation: 356 E 79th St, Los Angeles, CA 90003\n\nThree dogs are chained up 24/7 in deplorable conditions, one is severely matted. Water bowls are either empty or the water is green.\nThe owner ignores anyone who tries to communicate with her and instead talks to herself; there may be some mental health issues at play.\nThere are also toys in the window, indicating there may be children at risk too.\n\n#California #LosAngeles #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Los Angeles Authorities",
+        "state": "California",
+        "city": "Los Angeles",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "LA County Supervisor Mitchell",
+            "code": "+1",
+            "number": "213 974 2222",
+            "ext": ""
+          },
+          {
+            "who": "LA Animal Services",
+            "code": "+1",
+            "number": "213 482 9558",
+            "ext": ""
+          },
+          {
+            "who": "LA County Child Protective Services",
+            "code": "+1",
+            "number": "213 639 4500",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "actionUrl": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-03-25T01:52:33Z",
+      "updatedAt": "2026-03-25T01:52:33Z"
     }
   ]
 }
