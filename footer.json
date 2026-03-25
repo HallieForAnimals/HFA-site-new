@@ -5,21 +5,49 @@
   "einNumber": "",
   "includeLiveEmailSends": true,
   "emailSendsFallback": "254,000",
-  "emailSendsLabel": "Emails Sent For Animals",
+  "emailSendsLabel": "Total Emails Sent",
   "pagesWithStats": [],
   "stats": [
-    { "number": "254,000", "label": "Emails Sent For Animals", "source": "email_sends" }
+    {
+      "number": "254,000",
+      "label": "Total Emails Sent",
+      "source": "email_sends"
+    }
   ],
   "links": [
-    { "text": "Contact Us", "url": "contact.html" },
-    { "text": "Donate", "url": "donate.html" },
-    { "text": "FAQ", "url": "faq.html" },
-    { "text": "About", "url": "about.html" }
+    {
+      "text": "Contact Us",
+      "url": "contact.html"
+    },
+    {
+      "text": "Donate",
+      "url": "donate.html"
+    },
+    {
+      "text": "FAQ",
+      "url": "faq.html"
+    },
+    {
+      "text": "About",
+      "url": "about.html"
+    }
   ],
   "social": [
-    { "platform": "instagram", "url": "https://instagram.com/hallieforanimals" }
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/hallieforanimals"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/HallieForAnimals/"
+    },
+    {
+      "platform": "twitter",
+      "url": "https://x.com/Hallie4Animals"
+    }
   ],
   "extraLines": [
     "Proudly Built By TheRealJosephMonroe"
-  ]
+  ],
+  "showStats": true
 }
