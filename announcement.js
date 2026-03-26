@@ -97,7 +97,10 @@
       var isEmail = latest.ctaType === 'email' || (String(latest.ctaType || '') === 'update' && latest.updateIncludeEmail) || tag.indexOf('email') !== -1;
       var annAttrs = isEmail ? '' : ' target="_blank" rel="noopener noreferrer"';
 
-      var text = 'Latest: ' + title + ' — Take action';
+      var nonEmailLabel = String(latest.nonEmailActionText || latest.actionText || '').trim();
+      if (!nonEmailLabel) nonEmailLabel = 'Take action';
+      var actionText = isEmail ? 'Send the one-click email' : nonEmailLabel;
+      var text = 'Latest: ' + title + ' — ' + actionText;
       var inner = '<a href="' + esc(url) + '" style="color:inherit; text-decoration:none;"' + annAttrs + '>' + esc(text) + '</a>';
       root.innerHTML = '<div class="announcement-bar">' + inner + '</div>';
     })
