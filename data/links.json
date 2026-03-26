@@ -644,10 +644,10 @@
       },
       "nonEmailActionUrl": "",
       "actionUrl": "",
-      "hidden": false,
+      "hidden": true,
       "postToUpdates": true,
       "createdAt": "2026-03-26T18:21:10Z",
-      "updatedAt": "2026-03-26T18:21:10Z",
+      "updatedAt": "2026-03-26T20:04:37Z",
       "recipientsCc": [
         "editor@clarechampion.ie",
         "jgalvin@clarechampion.ie",
