@@ -767,6 +767,72 @@
       "postToUpdates": true,
       "createdAt": "2026-03-26T22:40:51Z",
       "updatedAt": "2026-03-26T22:47:54Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "Shevgaon-dog-killers",
+      "slug": "arrest-dog-killers-in-shevgaon-india-20260327",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Dog Killers in Shevgaon, India",
+      "mailtoSubject": "Brutal Dog Cruelty Case - Shevgaon, Ahilyanagar",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO MAHARASHTRA AUTHORITIES TITLED \"ARREST DOG KILLERS IN SHEVGAON, INDIA\"❗️\n\nCall:\nShevgaon Police Station: +91 242 922 1233\nAhilyanagar Police Superintendent: +91 241 241 6101\nSub-Divisional Police Office: +91 242 922 3566\n\nLocation: Near the water tank in Shevgaon, Maharashtra, India\n\nTwo men beat a stray dog to death whilst the degenerate recording laughs.\nThis happened on March 23rd, and yet there has been no word of an investigation, arrest, or even an FIR filed, even though it's been reported.\n\n#India #Shevgaon #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO MAHARASHTRA AUTHORITIES TITLED \"ARREST DOG KILLERS IN SHEVGAON, INDIA\"❗️\n\nCall:\nShevgaon Police Station: +91 242 922 1233\nAhilyanagar Police Superintendent: +91 241 241 6101\nSub-Divisional Police Office: +91 242 922 3566\n\nLocation: Near the water tank in Shevgaon, Maharashtra, India\n\nTwo men beat a stray dog to death whilst the degenerate recording laughs.\nThis happened on March 23rd, and yet there has been no word of an investigation, arrest, or even an FIR filed, even though it's been reported.\n\n#India #Shevgaon #animallover",
+      "mailtoBody": "To whom it may concern,\n\nOn the night of 22 March 2026, in Shastri Nagar near the water tank, Shevgaon, Taluka Shevgaon, District Ahilyanagar, a helpless dog was brutally tortured and killed in a horrifying act of cruelty. A video of the incident began circulating widely on social media from 23 March 2026.\n\nAnimal welfare groups have already filed an official complaint. Despite this, as of 27 March 2026, there are still no public updates on FIR registration, investigation progress, or action against the perpetrators.\n\nAnimal cruelty is a cognizable offense under the Prevention of Cruelty to Animals Act, 1960 (particularly Section 11) and relevant sections of the Indian Penal Code. Such barbaric acts cannot be treated lightly or allowed to fade without accountability.\n\nWe, a large group of concerned citizens, strongly demand the following immediate action:\n\nRegister an FIR without further delay at Shevgaon Police Station and share the FIR number publicly.\n1 - Launch a swift and thorough investigation to identify and arrest all individuals involved in the torture and killing.\n2 - Treat this case with utmost seriousness and ensure strong legal action is taken against the guilty.\n3 - Provide a public status update on the steps taken so far within the next 48–72 hours.\n\nFailure to act promptly in such high-visibility cases erodes public trust in the system and signals that cruelty against voiceless animals will be tolerated.\n\nWe urge you to uphold the law and deliver justice. We will continue to follow up until concrete action is visible.\n\nThank you for your urgent attention.\n\nVideo evidence: https://drive.google.com/file/d/1wFBlKJWSLwCYcxyFdL61ABgdQgjqhPcJ/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "ps.shevgaon.anr@mahapolice.gov.in",
+        "sp.ahmednagar@mahapolice.gov.in",
+        "sp.ahilyanagar@mahapolice.gov.in",
+        "sdposhevgaon.anr@mahapolice.gov.in"
+      ],
+      "phones": [],
+      "callScript": "I am calling regarding the brutal dog torture and killing that occurred on 22 March 2026 in Shastri Nagar, near the water tank, Shevgaon.\nA video has been widely circulating since 23 March. Animal welfare groups filed a complaint, but there is still no FIR or public update as of today.\nWe demand that an FIR be registered immediately, the perpetrators identified and arrested, and a status update provided within the next few days. Hundreds of concerned citizens are following this case closely.\nCan you please confirm the current status and what action is being taken?\nThank you.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1wFBlKJWSLwCYcxyFdL61ABgdQgjqhPcJ/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-dog-killers-in-shevgaon-india-20260327",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO MAHARASHTRA AUTHORITIES TITLED \"ARREST DOG KILLERS IN SHEVGAON, INDIA\"❗️\n\nCall:\nShevgaon Police Station: +91 242 922 1233\nAhilyanagar Police Superintendent: +91 241 241 6101\nSub-Divisional Police Office: +91 242 922 3566\n\nLocation: Near the water tank in Shevgaon, Maharashtra, India\n\nTwo men beat a stray dog to death whilst the degenerate recording laughs.\nThis happened on March 23rd, and yet there has been no word of an investigation, arrest, or even an FIR filed, even though it's been reported.\n\n#India #Shevgaon #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Maharashtra Authorities",
+        "state": "Maharashtra",
+        "city": "Shevgaon",
+        "country": "India",
+        "dial": "+91",
+        "phones": [
+          {
+            "who": "Shevgaon Police Station",
+            "code": "+91",
+            "number": "242 922 1233",
+            "ext": ""
+          },
+          {
+            "who": "Ahilyanagar Police Superintendent",
+            "code": "+91",
+            "number": "241 241 6101",
+            "ext": ""
+          },
+          {
+            "who": "Sub-Divisional Police Office",
+            "code": "+91",
+            "number": "242 922 3566",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-03-27T22:44:43Z",
+      "updatedAt": "2026-03-27T22:44:43Z"
     }
   ]
 }
