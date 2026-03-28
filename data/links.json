@@ -833,6 +833,85 @@
       "postToUpdates": true,
       "createdAt": "2026-03-27T22:44:43Z",
       "updatedAt": "2026-03-27T22:44:43Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "haryana-dog-killer",
+      "slug": "arrest-haryana-dog-killer-20260328",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Haryana Dog Killer",
+      "mailtoSubject": "Demand Justice for Brutal Dog Beating in Ladwa, Kurukshetra",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LADWA & HARYANA AUTHORITIES TITLED \"ARREST HARYANA DOG KILLER\"❗️\n\nCall:\nLadwa Police Station: +91 174 426 0711\nDSP Ladwa: +91 174 426 5155\nSP Kurukshetra: +91 174 422 0320\nSDM Ladwa: +91 174 426 5555\n\nLocation: Ladwa, Kurukshetra, Haryana, India\n\nFour dogs run alongside this POS, but he attacks the one running the other direction. This was a targeted attack.\n\n#India #Ladwa #cutedogs",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LADWA & HARYANA AUTHORITIES TITLED \"ARREST HARYANA DOG KILLER\"❗️\n\nCall:\nLadwa Police Station: +91 174 426 0711\nDSP Ladwa: +91 174 426 5155\nSP Kurukshetra: +91 174 422 0320\nSDM Ladwa: +91 174 426 5555\n\nLocation: Ladwa, Kurukshetra, Haryana, India\n\nFour dogs run alongside this POS, but he attacks the one running the other direction. This was a targeted attack.\n\n#India #Ladwa #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to you regarding a clear and disturbing case of animal cruelty in Ladwa town, Kurukshetra district, Haryana.\n\nOn the night of 24 March 2026 at approximately 11:53 PM, CCTV footage from the area shows a man (wearing a white shirt and red head covering) repeatedly beating a defenseless dog with a long stick until the animal stopped moving. Other dogs were present and running nearby, but the attack was clearly targeted at one specific animal. This act of deliberate violence was captured on camera and has caused widespread international outrage.\n\nThis incident is a blatant violation of Section 11 of the Prevention of Cruelty to Animals Act, 1960, and relevant sections of the Bharatiya Nyaya Sanhita (including provisions for maiming or killing animals). Similar cases in Kurukshetra and other parts of Haryana have previously resulted in prompt FIRs when brought to the attention of the police.\n\nWe strongly demand the following immediate actions:\n\n1. Register an FIR without delay at Ladwa Police Station against the perpetrator based on the clear CCTV evidence.\n2. Conduct a swift and thorough investigation to identify and arrest the accused person.\n3. Take strict legal action under the relevant provisions of law to ensure justice and deter future incidents of such cruelty.\n4. Issue a public statement confirming the registration of the FIR, the steps taken for investigation, and the commitment to uphold animal welfare laws in the district.\n\nI expect public confirmation of the FIR registration and details of the case (including FIR number) within 48 hours. I also request that you keep the public informed through an official statement so that citizens can have confidence that such acts will not be tolerated.\n\nThis is not an isolated complaint, it represents the voice of millions of global citizens who are deeply disturbed by this targeted cruelty. Failure to act promptly would send the wrong message and erode public trust in law enforcement.\n\nThank you for your immediate attention to this serious matter.\n\nVideo evidence: https://drive.google.com/file/d/1UVQf-KyuXvO9xjUDNXRa1C0fPTphq6z2/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "sholadwa-hry@nic.in",
+        "dsp-lwa-kkr.pol@hry.gov.in",
+        "spkrk@hry.nic.in",
+        "dckrk@hry.nic.in",
+        "dckrk@gov.in",
+        "sdm.ladwakrk-hry@gov.in",
+        "support@awbi.gov.in",
+        "support-awbi@awbi.gov.in"
+      ],
+      "phones": [],
+      "callScript": "Hello, I am calling regarding the brutal dog beating incident captured on CCTV in Ladwa, Kurukshetra on the night of 24 March 2026 around 11:53 PM.\nA man was seen repeatedly beating one dog with a long stick until it stopped moving, while other dogs were present but not attacked. The video clearly shows targeted cruelty.\nI demand that an FIR be registered immediately under the Prevention of Cruelty to Animals Act and relevant IPC sections. I also request a public statement confirming the FIR and the action being taken.\nCan you please confirm that the complaint has been noted and tell me the next steps or FIR number?",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1UVQf-KyuXvO9xjUDNXRa1C0fPTphq6z2/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-haryana-dog-killer-20260328",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LADWA & HARYANA AUTHORITIES TITLED \"ARREST HARYANA DOG KILLER\"❗️\n\nCall:\nLadwa Police Station: +91 174 426 0711\nDSP Ladwa: +91 174 426 5155\nSP Kurukshetra: +91 174 422 0320\nSDM Ladwa: +91 174 426 5555\n\nLocation: Ladwa, Kurukshetra, Haryana, India\n\nFour dogs run alongside this POS, but he attacks the one running the other direction. This was a targeted attack.\n\n#India #Ladwa #cutedogs",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Ladwa & Haryana Authorities",
+        "state": "Haryana",
+        "city": "Ladwa",
+        "country": "India",
+        "dial": "+91",
+        "phones": [
+          {
+            "who": "Ladwa Police Station",
+            "code": "+91",
+            "number": "174 426 0711",
+            "ext": ""
+          },
+          {
+            "who": "DSP Ladwa",
+            "code": "+91",
+            "number": "174 426 5155",
+            "ext": ""
+          },
+          {
+            "who": "SP Kurukshetra",
+            "code": "+91",
+            "number": "174 422 0320",
+            "ext": ""
+          },
+          {
+            "who": "SDM Ladwa",
+            "code": "+91",
+            "number": "174 426 5555",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-03-28T18:35:00Z",
+      "updatedAt": "2026-03-28T18:35:00Z",
+      "recipientsCc": [
+        "info@petaindia.org"
+      ]
     }
   ]
 }
