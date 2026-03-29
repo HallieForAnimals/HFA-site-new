@@ -584,16 +584,36 @@
                 wireAdEvents(container, sk);
               });
 
+              /** Matches style.css: fixed rails only from 1500px; below that use in-flow banner so mobile/tablet are not blank */
+              function useFixedAdRails() {
+                try {
+                  return window.matchMedia('(min-width: 1500px)').matches;
+                } catch (_) {
+                  return (window.innerWidth || 0) >= 1500;
+                }
+              }
+
               ['sidebar_left', 'sidebar_right'].forEach(function (sk) {
                 var pool = poolForSlot(sk);
                 if (!pool.length) return;
                 var chosen = pool[Math.floor(Math.random() * pool.length)];
-                var rail = document.createElement('aside');
-                rail.className = 'hfa-ad-rail hfa-ad-rail--' + (sk === 'sidebar_left' ? 'left' : 'right');
-                rail.setAttribute('aria-label', (chosen.label || data.label || 'Sponsored'));
-                rail.innerHTML = buildAdHtml(chosen, sk);
-                document.body.appendChild(rail);
-                wireAdEvents(rail, sk);
+                if (useFixedAdRails()) {
+                  var rail = document.createElement('aside');
+                  rail.className = 'hfa-ad-rail hfa-ad-rail--' + (sk === 'sidebar_left' ? 'left' : 'right');
+                  rail.setAttribute('aria-label', (chosen.label || data.label || 'Sponsored'));
+                  rail.innerHTML = buildAdHtml(chosen, sk);
+                  document.body.appendChild(rail);
+                  wireAdEvents(rail, sk);
+                } else {
+                  var fb = document.createElement('aside');
+                  fb.className = 'hfa-ad-slot hfa-ad-slot--rail-fallback';
+                  fb.setAttribute('aria-label', (chosen.label || data.label || 'Sponsored'));
+                  fb.innerHTML = buildAdHtml(chosen, sk);
+                  var footerEl = document.querySelector('body > footer') || document.querySelector('footer');
+                  if (footerEl && footerEl.parentNode) footerEl.parentNode.insertBefore(fb, footerEl);
+                  else document.body.appendChild(fb);
+                  wireAdEvents(fb, sk);
+                }
               });
             }
             if (needGeo) resolveVisitorGeo(runWithGeo);
