@@ -1,6 +1,43 @@
 {
   "enabled": true,
   "label": "Sponsored",
-  "placements": []
+  "placements": [
+    {
+      "sponsor": "Freedom Dog Co",
+      "image": "assets/img/ads/FDCBannerAd-1774798456794.png",
+      "url": "www.instagram.com/freedomdogco",
+      "alt": "",
+      "label": "",
+      "position": "banner",
+      "placementSlots": [
+        "banner_below_header"
+      ],
+      "pages": [
+        "index.html",
+        "about.html",
+        "recent.html",
+        "ongoing.html",
+        "updated.html",
+        "rescues-charities.html",
+        "resources.html",
+        "in-memoriam.html",
+        "donate.html",
+        "faq.html",
+        "contact.html",
+        "terms.html",
+        "privacy.html",
+        "coming-soon.html"
+      ],
+      "excludePages": [],
+      "audienceCountries": [],
+      "audienceMacroRegions": [
+        "eu"
+      ],
+      "audienceRegions": [
+        "Ireland"
+      ],
+      "audienceCities": [],
+      "active": true
+    }
+  ]
 }
-
