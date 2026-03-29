@@ -15,7 +15,6 @@
   --hfa-home-cta-column-max: 720px;
   /* Matches .page-container — sidebar rails sit in the gutter just outside this column */
   --hfa-page-column-max: 1200px;
-  --hfa-rail-width: 160px;
   --hfa-rail-gap: 1rem;
 }
 
@@ -1745,36 +1744,35 @@ span.flatpickr-weekday {
   color: var(--text-muted);
 }
 
-/* Desktop sidebar rails — sit in the gutter beside .page-container, not the viewport edge */
+/* Desktop sidebar rails — fill the gutter (wide screens) or compact card (medium wide) */
 .hfa-ad-rail {
   display: none;
 }
-@media (min-width: 1400px) {
+
+/* Medium-wide: small card — not enough gutter to fill */
+@media (min-width: 1400px) and (max-width: 1479px) {
   .hfa-ad-rail {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: fixed;
-    /* Below header / hero band; aligns with main content instead of viewport center */
     top: clamp(11rem, calc(var(--sticky-header-offset) + 4rem), 22rem);
-    transform: none;
-    width: var(--hfa-rail-width);
+    width: 160px;
     padding: 0.75rem 0.5rem;
     text-align: center;
     z-index: 50;
-    background: rgba(11, 11, 23, 0.55);
+    background: rgba(11, 11, 23, 0.92);
     backdrop-filter: blur(6px);
     border-radius: 10px;
     border: 1px solid var(--gray);
     max-height: min(420px, calc(100vh - var(--sticky-header-offset) - 6rem));
     overflow-y: auto;
   }
-  /* Narrow desktop: not enough room to flank the 1200px column — keep rails at viewport edges */
   .hfa-ad-rail--left {
-    left: max(0.75rem, calc(50% - (var(--hfa-page-column-max) / 2) - var(--hfa-rail-gap) - var(--hfa-rail-width)));
+    left: 0.75rem;
   }
   .hfa-ad-rail--right {
-    right: max(0.75rem, calc(50% - (var(--hfa-page-column-max) / 2) - var(--hfa-rail-gap) - var(--hfa-rail-width)));
+    right: 0.75rem;
   }
   .hfa-ad-rail .hfa-ad-img {
     max-width: 140px;
@@ -1782,19 +1780,75 @@ span.flatpickr-weekday {
     object-fit: contain;
     border-radius: 6px;
   }
-  .hfa-ad-rail .hfa-ad-sponsor {
-    color: var(--text-muted);
-  }
+  .hfa-ad-rail .hfa-ad-sponsor,
   .hfa-ad-rail .hfa-ad-label {
     color: var(--text-muted);
   }
 }
-@media (min-width: 1400px) and (max-width: 1599px) {
+
+/* Wide: rails span the full gutter beside the 1200px column, full viewport height under the header */
+@media (min-width: 1480px) {
+  .hfa-ad-rail {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 0.65rem;
+    position: fixed;
+    top: var(--sticky-header-offset);
+    bottom: max(1rem, env(safe-area-inset-bottom, 0px));
+    z-index: 40;
+    /* Use the entire gutter from viewport edge to the main column */
+    width: calc(50% - (var(--hfa-page-column-max) / 2) - 1.5rem);
+    min-width: 140px;
+    padding: 1rem 0.85rem;
+    text-align: center;
+    background: rgba(11, 11, 23, 0.97);
+    border: none;
+    border-radius: 0;
+    backdrop-filter: blur(8px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
   .hfa-ad-rail--left {
-    left: 0.75rem;
+    left: 0;
+    border-right: 1px solid var(--gray);
+    border-radius: 0 12px 12px 0;
   }
   .hfa-ad-rail--right {
-    right: 0.75rem;
+    right: 0;
+    border-left: 1px solid var(--gray);
+    border-radius: 12px 0 0 12px;
+  }
+  .hfa-ad-rail .hfa-ad-link {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 0;
+    width: 100%;
+    gap: 0.5rem;
+  }
+  .hfa-ad-rail .hfa-ad-img {
+    flex: 1 1 0;
+    width: 100%;
+    min-height: 10rem;
+    max-height: none;
+    max-width: none;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  .hfa-ad-rail .hfa-ad-label {
+    flex-shrink: 0;
+    color: var(--text-muted);
+  }
+  .hfa-ad-rail .hfa-ad-sponsor {
+    flex-shrink: 0;
+    color: var(--text-muted);
+    font-size: 0.85rem;
   }
 }
 
