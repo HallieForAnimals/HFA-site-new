@@ -269,18 +269,19 @@ nav {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     row-gap: 0.85rem;
-    align-items: start;
+    align-items: center;
   }
 
   .logo {
-    justify-self: start;
+    justify-self: center;
   }
 
   .nav-links {
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
+    max-width: 100%;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 0.55rem 0.65rem;
   }
 
@@ -1797,8 +1798,8 @@ span.flatpickr-weekday {
 }
 
 /*
- * Sidebar rails: fixed in the viewport margin only — width MUST NOT exceed the gutter or it
- * overlaps the centered 1200px column (no min-width floor).
+ * Sidebar rails: fixed in the margin beside the centered column only.
+ * Gutter uses a generous inset so 100vw/scrollbar rounding cannot spill onto main content.
  */
 .hfa-ad-rail {
   display: none;
@@ -1815,10 +1816,15 @@ span.flatpickr-weekday {
     top: var(--sticky-header-offset);
     bottom: max(1rem, env(safe-area-inset-bottom, 0px));
     z-index: 45;
-    --hfa-gutter: max(0px, calc((100vw - min(100vw, var(--hfa-page-column-max))) / 2 - 0.75rem));
-    width: min(400px, var(--hfa-gutter));
+    /* Half of (viewport − content cap); extra 1.25rem buffer avoids overlap vs scrollbar/subpixel */
+    --hfa-gutter: max(
+      0px,
+      calc((100vw - min(100vw, var(--hfa-page-column-max))) / 2 - 1.25rem)
+    );
+    width: min(360px, var(--hfa-gutter));
+    max-width: var(--hfa-gutter);
     min-width: 0;
-    padding: 0.4rem 0.35rem;
+    padding: 0.35rem 0.2rem;
     text-align: center;
     background: none !important;
     background-color: transparent !important;
@@ -1828,6 +1834,7 @@ span.flatpickr-weekday {
     overflow-y: auto;
     box-sizing: border-box;
     pointer-events: auto;
+    contain: layout;
   }
   .hfa-ad-rail--left {
     left: max(0px, env(safe-area-inset-left, 0px));
@@ -1853,6 +1860,7 @@ span.flatpickr-weekday {
     display: block;
     width: 100%;
     max-width: 100%;
+    min-width: 0;
     height: auto;
     max-height: min(72vh, calc(100vh - var(--sticky-header-offset) - 4.5rem));
     object-fit: contain;
