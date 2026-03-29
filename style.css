@@ -1776,13 +1776,25 @@ span.flatpickr-weekday {
   }
 }
 
-/* Banner ad (above footer) — always visible */
+/* In-flow banner slots (below header / above footer / below footer) */
 .hfa-ad-slot {
   text-align: center;
   padding: 1.25rem 1rem;
   background: #f5f7fa;
   border-top: 1px solid #e0e4ea;
   border-bottom: 1px solid #e0e4ea;
+}
+.hfa-ad-slot--below-header,
+.hfa-ad-slot--banner-below-header {
+  border-top: none;
+  border-bottom: 1px solid #e0e4ea;
+  margin: 0;
+}
+.hfa-ad-slot--below-footer,
+.hfa-ad-slot--banner-below-footer {
+  border-top: 1px solid #e0e4ea;
+  border-bottom: none;
+  margin-top: 0;
 }
 .hfa-ad-slot .hfa-ad-img {
   max-width: min(90%, 600px);
