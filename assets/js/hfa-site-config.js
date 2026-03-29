@@ -505,9 +505,17 @@
                 d.textContent = String(s || '');
                 return d.innerHTML;
               }
+              /** External click target; prepends https when the ads field omits the scheme (e.g. www…). */
               function safeUrl(u) {
                 u = String(u || '').trim();
+                if (!u) return '#';
+                var low = u.toLowerCase();
+                if (low.indexOf('javascript:') === 0 || low.indexOf('data:') === 0) return '#';
                 if (/^https?:\/\//i.test(u)) return u;
+                if (/^mailto:/i.test(u) || /^tel:/i.test(u)) return u;
+                if (/^\/\//.test(u)) return 'https:' + u;
+                if (/^www\./i.test(u)) return 'https://' + u;
+                if (/^[a-z0-9][a-z0-9.-]*\.[a-z]{2,}([\/#?].*)?$/i.test(u)) return 'https://' + u;
                 return '#';
               }
               function buildAdHtml(ad, slotKey) {
@@ -515,8 +523,9 @@
                 var lbl = esc(ad.label || data.label || 'Sponsored');
                 var img = resolveImg(ad.image);
                 var adId = String(ad.id || ad.sponsor || ad.image || Math.random().toString(36).slice(2, 8)).replace(/\s+/g, '-').toLowerCase();
+                var href = safeUrl(ad.url);
                 var h = '<p class="hfa-ad-label">' + lbl + '</p>';
-                h += '<a href="' + safeUrl(ad.url) + '" target="_blank" rel="sponsored noopener" class="hfa-ad-link" data-ad-id="' + esc(adId) + '" data-ad-slot="' + esc(slot) + '" data-ad-url="' + esc(safeUrl(ad.url)) + '">';
+                h += '<a href="' + esc(href) + '" target="_blank" rel="sponsored noopener" class="hfa-ad-link" data-ad-id="' + esc(adId) + '" data-ad-slot="' + esc(slot) + '" data-ad-url="' + esc(href) + '">';
                 if (img) h += '<img src="' + esc(img) + '" alt="' + esc(ad.alt || ad.sponsor || '') + '" class="hfa-ad-img">';
                 if (ad.sponsor) h += '<span class="hfa-ad-sponsor">' + esc(ad.sponsor) + '</span>';
                 h += '</a>';
