@@ -4,6 +4,13 @@
     "target": "data/ads.json",
     "detail": "Advertising placements",
     "user": "Joseph Monroe",
+    "time": "2026-03-29T16:56:52.427Z"
+  },
+  {
+    "kind": "data",
+    "target": "data/ads.json",
+    "detail": "Advertising placements",
+    "user": "Joseph Monroe",
     "time": "2026-03-29T16:18:45.430Z"
   },
   {
@@ -341,12 +348,5 @@
     "detail": "Footer",
     "user": "owner",
     "time": "2026-03-22T00:08:56.704Z"
-  },
-  {
-    "kind": "data",
-    "target": "footer.json",
-    "detail": "Footer",
-    "user": "owner",
-    "time": "2026-03-21T23:42:48.066Z"
   }
 ]
