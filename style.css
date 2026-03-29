@@ -13,6 +13,10 @@
   --sticky-header-offset: clamp(9rem, 14vh, 14rem);
   /* Home “Take action” list column; sponsored banners use the same width */
   --hfa-home-cta-column-max: 720px;
+  /* Matches .page-container — sidebar rails sit in the gutter just outside this column */
+  --hfa-page-column-max: 1200px;
+  --hfa-rail-width: 160px;
+  --hfa-rail-gap: 1rem;
 }
 
 html {
@@ -631,7 +635,7 @@ footer.footer-centered {
 /* Adoptable Dogs Page Styles – added below         */
 
 .page-container {
-  max-width: 1200px;
+  max-width: var(--hfa-page-column-max);
   margin: 0 auto;
   padding: 2rem 1rem;
 }
@@ -1741,7 +1745,7 @@ span.flatpickr-weekday {
   color: var(--text-muted);
 }
 
-/* Desktop sidebar rails (left & right gutters) — hidden on narrow screens */
+/* Desktop sidebar rails — sit in the gutter beside .page-container, not the viewport edge */
 .hfa-ad-rail {
   display: none;
 }
@@ -1751,9 +1755,10 @@ span.flatpickr-weekday {
     flex-direction: column;
     align-items: center;
     position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 160px;
+    /* Below header / hero band; aligns with main content instead of viewport center */
+    top: clamp(11rem, calc(var(--sticky-header-offset) + 4rem), 22rem);
+    transform: none;
+    width: var(--hfa-rail-width);
     padding: 0.75rem 0.5rem;
     text-align: center;
     z-index: 50;
@@ -1761,9 +1766,16 @@ span.flatpickr-weekday {
     backdrop-filter: blur(6px);
     border-radius: 10px;
     border: 1px solid var(--gray);
+    max-height: min(420px, calc(100vh - var(--sticky-header-offset) - 6rem));
+    overflow-y: auto;
   }
-  .hfa-ad-rail--left  { left: 12px; }
-  .hfa-ad-rail--right { right: 12px; }
+  /* Narrow desktop: not enough room to flank the 1200px column — keep rails at viewport edges */
+  .hfa-ad-rail--left {
+    left: max(0.75rem, calc(50% - (var(--hfa-page-column-max) / 2) - var(--hfa-rail-gap) - var(--hfa-rail-width)));
+  }
+  .hfa-ad-rail--right {
+    right: max(0.75rem, calc(50% - (var(--hfa-page-column-max) / 2) - var(--hfa-rail-gap) - var(--hfa-rail-width)));
+  }
   .hfa-ad-rail .hfa-ad-img {
     max-width: 140px;
     max-height: 250px;
@@ -1775,6 +1787,14 @@ span.flatpickr-weekday {
   }
   .hfa-ad-rail .hfa-ad-label {
     color: var(--text-muted);
+  }
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .hfa-ad-rail--left {
+    left: 0.75rem;
+  }
+  .hfa-ad-rail--right {
+    right: 0.75rem;
   }
 }
 
