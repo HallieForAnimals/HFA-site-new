@@ -59,7 +59,19 @@
      * Set to true to send lightweight pings (page, referrer, viewport, timestamp)
      * to /api/beacon on ctaTrackerOrigin. No cookies, no external scripts.
      */
-    selfHostedBeacon: true
+    selfHostedBeacon: true,
+
+    /**
+     * Optional JSON URL for ad audience targeting: must return { country or countryCode, region, city }.
+     * Use your own endpoint (e.g. Cloudflare Worker reading CF-IPCountry) for privacy control.
+     */
+    adAudienceGeoUrl: '',
+
+    /**
+     * When adAudienceGeoUrl is empty, call ipapi.co once per page load for approximate IP geolocation.
+     * Set false to disable third-party lookup (geo-targeted placements will not show unless you set adAudienceGeoUrl).
+     */
+    adAudienceIpLookup: true
   };
   var s = (window.HFA_SITE = window.HFA_SITE || {});
   Object.keys(defaults).forEach(function (k) {
@@ -159,117 +171,391 @@
         var rawPage = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
         var page = rawPage || 'index.html';
         var pageBase = page.replace(/\.html$/i, '');
+
+        /**
+         * ISO 3166-1 alpha-2 sets for ad macro regions. Keys must match Hallie Command Center (audienceMacroRegions).
+         * Regions overlap by design (e.g. France is in EU and western_europe); visitor needs one selected bucket only.
+         */
+        /** Valid macro keys (must match Hallie `HFA_AD_MACRO_REGIONS` / ads editor). */
+        var HFA_AD_MACRO_KEYS = {
+          uk: true,
+          eu: true,
+          usa_canada: true,
+          central_america: true,
+          caribbean: true,
+          south_america: true,
+          western_europe: true,
+          eastern_europe: true,
+          mena: true,
+          sub_saharan_africa: true,
+          asia: true,
+          oceania: true
+        };
+
+        var HFA_MACRO_REGION_COUNTRIES = {
+          uk: ['GB'],
+          eu: ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE'],
+          usa_canada: ['US', 'CA'],
+          central_america: ['MX', 'GT', 'HN', 'SV', 'NI', 'CR', 'PA', 'BZ'],
+          caribbean: ['AG', 'AI', 'AW', 'BB', 'BM', 'BQ', 'BS', 'CU', 'CW', 'DM', 'DO', 'GD', 'GP', 'HT', 'JM', 'KN', 'KY', 'LC', 'MF', 'MQ', 'MS', 'PR', 'SX', 'TC', 'TT', 'VC', 'VG', 'VI'],
+          south_america: ['AR', 'BO', 'BR', 'CL', 'CO', 'EC', 'FK', 'GF', 'GY', 'PE', 'PY', 'SR', 'UY', 'VE'],
+          western_europe: ['AT', 'BE', 'CH', 'LI', 'DE', 'FR', 'NL', 'LU', 'MC', 'ES', 'PT', 'IT', 'IE', 'IS', 'NO', 'SE', 'DK', 'FI', 'SM', 'VA', 'AD', 'CY', 'MT', 'GR'],
+          eastern_europe: ['PL', 'CZ', 'SK', 'HU', 'RO', 'BG', 'HR', 'SI', 'EE', 'LV', 'LT', 'UA', 'BY', 'MD', 'RS', 'BA', 'ME', 'MK', 'AL', 'RU', 'XK', 'GE'],
+          mena: ['DZ', 'BH', 'EG', 'IR', 'IQ', 'IL', 'JO', 'KW', 'LB', 'LY', 'MA', 'OM', 'PS', 'QA', 'SA', 'SY', 'TN', 'AE', 'YE', 'TR', 'SD', 'SS', 'EH'],
+          sub_saharan_africa: ['AO', 'BJ', 'BW', 'BF', 'BI', 'CV', 'CM', 'CF', 'TD', 'KM', 'CG', 'CD', 'CI', 'DJ', 'GQ', 'ER', 'SZ', 'ET', 'GA', 'GM', 'GH', 'GN', 'GW', 'KE', 'LS', 'LR', 'MG', 'MW', 'ML', 'MR', 'MU', 'MZ', 'NA', 'NE', 'NG', 'RW', 'ST', 'SN', 'SC', 'SL', 'SO', 'ZA', 'TZ', 'TG', 'UG', 'ZM', 'ZW'],
+          asia: ['AF', 'AM', 'AZ', 'BD', 'BT', 'BN', 'KH', 'CN', 'HK', 'IN', 'ID', 'JP', 'KZ', 'KP', 'KR', 'KG', 'LA', 'MO', 'MY', 'MV', 'MN', 'MM', 'NP', 'PK', 'PH', 'SG', 'LK', 'TW', 'TJ', 'TH', 'TL', 'TM', 'UZ', 'VN'],
+          oceania: ['AU', 'NZ', 'FJ', 'PG', 'SB', 'VU', 'NC', 'PF', 'WS', 'TO', 'KI', 'FM', 'MH', 'PW', 'NR', 'TV', 'GU', 'MP', 'AS', 'CK', 'NU', 'TK', 'WF', 'PN']
+        };
+
+        function normLoc(x) {
+          return String(x || '').trim().toLowerCase();
+        }
+
+        function normalizePlacementSlotKey(k) {
+          return String(k || '')
+            .trim()
+            .toLowerCase()
+            .replace(/-/g, '_')
+            .replace(/\s+/g, '_');
+        }
+
+        /** Merge camelCase + snake_case arrays so an empty `placementSlots: []` does not hide `placement_slots`. */
+        function mergeAdsJsonStringArrays(a, b) {
+          var out = [];
+          var seen = {};
+          function add(arr) {
+            if (!Array.isArray(arr)) return;
+            for (var i = 0; i < arr.length; i++) {
+              var s = String(arr[i] || '').trim();
+              if (!s || seen[s]) continue;
+              seen[s] = true;
+              out.push(arr[i]);
+            }
+          }
+          add(a);
+          add(b);
+          return out;
+        }
+
+        function normalizeVisitorCountryCode(c) {
+          var x = String(c || '').trim().toUpperCase();
+          if (x === 'UK') return 'GB';
+          if (x.length === 2) return x;
+          return '';
+        }
+
+        /**
+         * Align runtime parsing with Hallie `normalizeSiteDataAds`: fixes hand-edited JSON,
+         * hyphenated slot keys, and ensures macro keys are valid (so EU targeting actually runs).
+         */
+        function normalizeAdsPlacements(data) {
+          if (!data || !Array.isArray(data.placements)) return;
+          data.placements.forEach(function (p) {
+            if (p.active === undefined) p.active = true;
+
+            var mergedSlots = mergeAdsJsonStringArrays(
+              Array.isArray(p.placementSlots) ? p.placementSlots : [],
+              Array.isArray(p.placement_slots) ? p.placement_slots : []
+            );
+            var rawSlots = mergedSlots.length ? mergedSlots : null;
+            if (!rawSlots || !rawSlots.length) {
+              if (String(p.position || '').toLowerCase() === 'sidebar') {
+                rawSlots = ['sidebar_left', 'sidebar_right'];
+              } else {
+                rawSlots = ['banner_above_footer'];
+              }
+            }
+            var VALID_SLOT = {
+              banner_below_header: true,
+              banner_above_footer: true,
+              banner_below_footer: true,
+              sidebar_left: true,
+              sidebar_right: true
+            };
+            p.placementSlots = rawSlots
+              .map(normalizePlacementSlotKey)
+              .filter(function (k) {
+                return VALID_SLOT[k];
+              });
+            if (!p.placementSlots.length) p.placementSlots = ['banner_above_footer'];
+
+            var rawMacro = mergeAdsJsonStringArrays(
+              Array.isArray(p.audienceMacroRegions) ? p.audienceMacroRegions : [],
+              Array.isArray(p.audience_macro_regions) ? p.audience_macro_regions : []
+            );
+            p.audienceMacroRegions = rawMacro
+              .map(function (x) {
+                return String(x || '')
+                  .trim()
+                  .toLowerCase()
+                  .replace(/-/g, '_')
+                  .replace(/\s+/g, '_');
+              })
+              .filter(function (k) {
+                return HFA_AD_MACRO_KEYS[k];
+              });
+
+            if (!Array.isArray(p.audienceCountries) && Array.isArray(p.audience_countries)) {
+              p.audienceCountries = p.audience_countries;
+            }
+            if (!Array.isArray(p.audienceRegions) && Array.isArray(p.audience_regions)) {
+              p.audienceRegions = p.audience_regions;
+            }
+            if (!Array.isArray(p.audienceCities) && Array.isArray(p.audience_cities)) {
+              p.audienceCities = p.audience_cities;
+            }
+          });
+        }
+
+        function audienceNeedsGeo(ad) {
+          var macros = ad.audienceMacroRegions || ad.audience_macro_regions;
+          var c = ad.audienceCountries || ad.audience_countries;
+          var r = ad.audienceRegions || ad.audience_regions;
+          var ci = ad.audienceCities || ad.audience_cities;
+          return (Array.isArray(macros) && macros.length > 0) ||
+            (Array.isArray(c) && c.length > 0) ||
+            (Array.isArray(r) && r.length > 0) ||
+            (Array.isArray(ci) && ci.length > 0);
+        }
+
+        function audienceMatches(ad, geo) {
+          var macros = ad.audienceMacroRegions || ad.audience_macro_regions || [];
+          var countries = ad.audienceCountries || ad.audience_countries || [];
+          var regions = ad.audienceRegions || ad.audience_regions || [];
+          var cities = ad.audienceCities || ad.audience_cities || [];
+          if (!macros.length && !countries.length && !regions.length && !cities.length) return true;
+          if (!geo) return false;
+          var cc = normalizeVisitorCountryCode(geo.country);
+          if (macros.length) {
+            if (!cc) return false;
+            var macroOk = macros.some(function (key) {
+              var k = String(key || '').trim().toLowerCase().replace(/\s+/g, '_');
+              var set = HFA_MACRO_REGION_COUNTRIES[k];
+              return set && set.indexOf(cc) >= 0;
+            });
+            if (!macroOk) return false;
+          }
+          if (countries.length) {
+            if (!cc) return false;
+            if (!countries.some(function (x) {
+              return normalizeVisitorCountryCode(String(x || '').trim()) === cc;
+            })) return false;
+          }
+          if (regions.length) {
+            var gr = normLoc(geo.region);
+            if (!gr) return false;
+            if (!regions.some(function (r) {
+              var nr = normLoc(r);
+              if (!nr) return false;
+              return gr === nr || gr.indexOf(nr) >= 0 || nr.indexOf(gr) >= 0;
+            })) return false;
+          }
+          if (cities.length) {
+            var gc = normLoc(geo.city);
+            if (!gc) return false;
+            if (!cities.some(function (c) {
+              var nc = normLoc(c);
+              if (!nc) return false;
+              return gc === nc || gc.indexOf(nc) >= 0 || nc.indexOf(gc) >= 0;
+            })) return false;
+          }
+          return true;
+        }
+
+        function resolveVisitorGeo(cb) {
+          var done = false;
+          var timeoutId;
+          function finish(g) {
+            if (done) return;
+            done = true;
+            if (timeoutId) clearTimeout(timeoutId);
+            cb(g || null);
+          }
+          timeoutId = setTimeout(function () { finish(null); }, 5000);
+          var custom = trimSlash(s.adAudienceGeoUrl || '');
+          if (custom) {
+            fetch(custom, { credentials: 'omit', cache: 'no-store' })
+              .then(function (r) { return r.ok ? r.json() : null; })
+              .then(function (j) {
+                if (!j) return finish(null);
+                finish({
+                  country: normalizeVisitorCountryCode(j.countryCode || j.country_code || j.country),
+                  region: String(j.region || j.regionName || ''),
+                  city: String(j.city || '')
+                });
+              })
+              .catch(function () { finish(null); });
+            return;
+          }
+          if (s.adAudienceIpLookup === false) return finish(null);
+          fetch('https://ipapi.co/json/', { credentials: 'omit', cache: 'no-store' })
+            .then(function (r) { return r.ok ? r.json() : null; })
+            .then(function (j) {
+              if (!j || j.error) return finish(null);
+              finish({
+                country: normalizeVisitorCountryCode(j.country_code != null ? j.country_code : j.country),
+                region: String(j.region || ''),
+                city: String(j.city || '')
+              });
+            })
+            .catch(function () { finish(null); });
+        }
+
+        var needGeo = false;
         fetch(window.hfaDataJsonUrl('data/ads.json'))
           .then(function (r) { return r.ok ? r.json() : null; })
           .then(function (data) {
-            if (!data || !data.enabled || !Array.isArray(data.placements)) return;
-            var eligible = data.placements.filter(function (ad) {
-              if (!ad.active) return false;
-              function pageMatch(entry) {
-                var e = entry.toLowerCase().replace(/\.html$/i, '');
-                return e === pageBase || entry.toLowerCase() === page;
-              }
-              if (ad.excludePages && ad.excludePages.length) {
-                if (ad.excludePages.some(pageMatch)) return false;
-              }
-              if (ad.pages && ad.pages.length) {
-                return ad.pages.some(pageMatch);
-              }
-              return true;
+            if (!data || !data.enabled || !Array.isArray(data.placements)) return null;
+            normalizeAdsPlacements(data);
+            needGeo = data.placements.some(function (ad) {
+              return ad.active !== false && audienceNeedsGeo(ad);
             });
-            if (!eligible.length) return;
-            var rawBase = (window.hfaGithubRawBase ? window.hfaGithubRawBase() : '');
-            function resolveImg(src) {
-              if (!src) return '';
-              if (/^https?:\/\//i.test(src)) return src;
-              return (rawBase ? rawBase + '/' : '') + src.replace(/^\/+/, '');
-            }
-            function esc(s) {
-              var d = document.createElement('div');
-              d.textContent = String(s || '');
-              return d.innerHTML;
-            }
-            function safeUrl(u) {
-              u = String(u || '').trim();
-              if (/^https?:\/\//i.test(u)) return u;
-              return '#';
-            }
-            function buildAdHtml(ad) {
-              var lbl = esc(ad.label || data.label || 'Sponsored');
-              var img = resolveImg(ad.image);
-              var adId = String(ad.id || ad.sponsor || ad.image || Math.random().toString(36).slice(2, 8)).replace(/\s+/g, '-').toLowerCase();
-              var slot = ad.position === 'sidebar' ? 'sidebar' : 'banner';
-              var h = '<p class="hfa-ad-label">' + lbl + '</p>';
-              h += '<a href="' + safeUrl(ad.url) + '" target="_blank" rel="sponsored noopener" class="hfa-ad-link" data-ad-id="' + esc(adId) + '" data-ad-slot="' + esc(slot) + '" data-ad-url="' + esc(safeUrl(ad.url)) + '">';
-              if (img) h += '<img src="' + esc(img) + '" alt="' + esc(ad.alt || ad.sponsor || '') + '" class="hfa-ad-img">';
-              if (ad.sponsor) h += '<span class="hfa-ad-sponsor">' + esc(ad.sponsor) + '</span>';
-              h += '</a>';
-              return h;
-            }
-            function wireAdEvents(container, slotName) {
-              if (!container) return;
-              var link = container.querySelector('.hfa-ad-link');
-              if (!link) return;
-              var adMeta = {
-                slot: slotName || link.getAttribute('data-ad-slot') || 'banner',
-                id: link.getAttribute('data-ad-id') || '',
-                campaignId: '',
-                url: link.getAttribute('data-ad-url') || ''
+            return data;
+          })
+          .then(function (data) {
+            if (!data) return;
+            function runWithGeo(geo) {
+              var eligible = data.placements.filter(function (ad) {
+                if (ad.active === false) return false;
+                if (!audienceMatches(ad, geo)) return false;
+                function pageMatch(entry) {
+                  var e = entry.toLowerCase().replace(/\.html$/i, '');
+                  return e === pageBase || entry.toLowerCase() === page;
+                }
+                if (ad.excludePages && ad.excludePages.length) {
+                  if (ad.excludePages.some(pageMatch)) return false;
+                }
+                if (ad.pages && ad.pages.length) {
+                  return ad.pages.some(pageMatch);
+                }
+                return true;
+              });
+              if (!eligible.length) return;
+
+              var VALID_PLACEMENT_SLOTS = {
+                banner_below_header: true,
+                banner_above_footer: true,
+                banner_below_footer: true,
+                sidebar_left: true,
+                sidebar_right: true
               };
-              emitAdEvent('impression', adMeta);
-              var observer;
-              try {
-                observer = new IntersectionObserver(function (entries) {
-                  entries.forEach(function (entry) {
-                    if (entry && entry.isIntersecting && entry.intersectionRatio >= 0.5) {
-                      emitAdEvent('viewable', adMeta);
-                      if (observer) observer.disconnect();
-                    }
-                  });
-                }, { threshold: [0.5] });
-                observer.observe(container);
-              } catch (_) {}
-              link.addEventListener('click', function () {
-                emitAdEvent('click', adMeta);
+
+              function adEffectivePlacementSlots(ad) {
+                var slots = ad.placementSlots || ad.placement_slots;
+                if (Array.isArray(slots) && slots.length) {
+                  return slots
+                    .map(function (k) {
+                      return normalizePlacementSlotKey(k);
+                    })
+                    .filter(function (k) {
+                      return VALID_PLACEMENT_SLOTS[k];
+                    });
+                }
+                if (String(ad.position).toLowerCase() === 'sidebar') return ['sidebar_left', 'sidebar_right'];
+                return ['banner_above_footer'];
+              }
+
+              function poolForSlot(slotKey) {
+                return eligible.filter(function (a) {
+                  return adEffectivePlacementSlots(a).indexOf(slotKey) >= 0;
+                });
+              }
+
+              var rawBase = (window.hfaGithubRawBase ? window.hfaGithubRawBase() : '');
+              function resolveImg(src) {
+                if (!src) return '';
+                if (/^https?:\/\//i.test(src)) return src;
+                return (rawBase ? rawBase + '/' : '') + src.replace(/^\/+/, '');
+              }
+              function esc(s) {
+                var d = document.createElement('div');
+                d.textContent = String(s || '');
+                return d.innerHTML;
+              }
+              function safeUrl(u) {
+                u = String(u || '').trim();
+                if (/^https?:\/\//i.test(u)) return u;
+                return '#';
+              }
+              function buildAdHtml(ad, slotKey) {
+                var slot = slotKey || 'banner_above_footer';
+                var lbl = esc(ad.label || data.label || 'Sponsored');
+                var img = resolveImg(ad.image);
+                var adId = String(ad.id || ad.sponsor || ad.image || Math.random().toString(36).slice(2, 8)).replace(/\s+/g, '-').toLowerCase();
+                var h = '<p class="hfa-ad-label">' + lbl + '</p>';
+                h += '<a href="' + safeUrl(ad.url) + '" target="_blank" rel="sponsored noopener" class="hfa-ad-link" data-ad-id="' + esc(adId) + '" data-ad-slot="' + esc(slot) + '" data-ad-url="' + esc(safeUrl(ad.url)) + '">';
+                if (img) h += '<img src="' + esc(img) + '" alt="' + esc(ad.alt || ad.sponsor || '') + '" class="hfa-ad-img">';
+                if (ad.sponsor) h += '<span class="hfa-ad-sponsor">' + esc(ad.sponsor) + '</span>';
+                h += '</a>';
+                return h;
+              }
+              function wireAdEvents(container, slotName) {
+                if (!container) return;
+                var link = container.querySelector('.hfa-ad-link');
+                if (!link) return;
+                var adMeta = {
+                  slot: slotName || link.getAttribute('data-ad-slot') || 'banner_above_footer',
+                  id: link.getAttribute('data-ad-id') || '',
+                  campaignId: '',
+                  url: link.getAttribute('data-ad-url') || ''
+                };
+                emitAdEvent('impression', adMeta);
+                var observer;
+                try {
+                  observer = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                      if (entry && entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+                        emitAdEvent('viewable', adMeta);
+                        if (observer) observer.disconnect();
+                      }
+                    });
+                  }, { threshold: [0.5] });
+                  observer.observe(container);
+                } catch (_) {}
+                link.addEventListener('click', function () {
+                  emitAdEvent('click', adMeta);
+                });
+              }
+
+              ['banner_below_header', 'banner_above_footer', 'banner_below_footer'].forEach(function (sk) {
+                var pool = poolForSlot(sk);
+                if (!pool.length) return;
+                var chosen = pool[Math.floor(Math.random() * pool.length)];
+                var container = document.createElement('aside');
+                container.className = 'hfa-ad-slot hfa-ad-slot--' + sk.replace(/_/g, '-');
+                container.setAttribute('aria-label', (chosen.label || data.label || 'Sponsored'));
+                container.innerHTML = buildAdHtml(chosen, sk);
+                var hdr = document.querySelector('header');
+                var footer = document.querySelector('footer');
+                if (sk === 'banner_below_header') {
+                  if (hdr && hdr.parentNode) hdr.parentNode.insertBefore(container, hdr.nextSibling);
+                  else document.body.insertBefore(container, document.body.firstChild);
+                } else if (sk === 'banner_above_footer') {
+                  if (footer && footer.parentNode) footer.parentNode.insertBefore(container, footer);
+                  else document.body.appendChild(container);
+                } else if (sk === 'banner_below_footer') {
+                  if (footer && footer.parentNode) {
+                    if (footer.nextSibling) footer.parentNode.insertBefore(container, footer.nextSibling);
+                    else footer.parentNode.appendChild(container);
+                  } else document.body.appendChild(container);
+                }
+                wireAdEvents(container, sk);
+              });
+
+              ['sidebar_left', 'sidebar_right'].forEach(function (sk) {
+                var pool = poolForSlot(sk);
+                if (!pool.length) return;
+                var chosen = pool[Math.floor(Math.random() * pool.length)];
+                var rail = document.createElement('aside');
+                rail.className = 'hfa-ad-rail hfa-ad-rail--' + (sk === 'sidebar_left' ? 'left' : 'right');
+                rail.setAttribute('aria-label', (chosen.label || data.label || 'Sponsored'));
+                rail.innerHTML = buildAdHtml(chosen, sk);
+                document.body.appendChild(rail);
+                wireAdEvents(rail, sk);
               });
             }
-
-            var sidebars = eligible.filter(function (a) { return a.position === 'sidebar'; });
-            var banners  = eligible.filter(function (a) { return a.position !== 'sidebar'; });
-
-            if (sidebars.length) {
-              var leftAd  = sidebars[Math.floor(Math.random() * sidebars.length)];
-              var rightAd = sidebars.length > 1
-                ? sidebars.filter(function (a) { return a !== leftAd; })[Math.floor(Math.random() * (sidebars.length - 1))]
-                : leftAd;
-              var left = document.createElement('aside');
-              left.className = 'hfa-ad-rail hfa-ad-rail--left';
-              left.setAttribute('aria-label', (leftAd.label || data.label || 'Sponsored'));
-              left.innerHTML = buildAdHtml(leftAd);
-              document.body.appendChild(left);
-              wireAdEvents(left, 'sidebar-left');
-              var right = document.createElement('aside');
-              right.className = 'hfa-ad-rail hfa-ad-rail--right';
-              right.setAttribute('aria-label', (rightAd.label || data.label || 'Sponsored'));
-              right.innerHTML = buildAdHtml(rightAd);
-              document.body.appendChild(right);
-              wireAdEvents(right, 'sidebar-right');
-            }
-
-            if (banners.length) {
-              var chosen = banners[Math.floor(Math.random() * banners.length)];
-              var container = document.createElement('aside');
-              container.className = 'hfa-ad-slot';
-              container.setAttribute('aria-label', (chosen.label || data.label || 'Sponsored'));
-              container.innerHTML = buildAdHtml(chosen);
-              var footer = document.querySelector('footer');
-              if (footer && footer.parentNode) {
-                footer.parentNode.insertBefore(container, footer);
-              } else {
-                document.body.appendChild(container);
-              }
-              wireAdEvents(container, 'banner');
-            }
+            if (needGeo) resolveVisitorGeo(runWithGeo);
+            else runWithGeo(null);
           })
           .catch(function () {});
       } catch (e) { /* ignore */ }
