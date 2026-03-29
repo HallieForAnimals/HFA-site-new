@@ -62,14 +62,14 @@
     selfHostedBeacon: true,
 
     /**
-     * Optional JSON URL for ad audience targeting: must return { country or countryCode, region, city }.
-     * Use your own endpoint (e.g. Cloudflare Worker reading CF-IPCountry) for privacy control.
+     * Optional JSON URL for ad audience targeting: must return { country_code or countryCode, region, city }.
+     * When empty, the site uses ctaTrackerOrigin + /api/visitor-geo (Cloudflare edge country), then falls back to ipapi.co.
      */
     adAudienceGeoUrl: '',
 
     /**
-     * When adAudienceGeoUrl is empty, call ipapi.co once per page load for approximate IP geolocation.
-     * Set false to disable third-party lookup (geo-targeted placements will not show unless you set adAudienceGeoUrl).
+     * When no geo URL resolves to a country, allow ipapi.co as fallback (after /api/visitor-geo when using defaults).
+     * Set false to disable third-party ipapi (only custom adAudienceGeoUrl or CF geo will work).
      */
     adAudienceIpLookup: true
   };
@@ -372,33 +372,66 @@
             cb(g || null);
           }
           timeoutId = setTimeout(function () { finish(null); }, 5000);
-          var custom = trimSlash(s.adAudienceGeoUrl || '');
-          if (custom) {
-            fetch(custom, { credentials: 'omit', cache: 'no-store' })
+
+          function geoFromJson(j) {
+            if (!j || j.error) return null;
+            var raw = j.country_code != null ? j.country_code : (j.countryCode != null ? j.countryCode : j.country);
+            var cc = normalizeVisitorCountryCode(raw);
+            return {
+              country: cc,
+              region: String(j.region || j.regionName || ''),
+              city: String(j.city || '')
+            };
+          }
+
+          var explicit = trimSlash(s.adAudienceGeoUrl || '');
+          var trackerOrigin = trimSlash(s.ctaTrackerOrigin || '');
+
+          function tryIpapi() {
+            if (s.adAudienceIpLookup === false) return finish(null);
+            fetch('https://ipapi.co/json/', { credentials: 'omit', cache: 'no-store' })
               .then(function (r) { return r.ok ? r.json() : null; })
               .then(function (j) {
-                if (!j) return finish(null);
-                finish({
-                  country: normalizeVisitorCountryCode(j.countryCode || j.country_code || j.country),
-                  region: String(j.region || j.regionName || ''),
-                  city: String(j.city || '')
-                });
+                var g = geoFromJson(j);
+                if (!g || !g.country) return finish(null);
+                finish(g);
+              })
+              .catch(function () { finish(null); });
+          }
+
+          if (explicit) {
+            fetch(explicit, { credentials: 'omit', cache: 'no-store' })
+              .then(function (r) { return r.ok ? r.json() : null; })
+              .then(function (j) {
+                var g = geoFromJson(j);
+                if (!g) return finish(null);
+                finish(g);
               })
               .catch(function () { finish(null); });
             return;
           }
-          if (s.adAudienceIpLookup === false) return finish(null);
-          fetch('https://ipapi.co/json/', { credentials: 'omit', cache: 'no-store' })
-            .then(function (r) { return r.ok ? r.json() : null; })
-            .then(function (j) {
-              if (!j || j.error) return finish(null);
-              finish({
-                country: normalizeVisitorCountryCode(j.country_code != null ? j.country_code : j.country),
-                region: String(j.region || ''),
-                city: String(j.city || '')
-              });
-            })
-            .catch(function () { finish(null); });
+
+          if (trackerOrigin) {
+            fetch(trackerOrigin + '/api/visitor-geo', { credentials: 'omit', cache: 'no-store' })
+              .then(function (r) { return r.ok ? r.json() : null; })
+              .then(function (j) {
+                var g = geoFromJson(j);
+                if (g && g.country) return finish(g);
+                tryIpapi();
+              })
+              .catch(function () { tryIpapi(); });
+            return;
+          }
+
+          tryIpapi();
+        }
+
+        /** BEM modifier must match selectors in style.css (.hfa-ad-slot--below-header, etc.). */
+        function hfaAdSlotCssModifier(slotKey) {
+          if (slotKey === 'banner_below_header') return 'below-header';
+          if (slotKey === 'banner_above_footer') return 'above-footer';
+          if (slotKey === 'banner_below_footer') return 'below-footer';
+          return String(slotKey || '').replace(/_/g, '-');
         }
 
         var needGeo = false;
@@ -522,11 +555,11 @@
                 if (!pool.length) return;
                 var chosen = pool[Math.floor(Math.random() * pool.length)];
                 var container = document.createElement('aside');
-                container.className = 'hfa-ad-slot hfa-ad-slot--' + sk.replace(/_/g, '-');
+                container.className = 'hfa-ad-slot hfa-ad-slot--' + hfaAdSlotCssModifier(sk);
                 container.setAttribute('aria-label', (chosen.label || data.label || 'Sponsored'));
                 container.innerHTML = buildAdHtml(chosen, sk);
-                var hdr = document.querySelector('header');
-                var footer = document.querySelector('footer');
+                var hdr = document.querySelector('body > header') || document.querySelector('header');
+                var footer = document.querySelector('body > footer') || document.querySelector('footer');
                 if (sk === 'banner_below_header') {
                   if (hdr && hdr.parentNode) hdr.parentNode.insertBefore(container, hdr.nextSibling);
                   else document.body.insertBefore(container, document.body.firstChild);
