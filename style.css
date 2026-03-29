@@ -18,6 +18,10 @@
   /* Matches .page-container — sidebar rails sit in the gutter just outside this column */
   --hfa-page-column-max: 1200px;
   --hfa-rail-gap: 1rem;
+  /* Sidebar rails: show at this viewport width and up */
+  --hfa-sidebar-rail-min: 1200px;
+  /* Recent/Ongoing CTA grid: 2 columns only when there is room beside the centered column + rails */
+  --hfa-cta-grid-2col-min: 1480px;
 }
 
 html {
@@ -257,6 +261,34 @@ nav {
 
 .nav-item-dropdown:hover .nav-dropdown {
   display: flex;
+}
+
+/* Small/mid desktop: logo row + wrapping link row (single-row nav collides with tagline ~1200–1500px) */
+@media (min-width: 769px) and (max-width: 1599px) {
+  nav {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 0.85rem;
+    align-items: start;
+  }
+
+  .logo {
+    justify-self: start;
+  }
+
+  .nav-links {
+    margin: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.55rem 0.65rem;
+  }
+
+  .nav-links > a,
+  .nav-item-dropdown > a {
+    padding: 0.48rem 0.95rem;
+    font-size: 1.05rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1765,14 +1797,14 @@ span.flatpickr-weekday {
 }
 
 /*
- * Sidebar rails: fixed in the *gutter only* beside the centered column.
- * Width must never exceed the side margin — a min-width clamp was overlapping the CTA grid.
+ * Sidebar rails: fixed beside the centered column from --hfa-sidebar-rail-min.
+ * Width uses the gutter but floors at ~140px so ads stay readable; grows up to 400px on ultra-wide.
  */
 .hfa-ad-rail {
   display: none;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   .hfa-ad-rail {
     display: flex;
     flex-direction: column;
@@ -1783,11 +1815,10 @@ span.flatpickr-weekday {
     top: var(--sticky-header-offset);
     bottom: max(1rem, env(safe-area-inset-bottom, 0px));
     z-index: 45;
-    /* Space left of the 1200px column (matches centered .page-container / nav) */
-    --hfa-gutter-left: max(0px, calc((100vw - min(100vw, var(--hfa-page-column-max))) / 2 - 0.75rem));
-    width: min(260px, var(--hfa-gutter-left));
+    --hfa-gutter: max(0px, calc((100vw - min(100vw, var(--hfa-page-column-max))) / 2 - 0.5rem));
+    width: min(400px, max(140px, var(--hfa-gutter)));
     min-width: 0;
-    padding: 0.35rem 0.3rem;
+    padding: 0.4rem 0.35rem;
     text-align: center;
     background: none !important;
     background-color: transparent !important;
@@ -2121,12 +2152,20 @@ aside.hfa-ad-slot {
 }
 .cta-accordion-body p { margin-bottom: 1rem; }
 
-/* Recent/Ongoing CTA lists: 2 per row, expanded card takes full width */
+/* Recent/Ongoing: single column until wide enough for two columns + side margins (see --hfa-cta-grid-2col-min) */
 #recent-list,
 #ongoing-list {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 1.25rem;
+}
+
+/* Match --hfa-cta-grid-2col-min: two columns only when viewport is wide enough */
+@media (min-width: 1480px) {
+  #recent-list,
+  #ongoing-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 #recent-list .cta-accordion,
@@ -2151,12 +2190,6 @@ aside.hfa-ad-slot {
   grid-column: 1 / -1; /* full width when expanded */
 }
 
-@media (max-width: 900px) {
-  #recent-list,
-  #ongoing-list {
-    grid-template-columns: 1fr;
-  }
-}
 .cta-video {
   margin: 1rem 0;
   width: min(280px, 100%);
