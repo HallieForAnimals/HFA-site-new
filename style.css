@@ -1737,6 +1737,7 @@ span.flatpickr-weekday {
   text-decoration: none;
   color: inherit;
   transition: opacity 0.2s;
+  background-color: transparent;
 }
 .hfa-ad-link:hover { opacity: 0.85; }
 .hfa-ad-sponsor {
@@ -1744,66 +1745,28 @@ span.flatpickr-weekday {
   color: var(--text-muted);
 }
 
-/* Desktop sidebar rails — fill the gutter (wide screens) or compact card (medium wide) */
+/* Desktop sidebar rails — only when the centered column leaves enough gutter (see JS fallback <1500px) */
 .hfa-ad-rail {
   display: none;
 }
 
-/* Medium-wide: small card — not enough gutter to fill */
-@media (min-width: 1400px) and (max-width: 1479px) {
-  .hfa-ad-rail {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    top: clamp(11rem, calc(var(--sticky-header-offset) + 4rem), 22rem);
-    width: 160px;
-    padding: 0.75rem 0.5rem;
-    text-align: center;
-    z-index: 50;
-    background: rgba(11, 11, 23, 0.92);
-    backdrop-filter: blur(6px);
-    border-radius: 10px;
-    border: 1px solid var(--gray);
-    max-height: min(420px, calc(100vh - var(--sticky-header-offset) - 6rem));
-    overflow-y: auto;
-  }
-  .hfa-ad-rail--left {
-    left: 0.75rem;
-  }
-  .hfa-ad-rail--right {
-    right: 0.75rem;
-  }
-  .hfa-ad-rail .hfa-ad-img {
-    max-width: 140px;
-    max-height: 250px;
-    object-fit: contain;
-    border-radius: 6px;
-  }
-  .hfa-ad-rail .hfa-ad-sponsor,
-  .hfa-ad-rail .hfa-ad-label {
-    color: var(--text-muted);
-  }
-}
-
-/* Wide: rails span the full gutter beside the 1200px column, full viewport height under the header */
-@media (min-width: 1480px) {
+@media (min-width: 1500px) {
   .hfa-ad-rail {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    justify-content: flex-start;
-    gap: 0.65rem;
+    justify-content: center;
+    gap: 0.35rem;
     position: fixed;
     top: var(--sticky-header-offset);
     bottom: max(1rem, env(safe-area-inset-bottom, 0px));
-    z-index: 40;
-    /* Use the entire gutter from viewport edge to the main column */
-    width: calc(50% - (var(--hfa-page-column-max) / 2) - 1.5rem);
+    z-index: 45;
+    width: calc(50vw - (var(--hfa-page-column-max) / 2) - 1.25rem);
     min-width: 140px;
-    padding: 1rem 0.85rem;
+    max-width: min(280px, 22vw);
+    padding: 0.35rem 0.3rem;
     text-align: center;
-    background: rgba(11, 11, 23, 0.97);
+    background-color: #0b0b17;
     border: none;
     border-radius: 0;
     backdrop-filter: blur(8px);
@@ -1812,34 +1775,35 @@ span.flatpickr-weekday {
     box-sizing: border-box;
   }
   .hfa-ad-rail--left {
-    left: 0;
+    left: max(0, env(safe-area-inset-left, 0px));
     border-right: 1px solid var(--gray);
     border-radius: 0 12px 12px 0;
   }
   .hfa-ad-rail--right {
-    right: 0;
+    right: max(0, env(safe-area-inset-right, 0px));
     border-left: 1px solid var(--gray);
     border-radius: 12px 0 0 12px;
   }
   .hfa-ad-rail .hfa-ad-link {
     display: flex;
     flex-direction: column;
-    flex: 1 1 0;
+    flex: 0 1 auto;
     justify-content: center;
     align-items: center;
     min-height: 0;
     width: 100%;
-    gap: 0.5rem;
+    gap: 0.3rem;
   }
   .hfa-ad-rail .hfa-ad-img {
-    flex: 1 1 0;
+    display: block;
     width: 100%;
-    min-height: 10rem;
-    max-height: none;
-    max-width: none;
+    max-width: 100%;
     height: auto;
+    max-height: min(72vh, calc(100vh - var(--sticky-header-offset) - 4.5rem));
     object-fit: contain;
+    object-position: center center;
     border-radius: 8px;
+    background-color: #0b0b17;
   }
   .hfa-ad-rail .hfa-ad-label {
     flex-shrink: 0;
@@ -1853,12 +1817,21 @@ span.flatpickr-weekday {
 }
 
 /* In-flow banner slots — inner width matches .home-cta-list (narrow column on home) */
+aside.hfa-ad-slot {
+  color-scheme: dark;
+  -webkit-tap-highlight-color: transparent;
+}
 .hfa-ad-slot {
   text-align: center;
   padding: 1.25rem 1rem;
-  background: #0B0B16;
+  background-color: #0b0b17;
+  background: #0b0b17;
   border-top: 1px solid var(--gray);
   border-bottom: 1px solid var(--gray);
+}
+.hfa-ad-slot .hfa-ad-link,
+.hfa-ad-slot .hfa-ad-label {
+  background-color: #0b0b17;
 }
 .hfa-ad-slot .hfa-ad-label,
 .hfa-ad-slot .hfa-ad-link {
@@ -1886,11 +1859,40 @@ span.flatpickr-weekday {
   max-width: var(--hfa-home-cta-column-max);
   max-height: 100px;
   object-fit: contain;
+  object-position: center center;
   border-radius: 6px;
+  background-color: #0b0b17;
+  vertical-align: middle;
+}
+/* Mobile Safari sometimes paints link/image areas with a light canvas; force dark surfaces */
+@media (max-width: 768px) {
+  aside.hfa-ad-slot,
+  aside.hfa-ad-slot.hfa-ad-slot--rail-fallback {
+    background-color: #0b0b17 !important;
+    background: #0b0b17 !important;
+  }
+  .hfa-ad-slot .hfa-ad-link,
+  .hfa-ad-slot .hfa-ad-label {
+    background-color: #0b0b17 !important;
+    background: #0b0b17 !important;
+  }
+  .hfa-ad-slot .hfa-ad-link {
+    -webkit-tap-highlight-color: transparent;
+  }
+  .hfa-ad-slot .hfa-ad-img {
+    background-color: #0b0b17 !important;
+  }
 }
 @media (max-width: 480px) {
-  .hfa-ad-slot { padding: 1rem 0.75rem; }
-  .hfa-ad-slot .hfa-ad-img { max-height: 70px; }
+  .hfa-ad-slot {
+    padding: 1rem 0.75rem;
+    background-color: #0b0b17 !important;
+    background: #0b0b17 !important;
+  }
+  .hfa-ad-slot .hfa-ad-img {
+    max-height: 70px;
+    background-color: #0b0b17 !important;
+  }
 }
 
 /* Responsive adjustments */
