@@ -10,7 +10,9 @@
       "label": "",
       "position": "banner",
       "placementSlots": [
-        "banner_below_header"
+        "banner_below_header",
+        "banner_above_footer",
+        "banner_below_footer"
       ],
       "pages": [
         "index.html",
