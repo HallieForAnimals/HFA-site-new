@@ -263,26 +263,39 @@ nav {
   display: flex;
 }
 
-/* Small/mid desktop: logo row + wrapping link row (single-row nav collides with tagline ~1200–1500px) */
-@media (min-width: 769px) and (max-width: 1599px) {
+/*
+ * Desktop / tablet landscape (769px+): always stack brand + nav.
+ * Full-width bar so the logo sits at the viewport edge (with padding); links stay centered
+ * in the same max-width column as main content — avoids single-row overlap at any width.
+ */
+@media (min-width: 769px) {
   nav {
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     row-gap: 0.85rem;
-    align-items: center;
+    align-items: start;
   }
 
   .logo {
-    justify-self: center;
+    justify-self: start;
+    padding-left: clamp(1rem, 3vw, 2.4rem);
+    padding-right: clamp(1rem, 3vw, 2.4rem);
   }
 
   .nav-links {
     margin: 0 auto;
     width: 100%;
-    max-width: 100%;
+    max-width: var(--hfa-page-column-max);
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.55rem 0.65rem;
+    padding: 0 clamp(1rem, 3vw, 2.4rem);
+    box-sizing: border-box;
   }
 
   .nav-links > a,
@@ -298,7 +311,25 @@ nav {
   }
 
   nav {
-    flex-wrap: wrap;
+    max-width: var(--hfa-page-column-max);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    row-gap: 0;
+  }
+
+  .logo {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav-links {
+    max-width: none;
+    padding: 0;
   }
 
   .burger-btn {
