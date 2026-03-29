@@ -1721,7 +1721,7 @@ span.flatpickr-weekday {
   font-size: 0.65rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #8a909c;
+  color: var(--text-muted);
   margin: 0 0 0.5rem;
 }
 .hfa-ad-link {
@@ -1736,7 +1736,7 @@ span.flatpickr-weekday {
 .hfa-ad-link:hover { opacity: 0.85; }
 .hfa-ad-sponsor {
   font-size: 0.8rem;
-  color: #4a5568;
+  color: var(--text-muted);
 }
 
 /* Desktop sidebar rails (left & right gutters) — hidden on narrow screens */
@@ -1776,28 +1776,38 @@ span.flatpickr-weekday {
   }
 }
 
-/* In-flow banner slots (below header / above footer / below footer) */
+/* In-flow banner slots (below header / above footer / below footer) — align width with .page-container */
 .hfa-ad-slot {
   text-align: center;
   padding: 1.25rem 1rem;
-  background: #f5f7fa;
-  border-top: 1px solid #e0e4ea;
-  border-bottom: 1px solid #e0e4ea;
+  background: #0B0B16;
+  border-top: 1px solid var(--gray);
+  border-bottom: 1px solid var(--gray);
+}
+.hfa-ad-slot .hfa-ad-label,
+.hfa-ad-slot .hfa-ad-link {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hfa-ad-slot .hfa-ad-link {
+  width: 100%;
 }
 .hfa-ad-slot--below-header,
 .hfa-ad-slot--banner-below-header {
   border-top: none;
-  border-bottom: 1px solid #e0e4ea;
+  border-bottom: 1px solid var(--gray);
   margin: 0;
 }
 .hfa-ad-slot--below-footer,
 .hfa-ad-slot--banner-below-footer {
-  border-top: 1px solid #e0e4ea;
+  border-top: 1px solid var(--gray);
   border-bottom: none;
   margin-top: 0;
 }
 .hfa-ad-slot .hfa-ad-img {
-  max-width: min(90%, 600px);
+  width: 100%;
+  max-width: 1200px;
   max-height: 100px;
   object-fit: contain;
   border-radius: 6px;
