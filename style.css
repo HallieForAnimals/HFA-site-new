@@ -22,6 +22,9 @@
 
 html {
   scroll-padding-top: var(--sticky-header-offset);
+  width: 100%;
+  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 * {
@@ -37,6 +40,9 @@ body {
   line-height: 1.6;
   overflow-wrap: break-word;
   -webkit-text-size-adjust: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 img, video, iframe {
@@ -67,9 +73,10 @@ header {
 }
 
 nav {
-  max-width: 100%;
-  margin: 0;
-  padding: 0 2.4rem;        /* horizontal inset from viewport edge */
+  max-width: var(--hfa-page-column-max);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 2.4rem);
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
@@ -620,6 +627,14 @@ footer {
   text-align: center;
 }
 
+/* Align footer blocks with the same column as nav / .page-container */
+footer > *:not(.email-counter-banner) {
+  width: 100%;
+  max-width: var(--hfa-page-column-max);
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
 
 footer.footer-centered {
   text-align: center;
@@ -636,8 +651,10 @@ footer.footer-centered {
 /* Adoptable Dogs Page Styles – added below         */
 
 .page-container {
+  width: 100%;
   max-width: var(--hfa-page-column-max);
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 2rem 1rem;
 }
 
@@ -1748,30 +1765,32 @@ span.flatpickr-weekday {
 }
 
 /*
- * Sidebar rails: fixed overlay in the viewport gutter — never in document flow, so they do not
- * push .page-hero / .page-container. Width uses clamp() so narrow viewports still get a thin strip.
+ * Sidebar rails: fixed in the *gutter only* beside the centered column.
+ * Width must never exceed the side margin — a min-width clamp was overlapping the CTA grid.
  */
 .hfa-ad-rail {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
   .hfa-ad-rail {
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
     gap: 0.35rem;
-    position: fixed;
+    position: fixed !important;
     top: var(--sticky-header-offset);
     bottom: max(1rem, env(safe-area-inset-bottom, 0px));
     z-index: 45;
-    /* Gutter beside centered 1200px column; when calc is small/negative, clamp keeps a minimal overlay width */
-    width: clamp(72px, calc(50vw - (var(--hfa-page-column-max) / 2) - 1.25rem), min(280px, 22vw));
+    /* Space left of the 1200px column (matches centered .page-container / nav) */
+    --hfa-gutter-left: max(0px, calc((100vw - min(100vw, var(--hfa-page-column-max))) / 2 - 0.75rem));
+    width: min(260px, var(--hfa-gutter-left));
+    min-width: 0;
     padding: 0.35rem 0.3rem;
     text-align: center;
-    background: none;
-    background-color: transparent;
+    background: none !important;
+    background-color: transparent !important;
     border: none;
     box-shadow: none;
     overflow-x: hidden;
@@ -1780,12 +1799,12 @@ span.flatpickr-weekday {
     pointer-events: auto;
   }
   .hfa-ad-rail--left {
-    left: max(0, env(safe-area-inset-left, 0px));
+    left: max(0px, env(safe-area-inset-left, 0px));
     border-right: none;
     border-radius: 0;
   }
   .hfa-ad-rail--right {
-    right: max(0, env(safe-area-inset-right, 0px));
+    right: max(0px, env(safe-area-inset-right, 0px));
     border-left: none;
     border-radius: 0;
   }
@@ -1840,6 +1859,7 @@ aside.hfa-ad-slot {
   background: #0b0b17;
   border-top: 1px solid var(--gray);
   border-bottom: 1px solid var(--gray);
+  isolation: isolate;
 }
 .hfa-ad-slot .hfa-ad-link,
 .hfa-ad-slot .hfa-ad-label {
@@ -1875,6 +1895,7 @@ aside.hfa-ad-slot {
   border-radius: 6px;
   background-color: #0b0b17;
   vertical-align: middle;
+  mix-blend-mode: normal;
 }
 /* Mobile: full-bleed dark strip + nearly full-width creative (no off-white canvas behind aside) */
 @media (max-width: 768px) {
