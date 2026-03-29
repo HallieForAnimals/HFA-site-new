@@ -1745,12 +1745,15 @@ span.flatpickr-weekday {
   color: var(--text-muted);
 }
 
-/* Desktop sidebar rails — only when the centered column leaves enough gutter (see JS fallback <1500px) */
+/*
+ * Sidebar rails: fixed overlay in the viewport gutter — never in document flow, so they do not
+ * push .page-hero / .page-container. Width uses clamp() so narrow viewports still get a thin strip.
+ */
 .hfa-ad-rail {
   display: none;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 768px) {
   .hfa-ad-rail {
     display: flex;
     flex-direction: column;
@@ -1761,18 +1764,18 @@ span.flatpickr-weekday {
     top: var(--sticky-header-offset);
     bottom: max(1rem, env(safe-area-inset-bottom, 0px));
     z-index: 45;
-    width: calc(50vw - (var(--hfa-page-column-max) / 2) - 1.25rem);
-    min-width: 140px;
-    max-width: min(280px, 22vw);
+    /* Gutter beside centered 1200px column; when calc is small/negative, clamp keeps a minimal overlay width */
+    width: clamp(72px, calc(50vw - (var(--hfa-page-column-max) / 2) - 1.25rem), min(280px, 22vw));
     padding: 0.35rem 0.3rem;
     text-align: center;
-    background-color: #0b0b17;
+    background-color: rgba(11, 11, 23, 0.97);
     border: none;
-    border-radius: 0;
     backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     overflow-x: hidden;
     overflow-y: auto;
     box-sizing: border-box;
+    pointer-events: auto;
   }
   .hfa-ad-rail--left {
     left: max(0, env(safe-area-inset-left, 0px));
@@ -1866,8 +1869,7 @@ aside.hfa-ad-slot {
 }
 /* Mobile Safari sometimes paints link/image areas with a light canvas; force dark surfaces */
 @media (max-width: 768px) {
-  aside.hfa-ad-slot,
-  aside.hfa-ad-slot.hfa-ad-slot--rail-fallback {
+  aside.hfa-ad-slot {
     background-color: #0b0b17 !important;
     background: #0b0b17 !important;
   }
