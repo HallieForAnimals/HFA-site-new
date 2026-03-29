@@ -584,7 +584,7 @@
                 wireAdEvents(container, sk);
               });
 
-              /** Sidebar creatives: always fixed overlay (see .hfa-ad-rail in style.css), never in-flow — avoids pushing the hero / main column. */
+              /** Sidebar: fixed rails on body; CSS shows from 1200px (see style.css --hfa-sidebar-rail-min). */
               ['sidebar_left', 'sidebar_right'].forEach(function (sk) {
                 var pool = poolForSlot(sk);
                 if (!pool.length) return;
