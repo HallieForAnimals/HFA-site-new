@@ -38,6 +38,43 @@
       "audienceRegions": [],
       "audienceCities": [],
       "active": true
+    },
+    {
+      "sponsor": "Thy Kingdom Come Undone",
+      "image": "assets/img/ads/tkcuad-1774804365029.png",
+      "url": "https://www.amazon.com/Kingdom-Undone-Valley-Shadow-Light/dp/B0FGH3JY9D/ref=tmm_pap_swatch_0?_encoding=UTF8&sr=8-1",
+      "alt": "",
+      "label": "",
+      "position": "sidebar",
+      "placementSlots": [
+        "sidebar_left",
+        "sidebar_right"
+      ],
+      "pages": [
+        "index.html",
+        "about.html",
+        "recent.html",
+        "ongoing.html",
+        "updated.html",
+        "rescues-charities.html",
+        "resources.html",
+        "in-memoriam.html",
+        "donate.html",
+        "faq.html",
+        "contact.html",
+        "terms.html",
+        "privacy.html",
+        "coming-soon.html"
+      ],
+      "excludePages": [],
+      "audienceCountries": [],
+      "audienceMacroRegions": [
+        "uk",
+        "eu"
+      ],
+      "audienceRegions": [],
+      "audienceCities": [],
+      "active": true
     }
   ]
 }
