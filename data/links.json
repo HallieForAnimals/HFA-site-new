@@ -985,6 +985,70 @@
       "postToUpdates": true,
       "createdAt": "2026-03-28T22:42:31Z",
       "updatedAt": "2026-03-28T22:42:31Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "18621-victory-blvd-ca",
+      "slug": "neglect-at-18621-victory-blvd-ca-20260329",
+      "status": "recent",
+      "role": "original",
+      "title": "Neglect at 18621 Victory Blvd, CA",
+      "mailtoSubject": "Request for Welfare Check & Animal Neglect Investigation - 18621 Victory Blvd, Reseda, CA 91335",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"NEGLECT AT 18621 VICTORY BLVD, CA\"❗️\n\nCall:\nLAPD: +1 877 275 5273\nWest Valley Animal Care Center: +1 213 485 8405\n\nLocation: 18621 Victory Blvd, Reseda, CA 91335\n\nTwo dogs are left out in the front yard without food, with no choice but to eat the avocados growing in the yard.\nAvocados are toxic to dogs and present a choking hazard.\n\n#California #LosAngeles #cutedogs",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"NEGLECT AT 18621 VICTORY BLVD, CA\"❗️\n\nCall:\nLAPD: +1 877 275 5273\nWest Valley Animal Care Center: +1 213 485 8405\n\nLocation: 18621 Victory Blvd, Reseda, CA 91335\n\nTwo dogs are left out in the front yard without food, with no choice but to eat the avocados growing in the yard.\nAvocados are toxic to dogs and present a choking hazard.\n\n#California #LosAngeles #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to report an ongoing animal welfare concern at the residential property located at 18621 Victory Blvd, Reseda, CA 91335.\n\nTwo dogs have been left unsupervised and without food in the front yard, this is an ongoing issue. They are currently sustaining themselves by eating avocados that have fallen from the avocado tree on the property. Avocados are well-documented to be toxic to dogs and can cause serious health issues, including vomiting, diarrhea, pancreatitis, and cardiac problems, as well as posing a choking hazard.\n\nThis situation constitutes clear animal neglect, as the dogs are being denied basic necessities (food, safe containment, and proper care). I respectfully request the following immediate actions:\n\n1 - An immediate welfare check by LAPD West Valley Division and/or LA Animal Services officers.\n2 - A full investigation into animal neglect/cruelty charges under applicable California Penal Code sections.\n3 - Removal of the dogs to safety.\n\nI ask that you coordinate promptly and keep the public informed of the steps taken. This is a time-sensitive matter involving preventable animal suffering.\nThank you for your immediate attention and leadership on this issue.\n\nVideo evidence: https://drive.google.com/file/d/1-cK_4XIrQwn4XXJQFKeBPzL29Ymx5eXF/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "lindsey@bos.lacounty.gov",
+        "annette.ramirez@lacity.org",
+        "curtis.watts@lacity.org",
+        "yvonne.rodriguez@lacity.org",
+        "26929@lapd.online",
+        "30339@lapd.online",
+        "karen.bass@lacity.org",
+        "councilmember.blumenfield@lacity.org"
+      ],
+      "phones": [],
+      "callScript": "I’m calling to report animal neglect at 18621 Victory Blvd, Reseda, 91335.\nTwo dogs are loose in the front yard with no food or water. They’re eating avocados from the tree, which are toxic to dogs. I’m requesting an immediate welfare check and investigation for neglect charges.\nPlease send an officer and provide a case or reference number.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1-cK_4XIrQwn4XXJQFKeBPzL29Ymx5eXF/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/neglect-at-18621-victory-blvd-ca-20260329",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"NEGLECT AT 18621 VICTORY BLVD, CA\"❗️\n\nCall:\nLAPD: +1 877 275 5273\nWest Valley Animal Care Center: +1 213 485 8405\n\nLocation: 18621 Victory Blvd, Reseda, CA 91335\n\nTwo dogs are left out in the front yard without food, with no choice but to eat the avocados growing in the yard.\nAvocados are toxic to dogs and present a choking hazard.\n\n#California #LosAngeles #cutedogs",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Los Angeles Authorities",
+        "state": "California",
+        "city": "Los Angeles",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "LAPD",
+            "code": "+1",
+            "number": "877 275 5273",
+            "ext": ""
+          },
+          {
+            "who": "West Valley Animal Care Center",
+            "code": "+1",
+            "number": "213 485 8405",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-03-29T00:29:23Z",
+      "updatedAt": "2026-03-29T00:29:23Z"
     }
   ]
 }
