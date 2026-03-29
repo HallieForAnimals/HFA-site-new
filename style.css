@@ -11,6 +11,8 @@
   --accent-red: #F2C9D7;     /* soft highlight */
   /* Sticky header (padding + logo/nav row); used so #anchors clear the bar */
   --sticky-header-offset: clamp(9rem, 14vh, 14rem);
+  /* Home “Take action” list column; sponsored banners use the same width */
+  --hfa-home-cta-column-max: 720px;
 }
 
 html {
@@ -536,7 +538,7 @@ nav {
 .home-cta-list {
   list-style: none;
   margin: 0 auto;
-  max-width: 720px;
+  max-width: var(--hfa-home-cta-column-max);
   padding: 0;
   border: 1px solid var(--gray);
   border-radius: 12px;
@@ -1776,7 +1778,7 @@ span.flatpickr-weekday {
   }
 }
 
-/* In-flow banner slots (below header / above footer / below footer) — align width with .page-container */
+/* In-flow banner slots — inner width matches .home-cta-list (narrow column on home) */
 .hfa-ad-slot {
   text-align: center;
   padding: 1.25rem 1rem;
@@ -1786,7 +1788,7 @@ span.flatpickr-weekday {
 }
 .hfa-ad-slot .hfa-ad-label,
 .hfa-ad-slot .hfa-ad-link {
-  max-width: 1200px;
+  max-width: var(--hfa-home-cta-column-max);
   margin-left: auto;
   margin-right: auto;
 }
@@ -1807,7 +1809,7 @@ span.flatpickr-weekday {
 }
 .hfa-ad-slot .hfa-ad-img {
   width: 100%;
-  max-width: 1200px;
+  max-width: var(--hfa-home-cta-column-max);
   max-height: 100px;
   object-fit: contain;
   border-radius: 6px;
