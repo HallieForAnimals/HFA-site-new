@@ -31,11 +31,10 @@
       "excludePages": [],
       "audienceCountries": [],
       "audienceMacroRegions": [
-        "eu"
+        "eu",
+        "uk"
       ],
-      "audienceRegions": [
-        "Ireland"
-      ],
+      "audienceRegions": [],
       "audienceCities": [],
       "active": true
     }
