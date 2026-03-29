@@ -11,8 +11,10 @@
   --accent-red: #F2C9D7;     /* soft highlight */
   /* Sticky header (padding + logo/nav row); used so #anchors clear the bar */
   --sticky-header-offset: clamp(9rem, 14vh, 14rem);
-  /* Home “Take action” list column; sponsored banners use the same width */
+  /* Home “Take action” list column */
   --hfa-home-cta-column-max: 720px;
+  /* In-flow sponsored banners (below header / footer) — ~2× CTA column so creatives use horizontal space */
+  --hfa-ad-banner-max: min(1440px, calc(100vw - 1.5rem));
   /* Matches .page-container — sidebar rails sit in the gutter just outside this column */
   --hfa-page-column-max: 1200px;
   --hfa-rail-gap: 1rem;
@@ -1768,10 +1770,10 @@ span.flatpickr-weekday {
     width: clamp(72px, calc(50vw - (var(--hfa-page-column-max) / 2) - 1.25rem), min(280px, 22vw));
     padding: 0.35rem 0.3rem;
     text-align: center;
-    background-color: rgba(11, 11, 23, 0.97);
+    background: none;
+    background-color: transparent;
     border: none;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    box-shadow: none;
     overflow-x: hidden;
     overflow-y: auto;
     box-sizing: border-box;
@@ -1779,13 +1781,13 @@ span.flatpickr-weekday {
   }
   .hfa-ad-rail--left {
     left: max(0, env(safe-area-inset-left, 0px));
-    border-right: 1px solid var(--gray);
-    border-radius: 0 12px 12px 0;
+    border-right: none;
+    border-radius: 0;
   }
   .hfa-ad-rail--right {
     right: max(0, env(safe-area-inset-right, 0px));
-    border-left: 1px solid var(--gray);
-    border-radius: 12px 0 0 12px;
+    border-left: none;
+    border-radius: 0;
   }
   .hfa-ad-rail .hfa-ad-link {
     display: flex;
@@ -1806,7 +1808,7 @@ span.flatpickr-weekday {
     object-fit: contain;
     object-position: center center;
     border-radius: 8px;
-    background-color: #0b0b17;
+    background-color: transparent;
   }
   .hfa-ad-rail .hfa-ad-label {
     flex-shrink: 0;
@@ -1819,10 +1821,17 @@ span.flatpickr-weekday {
   }
 }
 
-/* In-flow banner slots — inner width matches .home-cta-list (narrow column on home) */
+/* In-flow banner slots — inner width uses --hfa-ad-banner-max (wider than home CTA list) */
 aside.hfa-ad-slot {
   color-scheme: dark;
   -webkit-tap-highlight-color: transparent;
+  display: block;
+  width: 100%;
+  max-width: none;
+  -webkit-appearance: none;
+  appearance: none;
+  forced-color-adjust: none;
+  print-color-adjust: exact;
 }
 .hfa-ad-slot {
   text-align: center;
@@ -1838,7 +1847,7 @@ aside.hfa-ad-slot {
 }
 .hfa-ad-slot .hfa-ad-label,
 .hfa-ad-slot .hfa-ad-link {
-  max-width: var(--hfa-home-cta-column-max);
+  max-width: var(--hfa-ad-banner-max);
   margin-left: auto;
   margin-right: auto;
 }
@@ -1859,7 +1868,7 @@ aside.hfa-ad-slot {
 }
 .hfa-ad-slot .hfa-ad-img {
   width: 100%;
-  max-width: var(--hfa-home-cta-column-max);
+  max-width: var(--hfa-ad-banner-max);
   max-height: 100px;
   object-fit: contain;
   object-position: center center;
@@ -1867,14 +1876,20 @@ aside.hfa-ad-slot {
   background-color: #0b0b17;
   vertical-align: middle;
 }
-/* Mobile Safari sometimes paints link/image areas with a light canvas; force dark surfaces */
+/* Mobile: full-bleed dark strip + nearly full-width creative (no off-white canvas behind aside) */
 @media (max-width: 768px) {
   aside.hfa-ad-slot {
     background-color: #0b0b17 !important;
     background: #0b0b17 !important;
+    background-image: none !important;
+    padding-left: max(0.5rem, env(safe-area-inset-left, 0px));
+    padding-right: max(0.5rem, env(safe-area-inset-right, 0px));
   }
-  .hfa-ad-slot .hfa-ad-link,
-  .hfa-ad-slot .hfa-ad-label {
+  .hfa-ad-slot .hfa-ad-label,
+  .hfa-ad-slot .hfa-ad-link {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
     background-color: #0b0b17 !important;
     background: #0b0b17 !important;
   }
@@ -1882,17 +1897,22 @@ aside.hfa-ad-slot {
     -webkit-tap-highlight-color: transparent;
   }
   .hfa-ad-slot .hfa-ad-img {
+    max-width: 100%;
     background-color: #0b0b17 !important;
   }
 }
 @media (max-width: 480px) {
+  aside.hfa-ad-slot {
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
+  }
   .hfa-ad-slot {
-    padding: 1rem 0.75rem;
+    padding: 0.85rem 0.35rem;
     background-color: #0b0b17 !important;
     background: #0b0b17 !important;
   }
   .hfa-ad-slot .hfa-ad-img {
-    max-height: 70px;
+    max-height: 96px;
     background-color: #0b0b17 !important;
   }
 }
