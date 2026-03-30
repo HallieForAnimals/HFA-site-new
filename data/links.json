@@ -1049,6 +1049,61 @@
       "postToUpdates": true,
       "createdAt": "2026-03-29T00:29:23Z",
       "updatedAt": "2026-03-29T00:29:23Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "neveah-baranko",
+      "slug": "maximum-punishment-for-neveah-baranko-20260330",
+      "status": "recent",
+      "role": "original",
+      "title": "Maximum Punishment for Neveah Baranko",
+      "mailtoSubject": "Request for Maximum Charges in Plum Creek Canines Animal Abuse Case",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO NORTH DAKOTA STATE ATTORNEY TITLED \"MAXIMUM PUNISHMENT FOR NEVEAH BARANKO\"❗️\n\nCall:\nStark County State’s Attorney’s: +1 701 456 7647\n\nAbusers Name: Neveah Baranko\n\nBaranko of Plum Creek Canines needs to serve as an example of what happens with abusive trainers.\nToo many abusive trainers get off lightly with a slap on the wrist.\nAnimal abuse deserves real consequences that serve as a real deterrent. Not just swept under the rug for convenience.\nThe dog, Bella, has been removed from Baranko's \"tuition\", and her owners are pressing charges.\n\n#NorthDakota #Dickinson #cutedogs",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO NORTH DAKOTA STATE ATTORNEY TITLED \"MAXIMUM PUNISHMENT FOR NEVEAH BARANKO\"❗️\n\nCall:\nStark County State’s Attorney’s: +1 701 456 7647\n\nAbusers Name: Neveah Baranko\n\nBaranko of Plum Creek Canines needs to serve as an example of what happens with abusive trainers.\nToo many abusive trainers get off lightly with a slap on the wrist.\nAnimal abuse deserves real consequences that serve as a real deterrent. Not just swept under the rug for convenience.\nThe dog, Bella, has been removed from Baranko's \"tuition\", and her owners are pressing charges.\n\n#NorthDakota #Dickinson #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned citizen and animal advocate regarding the ongoing investigation into the alleged animal abuse at Plum Creek Canines in Dickinson, North Dakota. The graphic video that has circulated widely on social media clearly shows an individual (identified publicly as business owner and trainer Neveah Baranko) repeatedly striking and kicking a dog named Bella during what appears to be a training or handling session.\n\nI understand that the Stark County Sheriff’s Office has already conducted interviews, gathered evidence, and forwarded a formal report citing a violation of North Dakota Century Code 36-21.2. I also understand that, after review, your office has appropriately recused itself due to a conflict of interest and has referred the matter to another independent State’s Attorney’s Office for any potential charging decision.\n\nGiven the clear video evidence and the fact that this occurred at a licensed dog daycare and training business that serves the public, I respectfully urge your office to ensure that the reviewing prosecutor throws the book at the individual responsible and pursues the strongest possible charges and penalties available under North Dakota law. Animal abuse is not a minor infraction, it is a serious crime that demands full accountability.\n\nThere are far too many abusive trainers and kennel operators across the country who continue to harm animals behind closed doors. Strong prosecution in this high-visibility case would send a powerful message of deterrence to others in the industry and help restore public trust that North Dakota will not tolerate cruelty, especially when it involves animals entrusted to “professionals.”\n\nI kindly request a public statement updating the status of the referral, the name of the receiving State’s Attorney’s Office if it can be shared, and any timeline for a charging decision. The community is watching closely and stands ready to support full enforcement of our animal protection laws.\n\nThank you for your time and for your commitment to justice in this matter.\n\nVideo evidence: https://drive.google.com/file/d/1yWP1c6MwDRCvGiCxoDtTSvts4ZnwtBrQ/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "aengelstad@starkcountynd.gov",
+        "attorney@starkcountynd.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling regarding the case against Neveah Baranko of Plum Creek Canines.\nI understand it’s been referred to an independent prosecutor due to a conflict of interest.\nI’m respectfully asking that the state attorney to whom the case has been delegated be named and that they pursue the strongest possible charges under NDCC 36-21.2 against Baranko so this sends a clear message of accountability.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1yWP1c6MwDRCvGiCxoDtTSvts4ZnwtBrQ/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/maximum-punishment-for-neveah-baranko-20260330",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO NORTH DAKOTA STATE ATTORNEY TITLED \"MAXIMUM PUNISHMENT FOR NEVEAH BARANKO\"❗️\n\nCall:\nStark County State’s Attorney’s: +1 701 456 7647\n\nAbusers Name: Neveah Baranko\n\nBaranko of Plum Creek Canines needs to serve as an example of what happens with abusive trainers.\nToo many abusive trainers get off lightly with a slap on the wrist.\nAnimal abuse deserves real consequences that serve as a real deterrent. Not just swept under the rug for convenience.\nThe dog, Bella, has been removed from Baranko's \"tuition\", and her owners are pressing charges.\n\n#NorthDakota #Dickinson #cutedogs",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "North Dakota State Attorney",
+        "state": "North Dakota",
+        "city": "Dickinson",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Stark County State’s Attorney’s",
+            "code": "+1",
+            "number": "701 456 7647",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-03-30T00:28:17Z",
+      "updatedAt": "2026-03-30T00:28:17Z",
+      "recipientsCc": [
+        "attorney@starkcountynd.gov"
+      ]
     }
   ]
 }
