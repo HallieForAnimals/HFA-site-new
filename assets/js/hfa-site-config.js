@@ -518,14 +518,24 @@
                 if (/^[a-z0-9][a-z0-9.-]*\.[a-z]{2,}([\/#?].*)?$/i.test(u)) return 'https://' + u;
                 return '#';
               }
+              /** Value sent as campaignId to the tracker for Hallie media-kit filters (explicit campaignId, else stable creative key). */
+              function analyticsCampaignIdForAd(ad) {
+                var a = ad || {};
+                var explicit = String(a.campaignId || a.campaign || '').trim();
+                if (explicit) return explicit.slice(0, 128);
+                var derived = String(a.id || a.sponsor || a.image || '').trim();
+                if (!derived) return '';
+                return derived.replace(/\s+/g, '-').toLowerCase().slice(0, 128);
+              }
               function buildAdHtml(ad, slotKey) {
                 var slot = slotKey || 'banner_above_footer';
                 var lbl = esc(ad.label || data.label || 'Sponsored');
                 var img = resolveImg(ad.image);
                 var adId = String(ad.id || ad.sponsor || ad.image || Math.random().toString(36).slice(2, 8)).replace(/\s+/g, '-').toLowerCase();
                 var href = safeUrl(ad.url);
+                var camp = analyticsCampaignIdForAd(ad) || adId;
                 var h = '<p class="hfa-ad-label">' + lbl + '</p>';
-                h += '<a href="' + esc(href) + '" target="_blank" rel="sponsored noopener" class="hfa-ad-link" data-ad-id="' + esc(adId) + '" data-ad-slot="' + esc(slot) + '" data-ad-url="' + esc(href) + '">';
+                h += '<a href="' + esc(href) + '" target="_blank" rel="sponsored noopener" class="hfa-ad-link" data-ad-id="' + esc(adId) + '" data-ad-slot="' + esc(slot) + '" data-ad-url="' + esc(href) + '" data-ad-campaign="' + esc(camp) + '">';
                 if (img) h += '<img src="' + esc(img) + '" alt="' + esc(ad.alt || ad.sponsor || '') + '" class="hfa-ad-img">';
                 if (ad.sponsor) h += '<span class="hfa-ad-sponsor">' + esc(ad.sponsor) + '</span>';
                 h += '</a>';
@@ -538,7 +548,7 @@
                 var adMeta = {
                   slot: slotName || link.getAttribute('data-ad-slot') || 'banner_above_footer',
                   id: link.getAttribute('data-ad-id') || '',
-                  campaignId: '',
+                  campaignId: String(link.getAttribute('data-ad-campaign') || '').trim().slice(0, 128),
                   url: link.getAttribute('data-ad-url') || ''
                 };
                 emitAdEvent('impression', adMeta);
