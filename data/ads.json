@@ -37,7 +37,13 @@
       ],
       "audienceRegions": [],
       "audienceCities": [],
-      "active": true
+      "active": true,
+      "campaignId": "",
+      "startDate": "",
+      "endDate": "",
+      "contactEmail": "",
+      "contactPhone": "",
+      "contactNotes": ""
     },
     {
       "sponsor": "Thy Kingdom Come Undone",
@@ -47,7 +53,6 @@
       "label": "OUT NOW!",
       "position": "sidebar",
       "placementSlots": [
-        "sidebar_left",
         "sidebar_right"
       ],
       "pages": [
@@ -58,7 +63,6 @@
         "updated.html",
         "rescues-charities.html",
         "resources.html",
-        "in-memoriam.html",
         "donate.html",
         "faq.html",
         "contact.html",
@@ -66,15 +70,26 @@
         "privacy.html",
         "coming-soon.html"
       ],
-      "excludePages": [],
+      "excludePages": [
+        "in-memoriam.html"
+      ],
       "audienceCountries": [],
       "audienceMacroRegions": [
-        "uk",
-        "eu"
+        "usa_canada"
       ],
-      "audienceRegions": [],
-      "audienceCities": [],
-      "active": true
+      "audienceRegions": [
+        "California"
+      ],
+      "audienceCities": [
+        "Los Angeles"
+      ],
+      "active": true,
+      "campaignId": "",
+      "startDate": "",
+      "endDate": "",
+      "contactEmail": "",
+      "contactPhone": "",
+      "contactNotes": ""
     }
   ]
 }
