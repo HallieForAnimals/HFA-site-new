@@ -248,6 +248,20 @@
          * Align runtime parsing with Hallie `normalizeSiteDataAds`: fixes hand-edited JSON,
          * hyphenated slot keys, and ensures macro keys are valid (so EU targeting actually runs).
          */
+        /** YYYY-MM-DD inclusive; omit start/end for no limit on that side. */
+        function adScheduleActiveToday(ad) {
+          var today = new Date();
+          var y = today.getFullYear();
+          var m = String(today.getMonth() + 1).padStart(2, '0');
+          var d = String(today.getDate()).padStart(2, '0');
+          var todayStr = y + '-' + m + '-' + d;
+          var start = String(ad.startDate || ad.start_date || '').trim();
+          var end = String(ad.endDate || ad.end_date || '').trim();
+          if (start && todayStr < start) return false;
+          if (end && todayStr > end) return false;
+          return true;
+        }
+
         function normalizeAdsPlacements(data) {
           if (!data || !Array.isArray(data.placements)) return;
           data.placements.forEach(function (p) {
@@ -450,6 +464,7 @@
             function runWithGeo(geo) {
               var eligible = data.placements.filter(function (ad) {
                 if (ad.active === false) return false;
+                if (!adScheduleActiveToday(ad)) return false;
                 if (!audienceMatches(ad, geo)) return false;
                 function pageMatch(entry) {
                   var e = entry.toLowerCase().replace(/\.html$/i, '');
