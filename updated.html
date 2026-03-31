@@ -172,11 +172,17 @@
       function bestTimestamp(item) {
         return parseEpoch(item.updatedAt) || parseEpoch(item.createdAt) || parseEpoch(item.updateDate);
       }
+      function originalCreatedEpoch(item) {
+        return parseEpoch(item && item.createdAt) || parseEpoch(item && item.updatedAt) || parseEpoch(item && item.updateDate);
+      }
       var cases = Object.keys(byCase).map(function(caseId) {
         var updatesForCase = byCase[caseId].slice().sort(function(a, b) {
           return bestTimestamp(b) - bestTimestamp(a);
         });
-        var original = originals.filter(function(o) { return trimCaseId(o.caseId) === caseId; })[0] || {};
+        var originalsForCase = originals.filter(function(o) { return trimCaseId(o.caseId) === caseId; });
+        var original = originalsForCase.slice().sort(function(a, b) {
+          return originalCreatedEpoch(a) - originalCreatedEpoch(b);
+        })[0] || {};
         var latest = updatesForCase[0] || {};
         var rawSt = lc(latest.updateStatus || '');
         var filterBucket = rawSt === 'resolved' ? 'resolved' : 'ongoing';
@@ -225,6 +231,14 @@
         }
         if (isNaN(d.getTime())) return s;
         return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+      }
+      function formatCreatedDateForOriginal(rawIso) {
+        var s = String(rawIso || '').trim();
+        if (!s) return '';
+        if (/^\d{4}-\d{2}-\d{2}T/.test(s)) {
+          return formatDisplayDate(s.slice(0, 10));
+        }
+        return formatDisplayDate(s);
       }
       function badgeLabel(filterBucket) {
         return filterBucket === 'resolved' ? 'Resolved' : 'Ongoing';
@@ -414,7 +428,7 @@
         var buttonAttrs = isEmail ? ' rel="nofollow"' : ' rel="nofollow noopener noreferrer" target="_blank"';
         var button = shortUrl ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn"' + buttonAttrs + '>' + esc(buttonLabel) + '</a>' : '';
         var shareBtn = shortUrl ? '<button type="button" class="cta-share-btn" data-share-url="' + esc(shortUrl) + '" data-share-title="' + esc(title) + '">Share</button>' : '';
-        var dateLine = formatDisplayDate(original.createdAt);
+        var dateLine = formatCreatedDateForOriginal(original.createdAt);
         return '<details class="cta-context-details update-original-details">' +
           '<summary class="cta-context-summary">Original post — ' + esc(title) + '</summary>' +
           '<div class="cta-context-body">' +
