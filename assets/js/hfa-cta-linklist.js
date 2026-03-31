@@ -48,6 +48,14 @@
     return normalizedListStatus(x) === 'ongoing';
   }
 
+  function isUpdateCta(x) {
+    if (!x) return false;
+    var ctaType = String(x.ctaType || '').trim().toLowerCase();
+    var roleNorm = String(x.role || '').trim().toLowerCase();
+    var statusNorm = String(x.status || '').trim().toLowerCase();
+    return ctaType === 'update' || roleNorm === 'update' || statusNorm === 'updated';
+  }
+
   function sectionLinksNamed(json, needle) {
     var sec = json && json.sections;
     if (!Array.isArray(sec) || !sec.length) return [];
@@ -100,6 +108,28 @@
     return collectMerged(json || {}, isOngoingCta, 'ongoing');
   }
 
+  function hfaCollectUpdateCtas(json) {
+    var seen = Object.create(null);
+    var out = [];
+    var list = Array.isArray(json && json.links) ? json.links : [];
+    list.forEach(function (item) {
+      if (!item || !isUpdateCta(item)) return;
+      if (isHiddenCta(item)) return;
+      var sl = String(item.slug || '').trim().toLowerCase();
+      if (!sl) return;
+      if (seen[sl]) return;
+      seen[sl] = true;
+      out.push(item);
+    });
+    return out.sort(function (a, b) {
+      var aT = parseEpoch(a.updatedAt) || parseEpoch(a.createdAt);
+      var bT = parseEpoch(b.updatedAt) || parseEpoch(b.createdAt);
+      return bT - aT;
+    });
+  }
+
   global.hfaCollectRecentCtas = hfaCollectRecentCtas;
   global.hfaCollectOngoingCtas = hfaCollectOngoingCtas;
+  global.hfaCollectUpdateCtas = hfaCollectUpdateCtas;
+  global.hfaIsUpdateCta = isUpdateCta;
 })(typeof window !== 'undefined' ? window : globalThis);
