@@ -2585,21 +2585,24 @@ aside.hfa-ad-slot {
   padding: 0.45rem 1rem;
   margin-top: 0.35rem;
 }
-.update-original-details {
+.update-original-details.cta-context-details {
   background: var(--gray-dark);
+  color: var(--text-light);
   border: 1px solid var(--gray);
-  border-radius: 12px;
+  border-radius: 14px;
+  overflow: hidden;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
 .update-original-details > .cta-context-summary {
   padding: 1.25rem 1.5rem;
-  font-size: 1rem;
+  font-size: inherit;
   font-weight: 600;
   color: var(--text-light);
 }
 .update-original-details > .cta-context-body {
   padding: 0 1.5rem 1.5rem;
+  border-top: 1px solid var(--gray);
 }
 .update-original-details .cta-context-body .cta-card-section { margin-bottom: 0.75rem; }
 .update-original-details .cta-context-body .cta-primary-btn { margin-top: 0.75rem; }
@@ -3524,7 +3527,6 @@ body.hfa-newsletter-open {
 
   .update-original-details > .cta-context-summary {
     padding: 1rem 1rem;
-    font-size: 1.05rem;
   }
   .update-original-details > .cta-context-body {
     padding: 0 1rem 1rem;
