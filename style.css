@@ -2531,6 +2531,81 @@ aside.hfa-ad-slot {
   }
 }
 
+/* Context accordions: collapsible original-post / related-updates within cards */
+.cta-context-wrap {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray);
+}
+.cta-context-details {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  margin-bottom: 0.65rem;
+}
+.cta-context-details:last-child { margin-bottom: 0; }
+.cta-context-summary {
+  cursor: pointer;
+  padding: 0.7rem 1rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  list-style: none;
+}
+.cta-context-summary::-webkit-details-marker { display: none; }
+.cta-context-summary::after { content: ' ▾'; opacity: 0.6; }
+.cta-context-details[open] > .cta-context-summary::after { content: ' ▴'; }
+.cta-context-body {
+  padding: 0 1rem 1rem;
+  border-top: 1px solid var(--gray);
+}
+.cta-context-card {
+  padding: 0.65rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.cta-context-card:last-child { border-bottom: 0; }
+.cta-context-card-title {
+  margin: 0 0 0.25rem;
+  font-size: 0.95rem;
+}
+.cta-context-card-date {
+  margin: 0 0 0.35rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+.cta-context-card-desc {
+  margin: 0.35rem 0 0.5rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+.cta-context-card .cta-primary-btn {
+  font-size: 0.85rem;
+  padding: 0.45rem 1rem;
+  margin-top: 0.35rem;
+}
+.update-original-details {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.update-original-details .cta-context-body .cta-card-section { margin-bottom: 0.75rem; }
+.update-original-details .cta-context-body .cta-primary-btn { margin-top: 0.75rem; }
+
+/* Update badge on recent CTAs page */
+.cta-update-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #a8d8f5, #4aace8);
+  color: #0a2235;
+  padding: 0.18rem 0.5rem;
+  border-radius: 4px;
+  vertical-align: middle;
+  margin-right: 0.35rem;
+}
+
 /* CTA updates: legacy case cards (kept for any other consumers) */
 .case-card {
   background: var(--gray-dark);

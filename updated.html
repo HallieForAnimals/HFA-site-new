@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="color-scheme" content="dark" />
   <meta name="robots" content="index,follow">  <title>Case Updates | HallieForAnimals</title>
   <meta name="description" content="Case updates on animal welfare campaigns. See what has changed and continue to demand accountability.">
   <link rel="canonical" href="https://hallieforanimals.org/updated.html">
@@ -15,13 +16,13 @@
   <meta name="twitter:title" content="Case Updates | HallieForAnimals">
   <meta name="twitter:description" content="Case updates on animal welfare campaigns. Continue to demand accountability.">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260321">
+  <link rel="stylesheet" href="style.css?v=20260337">
   <link rel="icon" href="assets/img/logo.png" type="image/png">
   <link rel="apple-touch-icon" href="assets/img/logo.png">
   <script src="assets/js/hfa-preview-settings.js"></script>
   <script src="assets/js/hfa-preview-settings.local.js"></script>
   <script src="assets/js/preview-gate.js"></script>
-  <script src="assets/js/hfa-site-config.js"></script>
+  <script src="assets/js/hfa-site-config.js?v=20260337"></script>
   <script src="assets/js/hfa-cta-description.js"></script>
 </head>
 <body>
@@ -168,15 +169,18 @@
         if (!byCase[cid]) byCase[cid] = [];
         byCase[cid].push(up);
       });
+      function bestTimestamp(item) {
+        return parseEpoch(item.updatedAt) || parseEpoch(item.createdAt) || parseEpoch(item.updateDate);
+      }
       var cases = Object.keys(byCase).map(function(caseId) {
         var updatesForCase = byCase[caseId].slice().sort(function(a, b) {
-          return parseEpoch(b.updateDate || b.updatedAt || b.createdAt) - parseEpoch(a.updateDate || a.updatedAt || a.createdAt);
+          return bestTimestamp(b) - bestTimestamp(a);
         });
         var original = originals.filter(function(o) { return trimCaseId(o.caseId) === caseId; })[0] || {};
         var latest = updatesForCase[0] || {};
         var rawSt = lc(latest.updateStatus || '');
         var filterBucket = rawSt === 'resolved' ? 'resolved' : 'ongoing';
-        var latestAt = parseEpoch(latest.updateDate || latest.updatedAt || latest.createdAt);
+        var latestAt = bestTimestamp(latest);
         return {
           caseId: caseId,
           original: original,
@@ -187,6 +191,11 @@
         };
       }).sort(function(a, b) { return (b.latestAt || 0) - (a.latestAt || 0); });
       function esc(s) { return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+      function formatCaseIdAsTitle(caseId) {
+        var s = String(caseId || '').trim();
+        if (!s) return 'Case';
+        return s.replace(/[-_]+/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
+      }
 
       function linkifyInstagramMentions(escapedText) {
         return (escapedText || '').replace(
@@ -324,7 +333,7 @@
         var shareBtn = shortUrl ? '<button type="button" class="cta-share-btn" data-share-url="' + esc(shortUrl) + '" data-share-title="' + shareTitle + '">Share</button>' : '';
         var boycottUrl = (item.boycottUrl || c.original.boycottUrl || '').trim();
         var boycott = boycottUrl ? '<a href="' + esc(boycottUrl) + '" class="secondary-btn" style="display:block; margin-top:0.75rem; text-align:center; text-decoration:none;">How to boycott</a>' : '';
-        var dateLine = formatDisplayDate(item.updateDate || item.updatedAt);
+        var dateLine = formatDisplayDate(item.updatedAt || item.createdAt || item.updateDate);
         var dateHtml = dateLine ? '<p class="update-accordion-date">' + esc(dateLine) + '</p>' : '';
         return '<details class="cta-accordion cta-card-ui">' +
           '<summary id="' + esc(ctaAnchorIdFromSlug(item.slug)) + '" class="cta-accordion-summary">' + esc(summaryTitle) + '</summary>' +
@@ -343,8 +352,15 @@
         '</details>';
       }
       function caseSearchBlob(c) {
-        var caseTitle = (c.original.title || c.caseId || '').trim();
+        var caseTitle = formatCaseIdAsTitle(c.caseId);
         var parts = [caseTitle, c.caseId];
+        if (c.original) {
+          parts.push(c.original.title, c.original.slug);
+          parts.push(stripHtmlForSearch(c.original.descriptionLong || c.original.description || c.original.summary || ''));
+          var origSec = targetsAndLocationPhonesFromCb(captionBuilderFromItem(c.original));
+          parts.push(origSec.targets.join(' '));
+          parts.push(origSec.locationText);
+        }
         c.updates.forEach(function(u) {
           parts.push(u.updateTitle, u.title, u.slug);
           parts.push(stripHtmlForSearch(u.descriptionLong || u.description || u.updateBody || u.updateSummary || u.summary || ''));
@@ -357,14 +373,73 @@
         });
         return esc(parts.join(' ').toLowerCase());
       }
+      function renderOriginalPostCollapsible(original) {
+        if (!original || !original.slug) return '';
+        var title = (original.title || original.slug || 'Original CTA').trim();
+        var descRaw = original.descriptionLong || original.description || original.summary || '';
+        var descForCard = (typeof hfaStripCaptionMetaFromDescription === 'function')
+          ? hfaStripCaptionMetaFromDescription(descRaw)
+          : descRaw;
+        var descHtml = descForCard
+          ? linkifyInstagramMentions(esc(descForCard)).replace(/\n/g, '<br/>')
+          : '';
+        var sec = targetsAndLocationPhonesFromCb(captionBuilderFromItem(original));
+        var targets = sec.targets;
+        var locationText = sec.locationText;
+        var phones = sec.phones;
+        var phoneLis = phones.map(function(p) {
+          var who = (p.who || '').trim();
+          var code = (p.code || '').trim();
+          var num = (p.number || p.main || '').trim();
+          var ext = (p.ext || '').trim();
+          var main = [code, num].filter(Boolean).join(' ').trim();
+          var suffix = ext ? (' ext ' + ext) : '';
+          var visiblePhone = main + suffix;
+          var telHref = telFromMain(main, ext);
+          return '<li class="cta-phone-row"><span class="cta-phone-who">' + esc(who || '') + '</span>' +
+            (telHref ? '<a href="tel:' + esc(telHref) + '" class="cta-phone-link cta-phone-num" rel="nofollow">' + esc(visiblePhone) + '</a>'
+                     : '<span class="cta-phone-num">' + esc(visiblePhone) + '</span>') + '</li>';
+        });
+        var callScriptText = String(original.callScript || '').trim();
+        var callScriptHtml = callScriptText ? linkifyInstagramMentions(esc(callScriptText)).replace(/\n/g,'<br/>') : '';
+        var vidUrl = (original.videoEmbedUrl || '').trim();
+        var video = vidUrl ? '<div class="cta-video"><iframe src="' + esc(vidUrl) + '" loading="lazy" allowfullscreen></iframe></div>' : '';
+        var shortUrl = (original.shortlinkUrl || original.shortlink || '').trim();
+        if (!shortUrl || (original.slug && shortUrl.indexOf(TRACKER_BASE + '/') !== 0)) shortUrl = trackedUrlFromSlug(original.slug);
+        var tag = (original.tag || '').toString().toLowerCase();
+        var isEmail = original.ctaType === 'email' || tag.indexOf('email') !== -1;
+        var nonEmailLabel = String(original.nonEmailActionText || original.actionText || '').trim();
+        if (!nonEmailLabel) nonEmailLabel = 'Take action';
+        var buttonLabel = isEmail ? 'Send the one-click email' : nonEmailLabel;
+        var buttonAttrs = isEmail ? ' rel="nofollow"' : ' rel="nofollow noopener noreferrer" target="_blank"';
+        var button = shortUrl ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn"' + buttonAttrs + '>' + esc(buttonLabel) + '</a>' : '';
+        var shareBtn = shortUrl ? '<button type="button" class="cta-share-btn" data-share-url="' + esc(shortUrl) + '" data-share-title="' + esc(title) + '">Share</button>' : '';
+        var dateLine = formatDisplayDate(original.createdAt || original.updatedAt);
+        return '<details class="cta-context-details update-original-details">' +
+          '<summary class="cta-context-summary">Original post — ' + esc(title) + '</summary>' +
+          '<div class="cta-context-body">' +
+            (dateLine ? '<p class="cta-context-card-date">' + esc(dateLine) + '</p>' : '') +
+            video +
+            (descHtml ? '<div class="cta-card-section"><h3>Description</h3><div class="cta-card-body cta-card-desc">' + descHtml + '</div></div>' : '') +
+            (targets.length ? '<div class="cta-card-section"><h3>Targets</h3><div class="cta-card-body"><ul class="cta-card-list">' + targets.map(function(t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul></div></div>' : '') +
+            (locationText ? '<div class="cta-card-section"><h3>Location</h3><div class="cta-card-body">' + esc(locationText) + '</div></div>' : '') +
+            (phoneLis.length ? '<div class="cta-card-section"><h3>Phone</h3><div class="cta-card-body"><ul class="cta-card-list cta-phone-list">' + phoneLis.join('') + '</ul></div></div>' : '') +
+            ((phoneLis.length && callScriptHtml) ? '<div class="cta-card-section"><h3>Call script</h3><div class="cta-card-body">' + callScriptHtml + '</div></div>' : '') +
+            button +
+            shareBtn +
+          '</div>' +
+        '</details>';
+      }
+
       container.innerHTML = cases.map(function(c) {
-        var caseTitle = (c.original.title || c.caseId || 'Case').trim();
+        var caseTitle = formatCaseIdAsTitle(c.caseId);
         var latest = c.latest;
-        var lastLine = formatDisplayDate(latest.updateDate || latest.updatedAt);
+        var lastLine = formatDisplayDate(latest.updatedAt || latest.createdAt || latest.updateDate);
         var metaParts = [];
         if (lastLine) metaParts.push('Last updated: ' + lastLine);
         if (c.updates.length > 1) metaParts.push(c.updates.length + ' updates');
         var metaHtml = metaParts.length ? '<p class="update-case-shell-meta">' + esc(metaParts.join(' · ')) + '</p>' : '';
+        var originalHtml = renderOriginalPostCollapsible(c.original);
         var accordions = c.updates.map(function(u) { return renderUpdateAccordion(u, c); }).join('');
         return '<article id="' + esc(caseAnchorId(c.caseId)) + '" class="update-case-shell" data-updates-status="' + esc(c.filterBucket) + '" data-updates-search="' + caseSearchBlob(c) + '">' +
           '<header class="update-case-shell-head">' +
@@ -372,6 +447,7 @@
           '<h2 class="update-case-shell-title">' + esc(caseTitle) + '</h2>' +
           metaHtml +
           '</header>' +
+          originalHtml +
           '<div class="update-case-accordions">' + accordions + '</div>' +
         '</article>';
       }).join('');

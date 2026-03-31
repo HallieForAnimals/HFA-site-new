@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="color-scheme" content="dark" />
   <meta name="robots" content="index,follow">  <title>Recent CTAs | HallieForAnimals</title>
   <meta name="description" content="Recent calls to action for animal welfare. Send pre-written emails and make calls to hold authorities accountable.">
   <link rel="canonical" href="https://hallieforanimals.org/recent.html">
@@ -15,13 +16,13 @@
   <meta name="twitter:title" content="Recent CTAs | HallieForAnimals">
   <meta name="twitter:description" content="Recent calls to action for animal welfare. Send emails and make calls to hold authorities accountable.">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260321">
+  <link rel="stylesheet" href="style.css?v=20260337">
   <link rel="icon" href="assets/img/logo.png" type="image/png">
   <link rel="apple-touch-icon" href="assets/img/logo.png">
   <script src="assets/js/hfa-preview-settings.js"></script>
   <script src="assets/js/hfa-preview-settings.local.js"></script>
   <script src="assets/js/preview-gate.js"></script>
-  <script src="assets/js/hfa-site-config.js"></script>
+  <script src="assets/js/hfa-site-config.js?v=20260337"></script>
   <script src="assets/js/hfa-cta-description.js"></script>
   <script src="assets/js/hfa-cta-linklist.js"></script>
 </head>
@@ -104,13 +105,56 @@
     .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
     .then(function(json) {
       var recent = typeof hfaCollectRecentCtas === 'function' ? hfaCollectRecentCtas(json) : [];
-      if (!recent.length) {
+      var updateCtas = typeof hfaCollectUpdateCtas === 'function' ? hfaCollectUpdateCtas(json) : [];
+
+      var seenSlugs = Object.create(null);
+      var combined = [];
+      recent.concat(updateCtas).forEach(function(item) {
+        var sl = String(item.slug || '').trim().toLowerCase();
+        if (sl) { if (seenSlugs[sl]) return; seenSlugs[sl] = true; }
+        combined.push(item);
+      });
+
+      function parseEpoch(raw) {
+        var n = Date.parse(String(raw || '').trim());
+        return Number.isFinite(n) && n > 0 ? n : 0;
+      }
+      function isUpdateRow(x) {
+        if (!x) return false;
+        var type = String(x.ctaType || '').trim().toLowerCase();
+        var role = String(x.role || '').trim().toLowerCase();
+        var st = String(x.status || '').trim().toLowerCase();
+        return type === 'update' || role === 'update' || st === 'updated';
+      }
+      function activityEpoch(item) {
+        if (isUpdateRow(item)) return parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
+        return parseEpoch(item.createdAt) || parseEpoch(item.updatedAt);
+      }
+      combined.sort(function(a, b) { return activityEpoch(b) - activityEpoch(a); });
+
+      var allLinks = Array.isArray(json.links) ? json.links : [];
+      var caseCtx = Object.create(null);
+      allLinks.forEach(function(lnk) {
+        if (!lnk) return;
+        var cid = String(lnk.caseId || '').trim();
+        if (!cid) return;
+        if (!caseCtx[cid]) caseCtx[cid] = { original: null, updates: [] };
+        if (isUpdateRow(lnk)) {
+          caseCtx[cid].updates.push(lnk);
+        } else {
+          var rl = String(lnk.role || '').trim().toLowerCase();
+          if ((!rl || rl === 'original') && !(lnk.hidden === true || lnk.archived === true)) {
+            if (!caseCtx[cid].original) caseCtx[cid].original = lnk;
+          }
+        }
+      });
+
+      if (!combined.length) {
         container.innerHTML = '<p>No recent CTAs yet.</p>';
         return;
       }
+
       function esc(s) { return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-      // Note: `shortlinkUrl` is ideally the tracker URL, but for mock/test data it may be a direct short URL.
-      // We'll only fall back to the tracker URL if `shortlinkUrl` is missing.
       var TRACKER_BASE = 'https://go.hallieforanimals.org/t';
       function trackedUrlFromSlug(slug) {
         if (!slug) return '';
@@ -118,7 +162,6 @@
       }
 
       function linkifyInstagramMentions(escapedText) {
-        // `escapedText` is already HTML-escaped, so we can safely inject only our own <a> tags.
         return (escapedText || '').replace(
           /(^|[^A-Za-z0-9._-])@([A-Za-z0-9._-]{1,30})(?![A-Za-z0-9._-])/g,
           function(match, prefix, handle) {
@@ -148,9 +191,25 @@
         return 'c-' + (s || 'cta');
       }
 
-      container.innerHTML = recent.map(function(item) {
+      function resolveShortUrl(item) {
+        var u = (item.shortlinkUrl || item.shortlink || '').trim();
+        if (!u) u = trackedUrlFromSlug(item.slug);
+        return u;
+      }
+
+      function buttonHtml(item) {
+        var shortUrl = resolveShortUrl(item);
+        var tag = (item.tag || '').toString().toLowerCase();
+        var isEmail = item.ctaType === 'email' || (String(item.ctaType || '') === 'update' && item.updateIncludeEmail) || tag.indexOf('email') !== -1;
+        var nonEmailLabel = String(item.nonEmailActionText || item.actionText || '').trim();
+        if (!nonEmailLabel) nonEmailLabel = 'Take action';
+        var label = isEmail ? 'Send the one-click email' : nonEmailLabel;
+        var attrs = isEmail ? ' rel="nofollow"' : ' rel="nofollow noopener noreferrer" target="_blank"';
+        return shortUrl ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn"' + attrs + '>' + esc(label) + '</a>' : '';
+      }
+
+      function captionBuilderFromItem(item) {
         var cb = item.captionBuilder || {};
-        // Old links.json fallback: move location/targets/phones into the shape our card renderer expects.
         if (!item.captionBuilder && item.location) {
           cb = Object.assign({}, cb, {
             country: item.location.country || '',
@@ -160,77 +219,107 @@
             phones: item.phones || []
           });
         }
+        return cb;
+      }
 
+      function formatDisplayDate(raw) {
+        var s = String(raw || '').trim();
+        if (!s) return '';
+        var d = new Date(s);
+        if (isNaN(d.getTime()) && /^\d{4}-\d{2}-\d{2}/.test(s)) d = new Date(s.slice(0, 10) + 'T12:00:00');
+        if (isNaN(d.getTime())) return s;
+        return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+      }
+
+      function renderCardBody(item) {
+        var cb = captionBuilderFromItem(item);
         var targets = [];
-        if (Array.isArray(cb.targets)) {
-          targets = cb.targets;
-        } else {
-          var targetsRaw = (cb.targets || '').toString();
-          targets = targetsRaw ? targetsRaw.split(',').map(function(s) { return s.trim(); }).filter(Boolean) : [];
-        }
-
-        var locationParts = [cb.city, cb.state, cb.country].map(function(s) { return (s || '').trim(); }).filter(Boolean);
-        var locationText = locationParts.length ? locationParts.join(', ') : '';
-
+        if (Array.isArray(cb.targets)) { targets = cb.targets; }
+        else { var raw = (cb.targets || '').toString(); targets = raw ? raw.split(',').map(function(s) { return s.trim(); }).filter(Boolean) : []; }
+        var locParts = [cb.city, cb.state, cb.country].map(function(s) { return (s || '').trim(); }).filter(Boolean);
+        var locationText = locParts.length ? locParts.join(', ') : '';
         var phones = Array.isArray(cb.phones) ? cb.phones : [];
         var phoneLis = phones.map(function(p) {
           var who = (p.who || '').trim();
           var code = (p.code || '').trim();
-          // old schema uses `main` instead of `number`
           var num = (p.number || p.main || '').trim();
           var ext = (p.ext || '').trim();
           var main = [code, num].filter(Boolean).join(' ').trim();
           var suffix = ext ? (' ext ' + ext) : '';
-
           var visiblePhone = main + suffix;
           var telHref = telFromMain(main, ext);
-          return '<li class="cta-phone-row">' +
-            '<span class="cta-phone-who">' + esc(who || '') + '</span>' +
-            (telHref
-              ? ('<a href="tel:' + esc(telHref) + '" class="cta-phone-link cta-phone-num" rel="nofollow">' + esc(visiblePhone) + '</a>')
-              : ('<span class="cta-phone-num">' + esc(visiblePhone) + '</span>')) +
-          '</li>';
+          return '<li class="cta-phone-row"><span class="cta-phone-who">' + esc(who || '') + '</span>' +
+            (telHref ? '<a href="tel:' + esc(telHref) + '" class="cta-phone-link cta-phone-num" rel="nofollow">' + esc(visiblePhone) + '</a>'
+                     : '<span class="cta-phone-num">' + esc(visiblePhone) + '</span>') + '</li>';
         });
-
         var callScriptText = String(item.callScript || '').trim();
-        var callScriptHtml = callScriptText
-          ? linkifyInstagramMentions(esc(callScriptText)).replace(/\n/g,'<br/>')
-          : '';
-
-        var descriptionRaw = item.descriptionLong || item.description || item.summary || '';
-        var descriptionForCard = (typeof hfaStripCaptionMetaFromDescription === 'function')
-          ? hfaStripCaptionMetaFromDescription(descriptionRaw)
-          : descriptionRaw;
-        var descriptionHtml = descriptionForCard
-          ? linkifyInstagramMentions(esc(descriptionForCard)).replace(/\n/g,'<br/>')
-          : '';
-
+        var callScriptHtml = callScriptText ? linkifyInstagramMentions(esc(callScriptText)).replace(/\n/g,'<br/>') : '';
+        var descRaw = item.descriptionLong || item.description || item.updateBody || item.updateSummary || item.summary || '';
+        var descForCard = (typeof hfaStripCaptionMetaFromDescription === 'function') ? hfaStripCaptionMetaFromDescription(descRaw) : descRaw;
+        var descHtml = descForCard ? linkifyInstagramMentions(esc(descForCard)).replace(/\n/g,'<br/>') : '';
         var video = item.videoEmbedUrl ? '<div class="cta-video"><iframe src="' + esc(item.videoEmbedUrl) + '" loading="lazy" allowfullscreen></iframe></div>' : '';
+        return video +
+          (descHtml ? '<div class="cta-card-section"><h3>Description</h3><div class="cta-card-body cta-card-desc">' + descHtml + '</div></div>' : '') +
+          (targets.length ? '<div class="cta-card-section"><h3>Targets</h3><div class="cta-card-body"><ul class="cta-card-list">' + targets.map(function(t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul></div></div>' : '') +
+          (locationText ? '<div class="cta-card-section"><h3>Location</h3><div class="cta-card-body">' + esc(locationText) + '</div></div>' : '') +
+          (phoneLis.length ? '<div class="cta-card-section"><h3>Phone</h3><div class="cta-card-body"><ul class="cta-card-list cta-phone-list">' + phoneLis.join('') + '</ul></div></div>' : '') +
+          ((phoneLis.length && callScriptHtml) ? '<div class="cta-card-section"><h3>Call script</h3><div class="cta-card-body">' + callScriptHtml + '</div></div>' : '');
+      }
 
-        var shortUrl = (item.shortlinkUrl || item.shortlink || '').trim();
-        if (!shortUrl) shortUrl = trackedUrlFromSlug(item.slug);
+      function renderContextCard(ctxItem) {
+        var title = (ctxItem.title || ctxItem.slug || 'CTA').trim();
+        var shortUrl = resolveShortUrl(ctxItem);
+        var btn = buttonHtml(ctxItem);
+        var descRaw = ctxItem.descriptionLong || ctxItem.description || ctxItem.updateBody || ctxItem.updateSummary || ctxItem.summary || '';
+        if (typeof hfaStripCaptionMetaFromDescription === 'function') descRaw = hfaStripCaptionMetaFromDescription(descRaw);
+        if (descRaw.length > 220) descRaw = descRaw.slice(0, 220) + '…';
+        var descHtml = descRaw ? linkifyInstagramMentions(esc(descRaw)).replace(/\n/g, '<br/>') : '';
+        var dateLine = formatDisplayDate(ctxItem.updatedAt || ctxItem.createdAt || ctxItem.updateDate);
+        return '<div class="cta-context-card">' +
+          '<p class="cta-context-card-title"><strong>' + esc(title) + '</strong></p>' +
+          (dateLine ? '<p class="cta-context-card-date">' + esc(dateLine) + '</p>' : '') +
+          (descHtml ? '<div class="cta-context-card-desc">' + descHtml + '</div>' : '') +
+          btn +
+        '</div>';
+      }
 
-        var tag = (item.tag || '').toString().toLowerCase();
-        var isEmail = item.ctaType === 'email' || (item.ctaType === 'update' && item.updateIncludeEmail) || tag.indexOf('email') !== -1;
-        var nonEmailLabel = String(item.nonEmailActionText || item.actionText || '').trim();
-        if (!nonEmailLabel) nonEmailLabel = 'Take action';
-        var buttonLabel = isEmail ? 'Send the one-click email' : nonEmailLabel;
-        var buttonAttrs = isEmail ? ' rel="nofollow"' : ' rel="nofollow noopener noreferrer" target="_blank"';
-        var button = shortUrl ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn"' + buttonAttrs + '>' + esc(buttonLabel) + '</a>' : '';
+      function renderCaseContext(item) {
+        if (!isUpdateRow(item)) return '';
+        var cid = String(item.caseId || '').trim();
+        var ctx = cid ? caseCtx[cid] : null;
+        if (!ctx) return '';
+        var parts = [];
+        if (ctx.original) {
+          parts.push('<details class="cta-context-details">' +
+            '<summary class="cta-context-summary">Original post</summary>' +
+            '<div class="cta-context-body">' + renderContextCard(ctx.original) + '</div></details>');
+        }
+        var siblings = ctx.updates.filter(function(u) {
+          return String(u.slug || '').trim().toLowerCase() !== String(item.slug || '').trim().toLowerCase();
+        });
+        if (siblings.length) {
+          parts.push('<details class="cta-context-details">' +
+            '<summary class="cta-context-summary">Related updates (' + siblings.length + ')</summary>' +
+            '<div class="cta-context-body">' + siblings.map(renderContextCard).join('') + '</div></details>');
+        }
+        return parts.length ? '<div class="cta-context-wrap">' + parts.join('') + '</div>' : '';
+      }
+
+      container.innerHTML = combined.map(function(item) {
+        var shortUrl = resolveShortUrl(item);
+        var btn = buttonHtml(item);
         var shareTitle = esc(item.title || item.slug || 'CTA');
         var shareBtn = shortUrl ? '<button type="button" class="cta-share-btn" data-share-url="' + esc(shortUrl) + '" data-share-title="' + shareTitle + '">Share</button>' : '';
+        var isUpdate = isUpdateRow(item);
+        var updateBadge = isUpdate ? '<span class="cta-update-badge">Update</span> ' : '';
 
         return '<details class="cta-accordion cta-card-ui">' +
-          '<summary id="' + esc(ctaAnchorIdFromSlug(item.slug)) + '" class="cta-accordion-summary">' + esc(item.title || item.slug || 'CTA') + '</summary>' +
+          '<summary id="' + esc(ctaAnchorIdFromSlug(item.slug)) + '" class="cta-accordion-summary">' + updateBadge + esc(item.title || item.slug || 'CTA') + '</summary>' +
           '<div class="cta-accordion-body">' +
-            video +
-            (descriptionHtml ? ('<div class="cta-card-section"><h3>Description</h3><div class="cta-card-body cta-card-desc">' + descriptionHtml + '</div></div>') : '') +
-            (targets.length ? ('<div class="cta-card-section"><h3>Targets</h3><div class="cta-card-body"><ul class="cta-card-list">' + targets.map(function(t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul></div></div>') : '') +
-            (locationText ? ('<div class="cta-card-section"><h3>Location</h3><div class="cta-card-body">' + esc(locationText) + '</div></div>') : '') +
-            (phoneLis.length ? ('<div class="cta-card-section"><h3>Phone</h3><div class="cta-card-body"><ul class="cta-card-list cta-phone-list">' + phoneLis.join('') + '</ul></div></div>') : '') +
-            ((phoneLis.length && callScriptHtml) ? ('<div class="cta-card-section"><h3>Call script</h3><div class="cta-card-body">' + callScriptHtml + '</div></div>') : '') +
-            button +
+            renderCardBody(item) +
+            btn +
             shareBtn +
+            renderCaseContext(item) +
           '</div>' +
         '</details>';
       }).join('');
