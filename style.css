@@ -2596,9 +2596,12 @@ aside.hfa-ad-slot {
 }
 .update-original-details > .cta-context-summary {
   padding: 1.25rem 1.5rem;
-  font-size: inherit;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--text-light);
+  text-align: center;
+  list-style: none;
+  width: 100%;
 }
 .update-original-details > .cta-context-body {
   padding: 0 1.5rem 1.5rem;

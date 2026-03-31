@@ -414,11 +414,11 @@
         var buttonAttrs = isEmail ? ' rel="nofollow"' : ' rel="nofollow noopener noreferrer" target="_blank"';
         var button = shortUrl ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn"' + buttonAttrs + '>' + esc(buttonLabel) + '</a>' : '';
         var shareBtn = shortUrl ? '<button type="button" class="cta-share-btn" data-share-url="' + esc(shortUrl) + '" data-share-title="' + esc(title) + '">Share</button>' : '';
-        var dateLine = formatDisplayDate(original.createdAt || original.updatedAt);
+        var dateLine = formatDisplayDate(original.createdAt);
         return '<details class="cta-context-details update-original-details">' +
           '<summary class="cta-context-summary">Original post — ' + esc(title) + '</summary>' +
           '<div class="cta-context-body">' +
-            (dateLine ? '<p class="cta-context-card-date">' + esc(dateLine) + '</p>' : '') +
+            (dateLine ? '<p class="update-accordion-date">Posted: ' + esc(dateLine) + '</p>' : '') +
             video +
             (descHtml ? '<div class="cta-card-section"><h3>Description</h3><div class="cta-card-body cta-card-desc">' + descHtml + '</div></div>' : '') +
             (targets.length ? '<div class="cta-card-section"><h3>Targets</h3><div class="cta-card-body"><ul class="cta-card-list">' + targets.map(function(t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul></div></div>' : '') +

@@ -266,7 +266,7 @@
           ((phoneLis.length && callScriptHtml) ? '<div class="cta-card-section"><h3>Call script</h3><div class="cta-card-body">' + callScriptHtml + '</div></div>' : '');
       }
 
-      function renderContextCard(ctxItem) {
+      function renderContextCard(ctxItem, isOriginal) {
         var title = (ctxItem.title || ctxItem.slug || 'CTA').trim();
         var shortUrl = resolveShortUrl(ctxItem);
         var btn = buttonHtml(ctxItem);
@@ -274,7 +274,9 @@
         if (typeof hfaStripCaptionMetaFromDescription === 'function') descRaw = hfaStripCaptionMetaFromDescription(descRaw);
         if (descRaw.length > 220) descRaw = descRaw.slice(0, 220) + '…';
         var descHtml = descRaw ? linkifyInstagramMentions(esc(descRaw)).replace(/\n/g, '<br/>') : '';
-        var dateLine = formatDisplayDate(ctxItem.updatedAt || ctxItem.createdAt || ctxItem.updateDate);
+        var dateLine = isOriginal
+          ? formatDisplayDate(ctxItem.createdAt)
+          : formatDisplayDate(ctxItem.updatedAt || ctxItem.createdAt || ctxItem.updateDate);
         return '<div class="cta-context-card">' +
           '<p class="cta-context-card-title"><strong>' + esc(title) + '</strong></p>' +
           (dateLine ? '<p class="cta-context-card-date">' + esc(dateLine) + '</p>' : '') +
@@ -292,7 +294,7 @@
         if (ctx.original) {
           parts.push('<details class="cta-context-details">' +
             '<summary class="cta-context-summary">Original post</summary>' +
-            '<div class="cta-context-body">' + renderContextCard(ctx.original) + '</div></details>');
+            '<div class="cta-context-body">' + renderContextCard(ctx.original, true) + '</div></details>');
         }
         var siblings = ctx.updates.filter(function(u) {
           return String(u.slug || '').trim().toLowerCase() !== String(item.slug || '').trim().toLowerCase();
@@ -300,7 +302,7 @@
         if (siblings.length) {
           parts.push('<details class="cta-context-details">' +
             '<summary class="cta-context-summary">Related updates (' + siblings.length + ')</summary>' +
-            '<div class="cta-context-body">' + siblings.map(renderContextCard).join('') + '</div></details>');
+            '<div class="cta-context-body">' + siblings.map(function(s) { return renderContextCard(s, false); }).join('') + '</div></details>');
         }
         return parts.length ? '<div class="cta-context-wrap">' + parts.join('') + '</div>' : '';
       }
