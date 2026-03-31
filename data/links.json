@@ -1124,8 +1124,7 @@
       "recipients": [
         "center@moi.gov.eg",
         "ipetitions@ppo.gov.eg",
-        "media.office8@op.gov.eg",
-        "questions@cabinet.gov.eg"
+        "media.office8@op.gov.eg"
       ],
       "phones": [],
       "callScript": "I am calling regarding an urgent animal cruelty case in Sohag Governorate.\nIn Al-Nuwayrat village, Al-Asirat center, a dog was tied to a tree and beaten repeatedly on the head with a stick by two men. The perpetrators are publicly identified as Muhammad Mahmoud Saad and others from the Al-Zaharweh family. The video is currently spreading online.\nWe kindly request that the Ministry of Interior direct the local police in Al-Asirat to investigate immediately, visit the household, check on any animals at risk, and take the necessary legal action.",
@@ -1157,7 +1156,7 @@
       "hidden": false,
       "postToUpdates": true,
       "createdAt": "2026-03-31T00:49:35Z",
-      "updatedAt": "2026-03-31T01:19:29Z"
+      "updatedAt": "2026-03-31T01:22:38Z"
     }
   ]
 }
