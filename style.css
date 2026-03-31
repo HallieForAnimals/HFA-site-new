@@ -2483,12 +2483,13 @@ aside.hfa-ad-slot {
 .update-case-accordions .cta-accordion {
   margin-bottom: 0;
 }
-/* First update row sits under case title: square top, same bottom radius as .cta-card-ui */
-#updates-list .update-case-accordions .cta-accordion.cta-card-ui:first-child {
+/* Square top on first accordion only when no original-post collapsible precedes it */
+#updates-list .update-case-shell-head + .update-case-accordions > .cta-accordion.cta-card-ui:first-child {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-#updates-list .cta-card-ui {
+#updates-list .cta-card-ui,
+#updates-list .update-original-details {
   margin: 0;
   max-width: none;
   width: 100%;
@@ -2585,11 +2586,28 @@ aside.hfa-ad-slot {
   margin-top: 0.35rem;
 }
 .update-original-details {
+  background: var(--gray-dark);
+  border: 1px solid var(--gray);
+  border-radius: 12px;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
+.update-original-details > .cta-context-summary {
+  padding: 1.25rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-light);
+}
+.update-original-details > .cta-context-body {
+  padding: 0 1.5rem 1.5rem;
+}
 .update-original-details .cta-context-body .cta-card-section { margin-bottom: 0.75rem; }
 .update-original-details .cta-context-body .cta-primary-btn { margin-top: 0.75rem; }
+.cta-context-body .cta-video {
+  margin: 0 0 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Update badge on recent CTAs page */
 .cta-update-badge {
@@ -3501,6 +3519,14 @@ body.hfa-newsletter-open {
   }
 
   .cta-accordion-body {
+    padding: 0 1rem 1rem;
+  }
+
+  .update-original-details > .cta-context-summary {
+    padding: 1rem 1rem;
+    font-size: 1.05rem;
+  }
+  .update-original-details > .cta-context-body {
     padding: 0 1rem 1rem;
   }
 

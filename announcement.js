@@ -59,7 +59,7 @@
         return parseEpoch(item && item.createdAt) || parseEpoch(item && item.updatedAt);
       }
       function updatedEpoch(item) {
-        return parseEpoch(item && (item.updateDate || item.updatedAt || item.createdAt));
+        return parseEpoch(item && item.updatedAt) || parseEpoch(item && item.createdAt) || parseEpoch(item && item.updateDate);
       }
       function isUpdateRow(x) {
         if (!x) return false;
