@@ -136,6 +136,25 @@
           if (sec && Array.isArray(sec.links)) raw = raw.concat(sec.links);
         });
       }
+      function isUpdateLikeForFeedEpoch(x) {
+        if (!x) return false;
+        if (lc(x.ctaType) === 'update') return true;
+        return lc(x.status) === 'updated' || lc(x.role) === 'update';
+      }
+      function feedRecencyKey(item) {
+        if (typeof hfaFeedRecencyEpoch === 'function') return hfaFeedRecencyEpoch(item);
+        if (!item) return 0;
+        var save = parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
+        if (isUpdateLikeForFeedEpoch(item)) {
+          var ud = String(item.updateDate || '').trim();
+          if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
+            var story = Date.parse(ud.slice(0, 10) + 'T12:00:00');
+            if (Number.isFinite(story) && story > 0 && save > 0 && story < save) return story;
+          }
+          return save || parseEpoch(item.updateDate);
+        }
+        return parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
+      }
       var bySlugRaw = Object.create(null);
       var noSlugRaw = [];
       raw.forEach(function (item) {
@@ -150,7 +169,11 @@
           bySlugRaw[sl] = item;
           return;
         }
-        if (cur.hidden === true && item.hidden !== true) {
+        var ki = feedRecencyKey(item);
+        var kc = feedRecencyKey(cur);
+        if (ki > kc) {
+          bySlugRaw[sl] = item;
+        } else if (ki === kc && cur.hidden === true && item.hidden !== true) {
           bySlugRaw[sl] = item;
         }
       });
@@ -180,9 +203,9 @@
         if (!byCase[cid]) byCase[cid] = [];
         byCase[cid].push(up);
       });
-      /** Order by actual save time; editorial {@code updateDate} is display-only on cards. */
+      /** Feed order: backdated {@code updateDate} before save ranks by story date (same as banner / home). */
       function bestTimestamp(item) {
-        return parseEpoch(item.updatedAt) || parseEpoch(item.createdAt) || parseEpoch(item.updateDate);
+        return feedRecencyKey(item);
       }
       function originalCreatedEpoch(item) {
         return parseEpoch(item && item.createdAt) || parseEpoch(item && item.updatedAt) || parseEpoch(item && item.updateDate);

@@ -121,9 +121,18 @@
   function collectOngoing(json) {
     return typeof hfaCollectOngoingCtas === 'function' ? hfaCollectOngoingCtas(json) : [];
   }
+  function linksAndSectionsFlat(json) {
+    var out = [];
+    if (Array.isArray(json && json.links)) out = out.concat(json.links);
+    if (Array.isArray(json && json.sections)) {
+      json.sections.forEach(function (s) {
+        if (s && Array.isArray(s.links)) out = out.concat(s.links);
+      });
+    }
+    return out;
+  }
   function collectUpdated(json) {
-    var all = Array.isArray(json && json.links) ? json.links : [];
-    return all.filter(function (x) {
+    return linksAndSectionsFlat(json).filter(function (x) {
       if (!x || isArchivedCta(x)) return false;
       var type = String(x.ctaType || '').toLowerCase();
       var role = String(x.role || '').toLowerCase();
@@ -135,19 +144,23 @@
     var n = Date.parse(String(raw || '').trim());
     return Number.isFinite(n) && n > 0 ? n : 0;
   }
-  function createdEpoch(item) {
-    return parseEpoch(item && item.createdAt) || parseEpoch(item && item.updatedAt);
-  }
-  /** Save time only — editorial {@code updateDate} is for labels, not “most recent” ordering. */
-  function updatedEpoch(item) {
-    return parseEpoch(item && item.updatedAt) || parseEpoch(item && item.createdAt);
-  }
-  function activityEpoch(item) {
-    var type = String(item && item.ctaType || '').trim().toLowerCase();
-    var role = String(item && item.role || '').trim().toLowerCase();
-    var status = String(item && item.status || '').trim().toLowerCase();
-    var isUpdate = type === 'update' || role === 'update' || status === 'updated';
-    return isUpdate ? updatedEpoch(item) : createdEpoch(item);
+  function feedKey(item) {
+    if (typeof hfaFeedRecencyEpoch === 'function') return hfaFeedRecencyEpoch(item);
+    if (!item) return 0;
+    var save = parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
+    var type = String(item.ctaType || '').trim().toLowerCase();
+    var role = String(item.role || '').trim().toLowerCase();
+    var status = String(item.status || '').trim().toLowerCase();
+    var isUpd = type === 'update' || role === 'update' || status === 'updated';
+    if (isUpd) {
+      var ud = String(item.updateDate || '').trim();
+      if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
+        var story = Date.parse(ud.slice(0, 10) + 'T12:00:00');
+        if (Number.isFinite(story) && story > 0 && save > 0 && story < save) return story;
+      }
+      return save || parseEpoch(item.updateDate);
+    }
+    return parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
   }
   var path = window.location.pathname || '/';
   var dataUrl = typeof window.hfaDataJsonUrl === 'function' ? window.hfaDataJsonUrl('data/links.json') : (path.slice(0, path.lastIndexOf('/') + 1) + 'data/links.json?cb=' + Date.now());
@@ -157,8 +170,21 @@
       var recent = collectRecent(json);
       var ongoing = collectOngoing(json);
       var updated = collectUpdated(json);
-      var combined = recent.concat(ongoing, updated)
-        .sort(function (a, b) { return activityEpoch(b) - activityEpoch(a); })
+      var merged = recent.concat(ongoing, updated);
+      var bySlug = Object.create(null);
+      var noSlug = [];
+      merged.forEach(function (item) {
+        if (!item) return;
+        var sl = String(item.slug || '').trim().toLowerCase();
+        if (!sl) {
+          noSlug.push(item);
+          return;
+        }
+        var cur = bySlug[sl];
+        if (!cur || feedKey(item) > feedKey(cur)) bySlug[sl] = item;
+      });
+      var combined = Object.keys(bySlug).map(function (k) { return bySlug[k]; }).concat(noSlug)
+        .sort(function (a, b) { return feedKey(b) - feedKey(a); })
         .slice(0, 10);
       container.removeAttribute('aria-busy');
       if (!combined.length) {
