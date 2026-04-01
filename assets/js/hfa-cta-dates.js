@@ -42,9 +42,30 @@
   }
 
   /**
+   * Hallie slugs often end with {@code -YYYYMMDD} or {@code -YYYY-MM-DD} (batch / launch date).
+   * That date can track “which ask is newer” better than {@code createdAt} when a row was re-saved
+   * after a status/type change (Hallie resets {@code createdAt} in that case).
+   */
+  function hfaSlugTailYmdEpoch(slug) {
+    var s = String(slug || '').trim();
+    if (!s) return 0;
+    var mIso = s.match(/-(20\d{2}-\d{2}-\d{2})$/);
+    if (mIso) {
+      var t0 = Date.parse(mIso[1] + 'T12:00:00');
+      if (Number.isFinite(t0) && t0 > 0) return t0;
+    }
+    var m = s.match(/-(20\d{2})(\d{2})(\d{2})$/);
+    if (!m) return 0;
+    var mo = parseInt(m[2], 10);
+    var d = parseInt(m[3], 10);
+    if (mo < 1 || mo > 12 || d < 1 || d > 31) return 0;
+    var t = Date.parse(m[1] + '-' + m[2] + '-' + m[3] + 'T12:00:00');
+    return Number.isFinite(t) && t > 0 ? t : 0;
+  }
+
+  /**
    * Sort key for banner / home / feeds.
-   * Non-update rows: {@code createdAt} first (first publish) so later edits do not jump above newer campaigns;
-   * falls back to {@code updatedAt} if created is missing.
+   * Non-update rows: max of {@code createdAt} (else {@code updatedAt}) and slug tail date when present.
    * Update-like rows: editorial {@code updateDate} when before save time (backdated story), else save time.
    */
   function hfaFeedRecencyEpoch(item) {
@@ -60,7 +81,9 @@
       }
       return save || parseEpoch(item.updateDate);
     }
-    return parseEpoch(item.createdAt) || parseEpoch(item.updatedAt);
+    var base = parseEpoch(item.createdAt) || parseEpoch(item.updatedAt);
+    var slugE = hfaSlugTailYmdEpoch(item.slug);
+    return slugE > base ? slugE : base;
   }
 
   /**
@@ -79,4 +102,5 @@
   global.hfaFormatIsoInPacific = hfaFormatIsoInPacific;
   global.hfaUpdateDisplayDate = hfaUpdateDisplayDate;
   global.hfaFeedRecencyEpoch = hfaFeedRecencyEpoch;
+  global.hfaSlugTailYmdEpoch = hfaSlugTailYmdEpoch;
 })(typeof window !== 'undefined' ? window : globalThis);
