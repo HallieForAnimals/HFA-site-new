@@ -51,22 +51,6 @@
         var n = Date.parse(String(r || '').trim());
         return Number.isFinite(n) && n > 0 ? n : 0;
       }
-      function slugTailYmdEpoch(slug) {
-        var s = String(slug || '').trim();
-        if (!s) return 0;
-        var mIso = s.match(/-(20\d{2}-\d{2}-\d{2})$/);
-        if (mIso) {
-          var t0 = Date.parse(mIso[1] + 'T12:00:00');
-          if (Number.isFinite(t0) && t0 > 0) return t0;
-        }
-        var m = s.match(/-(20\d{2})(\d{2})(\d{2})$/);
-        if (!m) return 0;
-        var mo = parseInt(m[2], 10);
-        var d = parseInt(m[3], 10);
-        if (mo < 1 || mo > 12 || d < 1 || d > 31) return 0;
-        var t = Date.parse(m[1] + '-' + m[2] + '-' + m[3] + 'T12:00:00');
-        return Number.isFinite(t) && t > 0 ? t : 0;
-      }
       function isUpdateLikeRow(x) {
         if (!x) return false;
         var type = String(x.ctaType || '').trim().toLowerCase();
@@ -74,23 +58,14 @@
         var status = String(x.status || '').trim().toLowerCase();
         return type === 'update' || role === 'update' || status === 'updated';
       }
-      /** Updates: backdated story date vs save. Originals: max({@code createdAt}, slug {@code -YYYYMMDD} tail). */
+      /** Keep in sync with {@code hfaFeedRecencyEpoch} in hfa-cta-dates.js (site lists use that script). */
       function feedRecencyEpoch(item) {
         if (!item) return 0;
         var save = parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
         if (isUpdateLikeRow(item)) {
-          var ud = String(item.updateDate || '').trim();
-          if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
-            var story = Date.parse(ud.slice(0, 10) + 'T12:00:00');
-            if (Number.isFinite(story) && story > 0 && save > 0 && story < save) {
-              return story;
-            }
-          }
           return save || parseEpoch(item.updateDate);
         }
-        var base = parseEpoch(item.createdAt) || parseEpoch(item.updatedAt);
-        var slugE = slugTailYmdEpoch(item.slug);
-        return slugE > base ? slugE : base;
+        return parseEpoch(item.createdAt) || parseEpoch(item.updatedAt);
       }
       var bySlug = Object.create(null);
       var noSlug = [];
@@ -116,12 +91,10 @@
       });
       var links = Object.keys(bySlug).map(function(k) { return bySlug[k]; }).concat(noSlug);
 
-      // Banner = highest feed recency (archived excluded). Use true latest row for ordering; if it is
-      // hidden, still show it but without a link (see inner below). Skipping hidden rows here surfaced
-      // the next visible CTA — often a backdated update — while a newer row was hidden.
+      // Banner = highest feed recency (archived excluded). Prefer first visible row so the bar links to a public CTA.
       var pool = links.filter(function(x) { return !isArchivedCta(x); });
       var sorted = pool.slice().sort(function(a, b) { return feedRecencyEpoch(b) - feedRecencyEpoch(a); });
-      var latest = sorted[0];
+      var latest = sorted.find(function(x) { return x.hidden !== true; }) || sorted[0];
       if (!latest) return;
       var title = (latest.title || latest.slug || 'Latest CTA').trim();
       if (!title) return;

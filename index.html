@@ -169,11 +169,6 @@
     var status = String(item.status || '').trim().toLowerCase();
     var isUpd = type === 'update' || role === 'update' || status === 'updated';
     if (isUpd) {
-      var ud = String(item.updateDate || '').trim();
-      if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
-        var story = Date.parse(ud.slice(0, 10) + 'T12:00:00');
-        if (Number.isFinite(story) && story > 0 && save > 0 && story < save) return story;
-      }
       return save || parseEpoch(item.updateDate);
     }
     var base = parseEpoch(item.createdAt) || parseEpoch(item.updatedAt);

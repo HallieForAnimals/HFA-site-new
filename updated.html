@@ -162,11 +162,6 @@
         if (!item) return 0;
         var save = parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
         if (isUpdateLikeForFeedEpoch(item)) {
-          var ud = String(item.updateDate || '').trim();
-          if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
-            var story = Date.parse(ud.slice(0, 10) + 'T12:00:00');
-            if (Number.isFinite(story) && story > 0 && save > 0 && story < save) return story;
-          }
           return save || parseEpoch(item.updateDate);
         }
         var base = parseEpoch(item.createdAt) || parseEpoch(item.updatedAt);
@@ -221,7 +216,7 @@
         if (!byCase[cid]) byCase[cid] = [];
         byCase[cid].push(up);
       });
-      /** Feed order: backdated {@code updateDate} before save ranks by story date (same as banner / home). */
+      /** Feed order: last save time for updates (same as {@code hfaFeedRecencyEpoch}). */
       function bestTimestamp(item) {
         return feedRecencyKey(item);
       }
