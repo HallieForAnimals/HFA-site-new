@@ -114,8 +114,8 @@
   fetch(dataUrl, { cache: 'no-store' })
     .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
     .then(function(json) {
-      function isHiddenCta(item) {
-        return !!(item && (item.hidden === true || item.archived === true));
+      function isArchivedCta(item) {
+        return !!(item && item.archived === true);
       }
       function lc(s) {
         return String(s == null ? '' : s).trim().toLowerCase();
@@ -135,28 +135,38 @@
           if (sec && Array.isArray(sec.links)) raw = raw.concat(sec.links);
         });
       }
-      var seenSlug = Object.create(null);
-      var links = [];
+      var bySlugRaw = Object.create(null);
+      var noSlugRaw = [];
       raw.forEach(function (item) {
         if (!item) return;
         var sl = String(item.slug || '').trim().toLowerCase();
-        if (sl) {
-          if (seenSlug[sl]) return;
-          seenSlug[sl] = true;
+        if (!sl) {
+          noSlugRaw.push(item);
+          return;
         }
-        links.push(item);
+        var cur = bySlugRaw[sl];
+        if (!cur) {
+          bySlugRaw[sl] = item;
+          return;
+        }
+        if (cur.hidden === true && item.hidden !== true) {
+          bySlugRaw[sl] = item;
+        }
       });
-      /** Rows with ctaType "update" always list here (per site rules). Legacy rows: status/role update, respect hidden. */
+      var links = Object.keys(bySlugRaw).map(function (k) {
+        return bySlugRaw[k];
+      }).concat(noSlugRaw);
+      /** Rows with ctaType "update" always list here (per site rules). Legacy rows: status/role update, not archived. */
       function isUpdateRow(x) {
         if (!x) return false;
+        if (isArchivedCta(x)) return false;
         if (lc(x.ctaType) === 'update') return true;
-        if (isHiddenCta(x)) return false;
         return lc(x.status) === 'updated' || lc(x.role) === 'update';
       }
       var originals = links.filter(function(x) {
         var r = x.role;
         var isOrig = r == null || r === '' || String(r).toLowerCase() === 'original';
-        return isOrig && !isHiddenCta(x);
+        return isOrig && !isArchivedCta(x);
       });
       var updates = links.filter(isUpdateRow);
       if (!updates.length) {
@@ -342,7 +352,7 @@
         if (!nonEmailLabel) nonEmailLabel = 'Take action';
         var buttonLabel = isEmail ? 'Send the one-click email' : nonEmailLabel;
         var buttonAttrs = isEmail ? ' rel="nofollow"' : ' rel="nofollow noopener noreferrer" target="_blank"';
-        var button = shortUrl ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn"' + buttonAttrs + '>' + esc(buttonLabel) + '</a>' : '';
+        var button = shortUrl && item.hidden !== true ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn"' + buttonAttrs + '>' + esc(buttonLabel) + '</a>' : '';
         var shareTitle = esc(item.title || item.slug || 'CTA');
         var shareBtn = shortUrl ? '<button type="button" class="cta-share-btn" data-share-url="' + esc(shortUrl) + '" data-share-title="' + shareTitle + '">Share</button>' : '';
         var boycottUrl = (item.boycottUrl || c.original.boycottUrl || '').trim();
@@ -426,7 +436,7 @@
         if (!nonEmailLabel) nonEmailLabel = 'Take action';
         var buttonLabel = isEmail ? 'Send the one-click email' : nonEmailLabel;
         var buttonAttrs = isEmail ? ' rel="nofollow"' : ' rel="nofollow noopener noreferrer" target="_blank"';
-        var button = shortUrl ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn"' + buttonAttrs + '>' + esc(buttonLabel) + '</a>' : '';
+        var button = shortUrl && original.hidden !== true ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn"' + buttonAttrs + '>' + esc(buttonLabel) + '</a>' : '';
         var shareBtn = shortUrl ? '<button type="button" class="cta-share-btn" data-share-url="' + esc(shortUrl) + '" data-share-title="' + esc(title) + '">Share</button>' : '';
         var dateLine = formatCreatedDateForOriginal(original.createdAt);
         return '<details class="cta-context-details update-original-details">' +

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="color-scheme" content="dark" />
   <meta name="robots" content="index,follow">  <title>Ongoing CTAs | HallieForAnimals</title>
   <meta name="description" content="Ongoing animal welfare campaigns that still need your voice. Take action on active cases worldwide.">
   <link rel="canonical" href="https://hallieforanimals.org/ongoing.html">
@@ -15,13 +16,13 @@
   <meta name="twitter:title" content="Ongoing CTAs | HallieForAnimals">
   <meta name="twitter:description" content="Ongoing animal welfare campaigns that still need your voice. Take action on active cases.">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260321">
+  <link rel="stylesheet" href="style.css?v=20260337">
   <link rel="icon" href="assets/img/logo.png" type="image/png">
   <link rel="apple-touch-icon" href="assets/img/logo.png">
   <script src="assets/js/hfa-preview-settings.js"></script>
   <script src="assets/js/hfa-preview-settings.local.js"></script>
   <script src="assets/js/preview-gate.js"></script>
-  <script src="assets/js/hfa-site-config.js"></script>
+  <script src="assets/js/hfa-site-config.js?v=20260337"></script>
   <script src="assets/js/hfa-cta-description.js"></script>
   <script src="assets/js/hfa-cta-linklist.js"></script>
 </head>
@@ -136,9 +137,6 @@
         return extDigits ? base + ';ext=' + extDigits : base;
       }
 
-      function isHiddenCta(item) {
-        return !!(item && (item.hidden === true || item.archived === true));
-      }
 
       function ctaAnchorIdFromSlug(slug) {
         var s = String(slug || '').trim().replace(/[^a-zA-Z0-9_-]+/g, '-').replace(/^-+|-+$/g, '');
@@ -215,7 +213,7 @@
         if (!nonEmailLabel) nonEmailLabel = 'Take action';
         var buttonLabel = isEmail ? 'Send the one-click email' : nonEmailLabel;
         var buttonAttrs = isEmail ? ' rel="nofollow"' : ' rel="nofollow noopener noreferrer" target="_blank"';
-        var button = shortUrl ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn"' + buttonAttrs + '>' + esc(buttonLabel) + '</a>' : '';
+        var button = shortUrl && item.hidden !== true ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn"' + buttonAttrs + '>' + esc(buttonLabel) + '</a>' : '';
         var shareTitle = esc(item.title || item.slug || 'CTA');
         var shareBtn = shortUrl ? '<button type="button" class="cta-share-btn" data-share-url="' + esc(shortUrl) + '" data-share-title="' + shareTitle + '">Share</button>' : '';
 

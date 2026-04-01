@@ -107,8 +107,8 @@
   function esc(s) {
     return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
-  function isHiddenCta(item) {
-    return !!(item && (item.hidden === true || item.archived === true));
+  function isArchivedCta(item) {
+    return !!(item && item.archived === true);
   }
   function ctaAnchorIdFromSlug(slug) {
     var s = String(slug || '').trim().replace(/[^a-zA-Z0-9_-]+/g, '-').replace(/^-+|-+$/g, '');
@@ -123,7 +123,7 @@
   function collectUpdated(json) {
     var all = Array.isArray(json && json.links) ? json.links : [];
     return all.filter(function (x) {
-      if (!x || isHiddenCta(x)) return false;
+      if (!x || isArchivedCta(x)) return false;
       var type = String(x.ctaType || '').toLowerCase();
       var role = String(x.role || '').toLowerCase();
       var status = String(x.status || '').toLowerCase();

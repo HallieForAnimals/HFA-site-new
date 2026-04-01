@@ -48,8 +48,8 @@
       }
       if (!links.length) return;
 
-      function isHiddenCta(item) {
-        return !!(item && (item.hidden === true || item.archived === true));
+      function isArchivedCta(item) {
+        return !!(item && item.archived === true);
       }
       function parseEpoch(raw) {
         var n = Date.parse(String(raw || '').trim());
@@ -79,9 +79,11 @@
         if (Number.isFinite(u) && u > 0) return u;
         return 0;
       }
-      // Banner = most recent post OR update.
-      var pool = links.filter(function(x) { return !isHiddenCta(x); });
-      var latest = pool.slice().sort(function(a, b) { return activityEpoch(b) - activityEpoch(a); })[0];
+      // Banner = most recent post OR update (archived excluded). "Hide on site" keeps the card elsewhere but omits the tracked CTA link here.
+      var pool = links.filter(function(x) { return !isArchivedCta(x); });
+      var sorted = pool.slice().sort(function(a, b) { return activityEpoch(b) - activityEpoch(a); });
+      var latest = sorted.find(function(x) { return x.hidden !== true; }) || sorted[0];
+      if (!latest) return;
       var title = (latest.title || latest.slug || 'Latest CTA').trim();
       if (!title) return;
 
@@ -100,8 +102,12 @@
       var nonEmailLabel = String(latest.nonEmailActionText || latest.actionText || '').trim();
       if (!nonEmailLabel) nonEmailLabel = 'Take action';
       var actionText = isEmail ? 'Send the one-click email' : nonEmailLabel;
-      var text = 'Latest: ' + title + ' — ' + actionText;
-      var inner = '<a href="' + esc(url) + '" style="color:inherit; text-decoration:none;"' + annAttrs + '>' + esc(text) + '</a>';
+      var text = latest.hidden === true
+        ? ('Latest: ' + title)
+        : ('Latest: ' + title + ' — ' + actionText);
+      var inner = latest.hidden === true
+        ? '<span style="color:inherit;">' + esc(text) + '</span>'
+        : '<a href="' + esc(url) + '" style="color:inherit; text-decoration:none;"' + annAttrs + '>' + esc(text) + '</a>';
       root.innerHTML = '<div class="announcement-bar">' + inner + '</div>';
     })
     .catch(function() {});

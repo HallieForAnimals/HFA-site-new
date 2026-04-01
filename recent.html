@@ -143,7 +143,7 @@
           caseCtx[cid].updates.push(lnk);
         } else {
           var rl = String(lnk.role || '').trim().toLowerCase();
-          if ((!rl || rl === 'original') && !(lnk.hidden === true || lnk.archived === true)) {
+          if ((!rl || rl === 'original') && lnk.archived !== true) {
             if (!caseCtx[cid].original) caseCtx[cid].original = lnk;
           }
         }
@@ -198,6 +198,7 @@
       }
 
       function buttonHtml(item) {
+        if (item && item.hidden === true) return '';
         var shortUrl = resolveShortUrl(item);
         var tag = (item.tag || '').toString().toLowerCase();
         var isEmail = item.ctaType === 'email' || (String(item.ctaType || '') === 'update' && item.updateIncludeEmail) || tag.indexOf('email') !== -1;
