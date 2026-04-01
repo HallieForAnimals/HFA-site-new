@@ -12,6 +12,42 @@
     return Number.isFinite(n) && n > 0 ? n : 0;
   }
 
+  function isUpdateLikeRow(x) {
+    if (!x) return false;
+    var type = String(x.ctaType || '').trim().toLowerCase();
+    var role = String(x.role || '').trim().toLowerCase();
+    var status = String(x.status || '').trim().toLowerCase();
+    return type === 'update' || role === 'update' || status === 'updated';
+  }
+
+  /** Same rules as {@code hfaFeedRecencyEpoch} in hfa-cta-dates.js (banner/home/backdated updates). */
+  function feedRecencyEpoch(item) {
+    if (!item || typeof item !== 'object') return 0;
+    var save = parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
+    if (isUpdateLikeRow(item)) {
+      var ud = String(item.updateDate || '').trim();
+      if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
+        var story = Date.parse(ud.slice(0, 10) + 'T12:00:00');
+        if (Number.isFinite(story) && story > 0 && save > 0 && story < save) {
+          return story;
+        }
+      }
+      return save || parseEpoch(item.updateDate);
+    }
+    return parseEpoch(item.createdAt) || parseEpoch(item.updatedAt);
+  }
+
+  function jsonLinksAndSectionsFlat(json) {
+    var out = [];
+    if (Array.isArray(json && json.links)) out = out.concat(json.links);
+    if (Array.isArray(json && json.sections)) {
+      json.sections.forEach(function (s) {
+        if (s && Array.isArray(s.links)) out = out.concat(s.links);
+      });
+    }
+    return out;
+  }
+
   function ctaCreatedEpoch(x) {
     if (!x || typeof x !== 'object') return 0;
     return parseEpoch(x.createdAt) || parseEpoch(x.updatedAt);
@@ -127,7 +163,7 @@
   }
 
   function hfaCollectUpdateCtas(json) {
-    var list = Array.isArray(json && json.links) ? json.links : [];
+    var list = jsonLinksAndSectionsFlat(json || {});
     var candidates = [];
     list.forEach(function (item) {
       if (!item || !isUpdateCta(item) || isArchivedCta(item)) return;
@@ -142,7 +178,13 @@
         bySlug[sl] = item;
         return;
       }
-      if (cur.hidden === true && item.hidden !== true) {
+      var ea = feedRecencyEpoch(item);
+      var eb = feedRecencyEpoch(cur);
+      if (ea > eb) {
+        bySlug[sl] = item;
+        return;
+      }
+      if (ea === eb && cur.hidden === true && item.hidden !== true) {
         bySlug[sl] = item;
       }
     });
@@ -150,9 +192,7 @@
       return bySlug[k];
     });
     return out.sort(function (a, b) {
-      var aT = parseEpoch(a.updatedAt) || parseEpoch(a.createdAt);
-      var bT = parseEpoch(b.updatedAt) || parseEpoch(b.createdAt);
-      return bT - aT;
+      return feedRecencyEpoch(b) - feedRecencyEpoch(a);
     });
   }
 
