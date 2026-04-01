@@ -1282,6 +1282,64 @@
       "postToUpdates": true,
       "createdAt": "2026-03-31T19:38:36Z",
       "updatedAt": "2026-03-31T19:38:36Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "dog-killer-fm",
+      "slug": "prosecute-dog-killer-fm-20260401",
+      "status": "recent",
+      "role": "original",
+      "title": "Prosecute Dog Killer F.M",
+      "mailtoSubject": "F.M. Hakkında Azami Ceza Talebi/Demand for Maximum Penalty Against F.M.",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TITLED \"PROSECUTE DOG KILLER F.M\"❗️\n\nCall:\nGovernor’s Office: +90 352 221 0737\nProsecutor’s Office: +90 352 222 1268\n\nLocation: Kayseri, Pınarbaşı, Turkey \n\nThis POS beat his dog to death because \"it ate too much\", and had the audacity to blame the dog, claiming, \"It brought it on itself.\"\nHe was detained for questioning, but no formal arrest has been made yet.\n\n#Turkey #Kayseri #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TITLED \"PROSECUTE DOG KILLER F.M\"❗️\n\nCall:\nGovernor’s Office: +90 352 221 0737\nProsecutor’s Office: +90 352 222 1268\n\nLocation: Kayseri, Pınarbaşı, Turkey \n\nThis POS beat his dog to death because \"it ate too much\", and had the audacity to blame the dog, claiming, \"It brought it on itself.\"\nHe was detained for questioning, but no formal arrest has been made yet.\n\n#Turkey #Kayseri #animallover",
+      "mailtoBody": "İlgili Makamlara,\n\n31 Mart 2026 tarihinde Kayseri İli Pınarbaşı İlçesi Dikilitaş Mahallesi'nde, F.M. olarak kimliği tespit edilen bir şahıs, \"çok yiyor\" ve \"bunu hak etti\" gerekçesiyle köpeğini ağaca asarak öldürmüştür. Eylem, şüphelinin suçu açıkça itiraf ettiği bir video kaydına yansımıştır. Şahıs, kendisini görüntüleyen kişinin bu eylemin günah olduğunu söyleyerek yalvarmasına karşın hiçbir pişmanlık ya da empati belirtisi göstermemiş; sakin, savunmacı ve soğukkanlı bir tutum sergilemiş, hatta gülümsemiştir. Bazı tanıklıklara göre şahıs, köpeğin kendisini suçlu çıkardığını ileri sürerek ölümü meşrulaştırırken rahat bir tavırla poz vermiştir. Henüz yetkililerle karşı karşıya gelmeden önce olay yerinde sergilenen bu tam anlamıyla pişmanlıktan yoksun tutum derin bir toplumsal öfkeye yol açmıştır. Bilimsel araştırmalar da ağır hayvan zulmü ile ileride insanlara yönelik şiddet suçları işlenmesi arasında güçlü bir bağlantı olduğunu ortaya koymaktadır.\n\nSaygıyla talep ederiz:\n\n- F.M.'nin resmen tutuklanmasını,\n- Başta video itirafı olmak üzere tüm delillerin eksiksiz değerlendirilmesini,\n- Yasanın öngördüğü azami cezanın talep edilmesini.\n\nAdaleti sağlanması talebinde Kayseri Hayvanları Koruma Derneği (KayHakDer) ile omuz omuzayız. İlginiz için teşekkür ederiz.\n\nSaygılarımızla,\n\n\n\n@HallieForAnimals Ekibi\ncontact@hallieforanimals.org\n\n\n\nTo whom it may concern,\n\nOn March 31, 2026, in Dikilitas Neighborhood, Pinarbasi district of Kayseri, an individual identified as F.M. hanged his dog from a tree, claiming \"it eats too much\" and \"it brought it on itself.\" The act was recorded on video in which the suspect openly admits to the killing. He shows zero remorse or empathy while speaking - remaining calm, defensive, and matter-of-fact even when the person filming pleads with him that the act is a sin, and even smiles. Some accounts describe him posing casually as he justifies the torture and death by blaming the dog itself. This complete lack of remorse at the scene (before any confrontation with authorities) has caused profound public outrage. Scientific research also establishes a strong link between extreme animal cruelty and future violent crimes against humans.\n\nWe respectfully request:\n- That F.M. be formally arrested,\n- That all evidence, especially the video confession, be fully evaluated,\n- That the maximum penalty permitted by law be sought.\n\nWe stand with Kayseri Hayvanlari Koruma Dernegi (KayHakDer) in demanding justice. Thank you for your attention to this matter.\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "kayseri@icisleri.gov.tr",
+        "kaysericbs@adalet.gov.tr"
+      ],
+      "phones": [],
+      "callScript": "I am calling regarding the animal cruelty case in Dikilitaş Mahallesi, Pınarbaşı, Kayseri, involving F.M.\nOn March 31, F.M. hanged his dog from a tree and admitted the killing on video with zero remorse, calmly saying: “It eats too much.\" and \"It brought it on itself.”\nI respectfully request that F.M. be formally arrested, the video evidence fully evaluated, and the maximum penalty under Animal Protection Law 5199 be applied.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1V1Yaci4uFLKTkvDXnmaMxmVU5XFIQial/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/prosecute-dog-killer-fm-20260401",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TITLED \"PROSECUTE DOG KILLER F.M\"❗️\n\nCall:\nGovernor’s Office: +90 352 221 0737\nProsecutor’s Office: +90 352 222 1268\n\nLocation: Kayseri, Pınarbaşı, Turkey \n\nThis POS beat his dog to death because \"it ate too much\", and had the audacity to blame the dog, claiming, \"It brought it on itself.\"\nHe was detained for questioning, but no formal arrest has been made yet.\n\n#Turkey #Kayseri #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "",
+        "state": "Pınarbaşı",
+        "city": "Kayseri",
+        "country": "Türkiye",
+        "dial": "+90",
+        "phones": [
+          {
+            "who": "Governor’s Office",
+            "code": "+90",
+            "number": "352 221 0737",
+            "ext": ""
+          },
+          {
+            "who": "Prosecutor’s Office",
+            "code": "+90",
+            "number": "352 222 1268",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-01T00:13:38Z",
+      "updatedAt": "2026-04-01T00:13:38Z"
     }
   ]
 }
