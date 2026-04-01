@@ -180,12 +180,8 @@
         if (!byCase[cid]) byCase[cid] = [];
         byCase[cid].push(up);
       });
+      /** Order by actual save time; editorial {@code updateDate} is display-only on cards. */
       function bestTimestamp(item) {
-        var ud = String(item && item.updateDate || '').trim();
-        if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
-          var t = Date.parse(ud.slice(0, 10) + 'T12:00:00');
-          if (Number.isFinite(t) && t > 0) return t;
-        }
         return parseEpoch(item.updatedAt) || parseEpoch(item.createdAt) || parseEpoch(item.updateDate);
       }
       function originalCreatedEpoch(item) {
