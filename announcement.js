@@ -35,55 +35,75 @@
   fetch(getLinksJsonUrl(), { cache: 'no-store' })
     .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
     .then(function(json) {
-      var links = [];
-      // Support both:
-      // 1) New format: { links: [...] } with status/role fields
-      // 2) Old format: { sections: [{ name, links: [...] }, ...] } (Recent/Ongoing inferred from section name)
-      if (Array.isArray(json.links)) {
-        links = json.links;
-      } else if (Array.isArray(json.sections)) {
+      var raw = [];
+      if (Array.isArray(json.links)) raw = raw.concat(json.links);
+      if (Array.isArray(json.sections)) {
         json.sections.forEach(function(s) {
-          if (s && Array.isArray(s.links)) links = links.concat(s.links);
+          if (s && Array.isArray(s.links)) raw = raw.concat(s.links);
         });
       }
-      if (!links.length) return;
+      if (!raw.length) return;
 
       function isArchivedCta(item) {
         return !!(item && item.archived === true);
       }
-      function parseEpoch(raw) {
-        var n = Date.parse(String(raw || '').trim());
+      function parseEpoch(r) {
+        var n = Date.parse(String(r || '').trim());
         return Number.isFinite(n) && n > 0 ? n : 0;
       }
-      function createdEpoch(item) {
-        return parseEpoch(item && item.createdAt) || parseEpoch(item && item.updatedAt);
-      }
-      /** Actual save time — not editorial {@code updateDate} (banner must show newest publish, not backdated). */
-      function updateRecencyEpoch(item) {
-        return parseEpoch(item && item.updatedAt) || parseEpoch(item && item.createdAt);
-      }
-      function isUpdateRow(x) {
+      function isUpdateLikeRow(x) {
         if (!x) return false;
         var type = String(x.ctaType || '').trim().toLowerCase();
         var role = String(x.role || '').trim().toLowerCase();
         var status = String(x.status || '').trim().toLowerCase();
         return type === 'update' || role === 'update' || status === 'updated';
       }
-      function activityEpoch(item) {
-        return isUpdateRow(item) ? updateRecencyEpoch(item) : createdEpoch(item);
+      /** Backdated {@code updateDate} before save time → rank by story date so banner matches “newest campaign”, not last save. */
+      function feedRecencyEpoch(item) {
+        if (!item) return 0;
+        var save = parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
+        if (isUpdateLikeRow(item)) {
+          var ud = String(item.updateDate || '').trim();
+          if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
+            var story = Date.parse(ud.slice(0, 10) + 'T12:00:00');
+            if (Number.isFinite(story) && story > 0 && save > 0 && story < save) {
+              return story;
+            }
+          }
+          return save || parseEpoch(item.updateDate);
+        }
+        return parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
       }
+      var bySlug = Object.create(null);
+      var noSlug = [];
+      raw.forEach(function(item) {
+        if (!item) return;
+        var sl = String(item.slug || '').trim().toLowerCase();
+        if (!sl) {
+          noSlug.push(item);
+          return;
+        }
+        var cur = bySlug[sl];
+        if (!cur) {
+          bySlug[sl] = item;
+          return;
+        }
+        var fi = feedRecencyEpoch(item);
+        var fc = feedRecencyEpoch(cur);
+        if (fi > fc) {
+          bySlug[sl] = item;
+        } else if (fi === fc && cur.hidden === true && item.hidden !== true) {
+          bySlug[sl] = item;
+        }
+      });
+      var links = Object.keys(bySlug).map(function(k) { return bySlug[k]; }).concat(noSlug);
 
-      function epoch(x) {
-        var c = Date.parse(String((x && x.createdAt) || '').trim());
-        if (Number.isFinite(c) && c > 0) return c;
-        var u = Date.parse(String((x && x.updatedAt) || '').trim());
-        if (Number.isFinite(u) && u > 0) return u;
-        return 0;
-      }
-      // Banner = most recent post OR update (archived excluded). "Hide on site" keeps the card elsewhere but omits the tracked CTA link here.
+      // Banner = highest feed recency (archived excluded). Use true latest row for ordering; if it is
+      // hidden, still show it but without a link (see inner below). Skipping hidden rows here surfaced
+      // the next visible CTA — often a backdated update — while a newer row was hidden.
       var pool = links.filter(function(x) { return !isArchivedCta(x); });
-      var sorted = pool.slice().sort(function(a, b) { return activityEpoch(b) - activityEpoch(a); });
-      var latest = sorted.find(function(x) { return x.hidden !== true; }) || sorted[0];
+      var sorted = pool.slice().sort(function(a, b) { return feedRecencyEpoch(b) - feedRecencyEpoch(a); });
+      var latest = sorted[0];
       if (!latest) return;
       var title = (latest.title || latest.slug || 'Latest CTA').trim();
       if (!title) return;
