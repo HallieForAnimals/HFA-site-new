@@ -66,19 +66,14 @@
   /**
    * Sort key for banner / home / feeds.
    * Non-update rows: max of {@code createdAt} (else {@code updatedAt}) and slug tail date when present.
-   * Update-like rows: editorial {@code updateDate} when before save time (backdated story), else save time.
+   * Update-like rows: last save time only ({@code updatedAt} / {@code createdAt}). Editorial {@code updateDate}
+   * is for display ({@code hfaUpdateDisplayDate}), not feed order — otherwise a “story” date sorts the
+   * update below the case’s original even when the update was published later.
    */
   function hfaFeedRecencyEpoch(item) {
     if (!item || typeof item !== 'object') return 0;
     var save = parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
     if (isUpdateLikeRow(item)) {
-      var ud = String(item.updateDate || '').trim();
-      if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
-        var story = Date.parse(ud.slice(0, 10) + 'T12:00:00');
-        if (Number.isFinite(story) && story > 0 && save > 0 && story < save) {
-          return story;
-        }
-      }
       return save || parseEpoch(item.updateDate);
     }
     var base = parseEpoch(item.createdAt) || parseEpoch(item.updatedAt);

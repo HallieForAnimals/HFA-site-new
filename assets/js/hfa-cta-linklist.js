@@ -37,18 +37,11 @@
     return Number.isFinite(t) && t > 0 ? t : 0;
   }
 
-  /** Same rules as {@code hfaFeedRecencyEpoch} in hfa-cta-dates.js (banner/home/backdated updates). */
+  /** Same rules as {@code hfaFeedRecencyEpoch} in hfa-cta-dates.js. */
   function feedRecencyEpoch(item) {
     if (!item || typeof item !== 'object') return 0;
     var save = parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
     if (isUpdateLikeRow(item)) {
-      var ud = String(item.updateDate || '').trim();
-      if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
-        var story = Date.parse(ud.slice(0, 10) + 'T12:00:00');
-        if (Number.isFinite(story) && story > 0 && save > 0 && story < save) {
-          return story;
-        }
-      }
       return save || parseEpoch(item.updateDate);
     }
     var base = parseEpoch(item.createdAt) || parseEpoch(item.updatedAt);
