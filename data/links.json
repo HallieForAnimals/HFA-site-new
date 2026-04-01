@@ -1340,6 +1340,48 @@
       "postToUpdates": true,
       "createdAt": "2026-04-01T00:13:38Z",
       "updatedAt": "2026-04-01T00:13:38Z"
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "2026-03-27",
+      "updateStatus": "resolved",
+      "caseId": "parteen-greyhounds",
+      "slug": "neglected-greyhounds-surrendered-20260401",
+      "status": "updated",
+      "role": "update",
+      "title": "Neglected Greyhounds Surrendered",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "UPDATE❗\n\nThe greyhounds left in horrible conditions near Parteen in County Clare, Ireland, have been surrendered by their owners after overwhelming public pressure, and are now in the care of the Irish Retired Greyhound Trust!\n\n#CountyClare #Parteen #doglover",
+      "descriptionLong": "UPDATE❗\n\nThe greyhounds left in horrible conditions near Parteen in County Clare, Ireland, have been surrendered by their owners after overwhelming public pressure, and are now in the care of the Irish Retired Greyhound Trust!\n\n#CountyClare #Parteen #doglover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/neglected-greyhounds-surrendered-20260401",
+      "caption": "UPDATE❗\n\nThe greyhounds left in horrible conditions near Parteen in County Clare, Ireland, have been surrendered by their owners after overwhelming public pressure, and are now in the care of the Irish Retired Greyhound Trust!\n\n#CountyClare #Parteen #doglover",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "empty",
+        "targets": "",
+        "state": "County Clare",
+        "city": "Parteen",
+        "country": "Ireland",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-01T17:12:44Z",
+      "updatedAt": "2026-04-01T17:12:44Z"
     }
   ]
 }
