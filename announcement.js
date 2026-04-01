@@ -59,6 +59,11 @@
         return parseEpoch(item && item.createdAt) || parseEpoch(item && item.updatedAt);
       }
       function updatedEpoch(item) {
+        var ud = String(item && item.updateDate || '').trim();
+        if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
+          var te = Date.parse(ud.slice(0, 10) + 'T12:00:00');
+          if (Number.isFinite(te) && te > 0) return te;
+        }
         return parseEpoch(item && item.updatedAt) || parseEpoch(item && item.createdAt) || parseEpoch(item && item.updateDate);
       }
       function isUpdateRow(x) {

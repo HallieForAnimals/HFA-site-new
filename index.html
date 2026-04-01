@@ -24,6 +24,7 @@
   <script src="assets/js/preview-gate.js"></script>
   <script src="assets/js/hfa-site-config.js?v=20260337"></script>
   <script src="assets/js/hfa-cta-linklist.js"></script>
+  <script src="assets/js/hfa-cta-dates.js"></script>
 </head>
 <body>
 <div id="announcement-root"></div>
@@ -138,7 +139,9 @@
     return parseEpoch(item && item.createdAt) || parseEpoch(item && item.updatedAt);
   }
   function updatedEpoch(item) {
-    return parseEpoch(item && item.updatedAt) || parseEpoch(item && item.createdAt) || parseEpoch(item && item.updateDate);
+    return typeof hfaUpdateSortEpoch === 'function'
+      ? hfaUpdateSortEpoch(item)
+      : (parseEpoch(item && item.updatedAt) || parseEpoch(item && item.createdAt) || parseEpoch(item && item.updateDate));
   }
   function activityEpoch(item) {
     var type = String(item && item.ctaType || '').trim().toLowerCase();

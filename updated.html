@@ -24,6 +24,7 @@
   <script src="assets/js/preview-gate.js"></script>
   <script src="assets/js/hfa-site-config.js?v=20260337"></script>
   <script src="assets/js/hfa-cta-description.js"></script>
+  <script src="assets/js/hfa-cta-dates.js"></script>
 </head>
 <body>
 <div id="announcement-root"></div>
@@ -180,6 +181,11 @@
         byCase[cid].push(up);
       });
       function bestTimestamp(item) {
+        var ud = String(item && item.updateDate || '').trim();
+        if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
+          var t = Date.parse(ud.slice(0, 10) + 'T12:00:00');
+          if (Number.isFinite(t) && t > 0) return t;
+        }
         return parseEpoch(item.updatedAt) || parseEpoch(item.createdAt) || parseEpoch(item.updateDate);
       }
       function originalCreatedEpoch(item) {
@@ -231,24 +237,6 @@
       function trackedUrlFromSlug(slug) {
         if (!slug) return '';
         return TRACKER_BASE + '/' + encodeURIComponent(String(slug).trim());
-      }
-      function formatDisplayDate(raw) {
-        var s = String(raw || '').trim();
-        if (!s) return '';
-        var d = new Date(s);
-        if (isNaN(d.getTime()) && /^\d{4}-\d{2}-\d{2}/.test(s)) {
-          d = new Date(s.slice(0, 10) + 'T12:00:00');
-        }
-        if (isNaN(d.getTime())) return s;
-        return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
-      }
-      function formatCreatedDateForOriginal(rawIso) {
-        var s = String(rawIso || '').trim();
-        if (!s) return '';
-        if (/^\d{4}-\d{2}-\d{2}T/.test(s)) {
-          return formatDisplayDate(s.slice(0, 10));
-        }
-        return formatDisplayDate(s);
       }
       function badgeLabel(filterBucket) {
         return filterBucket === 'resolved' ? 'Resolved' : 'Ongoing';
@@ -357,7 +345,7 @@
         var shareBtn = shortUrl ? '<button type="button" class="cta-share-btn" data-share-url="' + esc(shortUrl) + '" data-share-title="' + shareTitle + '">Share</button>' : '';
         var boycottUrl = (item.boycottUrl || c.original.boycottUrl || '').trim();
         var boycott = boycottUrl ? '<a href="' + esc(boycottUrl) + '" class="secondary-btn" style="display:block; margin-top:0.75rem; text-align:center; text-decoration:none;">How to boycott</a>' : '';
-        var dateLine = formatDisplayDate(item.updatedAt || item.createdAt || item.updateDate);
+        var dateLine = typeof hfaUpdateDisplayDate === 'function' ? hfaUpdateDisplayDate(item) : '';
         var dateHtml = dateLine ? '<p class="update-accordion-date">' + esc(dateLine) + '</p>' : '';
         return '<details class="cta-accordion cta-card-ui">' +
           '<summary id="' + esc(ctaAnchorIdFromSlug(item.slug)) + '" class="cta-accordion-summary">' + esc(summaryTitle) + '</summary>' +
@@ -438,7 +426,7 @@
         var buttonAttrs = isEmail ? ' rel="nofollow"' : ' rel="nofollow noopener noreferrer" target="_blank"';
         var button = shortUrl && original.hidden !== true ? '<a href="' + esc(shortUrl) + '" class="cta-primary-btn"' + buttonAttrs + '>' + esc(buttonLabel) + '</a>' : '';
         var shareBtn = shortUrl ? '<button type="button" class="cta-share-btn" data-share-url="' + esc(shortUrl) + '" data-share-title="' + esc(title) + '">Share</button>' : '';
-        var dateLine = formatCreatedDateForOriginal(original.createdAt);
+        var dateLine = typeof hfaFormatIsoInPacific === 'function' ? hfaFormatIsoInPacific(original.createdAt) : '';
         return '<details class="cta-context-details update-original-details">' +
           '<summary class="cta-context-summary">Original post — ' + esc(title) + '</summary>' +
           '<div class="cta-context-body">' +
@@ -458,7 +446,7 @@
       container.innerHTML = cases.map(function(c) {
         var caseTitle = formatCaseIdAsTitle(c.caseId);
         var latest = c.latest;
-        var lastLine = formatDisplayDate(latest.updatedAt || latest.createdAt || latest.updateDate);
+        var lastLine = typeof hfaUpdateDisplayDate === 'function' ? hfaUpdateDisplayDate(latest) : '';
         var metaParts = [];
         if (lastLine) metaParts.push('Last updated: ' + lastLine);
         if (c.updates.length > 1) metaParts.push(c.updates.length + ' updates');
