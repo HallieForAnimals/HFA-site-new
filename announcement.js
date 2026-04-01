@@ -58,13 +58,9 @@
       function createdEpoch(item) {
         return parseEpoch(item && item.createdAt) || parseEpoch(item && item.updatedAt);
       }
-      function updatedEpoch(item) {
-        var ud = String(item && item.updateDate || '').trim();
-        if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
-          var te = Date.parse(ud.slice(0, 10) + 'T12:00:00');
-          if (Number.isFinite(te) && te > 0) return te;
-        }
-        return parseEpoch(item && item.updatedAt) || parseEpoch(item && item.createdAt) || parseEpoch(item && item.updateDate);
+      /** Actual save time — not editorial {@code updateDate} (banner must show newest publish, not backdated). */
+      function updateRecencyEpoch(item) {
+        return parseEpoch(item && item.updatedAt) || parseEpoch(item && item.createdAt);
       }
       function isUpdateRow(x) {
         if (!x) return false;
@@ -74,7 +70,7 @@
         return type === 'update' || role === 'update' || status === 'updated';
       }
       function activityEpoch(item) {
-        return isUpdateRow(item) ? updatedEpoch(item) : createdEpoch(item);
+        return isUpdateRow(item) ? updateRecencyEpoch(item) : createdEpoch(item);
       }
 
       function epoch(x) {

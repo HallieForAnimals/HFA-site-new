@@ -138,10 +138,9 @@
   function createdEpoch(item) {
     return parseEpoch(item && item.createdAt) || parseEpoch(item && item.updatedAt);
   }
+  /** Save time only — editorial {@code updateDate} is for labels, not “most recent” ordering. */
   function updatedEpoch(item) {
-    return typeof hfaUpdateSortEpoch === 'function'
-      ? hfaUpdateSortEpoch(item)
-      : (parseEpoch(item && item.updatedAt) || parseEpoch(item && item.createdAt) || parseEpoch(item && item.updateDate));
+    return parseEpoch(item && item.updatedAt) || parseEpoch(item && item.createdAt);
   }
   function activityEpoch(item) {
     var type = String(item && item.ctaType || '').trim().toLowerCase();
