@@ -1153,10 +1153,10 @@
       "nonEmailActionText": "",
       "actionUrl": "",
       "actionText": "",
-      "hidden": false,
+      "hidden": true,
       "postToUpdates": true,
       "createdAt": "2026-03-31T00:49:35Z",
-      "updatedAt": "2026-03-31T01:22:38Z"
+      "updatedAt": "2026-04-01T16:21:21Z"
     },
     {
       "ctaType": "email",
