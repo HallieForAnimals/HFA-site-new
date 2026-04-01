@@ -43,7 +43,7 @@
 
   /**
    * Hallie slugs often end with {@code -YYYYMMDD} or {@code -YYYY-MM-DD} (batch / launch date).
-   * That date can track “which ask is newer” better than {@code createdAt} when a row was re-saved
+   * That date can track "which ask is newer" better than {@code createdAt} when a row was re-saved
    * after a status/type change (Hallie resets {@code createdAt} in that case).
    */
   function hfaSlugTailYmdEpoch(slug) {
@@ -63,17 +63,28 @@
     return Number.isFinite(t) && t > 0 ? t : 0;
   }
 
+  var BACKDATE_THRESHOLD_MS = 48 * 3600 * 1000;
+
   /**
    * Sort key for banner / home / feeds.
-   * Non-update rows: max of {@code createdAt} (else {@code updatedAt}) and slug tail date when present.
-   * Update-like rows: last save time only ({@code updatedAt} / {@code createdAt}). Editorial {@code updateDate}
-   * is for display ({@code hfaUpdateDisplayDate}), not feed order — otherwise a “story” date sorts the
-   * update below the case’s original even when the update was published later.
+   *
+   * Update-like rows: if editorial {@code updateDate} is >48 h before save time the story is genuinely
+   * backdated — rank by story date so it doesn't jump above newer CTAs. If the gap is <=48 h (same-day
+   * publish, Hallie auto-fills today) — rank by save time so it sits above the original it follows.
+   *
+   * Non-update rows: max of {@code createdAt} and slug tail {@code -YYYYMMDD} date.
    */
   function hfaFeedRecencyEpoch(item) {
     if (!item || typeof item !== 'object') return 0;
     var save = parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
     if (isUpdateLikeRow(item)) {
+      var ud = String(item.updateDate || '').trim();
+      if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
+        var story = Date.parse(ud.slice(0, 10) + 'T12:00:00');
+        if (Number.isFinite(story) && story > 0 && save > 0 && (save - story) > BACKDATE_THRESHOLD_MS) {
+          return story;
+        }
+      }
       return save || parseEpoch(item.updateDate);
     }
     var base = parseEpoch(item.createdAt) || parseEpoch(item.updatedAt);
