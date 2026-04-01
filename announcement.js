@@ -58,11 +58,19 @@
         var status = String(x.status || '').trim().toLowerCase();
         return type === 'update' || role === 'update' || status === 'updated';
       }
+      var BACKDATE_THRESHOLD_MS = 48 * 3600 * 1000;
       /** Keep in sync with {@code hfaFeedRecencyEpoch} in hfa-cta-dates.js (site lists use that script). */
       function feedRecencyEpoch(item) {
         if (!item) return 0;
         var save = parseEpoch(item.updatedAt) || parseEpoch(item.createdAt);
         if (isUpdateLikeRow(item)) {
+          var ud = String(item.updateDate || '').trim();
+          if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
+            var story = Date.parse(ud.slice(0, 10) + 'T12:00:00');
+            if (Number.isFinite(story) && story > 0 && save > 0 && (save - story) > BACKDATE_THRESHOLD_MS) {
+              return story;
+            }
+          }
           return save || parseEpoch(item.updateDate);
         }
         return parseEpoch(item.createdAt) || parseEpoch(item.updatedAt);
