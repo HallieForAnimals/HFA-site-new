@@ -40,24 +40,7 @@
     return hfaFormatIsoInPacific(item.updatedAt || item.createdAt || item.updateDate);
   }
 
-  function parseEpoch(raw) {
-    var n = Date.parse(String(raw || '').trim());
-    return Number.isFinite(n) && n > 0 ? n : 0;
-  }
-
-  /** For sorting: editorial {@code updateDate} first, then save timestamps. */
-  function hfaUpdateSortEpoch(item) {
-    if (!item || typeof item !== 'object') return 0;
-    var ud = String(item.updateDate || '').trim();
-    if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
-      var t = Date.parse(ud.slice(0, 10) + 'T12:00:00');
-      if (Number.isFinite(t) && t > 0) return t;
-    }
-    return parseEpoch(item.updatedAt) || parseEpoch(item.createdAt) || parseEpoch(item.updateDate);
-  }
-
   global.hfaFormatYmdCalendarUs = hfaFormatYmdCalendarUs;
   global.hfaFormatIsoInPacific = hfaFormatIsoInPacific;
   global.hfaUpdateDisplayDate = hfaUpdateDisplayDate;
-  global.hfaUpdateSortEpoch = hfaUpdateSortEpoch;
 })(typeof window !== 'undefined' ? window : globalThis);
