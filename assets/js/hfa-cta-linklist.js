@@ -1,5 +1,6 @@
 /**
  * Single source for which CTAs appear on Recent / Ongoing / home list.
+ * `archived` excludes a row entirely; `hidden` keeps the card but callers omit the primary CTA button.
  * Hallie saves flat <code>links[]</code>; legacy data may also use <code>sections[]</code>.
  * We merge both (flat list wins on slug collision) so nothing in <code>links</code> is dropped.
  */
@@ -16,8 +17,14 @@
     return parseEpoch(x.createdAt) || parseEpoch(x.updatedAt);
   }
 
-  function isHiddenCta(item) {
-    return !!(item && (item.hidden === true || item.archived === true));
+  /** Fully excluded from site lists (not shown as a card). */
+  function isArchivedCta(item) {
+    return !!(item && item.archived === true);
+  }
+
+  /** "Hide on site" in Hallie: card stays visible; primary CTA button is omitted. */
+  function hidePrimaryCtaButton(item) {
+    return !!(item && item.hidden === true);
   }
 
   function isRecentOriginalCta(x) {
@@ -74,30 +81,41 @@
    * @param {string} sectionNeedle e.g. "recent"
    */
   function collectMerged(json, predicate, sectionNeedle) {
-    var seen = Object.create(null);
-    var out = [];
-    function push(list) {
+    var candidates = [];
+    function consider(list) {
       if (!Array.isArray(list)) return;
       list.forEach(function (item) {
-        if (!item || !predicate(item)) return;
-        // Important: skip hidden/archived rows before slug de-dupe.
-        // Otherwise a hidden duplicate can claim the slug and hide the visible CTA.
-        if (isHiddenCta(item)) return;
-        var sl = String(item.slug || '').trim().toLowerCase();
-        if (sl) {
-          if (seen[sl]) return;
-          seen[sl] = true;
-        }
-        out.push(item);
+        if (!item || !predicate(item) || isArchivedCta(item)) return;
+        candidates.push(item);
       });
     }
-    if (Array.isArray(json.links)) push(json.links);
-    push(sectionLinksNamed(json, sectionNeedle));
-    return out
-      .sort(function (a, b) {
-        // "recent"/"ongoing" lists are by most recently made CTA.
-        return ctaCreatedEpoch(b) - ctaCreatedEpoch(a);
-      });
+    if (Array.isArray(json.links)) consider(json.links);
+    consider(sectionLinksNamed(json, sectionNeedle));
+    var bySlug = Object.create(null);
+    var noSlug = [];
+    candidates.forEach(function (item) {
+      var sl = String(item.slug || '').trim().toLowerCase();
+      if (!sl) {
+        noSlug.push(item);
+        return;
+      }
+      var cur = bySlug[sl];
+      if (!cur) {
+        bySlug[sl] = item;
+        return;
+      }
+      if (cur.hidden === true && item.hidden !== true) {
+        bySlug[sl] = item;
+      }
+    });
+    var out = Object.keys(bySlug)
+      .map(function (k) {
+        return bySlug[k];
+      })
+      .concat(noSlug);
+    return out.sort(function (a, b) {
+      return ctaCreatedEpoch(b) - ctaCreatedEpoch(a);
+    });
   }
 
   function hfaCollectRecentCtas(json) {
@@ -109,17 +127,27 @@
   }
 
   function hfaCollectUpdateCtas(json) {
-    var seen = Object.create(null);
-    var out = [];
     var list = Array.isArray(json && json.links) ? json.links : [];
+    var candidates = [];
     list.forEach(function (item) {
-      if (!item || !isUpdateCta(item)) return;
-      if (isHiddenCta(item)) return;
+      if (!item || !isUpdateCta(item) || isArchivedCta(item)) return;
+      candidates.push(item);
+    });
+    var bySlug = Object.create(null);
+    candidates.forEach(function (item) {
       var sl = String(item.slug || '').trim().toLowerCase();
       if (!sl) return;
-      if (seen[sl]) return;
-      seen[sl] = true;
-      out.push(item);
+      var cur = bySlug[sl];
+      if (!cur) {
+        bySlug[sl] = item;
+        return;
+      }
+      if (cur.hidden === true && item.hidden !== true) {
+        bySlug[sl] = item;
+      }
+    });
+    var out = Object.keys(bySlug).map(function (k) {
+      return bySlug[k];
     });
     return out.sort(function (a, b) {
       var aT = parseEpoch(a.updatedAt) || parseEpoch(a.createdAt);
@@ -132,4 +160,6 @@
   global.hfaCollectOngoingCtas = hfaCollectOngoingCtas;
   global.hfaCollectUpdateCtas = hfaCollectUpdateCtas;
   global.hfaIsUpdateCta = isUpdateCta;
+  global.hfaHidePrimaryCtaButton = hidePrimaryCtaButton;
+  global.hfaIsArchivedCta = isArchivedCta;
 })(typeof window !== 'undefined' ? window : globalThis);
