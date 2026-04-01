@@ -149,10 +149,16 @@
     var out = Object.keys(bySlug).map(function (k) {
       return bySlug[k];
     });
+    function updateRowEpoch(x) {
+      var ud = String(x && x.updateDate || '').trim();
+      if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
+        var t = Date.parse(ud.slice(0, 10) + 'T12:00:00');
+        if (Number.isFinite(t) && t > 0) return t;
+      }
+      return parseEpoch(x.updatedAt) || parseEpoch(x.createdAt) || parseEpoch(x.updateDate);
+    }
     return out.sort(function (a, b) {
-      var aT = parseEpoch(a.updatedAt) || parseEpoch(a.createdAt);
-      var bT = parseEpoch(b.updatedAt) || parseEpoch(b.createdAt);
-      return bT - aT;
+      return updateRowEpoch(b) - updateRowEpoch(a);
     });
   }
 
