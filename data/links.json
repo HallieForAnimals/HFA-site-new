@@ -1452,6 +1452,79 @@
       "postToUpdates": true,
       "createdAt": "2026-04-02T00:40:19Z",
       "updatedAt": "2026-04-02T00:40:19Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "joseph-ramos",
+      "slug": "arrest-joseph-noah-ramos-20260403",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Joseph \"Noah\" Ramos",
+      "mailtoSubject": "Animal Cruelty Investigation Request",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BRONX AUTHORITIES TITLED \"ARREST JOSEPH \"NOAH\" RAMOS\"❗️\n\nCall:\nNYPD: +1 212 639 9675\nNYPD Crime Stoppers: +1 800 577 8477\nBronx DA’s Office: +1 718 590 2000\nDOHMH Bureau of Veterinary Services: +1 646 364 1740\n\nAbuser Name: Joseph Ramos.\nLocation: First Floor, 2123 Boston Road, Bronx, NY 10460.\n\nFor 25 years, Ramos has been parading animals around in a comatose state, despite decades of complaints and non-compliance with NYC Health Code Sec. 161.01.\nHis black cat is clearly under severe stress and neglect, and possibly sedation.\n\n#newyork #bronx #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BRONX AUTHORITIES TITLED \"ARREST JOSEPH \"NOAH\" RAMOS\"❗️\n\nCall:\nNYPD: +1 212 639 9675\nNYPD Crime Stoppers: +1 800 577 8477\nBronx DA’s Office: +1 718 590 2000\nDOHMH Bureau of Veterinary Services: +1 646 364 1740\n\nAbuser Name: Joseph Ramos.\nLocation: First Floor, 2123 Boston Road, Bronx, NY 10460.\n\nFor 25 years, Ramos has been parading animals around in a comatose state, despite decades of complaints and non-compliance with NYC Health Code Sec. 161.01.\nHis black cat is clearly under severe stress and neglect, and possibly sedation.\n\n#newyork #bronx #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to demand an immediate welfare check, seizure of all animals, criminal charges, and a permanent ban on animal ownership/exhibition for Joseph Louis Ramos, also known as Joseph Ramos-Noal, Joseph Noal, or Joseph Noah.\n\nMr. Ramos has been publicly displaying a rotating \"Noah's Ark\" menagerie of live dogs, cats, guinea pigs, rabbits, and birds on sidewalks in Manhattan (recently Union Square and Columbus Circle/59th Street Metro Station entrance) for over 25 years. He transports the animals in crates via subway and solicits donations while they remain almost completely immobile.\n\nRecent and ongoing evidence of severe neglect includes:\n- A visibly emaciated cat showing clear signs of long-term neglect, including terrible coat quality, a wide hind-leg stance while eating (indicating pain), pecking at seeds like a bird, and paying no mind to the birds around it (despite cats being obligate carnivores and natural hunters).\n- Multiple animals appearing comatose, \"zombie-like,\" or in induced tonic immobility, unresponsive to traffic, noise, petting, or other animals, consistent with long-term sedation, starvation, or extreme stress.\n\nComplaints date back to at least 2011, with detailed exposés in 2017 and 2021 documenting the exact same pattern. Activists have repeatedly contacted the NYPD, ASPCA, and NYC Health Department, yet Mr. Ramos continues operating without the required NYC Health Code permit for public animal exhibitions (Sec. 161.01). He lives in a subsidized apartment at 2123 Boston Road (listed across multiple records as 1I, 1G, or 1L), Bronx, NY 10460, where the animals are housed when not on display.\n\nThe animals are suffering from clear neglect and cruelty in violation of New York State Agriculture & Markets Law Sec. 353. They must be immediately removed for veterinary evaluation and rehoming. Mr. Ramos must be charged to the fullest extent of the law, and the court should impose a permanent ban prohibiting him from owning, possessing, working with, exhibiting, or interacting with any animals in the future.\n\nA welfare check on the apartment and current street location is warranted immediately.\n\nThank you for protecting these animals.\n\nVideo evidence: https://drive.google.com/file/d/1u4k3D6A-6fsJopveI3uzobJw9g61mMzI/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "OFeliz@council.nyc.gov",
+        "clarkda@bronxda.nyc.gov",
+        "andrew.lombardo@nypd.org",
+        "mmerlino@health.nyc.gov",
+        "animalabuseregistry@health.nyc.gov"
+      ],
+      "phones": [],
+      "callScript": "I’m calling to report ongoing animal cruelty by Joseph Louis Ramos of 2123 Boston Road, Bronx, NY 10460. He's exhibiting a severely emaciated black cat with terrible coat quality, wide hind-leg stance while eating seeds like a bird, and ignoring birds around it — despite cats being obligate carnivores and natural hunters — plus other animals that appear comatose after over 25 years of complaints. I request an immediate welfare check, seizure and removal of all animals for veterinary care, criminal charges under Agriculture & Markets Law §353, and a permanent ban on him owning, possessing, working with, or exhibiting any animals.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1u4k3D6A-6fsJopveI3uzobJw9g61mMzI/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-joseph-noah-ramos-20260403",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BRONX AUTHORITIES TITLED \"ARREST JOSEPH \"NOAH\" RAMOS\"❗️\n\nCall:\nNYPD: +1 212 639 9675\nNYPD Crime Stoppers: +1 800 577 8477\nBronx DA’s Office: +1 718 590 2000\nDOHMH Bureau of Veterinary Services: +1 646 364 1740\n\nAbuser Name: Joseph Ramos.\nLocation: First Floor, 2123 Boston Road, Bronx, NY 10460.\n\nFor 25 years, Ramos has been parading animals around in a comatose state, despite decades of complaints and non-compliance with NYC Health Code Sec. 161.01.\nHis black cat is clearly under severe stress and neglect, and possibly sedation.\n\n#newyork #bronx #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Bronx Authorities",
+        "state": "New York",
+        "city": "Bronx",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "NYPD",
+            "code": "+1",
+            "number": "212 639 9675",
+            "ext": ""
+          },
+          {
+            "who": "NYPD Crime Stoppers",
+            "code": "+1",
+            "number": "800 577 8477",
+            "ext": ""
+          },
+          {
+            "who": "Bronx DA’s Office",
+            "code": "+1",
+            "number": "718 590 2000",
+            "ext": ""
+          },
+          {
+            "who": "DOHMH Bureau of Veterinary Services",
+            "code": "+1",
+            "number": "646 364 1740",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-02T23:44:29Z",
+      "updatedAt": "2026-04-02T23:44:29Z"
     }
   ]
 }
