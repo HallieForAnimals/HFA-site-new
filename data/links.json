@@ -1404,7 +1404,6 @@
         "cumhurbaskanligi@tccb.gov.tr",
         "illeridaresi@icisleri.gov.tr",
         "kihbi@icisleri.gov.tr",
-        "basin@icisleri.gov.tr",
         "hukuk@icisleri.gov.tr",
         "teftis@icisleri.gov.tr",
         "icguvenlik@icisleri.gov.tr",
@@ -1451,7 +1450,7 @@
       "hidden": false,
       "postToUpdates": true,
       "createdAt": "2026-04-02T00:40:19Z",
-      "updatedAt": "2026-04-02T00:40:19Z"
+      "updatedAt": "2026-04-04T10:43:51Z"
     },
     {
       "ctaType": "email",
