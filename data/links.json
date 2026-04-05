@@ -1671,6 +1671,75 @@
       "postToUpdates": true,
       "createdAt": "2026-04-05T01:26:43Z",
       "updatedAt": "2026-04-05T01:26:43Z"
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": true,
+      "updateSummary": "",
+      "updateDate": "2026-04-05",
+      "updateStatus": "ongoing",
+      "caseId": "242-W-89th-LA",
+      "slug": "neglected-dog-at-242-w-89th-street-la-20260405",
+      "status": "updated",
+      "role": "update",
+      "title": "Neglected Dog at 242 W 89th Street, LA",
+      "mailtoSubject": "Continued Neglect at 242 W 89th Street, LA",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"NEGLECTED DOG AT 242 W 89TH STREET, LA\"❗️\n\nCall:\nLA County Supervisor Mitchell: +1 213 974 2222\nLA Animal Services: +1 323 565 2161\nLAPD: +1 877 275 5273\n\nLocation: 242 W 89th Street, Los Angeles, CA 90003\n\nA severely matted dog owned by a drug addict is still being locked in a small crate in the yard in deplorable conditions.\nThe crate is far too small for the dog and is completely exposed to the elements with no protection from sun, rain, heat, or cold. The dog has no food or water available.\n\n#California #LosAngeles #cutedogs",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"NEGLECTED DOG AT 242 W 89TH STREET, LA\"❗️\n\nCall:\nLA County Supervisor Mitchell: +1 213 974 2222\nLA Animal Services: +1 323 565 2161\nLAPD: +1 877 275 5273\n\nLocation: 242 W 89th Street, Los Angeles, CA 90003\n\nA severely matted dog owned by a drug addict is still being locked in a small crate in the yard in deplorable conditions.\nThe crate is far too small for the dog and is completely exposed to the elements with no protection from sun, rain, heat, or cold. The dog has no food or water available.\n\n#California #LosAngeles #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to report a clear case of continued animal neglect at 242 W 89th Street, Los Angeles, CA 90003.\n\nA dog at this address is still being confined in a wire crate that is far too small for the animal. The crate is located in the yard and is completely exposed to the elements with no roof, shade, or protection from rain, heat, or cold. The dog is severely matted, which is evidence of prolonged lack of basic grooming and veterinary care.\n\nThese conditions violate California animal cruelty laws (Penal Code 597) and City of Los Angeles requirements for proper shelter, space, and humane treatment.\n\nI respectfully request:\n- An immediate on-site welfare check by Animal Control and/or LAPD 77th Division officers\n- Removal of the dog from the unsafe crate and into protective custody if necessary\n- Full investigation for animal neglect/cruelty\n- Any appropriate citations or enforcement action against the owner\n\nVideo evidence: https://drive.google.com/file/d/1HRgUqmcbsBP9i4claa1Mznes2aNzqIGk/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "hollyjmitchell@bos.lacounty.gov",
+        "councilmember.price@lacity.org",
+        "33073@lapd.online",
+        "31927@lapd.online",
+        "annette.ramirez@lacity.org",
+        "curtis.watts@lacity.org",
+        "yvonne.rodriguez@lacity.org"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report continued severe animal neglect at 242 West 89th Street.\nThere is a severely matted dog owned by an addict that is still being locked in a crate in the yard. The crate is far too small for the dog and is completely exposed to the elements with no protection from sun, rain, heat, or cold.\nI am requesting an immediate welfare check, full investigation for animal cruelty and neglect, and removal of the dog from this unsafe situation.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1HRgUqmcbsBP9i4claa1Mznes2aNzqIGk/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/neglected-dog-at-242-w-89th-street-la-20260405",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"NEGLECTED DOG AT 242 W 89TH STREET, LA\"❗️\n\nCall:\nLA County Supervisor Mitchell: +1 213 974 2222\nLA Animal Services: +1 323 565 2161\nLAPD: +1 877 275 5273\n\nLocation: 242 W 89th Street, Los Angeles, CA 90003\n\nA severely matted dog owned by a drug addict is still being locked in a small crate in the yard in deplorable conditions.\nThe crate is far too small for the dog and is completely exposed to the elements with no protection from sun, rain, heat, or cold. The dog has no food or water available.\n\n#California #LosAngeles #cutedogs",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "cta",
+        "targets": "Los Angeles Authorities",
+        "state": "California",
+        "city": "Los Angeles",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "LA County Supervisor Mitchell",
+            "code": "+1",
+            "number": "213 974 2222",
+            "ext": ""
+          },
+          {
+            "who": "LA Animal Services",
+            "code": "+1",
+            "number": "323 565 2161",
+            "ext": ""
+          },
+          {
+            "who": "LAPD",
+            "code": "+1",
+            "number": "877 275 5273",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-05T02:30:41Z",
+      "updatedAt": "2026-04-05T02:30:41Z"
     }
   ]
 }
