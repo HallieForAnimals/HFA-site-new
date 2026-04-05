@@ -1524,6 +1524,86 @@
       "postToUpdates": true,
       "createdAt": "2026-04-02T23:44:29Z",
       "updatedAt": "2026-04-02T23:44:29Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "fabian-avalos",
+      "slug": "arrest-fabian-avalos-20260405",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Fabian Avalos",
+      "mailtoSubject": "Report of Severe Animal Cruelty in Santa Matilde",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TILTIL AUTHORITIES TITLED \"ARREST FABIAN AVALOS\"❗️\n\nCall:\nCarabineros Tenencia Tiltil: +56 229 224 040\nPDI BIDEMA: +56 227 082 373\nMunicipalidad Atención Vecino: +56 939 478 903\nVeterinaria Municipal Tiltil: +56 976 996 723\nJuzgado de Policía Local: +56 228 463 922\n\nAbuser Name: Fabian Avalos\n\nAvalos seems to deem it appropriate to beat the living hell out of his submissive dog.\nThis isn't the first time this POS has beaten his dog. Let's make sure it's the last.\n\n#santamatilde #chile #doglover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TILTIL AUTHORITIES TITLED \"ARREST FABIAN AVALOS\"❗️\n\nCall:\nCarabineros Tenencia Tiltil: +56 229 224 040\nPDI BIDEMA: +56 227 082 373\nMunicipalidad Atención Vecino: +56 939 478 903\nVeterinaria Municipal Tiltil: +56 976 996 723\nJuzgado de Policía Local: +56 228 463 922\n\nAbuser Name: Fabian Avalos\n\nAvalos seems to deem it appropriate to beat the living hell out of his submissive dog.\nThis isn't the first time this POS has beaten his dog. Let's make sure it's the last.\n\n#santamatilde #chile #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to report a serious case of animal cruelty that occurred in Santa Matilde, Tiltil, Región Metropolitana.\nFabian Avalos kicked and punched a submissive dog, before throwing it in the trunk, beat it further, and drove away in a vehicle with licence plate ZA 14 40. This constitutes a clear violation of Ley 21.020 (Tenencia Responsable de Mascotas) and Artículo 291 bis of the Código Penal.\nI request you to:\n\n1- Immediately trace the vehicle owner and driver through the relevant transit/registry database.\n2- Open an investigation and coordinate with Carabineros / PDI / Fiscalía as appropriate.\n3- Take all necessary legal action against Fabian Avalos to ensure justice and prevent further cruelty.\n\nThank you for your urgent attention.\n\nVideo evidence: https://drive.google.com/file/d/1p1icFhIEDzgT8AmzgbXpUMuFBLIhyJ2Z/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "atencionalvecino@tiltil.cl",
+        "mambiente@tiltil.cl",
+        "veterinaria@tiltil.cl",
+        "bidema@investigaciones.cl",
+        "secretariajpl@tiltil.cl",
+        "inspeccion@tiltil.cl"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report an incident of severe animal cruelty in Santa Matilde, Tiltil. Fabian Avalos, driving a vehicle with plate ZA 14 40, kicked and punched a submissive dog, threw it in the trunk, beat it more, and drove away. I request you to trace the vehicle and driver immediately, open an investigation under Ley 21.020 and Artículo 291 bis, and take strict legal action.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1p1icFhIEDzgT8AmzgbXpUMuFBLIhyJ2Z/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-fabian-avalos-20260405",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TILTIL AUTHORITIES TITLED \"ARREST FABIAN AVALOS\"❗️\n\nCall:\nCarabineros Tenencia Tiltil: +56 229 224 040\nPDI BIDEMA: +56 227 082 373\nMunicipalidad Atención Vecino: +56 939 478 903\nVeterinaria Municipal Tiltil: +56 976 996 723\nJuzgado de Policía Local: +56 228 463 922\n\nAbuser Name: Fabian Avalos\n\nAvalos seems to deem it appropriate to beat the living hell out of his submissive dog.\nThis isn't the first time this POS has beaten his dog. Let's make sure it's the last.\n\n#santamatilde #chile #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Tiltil Authorities",
+        "state": "Santa Matilde",
+        "city": "Tiltil",
+        "country": "Chile",
+        "dial": "+56",
+        "phones": [
+          {
+            "who": "Carabineros Tenencia Tiltil",
+            "code": "+56",
+            "number": "229 224 040",
+            "ext": ""
+          },
+          {
+            "who": "PDI BIDEMA",
+            "code": "+56",
+            "number": "227 082 373",
+            "ext": ""
+          },
+          {
+            "who": "Municipalidad Atención Vecino",
+            "code": "+56",
+            "number": "939 478 903",
+            "ext": ""
+          },
+          {
+            "who": "Veterinaria Municipal Tiltil",
+            "code": "+56",
+            "number": "976 996 723",
+            "ext": ""
+          },
+          {
+            "who": "Juzgado de Policía Local",
+            "code": "+56",
+            "number": "228 463 922",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-05T01:02:46Z",
+      "updatedAt": "2026-04-05T01:02:46Z"
     }
   ]
 }
