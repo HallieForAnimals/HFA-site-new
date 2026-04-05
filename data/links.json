@@ -1604,6 +1604,73 @@
       "postToUpdates": true,
       "createdAt": "2026-04-05T01:02:46Z",
       "updatedAt": "2026-04-05T01:02:46Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "karnataka-dog-dragger",
+      "slug": "arrest-aluru-karnataka-dog-dragger-20260405",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Aluru Karnataka Dog Dragger",
+      "mailtoSubject": "Report of Severe Animal Cruelty in Aluru Karnataka",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO ALURU KARNATAKA AUTHORITIES TITLED \"ARREST ALURU KARNATAKA DOG DRAGGER\"❗️\n\nCall:\nAlur Police Station: +91 817 021 8231\nHassan District SP Office: +91 817 226 8410\nAWBI: +91 129 255 5700\n\nVehicle Registration: KA 44H 1809\n\nThis waste of breath dragged a dog for three miles.\nWhy is it never these people who get into motorcycle accidents?\n \n\n#karnataka #india #doglover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO ALURU KARNATAKA AUTHORITIES TITLED \"ARREST ALURU KARNATAKA DOG DRAGGER\"❗️\n\nCall:\nAlur Police Station: +91 817 021 8231\nHassan District SP Office: +91 817 226 8410\nAWBI: +91 129 255 5700\n\nVehicle Registration: KA 44H 1809\n\nThis waste of breath dragged a dog for three miles.\nWhy is it never these people who get into motorcycle accidents?\n \n\n#karnataka #india #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to report a serious case of animal cruelty that occurred in Alur (Aluru), Hassan district, Karnataka.\nA motorcycle bearing registration number KA 44H 1809 (registered under Tiptur RTO, KA-44) was used to drag a dog for approximately 5 kilometers. This constitutes a clear violation of Sections 3 and 11 of the Prevention of Cruelty to Animals Act, 1960, and relevant sections of the Indian Penal Code.\nI request you to:\n\n1- Immediately trace the vehicle owner through the RTO/VAHAN database.\n2- Register an FIR at Alur Police Station and initiate investigation.\n3- Take all necessary legal action against the perpetrator to prevent further cruelty and ensure justice.\n\nThank you for your urgent attention to this matter.\n\nVideo evidence: https://drive.google.com/file/d/1FAdLMaB56T1z5GLOE1Ept8zpMZucTPLT/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "dchsn@ksp.gov.in",
+        "support@awbi.gov.in",
+        "support-awbi@awbi.gov.in",
+        "artotpt-ka@nic.in",
+        "alurhsn@ksp.gov.in"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report an incident of severe animal cruelty in Alur, Hassan district. A motorcycle with licence plate KA 44H 1809 dragged a dog behind it for about 5 kilometres. I request you to trace the owner immediately through the RTO, register an FIR under the Prevention of Cruelty to Animals Act, and take strict legal action against the perpetrator.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1FAdLMaB56T1z5GLOE1Ept8zpMZucTPLT/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-aluru-karnataka-dog-dragger-20260405",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO ALURU KARNATAKA AUTHORITIES TITLED \"ARREST ALURU KARNATAKA DOG DRAGGER\"❗️\n\nCall:\nAlur Police Station: +91 817 021 8231\nHassan District SP Office: +91 817 226 8410\nAWBI: +91 129 255 5700\n\nVehicle Registration: KA 44H 1809\n\nThis waste of breath dragged a dog for three miles.\nWhy is it never these people who get into motorcycle accidents?\n \n\n#karnataka #india #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Aluru Karnataka Authorities",
+        "state": "Karnataka",
+        "city": "Aluru",
+        "country": "India",
+        "dial": "+91",
+        "phones": [
+          {
+            "who": "Alur Police Station",
+            "code": "+91",
+            "number": "817 021 8231",
+            "ext": ""
+          },
+          {
+            "who": "Hassan District SP Office",
+            "code": "+91",
+            "number": "817 226 8410",
+            "ext": ""
+          },
+          {
+            "who": "AWBI",
+            "code": "+91",
+            "number": "129 255 5700",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-05T01:26:43Z",
+      "updatedAt": "2026-04-05T01:26:43Z"
     }
   ]
 }
