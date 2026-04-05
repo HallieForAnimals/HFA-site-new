@@ -1740,6 +1740,75 @@
       "postToUpdates": true,
       "createdAt": "2026-04-05T02:30:41Z",
       "updatedAt": "2026-04-05T02:30:41Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "1533-e-33rd",
+      "slug": "neglected-dog-at-1533-e-33rd-st-la-20260406",
+      "status": "recent",
+      "role": "original",
+      "title": "Neglected Dog at 1533 E 33rd St, LA",
+      "mailtoSubject": "Report of Ongoing Animal Neglect/Cruelty at 1533 E 33rd Street, Los Angeles",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"NEGLECTED DOG AT 1533 E 33RD ST, LA\"❗️\n\nCall:\nLA County Supervisor Mitchell: +1 213 974 2222\nLA Animal Services: +1 323 565 2161\nLAPD: +1 877 275 5273\n\nLocation: 1533 E 33rd Street, LA.\n\nA dog is locked 24/7 in a small crate on the balcony with no protection from sun, rain, heat, or cold.\nSomeone who speaks Spanish needs to go and talk with the owner to see if they would like to surrender him. He is only taken out to clean his cage and then put right back in.\n\n#california #losAngeles #doglover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"NEGLECTED DOG AT 1533 E 33RD ST, LA\"❗️\n\nCall:\nLA County Supervisor Mitchell: +1 213 974 2222\nLA Animal Services: +1 323 565 2161\nLAPD: +1 877 275 5273\n\nLocation: 1533 E 33rd Street, LA.\n\nA dog is locked 24/7 in a small crate on the balcony with no protection from sun, rain, heat, or cold.\nSomeone who speaks Spanish needs to go and talk with the owner to see if they would like to surrender him. He is only taken out to clean his cage and then put right back in.\n\n#california #losAngeles #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to report ongoing animal neglect and cruelty at 1533 E 33rd Street, Los Angeles, 90011.\nA dog is being kept locked in a crate on the balcony 24 hours a day, 7 days a week with no apparent exercise, proper shelter, or relief from the elements. This constitutes clear neglect and a violation of California Penal Code § 597 and City of Los Angeles animal welfare laws.\n\nI request you to:\n\n1: Immediately dispatch officers for a welfare check and investigation at the address.\n2: Coordinate with LA Animal Services / Department of Animal Care and Control for seizure if the dog is in distress.\n3: Take all necessary enforcement action against the responsible party to ensure the dog’s safety.\n\nI am available to provide any additional evidence, statements, or follow-up. Please acknowledge receipt and provide a reference/complaint number.\nThank you for your urgent attention to this matter.\n\nVideo evidence: https://drive.google.com/file/d/1I9ldzoXrsVW3epgs5sDvY36cz2jm-JkU/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "hollyjmitchell@bos.lacounty.gov",
+        "councilmember.price@lacity.org",
+        "37659@lapd.online",
+        "31567@lapd.online",
+        "annette.ramirez@lacity.org",
+        "curtis.watts@lacity.org",
+        "yvonne.rodriguez@lacity.org"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report ongoing animal neglect at 1533 E 33rd Street in Los Angeles. A dog is locked in a crate on the balcony 24/7 with no relief, exercise, or proper care. I request an immediate welfare check by Newton Division officers, coordination with Animal Services, and enforcement under Penal Code 597.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1I9ldzoXrsVW3epgs5sDvY36cz2jm-JkU/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/neglected-dog-at-1533-e-33rd-st-la-20260406",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"NEGLECTED DOG AT 1533 E 33RD ST, LA\"❗️\n\nCall:\nLA County Supervisor Mitchell: +1 213 974 2222\nLA Animal Services: +1 323 565 2161\nLAPD: +1 877 275 5273\n\nLocation: 1533 E 33rd Street, LA.\n\nA dog is locked 24/7 in a small crate on the balcony with no protection from sun, rain, heat, or cold.\nSomeone who speaks Spanish needs to go and talk with the owner to see if they would like to surrender him. He is only taken out to clean his cage and then put right back in.\n\n#california #losAngeles #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Los Angeles Authorities",
+        "state": "California",
+        "city": "Los Angeles",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "LA County Supervisor Mitchell",
+            "code": "+1",
+            "number": "213 974 2222",
+            "ext": ""
+          },
+          {
+            "who": "LA Animal Services",
+            "code": "+1",
+            "number": "323 565 2161",
+            "ext": ""
+          },
+          {
+            "who": "LAPD",
+            "code": "+1",
+            "number": "877 275 5273",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-05T23:43:09Z",
+      "updatedAt": "2026-04-05T23:43:09Z"
     }
   ]
 }
