@@ -1809,6 +1809,70 @@
       "postToUpdates": true,
       "createdAt": "2026-04-05T23:43:09Z",
       "updatedAt": "2026-04-05T23:43:09Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "buzios-dog-abuser",
+      "slug": "arrest-bzios-dog-abuser-20260407",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Búzios Dog Abuser",
+      "mailtoSubject": "Denúncia de maus-tratos a animais – Castramóvel de Búzios/Animal Cruelty Report - Búzios Castramóvel",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BÚZIOS AUTHORITIES TITLED \"ARREST BÚZIOS DOG ABUSER\"❗️\n\nCall:\nSecretaria da Causa Animal: +55 222 633 6096\n127ª DP Búzios: +55 2 299 219 2042\nPrefeitura Ouvidoria: +55 222 633 6000\n\nLocation: Bairro da Rasa, Armação dos Búzios.\n\nThis POS took his dog to the mobile neutering clinic, and because she didn't obey him, her scruffed her, threw her to the ground, and beat her.\nStaff attempted to remove the dog from him, but he became aggressive and left.\n\n#brazil #buzios #dogsofinstagram",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BÚZIOS AUTHORITIES TITLED \"ARREST BÚZIOS DOG ABUSER\"❗️\n\nCall:\nSecretaria da Causa Animal: +55 222 633 6096\n127ª DP Búzios: +55 2 299 219 2042\nPrefeitura Ouvidoria: +55 222 633 6000\n\nLocation: Bairro da Rasa, Armação dos Búzios.\n\nThis POS took his dog to the mobile neutering clinic, and because she didn't obey him, her scruffed her, threw her to the ground, and beat her.\nStaff attempted to remove the dog from him, but he became aggressive and left.\n\n#brazil #buzios #dogsofinstagram",
+      "mailtoBody": "A quem possa interessar,\n\nEscrevo para denunciar formalmente e exigir medidas em relação ao incidente de maus-tratos brutais a um cão ocorrido em 2 de abril de 2026, em frente à unidade móvel de castração no Bairro da Rasa, em Armação dos Búzios.\n\nImagens nítidas de câmeras de segurança, compartilhadas pelo vereador Toni Russo, mostram um homem agredindo violentamente seu próprio cão. A legislação brasileira (Lei Federal 9.605/1998, Art. 32) classifica esse ato como crime.\n\nExigimos: identificação imediata do agressor, retirada do cão de sua custódia por motivos de segurança e investigação policial completa.\n\nO mundo está de olho.\n\nProva em vídeo: https://drive.google.com/file/d/1lRM59mkz1n6kxMLDlySE1C8RcZbNmfCw/view?usp=sharing\n\nAtenciosamente,\n\n\n\nEquipe @HallieForAnimals\ncontact@hallieforanimals.org\n\n\n\n\n\nTo whom it may concern,\n\nI am writing to formally report and demand action on the brutal dog abuse incident that occurred on April 2, 2026, in front of the mobile neutering unit in Bairro da Rasa, Armação dos Búzios.\n\nClear CCTV footage, shared by Councilman Toni Russo, shows a man violently attacking his own dog. Brazilian law (Federal Law 9.605/1998, Art. 32) classifies this as a crime.\n\nWe demand: immediate identification of the perpetrator, removal of the dog from his custody for safety, and full police investigation.\n\nThe world is watching.\n\nVideo evidence: https://drive.google.com/file/d/1lRM59mkz1n6kxMLDlySE1C8RcZbNmfCw/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "seccausaanimal@buzios.rj.gov.br",
+        "ouvidoria@buzios.rj.gov.br"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report the animal abuse incident that occurred on April 2, 2026, in front of the Castramóvel in Bairro da Rasa, Búzios. Security camera footage clearly shows a man violently punching and throwing his dog to the ground. I demand immediate identification of the perpetrator, removal of the dog from his custody, and full investigation under Brazilian animal cruelty law.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1lRM59mkz1n6kxMLDlySE1C8RcZbNmfCw/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-bzios-dog-abuser-20260407",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BÚZIOS AUTHORITIES TITLED \"ARREST BÚZIOS DOG ABUSER\"❗️\n\nCall:\nSecretaria da Causa Animal: +55 222 633 6096\n127ª DP Búzios: +55 2 299 219 2042\nPrefeitura Ouvidoria: +55 222 633 6000\n\nLocation: Bairro da Rasa, Armação dos Búzios.\n\nThis POS took his dog to the mobile neutering clinic, and because she didn't obey him, her scruffed her, threw her to the ground, and beat her.\nStaff attempted to remove the dog from him, but he became aggressive and left.\n\n#brazil #buzios #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Búzios Authorities",
+        "state": "Rio de Janeiro",
+        "city": "Búzios",
+        "country": "Brazil",
+        "dial": "+55",
+        "phones": [
+          {
+            "who": "Secretaria da Causa Animal",
+            "code": "+55",
+            "number": "222 633 6096",
+            "ext": ""
+          },
+          {
+            "who": "127ª DP Búzios",
+            "code": "+55",
+            "number": "2 299 219 2042",
+            "ext": ""
+          },
+          {
+            "who": "Prefeitura Ouvidoria",
+            "code": "+55",
+            "number": "222 633 6000",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-07T00:15:25Z",
+      "updatedAt": "2026-04-07T00:15:25Z"
     }
   ]
 }
