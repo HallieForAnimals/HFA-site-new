@@ -1941,6 +1941,72 @@
       "postToUpdates": true,
       "createdAt": "2026-04-07T00:46:45Z",
       "updatedAt": "2026-04-07T00:46:45Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "rua-friedrich-nietzsche",
+      "slug": "rua-friedrich-nietzsche-dog-abuse-20260408",
+      "status": "recent",
+      "role": "original",
+      "title": "Rua Friedrich Nietzsche Dog Abuse",
+      "mailtoSubject": "Maltreatment de um cão de rua em São José dos Pinhais/Abuse of a stray dog in São José dos Pinhais",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO SÃO JOSÉ AUTHORITIES TITLED \"RUA FRIEDRICH NIETZSCHE DOG ABUSE\"❗️\n\nCall:\nDelegacia de Proteção ao Meio Ambiente: +55 413 251 6200\nBatalhão de Polícia Ambiental Força Verde: +55 413 299 1350\nSecretaria de Meio Ambiente: +55 413 380 0500\n\nLocation: Rua Friedrich Nietzsche, São José dos Pinhais, Brazil.\n\nThis garbage collector kicked a community dog, breaking his jaw. He's been fired, and the company is paying for all veterinary costs, but no charges have been made yet.\n\n#brazil #saojose #dogsofinstagram",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO SÃO JOSÉ AUTHORITIES TITLED \"RUA FRIEDRICH NIETZSCHE DOG ABUSE\"❗️\n\nCall:\nDelegacia de Proteção ao Meio Ambiente: +55 413 251 6200\nBatalhão de Polícia Ambiental Força Verde: +55 413 299 1350\nSecretaria de Meio Ambiente: +55 413 380 0500\n\nLocation: Rua Friedrich Nietzsche, São José dos Pinhais, Brazil.\n\nThis garbage collector kicked a community dog, breaking his jaw. He's been fired, and the company is paying for all veterinary costs, but no charges have been made yet.\n\n#brazil #saojose #dogsofinstagram",
+      "mailtoBody": "A quem possa interessar,\n\nVenho por meio desta apresentar uma denúncia formal de maus-tratos a animais (Art. 32 da Lei Federal nº 9.605/98), ocorridos na tarde da segunda-feira, 6 de abril de 2026, na Rua Friedrich Nietzsche, no bairro Aristocrata, em São José dos Pinhais, Paraná.\n\nUm cão comunitário, dócil e cuidado pelos moradores, foi violentamente chutado na mandíbula por um coletor de lixo, fraturando o osso. O incidente foi capturado por uma câmera de segurança, e o vídeo está circulando amplamente nas redes sociais.\n\nA empresa já demitiu o agressor e se comprometeu a arcar com os custos do tratamento veterinário, o que é insuficiente. Solicitamos o registro imediato de um boletim de ocorrência, a abertura de um inquérito policial e todas as medidas cabíveis para garantir que o agressor seja responsabilizado criminalmente.\n\nProva em vídeo: https://drive.google.com/file/d/1H6plO1R4cblxWjXvNsYx8jkNnlitExjS/view?usp=sharing\n\nAtenciosamente,\n\n\n\nEquipe @HallieForAnimals\ncontact@hallieforanimals.org\n\n\n\n\nTo whom it may concern,\n\nI hereby file a formal complaint of animal abuse (Art. 32 of Federal Law 9.605/98), which occurred on the afternoon of Monday, April 6, 2026, on Friedrich Nietzsche Street, in the Aristocrata neighborhood of São José dos Pinhais, Paraná.\n\nA community dog, docile and cared for by the residents, was violently kicked in the jaw by a garbage collector, fracturing the bone. The incident was captured on a security camera, and the video is widely circulating on social media.\n\nThe company has already fired the perpetrator and committed to paying for veterinary treatment, which is insufficient. We request the immediate filing of a police report, the opening of a police investigation, and all appropriate measures to ensure the perpetrator faces criminal charges.\n\nVideo evidence: https://drive.google.com/file/d/1H6plO1R4cblxWjXvNsYx8jkNnlitExjS/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "bpambfv@pm.pr.gov.br",
+        "dpsaojosepinhais@pc.pr.gov.br",
+        "servicossemma@sjp.pr.gov.br",
+        "educacao.ambiental@sjp.pr.gov.br"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report a serious case of animal abuse in São José dos Pinhais. On April 6th, 2026, a garbage collector violently kicked a community dog in the jaw, breaking it, the entire incident was captured on security camera footage. I demand that a Boletim de Ocorrência be registered and that the aggressor be criminally investigated under Law 9.605/98.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1H6plO1R4cblxWjXvNsYx8jkNnlitExjS/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/rua-friedrich-nietzsche-dog-abuse-20260408",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO SÃO JOSÉ AUTHORITIES TITLED \"RUA FRIEDRICH NIETZSCHE DOG ABUSE\"❗️\n\nCall:\nDelegacia de Proteção ao Meio Ambiente: +55 413 251 6200\nBatalhão de Polícia Ambiental Força Verde: +55 413 299 1350\nSecretaria de Meio Ambiente: +55 413 380 0500\n\nLocation: Rua Friedrich Nietzsche, São José dos Pinhais, Brazil.\n\nThis garbage collector kicked a community dog, breaking his jaw. He's been fired, and the company is paying for all veterinary costs, but no charges have been made yet.\n\n#brazil #saojose #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "São José Authorities",
+        "state": "Paraná",
+        "city": "São José",
+        "country": "Brazil",
+        "dial": "+55",
+        "phones": [
+          {
+            "who": "Delegacia de Proteção ao Meio Ambiente",
+            "code": "+55",
+            "number": "413 251 6200",
+            "ext": ""
+          },
+          {
+            "who": "Batalhão de Polícia Ambiental Força Verde",
+            "code": "+55",
+            "number": "413 299 1350",
+            "ext": ""
+          },
+          {
+            "who": "Secretaria de Meio Ambiente",
+            "code": "+55",
+            "number": "413 380 0500",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-08T01:36:58Z",
+      "updatedAt": "2026-04-08T01:36:58Z"
     }
   ]
 }
