@@ -2076,6 +2076,74 @@
       "postToUpdates": true,
       "createdAt": "2026-04-08T17:17:14Z",
       "updatedAt": "2026-04-08T17:17:14Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "1804-prairie-town-way",
+      "slug": "neglected-dogs-at-1804-prairie-town-way-roseville-ca-20260408",
+      "status": "recent",
+      "role": "original",
+      "title": "Neglected Dogs at 1804 Prairie Town Way, Roseville, CA",
+      "mailtoSubject": "Two Dogs Locked in Garage 24/7",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO ROSEVILLE AUTHORITIES TITLED \"NEGLECTED DOGS AT 1804 PRAIRIE TOWN WAY, ROSEVILLE, CA\"❗️\n\nCall:\nRoseville Animal Control: +1 916 774 5090\nRoseville PD: +1 916 774 5000\nPlacer SPCA: +1 916 782 7722\n\nLocation: 1804 Prairie Town Way, Roseville, CA.\n\nTwo dogs are locked in a non-climate-regulated garage 24/7, with no protection from extreme heat or cold. Despite animal control being called out, this has been going on for a year.\n\n#california #roseville #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO ROSEVILLE AUTHORITIES TITLED \"NEGLECTED DOGS AT 1804 PRAIRIE TOWN WAY, ROSEVILLE, CA\"❗️\n\nCall:\nRoseville Animal Control: +1 916 774 5090\nRoseville PD: +1 916 774 5000\nPlacer SPCA: +1 916 782 7722\n\nLocation: 1804 Prairie Town Way, Roseville, CA.\n\nTwo dogs are locked in a non-climate-regulated garage 24/7, with no protection from extreme heat or cold. Despite animal control being called out, this has been going on for a year.\n\n#california #roseville #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to report ongoing animal neglect at 1804 Prairie Town Way, Roseville, CA 95747.\n\nTwo dogs have been kept locked inside a non-climate-controlled garage 24/7 for over a year, exposed to extreme heat and cold with no temperature control or relief. Last summer, when temperatures reached 114°F, Animal Control was contacted. Sarah Cooper, Animal Control Supervisor, responded to the call but was unprofessional and rude to those reporting the incident, took no enforcement action, and the dogs remain in the exact same dangerous conditions to this day.\n\nThis situation violates California Penal Code §597.7, which prohibits confining an animal in any enclosed space (including a garage) under conditions of extreme heat, cold, or lack of ventilation that can reasonably be expected to cause suffering. I respectfully request an immediate welfare check, full investigation, removal of the dogs if necessary, and appropriate enforcement action against the owner.\n\nI can provide additional details, photos, or videos (taken safely from public areas) if needed. Thank you for treating this as the urgent matter it is.\n\nVideo evidence: https://drive.google.com/file/d/19-Yg4GUwdRYsAu1gcmFaH-Yudlk8jR_S/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "tbergstrom@roseville.ca.us",
+        "cscurria@roseville.ca.us",
+        "scooper@roseville.ca.us",
+        "dblake@roseville.ca.us",
+        "kbernasconi@roseville.ca.us",
+        "bcasey@roseville.ca.us"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report animal neglect at 1804 Prairie Town Way in Roseville. Two dogs are locked inside a garage 24/7 with no temperature control, and this has been going on for over a year. Last summer, when it hit 114°F, animal control was called, but nothing was done; the dogs are still there. I request an immediate welfare check and enforcement action.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/19-Yg4GUwdRYsAu1gcmFaH-Yudlk8jR_S/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/neglected-dogs-at-1804-prairie-town-way-roseville-ca-20260408",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO ROSEVILLE AUTHORITIES TITLED \"NEGLECTED DOGS AT 1804 PRAIRIE TOWN WAY, ROSEVILLE, CA\"❗️\n\nCall:\nRoseville Animal Control: +1 916 774 5090\nRoseville PD: +1 916 774 5000\nPlacer SPCA: +1 916 782 7722\n\nLocation: 1804 Prairie Town Way, Roseville, CA.\n\nTwo dogs are locked in a non-climate-regulated garage 24/7, with no protection from extreme heat or cold. Despite animal control being called out, this has been going on for a year.\n\n#california #roseville #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Roseville Authorities",
+        "state": "California",
+        "city": "Roseville",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Roseville Animal Control",
+            "code": "+1",
+            "number": "916 774 5090",
+            "ext": ""
+          },
+          {
+            "who": "Roseville PD",
+            "code": "+1",
+            "number": "916 774 5000",
+            "ext": ""
+          },
+          {
+            "who": "Placer SPCA",
+            "code": "+1",
+            "number": "916 782 7722",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-08T22:59:42Z",
+      "updatedAt": "2026-04-08T22:59:42Z"
     }
   ]
 }
