@@ -2007,6 +2007,75 @@
       "postToUpdates": true,
       "createdAt": "2026-04-08T01:36:58Z",
       "updatedAt": "2026-04-08T01:36:58Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "312-n-camilla-ave",
+      "slug": "neglect-at-312-n-camilla-ave-ca-20260408",
+      "status": "recent",
+      "role": "original",
+      "title": "Neglect at 312 N Camilla Ave, CA",
+      "mailtoSubject": "Dog in Outdoor Crate 24/7 at 312 N Camellia Ave,",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO ONTARIO, CA AUTHORITIES TITLED \"NEGLECT AT 312 N CAMILLA AVE, CA\"❗️\n\nCall:\nARC Animal Control: +1 909 321 1080\nSan Bernardino County Animal Care Field Services: +1 800 472 5609 ext 1\nOntario Police Non-Emergency: +1 909 395 2001\n\nLocation: 312 N Camellia Avenue, Apt B, Ontario, CA 91764.\n\nThis poor baby is shut in and tethered to a crate outside 24/7, without food or water.\nShe was recently brought inside to give birth in the bathroom.\nThis dog's owner clearly has no idea how to care for a dog, let alone a litter of puppies.\n\n#california #ontario #dogsofinstagram",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO ONTARIO, CA AUTHORITIES TITLED \"NEGLECT AT 312 N CAMILLA AVE, CA\"❗️\n\nCall:\nARC Animal Control: +1 909 321 1080\nSan Bernardino County Animal Care Field Services: +1 800 472 5609 ext 1\nOntario Police Non-Emergency: +1 909 395 2001\n\nLocation: 312 N Camellia Avenue, Apt B, Ontario, CA 91764.\n\nThis poor baby is shut in and tethered to a crate outside 24/7, without food or water.\nShe was recently brought inside to give birth in the bathroom.\nThis dog's owner clearly has no idea how to care for a dog, let alone a litter of puppies.\n\n#california #ontario #dogsofinstagram",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to report ongoing animal neglect at 312 N Camellia Avenue, Apt B Ontario, CA 91764.\nA mother dog is being kept locked in a crate outside the front door of the property 24/7. The crate is covered in blankets, and the dog appears tethered inside it. There is no visible food or water. The owner only recently brought her inside to give birth in the bathroom.\n\nThis situation violates California animal welfare laws. I respectfully request an immediate welfare check, full investigation, and any necessary intervention to protect the dog and puppies.\n\nThank you for your prompt attention to this urgent matter.\n\nVideo evidence: https://drive.google.com/file/d/1Nl9H2ZIyJHoGy3EgZzzYYZ3x5KEgQZvw/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "pleon@ontarioca.gov",
+        "sochoa@ontarioca.gov",
+        "rlopez@ontariopolice.org",
+        "brdevey@ontariopolice.org",
+        "slara@arcinlandempire.org",
+        "info@arcinlandempire.org",
+        "supervisor.hagman@bos.sbcounty.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report animal neglect at 312 N Camellia Avenue, Apt B in Ontario. The dog is kept locked in a crate outside the front door, covered in blankets, appears tethered, with no visible food or water. The owner only recently let her in briefly to give birth in the bathroom. I request an immediate welfare check on the mother dog and any puppies.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1Nl9H2ZIyJHoGy3EgZzzYYZ3x5KEgQZvw/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/neglect-at-312-n-camilla-ave-ca-20260408",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO ONTARIO, CA AUTHORITIES TITLED \"NEGLECT AT 312 N CAMILLA AVE, CA\"❗️\n\nCall:\nARC Animal Control: +1 909 321 1080\nSan Bernardino County Animal Care Field Services: +1 800 472 5609 ext 1\nOntario Police Non-Emergency: +1 909 395 2001\n\nLocation: 312 N Camellia Avenue, Apt B, Ontario, CA 91764.\n\nThis poor baby is shut in and tethered to a crate outside 24/7, without food or water.\nShe was recently brought inside to give birth in the bathroom.\nThis dog's owner clearly has no idea how to care for a dog, let alone a litter of puppies.\n\n#california #ontario #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Ontario, CA Authorities",
+        "state": "California",
+        "city": "Ontario",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "ARC Animal Control",
+            "code": "+1",
+            "number": "909 321 1080",
+            "ext": ""
+          },
+          {
+            "who": "San Bernardino County Animal Care Field Services",
+            "code": "+1",
+            "number": "800 472 5609",
+            "ext": "1"
+          },
+          {
+            "who": "Ontario Police Non-Emergency",
+            "code": "+1",
+            "number": "909 395 2001",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-08T17:17:14Z",
+      "updatedAt": "2026-04-08T17:17:14Z"
     }
   ]
 }
