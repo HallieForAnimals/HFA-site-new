@@ -2144,6 +2144,48 @@
       "postToUpdates": true,
       "createdAt": "2026-04-08T22:59:42Z",
       "updatedAt": "2026-04-08T22:59:42Z"
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "2026-04-09",
+      "updateStatus": "resolved",
+      "caseId": "242-W-89th-LA",
+      "slug": "rescued---neglected-dog-at-242-w-89th-street-la-20260409",
+      "status": "updated",
+      "role": "update",
+      "title": "RESCUED - Neglected Dog at 242 W 89th Street, LA",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "UPDATE❗\n\nA team of rescuers came together and rescued this sweet boy and a Chihuahua, who also lived on the property, from a life of abuse.\nBoth show signs of severe abuse and neglect. Both are afraid of sudden movements. One was severely matted and caked in faeces.\nAll credit goes to @codename_k9 and the rest of the team for liberating these angels and making sure they found their way into safe, loving hands. You guys are true heroes.\n\n#california #losangeles #doglover",
+      "descriptionLong": "UPDATE❗\n\nA team of rescuers came together and rescued this sweet boy and a Chihuahua, who also lived on the property, from a life of abuse.\nBoth show signs of severe abuse and neglect. Both are afraid of sudden movements. One was severely matted and caked in faeces.\nAll credit goes to @codename_k9 and the rest of the team for liberating these angels and making sure they found their way into safe, loving hands. You guys are true heroes.\n\n#california #losangeles #doglover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1ELcnGzBil46YRpO4RQnqaNOoJJUHGHJP/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/rescued---neglected-dog-at-242-w-89th-street-la-20260409",
+      "caption": "UPDATE❗\n\nA team of rescuers came together and rescued this sweet boy and a Chihuahua, who also lived on the property, from a life of abuse.\nBoth show signs of severe abuse and neglect. Both are afraid of sudden movements. One was severely matted and caked in faeces.\nAll credit goes to @codename_k9 and the rest of the team for liberating these angels and making sure they found their way into safe, loving hands. You guys are true heroes.\n\n#california #losangeles #doglover",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "empty",
+        "targets": "",
+        "state": "California",
+        "city": "Los Angeles",
+        "country": "United States",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-09T19:49:56Z",
+      "updatedAt": "2026-04-09T19:49:56Z"
     }
   ]
 }
