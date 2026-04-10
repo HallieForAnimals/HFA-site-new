@@ -2258,6 +2258,73 @@
       "postToUpdates": true,
       "createdAt": "2026-04-10T02:07:28Z",
       "updatedAt": "2026-04-10T02:07:28Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "justice-for-rocky",
+      "slug": "justice-for-rocky-20260410",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice For Rocky",
+      "mailtoSubject": "Demand Animal Cruelty Charges, Immediate Firing, and Vet Bill Payment",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO RATHDRUM POLICE & AMAZON EXECUTIVES TITLED \"JUSTICE FOR ROCKY\"❗️\n\nCall:\nRathdrum PD: +1 208 687 0711\nKootenai County Prosecuting Attorney’s Office: +1 208 446 1800\nKootenai County Animal Control: +1 208 666 5765\n\nLocation: Rathdrum, Idaho.\n\nAn Amazon delivery driver with an inferiority complex saw little Rocky as a threat, grabbed him by the neck, and threw him onto the rocks.\nRocky suffered a broken ankle, possible dislocation, bruising, and is now terrified of strangers. \nAmazon is \"investigating\", and the charges HAVE NOT been filed against the driver.\n\n#idaho #rathdrum #doglover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO RATHDRUM POLICE & AMAZON EXECUTIVES TITLED \"JUSTICE FOR ROCKY\"❗️\n\nCall:\nRathdrum PD: +1 208 687 0711\nKootenai County Prosecuting Attorney’s Office: +1 208 446 1800\nKootenai County Animal Control: +1 208 666 5765\n\nLocation: Rathdrum, Idaho.\n\nAn Amazon delivery driver with an inferiority complex saw little Rocky as a threat, grabbed him by the neck, and threw him onto the rocks.\nRocky suffered a broken ankle, possible dislocation, bruising, and is now terrified of strangers. \nAmazon is \"investigating\", and the charges HAVE NOT been filed against the driver.\n\n#idaho #rathdrum #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned citizen about the clear animal cruelty incident captured on video in Rathdrum, Idaho on April 5, 2026. An Amazon delivery driver grabbed Joe Hickey’s small dog Rocky by the neck and violently slammed him onto rocks in the front yard. The dog suffered a broken ankle, possible dislocation, scrapes, and is now facing $10,000+ in veterinary bills and surgery.\n\nThe video shows this was not a reasonable reaction; it was casual, excessive, and malicious violence against a tiny dog that barely reached the driver’s shin. The family has already filed a police report.\n\nI demand immediate action:\n\n1: Animal cruelty charges filed against the driver under Idaho law.\n2: The driver and his Delivery Service Partner terminated immediately.\n3: Amazon cover 100% of Rocky’s veterinary costs and any ongoing care.\n\nThe public has seen the footage and will not accept delays or excuses. This is a joke if no one is held accountable. Please confirm receipt and update me on next steps.\n\nVideo evidence: https://drive.google.com/file/d/1QM195YT6W-1XTtblIa5cYvANc3hLWaO9/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "bfriis@rathdrumpolice.gov",
+        "jeff@amazon.com",
+        "ajassy@amazon.com",
+        "smortensen@kcgov.us",
+        "dhaley@rathdrumpolice.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report a clear case of animal cruelty by an Amazon delivery driver in Rathdrum, Idaho. On or around April 5, 2026, the driver grabbed Joe Hickey's small dog, Rocky, by the neck and slammed him onto rocks, causing broken bones and $10,000 in vet bills, all on video. I demand animal cruelty charges be filed immediately, the driver be fired, and Amazon pay the vet fees. This is unacceptable.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1QM195YT6W-1XTtblIa5cYvANc3hLWaO9/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-rocky-20260410",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO RATHDRUM POLICE & AMAZON EXECUTIVES TITLED \"JUSTICE FOR ROCKY\"❗️\n\nCall:\nRathdrum PD: +1 208 687 0711\nKootenai County Prosecuting Attorney’s Office: +1 208 446 1800\nKootenai County Animal Control: +1 208 666 5765\n\nLocation: Rathdrum, Idaho.\n\nAn Amazon delivery driver with an inferiority complex saw little Rocky as a threat, grabbed him by the neck, and threw him onto the rocks.\nRocky suffered a broken ankle, possible dislocation, bruising, and is now terrified of strangers. \nAmazon is \"investigating\", and the charges HAVE NOT been filed against the driver.\n\n#idaho #rathdrum #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Rathdrum Police & Amazon Executives",
+        "state": "Idaho",
+        "city": "Rathdrum",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Rathdrum PD",
+            "code": "+1",
+            "number": "208 687 0711",
+            "ext": ""
+          },
+          {
+            "who": "Kootenai County Prosecuting Attorney’s Office",
+            "code": "+1",
+            "number": "208 446 1800",
+            "ext": ""
+          },
+          {
+            "who": "Kootenai County Animal Control",
+            "code": "+1",
+            "number": "208 666 5765",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-10T23:06:13Z",
+      "updatedAt": "2026-04-10T23:06:13Z"
     }
   ]
 }
