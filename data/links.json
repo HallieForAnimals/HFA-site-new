@@ -2098,7 +2098,8 @@
         "cscurria@roseville.ca.us",
         "scooper@roseville.ca.us",
         "dblake@roseville.ca.us",
-        "kbernasconi@roseville.ca.us"
+        "kbernasconi@roseville.ca.us",
+        "bcasey@roseville.ca.us"
       ],
       "phones": [],
       "callScript": "I'm calling to report animal neglect at 1804 Prairie Town Way in Roseville. Two dogs are locked inside a garage 24/7 with no temperature control, and this has been going on for over a year. Last summer, when it hit 114°F, animal control was called, but nothing was done; the dogs are still there. I request an immediate welfare check and enforcement action.",
@@ -2142,7 +2143,7 @@
       "hidden": false,
       "postToUpdates": true,
       "createdAt": "2026-04-08T22:59:42Z",
-      "updatedAt": "2026-04-09T20:53:31Z"
+      "updatedAt": "2026-04-08T22:59:42Z"
     },
     {
       "ctaType": "update",
@@ -2185,6 +2186,78 @@
       "postToUpdates": true,
       "createdAt": "2026-04-09T19:49:56Z",
       "updatedAt": "2026-04-09T19:49:56Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "nyc-abused-dog-returned",
+      "slug": "nyc-dog-returned-to-abuser-20260409",
+      "status": "recent",
+      "role": "original",
+      "title": "NYC Dog Returned To Abuser",
+      "mailtoSubject": "Demand for Investigation & Policy Reform",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO NEW YORK AUTHORITIES TITLED \"NYC DOG RETURNED TO ABUSER\"❗️\n\nCall:\nAnimal Care Centers of NYC: +1 212 788 4000\nNYC 311: +1 212 639 9675\nNYPD 13th Precinct: +1 212 477 7411\nNYPD Crime Stoppers: +1 1 800 577 8477\n\nLocation: E 28th Street, Manhattan, NY.\n\nThis b!tch beat her dog for throwing up. The dog was so scared she peed herself. Cops took over an hour to respond.\nEventually, the dog was removed and put into the \"care\" of @nycacc, who later released her back to her abusive owner.\nThe owner has mental health issues and refuses treatment.\n@nycgov can't call itself progressive whilst hand-feeding animals to abusers.\n\n#newyork #manhattan #cutedogs",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO NEW YORK AUTHORITIES TITLED \"NYC DOG RETURNED TO ABUSER\"❗️\n\nCall:\nAnimal Care Centers of NYC: +1 212 788 4000\nNYC 311: +1 212 639 9675\nNYPD 13th Precinct: +1 212 477 7411\nNYPD Crime Stoppers: +1 1 800 577 8477\n\nLocation: E 28th Street, Manhattan, NY.\n\nThis b!tch beat her dog for throwing up. The dog was so scared she peed herself. Cops took over an hour to respond.\nEventually, the dog was removed and put into the \"care\" of @nycacc, who later released her back to her abusive owner.\nThe owner has mental health issues and refuses treatment.\n@nycgov can't call itself progressive whilst hand-feeding animals to abusers.\n\n#newyork #manhattan #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to demand immediate accountability following a clear case of animal abuse and multiple city agency failures.\n\nRecently, on East 28th Street between 1st and 2nd Avenues in Manhattan, a woman was observed beating her dog after it vomited on the street. The terrified dog urinated itself in fear. Despite multiple calls, NYPD officers took over an hour to respond. The dog was removed and taken to Animal Care Centers of NYC (ACC), yet was later released back to the same abuser. This woman is already known to local hospitals for mental health issues and has declined offered help.\n\nThis incident highlights two critical failures:\n1: Unacceptably slow NYPD response to animal cruelty calls.\n2: ACC’s decision to return a clearly abused animal to a known abuser despite available evidence and the owner’s documented mental health concerns.\n\nNew York City cannot claim to be progressive while allowing dogs to be handfed to abusers.\n\nI respectfully request:\n\n1: An immediate investigation into this specific case, including retrieval of the dog if it remains in danger.\n2: A full review and reform of ACC policies on returning animals to individuals with histories of abuse or untreated mental health issues.\n3: Improved NYPD training and response protocols for animal cruelty calls to ensure timely intervention.\n4: Better inter-agency coordination between NYPD, ACC, and mental health services to protect animals and support vulnerable owners.\n\nThe public is watching, and we expect real change to prevent this from happening again.\nThank you for your urgent attention to this matter.\n\nVideo evidence: https://drive.google.com/file/d/1d7RL3t3mSgxZrijkje6dGWYqHuqKQ5ar/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "HEpstein@council.nyc.gov",
+        "alexander.brathwaite@nypd.org",
+        "mmerlino@health.nyc.gov",
+        "animalabuseregistry@health.nyc.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report a failure by city agencies in an animal abuse case on East 28th Street between 1st and 2nd Avenue in Manhattan. A dog was beaten by its owner, NYPD took over an hour to respond, and Animal Care Centers of NYC later released the dog back to the known abuser despite the animal's terror and the owner's documented mental health issues known to local hospitals. I demand an immediate investigation, retrieval of the dog if still in danger, and policy changes so this never happens again",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1d7RL3t3mSgxZrijkje6dGWYqHuqKQ5ar/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/nyc-dog-returned-to-abuser-20260409",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO NEW YORK AUTHORITIES TITLED \"NYC DOG RETURNED TO ABUSER\"❗️\n\nCall:\nAnimal Care Centers of NYC: +1 212 788 4000\nNYC 311: +1 212 639 9675\nNYPD 13th Precinct: +1 212 477 7411\nNYPD Crime Stoppers: +1 1 800 577 8477\n\nLocation: E 28th Street, Manhattan, NY.\n\nThis b!tch beat her dog for throwing up. The dog was so scared she peed herself. Cops took over an hour to respond.\nEventually, the dog was removed and put into the \"care\" of @nycacc, who later released her back to her abusive owner.\nThe owner has mental health issues and refuses treatment.\n@nycgov can't call itself progressive whilst hand-feeding animals to abusers.\n\n#newyork #manhattan #cutedogs",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "New York Authorities",
+        "state": "New York",
+        "city": "Manhattan",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Animal Care Centers of NYC",
+            "code": "+1",
+            "number": "212 788 4000",
+            "ext": ""
+          },
+          {
+            "who": "NYC 311",
+            "code": "+1",
+            "number": "212 639 9675",
+            "ext": ""
+          },
+          {
+            "who": "NYPD 13th Precinct",
+            "code": "+1",
+            "number": "212 477 7411",
+            "ext": ""
+          },
+          {
+            "who": "NYPD Crime Stoppers",
+            "code": "+1",
+            "number": "1 800 577 8477",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-10T02:07:28Z",
+      "updatedAt": "2026-04-10T02:07:28Z"
     }
   ]
 }
