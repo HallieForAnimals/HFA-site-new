@@ -2325,6 +2325,85 @@
       "postToUpdates": true,
       "createdAt": "2026-04-10T23:06:13Z",
       "updatedAt": "2026-04-10T23:06:13Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "dog-poisoning-kemerhisar",
+      "slug": "stop-poisoning-dog-in-kemerhisar-20260411",
+      "status": "recent",
+      "role": "original",
+      "title": "Stop Poisoning Dog in Kemerhisar",
+      "mailtoSubject": "Kemerhisar'da Yaşanan Toplu Hayvan Zehirlenmesi Olayının Soruşturulması Talebi/Demand for Investigation into Mass Animal Poisoning in Kemerhisar",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO KEMERHISAR AUTHORITIES TITLED \"STOP POISONING DOG IN KEMERHISAR\"❗️\n\nCall:\nNiğde Valiliği: +90 388 232 2324\nBor Kaymakamlığı: +90 388 311 7871\nNiğde Tarım ve Orman İl Müdürlüğü: +90 388 211 3100\nKemerhisar Belediyesi: +90 388 329 2063\nKemerhisar Jandarma: +90 388 329 2064\n\nLocation: Kemerhisar, Niğde, Turkey.\n\nDogs are being poisoned and killed in Kemerhisar.\n\n#nigde #kemerhisar #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO KEMERHISAR AUTHORITIES TITLED \"STOP POISONING DOG IN KEMERHISAR\"❗️\n\nCall:\nNiğde Valiliği: +90 388 232 2324\nBor Kaymakamlığı: +90 388 311 7871\nNiğde Tarım ve Orman İl Müdürlüğü: +90 388 211 3100\nKemerhisar Belediyesi: +90 388 329 2063\nKemerhisar Jandarma: +90 388 329 2064\n\nLocation: Kemerhisar, Niğde, Turkey.\n\nDogs are being poisoned and killed in Kemerhisar.\n\n#nigde #kemerhisar #animallover",
+      "mailtoBody": "İlgili makamlara,\n\nNiğde’nin Bor ilçesine bağlı Kemerhisar beldesinde çok sayıda hayvanın zehirlenerek öldürüldüğü iddia edilmektedir. Bu, hem hukuku hem de insanlığı ihlal eden bir vahşet eylemidir.\n\nNiğde Valiliği ve ilgili tüm kurumların derhal soruşturma başlatmasını, faillerin tespit edilmesini ve yerel yönetimde çalışıyor olsun ya da olmasın, Hayvanların Korunması Hakkında 5199 Sayılı Kanunun 28/A maddesi uyarınca en ağır şekilde cezalandırılmasını talep ediyoruz.\n\nHayvanlara zulüm, insanlara yönelik şiddetin kanıtlanmış bir habercisidir. Bu nedenle, failler toplumdan izole edilmeli ve caydırıcı olması için hayvan istismarına yönelik cezalar önemli ölçüde artırılmalıdır.\n\nBu konunun azami hassasiyetle ele alınmasını ve sonuç hakkında bilgilendirilmeyi rica ederiz.\n\nVideo kanıtı: https://drive.google.com/file/d/1ldJl4sfREgeLfiw-y1KzfDySMeq_MnGO/view?usp=sharing\n\nSaygılarımızla,\n\n\n\n@HallieForAnimals Ekibi\ncontact@hallieforanimals.org\n\n\n\n\n\nTo whom it may concern,\n\nIt is claimed that a large number of animals have been poisoned and killed in Kemerhisar Town, Bor district of Niğde. This is an act of savagery that violates both law and humanity.\n\nWe demand that an immediate investigation be launched by the Niğde Governorship and all relevant institutions, the perpetrators identified, and they be punished to the fullest extent under Article 28/A of Law No. 5199 on the Protection of Animals, regardless of whether they are employed by the local government or not.\n\nAnimal cruelty is a proven precursor to violence against humans. Therefore, the perpetrators must be isolated from society and penalties for animal abuse must be significantly increased to act as a deterrent.\n\nWe kindly request that this matter be handled with utmost sensitivity and that we be informed of the outcome.\n\nVideo evidence: https://drive.google.com/file/d/1ldJl4sfREgeLfiw-y1KzfDySMeq_MnGO/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "nigde@icisleri.gov.tr",
+        "bor@icisleri.gov.tr",
+        "nigde@tarimorman.gov.tr",
+        "bor@tarimorman.gov.tr",
+        "yaziisleri@kemerhisar.bel.tr"
+      ],
+      "phones": [],
+      "callScript": "I’m calling to report the poisoning and killing of numerous animals in Kemerhisar Town, Bor district, Niğde. I demand an immediate and thorough investigation under Article 28/A of Law 5199 on the Protection of Animals and that the perpetrators receive the maximum penalty. This animal cruelty must be stopped as it is the first step in the spiral of violence.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1ldJl4sfREgeLfiw-y1KzfDySMeq_MnGO/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/stop-poisoning-dog-in-kemerhisar-20260411",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO KEMERHISAR AUTHORITIES TITLED \"STOP POISONING DOG IN KEMERHISAR\"❗️\n\nCall:\nNiğde Valiliği: +90 388 232 2324\nBor Kaymakamlığı: +90 388 311 7871\nNiğde Tarım ve Orman İl Müdürlüğü: +90 388 211 3100\nKemerhisar Belediyesi: +90 388 329 2063\nKemerhisar Jandarma: +90 388 329 2064\n\nLocation: Kemerhisar, Niğde, Turkey.\n\nDogs are being poisoned and killed in Kemerhisar.\n\n#nigde #kemerhisar #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Kemerhisar Authorities",
+        "state": "Niğde",
+        "city": "Kemerhisar",
+        "country": "Türkiye",
+        "dial": "+90",
+        "phones": [
+          {
+            "who": "Niğde Valiliği",
+            "code": "+90",
+            "number": "388 232 2324",
+            "ext": ""
+          },
+          {
+            "who": "Bor Kaymakamlığı",
+            "code": "+90",
+            "number": "388 311 7871",
+            "ext": ""
+          },
+          {
+            "who": "Niğde Tarım ve Orman İl Müdürlüğü",
+            "code": "+90",
+            "number": "388 211 3100",
+            "ext": ""
+          },
+          {
+            "who": "Kemerhisar Belediyesi",
+            "code": "+90",
+            "number": "388 329 2063",
+            "ext": ""
+          },
+          {
+            "who": "Kemerhisar Jandarma",
+            "code": "+90",
+            "number": "388 329 2064",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-11T01:19:38Z",
+      "updatedAt": "2026-04-11T01:19:38Z"
     }
   ]
 }
