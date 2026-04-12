@@ -2404,6 +2404,72 @@
       "postToUpdates": true,
       "createdAt": "2026-04-11T01:19:38Z",
       "updatedAt": "2026-04-11T01:19:38Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "acoma-st-abuser",
+      "slug": "find-acoma-st-tx-dog-abuser-20260412",
+      "status": "recent",
+      "role": "original",
+      "title": "Find Acoma St, TX Dog Abuser",
+      "mailtoSubject": "Request for Animal Welfare Check & Investigation",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO EL PASO PD & ANIMAL CONTROL TITLED \"FIND ACOMA ST, TX DOG ABUSER\"❗️\n\nCall:\nEPPD Animal Cruelty Unit: 915 212 0800\nEl Paso Animal Services: 915 212 7297\nCity 311: 915 212 3111\n\nLocation: Acoma St, El Paso, Texas.\n\nAn unknown individual yanked his dog by the leash, causing the dog's feet to leave the ground. This is known to cause several serious issues, such as thyroid gland damage, tracheal damage, spinal and vertebral injuries, nerve damage, eye and ear problems, esophageal or laryngeal strain, jugular vein compression, and more.\n\n#texas #elpaso #doglover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO EL PASO PD & ANIMAL CONTROL TITLED \"FIND ACOMA ST, TX DOG ABUSER\"❗️\n\nCall:\nEPPD Animal Cruelty Unit: 915 212 0800\nEl Paso Animal Services: 915 212 7297\nCity 311: 915 212 3111\n\nLocation: Acoma St, El Paso, Texas.\n\nAn unknown individual yanked his dog by the leash, causing the dog's feet to leave the ground. This is known to cause several serious issues, such as thyroid gland damage, tracheal damage, spinal and vertebral injuries, nerve damage, eye and ear problems, esophageal or laryngeal strain, jugular vein compression, and more.\n\n#texas #elpaso #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to request an immediate welfare check and investigation into a case of animal mistreatment on Acoma Street in the North Hills neighborhood (ZIP 79934).\n\nAn individual yanked his dog by the leash, causing the dog's feet to leave the ground. This is known to cause several serious issues documented by veterinarians and canine health experts, such as:\nThyroid gland damage\nTracheal damage\nSpinal and vertebral injuries\nNerve damage\nEye and ear problems\nEsophageal or laryngeal strain\nJugular vein compression, and more.\n\nThis violates El Paso animal cruelty ordinances, and I ask that officers and animal control locate the individual in the attached video and ensure the dog is safe.\n\nVideo evidence: https://drive.google.com/file/d/1uMjHCFW2AL6TAxu7hgisc_2Y6PV5BIYa/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "1441@elpasotexas.gov",
+        "AskPD@elpasotexas.gov",
+        "2136@elpasotexas.gov",
+        "EPAS@elpasotexas.gov"
+      ],
+      "phones": [],
+      "callScript": "I’m calling to report animal mistreatment on Acoma Street in the North Hills neighborhood. An individual yanked his dog by the leash, causing the dog’s feet to leave the ground. This is known to cause several serious issues documented by veterinarians, which violates El Paso animal cruelty ordinances. I ask that officers and animal control locate the individual and ensure the dog is safe.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1uMjHCFW2AL6TAxu7hgisc_2Y6PV5BIYa/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/find-acoma-st-tx-dog-abuser-20260412",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO EL PASO PD & ANIMAL CONTROL TITLED \"FIND ACOMA ST, TX DOG ABUSER\"❗️\n\nCall:\nEPPD Animal Cruelty Unit: 915 212 0800\nEl Paso Animal Services: 915 212 7297\nCity 311: 915 212 3111\n\nLocation: Acoma St, El Paso, Texas.\n\nAn unknown individual yanked his dog by the leash, causing the dog's feet to leave the ground. This is known to cause several serious issues, such as thyroid gland damage, tracheal damage, spinal and vertebral injuries, nerve damage, eye and ear problems, esophageal or laryngeal strain, jugular vein compression, and more.\n\n#texas #elpaso #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "El Paso PD & Animal Control",
+        "state": "Texas",
+        "city": "El Paso",
+        "country": "",
+        "dial": "",
+        "phones": [
+          {
+            "who": "EPPD Animal Cruelty Unit",
+            "code": "",
+            "number": "915 212 0800",
+            "ext": ""
+          },
+          {
+            "who": "El Paso Animal Services",
+            "code": "",
+            "number": "915 212 7297",
+            "ext": ""
+          },
+          {
+            "who": "City 311",
+            "code": "",
+            "number": "915 212 3111",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-12T23:06:42Z",
+      "updatedAt": "2026-04-12T23:06:42Z"
     }
   ]
 }
