@@ -2470,6 +2470,77 @@
       "postToUpdates": true,
       "createdAt": "2026-04-12T23:06:42Z",
       "updatedAt": "2026-04-12T23:06:42Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "telangana-government-abusers",
+      "slug": "demand-accountability-for-telangana-government-abusers-20260414",
+      "status": "recent",
+      "role": "original",
+      "title": "Demand Accountability for Telangana Government Abusers",
+      "mailtoSubject": "Animal Cruelty by Telangana Government Workers",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TELANGANA AUTHORITIES TITLED \"DEMAND ACCOUNTABILITY FOR TELANGANA GOVERNMENT ABUSERS\"❗️\n\nCall:\nGHMC Helpline: +91 402 111 1111\nTelangana Animal Husbandry Department: +91 402 330 0179\nAnimal Welfare Board of India: +91 129 255 5700\nTelangana Police: +91 402 328 6966\n\nLocation: Telangana, India.\n\nTelangana government workers are throwing and mishandling a stray dog.\nClear animal cruelty. A criminal offence under Sections 3 & 11 of the Prevention of Cruelty to Animals Act, 1960, and a direct violation of the Animal Birth Control (Dogs) Rules, 2001.\n\n#india #telangana #cutedogs",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TELANGANA AUTHORITIES TITLED \"DEMAND ACCOUNTABILITY FOR TELANGANA GOVERNMENT ABUSERS\"❗️\n\nCall:\nGHMC Helpline: +91 402 111 1111\nTelangana Animal Husbandry Department: +91 402 330 0179\nAnimal Welfare Board of India: +91 129 255 5700\nTelangana Police: +91 402 328 6966\n\nLocation: Telangana, India.\n\nTelangana government workers are throwing and mishandling a stray dog.\nClear animal cruelty. A criminal offence under Sections 3 & 11 of the Prevention of Cruelty to Animals Act, 1960, and a direct violation of the Animal Birth Control (Dogs) Rules, 2001.\n\n#india #telangana #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to report a clear case of animal cruelty by workers employed by the local government in Telangana. Workers are brutally mishandling a stray dog in a manner that violates the Prevention of Cruelty to Animals Act, 1960 (Sections 3 & 11) and the Animal Birth Control (Dogs) Rules, 2001, which mandate humane catching and handling of stray dogs.\n\nThis inhumane treatment by public servants is unacceptable and brings disrepute to the Telangana government. I request you to:\n\n1: Immediately investigate the incident and identify the workers involved.\n2: Take strict disciplinary action, including suspension and legal proceedings.\n3: Ensure all future stray dog management strictly follows AWBI guidelines and humane ABC protocols.\n4: Provide a time-bound update on actions taken.\n\nFailure to act will be viewed as condoning cruelty by government employees.\n\nVideo evidence: https://drive.google.com/file/d/1mc1CSPhwugxpvAOIzymE65puqCV33a7b/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "support@awbi.gov.in",
+        "dir_ahd@telangana.gov.in",
+        "prlsecy_ahf@telangana.gov.in"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report animal cruelty by Telangana government workers. Video evidence shows workers on a government truck brutally mishandling a stray dog, violating the Prevention of Cruelty to Animals Act. I request an immediate investigation, identification of the workers involved, and strict action against them.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1mc1CSPhwugxpvAOIzymE65puqCV33a7b/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/demand-accountability-for-telangana-government-abusers-20260414",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TELANGANA AUTHORITIES TITLED \"DEMAND ACCOUNTABILITY FOR TELANGANA GOVERNMENT ABUSERS\"❗️\n\nCall:\nGHMC Helpline: +91 402 111 1111\nTelangana Animal Husbandry Department: +91 402 330 0179\nAnimal Welfare Board of India: +91 129 255 5700\nTelangana Police: +91 402 328 6966\n\nLocation: Telangana, India.\n\nTelangana government workers are throwing and mishandling a stray dog.\nClear animal cruelty. A criminal offence under Sections 3 & 11 of the Prevention of Cruelty to Animals Act, 1960, and a direct violation of the Animal Birth Control (Dogs) Rules, 2001.\n\n#india #telangana #cutedogs",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Telangana Authorities",
+        "state": "Telangana",
+        "city": "",
+        "country": "India",
+        "dial": "+91",
+        "phones": [
+          {
+            "who": "GHMC Helpline",
+            "code": "+91",
+            "number": "402 111 1111",
+            "ext": ""
+          },
+          {
+            "who": "Telangana Animal Husbandry Department",
+            "code": "+91",
+            "number": "402 330 0179",
+            "ext": ""
+          },
+          {
+            "who": "Animal Welfare Board of India",
+            "code": "+91",
+            "number": "129 255 5700",
+            "ext": ""
+          },
+          {
+            "who": "Telangana Police",
+            "code": "+91",
+            "number": "402 328 6966",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-14T01:14:18Z",
+      "updatedAt": "2026-04-14T01:14:18Z"
     }
   ]
 }
