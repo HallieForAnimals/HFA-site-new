@@ -2541,6 +2541,73 @@
       "postToUpdates": true,
       "createdAt": "2026-04-14T01:14:18Z",
       "updatedAt": "2026-04-14T01:14:18Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "4-seasons-abuse",
+      "slug": "arrest-4-seasons-dog-abuser-20260416",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest 4 Seasons Dog Abuser",
+      "mailtoSubject": "Animal Cruelty Report at 4 Seasons Carwash, Cornwall ON",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO CORNWALL AUTHORITIES TITLED \"ARREST 4 SEASONS DOG ABUSER\"❗️\n\nCall:\nCornwall Police Service: +1 613 933 5000\nProvincial Animal Welfare Services: +1 833 926 4625\nOntario SPCA: +1 613 936 0072\n\n4 Seasons Car Wash, 501 Brookdale Ave, Cornwall, ON.\n\nNot only was this guy dragging and beating on his dog, he was also seen threatening him with his belt, screaming at him, and lifting him off the ground by his collar.\nWhen challenged, he got aggressive and stated, \"It's my dog, I'll do what I want to it.\"\n\n#opntario #cornwall #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO CORNWALL AUTHORITIES TITLED \"ARREST 4 SEASONS DOG ABUSER\"❗️\n\nCall:\nCornwall Police Service: +1 613 933 5000\nProvincial Animal Welfare Services: +1 833 926 4625\nOntario SPCA: +1 613 936 0072\n\n4 Seasons Car Wash, 501 Brookdale Ave, Cornwall, ON.\n\nNot only was this guy dragging and beating on his dog, he was also seen threatening him with his belt, screaming at him, and lifting him off the ground by his collar.\nWhen challenged, he got aggressive and stated, \"It's my dog, I'll do what I want to it.\"\n\n#opntario #cornwall #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to formally report an act of animal cruelty witnessed on the morning of April 14, 2026, at 4 Seasons Carwash, Cornwall, Ontario.\n\nA dog was physically abused by its owner, who was recorded dragging the dog and physically striking it.\nPrior to the recording, the owner was seen removing his belt, striking the ground near the dog with it, screaming at the dog, and lifting the dog off the ground by its collar.\nWhen concerned witnesses intervened, the owner responded with aggression and stated, \"It's my dog, I'll do what I want with it.\"\n\nWe respectfully demand the following immediate actions:\n\n1: Obtain and preserve CCTV footage from 4 Seasons Carwash and nearby businesses for the morning of April 14, 2026.\n2: Identify the perpetrator using available video, witness descriptions, and business records.\n3: Remove the dog from the owner's custody pending a full welfare assessment under Ontario's Provincial Animal Welfare Services (PAWS) Act.\n4: Lay appropriate charges under the PAWS Act, Criminal Code of Canada (s. 445.1), and/or Cornwall's Animal Control By-law.\n\nResearch consistently shows a strong link between animal abuse, domestic violence, and child abuse. Individuals who abuse animals in public with an attitude of entitlement and control (\"It's my dog, I'll do what I want\") often escalate violence behind closed doors. If this individual is willing to assault a defenseless animal in full view of witnesses, what is occurring with vulnerable family members, partners, children, or other dependents, in private?\n\nThis is not just an animal welfare issue; it is a community safety issue.\n\nVideo evidence: https://drive.google.com/file/d/16OWISrRcKOLgruQKmb0scwa1xwJHUB1K/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "cornwall@ontariospca.ca",
+        "Knezevic.g@cornwallpolice.ca",
+        "Michaud.d@cornwallpolice.ca",
+        "Maxwell.c@cornwallpolice.ca",
+        "Spowart.s@cornwallpolice.ca"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report an incident of animal cruelty that occurred this morning, April 14, 2026, at 4 Seasons Carwash in Cornwall, Ontario. While video evidence shows the owner dragging and striking a dog, witnesses also observed unrecorded acts immediately beforehand, including the owner using a belt near the dog, screaming at it, and lifting it by the collar. When confronted, the owner stated, 'It's my dog, I'll do what I want to it,' and given the documented link between animal abuse and domestic/child violence, we are requesting immediate preservation of CCTV footage, identification of the perpetrator, removal of the dog for its safety, and appropriate charges.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/16OWISrRcKOLgruQKmb0scwa1xwJHUB1K/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-4-seasons-dog-abuser-20260416",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO CORNWALL AUTHORITIES TITLED \"ARREST 4 SEASONS DOG ABUSER\"❗️\n\nCall:\nCornwall Police Service: +1 613 933 5000\nProvincial Animal Welfare Services: +1 833 926 4625\nOntario SPCA: +1 613 936 0072\n\n4 Seasons Car Wash, 501 Brookdale Ave, Cornwall, ON.\n\nNot only was this guy dragging and beating on his dog, he was also seen threatening him with his belt, screaming at him, and lifting him off the ground by his collar.\nWhen challenged, he got aggressive and stated, \"It's my dog, I'll do what I want to it.\"\n\n#opntario #cornwall #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Cornwall Authorities",
+        "state": "Ontario",
+        "city": "Cornwall",
+        "country": "Canada",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Cornwall Police Service",
+            "code": "+1",
+            "number": "613 933 5000",
+            "ext": ""
+          },
+          {
+            "who": "Provincial Animal Welfare Services",
+            "code": "+1",
+            "number": "833 926 4625",
+            "ext": ""
+          },
+          {
+            "who": "Ontario SPCA",
+            "code": "+1",
+            "number": "613 936 0072",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-16T03:22:19Z",
+      "updatedAt": "2026-04-16T03:22:19Z"
     }
   ]
 }
