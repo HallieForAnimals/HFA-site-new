@@ -2608,6 +2608,72 @@
       "postToUpdates": true,
       "createdAt": "2026-04-16T03:22:19Z",
       "updatedAt": "2026-04-16T03:22:19Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "oak-cliff-dangerous-driver",
+      "slug": "arrest-oak-cliff-chevy-driver-20260418",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Oak Cliff Chevy Driver",
+      "mailtoSubject": "Recurring Animal Cruelty & Reckless Endangerment",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DALLAS AUTHORITIES TITLED \"ARREST OAK CLIFF CHEVY DRIVER\"❗️\n\nCall:\nDallas PD Animal Cruelty Unit: +1 214 671 3511\nDallas PD: +1 214 744 4444\nDallas Animal Services: +1 214 670 6800\n\nLocation: Oak Cliff, Dallas, Texas.\nVehicle details: 1999 Maroon Chevy Silverado 1500, Texas plate WHJ2973.\n\nThis isn't the first time this guy has been seen with his dog on the hood.\n\n#texas #dallas #dogsofinstagram",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DALLAS AUTHORITIES TITLED \"ARREST OAK CLIFF CHEVY DRIVER\"❗️\n\nCall:\nDallas PD Animal Cruelty Unit: +1 214 671 3511\nDallas PD: +1 214 744 4444\nDallas Animal Services: +1 214 670 6800\n\nLocation: Oak Cliff, Dallas, Texas.\nVehicle details: 1999 Maroon Chevy Silverado 1500, Texas plate WHJ2973.\n\nThis isn't the first time this guy has been seen with his dog on the hood.\n\n#texas #dallas #dogsofinstagram",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to report ongoing animal cruelty and reckless/dangerous driving involving a dog riding unsecured on the hood of a moving vehicle. The vehicle is a maroon 1999–2002 Chevrolet Silverado 1500 pickup truck displaying Texas license plate WHJ2973. This behavior has been observed and documented multiple times in the Oak Cliff/Dallas area. Riding on the hood exposes the dog to extreme risk of falling at speed, road debris injury, windburn, or death in even a minor collision or sudden stop.\n\nI respectfully request an immediate investigation for:\n\n1: Animal cruelty under Texas Penal Code § 42.092 (cruel manner of transport)\n2: Reckless endangerment/dangerous driving\nand that the dog be removed from the owner’s custody and placed into protective custody to prevent further harm.\n\nThank you for taking swift action to protect the dog.\n\nVideo evidence: https://drive.google.com/file/d/1qqe6l51kH_2P76m-jC-cgyqe2J2zrdZj/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "loriann.grimes@dallaspolice.gov",
+        "DASpetsupport@dallas.gov",
+        "DASPIO@dallas.gov",
+        "dallas311@dallas.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report a recurring case of animal cruelty and reckless endangerment in the Oak Cliff/Dallas area. The driver of a maroon 1999–2002 Chevrolet Silverado pickup with Texas plate WHJ2973 has repeatedly been seen driving with a dog riding unsecured on the hood of the vehicle, which creates immediate danger of the dog falling, being struck by debris, or being killed in a crash. This has been documented multiple times in the area.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1qqe6l51kH_2P76m-jC-cgyqe2J2zrdZj/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-oak-cliff-chevy-driver-20260418",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DALLAS AUTHORITIES TITLED \"ARREST OAK CLIFF CHEVY DRIVER\"❗️\n\nCall:\nDallas PD Animal Cruelty Unit: +1 214 671 3511\nDallas PD: +1 214 744 4444\nDallas Animal Services: +1 214 670 6800\n\nLocation: Oak Cliff, Dallas, Texas.\nVehicle details: 1999 Maroon Chevy Silverado 1500, Texas plate WHJ2973.\n\nThis isn't the first time this guy has been seen with his dog on the hood.\n\n#texas #dallas #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Dallas Authorities",
+        "state": "Texas",
+        "city": "Dallas",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Dallas PD Animal Cruelty Unit",
+            "code": "+1",
+            "number": "214 671 3511",
+            "ext": ""
+          },
+          {
+            "who": "Dallas PD",
+            "code": "+1",
+            "number": "214 744 4444",
+            "ext": ""
+          },
+          {
+            "who": "Dallas Animal Services",
+            "code": "+1",
+            "number": "214 670 6800",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-17T23:48:22Z",
+      "updatedAt": "2026-04-17T23:48:22Z"
     }
   ]
 }
