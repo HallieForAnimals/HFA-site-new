@@ -2744,6 +2744,67 @@
       "postToUpdates": true,
       "createdAt": "2026-04-20T00:52:18Z",
       "updatedAt": "2026-04-20T00:52:18Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "222-e-3rd-st-abuser",
+      "slug": "arrest-222-e-3rd-st-la-abuser-20260420",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest 222 E 3rd St LA Abuser",
+      "mailtoSubject": "Request for Investigation - Animal Cruelty at 222 E. 3rd St, Los Angeles, CA 90013",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LA AUTHORITIES TITLED \"ARREST 222 E 3RD ST LA ABUSER\"❗️\n\nCall:\nLAPD: +1 213 972 1298\nLA Animal Services Cruelty Hotline: +1 888 452 7381\n\nLocation: 222 E. 3rd Street, Los Angeles, CA.\n\nThis guy punched his dog for no reason at all. \nIf you recognize this POS, call the numbers above.\n\nThank you, @joey.tuccio for bringing this to our attention. \n\n#california #losangeles #doglover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LA AUTHORITIES TITLED \"ARREST 222 E 3RD ST LA ABUSER\"❗️\n\nCall:\nLAPD: +1 213 972 1298\nLA Animal Services Cruelty Hotline: +1 888 452 7381\n\nLocation: 222 E. 3rd Street, Los Angeles, CA.\n\nThis guy punched his dog for no reason at all. \nIf you recognize this POS, call the numbers above.\n\nThank you, @joey.tuccio for bringing this to our attention. \n\n#california #losangeles #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to urgently request an investigation into a clear case of animal cruelty that occurred outside 222 E. 3rd Street, Los Angeles, CA 90013.\n\nA video shows a man, believed to be homeless, hitting and abusing the dog. When someone began filming, the man became aggressive toward the person recording.\n\nIt is well-established that animal abuse is strongly linked to violent crime against humans, making immediate intervention critical for both animal welfare and public safety.\n\nThis incident demands immediate attention to protect the animal and enforce California animal cruelty laws.\n\nVideo evidence: https://drive.google.com/file/d/1uitDVWP6wYow9Lk98H96hJ5R9okIqttE/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "karen.bass@lacity.org",
+        "firstdistrict@bos.lacounty.gov",
+        "35361@lapd.online",
+        "35924@lapd.online",
+        "annette.ramirez@lacity.org"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report animal cruelty that occurred this morning outside 222 E. 3rd Street in Los Angeles, CA 90013. A video shows a homeless man repeatedly hitting the dog. The man also became aggressive toward the person filming. I urge an immediate investigation into this matter.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1uitDVWP6wYow9Lk98H96hJ5R9okIqttE/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-222-e-3rd-st-la-abuser-20260420",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LA AUTHORITIES TITLED \"ARREST 222 E 3RD ST LA ABUSER\"❗️\n\nCall:\nLAPD: +1 213 972 1298\nLA Animal Services Cruelty Hotline: +1 888 452 7381\n\nLocation: 222 E. 3rd Street, Los Angeles, CA.\n\nThis guy punched his dog for no reason at all. \nIf you recognize this POS, call the numbers above.\n\nThank you, @joey.tuccio for bringing this to our attention. \n\n#california #losangeles #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "LA Authorities",
+        "state": "California",
+        "city": "Los Angeles",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "LAPD",
+            "code": "+1",
+            "number": "213 972 1298",
+            "ext": ""
+          },
+          {
+            "who": "LA Animal Services Cruelty Hotline",
+            "code": "+1",
+            "number": "888 452 7381",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-20T22:28:06Z",
+      "updatedAt": "2026-04-20T22:28:06Z"
     }
   ]
 }
