@@ -2674,6 +2674,76 @@
       "postToUpdates": true,
       "createdAt": "2026-04-17T23:48:22Z",
       "updatedAt": "2026-04-17T23:48:22Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "9530-alondra-blvd",
+      "slug": "neglect-at-9530-alondra-blvd-bellflower-ca-90706-20260420",
+      "status": "recent",
+      "role": "original",
+      "title": "Neglect at 9530 Alondra Blvd, Bellflower, CA 90706",
+      "mailtoSubject": "Immediate Action Required at 9530 Alondra Blvd, Bellflower, CA 90706",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BELLFLOWER AUTHORITIES TITLED \"NEGLECT AT 9530 ALONDRA BLVD, BELLFLOWER, CA 90706\"❗️\n\nCall:\nSEAACA: +1 562 803 3301\nLakewood Sheriff’s Station: +1 562 623 3500\nBellflower Code Enforcement: +1 562 804 1424 ext 2284\n\nLocation: 9530 Alondra Blvd, Bellflower, CA 90706, Space 68\n\nFour dogs are being kept at this property in deplorable conditions, there are allegations of physical abuse, too.\nThe owners react with aggression toward anyone who tries to intervene.\nSEAACA have been called out to the property in the past, but have done nothing.\n\n#california #bellflower #doglover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BELLFLOWER AUTHORITIES TITLED \"NEGLECT AT 9530 ALONDRA BLVD, BELLFLOWER, CA 90706\"❗️\n\nCall:\nSEAACA: +1 562 803 3301\nLakewood Sheriff’s Station: +1 562 623 3500\nBellflower Code Enforcement: +1 562 804 1424 ext 2284\n\nLocation: 9530 Alondra Blvd, Bellflower, CA 90706, Space 68\n\nFour dogs are being kept at this property in deplorable conditions, there are allegations of physical abuse, too.\nThe owners react with aggression toward anyone who tries to intervene.\nSEAACA have been called out to the property in the past, but have done nothing.\n\n#california #bellflower #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to report ongoing animal cruelty and neglect at 9530 Alondra Blvd, Bellflower, CA 90706, Space 68. Two Maltese dogs are crammed in a small cage with feces, another fluffy white dog is in a separate cage with no food or water, and a Golden Retriever is caged on the side of the home in feces. These dogs never get out of the cages. The owner has been observed hitting them with her hand and broom and has threatened neighbors who complained. SEAACA previously responded but took no action.\n\nThis behavior exposes the dogs to extreme risk of illness, dehydration, injury, or death from prolonged confinement in their own waste. The well-documented link between animal abuse and violent crime against humans makes immediate intervention critical for both animal welfare and public safety.\n\nI demand the following immediate actions:\n\n1: Immediate investigation and re-inspection for animal cruelty under California Penal Code § 597.\n2: Removal of all dogs from the owner’s custody and placement into protective custody.\n3: Prosecution of the owner to the fullest extent of the law.\n4: Enforcement of related Bellflower municipal code violations and issuance of citations by Code Enforcement.\n\nThank you for taking swift action to protect the dogs.\n\nVideo evidence: https://drive.google.com/file/d/14NgjDjQwmw_gwr0OaYLHHrTaty-6W_Kr/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "denise.woodside@seaaca.org",
+        "chuck.miller@seaaca.org",
+        "donna.soriano@seaaca.org",
+        "sally.hazzard@seaaca.org",
+        "Dkoops@bellflower.org",
+        "vsanchez@bellflower.ca.gov",
+        "dfawcett@bellflower.org",
+        "frocha@bellflower.org"
+      ],
+      "phones": [],
+      "callScript": "I’m calling to report animal cruelty and neglect at 9530 Alondra Blvd, Bellflower, CA 90706, Space 68. Dogs are crammed in feces-filled cages with no food or water, never let out, the owner hits them with her hand and broom, and threatens neighbors. SEAACA already visited but took no action. I demand immediate investigation under Penal Code 597, removal of the dogs into protective custody, prosecution, and a case number.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/14NgjDjQwmw_gwr0OaYLHHrTaty-6W_Kr/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/neglect-at-9530-alondra-blvd-bellflower-ca-90706-20260420",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BELLFLOWER AUTHORITIES TITLED \"NEGLECT AT 9530 ALONDRA BLVD, BELLFLOWER, CA 90706\"❗️\n\nCall:\nSEAACA: +1 562 803 3301\nLakewood Sheriff’s Station: +1 562 623 3500\nBellflower Code Enforcement: +1 562 804 1424 ext 2284\n\nLocation: 9530 Alondra Blvd, Bellflower, CA 90706, Space 68\n\nFour dogs are being kept at this property in deplorable conditions, there are allegations of physical abuse, too.\nThe owners react with aggression toward anyone who tries to intervene.\nSEAACA have been called out to the property in the past, but have done nothing.\n\n#california #bellflower #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Bellflower Authorities",
+        "state": "California",
+        "city": "Bellflower",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "SEAACA",
+            "code": "+1",
+            "number": "562 803 3301",
+            "ext": ""
+          },
+          {
+            "who": "Lakewood Sheriff’s Station",
+            "code": "+1",
+            "number": "562 623 3500",
+            "ext": ""
+          },
+          {
+            "who": "Bellflower Code Enforcement",
+            "code": "+1",
+            "number": "562 804 1424",
+            "ext": "2284"
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-20T00:52:18Z",
+      "updatedAt": "2026-04-20T00:52:18Z"
     }
   ]
 }
