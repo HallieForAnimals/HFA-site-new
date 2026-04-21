@@ -2805,6 +2805,70 @@
       "postToUpdates": true,
       "createdAt": "2026-04-20T22:28:06Z",
       "updatedAt": "2026-04-20T22:28:06Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "landing-pointe-abuse",
+      "slug": "investigate-abuse-at-landing-pointe-ga-20260421",
+      "status": "recent",
+      "role": "original",
+      "title": "Investigate Abuse at Landing Pointe, GA",
+      "mailtoSubject": "Request to Investigate Abuse at Landing Pointe",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO HENRY AUTHORITIES TITLED \"INVESTIGATE ABUSE AT LANDING POINTE, GA\"❗️\n\nCall:\nHenry County Animal Care & Control: +1 770 288 7387\nStockbridge PD: +1 770 957 9121\nGeorgia Department of Agriculture Animal Protection: +1 404 656 4914\n\nAbuser Name: Marcus Brinson.\nLocation: Landing Pointe, Stockbridge, Georgia.\n\nThis POS thinks that not shocking his dog is being considerate. \nThis video serves as a confession that he shocks his dog as punishment. An immediate welfare check is needed.\n\n#georgia #stockbridge #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO HENRY AUTHORITIES TITLED \"INVESTIGATE ABUSE AT LANDING POINTE, GA\"❗️\n\nCall:\nHenry County Animal Care & Control: +1 770 288 7387\nStockbridge PD: +1 770 957 9121\nGeorgia Department of Agriculture Animal Protection: +1 404 656 4914\n\nAbuser Name: Marcus Brinson.\nLocation: Landing Pointe, Stockbridge, Georgia.\n\nThis POS thinks that not shocking his dog is being considerate. \nThis video serves as a confession that he shocks his dog as punishment. An immediate welfare check is needed.\n\n#georgia #stockbridge #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to request an immediate welfare check and investigation into possible animal cruelty/neglect involving a dog owned by Marcus Brinson, residing in Landing Pointe, Stockbridge, GA.\n\nMr. Brinson openly admitted to using a shock collar to punish his dog\nI am deeply concerned for the dog's welfare and request that Animal Care & Control or the appropriate authorities conduct a prompt on-site welfare check to ensure the animal is not being subjected to cruel or inhumane treatment.\n\nPlease treat this as urgent.\n\nVideo evidence: https://drive.google.com/file/d/1KJEYCBOf_Ym3oUe7-eDhvcMoC8rA3Y_S/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "hcacc@co.henry.ga.us",
+        "hcsotipline@co.henry.ga.us"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report suspected animal cruelty involving a dog owned by Marcus Brinson in Landing Pointe, Stockbridge, Georgia. He openly admitted to using a shock collar to punish the dog, and I'm requesting an immediate welfare check on the animal. Can you please dispatch Animal Care & Control or an officer to investigate.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1KJEYCBOf_Ym3oUe7-eDhvcMoC8rA3Y_S/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/investigate-abuse-at-landing-pointe-ga-20260421",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO HENRY AUTHORITIES TITLED \"INVESTIGATE ABUSE AT LANDING POINTE, GA\"❗️\n\nCall:\nHenry County Animal Care & Control: +1 770 288 7387\nStockbridge PD: +1 770 957 9121\nGeorgia Department of Agriculture Animal Protection: +1 404 656 4914\n\nAbuser Name: Marcus Brinson.\nLocation: Landing Pointe, Stockbridge, Georgia.\n\nThis POS thinks that not shocking his dog is being considerate. \nThis video serves as a confession that he shocks his dog as punishment. An immediate welfare check is needed.\n\n#georgia #stockbridge #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Henry Authorities",
+        "state": "Georgia",
+        "city": "Stockbridge",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Henry County Animal Care & Control",
+            "code": "+1",
+            "number": "770 288 7387",
+            "ext": ""
+          },
+          {
+            "who": "Stockbridge PD",
+            "code": "+1",
+            "number": "770 957 9121",
+            "ext": ""
+          },
+          {
+            "who": "Georgia Department of Agriculture Animal Protection",
+            "code": "+1",
+            "number": "404 656 4914",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-21T00:46:56Z",
+      "updatedAt": "2026-04-21T00:46:56Z"
     }
   ]
 }
