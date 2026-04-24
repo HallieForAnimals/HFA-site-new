@@ -3070,6 +3070,79 @@
       "postToUpdates": true,
       "createdAt": "2026-04-24T00:13:50Z",
       "updatedAt": "2026-04-24T00:13:50Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "kelowna-gosslings",
+      "slug": "justice-for-kelowna-goslings-20260424",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice for Kelowna Goslings",
+      "mailtoSubject": "Demand Full Investigation & Charges - Kelowna Goslings Pushed from 4th-Floor Balcony",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO CANADIAN AUTHORITIES TITLED \"JUSTICE FOR KELOWNA GOSSLINGS\"❗️\n\nCall:\nBC Conservation Officer Service: +1 877 952 7277\nKelowna RCMP: +1 250 762 3300\nECCC Public Inquiries/Wildlife Violations: +1 800 668 6767\nKelowna Bylaw Services: +1 250 469 8686\n\nLocation: 1395 Ellis St, Kelowna, BC\n\nThese two inbreds pushed baby geese off a fourth-floor balcony. Canada Geese are federally protected under the Migratory Birds Convention Act, and yet the cops did nothing but \"educate\" them. Morality cannot be taught.\nThis behavior shows a lack of empathy and morality that cannot peacefully coexist with a modern, civilised society.\n\n\n#BritishColombia #Kelowna #cutedogs",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO CANADIAN AUTHORITIES TITLED \"JUSTICE FOR KELOWNA GOSSLINGS\"❗️\n\nCall:\nBC Conservation Officer Service: +1 877 952 7277\nKelowna RCMP: +1 250 762 3300\nECCC Public Inquiries/Wildlife Violations: +1 800 668 6767\nKelowna Bylaw Services: +1 250 469 8686\n\nLocation: 1395 Ellis St, Kelowna, BC\n\nThese two inbreds pushed baby geese off a fourth-floor balcony. Canada Geese are federally protected under the Migratory Birds Convention Act, and yet the cops did nothing but \"educate\" them. Morality cannot be taught.\nThis behavior shows a lack of empathy and morality that cannot peacefully coexist with a modern, civilised society.\n\n\n#BritishColombia #Kelowna #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to demand a full investigation and appropriate charges in the widely documented case of Canada goose goslings being forcibly pushed from a fourth-floor balcony at the Madison building (1395 Ellis St, Kelowna, BC) on April 22, 2026. Multiple videos and eyewitness accounts show individuals using pool noodles and other objects to herd flightless juvenile geese and adults off the balcony, causing at least two goslings to be injured and requiring wildlife rehabilitation. Canada geese and their young are protected under the federal Migratory Birds Convention Act and BC’s Wildlife Act.\n\nA simple “education” response is inadequate for an act that demonstrates clear disregard for protected wildlife and basic empathy. This behavior shows a lack of empathy and morality that cannot peacefully coexist with a modern civilised society. Animal cruelty is a known predictor of future interpersonal violence, and the public expects real accountability. No man (or especially) woman or child is safe around him.\n\nI request that you:\n\nArrest and prosecute the individual(s) responsible for this blatant breach of the federal Migratory Birds Convention Act and BC’s Wildlife Act.\nProvide a public update on enforcement actions taken.\n\nThank you for your urgent attention to this matter.\n\nVideo evidence: https://drive.google.com/file/d/1vPftp0tEdBdmeXj9_IXx7dWIyB0ef_f3/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "gillian.oliver@ec.gc.ca",
+        "steven.lang@rcmp-grc.gc.ca",
+        "kelowna_media@rcmp-grc.gc.ca",
+        "Conservation.Officer.Service@gov.bc.ca",
+        "bylaw@kelowna.ca"
+      ],
+      "phones": [],
+      "callScript": "I’m calling to report the April 22, 2026 incident at the Madison building on Ellis Street in Kelowna where goslings were pushed off a fourth-floor balcony, injuring protected migratory birds in violation of the Migratory Birds Convention Act and BC Wildlife Act. Videos show this was deliberate and unnecessary harm, not proper wildlife management. I’m requesting a full investigation, charges, and public confirmation of enforcement actions. This level of cruelty cannot be dismissed with just a warning.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1vPftp0tEdBdmeXj9_IXx7dWIyB0ef_f3/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-kelowna-goslings-20260424",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO CANADIAN AUTHORITIES TITLED \"JUSTICE FOR KELOWNA GOSSLINGS\"❗️\n\nCall:\nBC Conservation Officer Service: +1 877 952 7277\nKelowna RCMP: +1 250 762 3300\nECCC Public Inquiries/Wildlife Violations: +1 800 668 6767\nKelowna Bylaw Services: +1 250 469 8686\n\nLocation: 1395 Ellis St, Kelowna, BC\n\nThese two inbreds pushed baby geese off a fourth-floor balcony. Canada Geese are federally protected under the Migratory Birds Convention Act, and yet the cops did nothing but \"educate\" them. Morality cannot be taught.\nThis behavior shows a lack of empathy and morality that cannot peacefully coexist with a modern, civilised society.\n\n\n#BritishColombia #Kelowna #cutedogs",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Canadian Authorities",
+        "state": "British Colombia",
+        "city": "Kelowna",
+        "country": "Canada",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "BC Conservation Officer Service",
+            "code": "+1",
+            "number": "877 952 7277",
+            "ext": ""
+          },
+          {
+            "who": "Kelowna RCMP",
+            "code": "+1",
+            "number": "250 762 3300",
+            "ext": ""
+          },
+          {
+            "who": "ECCC Public Inquiries/Wildlife Violations",
+            "code": "+1",
+            "number": "800 668 6767",
+            "ext": ""
+          },
+          {
+            "who": "Kelowna Bylaw Services",
+            "code": "+1",
+            "number": "250 469 8686",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-24T23:06:57Z",
+      "updatedAt": "2026-04-24T23:06:57Z"
     }
   ]
 }
