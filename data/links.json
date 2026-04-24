@@ -3012,6 +3012,64 @@
       "postToUpdates": true,
       "createdAt": "2026-04-23T00:17:00Z",
       "updatedAt": "2026-04-23T00:34:12Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "lincoln-de-souza",
+      "slug": "stop-abusive-trainer-lincoln-de-souza-20260424",
+      "status": "recent",
+      "role": "original",
+      "title": "Stop Abusive Trainer Lincoln De Souza",
+      "mailtoSubject": "Video Evidence of Lincoln De Souza Kicking Dogs",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DOG TRAINING ACCREDITATION SCHEMES TITLED \"STOP ABUSIVE TRAINER LINCOLN DE SOUZA\"❗️\n\nCall:\nAnimal Behavior Institute: +1 866 755 0448\nInternational Association of Canine Professionals: +1 512 564 1011\n\nAbuser Name: Lincoln De Souza - Balanced Paws K9 Training.\nLocation: 11135 Kingston Pike, Farragut, TN 37934.\n\nThis POS mistakes abuse for training. He holds two training accreditations.\n\nInsta @balancedpawsk9training\n\n#tennessee #klnoxville #dogsofinstagram",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DOG TRAINING ACCREDITATION SCHEMES TITLED \"STOP ABUSIVE TRAINER LINCOLN DE SOUZA\"❗️\n\nCall:\nAnimal Behavior Institute: +1 866 755 0448\nInternational Association of Canine Professionals: +1 512 564 1011\n\nAbuser Name: Lincoln De Souza - Balanced Paws K9 Training.\nLocation: 11135 Kingston Pike, Farragut, TN 37934.\n\nThis POS mistakes abuse for training. He holds two training accreditations.\n\nInsta @balancedpawsk9training\n\n#tennessee #klnoxville #dogsofinstagram",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to formally report serious malpractice by Lincoln De Souza (also known as Lincoln DeSouza), owner and lead trainer of Balanced Paws K9 Training LLC, Farragut, Tennessee (11135 Kingston Pike, Farragut, TN 37934).\n\nMr. De Souza holds certification as a Certified Canine Trainer and Behavior Specialist through the Animal Behavior Institute (issued 2015) and is listed in the IACP professional trainer directory.\n\nVideo evidence clearly shows Mr. De Souza deliberately kicking dogs as a method of correction during training sessions.\n\nThis conduct is unethical malpractice and violates every professional standard of humane dog training. Physical punishment that causes pain or fear is prohibited by modern industry guidelines because it risks injury, escalates aggression, and destroys trust.\n\n\nI demand that both organizations immediately investigate this complaint and the video evidence above, revoke/strip Lincoln De Souza of his certification(s), and remove him from your directory and all listings.\n\nBoth organizations must act swiftly to protect dogs and the public from this trainer.\n\nVideo evidence: https://drive.google.com/file/d/161l7k28ouZl7P1ytZMudndX2EM528W-Y/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "support@animaledu.com",
+        "support@iacpdogs.org"
+      ],
+      "phones": [],
+      "callScript": "I am calling to report serious malpractice by Lincoln De Souza of Balanced Paws K9 Training in Farragut, Tennessee. Video evidence clearly shows him deliberately kicking dogs as a method of correction during training sessions. I demand that both the Animal Behavior Institute and the International Association of Canine Professionals immediately revoke his certification and remove him from your directories.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/161l7k28ouZl7P1ytZMudndX2EM528W-Y/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/stop-abusive-trainer-lincoln-de-souza-20260424",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DOG TRAINING ACCREDITATION SCHEMES TITLED \"STOP ABUSIVE TRAINER LINCOLN DE SOUZA\"❗️\n\nCall:\nAnimal Behavior Institute: +1 866 755 0448\nInternational Association of Canine Professionals: +1 512 564 1011\n\nAbuser Name: Lincoln De Souza - Balanced Paws K9 Training.\nLocation: 11135 Kingston Pike, Farragut, TN 37934.\n\nThis POS mistakes abuse for training. He holds two training accreditations.\n\nInsta @balancedpawsk9training\n\n#tennessee #klnoxville #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Dog Training Accreditation Schemes",
+        "state": "Tennessee",
+        "city": "Knoxville",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Animal Behavior Institute",
+            "code": "+1",
+            "number": "866 755 0448",
+            "ext": ""
+          },
+          {
+            "who": "International Association of Canine Professionals",
+            "code": "+1",
+            "number": "512 564 1011",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-24T00:13:50Z",
+      "updatedAt": "2026-04-24T00:13:50Z"
     }
   ]
 }
