@@ -225,18 +225,36 @@
       function bestTimestamp(item) {
         return feedRecencyKey(item);
       }
+      /** Timeline order for accordions: story date (updateDate / slug tail / created), oldest first. */
+      function updateStoryEpoch(u) {
+        if (!u) return 0;
+        var ud = String(u.updateDate || '').trim();
+        if (/^\d{4}-\d{2}-\d{2}/.test(ud)) {
+          var tStory = Date.parse(ud.slice(0, 10) + 'T12:00:00');
+          if (Number.isFinite(tStory) && tStory > 0) return tStory;
+        }
+        var slugE = slugTailYmdEpoch(u.slug);
+        if (slugE) return slugE;
+        return parseEpoch(u.createdAt) || parseEpoch(u.updatedAt);
+      }
       function originalCreatedEpoch(item) {
         return parseEpoch(item && item.createdAt) || parseEpoch(item && item.updatedAt) || parseEpoch(item && item.updateDate);
       }
       var cases = Object.keys(byCase).map(function(caseId) {
-        var updatesForCase = byCase[caseId].slice().sort(function(a, b) {
-          return bestTimestamp(b) - bestTimestamp(a);
+        var rawList = byCase[caseId];
+        var updatesForCase = rawList.slice().sort(function(a, b) {
+          var da = updateStoryEpoch(a);
+          var db = updateStoryEpoch(b);
+          if (da !== db) return da - db;
+          return bestTimestamp(a) - bestTimestamp(b);
         });
         var originalsForCase = originals.filter(function(o) { return trimCaseId(o.caseId) === caseId; });
         var original = originalsForCase.slice().sort(function(a, b) {
           return originalCreatedEpoch(a) - originalCreatedEpoch(b);
         })[0] || {};
-        var latest = updatesForCase[0] || {};
+        var latest = rawList.reduce(function(best, cur) {
+          return bestTimestamp(cur) > bestTimestamp(best) ? cur : best;
+        }, rawList[0] || {});
         var rawSt = lc(latest.updateStatus || '');
         var filterBucket = rawSt === 'resolved' ? 'resolved' : 'ongoing';
         var latestAt = bestTimestamp(latest);
