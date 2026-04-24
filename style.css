@@ -2540,8 +2540,19 @@ aside.hfa-ad-slot {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-/* Square top on first accordion only when no original-post collapsible precedes it */
+/* Square top on first accordion when it stacks under the header (no original row) */
 #updates-list .update-case-shell-head + .update-case-accordions > .cta-accordion.cta-card-ui:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/* Join original-post row to first update accordion (flush stack, square seam) */
+#updates-list .update-original-details:has(+ .update-case-accordions) {
+  margin-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#updates-list .update-original-details + .update-case-accordions > .cta-accordion.cta-card-ui:first-child {
+  margin-top: -1px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
