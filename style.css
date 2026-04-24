@@ -2221,7 +2221,54 @@ aside.hfa-ad-slot {
 
 #recent-list .cta-card-ui,
 #ongoing-list .cta-card-ui {
-  align-self: start;
+  align-self: stretch;
+}
+
+/* Equal-height cards in the 2-col grid; uniform accordion title bars */
+#recent-list .cta-accordion,
+#ongoing-list .cta-accordion {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+#recent-list .cta-accordion .cta-accordion-body,
+#ongoing-list .cta-accordion .cta-accordion-body {
+  flex: 1 1 auto;
+}
+
+#recent-list .cta-accordion > summary,
+#ongoing-list .cta-accordion > summary {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  box-sizing: border-box;
+  min-height: 5.75rem;
+}
+
+#recent-list .cta-accordion-summary .cta-update-badge {
+  flex-shrink: 0;
+}
+
+#recent-list .cta-accordion > summary::after,
+#ongoing-list .cta-accordion > summary::after {
+  flex-shrink: 0;
+}
+
+#recent-list .cta-accordion-summary .cta-accordion-summary-text,
+#ongoing-list .cta-accordion-summary .cta-accordion-summary-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  word-break: break-word;
+  text-align: center;
+  line-height: 1.35;
+  min-width: 0;
+  flex: 1 1 0%;
 }
 
 #recent-list .cta-accordion[open],
@@ -3522,6 +3569,11 @@ body.hfa-newsletter-open {
   .cta-accordion summary {
     padding: 1rem 1rem;
     font-size: 1.05rem;
+  }
+
+  #recent-list .cta-accordion > summary,
+  #ongoing-list .cta-accordion > summary {
+    min-height: 4.85rem;
   }
 
   .cta-accordion-body {

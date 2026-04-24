@@ -352,7 +352,7 @@
         var updateBadge = isUpdate ? '<span class="cta-update-badge">Update</span> ' : '';
 
         return '<details class="cta-accordion cta-card-ui">' +
-          '<summary id="' + esc(ctaAnchorIdFromSlug(item.slug)) + '" class="cta-accordion-summary">' + updateBadge + esc(item.title || item.slug || 'CTA') + '</summary>' +
+          '<summary id="' + esc(ctaAnchorIdFromSlug(item.slug)) + '" class="cta-accordion-summary">' + updateBadge + '<span class="cta-accordion-summary-text">' + esc(item.title || item.slug || 'CTA') + '</span></summary>' +
           '<div class="cta-accordion-body">' +
             renderCardBody(item) +
             btn +

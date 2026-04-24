@@ -220,7 +220,7 @@
         var boycott = item.boycottUrl ? '<a href="' + esc(item.boycottUrl) + '" class="secondary-btn" style="display:block; margin-top:0.75rem; text-align:center; text-decoration:none;">How to boycott</a>' : '';
 
         return '<details class="cta-accordion cta-card-ui">' +
-          '<summary id="' + esc(ctaAnchorIdFromSlug(item.slug)) + '" class="cta-accordion-summary">' + esc(item.title || item.slug || 'Ongoing CTA') + '</summary>' +
+          '<summary id="' + esc(ctaAnchorIdFromSlug(item.slug)) + '" class="cta-accordion-summary"><span class="cta-accordion-summary-text">' + esc(item.title || item.slug || 'Ongoing CTA') + '</span></summary>' +
           '<div class="cta-accordion-body">' +
             video +
             (descriptionHtml ? ('<div class="cta-card-section"><h3>Description</h3><div class="cta-card-body cta-card-desc">' + descriptionHtml + '</div></div>') : '') +
