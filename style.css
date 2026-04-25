@@ -2191,6 +2191,11 @@ aside.hfa-ad-slot {
 }
 .cta-accordion-body p { margin-bottom: 1rem; }
 
+/* FAQ page (faq.html): space between summary divider and answer */
+#faq-dynamic-root .cta-accordion-body {
+  padding-top: 1rem;
+}
+
 /* Recent/Ongoing: single column until wide enough for two columns + side margins (see --hfa-cta-grid-2col-min) */
 #recent-list,
 #ongoing-list {
@@ -3599,6 +3604,10 @@ body.hfa-newsletter-open {
 
   .cta-accordion-body {
     padding: 0 1rem 1rem;
+  }
+
+  #faq-dynamic-root .cta-accordion-body {
+    padding-top: 0.85rem;
   }
 
   .update-original-details > .cta-context-summary {
