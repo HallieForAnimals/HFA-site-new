@@ -1447,10 +1447,10 @@
       "nonEmailActionText": "",
       "actionUrl": "",
       "actionText": "",
-      "hidden": false,
+      "hidden": true,
       "postToUpdates": true,
       "createdAt": "2026-04-02T00:40:19Z",
-      "updatedAt": "2026-04-04T10:43:51Z"
+      "updatedAt": "2026-04-25T00:57:05Z"
     },
     {
       "ctaType": "email",
