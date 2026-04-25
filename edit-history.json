@@ -1,5 +1,12 @@
 [
   {
+    "kind": "page",
+    "target": "terms.html",
+    "detail": "Terms page",
+    "user": "owner",
+    "time": "2026-04-25T01:59:23.103Z"
+  },
+  {
     "kind": "data",
     "target": "data/faq.json",
     "detail": "FAQ content",
@@ -341,12 +348,5 @@
     "detail": "Rescues & charities page",
     "user": "Joseph Monroe",
     "time": "2026-03-24T10:57:59.437Z"
-  },
-  {
-    "kind": "page",
-    "target": "rescues-charities.html",
-    "detail": "Rescues & charities page",
-    "user": "Joseph Monroe",
-    "time": "2026-03-24T10:55:02.090Z"
   }
 ]
