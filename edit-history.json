@@ -4,6 +4,13 @@
     "target": "terms.html",
     "detail": "Terms page",
     "user": "owner",
+    "time": "2026-04-25T02:02:35.489Z"
+  },
+  {
+    "kind": "page",
+    "target": "terms.html",
+    "detail": "Terms page",
+    "user": "owner",
     "time": "2026-04-25T01:59:23.103Z"
   },
   {
@@ -341,12 +348,5 @@
     "detail": "Resources list",
     "user": "Joseph Monroe",
     "time": "2026-03-24T11:01:24.795Z"
-  },
-  {
-    "kind": "page",
-    "target": "rescues-charities.html",
-    "detail": "Rescues & charities page",
-    "user": "Joseph Monroe",
-    "time": "2026-03-24T10:57:59.437Z"
   }
 ]
