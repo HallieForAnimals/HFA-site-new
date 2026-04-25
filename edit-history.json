@@ -1,5 +1,12 @@
 [
   {
+    "kind": "data",
+    "target": "coming-soon.html",
+    "detail": "Header & nav",
+    "user": "owner",
+    "time": "2026-04-25T02:12:51.777Z"
+  },
+  {
     "kind": "page",
     "target": "terms.html",
     "detail": "Terms page",
@@ -341,12 +348,5 @@
     "detail": "Resources list",
     "user": "Joseph Monroe",
     "time": "2026-03-24T12:36:59.963Z"
-  },
-  {
-    "kind": "data",
-    "target": "data/resources.json",
-    "detail": "Resources list",
-    "user": "Joseph Monroe",
-    "time": "2026-03-24T11:01:24.795Z"
   }
 ]
