@@ -2878,7 +2878,7 @@
       "updateStatus": "",
       "caseId": "jorge-carvajal",
       "slug": "arrest-jorge-ivan-munoz-carvajal-20260422",
-      "status": "ongoing",
+      "status": "recent",
       "role": "original",
       "title": "Arrest Jorge Ivan Munoz Carvajal",
       "mailtoSubject": "Solicitud de detención y enjuiciamiento con todo el rigor de la ley contra Jorge Iván Muñoz Carvajal/Request for Arrest and Maximum Prosecution for Jorge Iván Muñoz Carvajal",
@@ -2938,8 +2938,8 @@
       "actionText": "",
       "hidden": false,
       "postToUpdates": true,
-      "createdAt": "2026-04-22T00:21:31Z",
-      "updatedAt": "2026-04-22T00:21:31Z"
+      "createdAt": "2026-04-25T00:07:29Z",
+      "updatedAt": "2026-04-25T00:07:29Z"
     },
     {
       "ctaType": "email",
