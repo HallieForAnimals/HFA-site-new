@@ -1,10 +1,10 @@
 [
   {
     "kind": "data",
-    "target": "coming-soon.html",
-    "detail": "Header & nav",
+    "target": "data/faq.json",
+    "detail": "FAQ content",
     "user": "owner",
-    "time": "2026-04-25T01:21:12.383Z"
+    "time": "2026-04-25T01:36:08.879Z"
   },
   {
     "kind": "page",
