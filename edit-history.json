@@ -1,5 +1,12 @@
 [
   {
+    "kind": "page",
+    "target": "donate.html",
+    "detail": "Donate page",
+    "user": "owner",
+    "time": "2026-04-25T03:44:54.397Z"
+  },
+  {
     "kind": "data",
     "target": "coming-soon.html",
     "detail": "Header & nav",
@@ -341,12 +348,5 @@
     "detail": "Resources page",
     "user": "Joseph Monroe",
     "time": "2026-03-24T13:43:40.562Z"
-  },
-  {
-    "kind": "page",
-    "target": "resources.html",
-    "detail": "Resources page",
-    "user": "Joseph Monroe",
-    "time": "2026-03-24T13:41:29.415Z"
   }
 ]
