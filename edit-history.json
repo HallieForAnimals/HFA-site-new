@@ -4,6 +4,13 @@
     "target": "about.html",
     "detail": "About page",
     "user": "owner",
+    "time": "2026-04-25T00:32:23.879Z"
+  },
+  {
+    "kind": "page",
+    "target": "about.html",
+    "detail": "About page",
+    "user": "owner",
     "time": "2026-04-25T00:30:23.091Z"
   },
   {
@@ -341,12 +348,5 @@
     "detail": "Rescues & charities page",
     "user": "Joseph Monroe",
     "time": "2026-03-24T09:59:46.069Z"
-  },
-  {
-    "kind": "page",
-    "target": "rescues-charities.html",
-    "detail": "Rescues & charities page",
-    "user": "Joseph Monroe",
-    "time": "2026-03-24T09:21:33.672Z"
   }
 ]
