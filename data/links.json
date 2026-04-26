@@ -3074,6 +3074,74 @@
       "postToUpdates": true,
       "createdAt": "2026-04-24T23:06:57Z",
       "updatedAt": "2026-04-24T23:06:57Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "dwarka-sector-11-abuser",
+      "slug": "arrest-dwarka-sector-11-dog-abuser-20260426",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Dwarka Sector 11 Dog Abuser",
+      "mailtoSubject": "Animal Cruelty + Knife Threat Near Dwarka Sector 11 Metro",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO DWARKA AUTHORITIES TITLED \"ARREST DWARKA SECTOR 11 DOG ABUSER\"❗️\n\nCall:\nDCP Dwarka: +91 981 809 9048\nDwarka North Police Station: +91 875 087 1022\nDwarka South Police Station: +91 875 087 1023\n\nLocation: Dwarka Sector 11 Metro Station, New Delhi, India.\n\nOn April 25th, near Dwarka Sector 11 Metro Station in Delhi, an drunk man forcibly dragged a resisting, stolen dog along the ground, and when a bystander tried to intervene, the man pulled out a knife and threatened him, before fleeing in an e-rickshaw with the registration number DL6ER5853.\n\n#delhi #newdelhi #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO DWARKA AUTHORITIES TITLED \"ARREST DWARKA SECTOR 11 DOG ABUSER\"❗️\n\nCall:\nDCP Dwarka: +91 981 809 9048\nDwarka North Police Station: +91 875 087 1022\nDwarka South Police Station: +91 875 087 1023\n\nLocation: Dwarka Sector 11 Metro Station, New Delhi, India.\n\nOn April 25th, near Dwarka Sector 11 Metro Station in Delhi, an drunk man forcibly dragged a resisting, stolen dog along the ground, and when a bystander tried to intervene, the man pulled out a knife and threatened him, before fleeing in an e-rickshaw with the registration number DL6ER5853.\n\n#delhi #newdelhi #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to urgently report a serious incident of animal cruelty combined with criminal intimidation that occurred on the afternoon of 25 April 2026 near Dwarka Sector 11 Metro Station, New Delhi.\nA man (appearing intoxicated) forcibly dragged a resisting dog that clearly did not belong to him. When a bystander attempted to intervene and stop the cruelty, the suspect pulled out a knife and threatened him, causing fear and allowing the perpetrator to escape in an e-rickshaw bearing registration number DL6ER5853.\n\nThis case involves multiple offences:\n\n1: Prevention of Cruelty to Animals Act, 1960 – Sections 3 and 11 (treating an animal cruelly by subjecting it to unnecessary pain and suffering).\n2: IPC Section 506 – Criminal Intimidation (threatening with a knife to cause alarm and deter lawful intervention).\n3: Possible additional charges: Theft of the dog, public nuisance, and any other sections applicable based on investigation.\n\nI strongly demand the following immediate actions:\n\n1: Register an FIR/complaint without delay under the relevant sections of the PCA Act and IPC (including Section 506 for the knife threat).\n2: Trace the e-rickshaw DL6ER5853 (which operates in Dwarka) and question the driver for critical leads on the suspect’s identity and current location of the dog.\n3: Review CCTV footage from Dwarka Sector 11 Metro Station and surrounding areas from the afternoon of 25 April 2026.\n4: Locate, rescue the dog immediately, and ensure it receives veterinary care if needed.\n5: Apprehend the suspect at the earliest and take strict legal action to deter such incidents of animal cruelty and armed threats in public.\n6: Provide a complaint/FIR number and keep the public updated on the progress.\n\nThis is a time-sensitive matter involving both animal welfare and public safety.\n\nThank you for treating this with the highest priority.\n\nVideo evidence: https://drive.google.com/file/d/1vbqN2nbJ-FN0GlDN6cW1ilnZScVTGdKl/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "dcp-dwk-dl@delhipolice.gov.in",
+        "jtcp.wr@delhipolice.gov.in",
+        "delpol.service@delhipolice.gov.in",
+        "cp.delhi@delhipolice.gov.in",
+        "sho-dwarkanr-dl@nic.in",
+        "sho-dwarkasouth-dl@nic.in"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report a case of animal cruelty combined with a knife threat that happened on April l25th near Dwarka Sector 11 Metro Station. A man dragged a dog that wasn't his, and when someone tried to stop him, he pulled out a knife and threatened the person before fleeing in e-rickshaw with the plate number DL6ER5853. Please register an FIR under PCA Act Sections 3 & 11 and IPC Section 506 (criminal intimidation), trace the vehicle urgently, and rescue the dog.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1vbqN2nbJ-FN0GlDN6cW1ilnZScVTGdKl/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-dwarka-sector-11-dog-abuser-20260426",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO DWARKA AUTHORITIES TITLED \"ARREST DWARKA SECTOR 11 DOG ABUSER\"❗️\n\nCall:\nDCP Dwarka: +91 981 809 9048\nDwarka North Police Station: +91 875 087 1022\nDwarka South Police Station: +91 875 087 1023\n\nLocation: Dwarka Sector 11 Metro Station, New Delhi, India.\n\nOn April 25th, near Dwarka Sector 11 Metro Station in Delhi, an drunk man forcibly dragged a resisting, stolen dog along the ground, and when a bystander tried to intervene, the man pulled out a knife and threatened him, before fleeing in an e-rickshaw with the registration number DL6ER5853.\n\n#delhi #newdelhi #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Dwarka Authorities",
+        "state": "Delhi",
+        "city": "New Delhi",
+        "country": "India",
+        "dial": "+91",
+        "phones": [
+          {
+            "who": "DCP Dwarka",
+            "code": "+91",
+            "number": "981 809 9048",
+            "ext": ""
+          },
+          {
+            "who": "Dwarka North Police Station",
+            "code": "+91",
+            "number": "875 087 1022",
+            "ext": ""
+          },
+          {
+            "who": "Dwarka South Police Station",
+            "code": "+91",
+            "number": "875 087 1023",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-26T01:58:38Z",
+      "updatedAt": "2026-04-26T01:58:38Z"
     }
   ]
 }
