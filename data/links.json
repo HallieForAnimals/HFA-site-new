@@ -3142,6 +3142,67 @@
       "postToUpdates": true,
       "createdAt": "2026-04-26T01:58:38Z",
       "updatedAt": "2026-04-26T01:58:38Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "justice-for-kuki",
+      "slug": "justice-for-kuki-20260427",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice for Kuki",
+      "mailtoSubject": "İstanbul’daki Kuki Köpek İstismarı Davasında 28/A Maddesi Kapsamında En Ağır Cezanın Talebi/Demand for Maximum Penalty Under Article 28/A in the Kuki Dog Abuse Case in Istanbul",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BAŞAKŞEHIR AUTHORITIES TITLED \"JUSTICE FOR KUKI\"❗️\n\nCall:\nİstanbul Cumhuriyet Başsavcılığı: +90 212 375 7575\nTarım ve Orman Bakanlığı İstanbul İl Müdürlüğü: +90 216 468 2100\n\nLocation: Bahçeşehir 1. Kısım Mahallesi, Türkiye.\n\nA woman known only as S.D. has been arrested for dangling her boyfriends dog, Kuku, out of a high-rise window.\nCases like these often get overlooked or swept under the rug. \nShe must be prosecuted within the fullest extent of the law.\n\n#basaksehir #istanbul #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BAŞAKŞEHIR AUTHORITIES TITLED \"JUSTICE FOR KUKI\"❗️\n\nCall:\nİstanbul Cumhuriyet Başsavcılığı: +90 212 375 7575\nTarım ve Orman Bakanlığı İstanbul İl Müdürlüğü: +90 216 468 2100\n\nLocation: Bahçeşehir 1. Kısım Mahallesi, Türkiye.\n\nA woman known only as S.D. has been arrested for dangling her boyfriends dog, Kuku, out of a high-rise window.\nCases like these often get overlooked or swept under the rug. \nShe must be prosecuted within the fullest extent of the law.\n\n#basaksehir #istanbul #animallover",
+      "mailtoBody": "İlgili makamlara,\n\n25 Nisan 2026 tarihinde İstanbul’da (Esenyurt/Başakşehir) meydana gelen ve S.D.’nin Kuki adlı küçük köpeği bir apartman penceresinden sarkıtıp bunu videoya kaydettiği olay, kamuoyunda büyük bir öfkeye neden olmuştur. Videoda, köpeği tek bacağından sallayarak pencereye vurmak ve tehditkar sözler sarf etmek gibi açıkça zalimane davranışlar görülmektedir. Bu davranışlar, 5199 sayılı Hayvanları Koruma Kanunu'nun 28/A maddesi kapsamında “kötü muamele ve işkence” suçunu teşkil etmektedir.\nHayvan haklarını korumak ve gelecekteki olaylar için güçlü bir caydırıcı etki yaratmak amacıyla, bu kamuoyunu sarsan davada azami hapis cezası (3 yıla kadar) verilmesini saygıyla talep ediyoruz.\nİlginiz ve hızlı müdahaleniz için teşekkür ederiz.\n\nVideo kanıtı: https://drive.google.com/file/d/1aZ2GCbdbwlSC3gb19FARddVg0YbACbmD/view?usp=sharing\n\nSaygılarımızla,\n\n\n\n@HallieForAnimals Ekibi\ncontact@hallieforanimals.org\n\n\n\n\n\nTo whom it may concern,\n\nThe incident that took place on April 25, 2026 in Istanbul (Esenyurt/Başakşehir), where S.D. dangled the small dog named Kuki from an apartment window and recorded it, has caused widespread public outrage. The video clearly shows cruel treatment, swinging the dog by one leg, hitting it against the window, and making threatening statements, which constitutes the crime of “ill-treatment and torture” under Article 28/A of Animal Protection Law No. 5199.\nWe respectfully demand the maximum prison sentence (up to 3 years) in this high-profile case to protect animal rights and create a strong deterrent effect for future incidents.\nThank you for your attention and swift action.\n\nVideo evidence: https://drive.google.com/file/d/1aZ2GCbdbwlSC3gb19FARddVg0YbACbmD/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "istanbulcbs@adalet.gov.tr",
+        "istanbul@tarimorman.gov.tr",
+        "34.haysag@tarimorman.gov.tr",
+        "veterinermudurlugu@esenyurt.bel.tr",
+        "istanbul@icisleri.gov.tr"
+      ],
+      "phones": [],
+      "callScript": "I’m calling to report my serious concern about the animal cruelty case involving S.D. and the dog Kuki in Esenyurt/Başakşehir on April 25, 2026. The video clearly shows cruel treatment under Article 28/A of Law 5199, and I urge the authorities to seek the maximum 3-year prison sentence to protect animals and deter future abuse. Thank you for ensuring justice is served swiftly.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1aZ2GCbdbwlSC3gb19FARddVg0YbACbmD/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-kuki-20260427",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BAŞAKŞEHIR AUTHORITIES TITLED \"JUSTICE FOR KUKI\"❗️\n\nCall:\nİstanbul Cumhuriyet Başsavcılığı: +90 212 375 7575\nTarım ve Orman Bakanlığı İstanbul İl Müdürlüğü: +90 216 468 2100\n\nLocation: Bahçeşehir 1. Kısım Mahallesi, Türkiye.\n\nA woman known only as S.D. has been arrested for dangling her boyfriends dog, Kuku, out of a high-rise window.\nCases like these often get overlooked or swept under the rug. \nShe must be prosecuted within the fullest extent of the law.\n\n#basaksehir #istanbul #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Başakşehir Authorities",
+        "state": "Başakşehir",
+        "city": "İstanbul",
+        "country": "Türkiye",
+        "dial": "+90",
+        "phones": [
+          {
+            "who": "İstanbul Cumhuriyet Başsavcılığı",
+            "code": "+90",
+            "number": "212 375 7575",
+            "ext": ""
+          },
+          {
+            "who": "Tarım ve Orman Bakanlığı İstanbul İl Müdürlüğü",
+            "code": "+90",
+            "number": "216 468 2100",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-27T01:13:40Z",
+      "updatedAt": "2026-04-27T01:13:40Z"
     }
   ]
 }
