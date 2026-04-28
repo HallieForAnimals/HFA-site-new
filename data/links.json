@@ -3203,6 +3203,72 @@
       "postToUpdates": true,
       "createdAt": "2026-04-27T01:13:40Z",
       "updatedAt": "2026-04-27T01:13:40Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "tayden-baker",
+      "slug": "arrest-tayden-bakerspringer-20260427",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Tayden Baker/Springer",
+      "mailtoSubject": "Request for Full Investigation & Prosecution - Marietta Dog Abuse Video (Tayden Baker/Springer)",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO WASHINGTON COUNTY AUTHORITES TITLED \"ARREST TAYDEN BAKER/SPRINGER\"❗️\n\nCall:\nWashington County Sheriff’s Office: +1 740 376 7070\nWashington County Dog Warden: +1 740 373 6623\nWashington County Prosecutor’s Office: +1 740 373 7624\n\nAbuser Name: Tayden Baker/Springer.\nLocation: Marietta, Ohio.\n\nThis video from 2024 surfaced recently. The Ohio statute of limitations starts from the day of discovery, not the day of the crime.\nThis POS needs to be locked up. \nStudies show that animal abusers are 5x more likely to commit violent crimes.\n\n#ohio #marietta #cutedogs",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO WASHINGTON COUNTY AUTHORITES TITLED \"ARREST TAYDEN BAKER/SPRINGER\"❗️\n\nCall:\nWashington County Sheriff’s Office: +1 740 376 7070\nWashington County Dog Warden: +1 740 373 6623\nWashington County Prosecutor’s Office: +1 740 373 7624\n\nAbuser Name: Tayden Baker/Springer.\nLocation: Marietta, Ohio.\n\nThis video from 2024 surfaced recently. The Ohio statute of limitations starts from the day of discovery, not the day of the crime.\nThis POS needs to be locked up. \nStudies show that animal abusers are 5x more likely to commit violent crimes.\n\n#ohio #marietta #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned citizen regarding the animal cruelty video from Marietta, Ohio, that was recently turned over to authorities. The 2024 footage, now in your possession, reportedly shows Tayden Baker/Springer forcefully and repeatedly handling a black-and-white dog in a manner causing clear distress.\n\nI respectfully urge you to conduct a thorough investigation and prosecute the individual(s) involved to the fullest extent of Ohio law under ORC 959.131 (companion animal cruelty). Because the video evidence was only recently provided, the statute of limitations remains open, and the public expects strong enforcement to protect animals in Washington County.\n\nThe dog is reported to be OK, but accountability and a thorough welfare check is still critical.\n\nPlease keep the community updated on the status of this active case. Thank you for your service and commitment to animal welfare.\n\nVideo evidence: https://drive.google.com/file/d/1COgVWh9uZR93Uz6kjGKAxKWLb8PPqpmn/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "mark.warden@wcso84.us",
+        "troy.hawkins@wcso84.us",
+        "timothy.lockhart@wcso84.us",
+        "ncoil@wcgov.org"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report my concern over the recent animal cruelty video from Marietta, Ohio, involving Tayden Baker/Springer abusing a dog in 2024 footage that was only just turned over to your department. I urge you to investigate fully and prosecute to the fullest extent of the law under Ohio's companion animal cruelty statutes, as the evidence was only recently discovered and the statute of limitations has not expired. The community is watching and wants to see justice for the dog.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1COgVWh9uZR93Uz6kjGKAxKWLb8PPqpmn/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-tayden-bakerspringer-20260427",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO WASHINGTON COUNTY AUTHORITES TITLED \"ARREST TAYDEN BAKER/SPRINGER\"❗️\n\nCall:\nWashington County Sheriff’s Office: +1 740 376 7070\nWashington County Dog Warden: +1 740 373 6623\nWashington County Prosecutor’s Office: +1 740 373 7624\n\nAbuser Name: Tayden Baker/Springer.\nLocation: Marietta, Ohio.\n\nThis video from 2024 surfaced recently. The Ohio statute of limitations starts from the day of discovery, not the day of the crime.\nThis POS needs to be locked up. \nStudies show that animal abusers are 5x more likely to commit violent crimes.\n\n#ohio #marietta #cutedogs",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Washington County Authorites",
+        "state": "Ohio",
+        "city": "Marietta",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Washington County Sheriff’s Office",
+            "code": "+1",
+            "number": "740 376 7070",
+            "ext": ""
+          },
+          {
+            "who": "Washington County Dog Warden",
+            "code": "+1",
+            "number": "740 373 6623",
+            "ext": ""
+          },
+          {
+            "who": "Washington County Prosecutor’s Office",
+            "code": "+1",
+            "number": "740 373 7624",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-28T00:17:20Z",
+      "updatedAt": "2026-04-28T00:17:20Z"
     }
   ]
 }
