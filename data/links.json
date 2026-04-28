@@ -3269,6 +3269,67 @@
       "postToUpdates": true,
       "createdAt": "2026-04-28T00:17:20Z",
       "updatedAt": "2026-04-28T00:17:20Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "beagle-testing-uk",
+      "slug": "stop-beagle-testing-in-the-uk-20260428",
+      "status": "recent",
+      "role": "original",
+      "title": "Stop Beagle Testing in The UK",
+      "mailtoSubject": "Minister Murray says “that day is not quite yet with us”. Shut down MBR Acres NOW",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BRITISH PARLIAMENT TITLED \"STOP BEAGLE TESTING IN THE UK\"❗️\n\nCall:\nHome Office - ASRU: +44 0 207 035 4469\nHome Secretary Shabana Mahmood: +44 0 121 661 9440\n\nOn Monday, UK Parliament debated a 120,000 strong petition pushing for a ban on animal testing.\nAfter two hours of debate, they landed on \"we're not ready yet\".\nLab-grown human tissues, organoids, and organ-on-a-chip systems already exist, instead, they're funnelling £75 million in funding for alternatives.\n\n#london #mbr #beagles",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BRITISH PARLIAMENT TITLED \"STOP BEAGLE TESTING IN THE UK\"❗️\n\nCall:\nHome Office - ASRU: +44 0 207 035 4469\nHome Secretary Shabana Mahmood: +44 0 121 661 9440\n\nOn Monday, UK Parliament debated a 120,000 strong petition pushing for a ban on animal testing.\nAfter two hours of debate, they landed on \"we're not ready yet\".\nLab-grown human tissues, organoids, and organ-on-a-chip systems already exist, instead, they're funnelling £75 million in funding for alternatives.\n\n#london #mbr #beagles",
+      "mailtoBody": "To whom it may concern,\n\nFollowing Monday's Westminster Hall debate on e-petition 736578, I am writing as a deeply concerned member of the public to demand immediate action to close MBR Acres in Wyton, Cambridgeshire, revoke its licence, and accelerate the phase-out of dog testing.\n\nI have seen the whistleblower footage from inside MBR Acres showing young beagle puppies being forcibly trained for gavage (pipes forced down their throats) and inhalation mask procedures. Around 2,000 beagles are bred and sold every year from this facility alone for repeated-dose toxicity and inhalation studies in UK labs. Britain claims to be a modern nation, a nation of animal lovers, and yet we actively participate in these barbaric, dark-ages-esque practices. This is not acceptable in 2026.\n\nIn yesterday’s debate, Minister Ian Murray stated:\n“I look forward to the day when we can finally bring an end to animal testing and the use of dogs in scientific research. Unfortunately, that day is not quite yet with us… Our approach to achieve that is set out in last November’s ‘Replacing animals in science’ strategy… However, for now, the carefully regulated use of animals, including dogs, in scientific research unfortunately remains.”\n\nThe “Replacing Animals in Science” strategy is all well and good on paper, but these are just words, where is the urgent action? Labour’s 2024 manifesto commitment to partnering with scientists, industry and civil society to phase out animal testing is showing no meaningful movement, with all due respect: 41% of the 2024 Labour manifesto contents shows no movement, a sales pitch to get into office is not an accurate model of how the Labour Party behaves once in power. Targets for modest reductions by 2030 and waiting until 2035 are far too slow. In the next nine years, how many more thousands of dogs will suffer and die in pointless tests when, as you know, over 90% of drugs that pass animal safety and efficacy trials still fail in humans because beagles and humans have fundamentally different metabolisms, immune systems and biology?\n\nYet the Government is spending £75 million of taxpayers’ money on a “Replacing Animals in Science” strategy to develop and validate alternatives that already exist. We now have far superior human-relevant technologies: lab-grown human tissues, organoids, and organ-on-a-chip systems. These methods better predict human responses, catch toxicities earlier, and could dramatically accelerate the development of safe cures.\n\nThe public will not tolerate this any longer. The footage is public, the scientific failures are documented, and the human-relevant alternatives exist and are superior. It is time to pack this in.\n\nI am calling on you to:\n\n1: Immediately review and revoke MBR Acres’ breeding licence under the Animals (Scientific Procedures) Act 1986.\n2: Require the safe rehoming of all dogs currently held there.\n3: Accelerate the full phase-out of dog use in regulatory toxicity testing, starting with an outright ban on breeding beagles for this purpose.\n4: Deliver on the strong cross-party calls made in Monday's debate by backing Petition 736578, supporting Herbie’s Law, and implementing urgent timelines for replacement with modern methods.\n\nVideo evidence: https://drive.google.com/file/d/1oz3v-2fBFYrbcdHfbMGjiH2-CAPgxIS3/view?usp=sharing\n\nSincerely,\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "pmpost.ext@no10.gov.uk",
+        "keir.starmer.mp@parliament.uk",
+        "asruenforcement@homeoffice.gov.uk",
+        "asrulicensing@homeoffice.gov.uk",
+        "shabana.mahmood.mp@parliament.uk"
+      ],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1oz3v-2fBFYrbcdHfbMGjiH2-CAPgxIS3/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/stop-beagle-testing-in-the-uk-20260428",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BRITISH PARLIAMENT TITLED \"STOP BEAGLE TESTING IN THE UK\"❗️\n\nCall:\nHome Office - ASRU: +44 0 207 035 4469\nHome Secretary Shabana Mahmood: +44 0 121 661 9440\n\nOn Monday, UK Parliament debated a 120,000 strong petition pushing for a ban on animal testing.\nAfter two hours of debate, they landed on \"we're not ready yet\".\nLab-grown human tissues, organoids, and organ-on-a-chip systems already exist, instead, they're funnelling £75 million in funding for alternatives.\n\n#london #mbr #beagles",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "British Parliament",
+        "state": "",
+        "city": "London",
+        "country": "United Kingdom",
+        "dial": "+44",
+        "phones": [
+          {
+            "who": "Home Office - ASRU",
+            "code": "+44",
+            "number": "0 207 035 4469",
+            "ext": ""
+          },
+          {
+            "who": "Home Secretary Shabana Mahmood",
+            "code": "+44",
+            "number": "0 121 661 9440",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-28T21:42:15Z",
+      "updatedAt": "2026-04-28T21:42:15Z"
     }
   ]
 }
