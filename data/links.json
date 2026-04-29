@@ -3330,6 +3330,71 @@
       "postToUpdates": true,
       "createdAt": "2026-04-28T21:42:15Z",
       "updatedAt": "2026-04-28T21:42:15Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "nevada-cat-abuser",
+      "slug": "arrest-nevada-cat-abuser-20260429",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Nevada Cat Abuser",
+      "mailtoSubject": "Resident Spraying Stray Cats with Raid at 4747 Pennwood Ave Apt. 1052, Las Vegas NV 89102",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LAS VEGAS AUTHORIES TITLED \"ARREST NEVADA CAT ABUSER\"❗️\n\nCall:\nLVMPD Spring Valley Area Command: +1 702 828 2640\nLVMPD Animal Cruelty Detail: +1 702 828 2907\nClark County Animal Protection Services: +1 702 455 7710\n\nLocation: 4747 Pennwood Avenue, Apartment 1052, Las Vegas.\n\nThis POS has been spraying stray cats with Raid, which causes severe respiratory distress, neurological damage, organ failure, tremors, and in many cases a painful death.\n\n#Nevada #LasVegas #dogsofinstagram",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LAS VEGAS AUTHORIES TITLED \"ARREST NEVADA CAT ABUSER\"❗️\n\nCall:\nLVMPD Spring Valley Area Command: +1 702 828 2640\nLVMPD Animal Cruelty Detail: +1 702 828 2907\nClark County Animal Protection Services: +1 702 455 7710\n\nLocation: 4747 Pennwood Avenue, Apartment 1052, Las Vegas.\n\nThis POS has been spraying stray cats with Raid, which causes severe respiratory distress, neurological damage, organ failure, tremors, and in many cases a painful death.\n\n#Nevada #LasVegas #dogsofinstagram",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to formally report suspected animal cruelty occurring at the apartment complex located at 4747 Pennwood Avenue, Las Vegas, NV 89102. Although the incident has taken place on the grounds and common areas of 4747 Pennwood Avenue, the individual responsible is a resident who lives in Apartment 1052 at this address.\n\nThis resident has been observed deliberately spraying stray cats with Raid insecticide. Raid contains powerful chemicals that are highly toxic to animals, often causing severe respiratory distress, neurological damage, organ failure, tremors, and in many cases a painful death.\nThis intentional act of exposing defenseless animals to poisonous substances constitute clear animal cruelty under Nevada law—specifically violating NRS 574.100 (unjustifiable injuring or maiming of animals, including cats) and NRS 574.150 (unjustifiably administering or exposing animals to poisonous or noxious drugs or substances).\n\nImportantly, law enforcement agencies nationwide, including the FBI, have long recognized a strong statistical link between animal abuse and violent crimes against humans. Individuals who commit acts of animal cruelty are five times more likely to engage in domestic violence, child abuse, and other serious interpersonal offenses. For this reason, prompt investigation of this matter is critical not only for animal welfare, but also for the broader safety and well-being of the surrounding community.\n\nVideo evidence: https://drive.google.com/file/d/16ejxQn3NYVfbqcDbLEaVgeyjQqCBLDCu/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "SVAC@lvmpd.com",
+        "SVACPD@lvmpd.com",
+        "AnimalProtectionServicesInfo@clarkcountyNV.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report suspected animal cruelty at 4747 Pennwood Avenue, Apartment 1052 in Las Vegas, NV 89102. The resident has been spraying stray cats with Raid insecticide, which is toxic and harmful to the animals.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/16ejxQn3NYVfbqcDbLEaVgeyjQqCBLDCu/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-nevada-cat-abuser-20260429",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LAS VEGAS AUTHORIES TITLED \"ARREST NEVADA CAT ABUSER\"❗️\n\nCall:\nLVMPD Spring Valley Area Command: +1 702 828 2640\nLVMPD Animal Cruelty Detail: +1 702 828 2907\nClark County Animal Protection Services: +1 702 455 7710\n\nLocation: 4747 Pennwood Avenue, Apartment 1052, Las Vegas.\n\nThis POS has been spraying stray cats with Raid, which causes severe respiratory distress, neurological damage, organ failure, tremors, and in many cases a painful death.\n\n#Nevada #LasVegas #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Las Vegas Authories",
+        "state": "Nevada",
+        "city": "Las Vegas",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "LVMPD Spring Valley Area Command",
+            "code": "+1",
+            "number": "702 828 2640",
+            "ext": ""
+          },
+          {
+            "who": "LVMPD Animal Cruelty Detail",
+            "code": "+1",
+            "number": "702 828 2907",
+            "ext": ""
+          },
+          {
+            "who": "Clark County Animal Protection Services",
+            "code": "+1",
+            "number": "702 455 7710",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-29T01:13:42Z",
+      "updatedAt": "2026-04-29T01:13:42Z"
     }
   ]
 }
