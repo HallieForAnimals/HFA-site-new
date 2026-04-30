@@ -3473,6 +3473,48 @@
       "postToUpdates": true,
       "createdAt": "2026-04-30T01:11:47Z",
       "updatedAt": "2026-04-30T01:15:16Z"
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "2026-04-30",
+      "updateStatus": "resolved",
+      "caseId": "tayden-baker",
+      "slug": "tayden-springer-arrested-20260430",
+      "status": "updated",
+      "role": "update",
+      "title": "Tayden Springer Arrested",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "UPDATE: TAYDEN SPRINGER ARRESTED❗\n\nStatement from Marietta PD:\n\n\"On April 25, 2026, the Marietta Police Department initiated an investigation regarding allegations of a male subject abusing a dog. We are aware that this complaint has gained widespread attention online. The Marietta Police Department has thoroughly investigated the matter and has arrested Tayden Springer for Animal Cruelty. The incident in question occurred in 2024, and investigators have confirmed that the dog is currently in a safe environment, is healthy, and in good condition. We appreciate the public’s concern and assistance during this investigation and ask for patience as this case proceeds through the criminal justice system\"\n\n#ohio #marietta #doglover",
+      "descriptionLong": "UPDATE: TAYDEN SPRINGER ARRESTED❗\n\nStatement from Marietta PD:\n\n\"On April 25, 2026, the Marietta Police Department initiated an investigation regarding allegations of a male subject abusing a dog. We are aware that this complaint has gained widespread attention online. The Marietta Police Department has thoroughly investigated the matter and has arrested Tayden Springer for Animal Cruelty. The incident in question occurred in 2024, and investigators have confirmed that the dog is currently in a safe environment, is healthy, and in good condition. We appreciate the public’s concern and assistance during this investigation and ask for patience as this case proceeds through the criminal justice system\"\n\n#ohio #marietta #doglover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/19nlcmr1AENZaohQvFHJq8iiEwljFToyC/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/tayden-springer-arrested-20260430",
+      "caption": "UPDATE: TAYDEN SPRINGER ARRESTED❗\n\nStatement from Marietta PD:\n\n\"On April 25, 2026, the Marietta Police Department initiated an investigation regarding allegations of a male subject abusing a dog. We are aware that this complaint has gained widespread attention online. The Marietta Police Department has thoroughly investigated the matter and has arrested Tayden Springer for Animal Cruelty. The incident in question occurred in 2024, and investigators have confirmed that the dog is currently in a safe environment, is healthy, and in good condition. We appreciate the public’s concern and assistance during this investigation and ask for patience as this case proceeds through the criminal justice system\"\n\n#ohio #marietta #doglover",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "empty",
+        "targets": "",
+        "state": "Ohio",
+        "city": "Marietta",
+        "country": "United States",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-30T16:17:31Z",
+      "updatedAt": "2026-04-30T16:17:31Z"
     }
   ]
 }
