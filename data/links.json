@@ -3395,6 +3395,84 @@
       "postToUpdates": true,
       "createdAt": "2026-04-29T01:13:42Z",
       "updatedAt": "2026-04-29T01:13:42Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "justice-for-mya",
+      "slug": "justice-for-mya-20260430",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice For Mya",
+      "mailtoSubject": "Houston Animal Cruelty Case: Five Dogs Poisoned, One Found Dead",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO HOUSTON AUTHORITIES & NEWS NETWORKS TITLED \"JUSTICE FOR MYA\"❗️\n\nCall:\nHouston PD: +1 713 884 3131\nHarris County Animal Cruelty Taskforce: +1 832 927 7297\nHouston SPCA Animal Cruelty Investigations: +1 713 869 7722\n\nLocation: Houston, Texas.\n\nChanice Bonner came home to find four of her dogs showing signs of poisoning, and one, Mya, dead, and dead bees all over the yard, strongly suggesting someone sprayed pesticide over her fence.\nShe's called the police, but they're yet to do anything. It's suspected that the neighbors are responsible, but they deny involvement.\n\n#texas #houston #doglover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO HOUSTON AUTHORITIES & NEWS NETWORKS TITLED \"JUSTICE FOR MYA\"❗️\n\nCall:\nHouston PD: +1 713 884 3131\nHarris County Animal Cruelty Taskforce: +1 832 927 7297\nHouston SPCA Animal Cruelty Investigations: +1 713 869 7722\n\nLocation: Houston, Texas.\n\nChanice Bonner came home to find four of her dogs showing signs of poisoning, and one, Mya, dead, and dead bees all over the yard, strongly suggesting someone sprayed pesticide over her fence.\nShe's called the police, but they're yet to do anything. It's suspected that the neighbors are responsible, but they deny involvement.\n\n#texas #houston #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned citizen to report a serious and disturbing incident of intentional animal cruelty that deserves immediate media attention and public scrutiny.\n\nThis case involves the poisoning of five dogs at a Houston residence and a complete lack of in-person police response despite calls from the owner.\n\nOn or around April 23, 2026, someone (believed to be a neighbor) allegedly sprayed pesticide into or across the property lines of the home belonging to Chanice Bonner. The use of this pesticide is strongly indicated by the presence of dead bees found everywhere throughout the yard.\nAs a direct result of the exposure, five of Chanice Bonner’s dogs were poisoned. One of the dogs, named Mya, was subsequently found dead with blood leaking from her ears, eyes, and mouth, an outcome consistent with severe toxic poisoning.\n\nThe owner reported the incident to the Houston Police Department. Despite the clear evidence of a crime having occurred, including the widespread dead bees and the death of Mya, no police officers have ever shown up to the location.\nThe matter has reportedly been handled only as a delayed phone report with no further action taken.\nNeighbors have been identified as possible parties involved and have denied responsibility, yet no formal investigation appears to have been launched to examine the facts, collect evidence, or determine what occurred.\n\nUnder Texas law, the intentional administration of poison or any substance that causes serious bodily injury or death to an animal is a criminal offense.\n\nWith all due respect, \"it's just a dog\" doesn't fly here. Animal cruelty is well-documented by law enforcement agencies, including the FBI, as a frequent predictor and co-occurring factor in other serious violent crimes against people. Allowing such an incident to go uninvestigated not only fails the victim but also leaves the broader community at potential risk.\n\nPlease treat this case with the urgency and attention it deserves.\n\nVideo evidence: https://drive.google.com/file/d/1lcfcX-GpCqccJqMlfyFaPBTgeHRRIVR0/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "jose.diaz@houstonpolice.org",
+        "jose.diaz@houstontx.gov",
+        "Thomas.Hardin@HoustonPolice.org",
+        "Alvaro.Guzman@HoustonPolice.org",
+        "Keith.Seafous@HoustonPolice.org",
+        "Adam.Colley@HoustonPolice.org",
+        "animalcrueltyunit@houstonpolice.org",
+        "animalcruelty@cn1.hctx.net",
+        "citydesk@houstonchronicle.com",
+        "newstips@khou.com",
+        "newstips@abc13.com",
+        "Investigates@kprc.com",
+        "click2houston@kprc.com",
+        "newsroom@fox26houston.com",
+        "randy.wallace@foxtv.com",
+        "mary.benton@houstontx.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report a case of animal cruelty involving pesticide poisoning in Houston. On or around April 23, 2026, five dogs belonging to Chanice Bonner were poisoned after a neighbor sprayed pesticide, resulting in dead bees everywhere in the yard and one dog named Mya being found dead with blood leaking from her ears, eyes, and mouth. The owner made multiple calls to police with no officers showing up in person, neighbors have been accused and deny involvement, and I am requesting an immediate investigation and case assignment.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1lcfcX-GpCqccJqMlfyFaPBTgeHRRIVR0/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-mya-20260430",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO HOUSTON AUTHORITIES & NEWS NETWORKS TITLED \"JUSTICE FOR MYA\"❗️\n\nCall:\nHouston PD: +1 713 884 3131\nHarris County Animal Cruelty Taskforce: +1 832 927 7297\nHouston SPCA Animal Cruelty Investigations: +1 713 869 7722\n\nLocation: Houston, Texas.\n\nChanice Bonner came home to find four of her dogs showing signs of poisoning, and one, Mya, dead, and dead bees all over the yard, strongly suggesting someone sprayed pesticide over her fence.\nShe's called the police, but they're yet to do anything. It's suspected that the neighbors are responsible, but they deny involvement.\n\n#texas #houston #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Houston Authorities & News Networks",
+        "state": "Texas",
+        "city": "Houston",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Houston PD",
+            "code": "+1",
+            "number": "713 884 3131",
+            "ext": ""
+          },
+          {
+            "who": "Harris County Animal Cruelty Taskforce",
+            "code": "+1",
+            "number": "832 927 7297",
+            "ext": ""
+          },
+          {
+            "who": "Houston SPCA Animal Cruelty Investigations",
+            "code": "+1",
+            "number": "713 869 7722",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-04-30T01:11:47Z",
+      "updatedAt": "2026-04-30T01:11:47Z"
     }
   ]
 }
