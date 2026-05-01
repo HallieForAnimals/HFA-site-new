@@ -3515,6 +3515,68 @@
       "postToUpdates": true,
       "createdAt": "2026-04-30T16:17:31Z",
       "updatedAt": "2026-04-30T16:17:31Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "gilstrap-groomers",
+      "slug": "max-sentencing-for-linda--donald-gilstrap-20260501",
+      "status": "recent",
+      "role": "original",
+      "title": "Max Sentencing For Linda & Donald Gilstrap",
+      "mailtoSubject": "Request for Maximum Penalties in Gilstrap Animal Mistreatment Case",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO GREENVILLE COUNTY AUTHORITIES TITLED \"MAX SENTENCING FOR LINDA & DONALD GILSTRAP\"❗️\n\nCall:\n13th Judicial Circuit Solicitor’s Office: +1 864 467 8647\nCounty Council Main Line: +1 864 467 7115\n\nAbuser Names: Linda & Donald Gilstrap.\nCorner Pet Grooming, Greenville, SC.\n\nLinda Gilstrap faces two counts and Donald Gilstrap faces one count of misdemeanor animal mistreatment under South Carolina Code § 47-1-40(A).\nMaximum penalty per count (first offense): up to 90 days in jail and/or a $1,000 fine. More charges are still possible.\nDemand maximum sentencing. Animal abuse is a serious violent crime that must not end with a slap on the wrist.\n\n#southCarolina #greenville #doglover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO GREENVILLE COUNTY AUTHORITIES TITLED \"MAX SENTENCING FOR LINDA & DONALD GILSTRAP\"❗️\n\nCall:\n13th Judicial Circuit Solicitor’s Office: +1 864 467 8647\nCounty Council Main Line: +1 864 467 7115\n\nAbuser Names: Linda & Donald Gilstrap.\nCorner Pet Grooming, Greenville, SC.\n\nLinda Gilstrap faces two counts and Donald Gilstrap faces one count of misdemeanor animal mistreatment under South Carolina Code § 47-1-40(A).\nMaximum penalty per count (first offense): up to 90 days in jail and/or a $1,000 fine. More charges are still possible.\nDemand maximum sentencing. Animal abuse is a serious violent crime that must not end with a slap on the wrist.\n\n#southCarolina #greenville #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned citizen regarding the animal mistreatment charges against Linda Gilstrap (two counts) and Donald Gilstrap (one count) at Corner Pet Grooming. The graphic video evidence from March 2026 shows repeated and disturbing abuse of animals in their care.\n\nWe strongly urge the Solicitor’s Office and county leadership to pursue the maximum penalties allowed under South Carolina law and to avoid any plea deals that would result in a slap on the wrist. Animal cruelty must be treated as the serious violent crime that it is, research consistently shows it is often a precursor to violence against humans, and the community expects a clear line to be drawn to protect both animals and public safety.\n\nThank you for your attention to this high-profile case and for ensuring justice is served.\n\nVideo evidence: https://drive.google.com/file/d/1uz-wnxrbReUUFhoy8URMM0fNXU7nf4y6/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "ccrick@greenvillecounty.org",
+        "dbritt@greenvillecounty.org",
+        "BBlount@greenvillecounty.org",
+        "GCollins@greenvillecounty.org",
+        "SShaw@greenvillecounty.org",
+        "petpr@greenvillecounty.org"
+      ],
+      "phones": [],
+      "callScript": "I’m calling to report my strong concern about the Gilstrap animal mistreatment case at Corner Pet Grooming. The video evidence clearly shows repeated abuse, and I urge the office to seek the maximum sentencing possible rather than a slap on the wrist. Animal cruelty is a serious violent crime often linked to future violence against people, and we must draw a firm line by holding these offenders fully accountable.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1uz-wnxrbReUUFhoy8URMM0fNXU7nf4y6/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/max-sentencing-for-linda--donald-gilstrap-20260501",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO GREENVILLE COUNTY AUTHORITIES TITLED \"MAX SENTENCING FOR LINDA & DONALD GILSTRAP\"❗️\n\nCall:\n13th Judicial Circuit Solicitor’s Office: +1 864 467 8647\nCounty Council Main Line: +1 864 467 7115\n\nAbuser Names: Linda & Donald Gilstrap.\nCorner Pet Grooming, Greenville, SC.\n\nLinda Gilstrap faces two counts and Donald Gilstrap faces one count of misdemeanor animal mistreatment under South Carolina Code § 47-1-40(A).\nMaximum penalty per count (first offense): up to 90 days in jail and/or a $1,000 fine. More charges are still possible.\nDemand maximum sentencing. Animal abuse is a serious violent crime that must not end with a slap on the wrist.\n\n#southCarolina #greenville #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Greenville County Authorities",
+        "state": "South Carolina",
+        "city": "Greenville",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "13th Judicial Circuit Solicitor’s Office",
+            "code": "+1",
+            "number": "864 467 8647",
+            "ext": ""
+          },
+          {
+            "who": "County Council Main Line",
+            "code": "+1",
+            "number": "864 467 7115",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-01T01:05:45Z",
+      "updatedAt": "2026-05-01T01:05:45Z"
     }
   ]
 }
