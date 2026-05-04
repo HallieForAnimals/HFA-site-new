@@ -3626,6 +3626,58 @@
       "postToUpdates": true,
       "createdAt": "2026-05-01T22:37:48Z",
       "updatedAt": "2026-05-01T22:37:48Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "jacksonville-ducklings",
+      "slug": "justice-for-jacksonville-ducklings-20260504",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice For Jacksonville Ducklings",
+      "mailtoSubject": "Maximum Penalty in Animal Cruelty Case: State of Florida v. Beverly Sasberry.",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DUVAL COUNTY PROSECUTION TITLED \"JUSTICE FOR JACKSONVILLE DUCKLINGS\"❗️\n\nCall:\nOffice of the State Attorney (4th Judicial Circuit): +1 904 255 2500\n\nAbuser Name: Beverley Denise Sasberry.\nLocation: 5773 Tempest St Jacksonville, FL.\n\nThis evil POS aimed her car at ducklings and a mother ducks three times, killing 11 ducklings, all because they \"made a mess in her yard\".\nShe admitted to it, and said she'd do it again.\nThe Jacksonville Sheriff's officer arrested her, and charged her with 11 felony counts of animal cruelty and one felony count of reckless driving.\nIf convicted, she faces up to 60 years in prison and would have to register on Florida's animal abuser registry.\n\n#florida #jacksonville #doglover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DUVAL COUNTY PROSECUTION TITLED \"JUSTICE FOR JACKSONVILLE DUCKLINGS\"❗️\n\nCall:\nOffice of the State Attorney (4th Judicial Circuit): +1 904 255 2500\n\nAbuser Name: Beverley Denise Sasberry.\nLocation: 5773 Tempest St Jacksonville, FL.\n\nThis evil POS aimed her car at ducklings and a mother ducks three times, killing 11 ducklings, all because they \"made a mess in her yard\".\nShe admitted to it, and said she'd do it again.\nThe Jacksonville Sheriff's officer arrested her, and charged her with 11 felony counts of animal cruelty and one felony count of reckless driving.\nIf convicted, she faces up to 60 years in prison and would have to register on Florida's animal abuser registry.\n\n#florida #jacksonville #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned citizen regarding the case of Beverly Sasberry, who was arrested on April 30, 2026 and charged with 11 felony counts of animal cruelty and reckless driving. On April 25, 2026, Sasberry deliberately drove her red Honda Accord onto the curb on Tempest Street, repeatedly running over and killing 11 baby Muscovy ducklings. Surveillance video and witness statements show she turned her vehicle around multiple times to strike the ducklings again, then admitted to neighbors that she did it because they had “made a mess” in her yard and stated, “I’ll do it again.”\n\nThis was a premeditated, gratuitous act of cruelty against defenseless animals. Animal abuse is a proven indicator of future violent crimes against humans, and acts like this erode public trust while encouraging further violence. Florida law recognizes felony animal cruelty as a serious crime precisely because of this well-documented link. I respectfully urge your office to prosecute this case to the fullest extent of the law, seek the maximum possible penalties on each count, and send a strong message that intentional cruelty against animals will not be tolerated in Duval County.\n\nThank you for your time and for upholding justice in this matter.\n\nVideo evidence: https://drive.google.com/file/d/1GVsOBqh4fpHL1z6ZuYG7Ui0E_30P7ftr/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "mwnelson@coj.net",
+        "SAO4th@coj.net"
+      ],
+      "phones": [],
+      "callScript": "\"I’m calling about the Beverly Sasberry animal cruelty case in Duval County. This was a completely gratuitous and intentional act with no remorse. I’m asking the State Attorney’s Office to prosecute it to the fullest extent of the law and seek the maximum penalties on every count. Thank you.”",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1GVsOBqh4fpHL1z6ZuYG7Ui0E_30P7ftr/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-jacksonville-ducklings-20260504",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DUVAL COUNTY PROSECUTION TITLED \"JUSTICE FOR JACKSONVILLE DUCKLINGS\"❗️\n\nCall:\nOffice of the State Attorney (4th Judicial Circuit): +1 904 255 2500\n\nAbuser Name: Beverley Denise Sasberry.\nLocation: 5773 Tempest St Jacksonville, FL.\n\nThis evil POS aimed her car at ducklings and a mother ducks three times, killing 11 ducklings, all because they \"made a mess in her yard\".\nShe admitted to it, and said she'd do it again.\nThe Jacksonville Sheriff's officer arrested her, and charged her with 11 felony counts of animal cruelty and one felony count of reckless driving.\nIf convicted, she faces up to 60 years in prison and would have to register on Florida's animal abuser registry.\n\n#florida #jacksonville #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Duval County Prosecution",
+        "state": "Florida",
+        "city": "Jacksonville",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Office of the State Attorney (4th Judicial Circuit)",
+            "code": "+1",
+            "number": "904 255 2500",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-04T01:57:09Z",
+      "updatedAt": "2026-05-04T01:57:09Z"
     }
   ]
 }
