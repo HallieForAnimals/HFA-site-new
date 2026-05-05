@@ -3678,6 +3678,59 @@
       "postToUpdates": true,
       "createdAt": "2026-05-04T01:57:09Z",
       "updatedAt": "2026-05-04T01:57:09Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "jeffrey_zehr",
+      "slug": "maximum-sentence-for-jeffrey-zehr-20260505",
+      "status": "recent",
+      "role": "original",
+      "title": "Maximum Sentence For Jeffrey Zehr",
+      "mailtoSubject": "Maximum Penalties Requested against Jeffrey Zehr",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO OSWEGO COUNTY PROSECUTION TITLED \"MAXIMUM SENTENCE FOR JEFFREY ZEHR\"❗️\n\nCall:\nOswego County District Attorney’s Office: +1 315 349 3200\n\nAbuser Name: Jeffrey Zehr.\n\n140 animals suffered horrific neglect on Jeffrey Zehr’s Sandy Creek property.\nHe now faces 40 misdemeanor counts.\nThis second animal cruelty case, the first in 2019.\nMisdemeanors are a slap in the face of justice.\nCourt is May 9th.\n\n#newoyrk #pulaski #cutedogs",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO OSWEGO COUNTY PROSECUTION TITLED \"MAXIMUM SENTENCE FOR JEFFREY ZEHR\"❗️\n\nCall:\nOswego County District Attorney’s Office: +1 315 349 3200\n\nAbuser Name: Jeffrey Zehr.\n\n140 animals suffered horrific neglect on Jeffrey Zehr’s Sandy Creek property.\nHe now faces 40 misdemeanor counts.\nThis second animal cruelty case, the first in 2019.\nMisdemeanors are a slap in the face of justice.\nCourt is May 9th.\n\n#newoyrk #pulaski #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned citizen regarding the upcoming appearance of Jeffrey D. Zehr, 45, of Pulaski/Sandy Creek, in Oswego County CAP Court on May 9, 2026, at 5:30 p.m.\n\nOn April 25, 2026, New York State Police arrested Zehr on 40 counts of Torturing or Injuring Animals/Failure to Provide Proper Sustenance (Class A misdemeanor, NY Agriculture & Markets Law §353) plus one count of Criminal Possession of a Weapon in the 4th Degree (Class A misdemeanor). This followed the removal of approximately 140 neglected animals (horses, sheep, goats, cows, cats, chickens, and a Great Dane) from his 87-acre property in Sandy Creek. The conditions were so severe the residence was declared unfit for human occupancy by code enforcement.\n\nIn 2019 in Jefferson County he was charged with 14 counts, pleaded guilty, and received 50 weekends in jail.\n\nTreating even this repeated, multi-property, large-scale neglect as misdemeanors (maximum one year per count, often far less in practice) is a slap in the face of justice. It provides virtually no deterrent for repeat offenders like Zehr, while rescues, the Oswego County SPCA, and taxpayers bear enormous costs and the animals endure prolonged suffering.\n\nWe respectfully urge your office to:\n\n1: Seek the maximum penalties on every count, with jail time served consecutively where legally possible.\n2: Recommend full forfeiture of all animals and a lifetime ban on Zehr owning, possessing, or residing with any animals.\n3: Aggressively prosecute the weapons charge in light of his prior felony conviction.\n\nA strong sentencing recommendation will demonstrate that Oswego County takes repeated animal cruelty seriously and will help break the cycle. We are happy to provide victim impact statements from the rescues caring for the 140 survivors or any other assistance your office may need.\n\nThank you for your leadership in protecting the most vulnerable. We look forward to real justice being served.\n\nVideo evidence: https://drive.google.com/file/d/1qEn4Y2YiwpS5W0Pn9UzKwUWlk3XbvacB/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "Anthony.DiMartino@OswegoCounty.com",
+        "DistrictAttorney@OswegoCounty.com",
+        "Louis.Mannara@OswegoCounty.com"
+      ],
+      "phones": [],
+      "callScript": "I’m calling about Jeffrey Zehr’s animal cruelty case in Oswego County CAP Court on May 9th. This is his second case of animal cruelty, with 40 misdemeanor counts involving the severe neglect of 140 animals on his Sandy Creek property. Treating repeat, large-scale cruelty as misdemeanors is a slap in the face of justice, so I urge the District Attorney’s Office to seek the maximum penalties on every count, consecutive jail time where possible, full forfeiture of the animals, and a lifetime ban on ownership. Thank you for your time and for protecting the animals.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1qEn4Y2YiwpS5W0Pn9UzKwUWlk3XbvacB/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/maximum-sentence-for-jeffrey-zehr-20260505",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO OSWEGO COUNTY PROSECUTION TITLED \"MAXIMUM SENTENCE FOR JEFFREY ZEHR\"❗️\n\nCall:\nOswego County District Attorney’s Office: +1 315 349 3200\n\nAbuser Name: Jeffrey Zehr.\n\n140 animals suffered horrific neglect on Jeffrey Zehr’s Sandy Creek property.\nHe now faces 40 misdemeanor counts.\nThis second animal cruelty case, the first in 2019.\nMisdemeanors are a slap in the face of justice.\nCourt is May 9th.\n\n#newoyrk #pulaski #cutedogs",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Oswego County Prosecution",
+        "state": "New York",
+        "city": "Pulaski",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Oswego County District Attorney’s Office",
+            "code": "+1",
+            "number": "315 349 3200",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-05T00:56:03Z",
+      "updatedAt": "2026-05-05T00:56:03Z"
     }
   ]
 }
