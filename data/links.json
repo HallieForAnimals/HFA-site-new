@@ -3848,6 +3848,78 @@
       "postToUpdates": true,
       "createdAt": "2026-05-06T01:41:01Z",
       "updatedAt": "2026-05-06T01:41:01Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "poconos_barking_lot",
+      "slug": "shut-down-poconos-barking-lot-20260506",
+      "status": "recent",
+      "role": "original",
+      "title": "Shut Down Poconos Barking Lot",
+      "mailtoSubject": "Report of Neglect & Health Hazards at Poconos Barking Lot",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO MONROE COUNTY AUTHORITIES TITLED \"SHUT DOWN POCONOS BARKING LOT\"❗️\n\nCall:\nMonroe County Dog Warden: +1 570 350 0804\nPA Bureau of Dog Law Enforcement: +1 717 787 3062\nMonroe County Vector Control: +1 570 517 3416\nPA Department of Health: +1 717 787 3350\n\nBusiness Name: Poconos Barking Lot.\nAddress: 209 Stofflet Rd, Sciota, PA.\n\nPoconos Barking Lot has an ongoing rat infestation with rats in the salon and kennels, pets in unsanitary conditions, and evidence of inadequate food and water access.\nBe careful who you're leaving your pets with.\n\n#pennsylvania #cciota #dogsofinstagram",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO MONROE COUNTY AUTHORITIES TITLED \"SHUT DOWN POCONOS BARKING LOT\"❗️\n\nCall:\nMonroe County Dog Warden: +1 570 350 0804\nPA Bureau of Dog Law Enforcement: +1 717 787 3062\nMonroe County Vector Control: +1 570 517 3416\nPA Department of Health: +1 717 787 3350\n\nBusiness Name: Poconos Barking Lot.\nAddress: 209 Stofflet Rd, Sciota, PA.\n\nPoconos Barking Lot has an ongoing rat infestation with rats in the salon and kennels, pets in unsanitary conditions, and evidence of inadequate food and water access.\nBe careful who you're leaving your pets with.\n\n#pennsylvania #cciota #dogsofinstagram",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to formally report ongoing, severe violations at Poconos Barking Lot (also known as The Barking Lot) located at 209 Stofflet Road (or associated Friemann Lane/Stofflet Rd addresses), Sciota, PA 18354 in Chestnuthill Township, Monroe County.\n\nA former groomer turned whislte-blower recently posted the following public statement:\n\"I've been grooming at The Barking Lot for less than a year and things have gotten progressively worse every single day. There's been an ongoing, widespread rat infestation all throughout the premise. Rats - both alive and dead - inside the salon and in the kennels where the pets (dogs and cats) are supposed to be safe. The owners are aware that the rats spread disease and pose a harm to the animals. They've put poison down despite the risk to the pets.\nIn addition to that, the staff in charge of the kennels were fired and never replaced. So pets are going days without food or water. And yet they continue to take in boarding pets knowing that they don't have the staff necessary to tend to them.\"\n\nI respectfully request:\n\n1: An immediate unannounced inspection by the Bureau of Dog Law Enforcement and local Dog Warden.\n2: Vector Control assessment and remediation of the rodent infestation.\n3: Environmental Health review for sanitation and disease risks.\n\nThank you for protecting animals and public health in Pennsylvania.\n\nVideo evidence: https://drive.google.com/file/d/1RyAbgKL30BFzLYTdReKXrpCuSgdUEW9N/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "ra-agdoglaw@pa.gov",
+        "mirschroed@pa.gov",
+        "alombard@monroecountypa.gov",
+        "env.health.concern@pa.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report severe animal welfare and public health violations at Poconos Barking Lot / The Barking Lot at 209 Stofflet Road, Sciota, PA 18354, including an ongoing widespread rat infestation with live and dead rats in the salon and kennels, unsanitary conditions, and pets going days without food or water due to understaffing. Attached are recent whistleblower photos and video from a former groomer showing the conditions, and I request an immediate unannounced inspection by Dog Law Enforcement and Vector Control.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1RyAbgKL30BFzLYTdReKXrpCuSgdUEW9N/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/shut-down-poconos-barking-lot-20260506",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO MONROE COUNTY AUTHORITIES TITLED \"SHUT DOWN POCONOS BARKING LOT\"❗️\n\nCall:\nMonroe County Dog Warden: +1 570 350 0804\nPA Bureau of Dog Law Enforcement: +1 717 787 3062\nMonroe County Vector Control: +1 570 517 3416\nPA Department of Health: +1 717 787 3350\n\nBusiness Name: Poconos Barking Lot.\nAddress: 209 Stofflet Rd, Sciota, PA.\n\nPoconos Barking Lot has an ongoing rat infestation with rats in the salon and kennels, pets in unsanitary conditions, and evidence of inadequate food and water access.\nBe careful who you're leaving your pets with.\n\n#pennsylvania #cciota #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Monroe County Authorities",
+        "state": "Pennsylvania",
+        "city": "Sciota",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Monroe County Dog Warden",
+            "code": "+1",
+            "number": "570 350 0804",
+            "ext": ""
+          },
+          {
+            "who": "PA Bureau of Dog Law Enforcement",
+            "code": "+1",
+            "number": "717 787 3062",
+            "ext": ""
+          },
+          {
+            "who": "Monroe County Vector Control",
+            "code": "+1",
+            "number": "570 517 3416",
+            "ext": ""
+          },
+          {
+            "who": "PA Department of Health",
+            "code": "+1",
+            "number": "717 787 3350",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-06T02:10:07Z",
+      "updatedAt": "2026-05-06T02:10:07Z"
     }
   ]
 }
