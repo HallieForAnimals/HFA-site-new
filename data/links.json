@@ -3920,6 +3920,77 @@
       "postToUpdates": true,
       "createdAt": "2026-05-06T02:10:07Z",
       "updatedAt": "2026-05-06T02:10:07Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "compton_cat_shooters",
+      "slug": "juvenile-animal-cruelty-in-compton-20260506",
+      "status": "recent",
+      "role": "original",
+      "title": "Juvenile Animal Cruelty in Compton",
+      "mailtoSubject": "Juvenile Animal Cruelty + Child Welfare Concerns at 601 W Corregidor St, Compton CA 90220",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO COMPTON AUTHORITIES TITLED \"JUVENILE ANIMAL CRUELTY IN COMPTON\"❗️\n\nCall:\nCompton Sheriff’s Station: +1 310 605 6500\nLA County Department of Children & Family Services: +1 213 639 4500\nCompton Mayor Emma Sharif’s Office: +1 310 605 5500\nJasmine Garden Apartments Management: +1 310 631 6181\n\nLocation:  601 W Corregidor Street, Compton, CA.\n\nTwo kids have been seen repeatedly shooting cats around their home.\nThis is the same residential bloc in which a maintenance worker was accused of trapping cats inhumanely last year.\nA number of serial killers began by torturing animals as children, including Jeffrey Dahmer, Ted Bundy, and David Berkowitz.\n\n#california #compton #dogsofinstagram",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO COMPTON AUTHORITIES TITLED \"JUVENILE ANIMAL CRUELTY IN COMPTON\"❗️\n\nCall:\nCompton Sheriff’s Station: +1 310 605 6500\nLA County Department of Children & Family Services: +1 213 639 4500\nCompton Mayor Emma Sharif’s Office: +1 310 605 5500\nJasmine Garden Apartments Management: +1 310 631 6181\n\nLocation:  601 W Corregidor Street, Compton, CA.\n\nTwo kids have been seen repeatedly shooting cats around their home.\nThis is the same residential bloc in which a maintenance worker was accused of trapping cats inhumanely last year.\nA number of serial killers began by torturing animals as children, including Jeffrey Dahmer, Ted Bundy, and David Berkowitz.\n\n#california #compton #dogsofinstagram",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned member of the community to report ongoing animal cruelty at the Jasmine Garden Apartments, 601 W Corregidor Street, Compton, CA 90220, specifically involving young children allegedly from Apartment A who have been filmed shooting resident cats with BB guns.\nThis behavior has been publicly documented by local animal rescue groups and requires immediate investigation by Compton Sheriff’s, Animal Control, and DCFS.\n\nResearch on abusive households shows that children who witness or experience domestic violence or abuse often go on to abuse animals as an early outlet for that trauma, this is a well-established red flag for ongoing family violence. The children involved here may themselves be at serious risk, and swift intervention is critical to protect them and break the cycle. It is also well documented that numerous serial killers began their patterns of violence by torturing animals as children, including Jeffrey Dahmer, Ted Bundy, and David Berkowitz. Prompt action now can prevent escalation and safeguard both the animals and the children in the home.\n\nPlease treat this as an urgent matter and conduct a welfare check and investigation immediately. I urge you to coordinate a response and keep the community informed of steps taken.\n\nThank you for your leadership on this public safety issue.\n\nVideo evidence: https://drive.google.com/file/d/1aT22uHwyDvUAfbyYorfZ9uOVXae4GY1v/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "vpuebla@lasd.org",
+        "esharif@comptoncity.org",
+        "bespinoza@comptoncity.org"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report suspected animal cruelty and potential child endangerment involving young children from Apartment A at 601 W Corregidor Street in Compton who are shooting resident cats with BB guns. This raises serious concerns about an abusive household dynamic, as children who witness abuse often escalate to harming animals, placing the kids themselves at risk of harm or future violence.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1aT22uHwyDvUAfbyYorfZ9uOVXae4GY1v/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/juvenile-animal-cruelty-in-compton-20260506",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO COMPTON AUTHORITIES TITLED \"JUVENILE ANIMAL CRUELTY IN COMPTON\"❗️\n\nCall:\nCompton Sheriff’s Station: +1 310 605 6500\nLA County Department of Children & Family Services: +1 213 639 4500\nCompton Mayor Emma Sharif’s Office: +1 310 605 5500\nJasmine Garden Apartments Management: +1 310 631 6181\n\nLocation:  601 W Corregidor Street, Compton, CA.\n\nTwo kids have been seen repeatedly shooting cats around their home.\nThis is the same residential bloc in which a maintenance worker was accused of trapping cats inhumanely last year.\nA number of serial killers began by torturing animals as children, including Jeffrey Dahmer, Ted Bundy, and David Berkowitz.\n\n#california #compton #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Compton Authorities",
+        "state": "California",
+        "city": "Compton",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Compton Sheriff’s Station",
+            "code": "+1",
+            "number": "310 605 6500",
+            "ext": ""
+          },
+          {
+            "who": "LA County Department of Children & Family Services",
+            "code": "+1",
+            "number": "213 639 4500",
+            "ext": ""
+          },
+          {
+            "who": "Compton Mayor Emma Sharif’s Office",
+            "code": "+1",
+            "number": "310 605 5500",
+            "ext": ""
+          },
+          {
+            "who": "Jasmine Garden Apartments Management",
+            "code": "+1",
+            "number": "310 631 6181",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-06T20:29:01Z",
+      "updatedAt": "2026-05-06T20:29:01Z"
     }
   ]
 }
