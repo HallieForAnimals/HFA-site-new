@@ -3789,6 +3789,65 @@
       "postToUpdates": true,
       "createdAt": "2026-05-05T02:23:17Z",
       "updatedAt": "2026-05-05T02:23:17Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "douglas_d_bess",
+      "slug": "arrest-douglas-d-bess-jr-20260506",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Douglas D Bess Jr",
+      "mailtoSubject": "Formal Report of Animal Cruelty by Douglass Bess Jr.",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO FRESNO AUTHORITES TITLED \"ARREST DOUGLAS D BESS JR\"❗️\n\nCall:\nCentral California SPCA Humane Investigations: +1 559 233 7722\nFresno Police Department: +1 559 621 7000\n\nAbuser Name: Douglas Dewayne Bess Jr.\nAddress: 440 E Cambridge Ave, Fresno, CA.\n\nBess seems to think rubbing a dogs face in it's own urine passes for discipline and housetraining.\n\n#california #fresno #dogsofinstagram",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO FRESNO AUTHORITES TITLED \"ARREST DOUGLAS D BESS JR\"❗️\n\nCall:\nCentral California SPCA Humane Investigations: +1 559 233 7722\nFresno Police Department: +1 559 621 7000\n\nAbuser Name: Douglas Dewayne Bess Jr.\nAddress: 440 E Cambridge Ave, Fresno, CA.\n\nBess seems to think rubbing a dogs face in it's own urine passes for discipline and housetraining.\n\n#california #fresno #dogsofinstagram",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to formally report animal cruelty by Douglass Bess Jr. (also known as SoFresh Dinero or To The Bag/ImFresh Dinero), who is believed to reside at 440 E Cambridge Ave, Fresno, CA 93704. Mr. Bess has publicly recorded and shared video footage of himself physically abusing his dog Kasanova, while describing the acts as “discipline.”\n\nThis behavior is not only a clear violation of California Penal Code 597 (animal cruelty), but it also raises serious public safety concerns due to the well-established link between animal abuse and violence toward humans. According to the FBI, animal cruelty is now tracked in the National Incident-Based Reporting System (NIBRS) precisely because research consistently shows it is a strong predictor and co-occurring factor with other violent crimes, including assault, domestic violence, rape, murder, and child abuse. Landmark studies, such as the 1997 Massachusetts SPCA/Northeastern University research, have found that individuals who abuse animals are five times more likely to commit violent crimes against humans. Additional data from the FBI and law enforcement analyses indicate that a significant percentage of animal abusers (often cited around 70%) have other reported incidents of violent behavior.\n\nGiven Mr. Bess’s public platform and the visibility of this content, a thorough investigation is warranted not only to protect the animals involved but also to assess any potential risk to the broader community.\n\nI respectfully request that the Fresno Police Department open an investigation into this matter.\n\nThank you for your attention to this important report and for your continued efforts to protect both animals and the residents of Fresno.\n\nVideo evidence: https://drive.google.com/file/d/1pD5Xy3bf8AmnA44wLJBh2Z_50eaeMTk-/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "mindy.casto@fresno.gov",
+        "larry.bowlan@fresno.gov",
+        "jennifer.horsford@fresno.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report animal cruelty by Douglass Bess Jr. (also known as SoFresh Dinero or To The Bag) believed to live at 440 E Cambridge Ave, Fresno, CA 93704. He recorded himself physically abusing his dog (Kasanova) while claiming it was 'discipline,'",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1pD5Xy3bf8AmnA44wLJBh2Z_50eaeMTk-/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-douglas-d-bess-jr-20260506",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO FRESNO AUTHORITES TITLED \"ARREST DOUGLAS D BESS JR\"❗️\n\nCall:\nCentral California SPCA Humane Investigations: +1 559 233 7722\nFresno Police Department: +1 559 621 7000\n\nAbuser Name: Douglas Dewayne Bess Jr.\nAddress: 440 E Cambridge Ave, Fresno, CA.\n\nBess seems to think rubbing a dogs face in it's own urine passes for discipline and housetraining.\n\n#california #fresno #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Fresno Authorites",
+        "state": "California",
+        "city": "Fresno",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Central California SPCA Humane Investigations",
+            "code": "+1",
+            "number": "559 233 7722",
+            "ext": ""
+          },
+          {
+            "who": "Fresno Police Department",
+            "code": "+1",
+            "number": "559 621 7000",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-06T01:40:15Z",
+      "updatedAt": "2026-05-06T01:40:15Z"
     }
   ]
 }
