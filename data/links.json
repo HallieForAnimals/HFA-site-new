@@ -3991,6 +3991,84 @@
       "postToUpdates": true,
       "createdAt": "2026-05-06T20:29:01Z",
       "updatedAt": "2026-05-06T20:29:01Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "justice-for-daisy",
+      "slug": "justice-for-daisy-20260507",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice for Daisy",
+      "mailtoSubject": "Demand for Termination, Criminal Investigation, and Restitution",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO SAN BERNADINO AUTHORITIES TITLED \"JUSTICE FOR DAISY\"❗️\n\nCall:\nSan Bernadino Sheriff: Central Station: +1 909 387 3545\nSan Bernadino Sheriff HQ: +1 909 387 3545\nInternal Affairs Division: +1 909 387 3726\nDA Jason Anderson: +1 909 382 3800\nSupervisor Jesse Armendarez: +1 909 387 4833\n\nA San Bernardino County Sheriff's deputy entered Jesus Serna's private, fenced backyard without a warrant and shot and killed his dog Daisy. The deputy was investigating a stolen vehicle that had nothing to do with Serna or his property.\nAnimal control seized and charged Serna $250 dollars to retrieve his other dog, Raven.\n\n#california #sanbernadino #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO SAN BERNADINO AUTHORITIES TITLED \"JUSTICE FOR DAISY\"❗️\n\nCall:\nSan Bernadino Sheriff: Central Station: +1 909 387 3545\nSan Bernadino Sheriff HQ: +1 909 387 3545\nInternal Affairs Division: +1 909 387 3726\nDA Jason Anderson: +1 909 382 3800\nSupervisor Jesse Armendarez: +1 909 387 4833\n\nA San Bernardino County Sheriff's deputy entered Jesus Serna's private, fenced backyard without a warrant and shot and killed his dog Daisy. The deputy was investigating a stolen vehicle that had nothing to do with Serna or his property.\nAnimal control seized and charged Serna $250 dollars to retrieve his other dog, Raven.\n\n#california #sanbernadino #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to demand immediate accountability for the actions of a San Bernardino County Sheriff's deputy on May 4, 2026, at approximately 11:37 a.m. on the 7000 block of Glasgow Avenue in San Bernardino.\n\nSurveillance footage which has been reviewed by KTLA and is now circulating widely shows a male deputy opening the gate to homeowner Jesus Serna's private, fenced backyard without a warrant, without the owner's consent, and without any lawful basis to enter. The deputy was investigating a stolen vehicle that, per reporting, had no connection whatsoever to Mr. Serna or his property.\n\nUpon entering the yard, the deputy encountered Daisy, Mr. Serna's rottweiler, who barked and approached him, a natural, expected response from a dog defending her home from an uninvited intruder. The deputy shot and killed her.\n\nThe entry was unlawful. The shooting was the direct consequence of that unlawful entry. A family's dog is dead because a deputy chose to open a gate he had no legal right to open.\n\nI am demanding the following:\n\n1. TERMINATION of the deputy responsible for the unlawful entry and shooting, pending the outcome of a full independent investigation.\n2. CRIMINAL INVESTIGATION by the District Attorney's Office into whether the deputy's conduct constitutes criminal trespass and/or unlawful destruction of property under California law.\n3. FULL RESTITUTION to Mr. Serna of the approximately $250 in shelter fees he was forced to pay to retrieve his surviving dog, Raven, a dog that was removed from private property without cause and impounded at his expense. That Mr. Serna was charged any amount for the retrieval of his own dog, seized from his own yard during an unlawful search, is an outrage that compounds the original misconduct.\n4. A PUBLIC STATEMENT from the Sheriff's Department confirming what has been reported by KTLA, that the stolen vehicle bore no connection to Mr. Serna's property, and a full explanation of what legal authority the deputy believed he had to enter that yard.\n\nThe surveillance footage is unambiguous. The public is watching, and the standard of accountability we accept here will set the precedent for what officers in this county believe they are permitted to do.\n\nI urge you to act swiftly and transparently.\n\nVideo evidence: https://drive.google.com/file/d/1BZOUETlAH3u8eum8mUO9jN8FqVb3_rXd/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "paffairs@sbcsd.org",
+        "Supervisor.Armendarez@bos.sbcounty.gov",
+        "RCollins@sbcsd.org",
+        "SDicus@sbcsd.org"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to demand accountability for the May 4th incident in which a San Bernardino County Sheriff's deputy entered Jesus Serna's private, fenced backyard without a warrant and shot and killed his family dog, Daisy. I'm urging that the deputy be terminated, that a criminal investigation be opened, and that Mr. Serna be reimbursed the $250 he was wrongly charged to retrieve his surviving dog from a shelter after she was removed from his property during an unlawful search.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1BZOUETlAH3u8eum8mUO9jN8FqVb3_rXd/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-daisy-20260507",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO SAN BERNADINO AUTHORITIES TITLED \"JUSTICE FOR DAISY\"❗️\n\nCall:\nSan Bernadino Sheriff: Central Station: +1 909 387 3545\nSan Bernadino Sheriff HQ: +1 909 387 3545\nInternal Affairs Division: +1 909 387 3726\nDA Jason Anderson: +1 909 382 3800\nSupervisor Jesse Armendarez: +1 909 387 4833\n\nA San Bernardino County Sheriff's deputy entered Jesus Serna's private, fenced backyard without a warrant and shot and killed his dog Daisy. The deputy was investigating a stolen vehicle that had nothing to do with Serna or his property.\nAnimal control seized and charged Serna $250 dollars to retrieve his other dog, Raven.\n\n#california #sanbernadino #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "San Bernadino Authorities",
+        "state": "California",
+        "city": "San Bernadino",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "San Bernadino Sheriff: Central Station",
+            "code": "+1",
+            "number": "909 387 3545",
+            "ext": ""
+          },
+          {
+            "who": "San Bernadino Sheriff HQ",
+            "code": "+1",
+            "number": "909 387 3545",
+            "ext": ""
+          },
+          {
+            "who": "Internal Affairs Division",
+            "code": "+1",
+            "number": "909 387 3726",
+            "ext": ""
+          },
+          {
+            "who": "DA Jason Anderson",
+            "code": "+1",
+            "number": "909 382 3800",
+            "ext": ""
+          },
+          {
+            "who": "Supervisor Jesse Armendarez",
+            "code": "+1",
+            "number": "909 387 4833",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-07T19:56:46Z",
+      "updatedAt": "2026-05-07T19:56:46Z"
     }
   ]
 }
