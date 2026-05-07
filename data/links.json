@@ -4069,6 +4069,78 @@
       "postToUpdates": true,
       "createdAt": "2026-05-07T19:56:46Z",
       "updatedAt": "2026-05-07T19:56:46Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "aman-jumper",
+      "slug": "arrest-aman-jumper-20260507",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest \"Aman Jumper\"",
+      "mailtoSubject": "Animal Cruelty by YouTube Channel @amanjumper09",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO GAYA AUTHORITIES TITLED \"ARREST \"AMAN JUMPER\"\"❗️\n\nCall:\nVishnupad Police Station: +91 903 182 6238\nBuniyadganj Police Station: +91 903 182 6252\nSenior Superintendent of Police: +91 903 182 6204\nCity Superintendent of Police: +91 903 182 6205\n\nYouTube Account: amanjumper09\nLocation: Gaya, Bihar, India\n\nThis \"YouTuber\" has gained over 300k followers by scaring the hell out of dogs.\n\n#bihar #gaya #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO GAYA AUTHORITIES TITLED \"ARREST \"AMAN JUMPER\"\"❗️\n\nCall:\nVishnupad Police Station: +91 903 182 6238\nBuniyadganj Police Station: +91 903 182 6252\nSenior Superintendent of Police: +91 903 182 6204\nCity Superintendent of Police: +91 903 182 6205\n\nYouTube Account: amanjumper09\nLocation: Gaya, Bihar, India\n\nThis \"YouTuber\" has gained over 300k followers by scaring the hell out of dogs.\n\n#bihar #gaya #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to formally report repeated animal cruelty in videos posted by the YouTube channel “Aman jumper” (@amanjumper09). In these videos, the man performs acrobatic backflips and intentionally lands on or very close to stray dogs, often when the dogs are sleeping or not looking, in order to scare them in and around Gaya and Manpur.\n\nOne specific video shows him landing directly on a dog’s head, causing the terrified dog to run into traffic and narrowly avoid being run over. This repeated scaring creates lasting fear of humans in dogs, making them more likely to bite out of defensive fear.\n\nThese acts appear to violate the Prevention of Cruelty to Animals Act, 1960. I request an immediate investigation and necessary action against the person responsible.\n\nChannel link: https://www.youtube.com/@amanjumper09\n\nThank you for your urgent attention.\n\nVideo evidence: https://drive.google.com/file/d/11245ySQUfhTlIFvjhrtEQ0uA2KLMjigT/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "shovishnupad-bih@gov.in",
+        "shobganj-gaya-bih@nic.in",
+        "sp-gaya-bih@nic.in",
+        "citysp-gaya-bih@nic.in"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report animal cruelty under the Prevention of Cruelty to Animals Act. Videos on YouTube channel @amanjumper09 show a man repeatedly performing backflips and landing on or near dogs, often when they are sleeping or not looking, to scare them in or around Manpur & Gaya, with one incident where he lands on a dog's head causing it to run into traffic and nearly get run over.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/11245ySQUfhTlIFvjhrtEQ0uA2KLMjigT/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-aman-jumper-20260507",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO GAYA AUTHORITIES TITLED \"ARREST \"AMAN JUMPER\"\"❗️\n\nCall:\nVishnupad Police Station: +91 903 182 6238\nBuniyadganj Police Station: +91 903 182 6252\nSenior Superintendent of Police: +91 903 182 6204\nCity Superintendent of Police: +91 903 182 6205\n\nYouTube Account: amanjumper09\nLocation: Gaya, Bihar, India\n\nThis \"YouTuber\" has gained over 300k followers by scaring the hell out of dogs.\n\n#bihar #gaya #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Gaya Authorities",
+        "state": "Bihar",
+        "city": "Gaya",
+        "country": "India",
+        "dial": "+91",
+        "phones": [
+          {
+            "who": "Vishnupad Police Station",
+            "code": "+91",
+            "number": "903 182 6238",
+            "ext": ""
+          },
+          {
+            "who": "Buniyadganj Police Station",
+            "code": "+91",
+            "number": "903 182 6252",
+            "ext": ""
+          },
+          {
+            "who": "Senior Superintendent of Police",
+            "code": "+91",
+            "number": "903 182 6204",
+            "ext": ""
+          },
+          {
+            "who": "City Superintendent of Police",
+            "code": "+91",
+            "number": "903 182 6205",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-07T21:26:42Z",
+      "updatedAt": "2026-05-07T21:26:42Z"
     }
   ]
 }
