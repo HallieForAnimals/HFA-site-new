@@ -4141,6 +4141,82 @@
       "postToUpdates": true,
       "createdAt": "2026-05-07T21:26:42Z",
       "updatedAt": "2026-05-07T21:26:42Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "deltona-ac-officer",
+      "slug": "fire-deltona-animal-control-officer-20260508",
+      "status": "recent",
+      "role": "original",
+      "title": "Fire Deltona Animal Control Officer",
+      "mailtoSubject": "Animal Control officer conduct, April 21, Merchant Terrace, Deltona",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO DELTONA AUTHORITIES TITLED \"FIRE DELTONA ANIMAL CONTROL OFFICER\"❗️\n\nCall:\nDeltona Animal Control: +1 386 878 8701\nDeltona TNR Coordinator: +1 386 878 8702\nDeltona Code Compliance Manager: +1 386 878 8572\nDeltona City Manager: +1 386 878 8850\n\nAnimal control officers across the US are repeatedly being caught on camera abusing the animals they are paid to protect, ignoring complaints, and failing to carry out the most basic requirements of their roles.\n\n#florida #deltona #cutedogs",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO DELTONA AUTHORITIES TITLED \"FIRE DELTONA ANIMAL CONTROL OFFICER\"❗️\n\nCall:\nDeltona Animal Control: +1 386 878 8701\nDeltona TNR Coordinator: +1 386 878 8702\nDeltona Code Compliance Manager: +1 386 878 8572\nDeltona City Manager: +1 386 878 8850\n\nAnimal control officers across the US are repeatedly being caught on camera abusing the animals they are paid to protect, ignoring complaints, and failing to carry out the most basic requirements of their roles.\n\n#florida #deltona #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nSubject: Formal complaint, Animal Control officer conduct, April 21, Merchant Terrace, Deltona\n\nI am writing to make a formal complaint regarding an incident that took place on April 21st at approximately 10am at a residential address on Merchant Terrace, Deltona.\n\nA uniformed City of Deltona Animal Control officer was filmed catchpoling a cat and dragging it along the ground while the animal was in visible distress. The officer reportedly released the cat without spaying, vaccinating, or ear-tipping it, a direct violation of the City of Deltona's mandatory TNR protocol under Sec. 14-238, which requires all unowned outdoor cats captured by the city to receive spay/neuter surgery, vaccinations, and ear-tipping before release.\n\nIt is believed this cat was one of approximately 40 animals involved in a recent hoarding case at the same address. Given the already severe stress these animals have endured, the officer's conduct made an already traumatic situation significantly worse. Her actions served no legitimate animal welfare purpose and may constitute an offence under Florida Statute §828.12.\n\nI am formally requesting:\n\n1. The immediate removal of this officer from active duty pending investigation\n2. A formal investigation into her conduct\n3. A public statement from the city addressing this incident\n4. A review of Animal Control training, oversight, and TNR protocol compliance\n\nVideo evidence: https://drive.google.com/file/d/1Ay11cIasJnMMCQ6dlxaIAkDg3kAWtLen/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "rcairney@deltonafl.gov",
+        "dron@deltonafl.gov",
+        "trussell@deltonafl.gov",
+        "rhayes@deltonafl.gov",
+        "citymanager@deltonafl.gov",
+        "ddougherty@deltonafl.gov",
+        "msanmiguel@deltonafl.gov",
+        "SAvila@deltonafl.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report a formal complaint regarding a Deltona Animal Control officer filmed on April 21st at a residential address on Merchant Terrace. The officer catchpoled and dragged a cat while the animal was in visible distress, and reportedly released it without spaying, vaccinating, or ear-tipping it, in direct violation of the city's own TNR protocol. I am requesting this officer be removed from active duty pending investigation and that the city issue a public statement. Thank you.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1Ay11cIasJnMMCQ6dlxaIAkDg3kAWtLen/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/fire-deltona-animal-control-officer-20260508",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO DELTONA AUTHORITIES TITLED \"FIRE DELTONA ANIMAL CONTROL OFFICER\"❗️\n\nCall:\nDeltona Animal Control: +1 386 878 8701\nDeltona TNR Coordinator: +1 386 878 8702\nDeltona Code Compliance Manager: +1 386 878 8572\nDeltona City Manager: +1 386 878 8850\n\nAnimal control officers across the US are repeatedly being caught on camera abusing the animals they are paid to protect, ignoring complaints, and failing to carry out the most basic requirements of their roles.\n\n#florida #deltona #cutedogs",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Deltona Authorities",
+        "state": "Florida",
+        "city": "Deltona",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Deltona Animal Control",
+            "code": "+1",
+            "number": "386 878 8701",
+            "ext": ""
+          },
+          {
+            "who": "Deltona TNR Coordinator",
+            "code": "+1",
+            "number": "386 878 8702",
+            "ext": ""
+          },
+          {
+            "who": "Deltona Code Compliance Manager",
+            "code": "+1",
+            "number": "386 878 8572",
+            "ext": ""
+          },
+          {
+            "who": "Deltona City Manager",
+            "code": "+1",
+            "number": "386 878 8850",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-08T21:51:53Z",
+      "updatedAt": "2026-05-08T21:51:53Z"
     }
   ]
 }
