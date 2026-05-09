@@ -4217,6 +4217,57 @@
       "postToUpdates": true,
       "createdAt": "2026-05-08T21:51:53Z",
       "updatedAt": "2026-05-08T21:51:53Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "justice-for-liberty",
+      "slug": "justice-for-liberty-20260509",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice for Liberty",
+      "mailtoSubject": "Documented Neglect Case, Named Owner, No Charges: Staten Island DA Sitting on It for 3 Months",
+      "summary": "",
+      "description": "",
+      "descriptionLong": "",
+      "mailtoBody": "To whom it may concern,\n\nA German Shepherd named Liberty was surrendered in late February 2026 after nearly five years of neglect under her owner, Moe Elmasry, on Staten Island. She arrived at Broken Souls Rescue & Recovery severely emaciated. Nearly three months of intensive veterinary care later, she is only now approaching a healthy weight.\n\nThe surrender was captured on video. In it, Elmasry states he is responsible for Liberty and that she was \"living a good life.\" Veterinary records document what that life actually looked like.\n\nNeighbor complaints had prompted prior police visits. Each time, no action was taken. The outdoor kennel setup was apparently deemed legal despite Liberty's condition.\n\nThe rescue organization, Pitbulls & Addicts (pitbullsandaddicts.org), has documented Liberty's full recovery on social media and has been publicly calling for accountability since late February. The story has tens of thousands of engagements but no press coverage.\n\nThe owner is named and on camera. The veterinary record exists.\n\nThe Richmond County DA's Office, which has a dedicated and tax payer funded Animal Cruelty Prosecution Unit, has not announced charges, an arrest, or an investigation in the nearly three months since the rescue. DA McMahon's created the division precisely for cases like this one. I am respectfully asking that it be used:\n\n1: That a formal investigation into this case be opened under NY Agriculture & Markets Law §353\n2: That the documented veterinary evidence of Liberty's condition at intake be formally reviewed\n3: That the pattern of prior complaints and police visits with no resulting action be examined as part of that investigation\n\nLiberty survived. The person responsible is known, on camera, and on record. What is needed now is accountability.\n\nThank you for your attention to this matter.\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "klawson@siadvance.com",
+        "aknudson@siadvance.com",
+        "tips@nypost.com",
+        "tips@thecity.nyc",
+        "tips@gothamist.com",
+        "michael.mcmahon@rcda.nyc.gov",
+        "info@rcda.nyc.gov",
+        "ny1foryou@ny1.com"
+      ],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-liberty-20260509",
+      "caption": "",
+      "captionBuilder": {
+        "type": "",
+        "subtype": "empty",
+        "targets": "",
+        "state": "",
+        "city": "",
+        "country": "",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": true,
+      "postToUpdates": true,
+      "createdAt": "2026-05-09T00:21:25Z",
+      "updatedAt": "2026-05-09T00:21:25Z"
     }
   ]
 }
