@@ -4241,8 +4241,7 @@
         "tips@thecity.nyc",
         "tips@gothamist.com",
         "michael.mcmahon@rcda.nyc.gov",
-        "info@rcda.nyc.gov",
-        "ny1foryou@ny1.com"
+        "info@rcda.nyc.gov"
       ],
       "phones": [],
       "callScript": "",
@@ -4267,7 +4266,7 @@
       "hidden": true,
       "postToUpdates": true,
       "createdAt": "2026-05-09T00:21:25Z",
-      "updatedAt": "2026-05-09T00:21:25Z"
+      "updatedAt": "2026-05-09T22:58:36Z"
     },
     {
       "ctaType": "email",
