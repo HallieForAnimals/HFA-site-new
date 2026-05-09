@@ -4268,6 +4268,63 @@
       "postToUpdates": true,
       "createdAt": "2026-05-09T00:21:25Z",
       "updatedAt": "2026-05-09T00:21:25Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "joshua-h",
+      "slug": "arrest-joshua-h-20260509",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Joshua H",
+      "mailtoSubject": "Detención inmediata: Caso de maltrato a un gato en Oaxaca 8743/FVCE/OAXACA/2026/Immediate Arrest: Oaxaca Cat Cruelty Case 8743/FVCE/OAXACA/2026",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO OAXACA AUTHORITIES TITLED \"ARREST JOSHUA H\"❗️\n\nCall:\nOaxaca Attorney General: +52 951 501 6900 ext 20602\nMunicipio de Oaxaca de Juárez: +52 951 501 5573\n\nAbuser Name: Joshua H\nLocation: Infonavit 1º de Mayo, Oaxaca de Juárez, Mexico.\n\nAt approximately 2 p.m. on April 14th, a man identified as Joshua H, pulled up in his car, lured Tripita the cat over, gave him strokes, kicked him into a nearby shutter, and drove away.\nTripita suffered cervical fractures and broken ribs, he's recovering and is back home with his family.\nNo arrest has been made so far.\n\n#oaxaca #oaxacadejuarez #cutedogs",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO OAXACA AUTHORITIES TITLED \"ARREST JOSHUA H\"❗️\n\nCall:\nOaxaca Attorney General: +52 951 501 6900 ext 20602\nMunicipio de Oaxaca de Juárez: +52 951 501 5573\n\nAbuser Name: Joshua H\nLocation: Infonavit 1º de Mayo, Oaxaca de Juárez, Mexico.\n\nAt approximately 2 p.m. on April 14th, a man identified as Joshua H, pulled up in his car, lured Tripita the cat over, gave him strokes, kicked him into a nearby shutter, and drove away.\nTripita suffered cervical fractures and broken ribs, he's recovering and is back home with his family.\nNo arrest has been made so far.\n\n#oaxaca #oaxacadejuarez #cutedogs",
+      "mailtoBody": "A quien corresponda:\n\nMe dirijo a ustedes para exigir que se tomen medidas inmediatas en la investigación por maltrato animal n.º 8743/FVCE/OAXACA/2026, relativa al brutal ataque premeditado contra el gato del barrio «Tripita» en el Infonavit 1.º de Mayo, Oaxaca de Juárez, el 14 de abril de 2026. Las pruebas videográficas muestran claramente al sospechoso, Joshua «N», ganándose deliberadamente la confianza del gato antes de propinarle una violenta patada, un acto que demuestra una total falta de empatía y premeditación.\n\nEste individuo supone un claro peligro para la sociedad y debe ser localizado y hecho plenamente responsable ante la ley sin más demora. La opinión pública está atenta y espera que se haga justicia con rapidez.\n\nGracias por su atención urgente.\n\nPrueba en vídeo: https://drive.google.com/file/d/1zv50Tgz5CqNrKFzF4hF2tZxWaCPHI-QP/view?usp=sharing\n\nAtentamente,\n\n\n\nEquipo de @HallieForAnimals\ncontact@hallieforanimals.org\n\n\n\n\nTo whom it may concern,\n\nI am writing to demand immediate action in the animal cruelty investigation 8743/FVCE/OAXACA/2026 involving the brutal premeditated attack on the neighborhood cat “Tripita” in Infonavit 1ro de Mayo, Oaxaca de Juárez on April 14, 2026. Video evidence clearly shows the suspect, Joshua ‘N’, deliberately gaining the trusting cat’s confidence before violently kicking it, an act that demonstrates complete lack of empathy and premeditation.\n\nThis individual is a clear danger to society and must be located and held fully accountable under the law without further delay. The public is watching and expects swift justice.\n\nThank you for your urgent attention.\n\nVideo evidence: https://drive.google.com/file/d/1zv50Tgz5CqNrKFzF4hF2tZxWaCPHI-QP/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "contacto.fiscalia@fge.oaxaca.gob.mx"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report the premeditated animal cruelty case 8743/FVCE/OAXACA/2026 involving Joshua ‘N’ and the cat Tripita in Infonavit 1º de Mayo. He deliberately gained the cat’s trust before attacking it, showing a total lack of empathy that makes him a danger to society, and I demand the Policía Municipal locate and arrest him immediately.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1zv50Tgz5CqNrKFzF4hF2tZxWaCPHI-QP/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-joshua-h-20260509",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO OAXACA AUTHORITIES TITLED \"ARREST JOSHUA H\"❗️\n\nCall:\nOaxaca Attorney General: +52 951 501 6900 ext 20602\nMunicipio de Oaxaca de Juárez: +52 951 501 5573\n\nAbuser Name: Joshua H\nLocation: Infonavit 1º de Mayo, Oaxaca de Juárez, Mexico.\n\nAt approximately 2 p.m. on April 14th, a man identified as Joshua H, pulled up in his car, lured Tripita the cat over, gave him strokes, kicked him into a nearby shutter, and drove away.\nTripita suffered cervical fractures and broken ribs, he's recovering and is back home with his family.\nNo arrest has been made so far.\n\n#oaxaca #oaxacadejuarez #cutedogs",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Oaxaca Authorities",
+        "state": "Oaxaca",
+        "city": "Oaxaca de Juárez",
+        "country": "Mexico",
+        "dial": "+52",
+        "phones": [
+          {
+            "who": "Oaxaca Attorney General",
+            "code": "+52",
+            "number": "951 501 6900",
+            "ext": "20602"
+          },
+          {
+            "who": "Municipio de Oaxaca de Juárez",
+            "code": "+52",
+            "number": "951 501 5573",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-09T21:24:18Z",
+      "updatedAt": "2026-05-09T21:24:18Z"
     }
   ]
 }
