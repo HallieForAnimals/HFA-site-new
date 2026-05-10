@@ -4324,6 +4324,78 @@
       "postToUpdates": true,
       "createdAt": "2026-05-09T21:24:18Z",
       "updatedAt": "2026-05-09T21:24:18Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "hisar-dog-abuser",
+      "slug": "arrest-hisar-dog-abuser-20260511",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Hisar Dog Abuser",
+      "mailtoSubject": "Animal Cruelty in Surya Nagar Gali No. 5, Hisar",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO HISAR AUTHORITIES TITLED \"ARREST HISAR DOG ABUSER\"❗️\n\nCall:\nPP Surya Nagar: +91 881 401 1325\nPS Civil Lines: +91 881 401 1307\nSP Hisar Office: +91 881 401 1300\nMunicipal Corporation Hisar: +91 166 223 7884\n\nLocation: Gali Number 5, Surya Nagar, Hisar, Haryana, India.\n\nPeople can't go around attacking dogs and act surprised when they get bit.\n\n#hisar #india #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO HISAR AUTHORITIES TITLED \"ARREST HISAR DOG ABUSER\"❗️\n\nCall:\nPP Surya Nagar: +91 881 401 1325\nPS Civil Lines: +91 881 401 1307\nSP Hisar Office: +91 881 401 1300\nMunicipal Corporation Hisar: +91 166 223 7884\n\nLocation: Gali Number 5, Surya Nagar, Hisar, Haryana, India.\n\nPeople can't go around attacking dogs and act surprised when they get bit.\n\n#hisar #india #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to lodge a formal complaint regarding a clear case of animal cruelty captured on CCTV today, 10 May 2026 at 6:41 AM, at Surya Nagar, Gali Number 5, Hisar.\n\nA video shows a woman aggressively chasing and beating stray dogs with a long stick. The footage is already widely circulating and has been shared by animal lovers demanding immediate police action. This is a blatant violation of Section 11 of the Prevention of Cruelty to Animals Act, 1960.\n\nI request you to:\n\n1: Immediately register an FIR against the woman.\n2: Take her into custody and initiate legal proceedings.\n3: Ensure the safety of stray dogs in the area.\n\nPlease keep the public updated on the action taken.\n\nVideo evidence: https://drive.google.com/file/d/1xaH1dnvrLdKo5ipg6d-1OerZDnBgfl98/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "sphsr@hry.nic.in",
+        "asphisar.pol@hry.gov.in",
+        "shohisarcl-hry@nic.in",
+        "secymc.hisar@hry.nic.in"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report a case of animal cruelty in Surya Nagar, Gali Number 5, Hisar. On May 10, 2026 at 6:41 AM, CCTV footage clearly shows a woman repeatedly beating stray dogs with a stick, and we request immediate registration of an FIR under the Prevention of Cruelty to Animals Act, 1960, and prompt action against her.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1xaH1dnvrLdKo5ipg6d-1OerZDnBgfl98/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-hisar-dog-abuser-20260511",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO HISAR AUTHORITIES TITLED \"ARREST HISAR DOG ABUSER\"❗️\n\nCall:\nPP Surya Nagar: +91 881 401 1325\nPS Civil Lines: +91 881 401 1307\nSP Hisar Office: +91 881 401 1300\nMunicipal Corporation Hisar: +91 166 223 7884\n\nLocation: Gali Number 5, Surya Nagar, Hisar, Haryana, India.\n\nPeople can't go around attacking dogs and act surprised when they get bit.\n\n#hisar #india #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Hisar Authorities",
+        "state": "Hisar",
+        "city": "Haryana",
+        "country": "India",
+        "dial": "+91",
+        "phones": [
+          {
+            "who": "PP Surya Nagar",
+            "code": "+91",
+            "number": "881 401 1325",
+            "ext": ""
+          },
+          {
+            "who": "PS Civil Lines",
+            "code": "+91",
+            "number": "881 401 1307",
+            "ext": ""
+          },
+          {
+            "who": "SP Hisar Office",
+            "code": "+91",
+            "number": "881 401 1300",
+            "ext": ""
+          },
+          {
+            "who": "Municipal Corporation Hisar",
+            "code": "+91",
+            "number": "166 223 7884",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-10T23:27:22Z",
+      "updatedAt": "2026-05-10T23:27:22Z"
     }
   ]
 }
