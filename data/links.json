@@ -4396,6 +4396,57 @@
       "postToUpdates": true,
       "createdAt": "2026-05-10T23:27:22Z",
       "updatedAt": "2026-05-10T23:27:22Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "accountability-for-compton",
+      "slug": "demand-accountability-from-compton-mayor-20260511",
+      "status": "recent",
+      "role": "original",
+      "title": "Demand Accountability From Compton Mayor",
+      "mailtoSubject": "Public Accountability: Animal Neglect, Blocked Advocates, and the 2026 Election",
+      "summary": "",
+      "description": "",
+      "descriptionLong": "",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned citizen regarding the ongoing stray dog, animal neglect, and cruelty issues in our city.\nAccording to the latest available data, approximately 57% of Compton households own pets, roughly 13,734 pet-owning households and about 9,628 dog-owning ones. This represents a significant portion of our community that expects basic public safety and animal welfare protections.\n\nDespite this, visible problems persist: loose and aggressive dogs, reports of neglect and abuse, and slow response times from county animal control. Animal advocates, including Joey Tuccio of Starts With One Today, have publicly called attention to these issues and documented cases on Compton streets, only to be blocked by your office on social media and have critical comments removed. This does not reflect open, responsive leadership.\n\nCompton residents deserve concrete action, not silence or suppression of advocacy. We respectfully request that your administration:\n\n1: Immediately strengthen coordination and funding partnerships with LA County DACC for faster response, spay/neuter programs, and enforcement in Compton.\n2: Launch a city-backed public education and low-cost spay/neuter campaign targeted at our high pet-owning population.\n3: Direct the Public Safety Commission and Code Enforcement to treat animal neglect as the public safety and quality-of-life issue it is.\n4: Commit to transparency by holding a public town hall or council item on animal welfare before the June 2026 election.\n5: A public statement issued by Mayor Sharif and the Compton City Council, posted on the city’s official website and all official social media channels that fully addresses these issues and commits to the actions listed above.\n\nMany of us will be evaluating records on this issue as we head into the election cycle. A strong response now would demonstrate real leadership for all Compton families, including the thousands with pets.\n\n\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "esharif@comptoncity.org",
+        "smckinleyreed@comptoncity.org",
+        "bespinoza@comptoncity.org",
+        "whopkins@comptoncity.org",
+        "dduhart@comptoncity.org",
+        "aspicer@comptoncity.org",
+        "jbowers@comptoncity.org",
+        "ldarden@comptoncity.org"
+      ],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/demand-accountability-from-compton-mayor-20260511",
+      "caption": "",
+      "captionBuilder": {
+        "type": "",
+        "subtype": "empty",
+        "targets": "",
+        "state": "",
+        "city": "",
+        "country": "",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": true,
+      "postToUpdates": true,
+      "createdAt": "2026-05-11T03:01:40Z",
+      "updatedAt": "2026-05-11T03:01:40Z"
     }
   ]
 }
