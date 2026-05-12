@@ -4447,6 +4447,65 @@
       "postToUpdates": true,
       "createdAt": "2026-05-11T03:01:40Z",
       "updatedAt": "2026-05-11T03:01:40Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "rover-dog-walker-warren",
+      "slug": "arrest-rover-dog-walker-in-warren-mi-20260512",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Rover Dog Walker in Warren, MI",
+      "mailtoSubject": "Felony Animal Cruelty Charges Needed - Warren Rover Sitter Abuse of Dog Frankie",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO WARREN AUTHOURITIES TITLED \"ARREST ROVER DOG WALKER IN WARREN, MI\"❗️\n\nCall:\nWarren Police Department: +1 586 574 4700\nMacomb County Prosecutor’s Office: +1 586 469 5350\n\nYet another Rover.com service provider caught abusing animals.\nOver the past 7 years, there have been at least 8 documented cases of animals being abused or killed by \"professionals\" on Rover.com, and those are just the ones we know about.\n\n#michigan #warren #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO WARREN AUTHOURITIES TITLED \"ARREST ROVER DOG WALKER IN WARREN, MI\"❗️\n\nCall:\nWarren Police Department: +1 586 574 4700\nMacomb County Prosecutor’s Office: +1 586 469 5350\n\nYet another Rover.com service provider caught abusing animals.\nOver the past 7 years, there have been at least 8 documented cases of animals being abused or killed by \"professionals\" on Rover.com, and those are just the ones we know about.\n\n#michigan #warren #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to urge a swift and thorough investigation, and felony animal cruelty charges against the Rover.com pet sitter who was caught on camera punching and kicking a 6-year-old pit bull named Frankie in Warren. The disturbing video evidence clearly shows the abuse and has sparked widespread community outrage.\n\nThe video also shows the sitter verbally abusing children, yelling “Get me a fucking leash” to one child who then brings her the leash, dropping to her knees while making distressed sounds, and later telling another child “Go the fuck away” after she approaches clearly out of compassion.\n\n\nGiven the well-documented link between animal abuse and child abuse, studies show that animal abuse is present in 88% of homes where child physical abuse occurs, and conversely, approximately 80% of homes with documented animal abuse have histories of child welfare investigations. This incident raises serious concerns that child abuse or endangerment may also be present in the sitter’s home. I urge authorities to investigate potential risks to any children as well.\n\nThe community is deeply concerned and watching closely. Frankie is now safe with his owner, but this documented abuse must result in maximum charges and the sitter’s permanent removal from Rover.com to protect other pets (and potentially children).\n\nPlease provide public updates on investigation progress and outcomes.\n\nVideo evidence: https://drive.google.com/file/d/1WO1mI3y5gVb3LDlxaGI9QKkx0nWFLzWu/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "Lisa.Lozen@macombgov.org",
+        "animalcontrol@cityofwarren.org",
+        "prosecutorlucido@macombgov.org"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report animal cruelty in the Warren Rover pet sitter case involving a dog named Frankie. Video evidence clearly shows the sitter punching and kicking the dog, and I urge Warren PD and the Macomb County Prosecutor to file felony charges immediately.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1WO1mI3y5gVb3LDlxaGI9QKkx0nWFLzWu/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-rover-dog-walker-in-warren-mi-20260512",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO WARREN AUTHOURITIES TITLED \"ARREST ROVER DOG WALKER IN WARREN, MI\"❗️\n\nCall:\nWarren Police Department: +1 586 574 4700\nMacomb County Prosecutor’s Office: +1 586 469 5350\n\nYet another Rover.com service provider caught abusing animals.\nOver the past 7 years, there have been at least 8 documented cases of animals being abused or killed by \"professionals\" on Rover.com, and those are just the ones we know about.\n\n#michigan #warren #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Warren Authourities",
+        "state": "Michigan",
+        "city": "Warren",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Warren Police Department",
+            "code": "+1",
+            "number": "586 574 4700",
+            "ext": ""
+          },
+          {
+            "who": "Macomb County Prosecutor’s Office",
+            "code": "+1",
+            "number": "586 469 5350",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-12T00:50:57Z",
+      "updatedAt": "2026-05-12T00:50:57Z"
     }
   ]
 }
