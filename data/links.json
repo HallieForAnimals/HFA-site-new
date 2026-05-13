@@ -4634,6 +4634,48 @@
       "postToUpdates": true,
       "createdAt": "2026-05-13T03:40:29Z",
       "updatedAt": "2026-05-13T03:40:29Z"
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "2026-05-13",
+      "updateStatus": "",
+      "caseId": "maddie-eastman",
+      "slug": "maddie-eastman-charged-again-20260513",
+      "status": "updated",
+      "role": "update",
+      "title": "Maddie Eastman Charged Again",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "UPDATE❗\n\nOne day after the charges were dropped against Maddie Eastman the Essex County DA announced that charges have been issued again. Eastman is expected to be arraigned on May 29th.\n\nDirect from @essexcountyda\n\n\"Today, the Lawrence District Court re-issued a criminal complaint charging Madison Eastman of Methuen (doing business as Lunar Canine) with two counts of animal cruelty in connection with the beating of two German Shepherds, Lilo and Gus. The dogs' owner had placed them in Eastman's care for purposes of obedience training. Yesterday’s dismissal of the complaint was without prejudice, allowing for the reissuance of charges. The defendant is expected to be re-arraigned on May 29, 2026.\"\n\n#massachusetts #methuen #animallover",
+      "descriptionLong": "UPDATE❗\n\nOne day after the charges were dropped against Maddie Eastman the Essex County DA announced that charges have been issued again. Eastman is expected to be arraigned on May 29th.\n\nDirect from @essexcountyda\n\n\"Today, the Lawrence District Court re-issued a criminal complaint charging Madison Eastman of Methuen (doing business as Lunar Canine) with two counts of animal cruelty in connection with the beating of two German Shepherds, Lilo and Gus. The dogs' owner had placed them in Eastman's care for purposes of obedience training. Yesterday’s dismissal of the complaint was without prejudice, allowing for the reissuance of charges. The defendant is expected to be re-arraigned on May 29, 2026.\"\n\n#massachusetts #methuen #animallover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/maddie-eastman-charged-again-20260513",
+      "caption": "UPDATE❗\n\nOne day after the charges were dropped against Maddie Eastman the Essex County DA announced that charges have been issued again. Eastman is expected to be arraigned on May 29th.\n\nDirect from @essexcountyda\n\n\"Today, the Lawrence District Court re-issued a criminal complaint charging Madison Eastman of Methuen (doing business as Lunar Canine) with two counts of animal cruelty in connection with the beating of two German Shepherds, Lilo and Gus. The dogs' owner had placed them in Eastman's care for purposes of obedience training. Yesterday’s dismissal of the complaint was without prejudice, allowing for the reissuance of charges. The defendant is expected to be re-arraigned on May 29, 2026.\"\n\n#massachusetts #methuen #animallover",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "empty",
+        "targets": "",
+        "state": "Massachusetts",
+        "city": "Methuen",
+        "country": "United States",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-13T22:30:33Z",
+      "updatedAt": "2026-05-13T22:30:33Z"
     }
   ]
 }
