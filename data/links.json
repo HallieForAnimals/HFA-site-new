@@ -4569,6 +4569,71 @@
       "postToUpdates": true,
       "createdAt": "2026-05-12T21:54:33Z",
       "updatedAt": "2026-05-12T21:54:33Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "maddie-eastman",
+      "slug": "accountability-for-maddie-eastman-20260513",
+      "status": "recent",
+      "role": "original",
+      "title": "Accountability For Maddie Eastman",
+      "mailtoSubject": "Request for Review: Dismissal of Animal Cruelty Charges Against Maddison Eastman - Public Safety Concerns",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO MASSACHUSETTS TITLED \"ACCOUNTABILITY FOR MADDIE EASTMAN\"❗️\n\nCall:\nAttorney General’s Office main line: +1 617 727 2200\nCriminal Bureau Duty Line: +1 617 963 2223\nEssex County DA’s Office: +1 978 745 6610\n\nAbuser Name: Maddison Eastman.\n\nOn May 12, 2026, Judge Karoline Fraser dismissed two charges of animal abuse against Maddison Eastman, a dog \"trainer\" in Methuen, MA.\nProsecutors from the Essex County DA’s Office told the court they were not ready to proceed to trial.\nApparently this video isn't damming enough, they needed the guy who recorded it to testify, but in doing so, he'd be self-incriminating himself.\nSo rather than the prosecution negotiating a deal, they gave up.\n\n#massachusetts #doglover #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO MASSACHUSETTS TITLED \"ACCOUNTABILITY FOR MADDIE EASTMAN\"❗️\n\nCall:\nAttorney General’s Office main line: +1 617 727 2200\nCriminal Bureau Duty Line: +1 617 963 2223\nEssex County DA’s Office: +1 978 745 6610\n\nAbuser Name: Maddison Eastman.\n\nOn May 12, 2026, Judge Karoline Fraser dismissed two charges of animal abuse against Maddison Eastman, a dog \"trainer\" in Methuen, MA.\nProsecutors from the Essex County DA’s Office told the court they were not ready to proceed to trial.\nApparently this video isn't damming enough, they needed the guy who recorded it to testify, but in doing so, he'd be self-incriminating himself.\nSo rather than the prosecution negotiating a deal, they gave up.\n\n#massachusetts #doglover #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned citizen regarding the recent dismissal of animal cruelty charges against Maddison Eastman, a dog trainer from Methuen who operates a kennel and training facility. On May 12, 2026, a Lawrence District Court judge dismissed the two counts of animal cruelty against her because prosecutors were not ready to proceed. This case involved a widely circulated video showing her striking two German Shepherds (Lilo and Gus) with a PVC pipe.\n\nDropping these charges is a profound slap in the face to justice and to everyone who cares about animal welfare and community safety. It sends a dangerous message that clear evidence of animal abuse can be set aside without consequence.\n\nThe well-documented link between animal abuse and violent crime makes this dismissal particularly alarming. Multiple studies, including research from the Massachusetts SPCA and Northeastern University, show that individuals who commit animal cruelty are five times more likely to commit violent crimes against humans. FBI and other law enforcement analyses consistently identify animal abuse as a predictor or co-occurring factor with domestic violence, child abuse, and other interpersonal violence. In one review, a significant percentage of animal cruelty offenders also had histories of battery or other violent offenses.\n\nAllowing this case to be dismissed without vigorous prosecution potentially endangers the community, especially animals in her care and any people who interact with her professionally or personally. Former clients have reportedly come forward with additional concerns, raising broader red flags about patterns of behavior.\n\nThe key failure appears to be reliance on Eastman’s ex-boyfriend, Christian Duran (who recorded the video and faces his own animal cruelty charge), to authenticate the recording. Prosecutors could have easily used a digital forensics team to authenticate the video through metadata analysis, hash verification for tampering, and expert testimony, methods that are fully accepted under Massachusetts evidence rules (Guide to Evidence §§ 901 and 1119) and routinely used for cell phone videos. Instead of securing Duran’s testimony via immunity or a plea deal, or pivoting to forensics, they let the case collapse. This was a preventable prosecutorial shortfall.\n\nI respectfully urge your office, through the Criminal Bureau, to review this case for possible refiling or further investigation. Prosecutorial discretion should not come at the expense of public safety or accountability for blatant violations caught on video.\n\nThank you for your attention to this important matter.\n\nVideo evidence: https://drive.google.com/file/d/1iqQczQ7mUfrjeke-MkS1Q-YTiqxpY-El/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "paul.tucker@mass.gov",
+        "sharyn.lubas@mass.gov",
+        "Andrea.j.campbell@mass.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to request a review by the Criminal Bureau of the recent dismissal of animal cruelty charges against Maddison Eastman in Lawrence District Court on May 12th. Dropping these charges despite clear video evidence is a slap in the face to justice, ignores the proven link between animal abuse and future violent crime against people, and endangers the community.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1iqQczQ7mUfrjeke-MkS1Q-YTiqxpY-El/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/accountability-for-maddie-eastman-20260513",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO MASSACHUSETTS TITLED \"ACCOUNTABILITY FOR MADDIE EASTMAN\"❗️\n\nCall:\nAttorney General’s Office main line: +1 617 727 2200\nCriminal Bureau Duty Line: +1 617 963 2223\nEssex County DA’s Office: +1 978 745 6610\n\nAbuser Name: Maddison Eastman.\n\nOn May 12, 2026, Judge Karoline Fraser dismissed two charges of animal abuse against Maddison Eastman, a dog \"trainer\" in Methuen, MA.\nProsecutors from the Essex County DA’s Office told the court they were not ready to proceed to trial.\nApparently this video isn't damming enough, they needed the guy who recorded it to testify, but in doing so, he'd be self-incriminating himself.\nSo rather than the prosecution negotiating a deal, they gave up.\n\n#massachusetts #doglover #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Massachusetts",
+        "state": "Massachusetts",
+        "city": "",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Attorney General’s Office main line",
+            "code": "+1",
+            "number": "617 727 2200",
+            "ext": ""
+          },
+          {
+            "who": "Criminal Bureau Duty Line",
+            "code": "+1",
+            "number": "617 963 2223",
+            "ext": ""
+          },
+          {
+            "who": "Essex County DA’s Office",
+            "code": "+1",
+            "number": "978 745 6610",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-13T03:40:29Z",
+      "updatedAt": "2026-05-13T03:40:29Z"
     }
   ]
 }
