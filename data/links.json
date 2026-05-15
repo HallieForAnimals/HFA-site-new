@@ -4760,6 +4760,64 @@
       "postToUpdates": true,
       "createdAt": "2026-05-15T00:09:16Z",
       "updatedAt": "2026-05-15T13:51:28Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "hadis-mia",
+      "slug": "arrest-hadis-mia-20260516",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Hadis Mia",
+      "mailtoSubject": "Formal Report of Hadis Mia for Repeated Street Dog Abuse in Mymensingh",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO MYMENSINGH AUTHORITIES TITLED \"ARREST HADIS MIA\"❗️\n\nCall:\nMymensingh Kotwali Model Police Station: +880 171 337 3430\nBangladesh Animal Welfare Association: +880 171 792 9359\n\nAbuser Name: Hadis Mia.\n\nThere are multiple video's on Mia's public facebook profile showing him abusing street dogs.\nAll of them use captions like \"Best entertainment\" and 'comedic' hashtags.\n\n#bangladesh #mymensingh #cutedogs",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO MYMENSINGH AUTHORITIES TITLED \"ARREST HADIS MIA\"❗️\n\nCall:\nMymensingh Kotwali Model Police Station: +880 171 337 3430\nBangladesh Animal Welfare Association: +880 171 792 9359\n\nAbuser Name: Hadis Mia.\n\nThere are multiple video's on Mia's public facebook profile showing him abusing street dogs.\nAll of them use captions like \"Best entertainment\" and 'comedic' hashtags.\n\n#bangladesh #mymensingh #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nI am formally reporting Hadis Mia of Mymensingh for repeated animal cruelty. He has posted multiple videos on his public Facebook profile showing him abusing street dogs.\n\nThis constitutes a blatant violation of Bangladesh’s Animal Welfare Act 2019, which strictly prohibits all forms of cruelty to animals, including street dogs.\n\nI demand that the relevant authorities immediately open an investigation into Hadis Mia using his public Facebook profile, locate him in Mymensingh, and arrest him without delay to halt the ongoing abuse.\n\nThank you for taking swift action.\n\nHadis Mia Facebook Profile: https://www.facebook.com/profile.php?id=61583802806392\nVideo evidence: https://drive.google.com/file/d/1w4IjtFfRyrA8Wz33-3TmnG26B8LdlTO3/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "spmymensingh@police.gov.bd",
+        "info@dls.gov.bd"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report animal cruelty by Hadis Mia of Mymensingh, who has posted multiple videos on his Facebook page showing him abusing street dogs. I demand an immediate investigation and arrest under Bangladesh's Animal Welfare Act 2019 to prevent further harm.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1w4IjtFfRyrA8Wz33-3TmnG26B8LdlTO3/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-hadis-mia-20260516",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO MYMENSINGH AUTHORITIES TITLED \"ARREST HADIS MIA\"❗️\n\nCall:\nMymensingh Kotwali Model Police Station: +880 171 337 3430\nBangladesh Animal Welfare Association: +880 171 792 9359\n\nAbuser Name: Hadis Mia.\n\nThere are multiple video's on Mia's public facebook profile showing him abusing street dogs.\nAll of them use captions like \"Best entertainment\" and 'comedic' hashtags.\n\n#bangladesh #mymensingh #cutedogs",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Mymensingh Authorities",
+        "state": "Mymensingh District",
+        "city": "Mymensingh",
+        "country": "Bangladesh",
+        "dial": "+880",
+        "phones": [
+          {
+            "who": "Mymensingh Kotwali Model Police Station",
+            "code": "+880",
+            "number": "171 337 3430",
+            "ext": ""
+          },
+          {
+            "who": "Bangladesh Animal Welfare Association",
+            "code": "+880",
+            "number": "171 792 9359",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-15T23:17:13Z",
+      "updatedAt": "2026-05-15T23:17:13Z"
     }
   ]
 }
