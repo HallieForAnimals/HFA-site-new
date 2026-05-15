@@ -4703,8 +4703,7 @@
         "andrew.rosindell.mp@parliament.uk",
         "matt.gantley@ukas.com",
         "info@ukas.com",
-        "pressoffice@league.org.uk",
-        "press@rspca.org.uk"
+        "pressoffice@league.org.uk"
       ],
       "phones": [],
       "callScript": "I'm calling to report a welfare incident involving a greyhound named Roaming Tinder at Romford Stadium on 11th May 2026. The incident was captured on a live Premier Greyhound Racing broadcast, the replay has since been deliberately suppressed, and no welfare report appears to have been filed. I require confirmation that this is being investigated and that an urgent welfare check on the dog has been initiated.",
@@ -4760,7 +4759,7 @@
       "hidden": false,
       "postToUpdates": true,
       "createdAt": "2026-05-15T00:09:16Z",
-      "updatedAt": "2026-05-15T00:09:16Z"
+      "updatedAt": "2026-05-15T13:51:28Z"
     }
   ]
 }
