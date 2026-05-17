@@ -4883,6 +4883,66 @@
       "postToUpdates": true,
       "createdAt": "2026-05-16T02:00:51Z",
       "updatedAt": "2026-05-17T00:14:40Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "yogesh-pawar",
+      "slug": "arrest-yogesh-pawar-20260517",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Yogesh Pawar",
+      "mailtoSubject": "Request for Immediate FIR - Intentional Animal Cruelty at Bajaj Corner, Nigdi.",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO NIGDI AUTHORITIES TITLED \"ARREST YOGESH PAWAR\"❗️\n\nCall:\nNigdi Police Station: +91 202 765 5088\nPimpri-Chinchwad Police Commissionerate Control Room: +91 202 735 2500\n\nAbuser Name: Yogesh Pawar.\nAbuser Phone Number: +91 94220 06661.\n\nThis poor dog was well known by the community. Feeders had been looking after him for eight years.\nPawar took issue with the dogs being cared for, so intentionally ran him over.\nHe suffered before he died.\n\n#maharashtra #pune #dogsofinstagram",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO NIGDI AUTHORITIES TITLED \"ARREST YOGESH PAWAR\"❗️\n\nCall:\nNigdi Police Station: +91 202 765 5088\nPimpri-Chinchwad Police Commissionerate Control Room: +91 202 735 2500\n\nAbuser Name: Yogesh Pawar.\nAbuser Phone Number: +91 94220 06661.\n\nThis poor dog was well known by the community. Feeders had been looking after him for eight years.\nPawar took issue with the dogs being cared for, so intentionally ran him over.\nHe suffered before he died.\n\n#maharashtra #pune #dogsofinstagram",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned citizen regarding a serious case of animal cruelty that occurred on or around 16 May 2026 at Bajaj Corner, Nigdi, Pradhikaran, PCMC, Pune.\n\nA community/stray dog that had been regularly fed and cared for by a local feeder for approximately 8 years was deliberately run over by a vehicle. The accused, Yogesh Pawar (mobile: +91 94220 06661), had an ongoing objection to the feeding and intentionally drove over the dog, causing severe injuries which the dog eventually succumbed to, but not before suffering for a prolonged period of time. The matter was brought to the notice of the local mahanagar palika, but police action has not been taken so far.\n\nThe incident has been publicly documented by animal welfare group Saahas for Pune (Instagram @saahasforpune) and shared widely, causing outrage among citizens.\n\nThis act clearly violates:\n\n1: Sections 3 and 11 of the Prevention of Cruelty to Animals Act, 1960.\n2: Relevant provisions under the Bharatiya Nyaya Sanhita.\n\nRequest:\n\n1: Immediately register an FIR against Yogesh Pawar at Nigdi/Pradhikaran Police Station.\n2: Conduct a prompt investigation, including witness statements and any available CCTV/evidence from Bajaj Corner, Nigdi.\n3: Take appropriate legal action, including arrest where warranted.\n4: Provide a case number and updates via public statement.\n\nVideo evidence: https://drive.google.com/file/d/1ScR67kAF69HicJgvy6_qKe7aSiFUqvXZ/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "cp.pcpc-mh@gov.in",
+        "azone@pcmcindia.gov.in",
+        "commissioner@pcmcindia.gov.in",
+        "support@awbi.gov.in"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report a case of intentional animal cruelty at Bajaj Corner, Nigdi, Pradhikaran. Yogesh Pawar (+91 94220 06661) deliberately ran over a community dog that was being fed for about 8 years, violating the Prevention of Cruelty to Animals Act, please register an FIR immediately and investigate.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1ScR67kAF69HicJgvy6_qKe7aSiFUqvXZ/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-yogesh-pawar-20260517",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO NIGDI AUTHORITIES TITLED \"ARREST YOGESH PAWAR\"❗️\n\nCall:\nNigdi Police Station: +91 202 765 5088\nPimpri-Chinchwad Police Commissionerate Control Room: +91 202 735 2500\n\nAbuser Name: Yogesh Pawar.\nAbuser Phone Number: +91 94220 06661.\n\nThis poor dog was well known by the community. Feeders had been looking after him for eight years.\nPawar took issue with the dogs being cared for, so intentionally ran him over.\nHe suffered before he died.\n\n#maharashtra #pune #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Nigdi Authorities",
+        "state": "Maharashtra",
+        "city": "Pune",
+        "country": "India",
+        "dial": "+91",
+        "phones": [
+          {
+            "who": "Nigdi Police Station",
+            "code": "+91",
+            "number": "202 765 5088",
+            "ext": ""
+          },
+          {
+            "who": "Pimpri-Chinchwad Police Commissionerate Control Room",
+            "code": "+91",
+            "number": "202 735 2500",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-17T02:22:39Z",
+      "updatedAt": "2026-05-17T02:22:39Z"
     }
   ]
 }
