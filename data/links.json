@@ -4968,8 +4968,7 @@
         "fgreen@cityofchesterpa.gov",
         "tgibson@cityofchesterpa.gov",
         "pwest@cityofchesterpa.gov",
-        "nwilson@pspca.org",
-        "alamb@bvspca.org"
+        "nwilson@pspca.org"
       ],
       "phones": [],
       "callScript": "I’m calling to report clear animal cruelty at 525 Rose Street in Chester, Pennsylvania. A woman, suspected to be Lauren Carter, who lives there has been seen pouring bleach on food that is being left out for stray cats.",
@@ -5019,7 +5018,7 @@
       "hidden": false,
       "postToUpdates": true,
       "createdAt": "2026-05-18T00:28:23Z",
-      "updatedAt": "2026-05-18T00:28:23Z"
+      "updatedAt": "2026-05-18T01:35:40Z"
     }
   ]
 }
