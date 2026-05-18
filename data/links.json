@@ -4943,6 +4943,83 @@
       "postToUpdates": true,
       "createdAt": "2026-05-17T02:22:39Z",
       "updatedAt": "2026-05-17T02:22:39Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "525-rose-st-pa",
+      "slug": "arrest-pennsylvania-cat-poisoner-20260518",
+      "status": "recent",
+      "role": "original",
+      "title": "Arrest Pennsylvania Cat Poisoner",
+      "mailtoSubject": "Animal Cruelty Complaint: Bleach Poured on Stray Cat Food at 525 Rose St, Chester PA",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO CHESTER, PA AUTHORITIES TITLED \"ARREST PENNSYLVANIA CAT POISONER\"❗️\n\nCall:\nPSPCA Humane Law Enforcement: +1 866 601 7722\nPA Animal Protective Services: +1 484 302 0018\nChester City Police Department: +1 610 447 7931\nProvidence Animal Center Humane Investigations: +1 610 566 4575 ext 214\n\nAbuser Name: Lauren Carter.\nAbuser Address: 525 Rose Street, Chester, PA.\n\nPouring bleach on food meant for any animal is a violation of Pennsylvania Penal Code §5533(2nd degree misdemeanor) and/or §5534 (3rd degree felony), it also makes you a piece of s**t.\n\n#pennsylvania #chester #dogsofinstagram",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO CHESTER, PA AUTHORITIES TITLED \"ARREST PENNSYLVANIA CAT POISONER\"❗️\n\nCall:\nPSPCA Humane Law Enforcement: +1 866 601 7722\nPA Animal Protective Services: +1 484 302 0018\nChester City Police Department: +1 610 447 7931\nProvidence Animal Center Humane Investigations: +1 610 566 4575 ext 214\n\nAbuser Name: Lauren Carter.\nAbuser Address: 525 Rose Street, Chester, PA.\n\nPouring bleach on food meant for any animal is a violation of Pennsylvania Penal Code §5533(2nd degree misdemeanor) and/or §5534 (3rd degree felony), it also makes you a piece of s**t.\n\n#pennsylvania #chester #dogsofinstagram",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to report suspected animal cruelty at 525 Rose Street, Chester, PA 19013. A resident allegedly named Lauren Carter has been observed walking outside her property and pouring bleach directly onto food that is regularly left out for stray cats in the neighborhood. This is a clear and deliberate act intended to poison or harm the animals.\n\nBy deliberately exposing the stray cats to bleach, a toxic, corrosive substance, on their food source, the individual has placed the animals at imminent risk of serious bodily injury (including chemical burns, poisoning, or death), making this a misdemeanor of the second degree under §5533(b)(2). Should any cats suffer serious injury or death as a result, this may further constitute aggravated cruelty under 18 Pa.C.S. §5534, a felony of the third degree.\n\nI respectfully request that your agency open an immediate investigation and take all appropriate enforcement action under these statutes. I also ask that the public be kept updated via a public statement once action is taken. Thank you for your prompt attention to this matter.\n\nVideo evidence: https://drive.google.com/file/d/1aDTZbVk8Zi__vZEKxaRnB_mipOlzgzP_/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "sroots@cityofchesterpa.gov",
+        "tmoore@cityofchesterpa.gov",
+        "jtibbels@cityofchesterpa.gov",
+        "kmotley@cityofchesterpa.gov",
+        "fgreen@cityofchesterpa.gov",
+        "tgibson@cityofchesterpa.gov",
+        "pwest@cityofchesterpa.gov",
+        "nwilson@pspca.org",
+        "alamb@bvspca.org"
+      ],
+      "phones": [],
+      "callScript": "I’m calling to report clear animal cruelty at 525 Rose Street in Chester, Pennsylvania. A woman, suspected to be Lauren Carter, who lives there has been seen pouring bleach on food that is being left out for stray cats.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1aDTZbVk8Zi__vZEKxaRnB_mipOlzgzP_/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/arrest-pennsylvania-cat-poisoner-20260518",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO CHESTER, PA AUTHORITIES TITLED \"ARREST PENNSYLVANIA CAT POISONER\"❗️\n\nCall:\nPSPCA Humane Law Enforcement: +1 866 601 7722\nPA Animal Protective Services: +1 484 302 0018\nChester City Police Department: +1 610 447 7931\nProvidence Animal Center Humane Investigations: +1 610 566 4575 ext 214\n\nAbuser Name: Lauren Carter.\nAbuser Address: 525 Rose Street, Chester, PA.\n\nPouring bleach on food meant for any animal is a violation of Pennsylvania Penal Code §5533(2nd degree misdemeanor) and/or §5534 (3rd degree felony), it also makes you a piece of s**t.\n\n#pennsylvania #chester #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Chester, PA Authorities",
+        "state": "Pennsylvania",
+        "city": "Chester",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "PSPCA Humane Law Enforcement",
+            "code": "+1",
+            "number": "866 601 7722",
+            "ext": ""
+          },
+          {
+            "who": "PA Animal Protective Services",
+            "code": "+1",
+            "number": "484 302 0018",
+            "ext": ""
+          },
+          {
+            "who": "Chester City Police Department",
+            "code": "+1",
+            "number": "610 447 7931",
+            "ext": ""
+          },
+          {
+            "who": "Providence Animal Center Humane Investigations",
+            "code": "+1",
+            "number": "610 566 4575",
+            "ext": "214"
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-18T00:28:23Z",
+      "updatedAt": "2026-05-18T00:28:23Z"
     }
   ]
 }
