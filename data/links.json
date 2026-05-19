@@ -5078,6 +5078,48 @@
       "postToUpdates": true,
       "createdAt": "2026-05-19T00:24:30Z",
       "updatedAt": "2026-05-19T00:24:30Z"
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "2026-05-19",
+      "updateStatus": "ongoing",
+      "caseId": "525-rose-st-pa",
+      "slug": "pennsylvania-cat-poisoner-update-20260519",
+      "status": "updated",
+      "role": "update",
+      "title": "Pennsylvania Cat Poisoner Update",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "UPDATE❗\n\nThe Pennsylvania SPCA Animal Law Enforcement obtained a warrant and searched Lauren Carter's home.\nThey've collected evidence, and there are rumours of an arrest.\n\n#pennsylvania #chester #animallover",
+      "descriptionLong": "UPDATE❗\n\nThe Pennsylvania SPCA Animal Law Enforcement obtained a warrant and searched Lauren Carter's home.\nThey've collected evidence, and there are rumours of an arrest.\n\n#pennsylvania #chester #animallover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1EWxGc7NNDv_7K3em1jHLGqkRHtPGITZF/preview",
+      "evidenceUrl": "https://x.com/PSPCA/status/2056384782158737495",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/pennsylvania-cat-poisoner-update-20260519",
+      "caption": "UPDATE❗\n\nThe Pennsylvania SPCA Animal Law Enforcement obtained a warrant and searched Lauren Carter's home.\nThey've collected evidence, and there are rumours of an arrest.\n\n#pennsylvania #chester #animallover",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "empty",
+        "targets": "",
+        "state": "Pennsylvania",
+        "city": "Chester",
+        "country": "United States",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-19T00:33:50Z",
+      "updatedAt": "2026-05-19T00:33:50Z"
     }
   ]
 }
