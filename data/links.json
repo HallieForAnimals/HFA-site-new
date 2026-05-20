@@ -5185,6 +5185,48 @@
       "postToUpdates": true,
       "createdAt": "2026-05-20T01:53:02Z",
       "updatedAt": "2026-05-20T01:53:02Z"
+    },
+    {
+      "ctaType": "non-email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "jack-taunton-scott",
+      "slug": "jack-taunton-scott-20260520",
+      "status": "recent",
+      "role": "original",
+      "title": "Jack Taunton-Scott",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "PIECE OF S**T ALERT❗\n\nPiece of s**t's name: Jack Taunton-Scott \n@thatbrokeboi_\n\nJack Taunton-Scott directly funding the theft, torture, and mutilation of dogs in Vietnam.\nYou gagging on camera isn't the \"content\" we want to see. Next time you're choking, go live.\n\n#texas #vietnam #doglover",
+      "descriptionLong": "PIECE OF S**T ALERT❗\n\nPiece of s**t's name: Jack Taunton-Scott \n@thatbrokeboi_\n\nJack Taunton-Scott directly funding the theft, torture, and mutilation of dogs in Vietnam.\nYou gagging on camera isn't the \"content\" we want to see. Next time you're choking, go live.\n\n#texas #vietnam #doglover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1Gvd5JUBtH5TrdcyKMj3Q4RaPWsVkgWaq/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/jack-taunton-scott-20260520",
+      "caption": "PIECE OF S**T ALERT❗\n\nPiece of s**t's name: Jack Taunton-Scott \n@thatbrokeboi_\n\nJack Taunton-Scott directly funding the theft, torture, and mutilation of dogs in Vietnam.\nYou gagging on camera isn't the \"content\" we want to see. Next time you're choking, go live.\n\n#texas #vietnam #doglover",
+      "captionBuilder": {
+        "type": "psa",
+        "subtype": "empty",
+        "targets": "",
+        "state": "",
+        "city": "",
+        "country": "",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-20T02:09:33Z",
+      "updatedAt": "2026-05-20T02:09:33Z"
     }
   ]
 }
