@@ -3599,7 +3599,6 @@
         "hotro@quochoi.vn",
         "vanphong@vietnamembassy.org.uk",
         "vanphong@vietnamembassy.us",
-        "trangtin@mard.gov.vn",
         "vanphongcuc@dah.gov.vn"
       ],
       "phones": [],
@@ -3625,7 +3624,7 @@
       "hidden": false,
       "postToUpdates": true,
       "createdAt": "2026-05-01T22:37:48Z",
-      "updatedAt": "2026-05-01T22:37:48Z"
+      "updatedAt": "2026-05-20T03:31:30Z"
     },
     {
       "ctaType": "email",
