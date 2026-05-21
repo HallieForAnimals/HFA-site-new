@@ -5447,6 +5447,48 @@
       "postToUpdates": true,
       "createdAt": "2026-05-21T23:36:14Z",
       "updatedAt": "2026-05-21T23:36:14Z"
+    },
+    {
+      "ctaType": "non-email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "andres-pino-deported",
+      "slug": "andrs-pino-deported-20260522",
+      "status": "recent",
+      "role": "original",
+      "title": "Andrés Pino Deported",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "UPDATE ANDRÉS PINO DEPORTED❗\n\nAndrés Pino, who beat his girlfriend and her cat, Nala, before tossing Nala out of a window, going out into the street and kicking her to death, was arrested, charged with animal cruelty with sadism/cruelty, and gender-based/vicarious violence, and deported to his home country Colombia.\n\n#spain #alicante #doglover",
+      "descriptionLong": "UPDATE ANDRÉS PINO DEPORTED❗\n\nAndrés Pino, who beat his girlfriend and her cat, Nala, before tossing Nala out of a window, going out into the street and kicking her to death, was arrested, charged with animal cruelty with sadism/cruelty, and gender-based/vicarious violence, and deported to his home country Colombia.\n\n#spain #alicante #doglover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/andrs-pino-deported-20260522",
+      "caption": "UPDATE ANDRÉS PINO DEPORTED❗\n\nAndrés Pino, who beat his girlfriend and her cat, Nala, before tossing Nala out of a window, going out into the street and kicking her to death, was arrested, charged with animal cruelty with sadism/cruelty, and gender-based/vicarious violence, and deported to his home country Colombia.\n\n#spain #alicante #doglover",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "empty",
+        "targets": "",
+        "state": "Torrevieja",
+        "city": "Alicante",
+        "country": "Spain",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": true,
+      "postToUpdates": true,
+      "createdAt": "2026-05-21T23:44:04Z",
+      "updatedAt": "2026-05-21T23:44:04Z"
     }
   ]
 }
