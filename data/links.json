@@ -5287,6 +5287,48 @@
       "postToUpdates": true,
       "createdAt": "2026-05-21T02:07:59Z",
       "updatedAt": "2026-05-21T02:07:59Z"
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "2026-05-21",
+      "updateStatus": "ongoing",
+      "caseId": "rover-dog-walker-warren",
+      "slug": "charges-filed-for-samantha-koss-20260521",
+      "status": "updated",
+      "role": "update",
+      "title": "Charges Filed For Samantha Koss",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "UPDATE SAMANTHA KOSS CHARGED❗\n\nSamantha Koss, the Rover.com dog sitter who beat 6-year-old Pitbull, Frankie, for escaping the house has been charged with two counts of misdemeanor animal abuse.\nKoss' pretrial conference is to be held on June 23rd.\n\n\"We will aggressively prosecute acts of cruelty and continue working to protect those who cannot protect themselves.” ~ Macomb County Prosecutor Peter J. Lucido\n\n#michigan #warren #animallover",
+      "descriptionLong": "UPDATE SAMANTHA KOSS CHARGED❗\n\nSamantha Koss, the Rover.com dog sitter who beat 6-year-old Pitbull, Frankie, for escaping the house has been charged with two counts of misdemeanor animal abuse.\nKoss' pretrial conference is to be held on June 23rd.\n\n\"We will aggressively prosecute acts of cruelty and continue working to protect those who cannot protect themselves.” ~ Macomb County Prosecutor Peter J. Lucido\n\n#michigan #warren #animallover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/charges-filed-for-samantha-koss-20260521",
+      "caption": "UPDATE SAMANTHA KOSS CHARGED❗\n\nSamantha Koss, the Rover.com dog sitter who beat 6-year-old Pitbull, Frankie, for escaping the house has been charged with two counts of misdemeanor animal abuse.\nKoss' pretrial conference is to be held on June 23rd.\n\n\"We will aggressively prosecute acts of cruelty and continue working to protect those who cannot protect themselves.” ~ Macomb County Prosecutor Peter J. Lucido\n\n#michigan #warren #animallover",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "empty",
+        "targets": "",
+        "state": "Michigan",
+        "city": "Warren",
+        "country": "United States",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-21T02:38:14Z",
+      "updatedAt": "2026-05-21T02:38:14Z"
     }
   ]
 }
