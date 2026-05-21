@@ -5225,6 +5225,68 @@
       "postToUpdates": true,
       "createdAt": "2026-05-20T02:09:33Z",
       "updatedAt": "2026-05-20T02:09:33Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "335-east-4th-st",
+      "slug": "abuse-at-335-east-4th-st-la-20260521",
+      "status": "recent",
+      "role": "original",
+      "title": "Abuse at 335 East 4th St, LA",
+      "mailtoSubject": "Arrest and Investigation Required: Animal Cruelty at 335 E 4th St, Los Angeles",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO LOS ANGELES AUTHORITIES TITLED \"ABUSE AT 335 EAST 4TH ST, LA\"❗️\n\nCall:\nLAPD: +1 213 972 1298\nLA Animal Services Cruelty Hotline: +1 888 452 7381\n\nLocation: 335 E 4th St, Los Angeles, CA.\n\nA homeless man was caught repeatedly abusing his dogs on Skid Row at 335 E 4th Street by choking them, beating them, and withholding food and water.\nThe person who recorded this video was nearly been assaulted while trying to intervene.\n\n#california #la #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO LOS ANGELES AUTHORITIES TITLED \"ABUSE AT 335 EAST 4TH ST, LA\"❗️\n\nCall:\nLAPD: +1 213 972 1298\nLA Animal Services Cruelty Hotline: +1 888 452 7381\n\nLocation: 335 E 4th St, Los Angeles, CA.\n\nA homeless man was caught repeatedly abusing his dogs on Skid Row at 335 E 4th Street by choking them, beating them, and withholding food and water.\nThe person who recorded this video was nearly been assaulted while trying to intervene.\n\n#california #la #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to demand the immediate investigation and arrest of the individual committing ongoing, deliberate animal cruelty at 335 E 4th Street, Los Angeles, CA 90013.\n\nA video, together with the accompanying witness testimony, documents severe animal abuse. The witness describes a drug-addicted man abusing his dogs by choking them, beating them, and deliberately withholding food and water. The person who recorded the video explicitly states they are “scared to death” and have “nearly been assaulted” while trying to document the abuse.\n\nCalifornia law classifies this behavior as a serious felony. The animals are suffering immensely, and the witness is in fear for their safety. The continued failure to act on these repeated and well-documented cases of dog abuse in Skid Row is morally incomprehensible. Animals are being tortured in plain sight while authorities appear unwilling to intervene.\n\nI respectfully demand that:\n\n1: LA Animal Services and LAPD Central Division immediately investigate this exact address and seize the dogs for their safety.\n2: The perpetrator be located, arrested, and prosecuted to the fullest extent of the law.\n3: The public be kept up to date with public statements.\n\nThank you for treating this as the emergency it is.\n\nVideo evidence: https://drive.google.com/file/d/17gXsR0jp06f2F5v2mkqYl61jzpKk2W3b/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "Ysabel.Jurado@lacity.org",
+        "firstdistrict@bos.lacounty.gov",
+        "35361@lapd.online",
+        "35924@lapd.online",
+        "annette.ramirez@lacity.org",
+        "karen.bass@lacity.org"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report severe ongoing animal cruelty at 335 East 4th Street in Los Angeles. The witness describes a drug-addicted man abusing his dogs by choking them, beating them, and deliberately withholding food and water, and the person who recorded the video explicitly states they are scared to death and have nearly been assaulted while trying to document this sustained abuse.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/17gXsR0jp06f2F5v2mkqYl61jzpKk2W3b/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/abuse-at-335-east-4th-st-la-20260521",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO LOS ANGELES AUTHORITIES TITLED \"ABUSE AT 335 EAST 4TH ST, LA\"❗️\n\nCall:\nLAPD: +1 213 972 1298\nLA Animal Services Cruelty Hotline: +1 888 452 7381\n\nLocation: 335 E 4th St, Los Angeles, CA.\n\nA homeless man was caught repeatedly abusing his dogs on Skid Row at 335 E 4th Street by choking them, beating them, and withholding food and water.\nThe person who recorded this video was nearly been assaulted while trying to intervene.\n\n#california #la #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Los Angeles Authorities",
+        "state": "California",
+        "city": "Los Angeles",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "LAPD",
+            "code": "+1",
+            "number": "213 972 1298",
+            "ext": ""
+          },
+          {
+            "who": "LA Animal Services Cruelty Hotline",
+            "code": "+1",
+            "number": "888 452 7381",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-21T02:07:59Z",
+      "updatedAt": "2026-05-21T02:07:59Z"
     }
   ]
 }
