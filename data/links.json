@@ -5489,6 +5489,79 @@
       "postToUpdates": true,
       "createdAt": "2026-05-21T23:44:04Z",
       "updatedAt": "2026-05-21T23:44:04Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "2211-e-rosecrans-ave",
+      "slug": "abandoned-dogs-at-2211-e-rosecrans-avenue-20260522",
+      "status": "recent",
+      "role": "original",
+      "title": "Abandoned Dogs at 2211 E Rosecrans Avenue",
+      "mailtoSubject": "Two Emaciated Dogs Abandoned and Starving at 2211 E Rosecrans Ave, Compton",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO COMPTON AUTHORITIES TITLED \"ABANDONED DOGS AT 2211 E ROSECRANS AVENUE\"❗️\n\nCall:\nLA County Animal Care & Control: +1 562 940 6898\nCompton City Hall: +1 310 605 5500\nCompton Sheriff's Station: +1 310 605 6500\nMayor Emma Sharif’s Office: +1 310 605 5662\n\nLocation: 2211 E Rosecrans Avenue, Compton, CA.\n\nDogs are one of the only creatures on Earth who will love you unconditionally.\nWhoever abandoned these dogs, doesn't deserve to share the Earth with them.\n\n#california #compton #doglover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO COMPTON AUTHORITIES TITLED \"ABANDONED DOGS AT 2211 E ROSECRANS AVENUE\"❗️\n\nCall:\nLA County Animal Care & Control: +1 562 940 6898\nCompton City Hall: +1 310 605 5500\nCompton Sheriff's Station: +1 310 605 6500\nMayor Emma Sharif’s Office: +1 310 605 5662\n\nLocation: 2211 E Rosecrans Avenue, Compton, CA.\n\nDogs are one of the only creatures on Earth who will love you unconditionally.\nWhoever abandoned these dogs, doesn't deserve to share the Earth with them.\n\n#california #compton #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to report a clear case of ongoing animal neglect and cruelty at 2211 E Rosecrans Avenue, Compton, CA 90221 (an abandoned property).\n\nTwo dogs have been left behind a locked gate with no shelter. They are visibly emaciated, and are entirely dependent on members of the public who are feeding and watering them through the bars. This situation has been ongoing and violates California animal cruelty laws.\n\n\nCompton has faced repeated issues with animal abandonment and neglect. Residents expect city leadership and contracted animal control services to respond swiftly.\n\nI urge the following immediate actions:\n\n1: LA County Animal Care & Control conduct an emergency welfare check and remove the dogs for veterinary care today.\n2: City code enforcement address the abandoned property to prevent further incidents.\n3: The City of Compton strengthen animal welfare enforcement and response times for cruelty reports.\n4: Enforce legal action against the most recent residents of Apt D, yet the dogs remain abandoned in this condition.\n\nThe Compton community is watching closely and expects prompt intervention to save these dogs.\nThank you for your immediate attention to this urgent matter.\n\nVideo evidence: https://drive.google.com/file/d/1rAoXq52CCLRIGNKzgU3wD3EigxvuG_YF/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "esharif@comptoncity.org",
+        "aspicer@comptoncity.org",
+        "jbowers@comptoncity.org",
+        "ldarden@comptoncity.org",
+        "contactca@comptoncity.org"
+      ],
+      "phones": [],
+      "callScript": "I’m calling to report two emaciated dogs abandoned behind a locked gate at 2211 E Rosecrans Avenue, Compton, CA 90221. Legal action has already been taken against the most recent residents of Apt D, yet the dogs remain skin and bone with no shelter and are only surviving because people are feeding and watering them through the bars.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1rAoXq52CCLRIGNKzgU3wD3EigxvuG_YF/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/abandoned-dogs-at-2211-e-rosecrans-avenue-20260522",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO COMPTON AUTHORITIES TITLED \"ABANDONED DOGS AT 2211 E ROSECRANS AVENUE\"❗️\n\nCall:\nLA County Animal Care & Control: +1 562 940 6898\nCompton City Hall: +1 310 605 5500\nCompton Sheriff's Station: +1 310 605 6500\nMayor Emma Sharif’s Office: +1 310 605 5662\n\nLocation: 2211 E Rosecrans Avenue, Compton, CA.\n\nDogs are one of the only creatures on Earth who will love you unconditionally.\nWhoever abandoned these dogs, doesn't deserve to share the Earth with them.\n\n#california #compton #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Compton Authorities",
+        "state": "California",
+        "city": "Compton",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "LA County Animal Care & Control",
+            "code": "+1",
+            "number": "562 940 6898",
+            "ext": ""
+          },
+          {
+            "who": "Compton City Hall",
+            "code": "+1",
+            "number": "310 605 5500",
+            "ext": ""
+          },
+          {
+            "who": "Compton Sheriff's Station",
+            "code": "+1",
+            "number": "310 605 6500",
+            "ext": ""
+          },
+          {
+            "who": "Mayor Emma Sharif’s Office",
+            "code": "+1",
+            "number": "310 605 5662",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-22T20:05:59Z",
+      "updatedAt": "2026-05-22T20:05:59Z"
     }
   ]
 }
