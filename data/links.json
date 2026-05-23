@@ -5562,6 +5562,66 @@
       "postToUpdates": true,
       "createdAt": "2026-05-22T20:05:59Z",
       "updatedAt": "2026-05-22T20:05:59Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "lincolnton-cat",
+      "slug": "justice-for-cat-shot-in-lincolnton-20260523",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice for Cat Shot in Lincolnton",
+      "mailtoSubject": "Demand for Immediate Criminal Charges - Lincolnton Cat Shooting",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO TOOMBS DA & LINCOLNTON AUTHORITES TITLED \"JUSTICE FOR CAT SHOT IN LINCOLNTON\"❗️\n\nCall:\nToombs Judicial Circuit District Attorney’s Office: +1 706 595 7175\nLincolnton City Hall: +1 706 359 3239\n\nLocation: Lincolnton, Georgia, USA.\nThis was an 8-year-old owned indoor pet cat in Lincolnton. The mayor’s wife, Lizzy Long, shot the cat with a shotgun while it was hiding terrified behind a garage. Mayor Mike McCombs actively encouraged and urged her to do it on police bodycam.\nThe cat suffered for over three minutes before before it finally died.\n\n#georgia #lincolnton #cutecats",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO TOOMBS DA & LINCOLNTON AUTHORITES TITLED \"JUSTICE FOR CAT SHOT IN LINCOLNTON\"❗️\n\nCall:\nToombs Judicial Circuit District Attorney’s Office: +1 706 595 7175\nLincolnton City Hall: +1 706 359 3239\n\nLocation: Lincolnton, Georgia, USA.\nThis was an 8-year-old owned indoor pet cat in Lincolnton. The mayor’s wife, Lizzy Long, shot the cat with a shotgun while it was hiding terrified behind a garage. Mayor Mike McCombs actively encouraged and urged her to do it on police bodycam.\nThe cat suffered for over three minutes before before it finally died.\n\n#georgia #lincolnton #cutecats",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned citizen to formally demand immediate criminal prosecution in the April 17, 2026 animal cruelty case in Lincolnton, Georgia.\nAccording to the official police report and bodycam footage:\n\nLizzy Long shot an owned pet cat with a shotgun while the cat was hiding behind a garage and posed no imminent threat.\nThe cat suffered for at least three minutes after the shot before dying.\nMayor Mike McCombs actively encouraged and urged his wife to carry out the shooting.\nThe cat’s owner participated after asking the responding officer whether he was breaking any laws.\n\nOfficer bodycam captured the entire sequence, including the non-humane method that caused unnecessary suffering. This clearly violates Georgia animal cruelty statutes (O.C.G.A. § 16-12-4). The Georgia Department of Agriculture previously issued (then recalled) a warrant for aggravated animal cruelty against Lizzy Long, confirming the seriousness of the case.\nI respectfully demand that your offices take the following actions without further delay:\n\n1: File criminal charges against Lizzy Long for aggravated animal cruelty.\n2: File charges against Mayor Mike McCombs for aiding and abetting the cruelty.\n3: File charges against the cat’s owner for his role in the incident.\n4: The Lincolnton City Council must immediately remove Mayor McCombs from office, as an elected official who encouraged animal cruelty has no place in leadership.\n\nThe public is watching how this case is handled — especially given the direct involvement of the mayor. The bodycam footage and police report are already public through local news (WRDW) and Alley Cat Allies.\n\nThank you for upholding the law and ensuring justice for this animal.\n\nVideo evidence: https://drive.google.com/file/d/1lvPTNKCQAoYhEFqBHfMX-SoyWB3tC4Od/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "maustin@cityoflincolnton.com",
+        "bdoupe@pacga.org",
+        "rharbeson@pacga.org",
+        "gdalawenforcement@agr.georgia.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report the animal cruelty incident in Lincolnton, Georgia on April 17, 2026 where Lizzy Long shot a cat with a shotgun causing it to suffer visibly for at least 20 seconds on bodycam footage while Mayor Mike McCombs encouraged the shooting.\nI demand that criminal charges be filed immediately against Lizzy Long for aggravated animal cruelty, Mayor Mike McCombs for aiding and abetting, and the cat’s owner.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1lvPTNKCQAoYhEFqBHfMX-SoyWB3tC4Od/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-cat-shot-in-lincolnton-20260523",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO TOOMBS DA & LINCOLNTON AUTHORITES TITLED \"JUSTICE FOR CAT SHOT IN LINCOLNTON\"❗️\n\nCall:\nToombs Judicial Circuit District Attorney’s Office: +1 706 595 7175\nLincolnton City Hall: +1 706 359 3239\n\nLocation: Lincolnton, Georgia, USA.\nThis was an 8-year-old owned indoor pet cat in Lincolnton. The mayor’s wife, Lizzy Long, shot the cat with a shotgun while it was hiding terrified behind a garage. Mayor Mike McCombs actively encouraged and urged her to do it on police bodycam.\nThe cat suffered for over three minutes before before it finally died.\n\n#georgia #lincolnton #cutecats",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Toombs DA & Lincolnton Authorites",
+        "state": "Georgia",
+        "city": "Lincolnton",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Toombs Judicial Circuit District Attorney’s Office",
+            "code": "+1",
+            "number": "706 595 7175",
+            "ext": ""
+          },
+          {
+            "who": "Lincolnton City Hall",
+            "code": "+1",
+            "number": "706 359 3239",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-05-23T03:15:27Z",
+      "updatedAt": "2026-05-23T03:15:27Z"
     }
   ]
 }
