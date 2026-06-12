@@ -5622,6 +5622,74 @@
       "postToUpdates": true,
       "createdAt": "2026-05-23T03:15:27Z",
       "updatedAt": "2026-05-23T03:15:27Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "noida-street-dogs",
+      "slug": "justice-for-noida-dogs-20260613",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice For Noida Dogs",
+      "mailtoSubject": "Formal Complaint & Demand for Immediate Action",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO GREATER NOIDA AUTHORITIES TITLED \"JUSTICE FOR NOIDA DOGS\"❗️\n\nCall:\nGNIDA: +91 120 233 6030\nDistrict Magistrate: +91 987 014 5599\nSenior Superintendent of Police: +91 859 590 2506\n\nLocation: Greater Noida, Uttar Pradesh, India\n\nGreater Noida government workers mishandling a stray dog.\nClear animal cruelty. A criminal offence under Sections 3 & 11 of the Prevention of Cruelty to Animals Act, 1960, and a direct violation of the Animal Birth Control (Dogs) Rules, 2001.\n\n#uttarpradesh #india #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO GREATER NOIDA AUTHORITIES TITLED \"JUSTICE FOR NOIDA DOGS\"❗️\n\nCall:\nGNIDA: +91 120 233 6030\nDistrict Magistrate: +91 987 014 5599\nSenior Superintendent of Police: +91 859 590 2506\n\nLocation: Greater Noida, Uttar Pradesh, India\n\nGreater Noida government workers mishandling a stray dog.\nClear animal cruelty. A criminal offence under Sections 3 & 11 of the Prevention of Cruelty to Animals Act, 1960, and a direct violation of the Animal Birth Control (Dogs) Rules, 2001.\n\n#uttarpradesh #india #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am reporting a clear case of animal cruelty by a dog-catching team of four men operating in Greater Noida using vehicle registration number UP16QT1662.\n\nVideo evidence (attached) shows these individuals abusing stray dogs during capture operations. The footage demonstrates inhumane treatment that violates the Prevention of Cruelty to Animals Act, 1960 (particularly Section 11), ABC Rules, and relevant IPC sections (including 428/429).\n\nGNIDA and any contracting agencies bear direct responsibility for ensuring humane standards in dog control operations. Such incidents demand immediate accountability.\n\nImmediate actions demanded:\n1. Immediate identification and termination of the four individuals involved and their contracting agency.\n2. Registration of FIR and criminal charges against them for animal cruelty.\n3. Full suspension of all dog-catching operations by this team/vehicle until independent verification confirms full compliance with humane protocols.\n4. Investigation into broader practices of dog-catching contractors in Greater Noida.\n\nThis is not a request. Public funds and oversight require zero tolerance for animal abuse by contracted personnel.\n\nVideo evidence: https://drive.google.com/file/d/16-ifNw3DOCzGDLzx9L72qk8rtyUqBwj-/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "authority@gnida.in",
+        "chairman@gnida.in",
+        "ceo@gnida.in",
+        "dmgbn@nic.in",
+        "dcp-polgnoida.gb@up.gov.in",
+        "sspgbn-up@nic.in"
+      ],
+      "phones": [],
+      "callScript": "I am reporting animal cruelty by four men in vehicle UP16QT1662 abusing stray dogs in Greater Noida — video evidence clearly shows the violations of the Prevention of Cruelty to Animals Act and IPC sections. Demand immediate FIR, termination of the men and their agency, and suspension of their operations.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/16-ifNw3DOCzGDLzx9L72qk8rtyUqBwj-/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-noida-dogs-20260613",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO GREATER NOIDA AUTHORITIES TITLED \"JUSTICE FOR NOIDA DOGS\"❗️\n\nCall:\nGNIDA: +91 120 233 6030\nDistrict Magistrate: +91 987 014 5599\nSenior Superintendent of Police: +91 859 590 2506\n\nLocation: Greater Noida, Uttar Pradesh, India\n\nGreater Noida government workers mishandling a stray dog.\nClear animal cruelty. A criminal offence under Sections 3 & 11 of the Prevention of Cruelty to Animals Act, 1960, and a direct violation of the Animal Birth Control (Dogs) Rules, 2001.\n\n#uttarpradesh #india #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Greater Noida Authorities",
+        "state": "Uttar Pradesh",
+        "city": "Greater Noida",
+        "country": "India",
+        "dial": "+91",
+        "phones": [
+          {
+            "who": "GNIDA",
+            "code": "+91",
+            "number": "120 233 6030",
+            "ext": ""
+          },
+          {
+            "who": "District Magistrate",
+            "code": "+91",
+            "number": "987 014 5599",
+            "ext": ""
+          },
+          {
+            "who": "Senior Superintendent of Police",
+            "code": "+91",
+            "number": "859 590 2506",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-06-12T23:35:06Z",
+      "updatedAt": "2026-06-12T23:35:06Z"
     }
   ]
 }
