@@ -5690,6 +5690,72 @@
       "postToUpdates": true,
       "createdAt": "2026-06-12T23:35:06Z",
       "updatedAt": "2026-06-12T23:35:06Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "abused-dog-killeen,tx",
+      "slug": "abused-dog-in-killeen-texas-20260613",
+      "status": "recent",
+      "role": "original",
+      "title": "Abused Dog in Killeen, Texas",
+      "mailtoSubject": "Animal Welfare Check: Documented Dog Abuse at The Grove, 4101 E Rancier Ave, Killeen TX 76543",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO KILLEEN AUTHORITIES TITLED \"ABUSED DOG IN KILLEEN, TEXAS\"❗️\n\nCall:\nKilleen Animal Services: +1 254 526 4455\nKilleen Police Department: +1 254 501 8830\n\nLocation: 4101 East Rancier Avenue, Killeen, Texas\n\nThe cops have already been made aware, but refused to do anything, despite seeing the video.\n\n#texas #killeen #doglover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO KILLEEN AUTHORITIES TITLED \"ABUSED DOG IN KILLEEN, TEXAS\"❗️\n\nCall:\nKilleen Animal Services: +1 254 526 4455\nKilleen Police Department: +1 254 501 8830\n\nLocation: 4101 East Rancier Avenue, Killeen, Texas\n\nThe cops have already been made aware, but refused to do anything, despite seeing the video.\n\n#texas #killeen #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to demand an immediate animal welfare check at The Grove apartment complex, 4101 E Rancier Ave, Killeen, TX 76543.\n\nA resident at this address has been recorded on doorbell camera footage striking their dog in the parking lot. This footage documents a clear, deliberate act of physical abuse against an animal.\n\nIt is our understanding that the Killeen Police Department has already been made aware of this footage and has declined to act.\n\nStriking a dog constitutes cruelty to a nonlivestock animal under Texas Penal Code §42.092, a criminal offense carrying up to a year in county jail and a $4,000 fine. The animal in question remains at this address and is at ongoing risk.\n\nWe are asking for the following:\n\n1. An immediate welfare check at the above address.\n2. A formal review of the existing doorbell cam footage as evidence.\n3. The department's response via public statement.\n\nChief Lopez has spoken publicly about his commitment to accountability and transparency, and his background in internal affairs. We are taking him at his word. An officer declining to act on documented animal abuse, footage already in hand, is not a grey area. It is a failure of duty under Texas law, and it is the kind of conduct that reflects on this department's leadership.\n\nThe animal cannot speak for itself. We are here because someone has to.\n\nWe will continue to apply public pressure until this case receives the response it legally and morally demands.\n\nVideo evidence: https://drive.google.com/file/d/1rZED_GXCGVv7LTsCRyviQdEubPU5fzms/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "plopezjr@killeentexas.gov",
+        "agearhart@killeentexas.gov",
+        "rsupakjr@killeentexas.gov",
+        "alourence@killeentexas.gov",
+        "rrush@killeentexas.gov",
+        "amcdaniel@killeentexas.gov",
+        "kpdia@killeentexas.gov",
+        "KPDIntel@killeentexas.gov",
+        "omiramontez@killeentexas.gov",
+        "animal@killeentexas.gov"
+      ],
+      "phones": [],
+      "callScript": "Hi, I'm calling to demand an animal welfare check at The Grove apartments, 4101 East Rancier Avenue, a resident there was caught on doorbell camera footage striking their dog, that footage has already been seen by your department, and no action has been taken. I'm asking that an officer be sent for a welfare check today and that a formal record of this complaint be logged",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1rZED_GXCGVv7LTsCRyviQdEubPU5fzms/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/abused-dog-in-killeen-texas-20260613",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO KILLEEN AUTHORITIES TITLED \"ABUSED DOG IN KILLEEN, TEXAS\"❗️\n\nCall:\nKilleen Animal Services: +1 254 526 4455\nKilleen Police Department: +1 254 501 8830\n\nLocation: 4101 East Rancier Avenue, Killeen, Texas\n\nThe cops have already been made aware, but refused to do anything, despite seeing the video.\n\n#texas #killeen #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Killeen Authorities",
+        "state": "Texas",
+        "city": "Killeen",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Killeen Animal Services",
+            "code": "+1",
+            "number": "254 526 4455",
+            "ext": ""
+          },
+          {
+            "who": "Killeen Police Department",
+            "code": "+1",
+            "number": "254 501 8830",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-06-13T02:22:23Z",
+      "updatedAt": "2026-06-13T02:22:23Z"
     }
   ]
 }
