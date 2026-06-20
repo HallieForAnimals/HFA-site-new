@@ -5756,6 +5756,66 @@
       "postToUpdates": true,
       "createdAt": "2026-06-13T02:22:23Z",
       "updatedAt": "2026-06-13T02:22:23Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "justice-for-east-delhi-dog",
+      "slug": "justice-for-east-delhi-dog-20260620",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice for East Delhi Dog",
+      "mailtoSubject": "FIR Registration - Animal Cruelty Incident, East Delhi (Vehicle Reg. HR98J8549)",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO EAST DELHI AUTHORITIES TITLED \"JUSTICE FOR EAST DELHI DOG\"❗️\n\nCall:\nKrishna Nagar Police: +91 112 221 3224\nJagatpuri Police: +91 112 242 0363\n\nLocation: Gali No. 3, Jitar Nagar, India.\nLicense Plate: HR98J8549.\n\nAccidents happen, but hitting a dog, hearing it scream, backing up, and running it down again is clearly a deliberate action by a very dangerous individual.\n\n#delhi #india #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO EAST DELHI AUTHORITIES TITLED \"JUSTICE FOR EAST DELHI DOG\"❗️\n\nCall:\nKrishna Nagar Police: +91 112 221 3224\nJagatpuri Police: +91 112 242 0363\n\nLocation: Gali No. 3, Jitar Nagar, India.\nLicense Plate: HR98J8549.\n\nAccidents happen, but hitting a dog, hearing it scream, backing up, and running it down again is clearly a deliberate action by a very dangerous individual.\n\n#delhi #india #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned citizen regarding a deliberate act of animal cruelty in East Delhi, near the Gurudwara on Gali No. 3, Jitar Nagar.\n\nAccording to widely circulating footage, the driver of vehicle registration number HR98J8549 (reported to be Saifhasan Naqvi) intentionally drove over a stray dog, then reversed and struck the same animal a second time. This was not an accident but a deliberate act of cruelty against a defenseless animal.\nThis conduct is a cognizable offence under the Prevention of Cruelty to Animals Act, 1960 (Section 11) and Section 325 of the Bharatiya Nyaya Sanhita, 2023.\nI request that your department:\n\n1: Register an FIR in connection with this incident;\n2: Trace the registered owner/driver of vehicle HR98J8549;\n3: Take appropriate legal action in accordance with the law;\n4: Publicly share a status update on the action taken.\n\nI trust this matter will be treated with the seriousness it deserves.\n\nVideo evidence: https://drive.google.com/file/d/1tkJ-fAkwkZ9nHWzhcx_wc-x4zBlzrwSq/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "sho-jagatpuri-dl@nic.in",
+        "sho-anandvhr-dl@nic.in",
+        "dcp.east@delhipolice.gov.in",
+        "dcp-east-dl@nic.in"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report an animal cruelty incident in East Delhi where a Thar, registration number HR98J8549, was deliberately driven over a stray dog twice near the Gurudwara on Gali No. 3, Jitar Nagar, I'd like to know if an FIR has been registered and request that the vehicle owner be traced and investigated.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1tkJ-fAkwkZ9nHWzhcx_wc-x4zBlzrwSq/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-east-delhi-dog-20260620",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO EAST DELHI AUTHORITIES TITLED \"JUSTICE FOR EAST DELHI DOG\"❗️\n\nCall:\nKrishna Nagar Police: +91 112 221 3224\nJagatpuri Police: +91 112 242 0363\n\nLocation: Gali No. 3, Jitar Nagar, India.\nLicense Plate: HR98J8549.\n\nAccidents happen, but hitting a dog, hearing it scream, backing up, and running it down again is clearly a deliberate action by a very dangerous individual.\n\n#delhi #india #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "East Delhi Authorities",
+        "state": "Delhi",
+        "city": "Delhi",
+        "country": "India",
+        "dial": "+91",
+        "phones": [
+          {
+            "who": "Krishna Nagar Police",
+            "code": "+91",
+            "number": "112 221 3224",
+            "ext": ""
+          },
+          {
+            "who": "Jagatpuri Police",
+            "code": "+91",
+            "number": "112 242 0363",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-06-20T21:43:10Z",
+      "updatedAt": "2026-06-20T21:43:10Z"
     }
   ]
 }
