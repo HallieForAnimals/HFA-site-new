@@ -5816,6 +5816,72 @@
       "postToUpdates": true,
       "createdAt": "2026-06-20T21:43:10Z",
       "updatedAt": "2026-06-20T21:43:10Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "9505-sheldon-road-ca",
+      "slug": "neglected-dog-at-9505-sheldon-rd-elk-grove-ca-20260620",
+      "status": "recent",
+      "role": "original",
+      "title": "Neglected Dog at 9505 Sheldon Rd, Elk Grove, CA",
+      "mailtoSubject": "Animal Confined in Extreme Heat, Active Hazard at Construction Site, 9505 Sheldon Road",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY BIO TO ELK GROVE AUTHORITIES TITLED \"NEGLECTED DOG AT 9505 SHELDON RD, ELK GROVE, CA\"❗️\n\nCall:\nElk Grove PD: +1 916 714 5115 ext 4\nElk Grove Animal Services: +1 916 687 3042\nElk Grove Code Enforcement: +1 916 687 3023\n\nLocation: 9505 Sheldon Road, Elk Grove, CA\n\nIt was 103-105°F last week, and this poor baby was shut out in a crate that he has no choice but to use as a bathroom. He's so hungry he has no choice but to eat his own poop.\nAnimal Control have already been to the property, but so far have neglected to do anything, despite his conditions being like this for months.\n\n#california #elkgrove #cutedogs",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY BIO TO ELK GROVE AUTHORITIES TITLED \"NEGLECTED DOG AT 9505 SHELDON RD, ELK GROVE, CA\"❗️\n\nCall:\nElk Grove PD: +1 916 714 5115 ext 4\nElk Grove Animal Services: +1 916 687 3042\nElk Grove Code Enforcement: +1 916 687 3023\n\nLocation: 9505 Sheldon Road, Elk Grove, CA\n\nIt was 103-105°F last week, and this poor baby was shut out in a crate that he has no choice but to use as a bathroom. He's so hungry he has no choice but to eat his own poop.\nAnimal Control have already been to the property, but so far have neglected to do anything, despite his conditions being like this for months.\n\n#california #elkgrove #cutedogs",
+      "mailtoBody": "To whom it may concern,\n\nI'm writing to report an active animal welfare hazard at a construction site located at 9505 Sheldon Road, Elk Grove, CA 95624. A dog has been confined to a crate at this site for an extended period. While someone appears to be providing food and water, the dog is being kept in these conditions during extreme heat, which poses an immediate risk to its health and life.\n\nI understand that an animal services or law enforcement visit has already occurred, but the dog remains on-site under these conditions. Given the urgency of heat exposure, I'm asking that this be treated as an immediate hazard requiring prompt inspection and removal for a vet check-up.\n\nI'm requesting:\n\n1: Immediate inspection of the site;\n2: Coordination with Elk Grove Animal Services regarding the dog's condition and removal if warranted;\n3: Enforcement action against the property/site owner if violations of the Municipal Code are confirmed;\n4: A status update on the action taken.\n\nThank you for your prompt attention to this matter.\n\nVideo evidence: https://drive.google.com/file/d/1-UXFq_TPU4N_eW_uhvEjQMdIQNw1UM8z/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "bschopf@elkgrove.gov",
+        "rdavis@elkgrove.gov",
+        "animalservices@elkgrove.gov",
+        "codeenforcement@elkgrovecity.org"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report an active animal welfare hazard, a dog confined to a crate at a construction site at 9505 Sheldon Road in Elk Grove, kept outside in extreme heat for an extended period. I'd like this treated as an immediate hazard rather than a standard complaint, and I'm requesting an urgent inspection and coordination with Animal Services.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1-UXFq_TPU4N_eW_uhvEjQMdIQNw1UM8z/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/neglected-dog-at-9505-sheldon-rd-elk-grove-ca-20260620",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY BIO TO ELK GROVE AUTHORITIES TITLED \"NEGLECTED DOG AT 9505 SHELDON RD, ELK GROVE, CA\"❗️\n\nCall:\nElk Grove PD: +1 916 714 5115 ext 4\nElk Grove Animal Services: +1 916 687 3042\nElk Grove Code Enforcement: +1 916 687 3023\n\nLocation: 9505 Sheldon Road, Elk Grove, CA\n\nIt was 103-105°F last week, and this poor baby was shut out in a crate that he has no choice but to use as a bathroom. He's so hungry he has no choice but to eat his own poop.\nAnimal Control have already been to the property, but so far have neglected to do anything, despite his conditions being like this for months.\n\n#california #elkgrove #cutedogs",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Elk Grove Authorities",
+        "state": "California",
+        "city": "Elk Grove",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Elk Grove PD",
+            "code": "+1",
+            "number": "916 714 5115",
+            "ext": "4"
+          },
+          {
+            "who": "Elk Grove Animal Services",
+            "code": "+1",
+            "number": "916 687 3042",
+            "ext": ""
+          },
+          {
+            "who": "Elk Grove Code Enforcement",
+            "code": "+1",
+            "number": "916 687 3023",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-06-20T23:48:28Z",
+      "updatedAt": "2026-06-20T23:48:28Z"
     }
   ]
 }
