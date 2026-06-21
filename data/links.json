@@ -5882,6 +5882,65 @@
       "postToUpdates": true,
       "createdAt": "2026-06-20T23:48:28Z",
       "updatedAt": "2026-06-20T23:48:28Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "investigate-charming-puppy-cuts",
+      "slug": "investigate-charming-puppy-cuts-20260621",
+      "status": "recent",
+      "role": "original",
+      "title": "Investigate Charming Puppy Cuts",
+      "mailtoSubject": "Request for Investigation into Suspected Animal Cruelty at Charming Puppy Cuts",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY STORIES TO HAMILTON AUTHORITIES TITLED \"INVESTIGATE CHARMING PUPPY CUTS\"❗️\n\nCall:\nMercer County Prosecutor's Office: +1 609 989 6351\nHamilton Township Police Department: +1 609 581 4000\n\nThe woman allegedly abusing the dog is reported to be Charmin Rodriguez, the owners of Charming Puppy Cuts.\nThe dog was no doubt \"screaming\", and making a mess on her precious little table out of fear.\n\n#newjersey #hamilton #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY STORIES TO HAMILTON AUTHORITIES TITLED \"INVESTIGATE CHARMING PUPPY CUTS\"❗️\n\nCall:\nMercer County Prosecutor's Office: +1 609 989 6351\nHamilton Township Police Department: +1 609 581 4000\n\nThe woman allegedly abusing the dog is reported to be Charmin Rodriguez, the owners of Charming Puppy Cuts.\nThe dog was no doubt \"screaming\", and making a mess on her precious little table out of fear.\n\n#newjersey #hamilton #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to formally request a prompt investigation into an incident of alleged animal cruelty at Charming Puppy Cuts, a dog grooming salon located at 2103 Whitehorse Mercerville Rd #6, Hamilton Township, NJ 08619, operated by Charmin (or Charmin Rodriguez).\n\nA publicly available (and linked below) video depicts the owner handling a dog in a manner that includes rough physical treatment and verbal aggression, with the dog showing clear signs of fear and distress on the grooming table. This occurred in a commercial setting where pets are entrusted for care.\n\nAnimal cruelty is not an isolated issue. Extensive research demonstrates a well-documented link between animal abuse and violent crimes against humans: individuals who abuse animals are significantly more likely to commit interpersonal violence, including assault, domestic abuse, and other serious offenses. Studies, such as one by the Massachusetts SPCA and Northeastern University, indicate animal abusers are five times more likely to harm humans. This correlation underscores the public safety imperative for thorough investigation.\n\nI urge your office to review the video evidence, interview witnesses/staff/clients, inspect the premises, and take appropriate enforcement action under New Jersey animal cruelty statutes. Please confirm receipt and provide a case number or update on next steps.\n\nThank you for prioritizing animal welfare and community safety.\n\nVideo evidence: https://drive.google.com/file/d/1PpF90AaXsPnDuHVkVAjGk2fXrt3Z_D5U/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "humaneunit@mercercounty.org",
+        "kdeboskey@hamiltonpdnj.gov",
+        "cpo@hamiltonpdnj.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report suspected animal cruelty at Charming Puppy Cuts in Hamilton Township based on recent video evidence showing rough handling of a distressed dog by the owner. I request an official investigation under New Jersey animal cruelty laws due to the clear public safety concerns and the established link between animal abuse and human violence.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1PpF90AaXsPnDuHVkVAjGk2fXrt3Z_D5U/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/investigate-charming-puppy-cuts-20260621",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY STORIES TO HAMILTON AUTHORITIES TITLED \"INVESTIGATE CHARMING PUPPY CUTS\"❗️\n\nCall:\nMercer County Prosecutor's Office: +1 609 989 6351\nHamilton Township Police Department: +1 609 581 4000\n\nThe woman allegedly abusing the dog is reported to be Charmin Rodriguez, the owners of Charming Puppy Cuts.\nThe dog was no doubt \"screaming\", and making a mess on her precious little table out of fear.\n\n#newjersey #hamilton #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Hamilton Authorities",
+        "state": "New Jersey",
+        "city": "Hamilton",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Mercer County Prosecutor's Office",
+            "code": "+1",
+            "number": "609 989 6351",
+            "ext": ""
+          },
+          {
+            "who": "Hamilton Township Police Department",
+            "code": "+1",
+            "number": "609 581 4000",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-06-21T23:36:02Z",
+      "updatedAt": "2026-06-21T23:36:02Z"
     }
   ]
 }
