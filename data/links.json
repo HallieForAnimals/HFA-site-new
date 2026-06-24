@@ -5941,6 +5941,57 @@
       "postToUpdates": true,
       "createdAt": "2026-06-21T23:36:02Z",
       "updatedAt": "2026-06-21T23:36:02Z"
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": true,
+      "updateSummary": "commonwealth-lauren-ashley-carter",
+      "updateDate": "2026-06-24",
+      "updateStatus": "ongoing",
+      "caseId": "525-rose-st-pa",
+      "slug": "commonwealth-v-lauren-ashley-carter-20260625",
+      "status": "updated",
+      "role": "update",
+      "title": "Commonwealth v. Lauren Ashley Carter",
+      "mailtoSubject": "Commonwealth v. Lauren Ashley Carter",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DELAWARE COUNTY DA TITLED \"COMMONWEALTH V. LAUREN ASHLEY CARTER\"❗️\n\nCall:\nDelaware County DA's Office: +1 610 891 4161\n\nFollowing the PSPCA investigation, it was confirmed that it was bleach that Lauren Ashley Carter was pouring onto the cat food left out for community cats.\nShe even admitted outright to the cops that she'd done it on two occasions.\nShe's due to be arraigned on June 29th at Magisterial District Court 32-1-20 at 11am.\n\n#pennsylvania #chester #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DELAWARE COUNTY DA TITLED \"COMMONWEALTH V. LAUREN ASHLEY CARTER\"❗️\n\nCall:\nDelaware County DA's Office: +1 610 891 4161\n\nFollowing the PSPCA investigation, it was confirmed that it was bleach that Lauren Ashley Carter was pouring onto the cat food left out for community cats.\nShe even admitted outright to the cops that she'd done it on two occasions.\nShe's due to be arraigned on June 29th at Magisterial District Court 32-1-20 at 11am.\n\n#pennsylvania #chester #animallover",
+      "mailtoBody": "Dear District Attorney Rouse,\n\nI'm writing about Commonwealth v. Lauren Ashley Carter of Chester — two counts of cruelty to animals under 18 Pa.C.S. §5533, with arraignment on June 29.\n\nI understand the misdemeanor grade fits the facts: with no animal having ingested the bleach, aggravated cruelty under §5534 is a hard fit, since it requires torture as narrowly defined or serious injury or death. I'm not asking for a charge the facts can't bear.\n\nBut Ms. Carter admitted to pouring bleach on food left for a neighborhood cat colony on two separate occasions. That is deliberate and repeated, and no animal died by luck rather than restraint. I'd urge the office to weigh attempted aggravated cruelty under §901, which exists precisely for intended harm that doesn't land.\n\nWhatever the grade: please prosecute the § 5533 counts fully, oppose any ARD or diversion, and seek an ownership prohibition and forfeiture under § 5560.\n\nThank you for upholding the law in this case.\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "rouset@co.delaware.pa.us"
+      ],
+      "phones": [],
+      "callScript": "Hi, I'm calling about Commonwealth v. Lauren Ashley Carter, the Chester animal cruelty case with an arraignment on June 29. I'd ask the office to prosecute the cruelty counts fully and refuse any diversion, and to weigh an attempted aggravated cruelty charge under section 901, since she admitted to poisoning the cat food twice.",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/commonwealth-v-lauren-ashley-carter-20260625",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO DELAWARE COUNTY DA TITLED \"COMMONWEALTH V. LAUREN ASHLEY CARTER\"❗️\n\nCall:\nDelaware County DA's Office: +1 610 891 4161\n\nFollowing the PSPCA investigation, it was confirmed that it was bleach that Lauren Ashley Carter was pouring onto the cat food left out for community cats.\nShe even admitted outright to the cops that she'd done it on two occasions.\nShe's due to be arraigned on June 29th at Magisterial District Court 32-1-20 at 11am.\n\n#pennsylvania #chester #animallover",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "cta",
+        "targets": "Delaware County DA",
+        "state": "Pennsylvania",
+        "city": "Chester",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Delaware County DA's Office",
+            "code": "+1",
+            "number": "610 891 4161",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-06-24T23:17:30Z",
+      "updatedAt": "2026-06-24T23:17:30Z"
     }
   ]
 }
