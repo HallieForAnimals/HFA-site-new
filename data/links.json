@@ -5992,6 +5992,48 @@
       "postToUpdates": true,
       "createdAt": "2026-06-24T23:17:30Z",
       "updatedAt": "2026-06-24T23:17:30Z"
+    },
+    {
+      "ctaType": "non-email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "dublin-dog-abuser",
+      "slug": "locate-dog-abuser-in-dublin-20260626",
+      "status": "recent",
+      "role": "original",
+      "title": "Locate Dog Abuser in Dublin",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "APPEAL FOR INFORMATION❗\n\nLocation: Near Bayview Lawns, Hackettsland, Killiney, Co. Dublin.\n\nDoes anyone know this man?\nHe was seen kicking his dog hard enough to cause damage. If anyone knows who he is, please DM me with his info.\n\n#dublin #ireland #cutedogs",
+      "descriptionLong": "APPEAL FOR INFORMATION❗\n\nLocation: Near Bayview Lawns, Hackettsland, Killiney, Co. Dublin.\n\nDoes anyone know this man?\nHe was seen kicking his dog hard enough to cause damage. If anyone knows who he is, please DM me with his info.\n\n#dublin #ireland #cutedogs",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1rvbDdJTpEWOMdfNHowKu499qJJhnLoVk/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/locate-dog-abuser-in-dublin-20260626",
+      "caption": "APPEAL FOR INFORMATION❗\n\nLocation: Near Bayview Lawns, Hackettsland, Killiney, Co. Dublin.\n\nDoes anyone know this man?\nHe was seen kicking his dog hard enough to cause damage. If anyone knows who he is, please DM me with his info.\n\n#dublin #ireland #cutedogs",
+      "captionBuilder": {
+        "type": "afi",
+        "subtype": "empty",
+        "targets": "",
+        "state": "Dublin",
+        "city": "Killiney",
+        "country": "Ireland",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-06-26T00:29:42Z",
+      "updatedAt": "2026-06-26T00:29:42Z"
     }
   ]
 }
