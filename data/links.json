@@ -6295,7 +6295,6 @@
         "ic@npc.gov.cn",
         "webmaster@agri.gov.cn",
         "english@mail.gov.cn",
-        "chinaembpress_us@mfa.gov.cn",
         "chinaconsulate_la@mfa.gov.cn",
         "chineseembassyspokesperson@gmail.com",
         "la_lb@csm.mfa.gov.cn",
@@ -6328,7 +6327,7 @@
       "hidden": false,
       "postToUpdates": true,
       "createdAt": "2026-06-30T20:44:49Z",
-      "updatedAt": "2026-06-30T20:44:49Z"
+      "updatedAt": "2026-07-01T19:44:03Z"
     },
     {
       "ctaType": "email",
