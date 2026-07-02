@@ -6353,7 +6353,6 @@
         "chinaembpress_us@mfa.gov.cn",
         "beijingacs@state.gov",
         "beijingwebmaster@state.gov",
-        "embassy.beijing@dfat.gov.au",
         "chn.assistance@international.gc.ca",
         "beijing@dfa.ie"
       ],
@@ -6380,7 +6379,7 @@
       "hidden": false,
       "postToUpdates": true,
       "createdAt": "2026-06-30T20:56:55Z",
-      "updatedAt": "2026-06-30T20:56:55Z"
+      "updatedAt": "2026-07-02T01:45:38Z"
     },
     {
       "ctaType": "email",
