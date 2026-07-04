@@ -6699,6 +6699,69 @@
       "postToUpdates": true,
       "createdAt": "2026-07-03T22:25:04Z",
       "updatedAt": "2026-07-03T22:25:04Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "justice-for-odin",
+      "slug": "justice-for-odin-20260704",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice for Odin",
+      "mailtoSubject": "Request for Welfare Check & Investigation: Suspected Animal Cruelty/Neglect by Tarzana Dog Sitter Adam Rabinowitz",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"JUSTICE FOR ODIN\"❗️\n\nCall:\nLAPD West Valley: +1 877 275 5273\nLA Animal Services: +1 818 756 9325\n\nLocation: TrueCare for Pets, 18110 Killion St #6, Tarzana, Los Angeles, CA.\n\nThis isn't the first time a dog under care of Adam Rabinowitz has died.\nOdin had internal bleeding and paralized hind legs following what Rabinowitz claimed to be a dog fight...\nThere are too many trainers/dog sitters out there who are killing dogs and getting away with it.\n\n#california #losangeles #dogsofinstagram",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"JUSTICE FOR ODIN\"❗️\n\nCall:\nLAPD West Valley: +1 877 275 5273\nLA Animal Services: +1 818 756 9325\n\nLocation: TrueCare for Pets, 18110 Killion St #6, Tarzana, Los Angeles, CA.\n\nThis isn't the first time a dog under care of Adam Rabinowitz has died.\nOdin had internal bleeding and paralized hind legs following what Rabinowitz claimed to be a dog fight...\nThere are too many trainers/dog sitters out there who are killing dogs and getting away with it.\n\n#california #losangeles #dogsofinstagram",
+      "mailtoBody": "To whom it may concern,\n\nI am formally requesting an immediate welfare check and full investigation into suspected animal cruelty and neglect involving Adam Rabinowitz/Fein (TrueCare for Pets, Tarzana, associated with 18110 Killion St #6).\n\nKey details on the recent Odin case (per the owner's account): The owner dropped Odin off with Mr. Rabinowitz. Mr. Rabinowitz later called the owner stating Odin was not moving and his back legs were paralyzed. The owner took Odin to the ER, where he was diagnosed with severe internal bleeding and hind leg paralysis. Mr. Rabinowitz claimed it was from a dog fight, but the injuries are not consistent with a dog fight and are instead consistent with blunt force trauma. Odin died as a result.\n\nAdditional ongoing concerns include reports of a strong odor emitting from the garage where Adam houses dogs, with water leaking into the area while dogs are present. There are also broader reports of large group handling (20+ dogs), unsafe transport, and prior community incidents.\n\nRequested actions:\n\n1: Immediate welfare check at the property and any locations where dogs are kept.\n2: Full investigation into animal neglect and cruelty regarding Odin and the overall operation.\n3: Public statement on case progression and findings to assure the community.\n\nThank you for treating this with the urgency it deserves to protect animals in Tarzana.\n\nVideo evidence: https://drive.google.com/file/d/1KUjSYei-5xHJ7UO-HEp3F7i3UNeHFLVe/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "26929@lapd.online",
+        "35922@lapd.online",
+        "34499@lapd.online",
+        "karen.bass@lacity.org",
+        "curtis.watts@lacity.org",
+        "yvonne.rodriguez@lacity.org",
+        "lindsey@bos.lacounty.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report suspected animal cruelty and neglect involving dog sitter Adam Rabinowitz of TrueCare for Pets in Tarzana. The owner dropped off Odin, was later called by Adam saying Odin wasn't moving with paralyzed back legs, took him to the ER where he had severe internal bleeding and hind leg paralysis consistent with blunt force trauma rather than a claimed dog fight, and Odin died — with additional reports of a strong odor and water leaking in the garage where dogs are housed, requesting an immediate welfare check and full investigation.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1KUjSYei-5xHJ7UO-HEp3F7i3UNeHFLVe/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-odin-20260704",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LOS ANGELES AUTHORITIES TITLED \"JUSTICE FOR ODIN\"❗️\n\nCall:\nLAPD West Valley: +1 877 275 5273\nLA Animal Services: +1 818 756 9325\n\nLocation: TrueCare for Pets, 18110 Killion St #6, Tarzana, Los Angeles, CA.\n\nThis isn't the first time a dog under care of Adam Rabinowitz has died.\nOdin had internal bleeding and paralized hind legs following what Rabinowitz claimed to be a dog fight...\nThere are too many trainers/dog sitters out there who are killing dogs and getting away with it.\n\n#california #losangeles #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Los Angeles Authorities",
+        "state": "California",
+        "city": "Los Angeles",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "LAPD West Valley",
+            "code": "+1",
+            "number": "877 275 5273",
+            "ext": ""
+          },
+          {
+            "who": "LA Animal Services",
+            "code": "+1",
+            "number": "818 756 9325",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-07-04T22:43:39Z",
+      "updatedAt": "2026-07-04T22:43:39Z"
     }
   ]
 }
