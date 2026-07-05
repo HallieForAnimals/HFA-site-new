@@ -6762,6 +6762,57 @@
       "postToUpdates": true,
       "createdAt": "2026-07-04T22:43:39Z",
       "updatedAt": "2026-07-04T22:43:39Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "ballymun-dog",
+      "slug": "demand-accountability-for-ballymun-dog-20260705",
+      "status": "recent",
+      "role": "original",
+      "title": "Demand Accountability for Ballymun Dog",
+      "mailtoSubject": "Request for Update on Ballymun Dog Cruelty Investigation and Public Statement",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BALLYMUN AUTHORITIES TITLED \"DEMAND ACCOUNTABILITY FOR BALLYMUN DOG\"❗️\n\nCall:\nBallymun Garda Station: +353 166 644 00\n\nLocation: Ballymun, Dublin, Ireland\n\nA dog was burned in Ballymun, Ireland. \nSo far there's no statement from police or information on arrests of the people who did it.\n\n#dublin #ireland #animallover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BALLYMUN AUTHORITIES TITLED \"DEMAND ACCOUNTABILITY FOR BALLYMUN DOG\"❗️\n\nCall:\nBallymun Garda Station: +353 166 644 00\n\nLocation: Ballymun, Dublin, Ireland\n\nA dog was burned in Ballymun, Ireland. \nSo far there's no statement from police or information on arrests of the people who did it.\n\n#dublin #ireland #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned member of the public regarding the recent reports of a dog being burned in the Ballymun area. Animal cruelty is a serious offence under Irish law, and incidents like this cause widespread distress and outrage in the community.\n\nI respectfully request:\n\n1: That the Gardaí treat this investigation with the utmost seriousness and allocate full resources to identify and prosecute those responsible to the full extent of the law.\n2: A public statement providing an update on the progress of the investigation, including confirmation of the incident details where possible, to reassure the public and demonstrate transparency.\n3: Assurance that any perpetrators will face the full force of the law, sending a clear message that such barbaric acts will not be tolerated.\n\nAnimal welfare is a key concern for many in Ireland, and timely communication from An Garda Síochána helps maintain public trust.\nThank you for your attention to this important matter.\n\nVideo evidence: https://drive.google.com/file/d/15dcsBnsgVwTe-WyJkYDSCnNxMF2tHFCz/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "ballymun_ds@garda.ie"
+      ],
+      "phones": [],
+      "callScript": "I'm calling about the recent reports of a dog being burned in the Ballymun area. I urge the Gardaí to investigate this serious animal cruelty incident thoroughly, issue a public update, and prosecute those responsible with the full force of the law.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/15dcsBnsgVwTe-WyJkYDSCnNxMF2tHFCz/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/demand-accountability-for-ballymun-dog-20260705",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO BALLYMUN AUTHORITIES TITLED \"DEMAND ACCOUNTABILITY FOR BALLYMUN DOG\"❗️\n\nCall:\nBallymun Garda Station: +353 166 644 00\n\nLocation: Ballymun, Dublin, Ireland\n\nA dog was burned in Ballymun, Ireland. \nSo far there's no statement from police or information on arrests of the people who did it.\n\n#dublin #ireland #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Ballymun Authorities",
+        "state": "Dublin",
+        "city": "Dublin",
+        "country": "Ireland",
+        "dial": "+353",
+        "phones": [
+          {
+            "who": "Ballymun Garda Station",
+            "code": "+353",
+            "number": "166 644 00",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-07-05T22:45:50Z",
+      "updatedAt": "2026-07-05T22:45:50Z"
     }
   ]
 }
