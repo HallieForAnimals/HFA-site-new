@@ -6939,6 +6939,59 @@
       "postToUpdates": true,
       "createdAt": "2026-07-06T22:06:19Z",
       "updatedAt": "2026-07-06T22:06:19Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "nova-canine",
+      "slug": "investigate-nova-canine-academy-20260707",
+      "status": "recent",
+      "role": "original",
+      "title": "Investigate NOVA Canine Academy",
+      "mailtoSubject": "Welfare Check Requested for Dogs at NOVA Canine Academy",
+      "summary": "",
+      "description": "𝐒𝐞𝐧𝐝 𝐭𝐡𝐞 𝐎𝐧𝐞-𝐂𝐥𝐢𝐜𝐤 𝐞𝐦𝐚𝐢𝐥 𝐢𝐧 𝐦𝐲 𝐛𝐢𝐨 𝐭𝐨 𝐀𝐥𝐞𝐱𝐚𝐧𝐝𝐫𝐢𝐚 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐭𝐢𝐞𝐬 𝐭𝐢𝐭𝐥𝐞𝐝 \"𝐈𝐧𝐯𝐞𝐬𝐭𝐢𝐠𝐚𝐭𝐞 𝐍𝐎𝐕𝐀 𝐂𝐚𝐧𝐢𝐧𝐞 𝐀𝐜𝐚𝐝𝐞𝐦𝐲\"❗️\n\nCall:\nAlexandria PD: +1 703 746 4444\n\nThis \"trainer\" feels that pain/discomfort as punishment is an acceptable training method.\n\n#virginia #alexandria #animallover",
+      "descriptionLong": "𝐒𝐞𝐧𝐝 𝐭𝐡𝐞 𝐎𝐧𝐞-𝐂𝐥𝐢𝐜𝐤 𝐞𝐦𝐚𝐢𝐥 𝐢𝐧 𝐦𝐲 𝐛𝐢𝐨 𝐭𝐨 𝐀𝐥𝐞𝐱𝐚𝐧𝐝𝐫𝐢𝐚 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐭𝐢𝐞𝐬 𝐭𝐢𝐭𝐥𝐞𝐝 \"𝐈𝐧𝐯𝐞𝐬𝐭𝐢𝐠𝐚𝐭𝐞 𝐍𝐎𝐕𝐀 𝐂𝐚𝐧𝐢𝐧𝐞 𝐀𝐜𝐚𝐝𝐞𝐦𝐲\"❗️\n\nCall:\nAlexandria PD: +1 703 746 4444\n\nThis \"trainer\" feels that pain/discomfort as punishment is an acceptable training method.\n\n#virginia #alexandria #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to request an immediate welfare check and investigation into Ethan Steinberg and NOVA Canine Academy (in the Alexandria area) due to concerns regarding abusive or overly harsh training methods used on dogs in their board-and-train programs. Reports and evidence suggest practices that may cause unnecessary fear, pain, or injury to animals, which could violate Virginia animal cruelty laws and professional training standards.\n\nWe demand:\n\n1: Prompt welfare checks on all dogs currently in their care.\n2: A full investigation into training methods, handling practices, and any complaints.\n3: Appropriate action, including suspension of operations if violations are found, and referral for prosecution if cruelty is confirmed.\n4: Transparency on findings shared with complainants.\n\nAnimal welfare must be prioritized over profit.\n\nVideo evidence: https://drive.google.com/file/d/1nSQUV0YmKFt-yZJPQygmTckQza5GVuUK/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "tarrick.mcguire@alexandriava.gov",
+        "mike.may@alexandriava.gov",
+        "jason.north@alexandriava.gov"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report concerns about potential abusive training methods at NOVA Canine Academy run by Ethan Steinberg in the Northern Virginia area and request a welfare check on the dogs in their care. Please investigate their practices.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1nSQUV0YmKFt-yZJPQygmTckQza5GVuUK/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/investigate-nova-canine-academy-20260707",
+      "caption": "𝐒𝐞𝐧𝐝 𝐭𝐡𝐞 𝐎𝐧𝐞-𝐂𝐥𝐢𝐜𝐤 𝐞𝐦𝐚𝐢𝐥 𝐢𝐧 𝐦𝐲 𝐛𝐢𝐨 𝐭𝐨 𝐀𝐥𝐞𝐱𝐚𝐧𝐝𝐫𝐢𝐚 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐭𝐢𝐞𝐬 𝐭𝐢𝐭𝐥𝐞𝐝 \"𝐈𝐧𝐯𝐞𝐬𝐭𝐢𝐠𝐚𝐭𝐞 𝐍𝐎𝐕𝐀 𝐂𝐚𝐧𝐢𝐧𝐞 𝐀𝐜𝐚𝐝𝐞𝐦𝐲\"❗️\n\nCall:\nAlexandria PD: +1 703 746 4444\n\nThis \"trainer\" feels that pain/discomfort as punishment is an acceptable training method.\n\n#virginia #alexandria #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Alexandria Authorities",
+        "state": "Virginia",
+        "city": "Alexandria",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Alexandria PD",
+            "code": "+1",
+            "number": "703 746 4444",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-07-07T01:11:25Z",
+      "updatedAt": "2026-07-07T01:11:25Z"
     }
   ]
 }
