@@ -7044,6 +7044,48 @@
       "postToUpdates": true,
       "createdAt": "2026-07-07T22:41:10Z",
       "updatedAt": "2026-07-07T22:41:10Z"
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "2026-07-08",
+      "updateStatus": "ongoing",
+      "caseId": "zosin-dog-killer",
+      "slug": "zosin-dog-killer-arrested-20260708",
+      "status": "updated",
+      "role": "update",
+      "title": "Zosin Dog Killer Arrested",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "UPDATE❗\n\nGheorghe Ciuleandra, 55 years old with a previous conviction for domestic violence has been arrested. He has a preliminary hearing tomorrow.\n\n#romania #zosin #doglover",
+      "descriptionLong": "UPDATE❗\n\nGheorghe Ciuleandra, 55 years old with a previous conviction for domestic violence has been arrested. He has a preliminary hearing tomorrow.\n\n#romania #zosin #doglover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/zosin-dog-killer-arrested-20260708",
+      "caption": "UPDATE❗\n\nGheorghe Ciuleandra, 55 years old with a previous conviction for domestic violence has been arrested. He has a preliminary hearing tomorrow.\n\n#romania #zosin #doglover",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "empty",
+        "targets": "",
+        "state": "Botoșani",
+        "city": "Zosin",
+        "country": "Romania",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-07-08T00:38:11Z",
+      "updatedAt": "2026-07-08T00:38:11Z"
     }
   ]
 }
