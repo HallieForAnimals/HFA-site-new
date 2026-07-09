@@ -7056,7 +7056,7 @@
       "status": "updated",
       "role": "update",
       "title": "Zosin Dog Killer Arrested",
-      "mailtoSubject": "",
+      "mailtoSubject": "Zosin Dog Killer Arrested",
       "summary": "",
       "description": "UPDATE❗\n\nGheorghe Ciuleandra, 55 years old with a previous conviction for domestic violence has been arrested. He has a preliminary hearing tomorrow.\n\n#romania #zosin #doglover",
       "descriptionLong": "UPDATE❗\n\nGheorghe Ciuleandra, 55 years old with a previous conviction for domestic violence has been arrested. He has a preliminary hearing tomorrow.\n\n#romania #zosin #doglover",
@@ -7082,10 +7082,10 @@
       "nonEmailActionText": "",
       "actionUrl": "",
       "actionText": "",
-      "hidden": false,
+      "hidden": true,
       "postToUpdates": true,
       "createdAt": "2026-07-08T00:38:11Z",
-      "updatedAt": "2026-07-08T00:38:11Z"
+      "updatedAt": "2026-07-09T16:55:14Z"
     },
     {
       "ctaType": "email",
