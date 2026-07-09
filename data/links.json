@@ -7040,10 +7040,10 @@
       "nonEmailActionText": "",
       "actionUrl": "",
       "actionText": "",
-      "hidden": false,
+      "hidden": true,
       "postToUpdates": true,
       "createdAt": "2026-07-07T22:41:10Z",
-      "updatedAt": "2026-07-07T22:41:10Z"
+      "updatedAt": "2026-07-09T16:54:22Z"
     },
     {
       "ctaType": "update",
