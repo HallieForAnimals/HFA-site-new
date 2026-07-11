@@ -7314,6 +7314,48 @@
       "postToUpdates": true,
       "createdAt": "2026-07-11T01:12:29Z",
       "updatedAt": "2026-07-11T01:12:29Z"
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "2026-07-11",
+      "updateStatus": "ongoing",
+      "caseId": "bhopal-dog-abuser",
+      "slug": "bhopal-dog-abuser-arrested-20260711",
+      "status": "updated",
+      "role": "update",
+      "title": "Bhopal Dog Abuser Arrested",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "𝐔𝐩𝐝𝐚𝐭𝐞❗\n\nThe puppy who was beaten with his/her muzzle taped shut has thankfully been rescued by @samrth_foundation\n\n#doglover #india #bhopal",
+      "descriptionLong": "𝐔𝐩𝐝𝐚𝐭𝐞❗\n\nThe puppy who was beaten with his/her muzzle taped shut has thankfully been rescued by @samrth_foundation\n\n#doglover #india #bhopal",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1HbM9jU3ekOFKMbAe48LoSMbZCto9Gq73/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/bhopal-dog-abuser-arrested-20260711",
+      "caption": "𝐔𝐩𝐝𝐚𝐭𝐞❗\n\nThe puppy who was beaten with his/her muzzle taped shut has thankfully been rescued by @samrth_foundation\n\n#doglover #india #bhopal",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "empty",
+        "targets": "",
+        "state": "",
+        "city": "",
+        "country": "",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-07-11T19:47:15Z",
+      "updatedAt": "2026-07-11T19:47:15Z"
     }
   ]
 }
