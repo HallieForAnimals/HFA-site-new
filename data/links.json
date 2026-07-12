@@ -7408,6 +7408,67 @@
       "postToUpdates": true,
       "createdAt": "2026-07-11T22:20:23Z",
       "updatedAt": "2026-07-11T22:21:22Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "la-fayette-apts",
+      "slug": "neglected-la-fayette-apts-dog-20260712",
+      "status": "recent",
+      "role": "original",
+      "title": "Neglected La Fayette Apts Dog",
+      "mailtoSubject": "Neglect report: dog confined to balcony",
+      "summary": "",
+      "description": "𝐒𝐞𝐧𝐝 𝐭𝐡𝐞 𝐎𝐧𝐞-𝐂𝐥𝐢𝐜𝐤 𝐞𝐦𝐚𝐢𝐥 𝐢𝐧 𝐦𝐲 𝐛𝐢𝐨 𝐭𝐨 𝐋𝐀 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐭𝐢𝐞𝐬 𝐭𝐢𝐭𝐥𝐞𝐝 \"𝐍𝐞𝐠𝐥𝐞𝐜𝐭𝐞𝐝 𝐋𝐚 𝐅𝐚𝐲𝐞𝐭𝐭𝐞 𝐀𝐩𝐭𝐬 𝐃𝐨𝐠\"❗️\n\nCall:\nLAPD Rampart Station: +1 213 484 3400\nLAAS North Central: +1 213 485 8855\n\nLocation: 349 S La Fayette Park Pl, Los Angeles, CA 90057.\n\nThis poor baby is shut out on the balcony constantly with no access to adequate shelter, food, or water.\n\n#california #losangeles #animallover",
+      "descriptionLong": "𝐒𝐞𝐧𝐝 𝐭𝐡𝐞 𝐎𝐧𝐞-𝐂𝐥𝐢𝐜𝐤 𝐞𝐦𝐚𝐢𝐥 𝐢𝐧 𝐦𝐲 𝐛𝐢𝐨 𝐭𝐨 𝐋𝐀 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐭𝐢𝐞𝐬 𝐭𝐢𝐭𝐥𝐞𝐝 \"𝐍𝐞𝐠𝐥𝐞𝐜𝐭𝐞𝐝 𝐋𝐚 𝐅𝐚𝐲𝐞𝐭𝐭𝐞 𝐀𝐩𝐭𝐬 𝐃𝐨𝐠\"❗️\n\nCall:\nLAPD Rampart Station: +1 213 484 3400\nLAAS North Central: +1 213 485 8855\n\nLocation: 349 S La Fayette Park Pl, Los Angeles, CA 90057.\n\nThis poor baby is shut out on the balcony constantly with no access to adequate shelter, food, or water.\n\n#california #losangeles #animallover",
+      "mailtoBody": "To whom it may concern,\n\nI am reporting a dog confined continuously to an apartment balcony at 349 S La Fayette Park Pl, Los Angeles, CA 90057, without adequate shelter from the elements, food, or water.\n\nThis appears to fall under Penal Code 597.1 (failure to provide proper shelter and care) and 597t (confinement without an adequate exercise area).\n\nI am requesting a field welfare check at this address.\n\nVideo evidence: https://drive.google.com/file/d/1vwudw8m6moypUuNVA36B4vIZk0KcX7Uw/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "gabrielle.amster@lacity.org",
+        "annette.ramirez@lacity.org",
+        "ani.commission@lacity.org",
+        "31381@lapd.online",
+        "36033@lapd.online"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report a dog confined continuously to an apartment balcony with no shade or shelter during current heat conditions, at 349 S La Fayette Park Pl, 90057.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1vwudw8m6moypUuNVA36B4vIZk0KcX7Uw/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/neglected-la-fayette-apts-dog-20260712",
+      "caption": "𝐒𝐞𝐧𝐝 𝐭𝐡𝐞 𝐎𝐧𝐞-𝐂𝐥𝐢𝐜𝐤 𝐞𝐦𝐚𝐢𝐥 𝐢𝐧 𝐦𝐲 𝐛𝐢𝐨 𝐭𝐨 𝐋𝐀 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐭𝐢𝐞𝐬 𝐭𝐢𝐭𝐥𝐞𝐝 \"𝐍𝐞𝐠𝐥𝐞𝐜𝐭𝐞𝐝 𝐋𝐚 𝐅𝐚𝐲𝐞𝐭𝐭𝐞 𝐀𝐩𝐭𝐬 𝐃𝐨𝐠\"❗️\n\nCall:\nLAPD Rampart Station: +1 213 484 3400\nLAAS North Central: +1 213 485 8855\n\nLocation: 349 S La Fayette Park Pl, Los Angeles, CA 90057.\n\nThis poor baby is shut out on the balcony constantly with no access to adequate shelter, food, or water.\n\n#california #losangeles #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "LA Authorities",
+        "state": "California",
+        "city": "Los Angeles",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "LAPD Rampart Station",
+            "code": "+1",
+            "number": "213 484 3400",
+            "ext": ""
+          },
+          {
+            "who": "LAAS North Central",
+            "code": "+1",
+            "number": "213 485 8855",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-07-12T02:34:50Z",
+      "updatedAt": "2026-07-12T02:34:50Z"
     }
   ]
 }
