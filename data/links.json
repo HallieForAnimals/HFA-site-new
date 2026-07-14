@@ -7540,6 +7540,65 @@
       "postToUpdates": true,
       "createdAt": "2026-07-13T03:01:28Z",
       "updatedAt": "2026-07-13T03:06:56Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "fabr-dogs",
+      "slug": "accountability-for-fabr-abandoned-dogs-20260714",
+      "status": "recent",
+      "role": "original",
+      "title": "Accountability for FABR Abandoned Dogs",
+      "mailtoSubject": "Full Criminal & Welfare Investigation",
+      "summary": "",
+      "description": "𝐒𝐞𝐧𝐝 𝐭𝐡𝐞 𝐎𝐧𝐞-𝐂𝐥𝐢𝐜𝐤 𝐞𝐦𝐚𝐢𝐥 𝐢𝐧 𝐦𝐲 𝐛𝐢𝐨 𝐭𝐨 𝐎𝐧𝐭𝐚𝐫𝐢𝐨 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐭𝐢𝐞𝐬 𝐭𝐢𝐭𝐥𝐞𝐝 \"𝐀𝐜𝐜𝐨𝐮𝐧𝐭𝐚𝐛𝐢𝐥𝐢𝐭𝐲 𝐟𝐨𝐫 𝐅𝐀𝐁𝐑 𝐀𝐛𝐚𝐧𝐝𝐨𝐧𝐞𝐝 𝐃𝐨𝐠𝐬\"❗️\n\nCall:\nOntario Provincial Animal Welfare Services: +1 833 926 4625\nOntario Provincial Police: +1 888 310 1122\n\nLocation: Nanticoke, Ontario, Canada.\n\nFABR were evicted from their rescue premises.\nThey left behind dogs in varying states of neglect, some alive, some dead, fresh burial sites, and the body of a burned dog.\nThis dog is not a victim of the fire that occurred months ago in a barn being used to house dogs on the premises.\nPAWS were said to be investigating the condition the animals were kept in, if that were true, these dogs wouldn't be in this condition now.\n\n#ontario #canada #doglover",
+      "descriptionLong": "𝐒𝐞𝐧𝐝 𝐭𝐡𝐞 𝐎𝐧𝐞-𝐂𝐥𝐢𝐜𝐤 𝐞𝐦𝐚𝐢𝐥 𝐢𝐧 𝐦𝐲 𝐛𝐢𝐨 𝐭𝐨 𝐎𝐧𝐭𝐚𝐫𝐢𝐨 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐭𝐢𝐞𝐬 𝐭𝐢𝐭𝐥𝐞𝐝 \"𝐀𝐜𝐜𝐨𝐮𝐧𝐭𝐚𝐛𝐢𝐥𝐢𝐭𝐲 𝐟𝐨𝐫 𝐅𝐀𝐁𝐑 𝐀𝐛𝐚𝐧𝐝𝐨𝐧𝐞𝐝 𝐃𝐨𝐠𝐬\"❗️\n\nCall:\nOntario Provincial Animal Welfare Services: +1 833 926 4625\nOntario Provincial Police: +1 888 310 1122\n\nLocation: Nanticoke, Ontario, Canada.\n\nFABR were evicted from their rescue premises.\nThey left behind dogs in varying states of neglect, some alive, some dead, fresh burial sites, and the body of a burned dog.\nThis dog is not a victim of the fire that occurred months ago in a barn being used to house dogs on the premises.\nPAWS were said to be investigating the condition the animals were kept in, if that were true, these dogs wouldn't be in this condition now.\n\n#ontario #canada #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing as a concerned citizen demanding an immediate, thorough, and transparent investigation into animal cruelty, neglect, and potential Criminal Code violations at the former F.A.B.R. (Fight Against Breed Racism / Jen Jefferies) property in Nanticoke, Ontario, following the recent eviction.\n\nPublicly available videos, images, and eyewitness accounts from the site after eviction reveal dogs living in filthy, inhumane conditions, with living animals abandoned, deceased dogs, carcasses, bones, apparent burial sites, and a burned dog whose injuries appear separate from and more recent than the barn fire that occurred months ago. This situation persisted despite prior PAWS involvement following that barn fire, during which authorities were made aware of unsuitable housing structures and welfare concerns. The fact that these conditions continued under oversight raises grave questions about the effectiveness of monitoring and enforcement, allowing unnecessary pain, suffering, and injury to animals in violation of the Provincial Animal Welfare Services Act and especially Criminal Code Section 445.1(1)(a): every person commits an offence who wilfully causes or, being the owner, wilfully permits to be caused unnecessary pain, suffering or injury to an animal.\n\nThe localized burn damage on the dog, confined to the animal and immediate ground rather than the structure, further demands forensic examination, including necropsies on deceased animals, full site inspection, removal of any remaining animals, and a criminal probe by police alongside PAWS to determine timelines, responsibility, and whether criminal acts occurred. This is not an isolated welfare matter but evidence of ongoing failures that have cost animal lives.\n\nWe expect prompt and decisive action: entry onto the property, seizure of evidence, veterinary assessments, and public updates on the case. The public is watching and documenting this closely to ensure accountability.\n\nVideo evidence: https://drive.google.com/file/d/14dwoEsjdi5hJikaPb5KuqViQJOQF0OjG/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "animalwelfareservices@ontario.ca",
+        "OPP.Norfolk.County@opp.ca",
+        "OPP.Haldimand.County@opp.ca"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report animal cruelty at the former F.A.B.R. rescue property in Nanticoke after eviction. Videos show abandoned dogs, deceased animals, carcasses, and a burned dog separate from the earlier barn fire – this requires immediate investigation under PAWS Act and Criminal Code 445.1 for unnecessary suffering.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/14dwoEsjdi5hJikaPb5KuqViQJOQF0OjG/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/accountability-for-fabr-abandoned-dogs-20260714",
+      "caption": "𝐒𝐞𝐧𝐝 𝐭𝐡𝐞 𝐎𝐧𝐞-𝐂𝐥𝐢𝐜𝐤 𝐞𝐦𝐚𝐢𝐥 𝐢𝐧 𝐦𝐲 𝐛𝐢𝐨 𝐭𝐨 𝐎𝐧𝐭𝐚𝐫𝐢𝐨 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐭𝐢𝐞𝐬 𝐭𝐢𝐭𝐥𝐞𝐝 \"𝐀𝐜𝐜𝐨𝐮𝐧𝐭𝐚𝐛𝐢𝐥𝐢𝐭𝐲 𝐟𝐨𝐫 𝐅𝐀𝐁𝐑 𝐀𝐛𝐚𝐧𝐝𝐨𝐧𝐞𝐝 𝐃𝐨𝐠𝐬\"❗️\n\nCall:\nOntario Provincial Animal Welfare Services: +1 833 926 4625\nOntario Provincial Police: +1 888 310 1122\n\nLocation: Nanticoke, Ontario, Canada.\n\nFABR were evicted from their rescue premises.\nThey left behind dogs in varying states of neglect, some alive, some dead, fresh burial sites, and the body of a burned dog.\nThis dog is not a victim of the fire that occurred months ago in a barn being used to house dogs on the premises.\nPAWS were said to be investigating the condition the animals were kept in, if that were true, these dogs wouldn't be in this condition now.\n\n#ontario #canada #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Ontario Authorities",
+        "state": "Ontario",
+        "city": "Nanticoke",
+        "country": "Canada",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Ontario Provincial Animal Welfare Services",
+            "code": "+1",
+            "number": "833 926 4625",
+            "ext": ""
+          },
+          {
+            "who": "Ontario Provincial Police",
+            "code": "+1",
+            "number": "888 310 1122",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-07-14T00:38:58Z",
+      "updatedAt": "2026-07-14T00:38:58Z"
     }
   ]
 }
