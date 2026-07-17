@@ -6295,14 +6295,10 @@
         "ic@npc.gov.cn",
         "webmaster@agri.gov.cn",
         "english@mail.gov.cn",
-        "chinaconsulate_la@mfa.gov.cn",
         "chineseembassyspokesperson@gmail.com",
         "la_lb@csm.mfa.gov.cn",
         "ny_lb@csm.mfa.gov.cn",
-        "chicago_lb@csm.mfa.gov.cn",
-        "chinaconsul_san_us@mfa.gov.cn",
-        "chinaemb_ae@mfa.gov.cn",
-        "chinaemb_pe@mfa.gov.cn"
+        "chicago_lb@csm.mfa.gov.cn"
       ],
       "phones": [],
       "callScript": "",
@@ -6327,7 +6323,7 @@
       "hidden": false,
       "postToUpdates": true,
       "createdAt": "2026-06-30T20:44:49Z",
-      "updatedAt": "2026-07-01T19:44:03Z"
+      "updatedAt": "2026-07-17T14:29:54Z"
     },
     {
       "ctaType": "email",
