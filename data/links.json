@@ -8193,6 +8193,48 @@
       "postToUpdates": true,
       "createdAt": "2026-07-23T01:42:49Z",
       "updatedAt": "2026-07-23T01:42:49Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "stockton-abandoned",
+      "slug": "recue-needed-in-stockton-20260724",
+      "status": "recent",
+      "role": "original",
+      "title": "Recue Needed in Stockton",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "𝐀𝐩𝐩𝐞𝐚𝐥 𝐅𝐨𝐫 𝐑𝐞𝐬𝐜𝐮𝐞❗\n\nLocation: Stockton, CA\n\nOn July third, dad and three puppies were dumped in a park in Stockton.\nAnimal Control have been out and taken only one puppy.\nWe need someone who can take the last two pups and dad in.\nPlease DM me or @freedomdogco if you or anyone you know can take these poor babies in.\n\n#california #stockton #cutedogs",
+      "descriptionLong": "𝐀𝐩𝐩𝐞𝐚𝐥 𝐅𝐨𝐫 𝐑𝐞𝐬𝐜𝐮𝐞❗\n\nLocation: Stockton, CA\n\nOn July third, dad and three puppies were dumped in a park in Stockton.\nAnimal Control have been out and taken only one puppy.\nWe need someone who can take the last two pups and dad in.\nPlease DM me or @freedomdogco if you or anyone you know can take these poor babies in.\n\n#california #stockton #cutedogs",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1_pLT1I-P3_b1eYpVaFfLfmDxtFc5u6QZ/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/recue-needed-in-stockton-20260724",
+      "caption": "𝐀𝐩𝐩𝐞𝐚𝐥 𝐅𝐨𝐫 𝐑𝐞𝐬𝐜𝐮𝐞❗\n\nLocation: Stockton, CA\n\nOn July third, dad and three puppies were dumped in a park in Stockton.\nAnimal Control have been out and taken only one puppy.\nWe need someone who can take the last two pups and dad in.\nPlease DM me or @freedomdogco if you or anyone you know can take these poor babies in.\n\n#california #stockton #cutedogs",
+      "captionBuilder": {
+        "type": "afi",
+        "subtype": "empty",
+        "targets": "",
+        "state": "California",
+        "city": "Stockton",
+        "country": "United States",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-07-24T00:53:40Z",
+      "updatedAt": "2026-07-24T00:53:40Z"
     }
   ]
 }
