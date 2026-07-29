@@ -8748,6 +8748,48 @@
       "postToUpdates": true,
       "createdAt": "2026-07-29T01:58:59Z",
       "updatedAt": "2026-07-29T01:58:59Z"
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "2026-07-29",
+      "updateStatus": "ongoing",
+      "caseId": "justice-for-prince",
+      "slug": "justice-for-prince-update-20260729",
+      "status": "updated",
+      "role": "update",
+      "title": "Justice for Prince Update",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "𝐔𝐩𝐝𝐚𝐭𝐞❗\n\nHollywood PD have opened an investigation into Prince's death, and publicly issued the below statement:\n\n\"The Hollywood Police Department is aware of the case involving the death of a French Bulldog in the 6600 block of Atlanta Street.\nA report was made with officers on July 28th, 2026. Officers are at the home continuing the investigation as well as working with City of Hollywood Animal Control.\nWe understand the concern from community members and are working to gather as much information as possible to determine exactly what occurred. We remain committed to this investigation and will provide updates as soon as the information becomes available.\"\n\n#florida #hollywood #animallover",
+      "descriptionLong": "𝐔𝐩𝐝𝐚𝐭𝐞❗\n\nHollywood PD have opened an investigation into Prince's death, and publicly issued the below statement:\n\n\"The Hollywood Police Department is aware of the case involving the death of a French Bulldog in the 6600 block of Atlanta Street.\nA report was made with officers on July 28th, 2026. Officers are at the home continuing the investigation as well as working with City of Hollywood Animal Control.\nWe understand the concern from community members and are working to gather as much information as possible to determine exactly what occurred. We remain committed to this investigation and will provide updates as soon as the information becomes available.\"\n\n#florida #hollywood #animallover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1nrPULtAVePy-Gnj5YFCG6_UppOYM21-j/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-prince-update-20260729",
+      "caption": "𝐔𝐩𝐝𝐚𝐭𝐞❗\n\nHollywood PD have opened an investigation into Prince's death, and publicly issued the below statement:\n\n\"The Hollywood Police Department is aware of the case involving the death of a French Bulldog in the 6600 block of Atlanta Street.\nA report was made with officers on July 28th, 2026. Officers are at the home continuing the investigation as well as working with City of Hollywood Animal Control.\nWe understand the concern from community members and are working to gather as much information as possible to determine exactly what occurred. We remain committed to this investigation and will provide updates as soon as the information becomes available.\"\n\n#florida #hollywood #animallover",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "empty",
+        "targets": "",
+        "state": "Florida",
+        "city": "Hollywood",
+        "country": "United States",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-07-29T16:00:56Z",
+      "updatedAt": "2026-07-29T16:00:56Z"
     }
   ]
 }
