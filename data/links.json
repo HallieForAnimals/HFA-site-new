@@ -8744,10 +8744,10 @@
       "nonEmailActionText": "",
       "actionUrl": "",
       "actionText": "",
-      "hidden": false,
+      "hidden": true,
       "postToUpdates": true,
       "createdAt": "2026-07-29T01:58:59Z",
-      "updatedAt": "2026-07-29T01:58:59Z"
+      "updatedAt": "2026-07-29T16:38:14Z"
     },
     {
       "ctaType": "update",
