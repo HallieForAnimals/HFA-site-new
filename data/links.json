@@ -8852,10 +8852,10 @@
       "nonEmailActionText": "",
       "actionUrl": "",
       "actionText": "",
-      "hidden": false,
+      "hidden": true,
       "postToUpdates": true,
       "createdAt": "2026-07-29T22:50:20Z",
-      "updatedAt": "2026-07-29T22:50:20Z"
+      "updatedAt": "2026-07-31T08:16:04Z"
     },
     {
       "ctaType": "email",
