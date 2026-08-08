@@ -9324,6 +9324,48 @@
       "postToUpdates": true,
       "createdAt": "2026-08-07T02:05:20Z",
       "updatedAt": "2026-08-07T02:05:20Z"
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "2026-08-07",
+      "updateStatus": "resolved",
+      "caseId": "neglected-roseville-dogs",
+      "slug": "---update-20260808",
+      "status": "updated",
+      "role": "update",
+      "title": "𝐍𝐞𝐠𝐥𝐞𝐜𝐭𝐞𝐝 𝐑𝐨𝐬𝐞𝐯𝐢𝐥𝐥𝐞 𝐃𝐨𝐠𝐬 Update",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "𝐔𝐩𝐝𝐚𝐭𝐞 𝐨𝐧 𝐍𝐞𝐠𝐥𝐞𝐜𝐭𝐞𝐝 𝐑𝐨𝐬𝐞𝐯𝐢𝐥𝐥𝐞 𝐃𝐨𝐠𝐬❗\n\nBoth shepherds were surrendered to a currently unknown independent rescue, according to @tarronitup.\nThe Roseville Police Department and Animal Control did NOTHING to protect these dogs.\nBoth are underweight, one appears to have what looks like flystrike on the ears.\n\n#california #roseville #animallover",
+      "descriptionLong": "𝐔𝐩𝐝𝐚𝐭𝐞 𝐨𝐧 𝐍𝐞𝐠𝐥𝐞𝐜𝐭𝐞𝐝 𝐑𝐨𝐬𝐞𝐯𝐢𝐥𝐥𝐞 𝐃𝐨𝐠𝐬❗\n\nBoth shepherds were surrendered to a currently unknown independent rescue, according to @tarronitup.\nThe Roseville Police Department and Animal Control did NOTHING to protect these dogs.\nBoth are underweight, one appears to have what looks like flystrike on the ears.\n\n#california #roseville #animallover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1MMpQu_6NkZBCTqHFf82JEHgMuBpvbvqC/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/---update-20260808",
+      "caption": "𝐔𝐩𝐝𝐚𝐭𝐞 𝐨𝐧 𝐍𝐞𝐠𝐥𝐞𝐜𝐭𝐞𝐝 𝐑𝐨𝐬𝐞𝐯𝐢𝐥𝐥𝐞 𝐃𝐨𝐠𝐬❗\n\nBoth shepherds were surrendered to a currently unknown independent rescue, according to @tarronitup.\nThe Roseville Police Department and Animal Control did NOTHING to protect these dogs.\nBoth are underweight, one appears to have what looks like flystrike on the ears.\n\n#california #roseville #animallover",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "empty",
+        "targets": "",
+        "state": "California",
+        "city": "Roseville",
+        "country": "United States",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-08-08T00:51:01Z",
+      "updatedAt": "2026-08-08T00:51:01Z"
     }
   ]
 }
