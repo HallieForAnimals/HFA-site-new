@@ -10152,6 +10152,72 @@
       "postToUpdates": true,
       "createdAt": "2026-08-19T01:32:55Z",
       "updatedAt": "2026-08-19T01:32:55Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "tufanganj-dog-killing",
+      "slug": "investigate-the-tufanganj-dog-killing-20260820",
+      "status": "recent",
+      "role": "original",
+      "title": "Investigate The Tufanganj Dog Killing",
+      "mailtoSubject": "Investigate The Tufanganj Dog Killing",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TUFANGANJ AUTHORITIES TITLED \"INVESTIGATE THE TUFANGANJ DOG KILLING\"❗️\nSend the One-Click email in my bio to Tufanganj Authorities titled \"Investigate the Tufanganj Dog Killing\"❗️\n\nCall:\nSP Cooch Behar office: +91 358 222 7755\nPolice Control Room: +91 358 222 7755\nDistrict Magistrate: +91 358 222 7101\n\nLocation: Tufanganj, WestBengal, India.\n\nAnd failing to drown this dog, he was coaxed to the bank, a rope fastened around his neck, and he was beaten to death.\nThese \"men\" need to be located, arrested, and charged.\n\n#westbengal #tufanganj #doglover",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TUFANGANJ AUTHORITIES TITLED \"INVESTIGATE THE TUFANGANJ DOG KILLING\"❗️\nSend the One-Click email in my bio to Tufanganj Authorities titled \"Investigate the Tufanganj Dog Killing\"❗️\n\nCall:\nSP Cooch Behar office: +91 358 222 7755\nPolice Control Room: +91 358 222 7755\nDistrict Magistrate: +91 358 222 7101\n\nLocation: Tufanganj, WestBengal, India.\n\nAnd failing to drown this dog, he was coaxed to the bank, a rope fastened around his neck, and he was beaten to death.\nThese \"men\" need to be located, arrested, and charged.\n\n#westbengal #tufanganj #doglover",
+      "mailtoBody": "To whom it may concern,\n\nI am writing to request an urgent investigation into footage circulating on Instagram depicting men deliberately killing a dog in what is believed to be the Tufanganj area of Cooch Behar district.\n\nThe footage, posted by the Instagram account @masum__ai___077____, shows at least two men using a stick to force a dog underwater in an apparent attempt to drown it. The men then coax the dog toward the bank, loop a rope around its neck to restrain it, and beat it repeatedly with a stick. The dog did not survive. The account holder appears to have filmed and documented the killing rather than participated directly, making him a key witness who can identify the perpetrators.\n\nThe account holder is believed to operate in the Tufanganj area of Cooch Behar district. This assessment is based on other footage posted by the same account, which shows a storefront on Tufanganj Main Road, specifically, the co-located Mio Amore and The Sugarr & Spice bakery outlets, that has been verified against Google Street View imagery. While the footage of the killing itself contains no independent location markers, the account holder's presence in Tufanganj represents the strongest available lead.\n\nI respectfully urge your office to:\n\n1. Serve a preservation and subscriber data request on Meta Platforms (Instagram) for the account @masum__ai___077____ before the content is deleted or the account is deactivated.\n2. Trace and examine the account holder as a witness who filmed the incident and can identify the men responsible.\n3. Identify and locate the men shown killing the dog in the footage.\n4. Register a case under Section 11 of the Prevention of Cruelty to Animals Act, 1960, and Section 325 of the Bharatiya Nyaya Sanhita, 2023, against the perpetrators once identified.\n\nThe footage constitutes prima facie evidence of the deliberate and prolonged killing of an animal. The account holder's documented presence in Cooch Behar district makes your office the appropriate authority to initiate this investigation. Time is of the essence the Instagram account and its contents may be removed at any point, and the perpetrators remain unidentified.\n\nThank you for your attention to this matter.\n\nVideo evidence: https://drive.google.com/file/d/1wUNh_CPDFhqd53zukmtLc5j3zXqVqSIk/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "dmcoochbehar@gmail.com",
+        "spdibcbr@gmail.com",
+        "dm-cbr@nic.in",
+        "spcbr14@gmail.com"
+      ],
+      "phones": [],
+      "callScript": "I'm calling about video evidence of a dog being deliberately drowned and beaten to death, posted on Instagram by the account masum__ai___077____, which we have traced to the Tufanganj area through a storefront on Tufanganj Main Road that appears in the same account's footage. Please register a case under Section 11 of the PCA Act and Section 325 of the BNS, and request the account data from Meta urgently before the profile is deleted.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1wUNh_CPDFhqd53zukmtLc5j3zXqVqSIk/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/investigate-the-tufanganj-dog-killing-20260820",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO TUFANGANJ AUTHORITIES TITLED \"INVESTIGATE THE TUFANGANJ DOG KILLING\"❗️\nSend the One-Click email in my bio to Tufanganj Authorities titled \"Investigate the Tufanganj Dog Killing\"❗️\n\nCall:\nSP Cooch Behar office: +91 358 222 7755\nPolice Control Room: +91 358 222 7755\nDistrict Magistrate: +91 358 222 7101\n\nLocation: Tufanganj, WestBengal, India.\n\nAnd failing to drown this dog, he was coaxed to the bank, a rope fastened around his neck, and he was beaten to death.\nThese \"men\" need to be located, arrested, and charged.\n\n#westbengal #tufanganj #doglover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Tufanganj Authorities",
+        "state": "West Bengal",
+        "city": "Tufanganj",
+        "country": "India",
+        "dial": "+91",
+        "phones": [
+          {
+            "who": "SP Cooch Behar office",
+            "code": "+91",
+            "number": "358 222 7755",
+            "ext": ""
+          },
+          {
+            "who": "Police Control Room",
+            "code": "+91",
+            "number": "358 222 7755",
+            "ext": ""
+          },
+          {
+            "who": "District Magistrate",
+            "code": "+91",
+            "number": "358 222 7101",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-08-20T00:33:45Z",
+      "updatedAt": "2026-08-20T00:33:45Z"
     }
   ]
 }
