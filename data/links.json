@@ -10899,6 +10899,48 @@
       "postToUpdates": true,
       "createdAt": "2026-08-31T23:24:31Z",
       "updatedAt": "2026-09-01T05:46:31Z"
+    },
+    {
+      "ctaType": "update",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "2026-09-01",
+      "updateStatus": "resolved",
+      "caseId": "welfare-check-mariposa-avenue/james-wood-blvd",
+      "slug": "welfare-check-update-20260901",
+      "status": "updated",
+      "role": "update",
+      "title": "Welfare Check Update",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "𝐔𝐩𝐝𝐚𝐭𝐞❗\n\nThe LAPD conducted a welfare check.\nThere were two dogs in the van, both had access to food and water. The owner of the van lives nearby where the dogs usually are with him.\n\nFrom Captain Rachel Rodriguez\n\"Thank you for your concern regarding the dogs photographed in your email. Officers responded to the area and spoke with the owners and observed two dogs within their care. Both dogs have water, food, and beds. Neither dog is presenting as malnourished and reside within a nearby apartment.\"\n\n#california #losangeles #animallover",
+      "descriptionLong": "𝐔𝐩𝐝𝐚𝐭𝐞❗\n\nThe LAPD conducted a welfare check.\nThere were two dogs in the van, both had access to food and water. The owner of the van lives nearby where the dogs usually are with him.\n\nFrom Captain Rachel Rodriguez\n\"Thank you for your concern regarding the dogs photographed in your email. Officers responded to the area and spoke with the owners and observed two dogs within their care. Both dogs have water, food, and beds. Neither dog is presenting as malnourished and reside within a nearby apartment.\"\n\n#california #losangeles #animallover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/welfare-check-update-20260901",
+      "caption": "𝐔𝐩𝐝𝐚𝐭𝐞❗\n\nThe LAPD conducted a welfare check.\nThere were two dogs in the van, both had access to food and water. The owner of the van lives nearby where the dogs usually are with him.\n\nFrom Captain Rachel Rodriguez\n\"Thank you for your concern regarding the dogs photographed in your email. Officers responded to the area and spoke with the owners and observed two dogs within their care. Both dogs have water, food, and beds. Neither dog is presenting as malnourished and reside within a nearby apartment.\"\n\n#california #losangeles #animallover",
+      "captionBuilder": {
+        "type": "update",
+        "subtype": "empty",
+        "targets": "",
+        "state": "California",
+        "city": "Los Angeles",
+        "country": "United States",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-09-01T19:25:33Z",
+      "updatedAt": "2026-09-01T19:25:33Z"
     }
   ]
 }
