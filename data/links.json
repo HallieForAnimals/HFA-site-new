@@ -12870,6 +12870,65 @@
       "postToUpdates": true,
       "createdAt": "2026-10-07T22:34:47Z",
       "updatedAt": "2026-10-07T22:34:47Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "justice-for-the-rajajipuram-dog",
+      "slug": "justice-for-the-rajajipuram-dog-20261008",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice For The Rajajipuram Dog",
+      "mailtoSubject": "Stray dog shot dead in Rajajipuram C-Block, 6 Oct 2026: arrest, firearms charges and licence cancellation",
+      "summary": "",
+      "description": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LUCKNOW AUTHORITIES TITLED \"JUSTICE FOR THE RAJAJIPURAM DOG\"❗️\n\nCall:\nTalkatora: +91 945 440 3871\nCP office: +91 522 232 4954\n\nLocation: Lucknow, Uttar Pradesh, India.\n\nA man stopped his motorcycle in a residential street in Lucknow, took a rifle off his shoulder, and shot a stray dog dead near a school. CCTV caught all of it. Police have an FIR and say they'll arrest him and cancel his licence. So far, no arrest. Email Lucknow police: arrest, firearms charges, licence revoked. Link in bio.\n\n#uttarpradesh #lucknow #dogsofinstagram",
+      "descriptionLong": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LUCKNOW AUTHORITIES TITLED \"JUSTICE FOR THE RAJAJIPURAM DOG\"❗️\n\nCall:\nTalkatora: +91 945 440 3871\nCP office: +91 522 232 4954\n\nLocation: Lucknow, Uttar Pradesh, India.\n\nA man stopped his motorcycle in a residential street in Lucknow, took a rifle off his shoulder, and shot a stray dog dead near a school. CCTV caught all of it. Police have an FIR and say they'll arrest him and cancel his licence. So far, no arrest. Email Lucknow police: arrest, firearms charges, licence revoked. Link in bio.\n\n#uttarpradesh #lucknow #dogsofinstagram",
+      "mailtoBody": "To whom it may concern,\n\nAt around 6:30 a.m. on Tuesday, October 6, 2026, a man on a motorcycle stopped on the road in Rajajipuram C-Block, near Greenfield School. He took a rifle from his shoulder and shot a stray dog dead, then rode away. CCTV footage records the whole act. An FIR has been registered at Talkatora Police Station under Section 325 of the Bharatiya Nyaya Sanhita and Section 11 of the Prevention of Cruelty to Animals Act, 1960, on the complaint of Aasra The Helping Hands Trust.\n\nA firearm was discharged in a residential street, near a school, at a time when residents are moving about. The dog died, and anyone in that line of fire could have been hit. Police have indicated the shooter may be a security guard. The Talkatora inspector has publicly stated that the accused will be arrested and his rifle licence cancelled.\n\nI demand that the Lucknow Police Commissionerate:\n\n1: Identify and arrest the shooter without delay, as Talkatora police have publicly committed to doing.\n2: Add firearms and public-safety charges to the FIR alongside BNS 325 and PCA Section 11, including Section 25(9) and Section 30 of the Arms Act, 1959, and Section 125 of the BNS for endangering life and personal safety.\n3: Seize the rifle and initiate suspension and cancellation of the licence under Section 17 of the Arms Act.\n4: Identify the shooter's employer. Establish whether the rifle is personally licensed or agency-issued, and whether he was authorized to carry it outside duty. If a private security agency is involved, refer it to the controlling authority under the Private Security Agencies (Regulation) Act, 2005.\n5: Preserve all CCTV footage and secure post-mortem and ballistic evidence for the charge sheet.\n6: Issue a public statement on the arrest and charges, and release the case outcome publicly. Send updates on this case to contact@hallieforanimals.org\n\nVideo evidence: https://drive.google.com/file/d/111k_y2t2LDwBiTzbPI5QBbnGN4gIoIZN/view?usp=sharing\n\nSincerely,\n\n\n\n@HallieForAnimals Team\ncontact@hallieforanimals.org",
+      "recipients": [
+        "sho-talkatora.lu@up.gov.in",
+        "cp-pol.lu@up.gov.in",
+        "digcomplaint-up@nic.in"
+      ],
+      "phones": [],
+      "callScript": "I'm calling to report concern over the stray dog shot dead with a rifle in Rajajipuram C-Block on October 6, which was registered as an FIR at Talkatora Police Station. I'm asking that the shooter be arrested, firearms charges be added under the Arms Act, and his rifle licence be suspended and cancelled.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/111k_y2t2LDwBiTzbPI5QBbnGN4gIoIZN/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-the-rajajipuram-dog-20261008",
+      "caption": "SEND THE ONE-CLICK EMAIL IN MY LINKTREE TO LUCKNOW AUTHORITIES TITLED \"JUSTICE FOR THE RAJAJIPURAM DOG\"❗️\n\nCall:\nTalkatora: +91 945 440 3871\nCP office: +91 522 232 4954\n\nLocation: Lucknow, Uttar Pradesh, India.\n\nA man stopped his motorcycle in a residential street in Lucknow, took a rifle off his shoulder, and shot a stray dog dead near a school. CCTV caught all of it. Police have an FIR and say they'll arrest him and cancel his licence. So far, no arrest. Email Lucknow police: arrest, firearms charges, licence revoked. Link in bio.\n\n#uttarpradesh #lucknow #dogsofinstagram",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Lucknow Authorities",
+        "state": "Uttar Pradesh",
+        "city": "Lucknow",
+        "country": "India",
+        "dial": "+91",
+        "phones": [
+          {
+            "who": "Talkatora",
+            "code": "+91",
+            "number": "945 440 3871",
+            "ext": ""
+          },
+          {
+            "who": "CP office",
+            "code": "+91",
+            "number": "522 232 4954",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-10-08T21:05:25Z",
+      "updatedAt": "2026-10-08T21:05:25Z"
     }
   ]
 }
