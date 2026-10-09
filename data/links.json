@@ -12929,6 +12929,55 @@
       "postToUpdates": true,
       "createdAt": "2026-10-08T21:05:25Z",
       "updatedAt": "2026-10-08T21:06:40Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "justice-for-bonnie-and-clyde",
+      "slug": "justice-for-bonnie-and-clyde-20261009",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice For Bonnie And Clyde",
+      "mailtoSubject": "Accountability For Bonnie And Clyde - October 5, 2024 Shooting, Pitt County",
+      "summary": "",
+      "description": "",
+      "descriptionLong": "",
+      "mailtoBody": "To whom it may concern,\n\nOn October 5, 2024, at 6038 Clarks Neck Road in Pitt County, Trooper Justin Maness shot and killed Bonnie and Clyde, two trained Belgian Malinois belonging to Lydia Nikac. The dogs were holding a man who had broken into her vehicle, and she had called law enforcement for help.\n\nNikac asked the trooper to stay off her property. The dogs did not approach him until he walked onto it. The scene was loud and chaotic, and any warning the trooper gave was likely unheard. The owner and her neighbors report that multiple shots were fired, including while the dogs were moving away from him.\n\nThe dash camera footage shows the trooper approaching the property and stating that he would shoot if a dog came toward him. The shots themselves fall outside the camera's view. The trooper was wearing a body-worn camera, yet there is allegedly no body camera footage of the shooting. Separate footage allegedly shows officers picking up shell casings from the ground with their bare hands, raising serious questions about how the scene and its physical evidence were handled.\n\nTwo years later, there has been no public accounting of this shooting. This week, the North Carolina Court of Appeals upheld an order restricting public release of the recordings.\n\nI demand that the North Carolina State Highway Patrol:\n\n1. Conduct a full Professional Standards review of this shooting as a use-of-force incident, including the number of rounds fired, the direction of travel of each dog when shot, and whether the trooper's entry onto the property provoked the encounter.\n2. Explain publicly why no body-worn camera footage of the shooting exists, and preserve all recordings, device logs and evidence from the scene.\n3. Investigate the handling of physical evidence at the scene, including the collection of shell casings, and refer any evidence-handling misconduct for criminal review.\n4. Support the full, court-authorized public release of all recordings of the incident.\n5. Publish the Patrol's policy governing the use of lethal force against animals, and require canine-encounter and non-lethal response training for all troopers.\n6. Issue a public statement on this incident and release the findings of any review in full, with updates sent to contact@hallieforanimals.org\n\nBonnie and Clyde were shot on their own property while helping their owner detain a suspect.\n\nVideo evidence: https://drive.google.com/file/d/1TY3TOPwzqXisfO4H9E7LV1G9shzHc_DN/view?usp=sharing\n\nSincerely,",
+      "recipients": [
+        "Kandie.Smith@ncleg.gov",
+        "Gloristine.Brown@ncleg.gov",
+        "Timothy.Reeder@ncleg.gov",
+        "Danny.Britt@ncleg.gov",
+        "freddy.johnson@ncshp.gov",
+        "ashley.rice@ncshp.gov"
+      ],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1TY3TOPwzqXisfO4H9E7LV1G9shzHc_DN/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-bonnie-and-clyde-20261009",
+      "caption": "",
+      "captionBuilder": {
+        "type": "",
+        "subtype": "empty",
+        "targets": "",
+        "state": "",
+        "city": "",
+        "country": "",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-10-09T22:55:30Z",
+      "updatedAt": "2026-10-09T22:55:30Z"
     }
   ]
 }
