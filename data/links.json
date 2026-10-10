@@ -12978,6 +12978,61 @@
       "postToUpdates": true,
       "createdAt": "2026-10-09T22:55:30Z",
       "updatedAt": "2026-10-09T22:55:30Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "justice-for-the-aguirre-spring-dog",
+      "slug": "justice-for-the-aguirre-spring-dog-20261010",
+      "status": "recent",
+      "role": "original",
+      "title": "Justice For The Aguirre Spring Dog",
+      "mailtoSubject": "",
+      "summary": "",
+      "description": "𝗖𝗮𝗹𝗹 𝗧𝗵𝗲 𝗕𝘂𝗿𝗲𝗮𝘂 𝗼𝗳 𝗟𝗮𝗻𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 & 𝗧𝗵𝗲 𝗗𝗼ñ𝗮 𝗔𝗻𝗮 𝗖𝗼𝘂𝗻𝘁𝘆 𝗦𝗵𝗲𝗿𝗶𝗳𝗳❗️\n\nCall:\nBureau of Land Management: +1 800 637 9152\nDoña Ana County non-emergency dispatch: +1 575 526 0795\n\nLocation: Site 27, Aguirre Spring Campground, New Mexico.\n\nA dog was left alone at a campsite at Aguirre Spring Campground in New Mexico. No water, in the heat, crying and barking for hours while the campers went off for the day. Call BLM dispatch and Doña Ana County dispatch and demand an immediate welfare check and investigation. Justice For The Aguirre Spring Dog.\n\nThis information is shared for reporting to the authorities only. Vigilante action is not supported or encouraged in any form. Let law enforcement do its job.\n\n#newmexico #lascruces #animallover",
+      "descriptionLong": "𝗖𝗮𝗹𝗹 𝗧𝗵𝗲 𝗕𝘂𝗿𝗲𝗮𝘂 𝗼𝗳 𝗟𝗮𝗻𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 & 𝗧𝗵𝗲 𝗗𝗼ñ𝗮 𝗔𝗻𝗮 𝗖𝗼𝘂𝗻𝘁𝘆 𝗦𝗵𝗲𝗿𝗶𝗳𝗳❗️\n\nCall:\nBureau of Land Management: +1 800 637 9152\nDoña Ana County non-emergency dispatch: +1 575 526 0795\n\nLocation: Site 27, Aguirre Spring Campground, New Mexico.\n\nA dog was left alone at a campsite at Aguirre Spring Campground in New Mexico. No water, in the heat, crying and barking for hours while the campers went off for the day. Call BLM dispatch and Doña Ana County dispatch and demand an immediate welfare check and investigation. Justice For The Aguirre Spring Dog.\n\nThis information is shared for reporting to the authorities only. Vigilante action is not supported or encouraged in any form. Let law enforcement do its job.\n\n#newmexico #lascruces #animallover",
+      "mailtoBody": "",
+      "recipients": [],
+      "phones": [],
+      "callScript": "I'm calling to report a dog left alone without water at Site 27, Aguirre Spring Campground, on BLM land east of Las Cruces, crying and barking for hours in the heat while the campers are away. I'm asking for a ranger or animal control officer to do an immediate welfare check before the campers leave today, make sure the dog gets water and shade, and investigate the people responsible under New Mexico's animal cruelty law.",
+      "videoEmbedUrl": "https://drive.google.com/file/d/1VQW29msJrfU8GN7yzEjyb26s7FQeifG2/preview",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/justice-for-the-aguirre-spring-dog-20261010",
+      "caption": "𝗖𝗮𝗹𝗹 𝗧𝗵𝗲 𝗕𝘂𝗿𝗲𝗮𝘂 𝗼𝗳 𝗟𝗮𝗻𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 & 𝗧𝗵𝗲 𝗗𝗼ñ𝗮 𝗔𝗻𝗮 𝗖𝗼𝘂𝗻𝘁𝘆 𝗦𝗵𝗲𝗿𝗶𝗳𝗳❗️\n\nCall:\nBureau of Land Management: +1 800 637 9152\nDoña Ana County non-emergency dispatch: +1 575 526 0795\n\nLocation: Site 27, Aguirre Spring Campground, New Mexico.\n\nA dog was left alone at a campsite at Aguirre Spring Campground in New Mexico. No water, in the heat, crying and barking for hours while the campers went off for the day. Call BLM dispatch and Doña Ana County dispatch and demand an immediate welfare check and investigation. Justice For The Aguirre Spring Dog.\n\nThis information is shared for reporting to the authorities only. Vigilante action is not supported or encouraged in any form. Let law enforcement do its job.\n\n#newmexico #lascruces #animallover",
+      "captionBuilder": {
+        "type": "cta",
+        "subtype": "empty",
+        "targets": "Bureau of Land Management",
+        "state": "New Mexico",
+        "city": "Las Cruces",
+        "country": "United States",
+        "dial": "+1",
+        "phones": [
+          {
+            "who": "Bureau of Land Management",
+            "code": "+1",
+            "number": "800 637 9152",
+            "ext": ""
+          },
+          {
+            "who": "Doña Ana County Sheriff",
+            "code": "+1",
+            "number": "575 526 0795",
+            "ext": ""
+          }
+        ]
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-10-10T22:57:08Z",
+      "updatedAt": "2026-10-10T22:57:08Z"
     }
   ]
 }
