@@ -12941,7 +12941,7 @@
       "status": "recent",
       "role": "original",
       "title": "Justice For Bonnie And Clyde",
-      "mailtoSubject": "Accountability For Bonnie And Clyde - October 5, 2024 Shooting, Pitt County",
+      "mailtoSubject": "Request for Accountability: NCSHP Trooper Incident, Oct 2024",
       "summary": "",
       "description": "",
       "descriptionLong": "",
@@ -12966,7 +12966,7 @@
         "targets": "",
         "state": "",
         "city": "",
-        "country": "",
+        "country": "United States",
         "dial": "",
         "phones": []
       },
@@ -12977,7 +12977,7 @@
       "hidden": false,
       "postToUpdates": true,
       "createdAt": "2026-10-09T22:55:30Z",
-      "updatedAt": "2026-10-09T22:55:30Z"
+      "updatedAt": "2026-10-12T19:59:30Z"
     },
     {
       "ctaType": "email",
