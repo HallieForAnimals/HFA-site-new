@@ -13950,6 +13950,52 @@
       "postToUpdates": true,
       "createdAt": "2026-11-04T20:41:26Z",
       "updatedAt": "2026-11-04T20:41:26Z"
+    },
+    {
+      "ctaType": "email",
+      "updateIncludeEmail": false,
+      "updateSummary": "",
+      "updateDate": "",
+      "updateStatus": "",
+      "caseId": "china-meat-trade",
+      "slug": "stop-the-dog--cat-meat-trade-in-china-20261107",
+      "status": "recent",
+      "role": "original",
+      "title": "Stop The Dog & Cat Meat Trade in China",
+      "mailtoSubject": "结束中国的狗肉贸易/End the Dog Meat Trade in China",
+      "summary": "",
+      "description": "",
+      "descriptionLong": "",
+      "mailtoBody": "致相关各方：\n\n2020年，农业农村部将犬类排除在《国家畜禽遗传资源名录》之外，并明确指出犬类属于伴侣动物，而非牲畜。同年，深圳和珠海相继禁止食用狗肉。中国已就犬类的地位表态，但法律尚未跟上。\n\n这一贸易仍在大规模进行，据估计每年有1000万只狗被杀害。该行业大多游离于法律之外。目前没有针对狗的法定检疫或屠宰检验制度。许多狗是被盗的家庭宠物，它们被装在拥挤的笼子里长途运输，最终在无证屠宰场被杀害。这不仅构成公共卫生风险（包括狂犬病的传播），更是一场动物福利危机，且这种行为公然违背了政府自身的立场。\n\n我呼吁中国政府：\n\n1：颁布全国性的法律，禁止屠宰、销售和食用狗肉，将深圳和珠海的先例推广至全国。\n2：在法律中正式规定，狗是伴侣动物，而非牲畜。\n3：立即执行现行的动物防疫和食品安全法律，打击未经检疫认证的犬类运输、屠宰和销售行为，包括在市场、餐馆和路边检查站。\n4：调查并起诉为该贸易提供犬只的盗窃行为。\n5：指示广西（包括玉林）当局在每年6月的节日期间停止犬只屠宰和销售。\n6：发布公开声明，阐明政府关于终止该贸易的立场及时间表。\n7：全面公布执法数据，包括查获、取缔和起诉情况。\n8：将采取行动的最新进展发送至 contact@hallieforanimals.org。\n\n此致，\n\n\n\n\nTo whom it may concern,\n\nIn 2020, the Ministry of Agriculture and Rural Affairs left dogs out of the National Catalogue of Livestock and Poultry Genetic Resources and stated that dogs are companion animals, not livestock. That same year, Shenzhen and Zhuhai banned the consumption of dog meat. China has already said where dogs stand. The law has not caught up.\n\nThe trade continues on a mass scale, with an estimated 10 million dogs killed each year. It runs largely outside the law. There is no legal quarantine or slaughter-inspection system for dogs. Many of the dogs are stolen family pets, transported in overcrowded cages over long distances and killed in unlicensed slaughterhouses. This is a public health risk, including the spread of rabies, as well as a welfare crisis, and it continues in open defiance of the government’s own position.\n\nI call on the Chinese government to:\n\n1: Enact a nationwide legal ban on the slaughter, sale, and consumption of dog meat, extending the Shenzhen and Zhuhai precedent to the whole country.\n2: Formally codify in law that dogs are companion animals, not livestock.\n3: Enforce existing animal epidemic prevention and food safety laws now against the transport, slaughter, and sale of dogs without quarantine certification, including at markets, restaurants, and roadside checkpoints.\n4: Investigate and prosecute dog theft supplying the trade.\n5: Direct authorities in Guangxi, including Yulin, to stop dog slaughter and sale during the annual June festival period.\n6: Issue a public statement setting out the government’s position and timeline for ending the trade.\n7: Publish enforcement data in full, including seizures, closures, and prosecutions.\n8: Send updates on action taken to contact@hallieforanimals.org.\n\nSincerely,",
+      "recipients": [
+        "chinaembpress_us@mfa.gov.cn",
+        "press_uk@mfa.gov.cn",
+        "chinaemb_au@mfa.gov.cn"
+      ],
+      "phones": [],
+      "callScript": "",
+      "videoEmbedUrl": "",
+      "evidenceUrl": "",
+      "shortlinkUrl": "https://go.hallieforanimals.org/t/stop-the-dog--cat-meat-trade-in-china-20261107",
+      "caption": "",
+      "captionBuilder": {
+        "type": "",
+        "subtype": "empty",
+        "targets": "",
+        "state": "",
+        "city": "",
+        "country": "",
+        "dial": "",
+        "phones": []
+      },
+      "nonEmailActionUrl": "",
+      "nonEmailActionText": "",
+      "actionUrl": "",
+      "actionText": "",
+      "hidden": false,
+      "postToUpdates": true,
+      "createdAt": "2026-11-07T00:53:13Z",
+      "updatedAt": "2026-11-07T00:53:13Z"
     }
   ]
 }
